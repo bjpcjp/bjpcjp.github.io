@@ -1,305 +1,305 @@
 - title: how to build your own
   url: https://blog.engineyard.com/how-to-build-your-own-gem-in-ruby
-  category: Rubygems
+  tags: rubygems
   pic:
   source: engine yard
 
 - title: rubygems dot org 
   url: https://rubygems.org/
-  category: Rubygems
+  tags: rubygems
   pic:
   source: Rubygems.org 
 
 - title: ruby toolbox
   url: https://www.ruby-toolbox.com/
-  category: Rubygems
+  tags: rubygems
   pic:
   source: Ruby Toolbox
   
 - title: Getting Started
   url: https://guides.rubyonrails.org/getting_started.html
-  category: Tutorials & Resources
+  tags: tutorials & resources
 
 - title: Railscasts
   url: http://railscasts.com/
-  category: Tutorials & Resources
+  tags: tutorials & resources
 
 - title: Hartl Rails Tutorial
   url: https://www.railstutorial.org/book
-  category: Tutorials & Resources
+  tags: tutorials & resources
 
 - title: Awesome Ruby (GitHub)
   url: https://github.com/markets/awesome-ruby
-  category: Tutorials & Resources
+  tags: tutorials & resources
 
 - title: Gems (Ruby Toolbox)
   url: https://www.ruby-toolbox.com/categories
-  category: Tutorials & Resources
+  tags: tutorials & resources
 
 - title: Dev.to posts
   url: https://dev.to/search?q=rails
-  category: Tutorials & Resources
+  tags: tutorials & resources
 
 
 - title: Attributes
   url: https://guides.rubyonrails.org/active_model_basics.html#attribute-methods
-  category: Active Model
+  tags: active model
 
 - title: Callbacks
   url: https://guides.rubyonrails.org/active_model_basics.html#callbacks
-  category: Active Model
+  tags: active model
 
 - title: Conversions
   url: https://guides.rubyonrails.org/active_model_basics.html#conversion
-  category: Active Model
+  tags: active model
 
 - title: Dirty
   url: https://guides.rubyonrails.org/active_model_basics.html#dirty
-  category: Active Model
+  tags: active model
 
 - title: Validations
   url: https://guides.rubyonrails.org/active_model_basics.html#validations
-  category: Active Model
+  tags: active model
 
 - title: Naming & Routing
   url: https://guides.rubyonrails.org/active_model_basics.html#naming
-  category: Active Model
+  tags: active model
 
 - title: Models
   url: https://guides.rubyonrails.org/active_model_basics.html#model
-  category: Active Model
+  tags: active model
 
 - title: Serialization
   url: https://guides.rubyonrails.org/active_model_basics.html#serialization
-  category: Active Model
+  tags: active model
 
 - title: Translation
   url: https://guides.rubyonrails.org/active_model_basics.html#translation
-  category: Active Model
+  tags: active model
 
 - title: Lint Tests
   url: https://guides.rubyonrails.org/active_model_basics.html#lint-tests
-  category: Active Model
+  tags: active model
 
 - title: Secure Password
   url: https://guides.rubyonrails.org/active_model_basics.html#securepassword
-  category: Active Model
+  tags: active model
 
 
 
 
 - title: Naming
   url: https://guides.rubyonrails.org/active_record_basics.html#naming-conventions
-  category: Active Record
+  tags: active record
 
 - title: Schemas
   url: https://guides.rubyonrails.org/active_record_basics.html#schema-conventions
-  category: Active Record
+  tags: active record
 
 - title: Creating
   url: https://guides.rubyonrails.org/active_record_basics.html#creating-active-record-models
-  category: Active Record
+  tags: active record
 
 - title: Naming Overrides
   url: https://guides.rubyonrails.org/active_record_basics.html#overriding-the-naming-conventions
-  category: Active Record
+  tags: active record
 
 - title: Create
   url: https://guides.rubyonrails.org/active_record_basics.html#create
-  category: Active Record
+  tags: active record
 
 - title: Read
   url: https://guides.rubyonrails.org/active_record_basics.html#read
-  category: Active Record
+  tags: active record
 
 - title: Update
   url: https://guides.rubyonrails.org/active_record_basics.html#update
-  category: Active Record
+  tags: active record
 
 - title: Delete
   url: https://guides.rubyonrails.org/active_record_basics.html#delete
-  category: Active Record
+  tags: active record
 
 - title: Soft Delete
   url: https://www.ruby-toolbox.com/categories/Active_Record_Soft_Delete
-  category: Active Record
+  tags: active record
 
 - title: User Stamping
   url: https://www.ruby-toolbox.com/categories/Active_Record_User_Stamping
-  category: Active Record
+  tags: active record
 
 - title: Tagging
   url: https://www.ruby-toolbox.com/categories/rails_tagging
-  category: Active Record
+  tags: active record
 
 - title: Bit Masks
   url: https://www.ruby-toolbox.com/categories/Active_Record_Bit_Fields
-  category: Active Record
+  tags: active record
 
 - title: Default Values
   url: https://www.ruby-toolbox.com/categories/Active_Record_Default_Values
-  category: Active Record
+  tags: active record
 
 - title: Enumerations
   url: https://www.ruby-toolbox.com/categories/Active_Record_Enumerations
-  category: Active Record
+  tags: active record
 
 - title: Index Assistants
   url: https://www.ruby-toolbox.com/categories/Active_Record_Index_Assistants
-  category: Active Record
+  tags: active record
 
 - title: Named Scopes
   url: https://www.ruby-toolbox.com/categories/Active_Record_Named_Scopes
-  category: Active Record
+  tags: active record
 
 - title: Nested Records
   url: https://www.ruby-toolbox.com/categories/Active_Record_Nesting
-  category: Active Record
+  tags: active record
 
 - title: Sharding
   url: https://www.ruby-toolbox.com/categories/Active_Record_Sharding
-  category: Active Record
+  tags: active record
 
 - title: Lists/Sortables
   url: https://www.ruby-toolbox.com/categories/Active_Record_Sortables
-  category: Active Record
+  tags: active record
 
 - title: Value Cleanup
   url: https://www.ruby-toolbox.com/categories/Active_Record_Value_Cleanup
-  category: Active Record
+  tags: active record
 
 - title: Versioning
   url: https://www.ruby-toolbox.com/categories/Active_Record_Versioning
-  category: Active Record
+  tags: active record
 
 - title: Pagination
   url: https://www.ruby-toolbox.com/categories/pagination
-  category: Active Record
+  tags: active record
 
 
 
 
 - title: Overview
   url: https://guides.rubyonrails.org/active_record_validations.html#validations-overview
-  category: Validations
+  tags: validations
 
 - title: Helpers
   url: https://guides.rubyonrails.org/active_record_validations.html#validation-helpers
-  category: Validations
+  tags: validations
 
 - title: Options
   url: https://guides.rubyonrails.org/active_record_validations.html#common-validation-options
-  category: Validations
+  tags: validations
 
 - title: Strict Validation
   url: https://guides.rubyonrails.org/active_record_validations.html#strict-validations
-  category: Validations
+  tags: validations
 
 - title: Conditional
   url: https://guides.rubyonrails.org/active_record_validations.html#conditional-validation
-  category: Validations
+  tags: validations
 
 - title: Custom
   url: https://guides.rubyonrails.org/active_record_validations.html#performing-custom-validations
-  category: Validations
+  tags: validations
 
 - title: Errors
   url: https://guides.rubyonrails.org/active_record_validations.html#working-with-validation-errors
-  category: Validations
+  tags: validations
 
 - title: Errors in Views
   url: https://guides.rubyonrails.org/active_record_validations.html#displaying-validation-errors-in-views
-  category: Validations
+  tags: validations
 
 
 
 
 - title: Registration
   url: https://guides.rubyonrails.org/active_record_callbacks.html#callback-registration
-  category: Callbacks (Hooks)
+  tags: callbacks (hooks)
 
 - title: Std Callbacks
   url: https://guides.rubyonrails.org/active_record_callbacks.html#available-callbacks
-  category: Callbacks (Hooks)
+  tags: callbacks (hooks)
 
 - title: Running
   url: https://guides.rubyonrails.org/active_record_callbacks.html#running-callbacks
-  category: Callbacks (Hooks)
+  tags: callbacks (hooks)
 
 - title: Skipping
   url: https://guides.rubyonrails.org/active_record_callbacks.html#skipping-callbacks
-  category: Callbacks (Hooks)
+  tags: callbacks (hooks)
 
 - title: Halting
   url: https://guides.rubyonrails.org/active_record_callbacks.html#halting-execution
-  category: Callbacks (Hooks)
+  tags: callbacks (hooks)
 
 - title: Relational
   url: https://guides.rubyonrails.org/active_record_callbacks.html#relational-callbacks
-  category: Callbacks (Hooks)
+  tags: callbacks (hooks)
 
 - title: Conditional
   url: https://guides.rubyonrails.org/active_record_callbacks.html#conditional-callbacks
-  category: Callbacks (Hooks)
+  tags: callbacks (hooks)
 
 - title: Callback Classes
   url: https://guides.rubyonrails.org/active_record_callbacks.html#callback-classes
-  category: Callbacks (Hooks)
+  tags: callbacks (hooks)
 
 - title: Transaction Callbacks
   url: https://guides.rubyonrails.org/active_record_callbacks.html#transaction-callbacks
-  category: Callbacks (Hooks)
+  tags: callbacks (hooks)
 
 
 
 
 - title: Purpose
   url: https://guides.rubyonrails.org/association_basics.html#why-associations-questionmark
-  category: Associations
+  tags: associations
 
 - title: belongs_to
   url: https://guides.rubyonrails.org/association_basics.html#the-belongs-to-association
-  category: Associations
+  tags: associations
 
 - title: has_one
   url: https://guides.rubyonrails.org/association_basics.html#the-has-one-association
-  category: Associations
+  tags: associations
 
 - title: has_many
   url: https://guides.rubyonrails.org/association_basics.html#the-has-many-association
-  category: Associations
+  tags: associations
 
 - title: has_many :through
   url: https://guides.rubyonrails.org/association_basics.html#the-has-many-through-association
-  category: Associations
+  tags: associations
 
 - title: has_one :through
   url: https://guides.rubyonrails.org/association_basics.html#the-has-one-through-association
-  category: Associations
+  tags: associations
 
 - title: HABTM
   url: https://guides.rubyonrails.org/association_basics.html#the-has-and-belongs-to-many-association
-  category: Associations
+  tags: associations
 
 - title: belongs_to vs has_one
   url: https://guides.rubyonrails.org/association_basics.html#choosing-between-belongs-to-and-has-one
-  category: Associations
+  tags: associations
 
 - title: polymorphics
   url: https://guides.rubyonrails.org/association_basics.html#polymorphic-associations
-  category: Associations
+  tags: associations
 
 - title: self-joins
   url: https://guides.rubyonrails.org/association_basics.html#self-joins
-  category: Associations
+  tags: associations
 
 - title: tips
   url: https://guides.rubyonrails.org/association_basics.html#tips-tricks-and-warnings
-  category: Associations
+  tags: associations
 
 - title: detailed reference
   url: https://guides.rubyonrails.org/association_basics.html#detailed-association-reference
-  category: Associations
+  tags: associations
 
 - title: single-table inheritance
   url: https://guides.rubyonrails.org/association_basics.html#single-table-inheritance
@@ -308,268 +308,268 @@
 
 - title: get (single object)
   url: https://guides.rubyonrails.org/active_record_querying.html#retrieving-a-single-object
-  category: DB Queries
+  tags: db queries
 
 - title: get (multiple objects)
   url: https://guides.rubyonrails.org/active_record_querying.html#retrieving-multiple-objects-in-batches
-  category: DB Queries
+  tags: db queries
 
 - title: conditions
   url: https://guides.rubyonrails.org/active_record_querying.html#conditions
-  category: DB Queries
+  tags: db queries
 
 - title: ordering
   url: https://guides.rubyonrails.org/active_record_querying.html#ordering
-  category: DB Queries
+  tags: db queries
 
 - title: specific fields
   url: https://guides.rubyonrails.org/active_record_querying.html#selecting-specific-fields
-  category: DB Queries
+  tags: db queries
 
 - title: limit, offset
   url: https://guides.rubyonrails.org/active_record_querying.html#limit-and-offset
-  category: DB Queries
+  tags: db queries
 
 - title: grouping
   url: https://guides.rubyonrails.org/active_record_querying.html#group
-  category: DB Queries
+  tags: db queries
 
 - title: having
   url: https://guides.rubyonrails.org/active_record_querying.html#having
-  category: DB Queries
+  tags: db queries
 
 - title: overriding conditions
   url: https://guides.rubyonrails.org/active_record_querying.html#overriding-conditions
-  category: DB Queries
+  tags: db queries
 
 - title: null relations
   url: https://guides.rubyonrails.org/active_record_querying.html#null-relation
-  category: DB Queries
+  tags: db queries
 
 - title: read-only records
   url: https://guides.rubyonrails.org/active_record_querying.html#readonly-objects
-  category: DB Queries
+  tags: db queries
 
 - title: record locking
   url: https://guides.rubyonrails.org/active_record_querying.html#locking-records-for-update
-  category: DB Queries
+  tags: db queries
 
 - title: join tables
   url: https://guides.rubyonrails.org/active_record_querying.html#joining-tables
-  category: DB Queries
+  tags: db queries
 
 - title: eager loading
   url: https://guides.rubyonrails.org/active_record_querying.html#eager-loading-associations
-  category: DB Queries
+  tags: db queries
 
 - title: scopes
   url: https://guides.rubyonrails.org/active_record_querying.html#scopes
-  category: DB Queries
+  tags: db queries
 
 - title: dynamic finders
   url: https://guides.rubyonrails.org/active_record_querying.html#dynamic-finders
-  category: DB Queries
+  tags: db queries
 
 - title: enums
   url: https://guides.rubyonrails.org/active_record_querying.html#enums
-  category: DB Queries
+  tags: db queries
 
 - title: method chains
   url: https://guides.rubyonrails.org/active_record_querying.html#understanding-the-method-chaining
-  category: DB Queries
+  tags: db queries
 
 - title: find-or-build
   url: https://guides.rubyonrails.org/active_record_querying.html#find-or-build-a-new-object
-  category: DB Queries
+  tags: db queries
 
 - title: find with sql
   url: https://guides.rubyonrails.org/active_record_querying.html#finding-by-sql
-  category: DB Queries
+  tags: db queries
 
 - title: existence
   url: https://guides.rubyonrails.org/active_record_querying.html#existence-of-objects
-  category: DB Queries
+  tags: db queries
 
 - title: calculations
   url: https://guides.rubyonrails.org/active_record_querying.html#calculations
-  category: DB Queries
+  tags: db queries
 
 - title: explain
   url: https://guides.rubyonrails.org/active_record_querying.html#running-explain
-  category: DB Queries
+  tags: db queries
 
 
 
 
 - title: Creating
   url: https://guides.rubyonrails.org/active_record_migrations.html#creating-a-migration
-  category: DB Schema Migrations
+  tags: db schema migrations
 
 - title: Formats
   url: https://guides.rubyonrails.org/active_record_migrations.html#writing-a-migration
-  category: DB Schema Migrations
+  tags: db schema migrations
 
 - title: Running
   url: https://guides.rubyonrails.org/active_record_migrations.html#running-migrations
-  category: DB Schema Migrations
+  tags: db schema migrations
 
 - title: Changing Existing Migrations
   url: https://guides.rubyonrails.org/active_record_migrations.html#changing-existing-migrations
-  category: DB Schema Migrations
+  tags: db schema migrations
 
 - title: Schema Dumps
   url: https://guides.rubyonrails.org/active_record_migrations.html#schema-dumping-and-you
-  category: DB Schema Migrations
+  tags: db schema migrations
 
 - title: Referential Integrity
   url: https://guides.rubyonrails.org/active_record_migrations.html#active-record-and-referential-integrity
-  category: DB Schema Migrations
+  tags: db schema migrations
 
 - title: Seed Data
   url: https://guides.rubyonrails.org/active_record_migrations.html#migrations-and-seed-data
-  category: DB Schema Migrations
+  tags: db schema migrations
 
 
 
 
 - title: DB Adapters
   url: https://www.ruby-toolbox.com/categories/Active_Record_DB_Adapters
-  category: DB Options
+  tags: db options
 
 - title: Standalone Migrations
   url: https://www.ruby-toolbox.com/categories/ActiveRecord_without_Rails
-  category: DB Options
+  tags: db options
 
 - title: Amazon Dynamo
   url: https://www.ruby-toolbox.com/categories/Amazon_DynamoDB
-  category: DB Options
+  tags: db options
 
 - title: Connection Pooling
   url: https://www.ruby-toolbox.com/categories/Connection_Pooling
-  category: DB Options
+  tags: db options
 
 - title: CouchDB
   url: https://www.ruby-toolbox.com/categories/couchdb_clients
-  category: DB Options
+  tags: db options
 
 - title: CSV Parsers
   url: https://www.ruby-toolbox.com/categories/CSV_Parsers
-  category: DB Options
+  tags: db options
 
 - title: Data Migrations
   url: https://www.ruby-toolbox.com/categories/Data_Migration
-  category: DB Options
+  tags: db options
 
 - title: MongoDB
   url: https://www.ruby-toolbox.com/categories/mongodb_clients
-  category: DB Options
+  tags: db options
 
 - title: Rails ActiveRecord
   url: https://www.ruby-toolbox.com/categories/orm
-  category: DB Options
+  tags: db options
 
 - title: Redis
   url: https://www.ruby-toolbox.com/categories/Redis
-  category: DB Options
+  tags: db options
 
 - title: Postgres
   url: https://www.ruby-toolbox.com/projects/pg
-  category: DB Options
+  tags: db options
 
 - title: Sqlite3
   url: https://www.ruby-toolbox.com/projects/sqlite3
-  category: DB Options
+  tags: db options
 
 - title: Mysql2
   url: https://www.ruby-toolbox.com/projects/mysql2
-  category: DB Options
+  tags: db options
 
 
 
 
 - title: Setup
   url: https://guides.rubyonrails.org/active_storage_overview.html#setup
-  category: Active Storage
+  tags: active storage
 
 - title: Attaching
   url: https://guides.rubyonrails.org/active_storage_overview.html#attaching-files-to-records
-  category: Active Storage
+  tags: active storage
 
 - title: Removing
   url: https://guides.rubyonrails.org/active_storage_overview.html#removing-files
-  category: Active Storage
+  tags: active storage
 
 - title: Linking
   url: https://guides.rubyonrails.org/active_storage_overview.html#linking-to-files
-  category: Active Storage
+  tags: active storage
 
 - title: Downloading
   url: https://guides.rubyonrails.org/active_storage_overview.html#downloading-files
-  category: Active Storage
+  tags: active storage
 
 - title: Transforming Images
   url: https://guides.rubyonrails.org/active_storage_overview.html#transforming-images
-  category: Active Storage
+  tags: active storage
 
 - title: Previewing
   url: https://guides.rubyonrails.org/active_storage_overview.html#previewing-files
-  category: Active Storage
+  tags: active storage
 
 - title: Direct Uploads
   url: https://guides.rubyonrails.org/active_storage_overview.html#direct-uploads
-  category: Active Storage
+  tags: active storage
 
 - title: System Tests
   url: https://guides.rubyonrails.org/active_storage_overview.html#discarding-files-stored-during-system-tests
-  category: Active Storage
+  tags: active storage
 
 - title: Other Cloud Svcs
   url: https://guides.rubyonrails.org/active_storage_overview.html#implementing-support-for-other-cloud-services
-  category: Active Storage
+  tags: active storage
 
 
 - title: Paperclip
   url: https://www.ruby-toolbox.com/projects/paperclip
-  category: Active Storage
+  tags: active storage
 
 - title: CarrierWave
   url: https://www.ruby-toolbox.com/projects/carrierwave
-  category: Active Storage
+  tags: active storage
 
 
 
 
 - title: Octokit (GitHub)
   url: https://www.ruby-toolbox.com/projects/octokit
-  category: API Clients
+  tags: api clients
 
 - title: Twitter
   url: https://www.ruby-toolbox.com/projects/twitter
-  category: API Clients
+  tags: api clients
 
 - title: Koala (Facebook)
   url: https://www.ruby-toolbox.com/projects/koala
-  category: API Clients
+  tags: api clients
 
 - title: Gibbon (Mailchimp)
   url: https://www.ruby-toolbox.com/projects/gibbon
-  category: API Clients
+  tags: api clients
 
 - title: LinkedIn
   url: https://www.ruby-toolbox.com/projects/linkedin
-  category: API Clients
+  tags: api clients
 
 - title: Tweetstream
   url: https://www.ruby-toolbox.com/projects/tweetstream
-  category: API Clients
+  tags: api clients
 
 - title: Bitly
   url: https://www.ruby-toolbox.com/projects/bitly
-  category: API Clients
+  tags: api clients
 
 - title: Vacuum (Amazon Product Advertising)
   url: https://www.ruby-toolbox.com/projects/vacuum
-  category: API Clients
+  tags: api clients
 
 
 
@@ -577,1050 +577,1050 @@
 
 - title: Templates
   url: https://guides.rubyonrails.org/action_view_overview.html#templates
-  category: HTML Helpers
+  tags: html helpers
 
 - title: Partials
   url: https://guides.rubyonrails.org/action_view_overview.html#partials
-  category: HTML Helpers
+  tags: html helpers
 
 - title: Layouts
   url: https://guides.rubyonrails.org/action_view_overview.html#layouts
-  category: HTML Helpers
+  tags: html helpers
 
 - title: Partial Layouts
   url: https://guides.rubyonrails.org/action_view_overview.html#partial-layouts
-  category: HTML Helpers
+  tags: html helpers
 
 - title: View Paths
   url: https://guides.rubyonrails.org/action_view_overview.html#view-paths
-  category: HTML Helpers
+  tags: html helpers
 
 - title: Asset Tags
   url: https://guides.rubyonrails.org/action_view_overview.html#assettaghelper
-  category: HTML Helpers
+  tags: html helpers
 
 - title: Atom Feeds
   url: https://guides.rubyonrails.org/action_view_overview.html#atomfeedhelper
-  category: HTML Helpers
+  tags: html helpers
 
 - title: Benchmark Helper
   url: https://guides.rubyonrails.org/action_view_overview.html#benchmarkhelper
-  category: HTML Helpers
+  tags: html helpers
 
 - title: Cache Helper
   url: https://guides.rubyonrails.org/action_view_overview.html#cachehelper
-  category: HTML Helpers
+  tags: html helpers
 
 - title: Capture Helper
   url: https://guides.rubyonrails.org/action_view_overview.html#capturehelper
-  category: HTML Helpers
+  tags: html helpers
 
 - title: Date Helpers
   url: https://guides.rubyonrails.org/action_view_overview.html#datehelper
-  category: HTML Helpers
+  tags: html helpers
 
 - title: debug(content)
   url: https://guides.rubyonrails.org/action_view_overview.html#debughelper
-  category: HTML Helpers
+  tags: html helpers
 
 
 
 
 - title: render
   url: https://guides.rubyonrails.org/layouts_and_rendering.html#using-render
-  category: Layouts & Rendering
+  tags: layouts & rendering
 
 - title: redirect_to
   url: https://guides.rubyonrails.org/layouts_and_rendering.html#using-redirect-to
-  category: Layouts & Rendering
+  tags: layouts & rendering
 
 - title: head
   url: https://guides.rubyonrails.org/layouts_and_rendering.html#using-head-to-build-header-only-responses
-  category: Layouts & Rendering
+  tags: layouts & rendering
 
 - title: Asset Tags</a>
   url: https://guides.rubyonrails.org/layouts_and_rendering.html#asset-tag-helpers
-  category: Layouts & Rendering
+  tags: layouts & rendering
 
 - title: yield
   url: https://guides.rubyonrails.org/layouts_and_rendering.html#understanding-yield
-  category: Layouts & Rendering
+  tags: layouts & rendering
 
 - title: content_for
   url: https://guides.rubyonrails.org/layouts_and_rendering.html#using-the-content-for-method
-  category: Layouts & Rendering
+  tags: layouts & rendering
 
 - title: partials
   url: https://guides.rubyonrails.org/layouts_and_rendering.html#using-partials
-  category: Layouts & Rendering
+  tags: layouts & rendering
 
 - title: nested layouts
   url: https://guides.rubyonrails.org/layouts_and_rendering.html#using-nested-layouts
-  category: Layouts & Rendering
+  tags: layouts & rendering
 
 
 
 
 - title: Basics
   url: https://guides.rubyonrails.org/form_helpers.html#dealing-with-basic-forms
-  category: HTML forms
+  tags: html forms
 
 - title: Model Objects
   url: https://guides.rubyonrails.org/form_helpers.html#dealing-with-model-objects
-  category: HTML forms
+  tags: html forms
 
 - title: Option Selectors
   url: https://guides.rubyonrails.org/form_helpers.html#making-select-boxes-with-ease
-  category: HTML forms
+  tags: html forms
 
 - title: Date & Time
   url: https://guides.rubyonrails.org/form_helpers.html#using-date-and-time-form-helpers
-  category: HTML forms
+  tags: html forms
 
 - title: File Uploads
   url: https://guides.rubyonrails.org/form_helpers.html#uploading-files
-  category: HTML forms
+  tags: html forms
 
 - title: Custom Forms
   url: https://guides.rubyonrails.org/form_helpers.html#customizing-form-builders
-  category: HTML forms
+  tags: html forms
 
 - title: Parameter Names
   url: https://guides.rubyonrails.org/form_helpers.html#understanding-parameter-naming-conventions
-  category: HTML forms
+  tags: html forms
 
 - title: External Resources
   url: https://guides.rubyonrails.org/form_helpers.html#forms-to-external-resources
-  category: HTML forms
+  tags: html forms
 
 - title: Complex Forms
   url: https://guides.rubyonrails.org/form_helpers.html#building-complex-forms
-  category: HTML forms
+  tags: html forms
 
 
 - title: Form Helpers
   url: https://guides.rubyonrails.org/action_view_overview.html#formhelper
-  category: HTML Helpers
+  tags: html helpers
 
 - title: Form Options
   url: https://guides.rubyonrails.org/action_view_overview.html#formoptionshelper
-  category: HTML Helpers
+  tags: html helpers
 
 - title: Form Tags
   url: https://guides.rubyonrails.org/action_view_overview.html#formtaghelper
-  category: HTML Helpers
+  tags: html helpers
 
 - title: javascript_tag
   url: https://guides.rubyonrails.org/action_view_overview.html#javascripthelper
-  category: HTML Helpers
+  tags: html helpers
 
 - title: Number Helpers
   url: https://guides.rubyonrails.org/action_view_overview.html#numberhelper
-  category: HTML Helpers
+  tags: html helpers
 
 - title: HTML Sanitize Helpers
   url: https://guides.rubyonrails.org/action_view_overview.html#sanitizehelper
-  category: HTML Helpers
+  tags: html helpers
 
 - title: CSRF Helper
   url: https://guides.rubyonrails.org/action_view_overview.html#csrfhelper
-  category: HTML Helpers
+  tags: html helpers
 
 - title: Localized Views
   url: https://guides.rubyonrails.org/action_view_overview.html#localized-views
-  category: HTML Helpers
+  tags: html helpers
 
 
 
 
 - title: Admin UIs
   url: https://www.ruby-toolbox.com/categories/rails_admin_interfaces
-  category: Markup
+  tags: markup
 
 - title: Breadcrumbs
   url: https://www.ruby-toolbox.com/categories/Breadcrumb_Builders
-  category: Markup
+  tags: markup
 
 - title: Processors (Redcarpet, Kramdown)
   url: https://www.ruby-toolbox.com/categories/markup_processors
-  category: Markup
+  tags: markup
 
 - title: Microformats (Prism,..)
   url: https://www.ruby-toolbox.com/categories/microformats
-  category: Markup
+  tags: markup
 
 - title: Syntax Highlighters
   url: https://www.ruby-toolbox.com/categories/syntax_highlighting
-  category: Markup
+  tags: markup
 
 - title: Table Builders
   url: https://www.ruby-toolbox.com/categories/Table_Builders
-  category: Markup
+  tags: markup
 
 - title: Template Engines
   url: https://www.ruby-toolbox.com/categories/template_engines
-  category: Markup
+  tags: markup
 
 - title: Permalinks
   url: https://www.ruby-toolbox.com/categories/rails_permalinks___slugs
-  category: Markup
+  tags: markup
 
 
 
 
 - title: Unobtrusive JS
   url: https://guides.rubyonrails.org/working_with_javascript_in_rails.html#unobtrusive-javascript
-  category: Javascript
+  tags: javascript
 
 - title: Helpers
   url: https://guides.rubyonrails.org/working_with_javascript_in_rails.html#built-in-helpers
-  category: Javascript
+  tags: javascript
 
 - title: Server-Side
   url: https://guides.rubyonrails.org/working_with_javascript_in_rails.html#server-side-concerns
-  category: Javascript
+  tags: javascript
 
 - title: Turbolinks
   url: https://guides.rubyonrails.org/working_with_javascript_in_rails.html#turbolinks
-  category: Javascript
+  tags: javascript
 
 - title: Runtimes
   url: https://www.ruby-toolbox.com/categories/JavaScript_runtimes
-  category: Javascript
+  tags: javascript
 
 - title: Testing
   url: https://www.ruby-toolbox.com/categories/javascript_testing
-  category: Javascript
+  tags: javascript
 
 - title: Packaging
   url: https://www.ruby-toolbox.com/projects/sprockets
-  category: Javascript
+  tags: javascript
 
 - title: Minifiers
   url: https://www.ruby-toolbox.com/projects/uglifier
-  category: Javascript
+  tags: javascript
 
 - title: Coffeescript
   url: https://www.ruby-toolbox.com/projects/coffee-script
-  category: Javascript
+  tags: javascript
 
 - title: Webpacker
   url: https://www.ruby-toolbox.com/projects/webpacker
-  category: Javascript
+  tags: javascript
 
 - title: React-Rails
   url: https://www.ruby-toolbox.com/categories/react_tools
-  category: Javascript
+  tags: javascript
 
 
 - title: Sass
   url: https://www.ruby-toolbox.com/categories/css_with_ruby
-  category: CSS
+  tags: css
 
 - title: Font Face Servers
   url: https://www.ruby-toolbox.com/categories/Font_Face_Servers
-  category: CSS
+  tags: css
 
 - title: Bootstrap, Semantic UI 
   url: https://www.ruby-toolbox.com/categories/web_ui_frameworks
-  category: CSS
+  tags: css
 
 
 
 
 - title: Spreadsheets
   url: https://www.ruby-toolbox.com/categories/reporting
-  category: Graphics, PDFs, Images, ...
+  tags: graphics, pdfs, images
 
 - title: PDFs - Prawn, PDFkit, etc
   url: https://www.ruby-toolbox.com/categories/pdf_generation
-  category: Graphics, PDFs, Images, ...
+  tags: graphics, pdfs, images
 
 - title: PDF Reader
   url: https://www.ruby-toolbox.com/projects/pdf-reader
-  category: Graphics, PDFs, Images, ...
+  tags: graphics, pdfs, images
 
 - title: Charting
   url: https://www.ruby-toolbox.com/projects/chartkick
-  category: Graphics, PDFs, Images, ...
+  tags: graphics, pdfs, images
 
 - title: Images
   url: https://www.ruby-toolbox.com/categories/image_processing
-  category: Graphics, PDFs, Images, ...
+  tags: graphics, pdfs, images
 
 - title: QR Codes</a>
   url: https://www.ruby-toolbox.com/categories/QR_Codes
-  category: Graphics, PDFs, Images, ...
+  tags: graphics, pdfs, images
 
 - title: Visualization
   url: https://www.ruby-toolbox.com/categories/visualizing_data
-  category: Graphics, PDFs, Images, ...
+  tags: graphics, pdfs, images
 
 - title: IRC Bots
   url: https://www.ruby-toolbox.com/categories/irc_bots
-  category: Graphics, PDFs, Images, ...
+  tags: graphics, pdfs, images
 
 - title: OCR Tools</a>
   url: https://www.ruby-toolbox.com/categories/Optical_Character_Recognition
-  category: Graphics, PDFs, Images, ...
+  tags: graphics, pdfs, images
 
 
 - title: ElasticSearch
   url: https://www.ruby-toolbox.com/categories/rails_search
-  category: Search Engines
+  tags: search engines
 
 - title: Searchkick
   url: https://www.ruby-toolbox.com/projects/searchkick
-  category: Search Engines
+  tags: search engines
 
 - title: Sunspot
   url: https://www.ruby-toolbox.com/projects/sunspot
-  category: Search Engines
+  tags: search engines
 
 
 
 
 - title: Spree
   url: https://www.ruby-toolbox.com/projects/spree
-  category: Ecommerce, Payments
+  tags: ecommerce, payments
 
 - title: ActiveMerchant, Stripe
   url: https://www.ruby-toolbox.com/categories/Payments
-  category: Ecommerce, Payments
+  tags: ecommerce, payments
 
 
 
 
 - title: Sending
   url: https://guides.rubyonrails.org/action_mailer_basics.html#sending-emails
-  category: Email
+  tags: email
 
 - title: Receiving
   url: https://guides.rubyonrails.org/action_mailer_basics.html#receiving-emails
-  category: Email
+  tags: email
 
 - title: Callbacks
   url: https://guides.rubyonrails.org/action_mailer_basics.html#action-mailer-callbacks
-  category: Email
+  tags: email
 
 - title: Helpers
   url: https://guides.rubyonrails.org/action_mailer_basics.html#using-action-mailer-helpers
-  category: Email
+  tags: email
 
 - title: Configuration
   url: https://guides.rubyonrails.org/action_mailer_basics.html#action-mailer-configuration
-  category: Email
+  tags: email
 
 - title: Testing
   url: https://guides.rubyonrails.org/action_mailer_basics.html#mailer-testing
-  category: Email
+  tags: email
 
 - title: Intercepting
   url: https://guides.rubyonrails.org/action_mailer_basics.html#intercepting-emails
-  category: Email
+  tags: email
 
 - title: Async Email
   url: https://www.ruby-toolbox.com/categories/Asynchronous_E-Mail
-  category: Email
+  tags: email
 
 - title: Previews
   url: https://www.ruby-toolbox.com/categories/EMail_Fake_Servers
-  category: Email
+  tags: email
 
 - title: Processing
   url: https://www.ruby-toolbox.com/categories/e_mail_processing
-  category: Email
+  tags: email
 
 - title: MS Exchange Client
   url: https://www.ruby-toolbox.com/categories/Exchange_Clients
-  category: Email
+  tags: email
 
 - title: Forum Tools
   url: https://www.ruby-toolbox.com/categories/forum_systems
-  category: Email
+  tags: email
 
 - title: Inline CSS
   url: https://www.ruby-toolbox.com/categories/Inline_CSS_for_E-Mail
-  category: Email
+  tags: email
 
 
 
 
 - title: Overview
   url: https://guides.rubyonrails.org/action_controller_overview.html#what-does-a-controller-do-questionmark
-  category: Controllers
+  tags: controllers
 
 - title: Naming
   url: https://guides.rubyonrails.org/action_controller_overview.html#controller-naming-convention
-  category: Controllers
+  tags: controllers
 
 - title: Methods
   url: https://guides.rubyonrails.org/action_controller_overview.html#methods-and-actions
-  category: Controllers
+  tags: controllers
 
 - title: Parameters
   url: https://guides.rubyonrails.org/action_controller_overview.html#parameters
-  category: Controllers
+  tags: controllers
 
 - title: Sessions
   url: https://guides.rubyonrails.org/action_controller_overview.html#session
-  category: Controllers
+  tags: controllers
 
 - title: Cookies
   url: https://guides.rubyonrails.org/action_controller_overview.html#cookies
-  category: Controllers
+  tags: controllers
 
 - title: XML & JSON
   url: https://guides.rubyonrails.org/action_controller_overview.html#rendering-xml-and-json-data
-  category: Controllers
+  tags: controllers
 
 - title: Filters
   url: https://guides.rubyonrails.org/action_controller_overview.html#filters>Filters
-  category: Controllers
+  tags: controllers
 
 - title: Request Forgery Protection
   url: https://guides.rubyonrails.org/action_controller_overview.html#request-forgery-protection
-  category: Controllers
+  tags: controllers
 
 - title: Requests & Responses
   url: https://guides.rubyonrails.org/action_controller_overview.html#the-request-and-response-objects
-  category: Controllers
+  tags: controllers
 
 - title: HTTP Authentication
   url: https://guides.rubyonrails.org/action_controller_overview.html#http-authentications
-  category: Controllers
+  tags: controllers
 
 - title: Streaming
   url: https://guides.rubyonrails.org/action_controller_overview.html#streaming-and-file-downloads
-  category: Controllers
+  tags: controllers
 
 - title: Log Filters
   url: https://guides.rubyonrails.org/action_controller_overview.html#log-filtering
-  category: Controllers
+  tags: controllers
 
 - title: Rescue (404,500)
   url: https://guides.rubyonrails.org/action_controller_overview.html#rescue
-  category: Controllers
+  tags: controllers
 
 - title: Forcing HTTPS</a>
   url: https://guides.rubyonrails.org/action_controller_overview.html#force-https-protocol
-  category: Controllers
+  tags: controllers
 
 
 
 
 - title: Overview
   url: https://guides.rubyonrails.org/routing.html#the-purpose-of-the-rails-router
-  category: Routing
+  tags: routing
 
 - title: Resource Routing
   url: https://guides.rubyonrails.org/routing.html#resource-routing-the-rails-default
-  category: Routing
+  tags: routing
 
 - title: Resourceful Routes
   url: https://guides.rubyonrails.org/routing.html#non-resourceful-routes
-  category: Routing
+  tags: routing
 
 - title: Custom Resource Routes
   url: https://guides.rubyonrails.org/routing.html#customizing-resourceful-routes
-  category: Routing
+  tags: routing
 
 - title: Listing & Testing
   url: https://guides.rubyonrails.org/routing.html#inspecting-and-testing-routes
-  category: Routing
+  tags: routing
 
 - title: Subdomains
   url: https://www.ruby-toolbox.com/categories/rails_subdomains
-  category: Routing
+  tags: routing
 
 
 
 
 - title: How to Load
   url: https://guides.rubyonrails.org/active_support_core_extensions.html#how-to-load-core-extensions
-  category: Ruby Extensions
+  tags: ruby language extensions
 
 - title: All Objects
   url: https://guides.rubyonrails.org/active_support_core_extensions.html#extensions-to-all-objects
-  category: Ruby Extensions
+  tags: ruby language extensions
 
 - title: Modules
   url: https://guides.rubyonrails.org/active_support_core_extensions.html#extensions-to-module
-  category: Ruby Extensions
+  tags: ruby language extensions
 
 - title: Classes
   url: https://guides.rubyonrails.org/active_support_core_extensions.html#extensions-to-class
-  category: Ruby Extensions
+  tags: ruby language extensions
 
 - title: Strings
   url: https://guides.rubyonrails.org/active_support_core_extensions.html#extensions-to-string
-  category: Ruby Extensions
+  tags: ruby language extensions
 
 - title: Numerics
   url: https://guides.rubyonrails.org/active_support_core_extensions.html#extensions-to-numeric
-  category: Ruby Extensions
+  tags: ruby language extensions
 
 - title: Integers
   url: https://guides.rubyonrails.org/active_support_core_extensions.html#extensions-to-integer
-  category: Ruby Extensions
+  tags: ruby language extensions
 
 - title: Big Decimals
   url: https://guides.rubyonrails.org/active_support_core_extensions.html#extensions-to-bigdecimal
-  category: Ruby Extensions
+  tags: ruby language extensions
 
 - title: Enumerables
   url: https://guides.rubyonrails.org/active_support_core_extensions.html#extensions-to-enumerable
-  category: Ruby Extensions
+  tags: ruby language extensions
 
 - title: Arrays
   url: https://guides.rubyonrails.org/active_support_core_extensions.html#extensions-to-array
-  category: Ruby Extensions
+  tags: ruby language extensions
 
 - title: Hashes
   url: https://guides.rubyonrails.org/active_support_core_extensions.html#extensions-to-hash
-  category: Ruby Extensions
+  tags: ruby language extensions
 
 - title: Regexes
   url: https://guides.rubyonrails.org/active_support_core_extensions.html#extensions-to-regexp
-  category: Ruby Extensions
+  tags: ruby language extensions
 
 - title: Ranges
   url: https://guides.rubyonrails.org/active_support_core_extensions.html#extensions-to-range
-  category: Ruby Extensions
+  tags: ruby language extensions
 
 - title: Dates
   url: https://guides.rubyonrails.org/active_support_core_extensions.html#extensions-to-date
-  category: Ruby Extensions
+  tags: ruby language extensions
 
 - title: Date/Times
   url: https://guides.rubyonrails.org/active_support_core_extensions.html#extensions-to-datetime
-  category: Ruby Extensions
+  tags: ruby language extensions
 
 - title: Times
   url: https://guides.rubyonrails.org/active_support_core_extensions.html#extensions-to-time
-  category: Ruby Extensions
+  tags: ruby language extensions
 
 - title: Files
   url: https://guides.rubyonrails.org/active_support_core_extensions.html#extensions-to-file
-  category: Ruby Extensions
+  tags: ruby language extensions
 
 - title: Marshals
   url: https://guides.rubyonrails.org/active_support_core_extensions.html#extensions-to-marshal
-  category: Ruby Extensions
+  tags: ruby language extensions
 
 - title: Name Errors
   url: https://guides.rubyonrails.org/active_support_core_extensions.html#extensions-to-nameerror
-  category: Ruby Extensions
+  tags: ruby language extensions
 
 - title: Load Errors
   url: https://guides.rubyonrails.org/active_support_core_extensions.html#extensions-to-loaderror
-  category: Ruby Extensions
+  tags: ruby language extensions
 
 
 - title: Creating
   url: https://guides.rubyonrails.org/active_job_basics.html#creating-a-job
-  category: Background Jobs
+  tags: background jobs
 
 - title: Running
   url: https://guides.rubyonrails.org/active_job_basics.html#job-execution
-  category: Background Jobs
+  tags: background jobs
 
 - title: Queues
   url: https://guides.rubyonrails.org/active_job_basics.html#queues
-  category: Background Jobs
+  tags: background jobs
 
 - title: Callbacks
   url: https://guides.rubyonrails.org/active_job_basics.html#callbacks
-  category: Background Jobs
+  tags: background jobs
 
 - title: Action Mailer
   url: https://guides.rubyonrails.org/active_job_basics.html#action-mailer
-  category: Background Jobs
+  tags: background jobs
 
 - title: Internationalization
   url: https://guides.rubyonrails.org/active_job_basics.html#internationalization
-  category: Background Jobs
+  tags: background jobs
 
 - title: Global ID
   url: https://guides.rubyonrails.org/active_job_basics.html#globalid
-  category: Background Jobs
+  tags: background jobs
 
 - title: Exceptions
   url: https://guides.rubyonrails.org/active_job_basics.html#exceptions
-  category: Background Jobs
+  tags: background jobs
 
 - title: Testing
   url: https://guides.rubyonrails.org/active_job_basics.html#job-testing
-  category: Background Jobs
+  tags: background jobs
 
 - title: Sidekiq, Resque, etc
   url: https://www.ruby-toolbox.com/categories/Background_Jobs
-  category: Background Jobs
+  tags: background jobs
 
 - title: Daemons
   url: https://www.ruby-toolbox.com/categories/daemonizing
-  category: Background Jobs
+  tags: background jobs
 
 - title: Foreman
   url: https://www.ruby-toolbox.com/categories/daemon_management
-  category: Background Jobs
+  tags: background jobs
 
 - title: Scheduling
   url: https://www.ruby-toolbox.com/categories/scheduling
-  category: Background Jobs
+  tags: background jobs
 
 
 
 - title: Concurrent-Ruby, EventMachine
   url: https://www.ruby-toolbox.com/categories/Concurrent_Processing
-  category: Concurrent Processing
+  tags: concurrency, parallelism
 
 
 - title: Page
   url: https://guides.rubyonrails.org/caching_with_rails.html#page-caching
-  category: Caching
+  tags: caching
 
 - title: Action
   url: https://guides.rubyonrails.org/caching_with_rails.html#action-caching
-  category: Caching
+  tags: caching
 
 - title: Fragment
   url: https://guides.rubyonrails.org/caching_with_rails.html#fragment-caching
-  category: Caching
+  tags: caching
 
 - title: Russian Doll
   url: https://guides.rubyonrails.org/caching_with_rails.html#russian-doll-caching
-  category: Caching
+  tags: caching
 
 - title: Shared Partial
   url: https://guides.rubyonrails.org/caching_with_rails.html#shared-partial-caching
-  category: Caching
+  tags: caching
 
 - title: Dependencies
   url: https://guides.rubyonrails.org/caching_with_rails.html#managing-dependencies
-  category: Caching
+  tags: caching
 
 - title: Low Level
   url: https://guides.rubyonrails.org/caching_with_rails.html#low-level-caching
-  category: Caching
+  tags: caching
 
 - title: SQL Caching
   url: https://guides.rubyonrails.org/caching_with_rails.html#sql-caching
-  category: Caching
+  tags: caching
 
 - title: Storage Configuration
   url: https://guides.rubyonrails.org/caching_with_rails.html#configuration
-  category: Caching
+  tags: caching
 
 - title: Keys
   url: https://guides.rubyonrails.org/caching_with_rails.html#cache-keys
-  category: Caching
+  tags: caching
 
 - title: Conditional GET
   url: https://guides.rubyonrails.org/caching_with_rails.html#conditional-get-support
-  category: Caching
+  tags: caching
 
 - title: Caching in Devt
   url: https://guides.rubyonrails.org/caching_with_rails.html#caching-in-development
-  category: Caching
+  tags: caching
 
 
 - title: Pub/Sub
   url: https://guides.rubyonrails.org/action_cable_overview.html#what-is-pub-sub
-  category: Action Cable (Websockets)
+  tags: active cable (websockets)
 
 - title: Server-Side
   url: https://guides.rubyonrails.org/action_cable_overview.html#server-side-components
-  category: Action Cable (Websockets)
+  tags: active cable (websockets)
 
 - title: Client-Side
   url: https://guides.rubyonrails.org/action_cable_overview.html#client-side-components
-  category: Action Cable (Websockets)
+  tags: active cable (websockets)
 
 - title: Streams
   url: https://guides.rubyonrails.org/action_cable_overview.html#streams
-  category: Action Cable (Websockets)
+  tags: active cable (websockets)
 
 - title: Broadcasting
   url: https://guides.rubyonrails.org/action_cable_overview.html#broadcasting
-  category: Action Cable (Websockets)
+  tags: active cable (websockets)
 
 - title: Subscriptions
   url: https://guides.rubyonrails.org/action_cable_overview.html#client-server-interactions-subscriptions
-  category: Action Cable (Websockets)
+  tags: active cable (websockets)
 
 - title: Parameters
   url: https://guides.rubyonrails.org/action_cable_overview.html#passing-parameters-to-channels
-  category: Action Cable (Websockets)
+  tags: active cable (websockets)
 
 - title: Re-broadcasting
   url: https://guides.rubyonrails.org/action_cable_overview.html#rebroadcasting-a-message
-  category: Action Cable (Websockets)
+  tags: active cable (websockets)
 
 - title: Full Stack Examples
   url: https://guides.rubyonrails.org/action_cable_overview.html#full-stack-examples
-  category: Action Cable (Websockets)
+  tags: active cable (websockets)
 
 - title: Configuration
   url: https://guides.rubyonrails.org/action_cable_overview.html#configuration
-  category: Action Cable (Websockets)
+  tags: active cable (websockets)
 
 - title: Standalone Servers
   url: https://guides.rubyonrails.org/action_cable_overview.html#running-standalone-cable-servers
-  category: Action Cable (Websockets)
+  tags: active cable (websockets)
 
 
 
 - title: Rails on Rack
   url: https://guides.rubyonrails.org/rails_on_rack.html#rails-on-rack
-  category: Rack (Middleware)
+  tags: rack middleware
 
 - title: Middleware Stack
   url: https://guides.rubyonrails.org/rails_on_rack.html#action-dispatcher-middleware-stack
-  category: Rack (Middleware)
+  tags: rack middleware
 
 - title: Rack Website
   url: https://rack.github.io/
-  category: Rack (Middleware)
+  tags: rack middleware
 
 - title: Intro to Rack
   url: http://chneukirchen.org/blog/archive/2007/02/introducing-rack.html
-  category: Rack (Middleware)
+  tags: rack middleware
 
 - title: Constants
   url: https://guides.rubyonrails.org/autoloading_and_reloading_constants.html#constants-refresher
-  category: Autoloading & Constants
+  tags: autoloading & constants
 
 - title: Vocabulary
   url: https://guides.rubyonrails.org/autoloading_and_reloading_constants.html#vocabulary
-  category: Autoloading & Constants
+  tags: autoloading & constants
 
 - title: Autoloading Availability
   url: https://guides.rubyonrails.org/autoloading_and_reloading_constants.html#autoloading-availability
-  category: Autoloading & Constants
+  tags: autoloading & constants
 
 - title: Load Paths
   url: https://guides.rubyonrails.org/autoloading_and_reloading_constants.html#autoload-paths-and-eager-load-paths
-  category: Autoloading & Constants
+  tags: autoloading & constants
 
 - title: Autoload Algorithms
   url: https://guides.rubyonrails.org/autoloading_and_reloading_constants.html#autoloading-algorithms
-  category: Autoloading & Constants
+  tags: autoloading & constants
 
 - title: require_dependency
   url: https://guides.rubyonrails.org/autoloading_and_reloading_constants.html#require-dependency
-  category: Autoloading & Constants
+  tags: autoloading & constants
 
 - title: Constant Reloading
   url: https://guides.rubyonrails.org/autoloading_and_reloading_constants.html#constant-reloading
-  category: Autoloading & Constants
+  tags: autoloading & constants
 
 - title: Module#autoload
   url: https://guides.rubyonrails.org/autoloading_and_reloading_constants.html#module-autoload-isn-t-involved
-  category: Autoloading & Constants
+  tags: autoloading & constants
 
 - title: Gotchas</a>
   url: https://guides.rubyonrails.org/autoloading_and_reloading_constants.html#common-gotchas
-  category: Autoloading & Constants
+  tags: autoloading & constants
 
 
 
 
 - title: Overview
   url: https://guides.rubyonrails.org/i18n.html#how-i18n-in-ruby-on-rails-works
-  category: Internationalization
+  tags: internationalization
 
 - title: Setup
   url: https://guides.rubyonrails.org/i18n.html#setup-the-rails-application-for-internationalization
-  category: Internationalization
+  tags: internationalization
 
 - title: Localization
   url: https://guides.rubyonrails.org/i18n.html#internationalization-and-localization
-  category: Internationalization
+  tags: internationalization
 
 - title: API
   url: https://guides.rubyonrails.org/i18n.html#overview-of-the-i18n-api-features
-  category: Internationalization
+  tags: internationalization
 
 - title: Custom Translations
   url: https://guides.rubyonrails.org/i18n.html#how-to-store-your-custom-translations
-  category: Internationalization
+  tags: internationalization
 
 - title: Custom Setups
   url: https://guides.rubyonrails.org/i18n.html#customize-your-i18n-setup
-  category: Internationalization
+  tags: internationalization
 
 - title: Model Content
   url: https://guides.rubyonrails.org/i18n.html#translating-model-content
-  category: Internationalization
+  tags: internationalization
 
 
 - title: 40 tools (hixonrails)
   url: https://app.getpocket.com/read/2928780813
-  category: Monitoring
+  tags: monitoring
 
 - title: New Relic
   url: https://www.ruby-toolbox.com/projects/newrelic_rpm
-  category: Monitoring
+  tags: monitoring
 
 - title: Better Errors
   url: https://www.ruby-toolbox.com/projects/better_errors
-  category: Monitoring
+  tags: monitoring
 
 - title: Bullet
   url: https://www.ruby-toolbox.com/projects/bullet
-  category: Monitoring
+  tags: monitoring
 
 - title: Errbit
   url: https://www.ruby-toolbox.com/projects/errbit/errbit
-  category: Monitoring
+  tags: monitoring
 
 - title: Airbrake
   url: https://www.ruby-toolbox.com/projects/airbrake
-  category: Monitoring
+  tags: monitoring
 
 
 
 
 - title: Logstash
   url: https://www.ruby-toolbox.com/projects/logstash/logstash
-  category: Logging
+  tags: logging
 
 - title: Fluentd, etc
   url: https://www.ruby-toolbox.com/projects/fluentd
-  category: Logging
+  tags: logging
 
 
 
 
 - title: Intro
   url: https://guides.rubyonrails.org/testing.html#introduction-to-testing
-  category: Testing
+  tags: testing
 
 - title: Test DB
   url: https://guides.rubyonrails.org/testing.html#the-test-database
-  category: Testing
+  tags: testing
 
 - title: Model Testing
   url: https://guides.rubyonrails.org/testing.html#model-testing
-  category: Testing
+  tags: testing
 
 - title: System Testing
   url: https://guides.rubyonrails.org/testing.html#system-testing
-  category: Testing
+  tags: testing
 
 - title: Function Testing
   url: https://guides.rubyonrails.org/testing.html#functional-tests-for-your-controllers
-  category: Testing
+  tags: testing
 
 - title: Route Testing
   url: https://guides.rubyonrails.org/testing.html#testing-routes
-  category: Testing
+  tags: testing
 
 - title: View Testing
   url: https://guides.rubyonrails.org/testing.html#testing-views
-  category: Testing
+  tags: testing
 
 - title: Helper Testing
   url: https://guides.rubyonrails.org/testing.html#testing-helpers
-  category: Testing
+  tags: testing
 
 - title: Email Testing
   url: https://guides.rubyonrails.org/testing.html#testing-your-mailers
-  category: Testing
+  tags: testing
 
 - title: Background Job Testing
   url: https://guides.rubyonrails.org/testing.html#testing-jobs
-  category: Testing
+  tags: testing
 
 - title: Integration Testing
   url: https://guides.rubyonrails.org/testing.html#integration-testing
-  category: Testing
+  tags: testing
 
 - title: Resources
   url: https://guides.rubyonrails.org/testing.html#additional-testing-resources
-  category: Testing
+  tags: testing
 
 - title: Split
   url: https://www.ruby-toolbox.com/projects/split
-  category: Testing
+  tags: testing
 
 - title: Selenium
   url: https://www.ruby-toolbox.com/projects/selenium-webdriver
-  category: Testing
+  tags: testing
 
 - title: Guard
   url: https://www.ruby-toolbox.com/projects/guard
-  category: Testing
+  tags: testing
 
 - title: Guard-rspec
   url: https://www.ruby-toolbox.com/projects/guard-rspec
-  category: Testing
+  tags: testing
 
 - title: ruby toolbox
   url: https://www.ruby-toolbox.com/categories/code_coverage
-  category: Testing
+  tags: testing
 
 - title: simplecov
   url: https://github.com/colszowka/simplecov
-  category: Testing
+  tags: testing
 
 - title: Metrics
   url: https://www.ruby-toolbox.com/categories/code_metrics
-  category: Testing
+  tags: testing
 
 - title: Review Tools
   url: https://www.ruby-toolbox.com/categories/code_review_tools
-  category: Testing
+  tags: testing
 
 - title: Faker
   url: https://www.ruby-toolbox.com/projects/faker
-  category: Testing
+  tags: testing
 
 - title: Factory Bot
   url: https://www.ruby-toolbox.com/projects/factory_bot
-  category: Testing
+  tags: testing
 
 - title: Minitest</a>
   url: https://www.ruby-toolbox.com/projects/minitest
-  category: Testing
+  tags: testing
 
 - title: Cucumber
   url: https://www.ruby-toolbox.com/projects/cucumber
-  category: Testing
+  tags: testing
 
 - title: Webmock
   url: https://www.ruby-toolbox.com/categories/mocking_web_requests
-  category: Testing
+  tags: testing
 
 - title: Spring
   url: https://www.ruby-toolbox.com/projects/spring
-  category: Testing
+  tags: testing
 
 - title: Timecop
   url: https://www.ruby-toolbox.com/projects/timecop
-  category: Testing
+  tags: testing
 
 - title: rspec tutorial (Hix on Rails)
   url: https://hixonrails.com/ruby-on-rails-tutorials/ruby-on-rails-testing-rspec-configuration/
-  category: Testing
+  tags: testing
 
 - title: Relish
   url: https://relishapp.com/rspec
-  category: Testing
+  tags: testing
 
 - title: rspec-matchers
   url: https://www.ruby-toolbox.com/categories/RSpec_Matchers
-  category: Testing
+  tags: testing
 
 - title: rspec-mocks
   url: https://www.ruby-toolbox.com/projects/rspec-mocks
-  category: Testing
+  tags: testing
 
 
 
 - title: Best Practices (Hix on Rails)
   url: https://hixonrails.com/ruby-on-rails-tutorials/ruby-on-rails-security-best-practices/
-  category: Security
+  tags: security
 
 - title: Sessions
   url: https://guides.rubyonrails.org/security.html#sessions
-  category: Security
+  tags: security
 
 - title: CSRF
   url: https://guides.rubyonrails.org/security.html#cross-site-request-forgery-csrf
-  category: Security
+  tags: security
 
 - title: Redirection & Files
   url: https://guides.rubyonrails.org/security.html#redirection-and-files
-  category: Security
+  tags: security
 
 - title: Admin Security
   url: https://guides.rubyonrails.org/security.html#intranet-and-admin-security
-  category: Security
+  tags: security
 
 - title: User Mgmt
   url: https://guides.rubyonrails.org/security.html#user-management
-  category: Security
+  tags: security
 
 - title: Injection
   url: https://guides.rubyonrails.org/security.html#injection
-  category: Security
+  tags: security
 
 - title: Unsafe Queries
   url: https://guides.rubyonrails.org/security.html#unsafe-query-generation
-  category: Security
+  tags: security
 
 - title: Headers
   url: https://guides.rubyonrails.org/security.html#default-headers
-  category: Security
+  tags: security
 
 - title: Environmental Security
   url: https://guides.rubyonrails.org/security.html#environmental-security
-  category: Security
+  tags: security
 
 - title: Loofah
   url: https://www.ruby-toolbox.com/projects/loofah
-  category: Security
+  tags: security
 
 - title: Brakeman
   url: https://www.ruby-toolbox.com/projects/brakeman
-  category: Security
+  tags: security
 
 - title: Spam Detection
   url: https://www.ruby-toolbox.com/categories/spam_detection
-  category: Security
+  tags: security
 
 - title: Authorization (Cancan, ...)
   url: https://www.ruby-toolbox.com/categories/rails_authorization
-  category: Security
+  tags: security
 
 - title: Authentication (Devise, ...)
   url: https://www.ruby-toolbox.com/categories/rails_authentication
-  category: Security
+  tags: security
 
 
 
 
 - title: Gems (Bundler)
   url: https://www.ruby-toolbox.com/categories/gem_creation
-  category: Configuration
+  tags: configuration
 
 - title: Locations
   url: https://guides.rubyonrails.org/configuring.html#locations-for-initialization-code
-  category: Configuration
+  tags: configuration
 
 - title: Code Before Rails
   url: https://guides.rubyonrails.org/configuring.html#running-code-before-rails
-  category: Configuration
+  tags: configuration
 
 - title: Component Configs
   url: https://guides.rubyonrails.org/configuring.html#configuring-rails-components
-  category: Configuration
+  tags: configuration
 
 - title: Environment Settings
   url: https://guides.rubyonrails.org/configuring.html#rails-environment-settings
-  category: Configuration
+  tags: configuration
 
 - title: Initializer Files
   url: https://guides.rubyonrails.org/configuring.html#using-initializer-files
-  category: Configuration
+  tags: configuration
 
 - title: Initialization Events
   url: https://guides.rubyonrails.org/configuring.html#initialization-events
-  category: Configuration
+  tags: configuration
 
 - title: Database Pooling
   url: https://guides.rubyonrails.org/configuring.html#database-pooling
-  category: Configuration
+  tags: configuration
 
 - title: Customization
   url: https://guides.rubyonrails.org/configuring.html#custom-configuration
-  category: Configuration
+  tags: configuration
 
 - title: SEO Indexing
   url: https://guides.rubyonrails.org/configuring.html#search-engines-indexing
-  category: Configuration
+  tags: configuration
 
 - title: Evented File System Monitor
   url: https://guides.rubyonrails.org/configuring.html#evented-file-system-monitor
@@ -1628,464 +1628,468 @@
 
 - title: Config Mgmt (Dotenv)
   url: https://www.ruby-toolbox.com/categories/Configuration_Management
-  category: Configuration
+  tags: configuration
 
 
 
 - title: Fingerprinting
   url: https://guides.rubyonrails.org/asset_pipeline.html#what-is-fingerprinting-and-why-should-i-care-questionmark
-  category: Asset Pipeline
+  tags: asset pipeline
 
 - title: Pipeline Usage
   url: https://guides.rubyonrails.org/asset_pipeline.html#how-to-use-the-asset-pipeline
-  category: Asset Pipeline
+  tags: asset pipeline
 
 - title: While in Development
   url: https://guides.rubyonrails.org/asset_pipeline.html#in-development
-  category: Asset Pipeline
+  tags: asset pipeline
 
 - title: While in Production
   url: https://guides.rubyonrails.org/asset_pipeline.html#in-production
-  category: Asset Pipeline
+  tags: asset pipeline
 
 - title: Customization
   url: https://guides.rubyonrails.org/asset_pipeline.html#customizing-the-pipeline
-  category: Asset Pipeline
+  tags: asset pipeline
 
 - title: Cache Storage
   url: https://guides.rubyonrails.org/asset_pipeline.html#assets-cache-store
-  category: Asset Pipeline
+  tags: asset pipeline
 
 - title: Adding Assets to Gems
   url: https://guides.rubyonrails.org/asset_pipeline.html#adding-assets-to-your-gems
-  category: Asset Pipeline
+  tags: asset pipeline
 
 - title: PreProcessing Gems
   url: https://guides.rubyonrails.org/asset_pipeline.html#making-your-library-or-gem-a-pre-processor
-  category: Asset Pipeline
+  tags: asset pipeline
 
 
 
 - title: View Helpers
   url: https://guides.rubyonrails.org/debugging_rails_applications.html#view-helpers-for-debugging
-  category: Debugging
+  tags: debugging
 
 - title: Logging
   url: https://guides.rubyonrails.org/debugging_rails_applications.html#the-logger
-  category: Debugging
+  tags: debugging
 
 - title: Byebug
   url: https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-byebug-gem
-  category: Debugging
+  tags: debugging
 
 - title: web-console
   url: https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-web-console-gem
-  category: Debugging
+  tags: debugging
 
 - title: Memory Leaks
   url: https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-memory-leaks
-  category: Debugging
+  tags: debugging
 
 - title: Plugins</a>
   url: https://guides.rubyonrails.org/debugging_rails_applications.html#plugins-for-debugging
-  category: Debugging
+  tags: debugging
 
 
 - title: Rdoc
   url: https://www.ruby-toolbox.com/projects/rdoc
-  category: Documentation
+  tags: documentation
 
 
 - title: Command Line Basics
   url: https://guides.rubyonrails.org/command_line.html#command-line-basics
-  category: Command Line
+  tags: command line
 
 
 - title: bin/rails
   url: https://guides.rubyonrails.org/command_line.html#bin-rails
-  category: Command Line
+  tags: command line
 
 - title: Rake
   url: https://www.ruby-toolbox.com/projects/rake
-  category: Command Line
+  tags: command line
 
 - title: Custom Rake Tasks
   url: https://guides.rubyonrails.org/command_line.html#custom-rake-tasks
-  category: Command Line
+  tags: command line
 
 - title: Adv Rails Cmnds
   url: https://guides.rubyonrails.org/command_line.html#the-rails-advanced-command-line
-  category: Command Line
+  tags: command line
 
 - title: Pry (IRB alternative)
   url: https://www.ruby-toolbox.com/projects/pry
-  category: Command Line
+  tags: command line
 
 - title: Thor
   url: https://www.ruby-toolbox.com/projects/thor
-  category: Command Line
+  tags: command line
 
 - title: Rexe
   url: https://www.ruby-toolbox.com/categories/CommandLineUtilities
-  category: Command Line
+  tags: command line
 
 - title: CLI Option Parsers
   url: https://www.ruby-toolbox.com/categories/CLI_Option_Parsers
-  category: Command Line
+  tags: command line
 
 - title: CLI Progress Bars
   url: https://www.ruby-toolbox.com/categories/CLI_Progress_Bars
-  category: Command Line
+  tags: command line
 
 
 
 
 - title: AWS
   url: https://www.ruby-toolbox.com/categories/Amazon_Web_Services
-  category: DevOps
+  tags: devops
 
 - title: Backup
   url: https://www.ruby-toolbox.com/projects/backup
-  category: DevOps
+  tags: devops
 
 
 - title: Travis CI
   url: https://www.ruby-toolbox.com/projects/travis-ci/travis-ci
-  category: DevOps
+  tags: devops
 
 
 - title: Capistrano
   url: https://www.ruby-toolbox.com/projects/capistrano
-  category: DevOps
+  tags: devops
 
 - title: Heroku
   url: https://www.ruby-toolbox.com/projects/heroku
-  category: DevOps
+  tags: devops
 
 - title: Fog
   url: https://www.ruby-toolbox.com/projects/fog
-  category: DevOps
+  tags: devops
 
 
 - title: Vagrant
   url: https://www.ruby-toolbox.com/projects/vagrant
-  category: DevOps
+  tags: devops
 
 - title: Chef
   url: https://www.ruby-toolbox.com/projects/chef
-  category: DevOps
+  tags: devops
 
 - title: Puppet
   url: https://www.ruby-toolbox.com/projects/puppet
-  category: DevOps
+  tags: devops
 
 
 - title: Puma
   url: https://www.ruby-toolbox.com/projects/puma
-  category: Web Servers
+  tags: web servers
 
 - title: Unicorn
   url: https://www.ruby-toolbox.com/projects/unicorn
-  category: Web Servers
+  tags: web servers
 
 - title: Thin
   url: https://www.ruby-toolbox.com/projects/thin
-  category: Web Servers
+  tags: web servers
 
 - title: Passenger
   url: https://www.ruby-toolbox.com/projects/passenger
-  category: Web Servers
+  tags: web servers
 
 
 - title: Git Tools
   url: https://www.ruby-toolbox.com/categories/git_Tools
-  category: Revision Control
+  tags: revision control
 
 - title: GitlabHQ
   url: https://www.ruby-toolbox.com/categories/project_management
-  category: Revision Control
+  tags: revision control
 
 
 - title: Gtk2, glib2
   url: https://www.ruby-toolbox.com/categories/Gnome
-  category: DevOps
+  tags: devops
 
 - title: Railyard
   url: https://www.ruby-toolbox.com/projects/brandonweiss/railyard
-  category: DevOps
+  tags: devops
 
 
 - title: Octopress, etc
   url: https://www.ruby-toolbox.com/categories/Blog_Engines
-  category: Publishing
+  tags: publishing
 
 
 - title: Refinery, etc
   url: https://www.ruby-toolbox.com/categories/content_management_systems
-  category: Publishing
+  tags: publishing
 
 
 - title: Gollum
   url: https://www.ruby-toolbox.com/categories/wiki_apps
-  category: Publishing
+  tags: publishing
 
 
 - title: Jekyll, etc
   url: https://www.ruby-toolbox.com/categories/static_website_generation
-  category: Publishing
+  tags: publishing
 
 
 - title: Rails for JSON APIs
   url: https://guides.rubyonrails.org/api_app.html#why-use-rails-for-json-apis-questionmark
-  category: Building API-Only Apps
+  tags: api-only apps
 
 - title: New
   url: https://guides.rubyonrails.org/api_app.html#creating-a-new-application
-  category: Building API-Only Apps
+  tags: api-only apps
 
 - title: Change
   url: https://guides.rubyonrails.org/api_app.html#changing-an-existing-application
-  category: Building API-Only Apps
+  tags: api-only apps
 
 - title: Middleware
   url: https://guides.rubyonrails.org/api_app.html#choosing-middleware
-  category: Building API-Only Apps
+  tags: api-only apps
 
 - title: Controller Modules
   url: https://guides.rubyonrails.org/api_app.html#choosing-controller-modules
-  category: Building API-Only Apps
+  tags: api-only apps
 
 
 - title: 1st Contact
   url: https://guides.rubyonrails.org/generators.html#first-contact
-  category: Generators & Templates
+  tags: generators & templates
 
 - title: Creating
   url: https://guides.rubyonrails.org/generators.html#creating-your-first-generator
-  category: Generators & Templates
+  tags: generators & templates
 
 - title: Generators w/ Generators
   url: https://guides.rubyonrails.org/generators.html#creating-generators-with-generators
-  category: Generators & Templates
+  tags: generators & templates
 
 - title: Lookups
   url: https://guides.rubyonrails.org/generators.html#generators-lookup
-  category: Generators & Templates
+  tags: generators & templates
 
 - title: Custom Workflows
   url: https://guides.rubyonrails.org/generators.html#customizing-your-workflow
-  category: Generators & Templates
+  tags: generators & templates
 
 - title: Custom Templates
   url: https://guides.rubyonrails.org/generators.html#customizing-your-workflow-by-changing-generators-templates
-  category: Generators & Templates
+  tags: generators & templates
 
 - title: Fallbacks
   url: https://guides.rubyonrails.org/generators.html#adding-generators-fallbacks
-  category: Generators & Templates
+  tags: generators & templates
 
 - title: App Templates
   url: https://guides.rubyonrails.org/generators.html#application-templates
-  category: Generators & Templates
+  tags: generators & templates
 
 - title: Cmnd Line Args
   url: https://guides.rubyonrails.org/generators.html#adding-command-line-arguments
-  category: Generators & Templates
+  tags: generators & templates
 
 - title: Generators
   url: https://guides.rubyonrails.org/generators.html#generator-methods
-  category: Generators & Templates
+  tags: generators & templates
 
 - title: Jekyll data files 
   url: https://jekyllrb.com/docs/datafiles/
-  category: Jekyll 
+  tags: jekyll 
 
 - title: YAML linter
   url: http://www.yamllint.com/
-  category: Yaml 
+  tags: yaml 
 
 - title: Jekyll categories & tags 
   url: https://blog.webjeda.com/jekyll-categories/
-  category: Jekyll 
+  tags: jekyll 
 
 
 - title: Image lazy loading 
   url: https://ranvir.xyz/blog/lazy-loading-your-images-in-jekyll-blog-improving-page-speed/
-  category: Jekyll 
+  tags: jekyll 
 
 - title: Bootstrap 4 template 
   url: https://github.com/jenofdoom/jekyll-bootstrap-4
-  category: Jekyll 
+  tags: jekyll 
 
 - title: GitHub hosting how-to 
   url: http://jmcglone.com/guides/github-pages/
-  category: Jekyll 
+  tags: jekyll 
 
 - title: Cloudant search 
   url: https://medium.com/@glynn_bird/adding-cloudant-search-to-your-static-jekyll-blog-5ad76b32a902
-  category: Jekyll 
+  tags: jekyll 
 
 - title: Disqus comments 
   url: https://desiredpersona.com/disqus-comments-jekyll/
-  category: Jekyll 
+  tags: jekyll 
 
 - title: SEO metadata tags
   url: https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/installation.md
-  category: Jekyll 
+  tags: jekyll 
 
 - title: Algolia search 
   url: https://forestry.io/blog/search-with-algolia-in-jekyll/
-  category: Jekyll 
+  tags: jekyll 
 
 - title: Linking series of posts 
   url: https://engineering.chrobinson.com/how-to/linking-a-series-of-jekyll-posts/
-  category: Jekyll 
+  tags: jekyll 
 
 - title: Collections
   url: https://blog.webjeda.com/jekyll-collections/
-  category: Jekyll
+  tags: jekyll
 
 - title: Eager Loading & N+1 Queries
   url: https://news.learnenough.com/eager-loading
-  category: Associations
+  tags: associations
 
 - title: Active Record without Models 
   url: https://twitter.com/websebdev/status/1360647965765951497?s=12
-  category: ActiveRecord
+  tags: active record
 
 - title: text excerpts
   url: https://boringrails.com/tips/rails-excerpt-helper
-  category: HTML Helpers 
+  tags: html helpers 
 
 - title: Bcrypt hashing 
   url: https://rubyweekly.com/link/102532/ad5e785e3b
-  category: Encryption
+  tags: encryption
 
 - title: MongoDB installation 
   url: https://www.botreetechnologies.com/blog/how-to-install-and-use-mongodb-with-rails6/
-  category: DB Options
+  tags: db options
 
 - title: Heroku alternatives?
   url: https://www.reddit.com/r/rails/comments/l59eti/best_alternatives_to_hosting_on_heroku/
-  category: hosting
+  tags: hosting
 
 - title: custom seed files 
   url: https://stackoverflow.com/questions/19872271/adding-a-custom-seed-file#19872375
-  category: DB seeds 
+  tags: db seeds 
 
 - title: Webpacker in Rails 6
   url: https://prathamesh.tech/2019/08/26/understanding-webpacker-in-rails-6/
-  category: Javascript
+  tags: javascript
 
 - title: Rendering with render_async
   url: https://semaphoreci.com/blog/2017/06/08/speeding-up-rails-pages-with-render-async.html
-  category: Layouts & Rendering
+  tags: layouts & rendering
   source: semaphoreci
 
 - title: Active Record query tricks 
   url: https://medium.com/@apneadiving/active-records-queries-tricks-2546181a98dd
-  category: ActiveRecord
+  tags: active record
 
 - title: Devise in Depth 
   url: https://www.sitepoint.com/devise-authentication-in-depth/
-  category: Authentication
+  tags: authentication
   source: sitepoint
 
 - title: acts_as_tree 
   url: https://github.com/amerine/acts_as_tree
-  category: ActiveRecord
+  tags: active record
   source: github
 
 - title: Polymorphic Associations
   url: https://launchschool.com/blog/understanding-polymorphic-associations-in-rails
-  category: Associations
+  tags: associations
   source: launchschool
 
 - title: Custom Rake tasks 
   url: https://dev.to/vinistock/customizing-rails-rake-tasks-3bg5
-  category: Command Line
+  tags: command line
   source: dev.to
 
 - title: 42 Performance Tips 
   url: https://dev.to/mskog/42-performance-tips-for-ruby-on-rails-4aik
-  category: Optimization 
+  tags: optimization 
 
 - title: Rails 6 features 
   url: https://evilmartians.com/chronicles/rails-6-b-sides-and-rarities
-  category: Rails 6
+  tags: rails v6
   source: evilmartians
 
 - title: Rails with Svelte 
   url: https://medium.com/@nikolalsvk/getting-started-with-svelte-and-rails-6-d8384c80ad6c
-  category: Javascript
+  tags: javascript
 
 - title: Custom Scaffolds 
   url: https://www.nopio.com/blog/creating-scaffold-generator-rails/
-  category: Scaffolds
+  tags: scaffolds
   source: nopio
 
 - title: Continuous Integration with CircleCI 
   url: https://hixonrails.com/ruby-on-rails-tutorials/ruby-on-rails-set-up-on-github-with-circleci/
-  category: DevOps 
+  tags: devops 
   source: hixonrails
 
 - title: Intro to secrets & credentials 
   url: https://rubyweekly.com/link/83853/ad5e785e3b
-  category: Security
+  tags: security
   source: rubyweekly
 
 - title: Rspec configuration 
   url: https://hixonrails.com/ruby-on-rails-tutorials/ruby-on-rails-testing-rspec-configuration/
-  category: testing 
+  tags: testing 
   source: hixonrails
 
 - title: Fake data generator 
   url: https://towardsdatascience.com/how-to-create-fake-data-with-faker-a835e5b7a9d9?source=rss----7f60cf5620c9---4
-  category: Data
+  tags: data
 
 - title: Security best practices 
   url: https://hixonrails.com/ruby-on-rails-tutorials/ruby-on-rails-security-best-practices/
-  category: Security
+  tags: security
   source: hixonrails
 
 - title: Postgres search 
   url: https://pganalyze.com/blog/full-text-search-ruby-rails-postgres
-  category: Search Engines
+  tags: search engines
 
 - title: 40 Monitoring Tools 
   url: https://hixonrails.com/ruby-on-rails-tutorials/ruby-on-rails-application-monitoring/
-  category: Monitoring
+  tags: monitoring
   source: hixonrails
 
 - title: ActionMailer configuration
   url: https://hixonrails.com/ruby-on-rails-tutorials/ruby-on-rails-action-mailer-configuration/
-  category: Email
+  tags: email
   source: hixonrails
 
 - title: Metaprogramming in Ruby
   url: https://www.halcyon.hr/posts/exploring-metaprogramming-in-ruby/
-  category: Code Design
+  tags: code design
   source: halcyon
 
 - title: Rails 6 setup 
   url: https://dev.to/vvo/a-rails-6-setup-guide-for-2019-and-2020-hf5
-  category: Rails 6
+  tags: rails v6
 
 - title: Rails Patterns & Antipatterns 
   url: https://dev.to/appsignal/introduction-to-ruby-on-rails-patterns-and-anti-patterns-2mhc
-  category: Code Design
+  tags: code design
   source: dev.to
 
 - title: Memoization
   url: https://www.honeybadger.io/blog/ruby-rails-memoization/?utm_source=rubyweekly&utm_medium=email&utm_campaign=ruby
-  category: Optimization
+  tags: optimization
 
 - title: Intro to Concerns 
   url: https://blog.appsignal.com/2020/09/16/rails-concers-to-concern-or-not-to-concern.html
-  category: Modules
+  tags: modules
   source: appsignal
 
 - title: Concerns example 
   url: https://riptutorial.com/ruby-on-rails/example/3865/concerns
-  category: Modules 
+  tags: modules 
   source: riptutorial
+
+- title: Testing for beginners with rspec
+  url: /pdfs/rails/rails_testing_beginners.pdf 
+  tags: testing 
