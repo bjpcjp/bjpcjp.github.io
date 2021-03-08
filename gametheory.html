@@ -1,205 +1,54 @@
 ---
 layout: page
-title: Game Theory
-tags: game-theory
-date: 2020-02-25 22:00
+title:  Game Theory
+permalink: /gametheory/
 ---
 
-<center>
-<img src="/px/gametheory/game-theory-crash-course-cover.png" width="98%"><br>
-</center>
+{%- assign sorted = site.data.gametheory.v20210308 | sort: "tags" | group_by: "tags" -%}
 
+<div class="textcard">
+		<big><big><big>Tags:</big></big></big><br>
+	{%- for tag in sorted -%}
+			<a href="#{{tag.name}}">{{tag.name}}</a>
+		</span> &nbsp; &nbsp;
+	{%- endfor -%}
+</div>
 <br>
+
 <div style="columns: 2;">
+    {%- for tag in sorted -%}
+        {%- if tag.name -%}
+	        <div class="textcard" id="{{tag.name}}">
+	        	<details>
+	        	<summary>
+	        		<a href="https://duckduckgo.com?q={{tag.name}} AND game theory"
+	        		   style="color:black;">
+	        		{{ tag.name }}:</a>
+	        	</summary>
 
-<div class="textcard">
-    <a href="https://towardsdatascience.com/a-crash-course-in-game-theory-for-machine-learning-classic-and-new-ideas-50e33ba2636d">
-        <strong>A Crash Course in Game Theory</strong><br>
-        <img src="/px/gametheory/game-theory-crash-course-cover.png" width="95%"><br>
-</a></div>
+	        	{%- assign sorted_tag_items = tag.items | sort: "title" -%}
+	        	{%- for item in sorted_tag_items -%}
 
-<div class="textcard">
-    <a href="https://commoncog.com/blog/to-get-good-go-after-the-metagame/">
-        <strong>To Get Good, Go After The Metagame (commonplace)</strong><br>
-        <img src="/px/gametheory/christopher-paul-high-y7Qq9IrgpOA-unsplash.jpg" width="95%"><br>
-</a></div>
+	        		<li style="list-style-type: none;">
 
-<div class="textcard">
-<a href="/pdfs/gametheory/gos-ch16-auctions.pdf">
-<strong>Auction Theory</a></strong><br>
-<img src="/px/gametheory/auction-mechanisms-dongmo.png" width="95%"><br>
-    auction types<br> 
-    winner's curse<br> 
-    how to bid<br>
-    all-pay<br>
-    how to sell<br>
-    additional twists<br>
-    resources<br>
-</a></div>
+	        			<a href="{{item.url}}"
+	        				target="_blank">
+	        				{{item.title}}
 
-<div class="textcard">
-    <a href="/pdfs/gametheory/auctions-single-sided-single-unit-dongmo.pdf">
-    <strong>Single-Sided, Single-Unit Auctions (dongmo)</strong><br>
-    <img src="/px/gametheory/simple-auctions-dongmo.png" width="95%"><br>
-</a></div>
+		        			{%- if item.img -%}
+		        				<img src="{{item.img}}" width=90%>
+	    	    			{%- endif -%}<br>
 
-<div class="textcard">
-    <a href="/pdfs/gametheory/auctions-double-dongmo.pdf">
-    <strong>Double Auctions (dongmo)</strong><br>
-    <img src="/px/gametheory/double-auctions-dongmo.png" width="95%"><br>
-</a></div>
+		        			{%- if item.notes -%}
+		        				<blockquote><small>{{item.notes}}</small></blockquote>
+	    	    			{%- endif -%}
 
-<div class="textcard">
-    <a href="/pdfs/gametheory/auctions-combinational-dongmo.pdf">
-    <strong>Combinational Auctions (dongmo)</strong><br>
-    <img src="/px/gametheory/combinational-auctions-dongmo.png" width="95%"><br>
-</a></div>
+	    	    		</a></li>
 
-<div class="textcard">
-<a href="https://www.smithsonianmag.com/science-nature/best-board-games-ancient-world-180974094/">
-    <strong>board games of the ancient world (smithsonian)</strong><br>
-</a></div>
-
-<div class="textcard">
-<a href="https://duckduckgo.com/?q=game+theory&ia=web">
-<strong>Game Theory: DuckDuckGo search results</strong></a><br>
-</div>
-
-<div class="textcard">
-<a href="https://arxiv.org/abs/1908.09021">
-<strong>Geometric Regret Matching (arxiv)</strong></a><br>
-</div>
-
-<!--
-<div class="textcard">
-<strong><a href="/pdfs/gametheory/gos-ch01-intro.pdf">Intro+</a></strong><br>
-    definitions<br> 
-    examples<br> 
-    how to study<br></div>
--->
-
-<div class="textcard">
-<strong>Bargaining Frameworks</a></strong>
-<a href="/pdfs/gametheory/gos-ch17-bargaining.pdf">
-<img src="/px/gametheory/bargaining-nash-simple.png" width="95%"><br>
-</div>
-
-
-<div class="textcard">
-<strong><a href="/pdfs/gametheory/gos-ch12-evolutionary-games.pdf">Evolutionary Games</a></strong></div>
-
-
-<div class="textcard">
-<a href="/pdfs/gametheory/gos-ch02-how-to-think.pdf">
-<strong>Game Structures</strong></a><br>
-    <strong>classifications:</strong><hr>
-        sequential, or simultaneous?<br>
-        common or conflicting interests?<br>
-        single, or repeated play?<br>
-        same, or changing opponents?<br>
-        equal access to information?<br>
-        fixed rules, or fluid?<br>
-        enforceable cooperation agreements?<br>
-    <strong>terminology:</strong><hr>
-        strategies<br>
-        payoffs<br>
-        rationality<br>
-        common knowledge of rules<br>
-        equilibrium<br>
-        dynamics & evolutionary games<br>
-        observation & experiments<br>
-</div>
-
-<div class="textcard">
-<strong><a href="/pdfs/gametheory/gos-ch06-combined-moves.pdf">Combined Moves</a></strong></div>
-
-<div class="textcard">
-    <strong><a href="/pdfs/gametheory/gos-ch13-mechanism-design.pdf">Mechanism Design</a></strong><br>
-    price discrimination<br>
-    principals & agents<br>
-    cost-plus, fixed-price contracts<br>
-    evidence<br>
-    incentives<br>
-        <ul><li>managerial supervision</li>
-            <li>insurance provision</li>
-        </ul>
-    incentives: evidence<br>
-        <ul><li>nonlinear</li>
-            <li>teams</li>
-            <li>multiple tasks & outcomes</li>
-            <li>incentives over time</li>
-</div>
-
-<div class="textcard">
-    <a href="/pdfs/gametheory/gos-ch10-prisoners-dilemma.pdf"><strong>The Prisoners Dilemma</a></strong>
-    <img src="/px/gametheory/prisoners-delimma-simple.png" width="95%"><br>
-</div>
-
-<div class="textcard">
-<strong><a href="/pdfs/gametheory/gos-ch03-sequential-moves.pdf">Sequential-Move Games</a></strong><br>
-    <img src="/px/gametheory/survivor-immunity-game-tree.png" width="95%"></div>
-
-<div class="textcard">
-    <strong>Simultaneous-Move Games:</strong><br>
-    <a href="/pdfs/gametheory/gos-ch04-simultaneous-moves.pdf">
-        Discrete Strategies</a><br>
-    <a href="/pdfs/gametheory/gos-ch07-simultaneous-mixed.pdf">
-        Mixed Strategies</a><br>
-    <a href="/pdfs/gametheory/gos-ch05-continuous-strategies.pdf">
-        Continuous Strategies</a>
-</div>
-
-
-<div class="textcard">
-<strong><a href="/pdfs/gametheory/gos-ch09-strategic-moves.pdf">Strategic Moves</a></strong></div>
-
-<div class="textcard">
-<strong><a href="/pdfs/gametheory/gos-ch11-collective-action.pdf">Collective-Action Situations</a></strong></div>
-
-
-<div class="textcard">
-<strong><a href="/pdfs/gametheory/gos-ch08-uncertainty-information.pdf">Uncertainty & Imperfect Information</a></strong><br>
-    risk management<br> 
-    assymetric information<br> 
-    cheap talk<br>
-    adverse selection<br> signaling<br> screening<br>
-    labor mkt signaling<br>
-    2-player equilibria<br></div>
-
-
-<div class="textcard">
-<strong><a href="/pdfs/gametheory/gos-ch15-voting.pdf">Voting Systems</a></strong><br>
-    rules & procedures<br> 
-    paradoxes<br> 
-    voting systems<br>
-    vote manipulation<br>
-    median voter theorem<br></div>
-
-</div>
-<!--
-<strong>reading from _data/gametheory/page</strong><br>
--->
-<!--<div style="columns: 2;">-->
-
-    <!-- sorting this fails: "comparison of Hash with Hash" -->
-    <!--{%- assign sorted = site.data.gametheory.page -%}-->
-    <!-- {{ sorted }}<br> -->
-    <!--
-    {%- for record in site.data.gametheory.page -%}
-
-        <div class="textcard">
-            <a href="{{ record.url }}">{{ record.title }} &nbsp;
-            
-            {%- if record.img -%}
-                <img src="{{ record.img }}" width="98%"><br>
-            {%- endif -%}</a>
-
-            {%- if record.notes -%}
-                <p><em>{{ record.notes }}</em></p>
-            {%- endif -%}</a>
-        </div>
+	        	{%- endfor -%}
+	        	</details>
+        	</div>
+        {%- endif -%}
     {%- endfor -%}
-    -->
-<!--</div>-->
-
-<!--<br>-->
+</div>
+<br>
