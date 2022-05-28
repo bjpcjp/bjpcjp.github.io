@@ -1,0 +1,322 @@
+<html lang="en"><!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="http://localhost:4000/favicon-32x32.png" /><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Computer Vision booknotes | Obviously Awesome</title>
+<meta name="generator" content="Jekyll v3.9.2" />
+<meta property="og:title" content="Computer Vision booknotes" />
+<meta name="author" content="Brian Piercy" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Computer Vision: Algorithms &amp; Applications (Szeliski)" />
+<meta property="og:description" content="Computer Vision: Algorithms &amp; Applications (Szeliski)" />
+<link rel="canonical" href="http://localhost:4000/2020/02/24/computervision-booknotes.html" />
+<meta property="og:url" content="http://localhost:4000/2020/02/24/computervision-booknotes.html" />
+<meta property="og:site_name" content="Obviously Awesome" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-02-24T00:00:00-05:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Computer Vision booknotes" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Brian Piercy"},"dateModified":"2020-02-24T00:00:00-05:00","datePublished":"2020-02-24T00:00:00-05:00","description":"Computer Vision: Algorithms &amp; Applications (Szeliski)","headline":"Computer Vision booknotes","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2020/02/24/computervision-booknotes.html"},"url":"http://localhost:4000/2020/02/24/computervision-booknotes.html"}</script>
+<!-- End Jekyll SEO tag -->
+<!-- Compressed CSS -->
+  <link rel="stylesheet" 
+  href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation.min.css" 
+  integrity="sha256-ogmFxjqiTMnZhxCqVmcqTvjfe1Y/ec4WaRj/aQPvn+I=" 
+  crossorigin="anonymous"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Obviously Awesome" /></head>
+<body>
+    <div class="grid-container fluid">
+
+      <div class="grid-x">     
+
+        <div class="text-left">
+          <h1><a href="/">Obviously Awesome</a></h1><form action="https://google.com/search" type="GET">
+  <div class="input-group">
+  	<input class="input-group-field" 
+        type="search" name="q" value="site search (Google)" onfocus=this.value=''>
+    <div class="input-group-button">
+      <input type="submit" class="button" value="Go">
+    </div>
+  </div>
+</form>
+
+<script>
+var form = document.querySelector("form");
+
+form.addEventListener("submit", function (e) {
+  e.preventDefault();
+  var search = form.querySelector("input[type=search]");
+  search.value = "site:bjpcjp.github.io " + search.value;
+  form.submit();
+});
+</script>
+ </div>
+
+      </div>
+
+      <div class="grid-x">     
+
+        <div class="cell small-4 medium-3 large-2"><ul class="vertical menu"><li>
+          <a href="/posts-by-tag.html">
+            Posts by Tag</a></li><li>
+          <a href="/behaviors/">
+            Behaviors</a></li><li>
+          <a href="/math/">
+            Math</a></li><li>
+          <a href="/devops.html">
+            DevOps &amp; Linux</a></li><li>
+          <a href="/gametheory/">
+            Game Theory</a></li><li>
+          <a href="/golang.html">
+            Golang</a></li><li>
+          <a href="/ideas.html">
+            Ideas</a></li><li>
+          <a href="/language/">
+            Language</a></li><li>
+          <a href="/prodmgmt/">
+            Prod Mgmt</a></li><li>
+          <a href="/python/">
+            Python</a></li><li>
+          <a href="/ruby.html">
+            Ruby</a></li><li>
+          <a href="/semiconductors.html">
+            Chips</a></li><li>
+          <a href="/uiux/">
+            UI/UX</a></li><li>
+          <a href="/webdev/">
+            Web Dev Tools</a></li><li>
+          <a href="/all-posts.html">
+            Index</a></li></ul></div>
+        
+        <div class="cell small-8 medium-9 large-10">
+          <div class="callout">
+    <h2>Computer Vision: Algorithms & Applications</h2>
+    (Szeliski)
+</div>
+
+
+
+<div style="columns: 2;">
+
+<div class="card">
+  <div class="card-section">
+    <strong><a href="https://szeliski.org/Book/#page=23">
+    Intro</a></strong><br>
+</div></div>
+
+<div class="card">
+  <div class="card-section">
+    <strong><a href="https://szeliski.org/Book/#page=51">
+    Image Formation</a></strong><br>
+    geometric primitives<br>
+    photo image formation<br>
+    digital cameras<br>
+</div></div>
+
+<div class="card">
+  <div class="card-section">
+<strong><a href="https://szeliski.org/Book/#page=121">
+Image Processing</a></strong><br>
+    point ops<br>
+    linear filtering<br>
+    neighborhood ops<br>
+    fourier xforms<br>
+    pyramids, wavelets<br>
+    geometric xforms<br>
+    global optimization<br>
+    more<br>
+</div></div>
+
+<div class="card">
+  <div class="card-section">
+<strong><a href="https://szeliski.org/Book/#page=227">
+Feature Detection/Matching</a></strong><br>
+    points, patches<br>
+    edges<br>
+    lines<br>
+    more<br>
+</div></div>
+
+
+<div class="card">
+  <div class="card-section">
+<strong><a href="https://szeliski.org/Book/#page=289">
+Segmentation</a></strong><br>
+    active contours<br>
+    split, merge<br>
+    mean shift, mode finding<br>
+    normalized cuts<br>
+    graph cuts, energy-based<br>
+    more<br>
+</div></div>
+
+
+<div class="card">
+  <div class="card-section">
+<strong><a href="https://szeliski.org/Book/#page=331">
+Feature-Based Alignment</a></strong><br>
+    2D/3D feature-based<br>
+    pose estimation<br>
+    geometric calibration<br>
+    more<br>
+</div></div>
+
+<div class="card">
+  <div class="card-section">
+<strong><a href="https://szeliski.org/Book/#page=365">
+Structure from Motion</a></strong><br>
+    triangulation<br>
+    factorization<br>
+    bundle adjustments<br>
+    constrained structure<br>
+    more<br>
+</div></div>
+
+<div class="card">
+  <div class="card-section">
+<strong><a href="https://szeliski.org/Book/#page=403">
+Dense Motion Estimation</a></strong><br>
+    translational alignment<br>
+    parametric motion<br>
+    spline-based motion<br>
+    optical flow<br>
+    layered motion<br>
+    more<br>
+</div></div>
+
+<div class="card">
+  <div class="card-section">
+<strong><a href="https://szeliski.org/Book/#page=449">
+Image Stitching</a></strong><br>
+    motion models<br>
+    global alignment<br>
+    compositioning<br>
+    more<br>
+</div></div>
+
+<div class="card">
+  <div class="card-section">
+<strong><a href="https://szeliski.org/Book/#page=489">
+Computational Photography</a></strong><br>
+    photo calibration<br>
+    high dynamic range imaging<br>
+    super-resolution, blur removal<br>
+    image matting, compositioning<br>
+    texture analysis, synthesis<br>
+    more<br>
+</div></div>
+
+<div class="card">
+  <div class="card-section">
+<strong><a href="https://szeliski.org/Book/#page=555">
+Stereo Correspondence</a></strong><br>
+    epipolar geometry<br>
+    sparse correspondence<br>
+    dense correspondence<br>
+    local methods<br>
+    global optimization<br>
+    multiview stereo<br>
+    more<br>
+</div></div>
+
+<div class="card">
+  <div class="card-section">
+<strong><a href="https://szeliski.org/Book/#page=599">
+3D Reconstruction</a></strong><br>
+    shape from x<br>
+    active rangefinding<br>
+    surface representations<br>
+    point-based repr.<br>
+    volumetric repr.<br>
+    model-based reconstruction<br>
+    texture maps, albedos<br>
+    more<br>
+</div></div>
+
+<div class="card">
+  <div class="card-section">
+<strong><a href="https://szeliski.org/Book/#page=641">
+Rendering</a></strong><br>
+    view interpolation<br>
+    layered depth images<br>
+    light fields, lumigraphs<br>
+    environment mattes<br>
+    video-based rendering<br>
+    more<br>
+</div></div>
+
+<div class="card">
+  <div class="card-section">
+<strong><a href="https://szeliski.org/Book/#page=677">
+Recognition</a></strong><br>
+    object detection<br>
+    face recognition<br>
+    instance recog.<br>
+    category recog.<br>
+    context/scene understanding<br>
+    recognition datasets<br>
+    more<br>
+</div></div>
+
+<div class="card">
+  <div class="card-section">
+<strong><a href="https://szeliski.org/Book/#page=753">
+Conclusion</a></strong><br>
+</div></div>
+
+<div class="card">
+  <div class="card-section">
+<strong><a href="https://szeliski.org/Book/#page=757">
+Linear Algebra / Numericals</a></strong><br>
+    matrix decomposition<br><br>
+    linear least squares<br>
+    non-linear LS<br>
+    direct sparse matrix math<br><br>
+    iterative algos<br><br>
+</div></div>
+
+<div class="card">
+  <div class="card-section">
+<strong><a href="https://szeliski.org/Book/#page=777">
+Bayesian Modeling & Inference</a></strong><br>
+    estimation theory<br>
+    max likelihood est & LS<br>
+    robust stats<br>
+    prior models, bayes inference<br>
+    markov random fields<br>
+    uncertainty estimation<br>
+</div></div>
+
+<div class="card">
+  <div class="card-section">
+<strong><a href="https://szeliski.org/Book/#page=799">
+Supplementary Material</a></strong><br>
+    datasets<br>
+    software<br>
+    slides,lectures<br>
+    bibliography<br>
+</div></div>
+
+</div>
+
+        </div>
+
+      </div>
+
+      <hr><footer>
+
+  <a href="/feed.xml">
+    <svg>
+      <use href="/assets/minima-social-icons.svg#rss"></use>
+    </svg></a>
+
+</footer>
+</div><!-- Compressed JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/js/foundation.min.js" 
+  integrity="sha256-pRF3zifJRA9jXGv++b06qwtSqX1byFQOLjqa2PTEb2o=" 
+  crossorigin="anonymous"></script>
+  
+</body>
+</html>

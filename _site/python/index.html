@@ -1,0 +1,1138 @@
+<html lang="en"><!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="http://localhost:4000/favicon-32x32.png" /><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Python | Obviously Awesome</title>
+<meta name="generator" content="Jekyll v3.9.2" />
+<meta property="og:title" content="Python" />
+<meta name="author" content="Brian Piercy" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Brian Piercy’s collection of bookmark esoterica." />
+<meta property="og:description" content="Brian Piercy’s collection of bookmark esoterica." />
+<link rel="canonical" href="http://localhost:4000/python/" />
+<meta property="og:url" content="http://localhost:4000/python/" />
+<meta property="og:site_name" content="Obviously Awesome" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Python" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Brian Piercy"},"description":"Brian Piercy’s collection of bookmark esoterica.","headline":"Python","url":"http://localhost:4000/python/"}</script>
+<!-- End Jekyll SEO tag -->
+<!-- Compressed CSS -->
+  <link rel="stylesheet" 
+  href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation.min.css" 
+  integrity="sha256-ogmFxjqiTMnZhxCqVmcqTvjfe1Y/ec4WaRj/aQPvn+I=" 
+  crossorigin="anonymous"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Obviously Awesome" /></head>
+<body>
+    <div class="grid-container fluid">
+
+      <div class="grid-x">     
+
+        <div class="text-left">
+          <h1><a href="/">Obviously Awesome</a></h1><form action="https://google.com/search" type="GET">
+  <div class="input-group">
+  	<input class="input-group-field" 
+        type="search" name="q" value="site search (Google)" onfocus=this.value=''>
+    <div class="input-group-button">
+      <input type="submit" class="button" value="Go">
+    </div>
+  </div>
+</form>
+
+<script>
+var form = document.querySelector("form");
+
+form.addEventListener("submit", function (e) {
+  e.preventDefault();
+  var search = form.querySelector("input[type=search]");
+  search.value = "site:bjpcjp.github.io " + search.value;
+  form.submit();
+});
+</script>
+ </div>
+
+      </div>
+
+      <div class="grid-x">     
+
+        <div class="cell small-4 medium-3 large-2"><ul class="vertical menu"><li>
+          <a href="/posts-by-tag.html">
+            Posts by Tag</a></li><li>
+          <a href="/behaviors/">
+            Behaviors</a></li><li>
+          <a href="/math/">
+            Math</a></li><li>
+          <a href="/devops.html">
+            DevOps &amp; Linux</a></li><li>
+          <a href="/gametheory/">
+            Game Theory</a></li><li>
+          <a href="/golang.html">
+            Golang</a></li><li>
+          <a href="/ideas.html">
+            Ideas</a></li><li>
+          <a href="/language/">
+            Language</a></li><li>
+          <a href="/prodmgmt/">
+            Prod Mgmt</a></li><li>
+          <a href="/python/">
+            Python</a></li><li>
+          <a href="/ruby.html">
+            Ruby</a></li><li>
+          <a href="/semiconductors.html">
+            Chips</a></li><li>
+          <a href="/uiux/">
+            UI/UX</a></li><li>
+          <a href="/webdev/">
+            Web Dev Tools</a></li><li>
+          <a href="/all-posts.html">
+            Index</a></li></ul></div>
+        
+        <div class="cell small-8 medium-9 large-10">
+          <h2>Python Libraries:</h2>
+
+<div class="callout primary">
+    <big>Tags:</big> &nbsp; &nbsp;
+        <a href="#stdlib">StdLib</a> &nbsp; &nbsp;
+        <a href="#numpy">NumPy</a> &nbsp; &nbsp;
+        <a href="#pandas">Pandas</a> &nbsp; &nbsp;
+        <a href="#stats">Statistics</a> &nbsp; &nbsp;
+        <a href="#scipy">SciPy</a> &nbsp; &nbsp;
+        <a href="#features">Feature Engineering</a> &nbsp; &nbsp;
+        <a href="#ml">Machine Learning</a> &nbsp; &nbsp;
+        <a href="#image">Scikit-Image</a> &nbsp; &nbsp;
+        <a href="#nlp">Natural Language Processing</a> &nbsp; &nbsp;
+        <a href="#tensorflow">TensorFlow</a> &nbsp; &nbsp;
+        <a href="#pytorch">PyTorch</a> &nbsp; &nbsp;
+        <a href="#viz">Visualization (Matplotlib, Seaborn, ...)</a> &nbsp; &nbsp;
+        <a href="#sympy">Symbolics (SymPy)</a> &nbsp; &nbsp;
+        <a href="#opts">Optimization (Numba, Cython)</a> &nbsp; &nbsp;
+        <a href="#utils">Utilities</a> &nbsp; &nbsp;
+</div>
+
+<h2 id="stdlib">Standard Library:</h2><div style="columns: 2;"><div class="card">
+                <div class="card-divider"><a href="https://docs.python.org/3.8/library/unix.html"> 
+                            OS tools (unix)
+                        </a></div>
+
+                <div class="card-section">posix, pwd, spwd, grp, crypt, termios, tty, pty, fcntl, pipes, resource, nis, syslog</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://docs.python.org/3.8/library/windows.html"> 
+                            OS tools (windows)
+                        </a></div>
+
+                <div class="card-section">msilib, msvcrt, winreg, winsound</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://docs.python.org/3.8/library/allos.html"> 
+                            base OS services
+                        </a></div>
+
+                <div class="card-section">os, io, time, argparse, getopt, logging, getpass, curses, platform, error, ctypes</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://docs.python.org/3.8/library/binary.html"> 
+                            binary data services
+                        </a></div>
+
+                <div class="card-section">struct, codecs</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://docs.python.org/3.8/library/concurrency.html"> 
+                            concurrency
+                        </a></div>
+
+                <div class="card-section">threads, multiprocessing, concurrent, subprocess, sched, queue, _thread, _dummy_thread</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://docs.python.org/3.8/library/constants.html"> 
+                            constants
+                        </a></div>
+
+                <div class="card-section"></div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://docs.python.org/3.8/library/contextvars.html"> 
+                            context variables
+                        </a></div>
+
+                <div class="card-section"></div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://docs.python.org/3.8/library/crypto.html"> 
+                            crypto
+                        </a></div>
+
+                <div class="card-section">hashlib, hmac, secrets</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://docs.python.org/3.8/library/custominterp.html"> 
+                            custom interpreters
+                        </a></div>
+
+                <div class="card-section">code, codeop</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://docs.python.org/3.8/library/datatypes.html"> 
+                            datatypes (more)
+                        </a></div>
+
+                <div class="card-section">datetime, calendar, collections, heapq, bisect, array, weakref, types, copy, pprint, reprlib, enum</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://docs.python.org/3.8/library/stdtypes.html"> 
+                            datatypes (std)
+                        </a></div>
+
+                <div class="card-section">boolean, comparisons, numerics, iterators, sequences, text sequences, binary sequences, sets, maps, context managers, more</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://docs.python.org/3.8/library/debug.html"> 
+                            debugging, profiling
+                        </a></div>
+
+                <div class="card-section">bdb, faulthandler, pdb, profilers, timeit, trace, tracemalloc<br> <a href="https://martinheinz.dev/blog/24">martin heinz tutorial</a></div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://docs.python.org/3.8/library/development.html"> 
+                            dev tools
+                        </a></div>
+
+                <div class="card-section">typing, pydoc, doctest, unittest, 2to3, test</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://docs.python.org/3.8/library/exceptions.html"> 
+                            exceptions
+                        </a></div>
+
+                <div class="card-section">basics, concrete exceptions, warnings, hierarchy</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://docs.python.org/3.8/library/archiving.html"> 
+                            file compress/archive
+                        </a></div>
+
+                <div class="card-section">zlib, gzip, bz2, lzma, zipfile, tarfile</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://docs.python.org/3.8/library/fileformats.html"> 
+                            file formats
+                        </a></div>
+
+                <div class="card-section">csv, configparser, netrc, xdrlib, plistlib</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://docs.python.org/3.8/library/persistence.html"> 
+                            file load/store
+                        </a></div>
+
+                <div class="card-section">pickle, copyreg, shelve, marshal, dbm, sqlite3</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://docs.python.org/3.8/library/filesys.html"> 
+                            files & directories
+                        </a></div>
+
+                <div class="card-section">pathlib, os.path, fileinput, stat, filecmp, tempfile, glob, fnmatch, linecache, shutil</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://docs.python.org/3.8/library/frameworks.html"> 
+                            frameworks
+                        </a></div>
+
+                <div class="card-section">turtle, cmd, shlex</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://docs.python.org/3.8/library/functional.html"> 
+                            functionals
+                        </a></div>
+
+                <div class="card-section">itertools, functools, operators</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://docs.python.org/3.8/library/functions.html"> 
+                            functions
+                        </a></div>
+
+                <div class="card-section"></div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://docs.python.org/3.8/library/i18n.html"> 
+                            internationalization
+                        </a></div>
+
+                <div class="card-section">gettext, locale</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://docs.python.org/3.8/library/internet.html"> 
+                            internet protocols
+                        </a></div>
+
+                <div class="card-section">webbrowser, cgi, cgitb, wegiref, urllib, http, ftplib, poplib, imaplib, nntplib, smtplib, smtpd, telnetlib, uuid, socketserver, http.server, http.cookies, xmlrpc, ipaddress</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://docs.python.org/3.8/library/language.html"> 
+                            language-level services
+                        </a></div>
+
+                <div class="card-section">parser, ast, symtable, symbol, token, keyword, tokenize, tabnanny, pyrlbr, py_compile, compileall, diss, pickletools</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://docs.python.org/3.8/library/markup.html"> 
+                            markup
+                        </a></div>
+
+                <div class="card-section">html, xml</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://docs.python.org/3.8/library/misc.html"> 
+                            miscellaneous (formatter)
+                        </a></div>
+
+                <div class="card-section"></div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://docs.python.org/3.8/library/modules.html"> 
+                            modules (importing)
+                        </a></div>
+
+                <div class="card-section">zipimport, pkgutil, modulefinder, runpy, importlib</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://docs.python.org/3.8/library/mm.html"> 
+                            multimedia
+                        </a></div>
+
+                <div class="card-section">audioop, aifc, sunau, wave, chunk, colorsys, imghdr, sndhdr, ossaudiodev</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://docs.python.org/3.8/library/netdata.html"> 
+                            network data
+                        </a></div>
+
+                <div class="card-section">email, json, mailcap, mailbox, mimetypes, base64, binhex, binascii, quopri, uu</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://docs.python.org/3.8/library/ipc.html"> 
+                            networking
+                        </a></div>
+
+                <div class="card-section">asyncio, socket, ssl, select, selectors, asyncore asynchat, signal, mmap</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://docs.python.org/3.8/library/numeric.html"> 
+                            numbers
+                        </a></div>
+
+                <div class="card-section">numbers, math, cmath, decimal, fractions, random, statistics</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://docs.python.org/3.8/library/distribution.html"> 
+                            packages
+                        </a></div>
+
+                <div class="card-section">disutils, ensurepip, venv, zipapp</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://docs.python.org/3.8/library/python.html"> 
+                            runtimes
+                        </a></div>
+
+                <div class="card-section">sys, sysconfig, builtins, __main__, warnings, dataclasses, contextlib, abc, atexit, traceback, __future__, gc, inspect, site</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://docs.python.org/3.8/library/superseded.html"> 
+                            superseded
+                        </a></div>
+
+                <div class="card-section">optparse, imp</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://docs.python.org/3.8/library/tk.html"> 
+                            tk GUIs
+                        </a></div>
+
+                <div class="card-section">tkinter, more...</div>
+            </div></div>
+<br><h2 id="numpy">NumPy:</h2><div style="columns: 2;"><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/Numeric-Python/blob/master/ch02-vectors-matrices-ndarrays.ipynb"> 
+                            basics
+                        </a></div>
+
+                <div class="card-section">datatypes, typecasting, promoting, complex numbers, memory, arrays, indexes, slices, views, fancy indexing, boolean indexing, reshaping, merging, vectorization, math ops, aggregate ops, boolean arrays, conditionals, logic, set ops, matrix ops</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://numpy.org/"> 
+                            home page
+                        </a></div>
+
+                <div class="card-section"></div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/python-data-science-handbook/tree/master/numpy"> 
+                            intermediate
+                        </a></div>
+
+                <div class="card-section">arrays, boolean arrays, masking, broadcasting, fancy indexes, sorting, structured data, aggregations, ufuncs, datatypes</div>
+            </div></div>
+<br><h2 id="pandas">Pandas:</h2><div style="columns: 2;"><div class="card">
+                <div class="card-divider"><a href="https://towardsdatascience.com/search?q=pandas"> 
+                            articles
+                        </a></div>
+
+                <div class="card-section">TDS article search</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/Numeric-Python/blob/master/ch12-data-analysis-pandas-seaborn.ipynb"> 
+                            basics
+                        </a></div>
+
+                <div class="card-section">series, dataFrames, time series</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://pandas.pydata.org/"> 
+                            home page
+                        </a></div>
+
+                <div class="card-section"></div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/python-data-science-handbook/tree/master/pandas"> 
+                            intermediate
+                        </a></div>
+
+                <div class="card-section">aggregations, groups, concat/append, hierarchical indexes, merge/join, missing values, pivot tables, time series, vectorized objects</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/pandas-tips-tricks/blob/master/pandas-tips-tricks.ipynb"> 
+                            tips & tricks
+                        </a></div>
+
+                <div class="card-section">date ranges, merges, save to excel, file compression, histograms, pdfs, cdfs, least squares, timing, display options, pandas 1.0 features</div>
+            </div></div>
+<br><h2 id="stats">Statistics:</h2><div style="columns: 2;"><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/Numeric-Python/blob/master/ch16-bayes-statistics.ipynb"> 
+                            statistics - Bayes
+                        </a></div>
+
+                <div class="card-section">normal distribution, dependent variables, posterior distributions, linear regression, multilevel models</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/Numeric-Python/blob/master/ch13-statistics.ipynb"> 
+                            statistics - basics
+                        </a></div>
+
+                <div class="card-section">random numbers, distributions, hypothesis testing, kernel density estimation</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/Numeric-Python/blob/master/ch14-statistical-modeling.ipynb"> 
+                            statsmodel, patsy
+                        </a></div>
+
+                <div class="card-section">patsy, categorical variables, linear regression, discrete & logistic regression, poisson distribution, time series</div>
+            </div></div>
+<br><h2 id="scipy">Scientific Computation with SciPy:</h2><div style="columns: 2;"><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/Numeric-Python/blob/master/ch09-ordinary-differential-equations.ipynb"> 
+                            Ordinary DiffEqtns
+                        </a></div>
+
+                <div class="card-section">symbolic solutions, directional field graphs, laplace transforms, numerical methods, numerical integration</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/Numeric-Python/blob/master/ch11-partial-differential-equations.ipynb"> 
+                            Partial DiffEqtns
+                        </a></div>
+
+                <div class="card-section">--NOT WORKING YET--</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/Numeric-Python/blob/master/ch08-integration.ipynb"> 
+                            integration
+                        </a></div>
+
+                <div class="card-section">simpson's rule, multiple integration, scikit-monaco, symbolic/multiprecision quadrature, laplace transforms, fourier transforms</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/Numeric-Python/blob/master/ch07-interpolation.ipynb"> 
+                            interpolation
+                        </a></div>
+
+                <div class="card-section">polynomials, splines, multivariates</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/Numeric-Python/blob/master/ch17-signal-processing.ipynb"> 
+                            signal processing
+                        </a></div>
+
+                <div class="card-section">spectral analysis, fourier transforms, frequency-domain filters, windowing, spectrograms, convolutions, FIRs, IIRs</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/Numeric-Python/blob/master/ch10-sparse-matrices-graphs.ipynb"> 
+                            sparse matrices & graphs
+                        </a></div>
+
+                <div class="card-section">sparse matrices, sparse linear algebra, eigenvalue problems, graphs & networks</div>
+            </div></div>
+<br><h2 id="features">Feature Engineering:</h2><div style="columns: 2;"><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/scikit-learn-0.24/blob/master/61_composite_transformers.ipynb"> 
+                            composite estimators
+                        </a></div>
+
+                <div class="card-section">setup, tips, caching, regression target transforms</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/scikit-learn-0.24/blob/master/64_imputation.ipynb"> 
+                            data imputation
+                        </a></div>
+
+                <div class="card-section">univariate, multivariate, nearest-neighbor, marking imputed values</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/scikit-learn-0.24/blob/master/71_example_datasets.ipynb"> 
+                            dataset utilities
+                        </a></div>
+
+                <div class="card-section">iris, digits, cal housing, labeled faces, 20 newsgroups, (more)</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/python-data-science-handbook/blob/master/scikit/SciKit-Feature-Engineering.ipynb"> 
+                            feature engineering intro
+                        </a></div>
+
+                <div class="card-section">one-hot encoding, word counts, tf-idf, linear-to-polynomial, missing data, pipelines</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/Numeric-Python/blob/master/ch18-data-input-output.ipynb"> 
+                            file i/o
+                        </a></div>
+
+                <div class="card-section">CSV, HDF5, h5py, pytables, hdfstore, JSON, serialization, pickle issues</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/scikit-learn-0.24/blob/master/63_preprocessing.ipynb"> 
+                            preprocessing
+                        </a></div>
+
+                <div class="card-section">mean removal, variance scaling, sparse scaling, outlier scaling, distribution maps, normalization, category coding, binning, binarization, polynomial features.</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/scikit-learn-0.24/blob/master/66_random_projections.ipynb"> 
+                            random projections
+                        </a></div>
+
+                <div class="card-section"></div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/scikit-learn-0.24/blob/master/62a_text_feature_extraction.ipynb"> 
+                            text feature extraction
+                        </a></div>
+
+                <div class="card-section">bag of words, sparsity, vectorizers, stop words, tf-idf, decoding, applications, limits, the hashing trick, out-of-core ops</div>
+            </div></div>
+<br><h2 id="ml">Machine Learning:</h2><div style="columns: 2;"><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/scikit-learn-0.24/blob/master/README.md"> 
+                            README
+                        </a></div>
+
+                <div class="card-section"></div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/scikit-learn-0.24/blob/master/24_biclustering.ipynb"> 
+                            biclustering
+                        </a></div>
+
+                <div class="card-section">spectral co-clustering, spectral bi-clustering</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/scikit-learn-0.24/blob/master/16_calibration_curves.ipynb"> 
+                            calibration curves
+                        </a></div>
+
+                <div class="card-section"></div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/scikit-and-tensorflow-workbooks/blob/master/ch03-classification.ipynb"> 
+                            classification
+                        </a></div>
+
+                <div class="card-section">MNIST, metrics, confusion matrix, precision & recall, ROC, multiple classes, error analysis, multiple labels, multiple outputs</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/scikit-learn-0.24/blob/master/14_unsupervised.ipynb"> 
+                            classification (semi-supervised)
+                        </a></div>
+
+                <div class="card-section">label propagation</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/scikit-learn-0.24/blob/master/33a_classification_metrics.ipynb"> 
+                            classification metrics
+                        </a></div>
+
+                <div class="card-section"></div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/scikit-learn-0.24/blob/master/23_clustering.ipynb"> 
+                            clustering
+                        </a></div>
+
+                <div class="card-section">overview, k-means, affinity propagation, mean shift, spectral, hierarchical, dbscan, optics, birch, metrics</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/scikit-learn-0.24/blob/master/25_component_analysis_matrix_factorization.ipynb"> 
+                            component analysis
+                        </a></div>
+
+                <div class="card-section"></div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/python-data-science-handbook/blob/master/scikit/SciKit-Principal-Component-Analysis.ipynb"> 
+                            component analysis
+                        </a></div>
+
+                <div class="card-section">intro, random projections, feature agglomeration, dimensional reduction, noise filter, eigenfaces</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/scikit-learn-0.24/blob/master/61_composite_transformers.ipynb"> 
+                            composite transformers
+                        </a></div>
+
+                <div class="card-section">pipeline, feature union</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/scikit-learn-0.24/blob/master/83_parallelism.ipynb"> 
+                            computation performance / parallelism
+                        </a></div>
+
+                <div class="card-section"></div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/scikit-learn-0.24/blob/master/81_scaling.ipynb"> 
+                            computation performance / scaling
+                        </a></div>
+
+                <div class="card-section"></div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/scikit-learn-0.24/blob/master/82_performance.ipynb"> 
+                            computation performance / use-cases
+                        </a></div>
+
+                <div class="card-section"></div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/scikit-learn-0.24/blob/master/26_covariance.ipynb"> 
+                            covariance
+                        </a></div>
+
+                <div class="card-section">empirical, shrunk, sparse invariance, robust estimation</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/scikit-learn-0.24/blob/master/08_cross_decomposition.ipynb"> 
+                            cross decomposition
+                        </a></div>
+
+                <div class="card-section">PLS, CCA</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/scikit-learn-0.24/blob/master/31_cross_validation.ipynb"> 
+                            cross validation
+                        </a></div>
+
+                <div class="card-section">user guide, ROC curves, K-fold, LvO, LpO, stratified, shuffled, group-K-fold</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/scikit-learn-0.24/blob/master/71_example_datasets.ipynb"> 
+                            datasets (toys)
+                        </a></div>
+
+                <div class="card-section"></div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/scikit-learn-0.24/blob/master/73_artificial_data_generators.ipynb"> 
+                            datasets - artificial data generators
+                        </a></div>
+
+                <div class="card-section"></div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/scikit-learn-0.24/blob/master/74_other_datasets.ipynb"> 
+                            datasets - other sources
+                        </a></div>
+
+                <div class="card-section"></div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/scikit-learn-0.24/blob/master/10_decision_trees.ipynb"> 
+                            decision trees
+                        </a></div>
+
+                <div class="card-section">training, viz, predictions, CART, gini vs entropy, regularization</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/scikit-cribsheet/blob/master/sklearn_ug_v21_decision_trees.ipynb"> 
+                            decision trees (more)
+                        </a></div>
+
+                <div class="card-section">classification, regression, multiple outputs, complexity, tips, algos (ID3, C4.5, C5.0, CART), math, minimal cost-complexity pruning</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/python-data-science-handbook/blob/master/scikit/SciKit-Kernel-Density-Estimation.ipynb"> 
+                            density estimation
+                        </a></div>
+
+                <div class="card-section">histograms, spherical KDEs, custom estimators</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/scikit-learn-0.24/blob/master/28_density_estimation.ipynb"> 
+                            density estimation
+                        </a></div>
+
+                <div class="card-section"></div>
+            </div><div class="card">
+                <div class="card-divider"><a href="http://localhost:4000/pdfs/scikit-0.22.1/scikit-guide-0.22.1-utilities-dev.pdf"> 
+                            dev tools
+                        </a></div>
+
+                <div class="card-section">validation, linear algebra, arrays, random sampling, graphs, testing, multiclass/multilabel, helpers, hashes, warnings, exceptions</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/scikit-and-tensorflow-workbooks/blob/master/ch08-dimensionality-reduction.ipynb"> 
+                            dimensionality reduction
+                        </a></div>
+
+                <div class="card-section">curse of dimensionality, projections, manifolds, PCA, explained variance, choosing dimensions, PCA for compression, incremental PCA, randomized PCA, kernel PCA, selecting a kernel, LLE, MDS, isomap, t-SNE, LDA</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/scikit-learn-0.24/blob/master/02_discriminant_analysis.ipynb"> 
+                            discriminant analysis
+                        </a></div>
+
+                <div class="card-section">dimensionality reduction, LDA, math, shrinkage, estimators</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/scikit-learn-0.24/blob/master/68_pairwise_ops.ipynb"> 
+                            distance and similarity metrics
+                        </a></div>
+
+                <div class="card-section">cosine similarity, kernels (linear, polynomial, sigmoid, RBF, laplacian, chisqd)</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/scikit-learn-0.24/blob/master/11a_bagging_trees.ipynb"> 
+                            ensembles (bagging)
+                        </a></div>
+
+                <div class="card-section"></div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/scikit-learn-0.24/blob/master/11b_boosting.ipynb"> 
+                            ensembles (boosting)
+                        </a></div>
+
+                <div class="card-section"></div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/scikit-learn-0.24/blob/master/11d_general_stacking.ipynb"> 
+                            ensembles (general stacking)
+                        </a></div>
+
+                <div class="card-section"></div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/scikit-learn-0.24/blob/master/11c_voting.ipynb"> 
+                            ensembles (voting)
+                        </a></div>
+
+                <div class="card-section"></div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/scikit-learn-0.24/blob/master/62_feature_extraction.ipynb"> 
+                            feature extraction (general)
+                        </a></div>
+
+                <div class="card-section"></div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/scikit-learn-0.24/blob/master/62b_image_patch_extraction.ipynb"> 
+                            feature extraction (image patches)
+                        </a></div>
+
+                <div class="card-section"></div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/scikit-learn-0.24/blob/master/62a_text_feature_extraction.ipynb"> 
+                            feature extraction (text)
+                        </a></div>
+
+                <div class="card-section"></div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/scikit-learn-0.24/blob/master/13_feature_selection.ipynb"> 
+                            feature selection
+                        </a></div>
+
+                <div class="card-section">low-variance features, univariate selection, recursive elimination, selecting from a model, pipeline ops</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/scikit-learn-0.24/blob/master/90_persistence.ipynb"> 
+                            file IO
+                        </a></div>
+
+                <div class="card-section"></div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/scikit-learn-0.24/blob/master/21_gaussian_mixtures.ipynb"> 
+                            gaussian mixtures
+                        </a></div>
+
+                <div class="card-section">expectation maximization (EM), confidence ellipsoids, bayes info criterion & n_clusters, covariance constraints (spherical, diagonal, tied, full), variational bayes (extension of EM)</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/scikit-learn-0.24/blob/master/07_gaussians.ipynb"> 
+                            gaussian processes
+                        </a></div>
+
+                <div class="card-section">regressions, classifiers, kernels</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/scikit-learn-0.24/blob/master/05_stochastic_gradient_descent.ipynb"> 
+                            gradient descent (stochastic)
+                        </a></div>
+
+                <div class="card-section">classification, regression, sparse data, complexity, stopping, tips, implementation</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/scikit-learn-0.24/blob/master/32_hyperparameters.ipynb"> 
+                            hyperparameters
+                        </a></div>
+
+                <div class="card-section">user guide, grid search, random parameters, tips, brute force alternatives</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/scikit-learn-0.24/blob/master/41_inspection_plots.ipynb"> 
+                            inspection plots
+                        </a></div>
+
+                <div class="card-section"></div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/scikit-learn-0.24/blob/master/67_kernel_approximation.ipynb"> 
+                            kernel approximations
+                        </a></div>
+
+                <div class="card-section">noestrem method, std kernels</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/scikit-learn-0.24/blob/master/01_linear_models.ipynb"> 
+                            linear models
+                        </a></div>
+
+                <div class="card-section">user guide, OLS, ridge regression, lasso, elastic net, LARS, OMP, bayes, ARD, passive-aggressive algos, robustness, ransac vs theil-sen vs huber, polynomial regression</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/scikit-learn-0.24/blob/master/01a_logistic_regression.ipynb"> 
+                            logistic regression
+                        </a></div>
+
+                <div class="card-section"></div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/scikit-learn-0.24/blob/master/22_manifolds.ipynb"> 
+                            manifolds
+                        </a></div>
+
+                <div class="card-section">hello, MDS, non-linear embeddings, tradeoffs, isomap on faces</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/scikit-cribsheet/blob/master/sklearn_ug_v21_manifolds.ipynb"> 
+                            manifolds (more)
+                        </a></div>
+
+                <div class="card-section">projections, PCA, principal components, MDS, locally linear embeddings (LLE), modified LLE, hessian eigenmaps, spectral embeddings, LTSA, t-SNE, isomap</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/scikit-cribsheet/blob/master/sklearn_ug_v21_matrix_decomposition.ipynb"> 
+                            matrix decomposition
+                        </a></div>
+
+                <div class="card-section">PCA, incremental PCA, kernel PCA, sparse PCA, dictionary learning, factor analysis, ICA, NNMF, LDA</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/scikit-learn-0.24/blob/master/33d_dummy_metrics.ipynb"> 
+                            metrics & scoring (dummy metrics)
+                        </a></div>
+
+                <div class="card-section"></div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/scikit-learn-0.24/blob/master/33_metrics.ipynb"> 
+                            metrics & scoring basics
+                        </a></div>
+
+                <div class="card-section"></div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/scikit-learn-0.24/blob/master/33b_multilabel_ranking_metrics.ipynb"> 
+                            multilabel ranking metrics
+                        </a></div>
+
+                <div class="card-section"></div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/scikit-learn-0.24/blob/master/12_multiclass_multioutput.ipynb"> 
+                            multilabel/multiclass
+                        </a></div>
+
+                <div class="card-section">label formats, OvR, OvO, ECCs, multiple outputs, classifier chains, regressor chains</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/scikit-learn-0.24/blob/master/17_perceptron.ipynb"> 
+                            multilayer perceptrons (MLPs)
+                        </a></div>
+
+                <div class="card-section">definition, as a classifier, as a regressor, regularization, loss functions, complexity, math, tips, warm_start</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/scikit-learn-0.24/blob/master/09_naive_bayes.ipynb"> 
+                            naive bayes
+                        </a></div>
+
+                <div class="card-section">gaussian, multinomial, complement, bernoulli, out-of-core</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/scikit-learn-0.24/blob/master/06_nearest_neighbors.ipynb"> 
+                            nearest neighbors
+                        </a></div>
+
+                <div class="card-section">unsupervised, KD trees, Ball trees, regressions, nearest centroids, NCA</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/scikit-learn-0.24/blob/master/27_novelties_outliers.ipynb"> 
+                            novelties & outliers
+                        </a></div>
+
+                <div class="card-section">definitions, methods, novelty detection, outlier detection, elliptic envelope, iso forest, local outlier factor, novelties with LOF</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/scikit-cribsheet/blob/master/sklearn_ug_v21_pairwise.ipynb"> 
+                            pairwise similarity metrics
+                        </a></div>
+
+                <div class="card-section">see list of kernels</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="http://localhost:4000/pdfs/scikit-0.22.1/scikit-guide-0.22.1-performance.pdf"> 
+                            performance tips
+                        </a></div>
+
+                <div class="card-section">python vs cython vs c, code profiling, memory profiling, cython tips, profiling compiled extensions, joblib.Parallel, warm_start</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/scikit-learn-0.24/blob/master/42_permutation_feature_importance.ipynb"> 
+                            permutation feature importance plots
+                        </a></div>
+
+                <div class="card-section"></div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/scikit-learn-0.24/blob/master/50a_ROC_curve_viz.ipynb"> 
+                            receiver operating char. (ROC) curves
+                        </a></div>
+
+                <div class="card-section"></div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/scikit-learn-0.24/blob/master/15_isotonic_regression.ipynb"> 
+                            regression (isotonic)
+                        </a></div>
+
+                <div class="card-section"></div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/scikit-learn-0.24/blob/master/03_kernel_ridge_regression.ipynb"> 
+                            regression (kernel ridge)
+                        </a></div>
+
+                <div class="card-section"></div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/scikit-learn-0.24/blob/master/33c_regression_metrics.ipynb"> 
+                            regression metrics
+                        </a></div>
+
+                <div class="card-section"></div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/scikit-learn-0.24/blob/master/29_restricted_boltzmann_machines.ipynb"> 
+                            restricted boltzmann machines (RBMs)
+                        </a></div>
+
+                <div class="card-section">parameters, bernoulli RBM, stochastic max likelihood learning</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/scikit-learn-0.24/blob/master/04_support_vector_machines.ipynb"> 
+                            support vector machines
+                        </a></div>
+
+                <div class="card-section">classification, regression, density estimates, novelty detection, complexity, tips, kernel functions, implementation</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/scikit-and-tensorflow-workbooks/blob/master/ch05-support-vector-machines.ipynb"> 
+                            support vector machines (more)
+                        </a></div>
+
+                <div class="card-section">classification (linear), classification (nonlinear), polynomial features, the kernel trick, similarity functions, gaussian RBF kernels, regression</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/scikit-learn-0.24/blob/master/34_validation_learning_curves.ipynb"> 
+                            validation & learning curves
+                        </a></div>
+
+                <div class="card-section">validation curves, learning curves</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/scikit-learn-0.24/blob/master/50c_display_objects.ipynb"> 
+                            viz/display objects
+                        </a></div>
+
+                <div class="card-section"></div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/scikit-learn-0.24/blob/master/50b_partial_dependence_viz.ipynb"> 
+                            viz/partial dependence plots
+                        </a></div>
+
+                <div class="card-section"></div>
+            </div></div>
+<br><h2 id="images">Image Processing:</h2><div style="columns: 2;"><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/scikit-image-tutorial/blob/master/gallery/image-data.ipynb"> 
+                            data library
+                        </a></div>
+
+                <div class="card-section"></div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/scikit-image-tutorial/blob/master/gallery/developers.ipynb"> 
+                            developer examples
+                        </a></div>
+
+                <div class="card-section">LI thresholds, max trees</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/scikit-image-tutorial/blob/master/gallery/edges-lines.ipynb"> 
+                            edges & lines
+                        </a></div>
+
+                <div class="card-section">contours, convex hulls, canny edge detectors, matching cubes, ridge ops, active contour model, shapes, hough transforms, skeletonize, polygon ops, edges,</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/scikit-image-tutorial/blob/master/gallery/exposure-colors.ipynb"> 
+                            exposures & color channels
+                        </a></div>
+
+                <div class="card-section">RGB to grayscale, RGB to HSV, histogram matching, histogram equalization, cell stain color separation, grayscale filters & RGB images, regional maxima, gamma & log contract adjustments, tinting</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/scikit-image-tutorial/blob/master/gallery/feature-object-detection.ipynb"> 
+                            feature & object detection
+                        </a></div>
+
+                <div class="card-section">DAISY, template matching, corner detection, filling holes, finding peaks, CENSURE, gabor filters, ORB, shape indexes, sliding window histograms, texture classification</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/scikit-image-tutorial/blob/master/gallery/filtering-restoration.ipynb"> 
+                            filters, restoration
+                        </a></div>
+
+                <div class="card-section">hysteresis thresholds, image deconvolution, mean filters, unsharp masks, inpainting, entropy, denoising, wavelets, phase unwrapping, attribute operators</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://scikit-image.org/"> 
+                            home page & user guide
+                        </a></div>
+
+                <div class="card-section">crash course, image datatypes, image adjustments, video files, basic tutorials</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/scikit-image-tutorial/blob/master/gallery/longform.ipynb"> 
+                            longform examples
+                        </a></div>
+
+                <div class="card-section">cascade classifiers, edge- vs region-based segmentation, image compression, rank filters</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/scikit-image-tutorial/blob/master/gallery/numpy-operations.ipynb"> 
+                            numpy basics
+                        </a></div>
+
+                <div class="card-section"></div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/scikit-image-tutorial/blob/master/gallery/object-segmentation.ipynb"> 
+                            object segmentation
+                        </a></div>
+
+                <div class="card-section">normalized cut, RAGs, thresholding, watershedding, local maxima, image region labels, flood fills, morphological snakes</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/scikit-image-tutorial/blob/master/gallery/transforms-registration.ipynb"> 
+                            transforms & registration
+                        </a></div>
+
+                <div class="card-section">swirl, image pyramids, rescale, resize, downscale, piecewise affine transforms, structural similarities, phase correlation, polar, log-polar transforms, line model estimation, radon transforms</div>
+            </div></div>
+<br><h2 id="nlp">Natural Language Processing (NLP):</h2><div style="columns: 2;"><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/gensim-lessons"> 
+                            GenSim 101
+                        </a></div>
+
+                <div class="card-section">similarity queries, text summaries, distance metrics, LDA, Annoy, PDLN, doc2vec, word mover, fasttext</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/NLP_workshop/blob/master/NLP_demo.ipynb"> 
+                            NLTK 101
+                        </a></div>
+
+                <div class="card-section">data cleanup, bag of words, classifier fit, metrics, feature pareto, tf-idf, semantic meanings, CNN</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/spaCy_hello_world/blob/master/spaCy_101.ipynb"> 
+                            SpaCy 101
+                        </a></div>
+
+                <div class="card-section">tokens, POS tags, dependency parsing, lemmas, sentence boundaries, named entities, similarity, text classification, rule-based matches, training, serialization</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/textrank_text_summarization, similarity matrix, cosine similarity, networkx (graphs)"> 
+                            TextRank demo
+                        </a></div>
+
+                <div class="card-section">tokenizization, stopwords, GloVe embeddings,</div>
+            </div></div>
+<br><h2 id="tensorflow">Deep Learning with Tensorflow:</h2><div style="columns: 2;"><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/scikit-and-tensorflow-workbooks/blob/master/ch11-DNN-training.ipynb"> 
+                            DNNs
+                        </a></div>
+
+                <div class="card-section">gradients, activation functions, batch normalization, gradient clipping, model reuse, layer freeze & cache, model zoos, regularization</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/scikit-and-tensorflow-workbooks/blob/master/ch14-Recurrent-NNs.ipynb"> 
+                            RNNs
+                        </a></div>
+
+                <div class="card-section">intro, sequences, unrolling, simplification, training, deep RNNs, LSTMs, GRU cells, NLP basics</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/scikit-and-tensorflow-workbooks/blob/master/ch15-autoencoders.ipynb"> 
+                            autoencoders (AEs)
+                        </a></div>
+
+                <div class="card-section">intro, stacked AEs, tying weights, reconstructions</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/scikit-and-tensorflow-workbooks/blob/master/ch13-convolutional-NNs.ipynb"> 
+                            convolutional neural nets (CNNs)
+                        </a></div>
+
+                <div class="card-section">layers, filters, map stacking, padding & pooling, architectures</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/scikit-and-tensorflow-workbooks/blob/master/ch09-tensorflow-setup.ipynb"> 
+                            intro
+                        </a></div>
+
+                <div class="card-section">installation, graphs, gradient descent, momentum, model save-restore, visualization, tensorboard, sharing variables</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/scikit-and-tensorflow-workbooks/blob/master/ch10-neural-nets.ipynb"> 
+                            neural nets
+                        </a></div>
+
+                <div class="card-section">perceptrons, MLPs, backprop, training,</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/scikit-and-tensorflow-workbooks/blob/master/ch16-reinforcement-learning.ipynb"> 
+                            reinforcement learning (RL)
+                        </a></div>
+
+                <div class="card-section">openAI gym, policies, markov decision processes, q-learning</div>
+            </div></div>
+<br><h2 id="pytorch">Deep Learning with PyTorch:</h2><div style="columns: 2;"><div class="card">
+                <div class="card-divider"><a href="https://pytorch.org/tutorials/beginner/blitz/tensor_tutorial.html"> 
+                            60 minute intro
+                        </a></div>
+
+                <div class="card-section">tensors, numpy arrays, cuda, autograd, gradients, neural net design, loss functions, backprop, weight updates, training, CNN definition, testing, GPU training, parallelism</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://pytorch.org/tutorials/beginner/data_loading_tutorial.html"> 
+                            data loading
+                        </a></div>
+
+                <div class="card-section"></div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://pytorch.org/tutorials/intermediate/tensorboard_tutorial.html"> 
+                            tensorboard
+                        </a></div>
+
+                <div class="card-section"></div>
+            </div></div>
+<br><h2 id="viz">Visualization Tools:</h2><div style="columns: 2;"><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/category-scatterplot/blob/master/demo.ipynb"> 
+                            category scatter plots
+                        </a></div>
+
+                <div class="card-section"></div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/Numeric-Python/blob/master/ch04-plotting-visualization.ipynb"> 
+                            matplotlib tutorial
+                        </a></div>
+
+                <div class="card-section"></div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/python-data-science-handbook/tree/master/seaborn"> 
+                            seaborn - pokemon tutorial
+                        </a></div>
+
+                <div class="card-section"></div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://seaborn.pydata.org/examples/index.html"> 
+                            seaborn gallery
+                        </a></div>
+
+                <div class="card-section">LOTs of plot types</div>
+            </div></div>
+<br><h2 id="sympy">Symbolic Computation:</h2><div style="columns: 2;"><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/Numeric-Python/blob/master/ch03-symbolic-math-with-sympy.ipynb"> 
+                            equation solvers
+                        </a></div>
+
+                <div class="card-section">square vs rectangular, eigenvalues, nonlinear equations, univariate equations</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/Numeric-Python/blob/master/ch03-symbolic-math-with-sympy.ipynb"> 
+                            intro
+                        </a></div>
+
+                <div class="card-section">symbols, numbers, rationals, constants, functions, expressions, simplification, expansion, factor, collect, combine, apart, together, cancel, substitutions, evaluations, calculus, sums, products, equations, linear algebra</div>
+            </div></div>
+<br><h2 id="opts">Optimization:</h2><div style="columns: 2;"><div class="card">
+                <div class="card-divider"><a href="https://numba.pydata.org/numba-doc/dev/user/5minguide.html"> 
+                            intro
+                        </a></div>
+
+                <div class="card-section">installation, will it work?, nopython, performance, under the hood, @decorators, groups</div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/Numeric-Python/blob/master/ch19-optimization.ipynb"> 
+                            optimization basics
+                        </a></div>
+
+                <div class="card-section">numba, numba.vectorize, cython, tips & tricks, cython & C</div>
+            </div></div>
+<br><h2 id="utils">Various Utilities:</h2><div style="columns: 2;"><div class="card">
+                <div class="card-divider"><a href="https://https//github.com/bjpcjp/camelot-excalibur-pdf-table-extractor"> 
+                            PDF table extraction
+                        </a></div>
+
+                <div class="card-section"></div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://www.postgresqltutorial.com/postgresql-python/"> 
+                            postgres tutorial
+                        </a></div>
+
+                <div class="card-section"></div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/fb-prophet/blob/master/01_docs.ipynb"> 
+                            prophet (FB time series prediction)
+                        </a></div>
+
+                <div class="card-section"></div>
+            </div><div class="card">
+                <div class="card-divider"><a href="https://github.com/bjpcjp/pycaret-intro/blob/master/01_intro.ipynb"> 
+                            pycaret (multi-model ML)
+                        </a></div>
+
+                <div class="card-section"></div>
+            </div></div>
+<br>
+        </div>
+
+      </div>
+
+      <hr><footer>
+
+  <a href="/feed.xml">
+    <svg>
+      <use href="/assets/minima-social-icons.svg#rss"></use>
+    </svg></a>
+
+</footer>
+</div><!-- Compressed JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/js/foundation.min.js" 
+  integrity="sha256-pRF3zifJRA9jXGv++b06qwtSqX1byFQOLjqa2PTEb2o=" 
+  crossorigin="anonymous"></script>
+  
+</body>
+</html>

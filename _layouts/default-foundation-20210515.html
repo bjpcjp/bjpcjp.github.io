@@ -1,0 +1,33 @@
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+  {%- include head-foundation-20210515.html -%}
+  <body>
+    <div class="grid-container fluid">
+
+      <div class="grid-x">     
+
+        <div class="text-left">
+          <h1><a href="{{ "/" | relative_url }}">{{ site.title | escape }}</a></h1>
+          {%- include searchform.html -%}
+        </div>
+
+      </div>
+
+      <div class="grid-x">     
+
+        <div class="cell small-4 medium-3 large-2">
+          {%- include mainmenu-foundation-20210515.html -%}
+        </div>
+        
+        <div class="cell small-8 medium-9 large-10">
+          {{ content }}
+        </div>
+
+      </div>
+
+      <hr>
+      {%- include footer-foundation-20210515.html -%}
+    </div>
+
+    {%- include foundation-js.html -%}
+  </body>
+</html>

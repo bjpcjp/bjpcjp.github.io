@@ -1,0 +1,13 @@
+prefix=/home/bjpcjp/1TB/projects/ruby-jekyll/github-20220527/bjpcjp.github.io/vendor/ruby/3.0.0/gems/nokogiri-1.10.10/ports/x86_64-linux-gnu/libxml2/2.9.10
+exec_prefix=${prefix}
+libdir=/home/bjpcjp/1TB/projects/ruby-jekyll/github-20220527/bjpcjp.github.io/vendor/ruby/3.0.0/gems/nokogiri-1.10.10/ports/x86_64-linux-gnu/libxml2/2.9.10/lib
+includedir=${prefix}/include
+modules=1
+
+Name: libXML
+Version: 2.9.10
+Description: libXML library version2.
+Requires:
+Libs: -L${libdir} -lxml2
+Libs.private:   -lz   -lm  
+Cflags: -I${includedir}/libxml2 

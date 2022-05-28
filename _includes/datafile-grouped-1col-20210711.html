@@ -1,0 +1,61 @@
+<div class="callout">
+	<h2>{{title}}</h2>
+</div>
+
+<!--
+Expected data file (.yaml, .yml) record contents:
+	- title: (primary index)
+	  url:
+	  tags:
+	  pic:
+	  notes:
+	  parent:
+	  more:
+-->
+
+{%- assign records = {{sourcedata}} | sort: "title" -%}
+
+<!--
+IF GROUPED, LIST TAG NAMES IN CALLOUT DIV.
+-->
+
+{%- assign groups = records | group_by: "tags" -%}
+
+<div class="callout">
+    <big>Tags:</big><br>
+    {%- for tag in groups -%}
+        <a href="#{{tag.name}}">{{tag.name}}</a> &nbsp; &nbsp;
+    {%- endfor -%}
+</div>
+
+<!--
+IF GROUPED, EACH CARD CONTAINS A TAG.
+	- THE CARD SECTION CONTAINS THE TAG'S ITEMS, SORTED BY TITLE.
+	- FOR EACH ITEM: LINK TO URL
+-->
+
+{%- for tag in groups -%}
+    {%- if tag.name != "" -%}
+        <div class="card">
+            <div class="card-section" id="{{tag.name}}">
+                {{ tag.name }}
+            </div>
+
+            <div class="card-section">
+                {%- assign items = tag.items | sort: "title" -%}
+                {%- for item in items -%}
+
+                    <a href="{{item.url}}" target="_blank">
+                        {{item.title}}
+                    </a>
+
+                    {%- if item.source -%}
+                    	<em>({{item.source}})</em>
+                    {%- endif -%}
+                    <br>
+
+                {%- endfor -%}
+            </div>
+        </div>
+    {%- endif -%}
+{%- endfor -%}

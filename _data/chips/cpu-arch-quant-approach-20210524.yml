@@ -1,0 +1,168 @@
+# cpu-arch-quant-approach-20210524
+
+#https://dl.acm.org/doi/pdf/10.5555/1999263 
+#px:  /px/chips/quant-arch/book-cover.png </a>
+
+
+#  /pdfs/cpus-quant/comparchs-ch01.pdf  
+#  # Fundamentals (offline)  
+- url: /pdfs/cpus-quant/comparchs-ch01.pdf
+  title: Chap 1 - Fundamentals 
+  px:  /px/chips/quant-arch/01-bandwidth-vs-latency-by-tech.png 
+  notes:
+    1) Intro<br>
+    2) Classifications<br>
+    3) Basic definitions<br>
+    4) Trends<br>
+    5) Power & Energy<br>
+    6) Costs<br>
+    7) Dependability / Reliability<br>
+    8) Measuring, reporting, summarizing
+
+#  /pdfs/cpus-quant/comparchs-ch02.pdf  
+#  # Memory Hierarchy Design (offline)  
+- url: /pdfs/cpus-quant/comparchs-ch02.pdf
+  title: Chap 2 - Memory Hierarchy Design 
+  px:  /px/chips/quant-arch/02-cache-energy-vs-size-vs-associativity.png
+  notes:
+    1) Intro<br>
+    2) Ten cache optimizations<br>
+    3) Memory technologies<br>
+    4) Virtual memory & virtual machines<br>
+    5) Issues<br>
+    6) Examples - ARM Cortex A8, Intel Core i7<br>
+    7) Fallacies<br>
+    8) Looking ahead<br>
+    9) Quant principles<br>
+    10) Putting it all together<br>
+    11) Fallacies<br>
+    12) Conclusion
+
+#  /pdfs/cpus-quant/comparchs-ch03.pdf  
+#  # Instruction Parallelism (offline)  
+- url:  /pdfs/cpus-quant/comparchs-ch03.pdf 
+  title: Chap 3 - Instruction Parallelism Techniques 
+  px:  /px/chips/quant-arch/03-techniques.png 
+  notes:
+    1) Concepts<br>
+    2) Basic compiler techniques<br>
+    3) Advanced branch prediction<br>
+    4) Dynamic scheduling<br>
+    5) Dynamic scheduling example<br>
+    6) Hardware-based speculation<br>
+    7) Multiple-issue & static scheduling<br>
+    8) Dynamic scheduling, multiple-issue & speculation<br>
+    9) Advanced techniques<br>
+    10) Limitations<br>
+    11) Issues<br>
+    12) Multithreading<br>
+    13) Example - ARM Cortex A8 vs Intel Core i7<br>
+    14) Fallacies<br>
+    15) Conclusion
+
+#  /pdfs/cpus-quant/comparchs-ch04.pdf  
+#  # Data Parallelism (offline)  
+- url:  /pdfs/cpus-quant/comparchs-ch04.pdf  
+  title: Chap 4 - Data Parallelism Techniques 
+  px:  /px/chips/quant-arch/04-arithmetic-intensity.png 
+  notes:
+    1) Intro<br>
+    2) Vector archtiectures<br>
+    3) SIMD multimedia instruction set extensions<br>
+    4) GPUs<br>
+    5) Loop-level parallelism<br>
+    6) Issues<br>
+    7) Comparisons<br>
+    8) Fallacies<br>
+    9) Conclusions<br>
+    10) History<br>
+    11) Case studies
+
+#  /pdfs/cpus-quant/comparchs-ch05.pdf  
+#  # Thread Parallelism (offline)  
+- url:  /pdfs/cpus-quant/comparchs-ch05.pdf  
+  title: Chap 5 - Thread Parallelism Techniques 
+  px:  /px/chips/quant-arch/05-multicore-uniform-memory-access.png 
+  notes:
+    1) Intro<br>
+    2) Centralized shared-memory designs<br>
+    3) Symmetric shared-memory designs<br>
+    4) Distributed shared-memory designs & directory-based coherence<br>
+    5) Synchronization basics<br>
+    6) Memory consistency models<br>
+    7) Issues<br>
+    8) Summary - Multicore processors<br>
+    9) Fallacies<br>
+    10) Conclusions<br>
+    11) History<br>
+    12) Case studies
+
+#  /pdfs/cpus-quant/comparchs-ch06.pdf  
+#  # Warehouse-Level Scaling (offline)  
+- url:  /pdfs/cpus-quant/comparchs-ch06.pdf 
+  title: Chap 6 - Data Center Scaling 
+  px:  /px/chips/quant-arch/06-cpu-utilization-google.png 
+  notes:
+    1) Intro<br>
+    2) Workloads<br>
+    3) Architecture<br>
+    4) Physical infrastructure & costs<br>
+    5) Utility computing<br>
+    6) Issues<br>
+    7) Example - Google DC<br>
+    8) Fallacies<br>
+    9) Conclusions<br>
+    10) History
+
+#  /pdfs/cpus-quant/comparchs-apxA.pdf  
+#  # Instruction Sets (offline)  
+- url:  /pdfs/cpus-quant/comparchs-apxA.pdf 
+  title: Apndx A - Instruction Set Basics 
+  px:  /px/chips/quant-arch/A-addressing-modes.png 
+  notes:
+    1) Intro<br>
+    2) Classifications<br>
+    3) Memory addressing<br>
+    4) Operands<br>
+    5) Operations in the instruction set<br>
+    6) Control flow<br>
+    7) Encoding<br>
+    8) Compilers<br>
+    9) Example - MIPS<br>
+    10) Fallacies & Pitfalls<br>
+    11) Conclusion<br>
+    12) History
+
+
+#  /pdfs/cpus-quant/comparchs-apxB.pdf  
+#  # Memory Hierarchy Review (offline)  
+- url:  /pdfs/cpus-quant/comparchs-apxB.pdf
+  title: Apndx B - Memory Hierarchy Review 
+  px:  /px/chips/quant-arch/B-cache-block-options.png 
+  notes:
+    1) Intro<br>
+    2) Cache Performance<br>
+    3) Six Basic Optimizations<br>
+    3a) - block sizes<br>
+    3b) - larger caches<br>
+    3c) - higher associativity<br>
+    3d) - multilevel caches<br>
+    3e) - read misses > writes<br>
+    3f) - avoiding address translations
+
+
+#  /pdfs/cpus-quant/comparchs-apxC.pdf  
+#  # Pipelining (offline)  
+- url:  /pdfs/cpus-quant/comparchs-apxC.pdf  
+  title: Apndx C - Pipelining Concepts 
+  px:  /px/chips/quant-arch/C-risc-pipeline.png 
+  notes:
+    1) Pipelining basics<br> 
+    2a) Hazards (stalls)<br>
+    2b) Data hazards<br>
+    2c) Branch hazards<br>
+    2d) Implementation<br> 
+    2e) Why is Pipelining so hard?<br>
+    2f) MIPS & multicycle ops<br>
+    2g) Summary - MIPS R4000<br>
+    2h) Issues

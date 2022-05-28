@@ -1,0 +1,26 @@
+<div class="callout">
+	<h2>{{title}}</h2>
+</div>
+
+{%- for record in records -%}
+	{%- assign data = record[1] -%}
+	<div class="card">
+
+		<div class="card-section">
+			<a href="{{data.resolved_url}}" target="_blank">
+				{{data.resolved_title}}</a>
+		</div>
+
+		<div class="card-image">
+			<img src="{{data.top_image_url}}">
+		</div>
+
+		{%- if data.excerpt -%}
+			<div class="card-section">
+				{{data.excerpt}}
+			</div>
+		{%- endif -%}
+	</div>
+
+{%- endfor -%}
+

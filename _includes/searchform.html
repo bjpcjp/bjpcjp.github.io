@@ -1,0 +1,21 @@
+<form action="https://google.com/search" type="GET">
+  <div class="input-group">
+  	<input class="input-group-field" 
+        type="search" name="q" value="site search (Google)" onfocus=this.value=''>
+    <div class="input-group-button">
+      <input type="submit" class="button" value="Go">
+    </div>
+  </div>
+</form>
+
+<script>
+var form = document.querySelector("form");
+
+form.addEventListener("submit", function (e) {
+  e.preventDefault();
+  var search = form.querySelector("input[type=search]");
+  search.value = "site:bjpcjp.github.io " + search.value;
+  form.submit();
+});
+</script>
+ 

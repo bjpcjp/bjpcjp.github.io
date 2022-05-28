@@ -1,0 +1,54 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  <!-- GOOGLE CUSTOM SEARCH OPTION. NOT CURRENTLY USED.
+  <script async src="https://cse.google.com/cse.js?cx=008436745971355202997:c0hy395gjyo"></script>
+  <div class="gcse-search"></div>  -->
+
+  <!-- ALGOLIA SEARCH. NOT CURRENTLY USED.
+  <div id="search-searchbar"></div>
+  <div id="search-hits"></div> -->
+
+  {%- if site.posts.size > 0 -%}
+
+  <!-- try sorting by post title-->
+  {%- assign sortedposts = site.posts | sort: 'date' -%}
+
+    <div style="columns: 3; column-gap: 3px;">
+
+    <!-- original: for post in site.posts -->
+    {%- for post in sortedposts -%}
+      <ul>
+      <li class="textcard">
+        <a href="{{ post.url | relative_url }}">
+        {{ post.title | escape }}</a><br>
+
+        <span style=" font-size: 0.8em; font-style: italic;">
+          {{ post.date | date: "%m/%-d/%Y" }}
+          &nbsp;
+          {{ post.tags }}
+          {%- if site.show_excerpts -%}
+            {{ post.excerpt }}
+          {%- endif -%}
+        </span>  
+      </li>
+      </ul>
+    {%- endfor -%}
+  </div>
+  {% endif %}
+</div>
+
+<p class="feed-subscribe">
+  <a href="{{ 'feed.xml' | relative_url }}">
+    <svg class="svg-icon orange"><use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use></svg><span>Subscribe</span>
+  </a>
+</p>
+
+{% include algolia.html %}

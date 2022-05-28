@@ -1,0 +1,1110 @@
+<html lang="en"><!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="http://localhost:4000/favicon-32x32.png" /><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Ruby | Obviously Awesome</title>
+<meta name="generator" content="Jekyll v3.9.2" />
+<meta property="og:title" content="Ruby" />
+<meta name="author" content="Brian Piercy" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Brian Piercy’s collection of bookmark esoterica." />
+<meta property="og:description" content="Brian Piercy’s collection of bookmark esoterica." />
+<link rel="canonical" href="http://localhost:4000/ruby.html" />
+<meta property="og:url" content="http://localhost:4000/ruby.html" />
+<meta property="og:site_name" content="Obviously Awesome" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Ruby" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Brian Piercy"},"description":"Brian Piercy’s collection of bookmark esoterica.","headline":"Ruby","url":"http://localhost:4000/ruby.html"}</script>
+<!-- End Jekyll SEO tag -->
+<!-- Compressed CSS -->
+  <link rel="stylesheet" 
+  href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation.min.css" 
+  integrity="sha256-ogmFxjqiTMnZhxCqVmcqTvjfe1Y/ec4WaRj/aQPvn+I=" 
+  crossorigin="anonymous"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Obviously Awesome" /></head>
+<body>
+    <div class="grid-container fluid">
+
+      <div class="grid-x">     
+
+        <div class="text-left">
+          <h1><a href="/">Obviously Awesome</a></h1><form action="https://google.com/search" type="GET">
+  <div class="input-group">
+  	<input class="input-group-field" 
+        type="search" name="q" value="site search (Google)" onfocus=this.value=''>
+    <div class="input-group-button">
+      <input type="submit" class="button" value="Go">
+    </div>
+  </div>
+</form>
+
+<script>
+var form = document.querySelector("form");
+
+form.addEventListener("submit", function (e) {
+  e.preventDefault();
+  var search = form.querySelector("input[type=search]");
+  search.value = "site:bjpcjp.github.io " + search.value;
+  form.submit();
+});
+</script>
+ </div>
+
+      </div>
+
+      <div class="grid-x">     
+
+        <div class="cell small-4 medium-3 large-2"><ul class="vertical menu"><li>
+          <a href="/posts-by-tag.html">
+            Posts by Tag</a></li><li>
+          <a href="/behaviors/">
+            Behaviors</a></li><li>
+          <a href="/math/">
+            Math</a></li><li>
+          <a href="/devops.html">
+            DevOps &amp; Linux</a></li><li>
+          <a href="/gametheory/">
+            Game Theory</a></li><li>
+          <a href="/golang.html">
+            Golang</a></li><li>
+          <a href="/ideas.html">
+            Ideas</a></li><li>
+          <a href="/language/">
+            Language</a></li><li>
+          <a href="/prodmgmt/">
+            Prod Mgmt</a></li><li>
+          <a href="/python/">
+            Python</a></li><li>
+          <a href="/ruby.html">
+            Ruby</a></li><li>
+          <a href="/semiconductors.html">
+            Chips</a></li><li>
+          <a href="/uiux/">
+            UI/UX</a></li><li>
+          <a href="/webdev/">
+            Web Dev Tools</a></li><li>
+          <a href="/all-posts.html">
+            Index</a></li></ul></div>
+        
+        <div class="cell small-8 medium-9 large-10">
+          <div class="callout">
+<h2>Ruby, Rails, Jekyll, Sinatra, RubyGems:</h2>
+</div><div class="callout">
+    <big>Tags:</big><br><a href="#Jekyll">Jekyll</a> &nbsp; &nbsp;<a href="#Ruby - Well Rounded (book notes)">Ruby - Well Rounded (book notes)</a> &nbsp; &nbsp;<a href="#active cable (websockets)">active cable (websockets)</a> &nbsp; &nbsp;<a href="#active model">active model</a> &nbsp; &nbsp;<a href="#active record">active record</a> &nbsp; &nbsp;<a href="#active storage">active storage</a> &nbsp; &nbsp;<a href="#api clients">api clients</a> &nbsp; &nbsp;<a href="#api-only apps">api-only apps</a> &nbsp; &nbsp;<a href="#asset pipeline">asset pipeline</a> &nbsp; &nbsp;<a href="#associations">associations</a> &nbsp; &nbsp;<a href="#authentication">authentication</a> &nbsp; &nbsp;<a href="#autoloading & constants">autoloading & constants</a> &nbsp; &nbsp;<a href="#background jobs">background jobs</a> &nbsp; &nbsp;<a href="#caching">caching</a> &nbsp; &nbsp;<a href="#callbacks">callbacks</a> &nbsp; &nbsp;<a href="#code design">code design</a> &nbsp; &nbsp;<a href="#command line">command line</a> &nbsp; &nbsp;<a href="#concurrency, parallelism">concurrency, parallelism</a> &nbsp; &nbsp;<a href="#configuration">configuration</a> &nbsp; &nbsp;<a href="#controllers">controllers</a> &nbsp; &nbsp;<a href="#css">css</a> &nbsp; &nbsp;<a href="#datasets">datasets</a> &nbsp; &nbsp;<a href="#db options">db options</a> &nbsp; &nbsp;<a href="#db queries">db queries</a> &nbsp; &nbsp;<a href="#db schema migrations">db schema migrations</a> &nbsp; &nbsp;<a href="#db seeds">db seeds</a> &nbsp; &nbsp;<a href="#debugging">debugging</a> &nbsp; &nbsp;<a href="#devops">devops</a> &nbsp; &nbsp;<a href="#documentation">documentation</a> &nbsp; &nbsp;<a href="#ecommerce, payments">ecommerce, payments</a> &nbsp; &nbsp;<a href="#email">email</a> &nbsp; &nbsp;<a href="#encryption">encryption</a> &nbsp; &nbsp;<a href="#generators & templates">generators & templates</a> &nbsp; &nbsp;<a href="#graphics, pdfs, images">graphics, pdfs, images</a> &nbsp; &nbsp;<a href="#html forms">html forms</a> &nbsp; &nbsp;<a href="#html helpers">html helpers</a> &nbsp; &nbsp;<a href="#internationalization">internationalization</a> &nbsp; &nbsp;<a href="#javascript">javascript</a> &nbsp; &nbsp;<a href="#layouts & rendering">layouts & rendering</a> &nbsp; &nbsp;<a href="#logging">logging</a> &nbsp; &nbsp;<a href="#markup">markup</a> &nbsp; &nbsp;<a href="#modules">modules</a> &nbsp; &nbsp;<a href="#monitoring">monitoring</a> &nbsp; &nbsp;<a href="#optimization">optimization</a> &nbsp; &nbsp;<a href="#publishing">publishing</a> &nbsp; &nbsp;<a href="#rack middleware">rack middleware</a> &nbsp; &nbsp;<a href="#rails v6">rails v6</a> &nbsp; &nbsp;<a href="#revision control">revision control</a> &nbsp; &nbsp;<a href="#routing">routing</a> &nbsp; &nbsp;<a href="#ruby language extensions">ruby language extensions</a> &nbsp; &nbsp;<a href="#rubygems">rubygems</a> &nbsp; &nbsp;<a href="#scaffolds">scaffolds</a> &nbsp; &nbsp;<a href="#search engines">search engines</a> &nbsp; &nbsp;<a href="#security">security</a> &nbsp; &nbsp;<a href="#sinatra">sinatra</a> &nbsp; &nbsp;<a href="#testing">testing</a> &nbsp; &nbsp;<a href="#tutorials & resources">tutorials & resources</a> &nbsp; &nbsp;<a href="#validations">validations</a> &nbsp; &nbsp;<a href="#web servers">web servers</a> &nbsp; &nbsp;<a href="#yaml">yaml</a> &nbsp; &nbsp;</div>
+
+<div style="column-count: 2;"><div class="card">
+            <div class="card-section" id="Jekyll">
+                Jekyll
+            </div>
+
+            <div class="card-section">
+                <ul><a href="https://forestry.io/blog/search-with-algolia-in-jekyll/" target="_blank">
+                            Algolia search</a><br><a href="https://github.com/jenofdoom/jekyll-bootstrap-4" target="_blank">
+                            Bootstrap 4 template</a><br><a href="https://medium.com/@glynn_bird/adding-cloudant-search-to-your-static-jekyll-blog-5ad76b32a902" target="_blank">
+                            Cloudant search</a><br><a href="https://blog.webjeda.com/jekyll-collections/" target="_blank">
+                            Collections</a><br><a href="https://desiredpersona.com/disqus-comments-jekyll/" target="_blank">
+                            Disqus comments</a><br><a href="http://jmcglone.com/guides/github-pages/" target="_blank">
+                            GitHub hosting how-to</a><br><a href="https://ranvir.xyz/blog/lazy-loading-your-images-in-jekyll-blog-improving-page-speed/" target="_blank">
+                            Image lazy loading</a><br><a href="https://blog.webjeda.com/jekyll-categories/" target="_blank">
+                            Jekyll categories & tags</a><br><a href="https://jekyllrb.com/docs/datafiles/" target="_blank">
+                            Jekyll data files</a><br><a href="https://engineering.chrobinson.com/how-to/linking-a-series-of-jekyll-posts/" target="_blank">
+                            Linking series of posts</a><br><a href="https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/installation.md" target="_blank">
+                            SEO metadata tags</a><br></ul>
+            </div>
+        </div><div class="card">
+            <div class="card-section" id="Ruby - Well Rounded (book notes)">
+                Ruby - Well Rounded (book notes)
+            </div>
+
+            <div class="card-section">
+                <ul><a href="https://github.com/bjpcjp/well-grounded-rubyist-book-notes/blob/master/ch01-bootstrap.ipynb" target="_blank">
+                            ch01 - bootstrap (getting started)</a><br><a href="https://github.com/bjpcjp/well-grounded-rubyist-book-notes/blob/master/ch02-objs-meths-locals.ipynb" target="_blank">
+                            ch02 - objects & methods</a><br><a href="https://github.com/bjpcjp/well-grounded-rubyist-book-notes/blob/master/ch03-classes.ipynb" target="_blank">
+                            ch03 - classes</a><br><a href="https://github.com/bjpcjp/well-grounded-rubyist-book-notes/blob/master/ch04-modules.ipynb" target="_blank">
+                            ch04 - modules</a><br><a href="https://github.com/bjpcjp/well-grounded-rubyist-book-notes/blob/master/ch05-self.ipynb" target="_blank">
+                            ch05 - self</a><br><a href="https://github.com/bjpcjp/well-grounded-rubyist-book-notes/blob/master/ch06-control-flow.ipynb" target="_blank">
+                            ch06 - control structures</a><br><a href="https://github.com/bjpcjp/well-grounded-rubyist-book-notes/blob/master/ch07-essentials.ipynb" target="_blank">
+                            ch07 - essentials</a><br><a href="https://github.com/bjpcjp/well-grounded-rubyist-book-notes/blob/master/ch08-scalars.ipynb" target="_blank">
+                            ch08 - scalars</a><br><a href="https://github.com/bjpcjp/well-grounded-rubyist-book-notes/blob/master/ch09-collections-containers.ipynb" target="_blank">
+                            ch09 - collections</a><br><a href="https://github.com/bjpcjp/well-grounded-rubyist-book-notes/blob/master/ch10-enumerables.ipynb" target="_blank">
+                            ch10 - enumerables</a><br><a href="https://github.com/bjpcjp/well-grounded-rubyist-book-notes/blob/master/ch11-regexes.ipynb" target="_blank">
+                            ch11 - regexes</a><br><a href="https://github.com/bjpcjp/well-grounded-rubyist-book-notes/blob/master/ch12-file-io.ipynb" target="_blank">
+                            ch12 - file i/o</a><br><a href="https://github.com/bjpcjp/well-grounded-rubyist-book-notes/blob/master/ch13-object-individualization.ipynb" target="_blank">
+                            ch13 - object individualization</a><br><a href="https://github.com/bjpcjp/well-grounded-rubyist-book-notes/blob/master/ch14-callables-runnables.ipynb" target="_blank">
+                            ch14 - callables & runnables</a><br><a href="https://github.com/bjpcjp/well-grounded-rubyist-book-notes/blob/master/ch15-callbacks-hooks-introspection.ipynb" target="_blank">
+                            ch15 - callbacks, hooks & introspection</a><br><a href="https://github.com/bjpcjp/well-grounded-rubyist-book-notes/blob/master/ch16-functional-programming.ipynb" target="_blank">
+                            ch16 - functional programming</a><br></ul>
+            </div>
+        </div><div class="card">
+            <div class="card-section" id="active cable (websockets)">
+                active cable (websockets)
+            </div>
+
+            <div class="card-section">
+                <ul><a href="https://guides.rubyonrails.org/action_cable_overview.html#broadcasting" target="_blank">
+                            Broadcasting</a><br><a href="https://guides.rubyonrails.org/action_cable_overview.html#client-side-components" target="_blank">
+                            Client-Side</a><br><a href="https://guides.rubyonrails.org/action_cable_overview.html#configuration" target="_blank">
+                            Configuration</a><br><a href="https://guides.rubyonrails.org/action_cable_overview.html#full-stack-examples" target="_blank">
+                            Full Stack Examples</a><br><a href="https://guides.rubyonrails.org/action_cable_overview.html#passing-parameters-to-channels" target="_blank">
+                            Parameters</a><br><a href="https://guides.rubyonrails.org/action_cable_overview.html#what-is-pub-sub" target="_blank">
+                            Pub/Sub</a><br><a href="https://guides.rubyonrails.org/action_cable_overview.html#rebroadcasting-a-message" target="_blank">
+                            Re-broadcasting</a><br><a href="https://guides.rubyonrails.org/action_cable_overview.html#server-side-components" target="_blank">
+                            Server-Side</a><br><a href="https://guides.rubyonrails.org/action_cable_overview.html#running-standalone-cable-servers" target="_blank">
+                            Standalone Servers</a><br><a href="https://guides.rubyonrails.org/action_cable_overview.html#streams" target="_blank">
+                            Streams</a><br><a href="https://guides.rubyonrails.org/action_cable_overview.html#client-server-interactions-subscriptions" target="_blank">
+                            Subscriptions</a><br></ul>
+            </div>
+        </div><div class="card">
+            <div class="card-section" id="active model">
+                active model
+            </div>
+
+            <div class="card-section">
+                <ul><a href="https://guides.rubyonrails.org/active_model_basics.html#attribute-methods" target="_blank">
+                            Attributes</a><br><a href="https://guides.rubyonrails.org/active_model_basics.html#callbacks" target="_blank">
+                            Callbacks</a><br><a href="https://guides.rubyonrails.org/active_model_basics.html#conversion" target="_blank">
+                            Conversions</a><br><a href="https://guides.rubyonrails.org/active_model_basics.html#dirty" target="_blank">
+                            Dirty</a><br><a href="https://guides.rubyonrails.org/active_model_basics.html#lint-tests" target="_blank">
+                            Lint Tests</a><br><a href="https://guides.rubyonrails.org/active_model_basics.html#model" target="_blank">
+                            Models</a><br><a href="https://guides.rubyonrails.org/active_model_basics.html#naming" target="_blank">
+                            Naming & Routing</a><br><a href="https://guides.rubyonrails.org/active_model_basics.html#securepassword" target="_blank">
+                            Secure Password</a><br><a href="https://guides.rubyonrails.org/active_model_basics.html#serialization" target="_blank">
+                            Serialization</a><br><a href="https://guides.rubyonrails.org/active_model_basics.html#translation" target="_blank">
+                            Translation</a><br><a href="https://guides.rubyonrails.org/active_model_basics.html#validations" target="_blank">
+                            Validations</a><br></ul>
+            </div>
+        </div><div class="card">
+            <div class="card-section" id="active record">
+                active record
+            </div>
+
+            <div class="card-section">
+                <ul><a href="https://medium.com/@apneadiving/active-records-queries-tricks-2546181a98dd" target="_blank">
+                            Active Record query tricks</a><br><a href="https://twitter.com/websebdev/status/1360647965765951497?s=12" target="_blank">
+                            Active Record without Models</a><br><a href="https://www.ruby-toolbox.com/categories/Active_Record_Bit_Fields" target="_blank">
+                            Bit Masks</a><br><a href="https://guides.rubyonrails.org/active_record_basics.html#create" target="_blank">
+                            Create</a><br><a href="https://guides.rubyonrails.org/active_record_basics.html#creating-active-record-models" target="_blank">
+                            Creating</a><br><a href="https://www.ruby-toolbox.com/categories/Active_Record_Default_Values" target="_blank">
+                            Default Values</a><br><a href="https://guides.rubyonrails.org/active_record_basics.html#delete" target="_blank">
+                            Delete</a><br><a href="https://www.ruby-toolbox.com/categories/Active_Record_Enumerations" target="_blank">
+                            Enumerations</a><br><a href="https://www.ruby-toolbox.com/categories/Active_Record_Index_Assistants" target="_blank">
+                            Index Assistants</a><br><a href="https://www.ruby-toolbox.com/categories/Active_Record_Sortables" target="_blank">
+                            Lists/Sortables</a><br><a href="https://www.ruby-toolbox.com/categories/Active_Record_Named_Scopes" target="_blank">
+                            Named Scopes</a><br><a href="https://guides.rubyonrails.org/active_record_basics.html#naming-conventions" target="_blank">
+                            Naming</a><br><a href="https://guides.rubyonrails.org/active_record_basics.html#overriding-the-naming-conventions" target="_blank">
+                            Naming Overrides</a><br><a href="https://www.ruby-toolbox.com/categories/Active_Record_Nesting" target="_blank">
+                            Nested Records</a><br><a href="https://www.ruby-toolbox.com/categories/pagination" target="_blank">
+                            Pagination</a><br><a href="https://guides.rubyonrails.org/active_record_basics.html#read" target="_blank">
+                            Read</a><br><a href="https://guides.rubyonrails.org/active_record_basics.html#schema-conventions" target="_blank">
+                            Schemas</a><br><a href="https://www.ruby-toolbox.com/categories/Active_Record_Sharding" target="_blank">
+                            Sharding</a><br><a href="https://www.ruby-toolbox.com/categories/Active_Record_Soft_Delete" target="_blank">
+                            Soft Delete</a><br><a href="https://www.ruby-toolbox.com/categories/rails_tagging" target="_blank">
+                            Tagging</a><br><a href="https://guides.rubyonrails.org/active_record_basics.html#update" target="_blank">
+                            Update</a><br><a href="https://www.ruby-toolbox.com/categories/Active_Record_User_Stamping" target="_blank">
+                            User Stamping</a><br><a href="https://www.ruby-toolbox.com/categories/Active_Record_Value_Cleanup" target="_blank">
+                            Value Cleanup</a><br><a href="https://www.ruby-toolbox.com/categories/Active_Record_Versioning" target="_blank">
+                            Versioning</a><br><a href="https://github.com/amerine/acts_as_tree" target="_blank">
+                            acts_as_tree</a><br></ul>
+            </div>
+        </div><div class="card">
+            <div class="card-section" id="active storage">
+                active storage
+            </div>
+
+            <div class="card-section">
+                <ul><a href="https://guides.rubyonrails.org/active_storage_overview.html#attaching-files-to-records" target="_blank">
+                            Attaching</a><br><a href="https://www.ruby-toolbox.com/projects/carrierwave" target="_blank">
+                            CarrierWave</a><br><a href="https://guides.rubyonrails.org/active_storage_overview.html#direct-uploads" target="_blank">
+                            Direct Uploads</a><br><a href="https://guides.rubyonrails.org/active_storage_overview.html#downloading-files" target="_blank">
+                            Downloading</a><br><a href="https://guides.rubyonrails.org/active_storage_overview.html#linking-to-files" target="_blank">
+                            Linking</a><br><a href="https://guides.rubyonrails.org/active_storage_overview.html#implementing-support-for-other-cloud-services" target="_blank">
+                            Other Cloud Svcs</a><br><a href="https://www.ruby-toolbox.com/projects/paperclip" target="_blank">
+                            Paperclip</a><br><a href="https://guides.rubyonrails.org/active_storage_overview.html#previewing-files" target="_blank">
+                            Previewing</a><br><a href="https://guides.rubyonrails.org/active_storage_overview.html#removing-files" target="_blank">
+                            Removing</a><br><a href="https://guides.rubyonrails.org/active_storage_overview.html#setup" target="_blank">
+                            Setup</a><br><a href="https://guides.rubyonrails.org/active_storage_overview.html#discarding-files-stored-during-system-tests" target="_blank">
+                            System Tests</a><br><a href="https://guides.rubyonrails.org/active_storage_overview.html#transforming-images" target="_blank">
+                            Transforming Images</a><br></ul>
+            </div>
+        </div><div class="card">
+            <div class="card-section" id="api clients">
+                api clients
+            </div>
+
+            <div class="card-section">
+                <ul><a href="https://www.ruby-toolbox.com/projects/bitly" target="_blank">
+                            Bitly</a><br><a href="https://www.ruby-toolbox.com/projects/gibbon" target="_blank">
+                            Gibbon (Mailchimp)</a><br><a href="https://www.ruby-toolbox.com/projects/koala" target="_blank">
+                            Koala (Facebook)</a><br><a href="https://www.ruby-toolbox.com/projects/linkedin" target="_blank">
+                            LinkedIn</a><br><a href="https://www.ruby-toolbox.com/projects/octokit" target="_blank">
+                            Octokit (GitHub)</a><br><a href="https://www.ruby-toolbox.com/projects/tweetstream" target="_blank">
+                            Tweetstream</a><br><a href="https://www.ruby-toolbox.com/projects/twitter" target="_blank">
+                            Twitter</a><br><a href="https://www.ruby-toolbox.com/projects/vacuum" target="_blank">
+                            Vacuum (Amazon Product Advertising)</a><br></ul>
+            </div>
+        </div><div class="card">
+            <div class="card-section" id="api-only apps">
+                api-only apps
+            </div>
+
+            <div class="card-section">
+                <ul><a href="https://guides.rubyonrails.org/api_app.html#changing-an-existing-application" target="_blank">
+                            Change</a><br><a href="https://guides.rubyonrails.org/api_app.html#choosing-controller-modules" target="_blank">
+                            Controller Modules</a><br><a href="https://guides.rubyonrails.org/api_app.html#choosing-middleware" target="_blank">
+                            Middleware</a><br><a href="https://guides.rubyonrails.org/api_app.html#creating-a-new-application" target="_blank">
+                            New</a><br><a href="https://guides.rubyonrails.org/api_app.html#why-use-rails-for-json-apis-questionmark" target="_blank">
+                            Rails for JSON APIs</a><br></ul>
+            </div>
+        </div><div class="card">
+            <div class="card-section" id="asset pipeline">
+                asset pipeline
+            </div>
+
+            <div class="card-section">
+                <ul><a href="https://guides.rubyonrails.org/asset_pipeline.html#adding-assets-to-your-gems" target="_blank">
+                            Adding Assets to Gems</a><br><a href="https://guides.rubyonrails.org/asset_pipeline.html#assets-cache-store" target="_blank">
+                            Cache Storage</a><br><a href="https://guides.rubyonrails.org/asset_pipeline.html#customizing-the-pipeline" target="_blank">
+                            Customization</a><br><a href="https://guides.rubyonrails.org/asset_pipeline.html#what-is-fingerprinting-and-why-should-i-care-questionmark" target="_blank">
+                            Fingerprinting</a><br><a href="https://guides.rubyonrails.org/asset_pipeline.html#how-to-use-the-asset-pipeline" target="_blank">
+                            Pipeline Usage</a><br><a href="https://guides.rubyonrails.org/asset_pipeline.html#making-your-library-or-gem-a-pre-processor" target="_blank">
+                            PreProcessing Gems</a><br><a href="https://guides.rubyonrails.org/asset_pipeline.html#in-development" target="_blank">
+                            While in Development</a><br><a href="https://guides.rubyonrails.org/asset_pipeline.html#in-production" target="_blank">
+                            While in Production</a><br></ul>
+            </div>
+        </div><div class="card">
+            <div class="card-section" id="associations">
+                associations
+            </div>
+
+            <div class="card-section">
+                <ul><a href="https://news.learnenough.com/eager-loading" target="_blank">
+                            Eager Loading & N+1 Queries</a><br><a href="https://guides.rubyonrails.org/association_basics.html#the-has-and-belongs-to-many-association" target="_blank">
+                            HABTM</a><br><a href="https://launchschool.com/blog/understanding-polymorphic-associations-in-rails" target="_blank">
+                            Polymorphic Associations</a><br><a href="https://guides.rubyonrails.org/association_basics.html#why-associations-questionmark" target="_blank">
+                            Purpose</a><br><a href="https://guides.rubyonrails.org/association_basics.html#the-belongs-to-association" target="_blank">
+                            belongs_to</a><br><a href="https://guides.rubyonrails.org/association_basics.html#choosing-between-belongs-to-and-has-one" target="_blank">
+                            belongs_to vs has_one</a><br><a href="https://guides.rubyonrails.org/association_basics.html#detailed-association-reference" target="_blank">
+                            detailed reference</a><br><a href="https://guides.rubyonrails.org/association_basics.html#the-has-many-association" target="_blank">
+                            has_many</a><br><a href="https://guides.rubyonrails.org/association_basics.html#the-has-many-through-association" target="_blank">
+                            has_many :through</a><br><a href="https://guides.rubyonrails.org/association_basics.html#the-has-one-association" target="_blank">
+                            has_one</a><br><a href="https://guides.rubyonrails.org/association_basics.html#the-has-one-through-association" target="_blank">
+                            has_one :through</a><br><a href="https://guides.rubyonrails.org/association_basics.html#polymorphic-associations" target="_blank">
+                            polymorphics</a><br><a href="https://guides.rubyonrails.org/association_basics.html#self-joins" target="_blank">
+                            self-joins</a><br><a href="https://guides.rubyonrails.org/association_basics.html#single-table-inheritance" target="_blank">
+                            single-table inheritance</a><br><a href="https://guides.rubyonrails.org/association_basics.html#tips-tricks-and-warnings" target="_blank">
+                            tips</a><br></ul>
+            </div>
+        </div><div class="card">
+            <div class="card-section" id="authentication">
+                authentication
+            </div>
+
+            <div class="card-section">
+                <ul><a href="https://www.sitepoint.com/devise-authentication-in-depth/" target="_blank">
+                            Devise in Depth</a><br></ul>
+            </div>
+        </div><div class="card">
+            <div class="card-section" id="autoloading & constants">
+                autoloading & constants
+            </div>
+
+            <div class="card-section">
+                <ul><a href="https://guides.rubyonrails.org/autoloading_and_reloading_constants.html#autoloading-algorithms" target="_blank">
+                            Autoload Algorithms</a><br><a href="https://guides.rubyonrails.org/autoloading_and_reloading_constants.html#autoloading-availability" target="_blank">
+                            Autoloading Availability</a><br><a href="https://guides.rubyonrails.org/autoloading_and_reloading_constants.html#constant-reloading" target="_blank">
+                            Constant Reloading</a><br><a href="https://guides.rubyonrails.org/autoloading_and_reloading_constants.html#constants-refresher" target="_blank">
+                            Constants</a><br><a href="https://guides.rubyonrails.org/autoloading_and_reloading_constants.html#common-gotchas" target="_blank">
+                            Gotchas</a></a><br><a href="https://guides.rubyonrails.org/autoloading_and_reloading_constants.html#autoload-paths-and-eager-load-paths" target="_blank">
+                            Load Paths</a><br><a href="https://guides.rubyonrails.org/autoloading_and_reloading_constants.html#module-autoload-isn-t-involved" target="_blank">
+                            Module#autoload</a><br><a href="https://guides.rubyonrails.org/autoloading_and_reloading_constants.html#vocabulary" target="_blank">
+                            Vocabulary</a><br><a href="https://guides.rubyonrails.org/autoloading_and_reloading_constants.html#require-dependency" target="_blank">
+                            require_dependency</a><br></ul>
+            </div>
+        </div><div class="card">
+            <div class="card-section" id="background jobs">
+                background jobs
+            </div>
+
+            <div class="card-section">
+                <ul><a href="https://guides.rubyonrails.org/active_job_basics.html#action-mailer" target="_blank">
+                            Action Mailer</a><br><a href="https://guides.rubyonrails.org/active_job_basics.html#callbacks" target="_blank">
+                            Callbacks</a><br><a href="https://guides.rubyonrails.org/active_job_basics.html#creating-a-job" target="_blank">
+                            Creating</a><br><a href="https://www.ruby-toolbox.com/categories/daemonizing" target="_blank">
+                            Daemons</a><br><a href="https://guides.rubyonrails.org/active_job_basics.html#exceptions" target="_blank">
+                            Exceptions</a><br><a href="https://www.ruby-toolbox.com/categories/daemon_management" target="_blank">
+                            Foreman</a><br><a href="https://guides.rubyonrails.org/active_job_basics.html#globalid" target="_blank">
+                            Global ID</a><br><a href="https://guides.rubyonrails.org/active_job_basics.html#internationalization" target="_blank">
+                            Internationalization</a><br><a href="https://guides.rubyonrails.org/active_job_basics.html#queues" target="_blank">
+                            Queues</a><br><a href="https://guides.rubyonrails.org/active_job_basics.html#job-execution" target="_blank">
+                            Running</a><br><a href="https://www.ruby-toolbox.com/categories/scheduling" target="_blank">
+                            Scheduling</a><br><a href="https://www.ruby-toolbox.com/categories/Background_Jobs" target="_blank">
+                            Sidekiq, Resque, etc</a><br><a href="https://guides.rubyonrails.org/active_job_basics.html#job-testing" target="_blank">
+                            Testing</a><br></ul>
+            </div>
+        </div><div class="card">
+            <div class="card-section" id="caching">
+                caching
+            </div>
+
+            <div class="card-section">
+                <ul><a href="https://guides.rubyonrails.org/caching_with_rails.html#action-caching" target="_blank">
+                            Action</a><br><a href="https://guides.rubyonrails.org/caching_with_rails.html#caching-in-development" target="_blank">
+                            Caching in Devt</a><br><a href="https://guides.rubyonrails.org/caching_with_rails.html#conditional-get-support" target="_blank">
+                            Conditional GET</a><br><a href="https://guides.rubyonrails.org/caching_with_rails.html#managing-dependencies" target="_blank">
+                            Dependencies</a><br><a href="https://guides.rubyonrails.org/caching_with_rails.html#fragment-caching" target="_blank">
+                            Fragment</a><br><a href="https://guides.rubyonrails.org/caching_with_rails.html#cache-keys" target="_blank">
+                            Keys</a><br><a href="https://guides.rubyonrails.org/caching_with_rails.html#low-level-caching" target="_blank">
+                            Low Level</a><br><a href="https://guides.rubyonrails.org/caching_with_rails.html#page-caching" target="_blank">
+                            Page</a><br><a href="https://guides.rubyonrails.org/caching_with_rails.html#russian-doll-caching" target="_blank">
+                            Russian Doll</a><br><a href="https://guides.rubyonrails.org/caching_with_rails.html#sql-caching" target="_blank">
+                            SQL Caching</a><br><a href="https://guides.rubyonrails.org/caching_with_rails.html#shared-partial-caching" target="_blank">
+                            Shared Partial</a><br><a href="https://guides.rubyonrails.org/caching_with_rails.html#configuration" target="_blank">
+                            Storage Configuration</a><br></ul>
+            </div>
+        </div><div class="card">
+            <div class="card-section" id="callbacks">
+                callbacks
+            </div>
+
+            <div class="card-section">
+                <ul><a href="https://guides.rubyonrails.org/active_record_callbacks.html#callback-classes" target="_blank">
+                            Callback Classes</a><br><a href="https://guides.rubyonrails.org/active_record_callbacks.html#conditional-callbacks" target="_blank">
+                            Conditional</a><br><a href="https://guides.rubyonrails.org/active_record_callbacks.html#halting-execution" target="_blank">
+                            Halting</a><br><a href="https://guides.rubyonrails.org/active_record_callbacks.html#callback-registration" target="_blank">
+                            Registration</a><br><a href="https://guides.rubyonrails.org/active_record_callbacks.html#relational-callbacks" target="_blank">
+                            Relational</a><br><a href="https://guides.rubyonrails.org/active_record_callbacks.html#running-callbacks" target="_blank">
+                            Running</a><br><a href="https://guides.rubyonrails.org/active_record_callbacks.html#skipping-callbacks" target="_blank">
+                            Skipping</a><br><a href="https://guides.rubyonrails.org/active_record_callbacks.html#available-callbacks" target="_blank">
+                            Std Callbacks</a><br><a href="https://guides.rubyonrails.org/active_record_callbacks.html#transaction-callbacks" target="_blank">
+                            Transaction Callbacks</a><br></ul>
+            </div>
+        </div><div class="card">
+            <div class="card-section" id="code design">
+                code design
+            </div>
+
+            <div class="card-section">
+                <ul><a href="https://www.halcyon.hr/posts/exploring-metaprogramming-in-ruby/" target="_blank">
+                            Metaprogramming in Ruby</a><br><a href="https://dev.to/appsignal/introduction-to-ruby-on-rails-patterns-and-anti-patterns-2mhc" target="_blank">
+                            Rails Patterns & Antipatterns</a><br></ul>
+            </div>
+        </div><div class="card">
+            <div class="card-section" id="command line">
+                command line
+            </div>
+
+            <div class="card-section">
+                <ul><a href="https://guides.rubyonrails.org/command_line.html#the-rails-advanced-command-line" target="_blank">
+                            Adv Rails Cmnds</a><br><a href="https://www.ruby-toolbox.com/categories/CLI_Option_Parsers" target="_blank">
+                            CLI Option Parsers</a><br><a href="https://www.ruby-toolbox.com/categories/CLI_Progress_Bars" target="_blank">
+                            CLI Progress Bars</a><br><a href="https://guides.rubyonrails.org/command_line.html#command-line-basics" target="_blank">
+                            Command Line Basics</a><br><a href="https://guides.rubyonrails.org/command_line.html#custom-rake-tasks" target="_blank">
+                            Custom Rake Tasks</a><br><a href="https://dev.to/vinistock/customizing-rails-rake-tasks-3bg5" target="_blank">
+                            Custom Rake tasks</a><br><a href="https://www.ruby-toolbox.com/projects/pry" target="_blank">
+                            Pry (IRB alternative)</a><br><a href="https://www.ruby-toolbox.com/projects/rake" target="_blank">
+                            Rake</a><br><a href="https://www.ruby-toolbox.com/categories/CommandLineUtilities" target="_blank">
+                            Rexe</a><br><a href="https://www.ruby-toolbox.com/projects/thor" target="_blank">
+                            Thor</a><br><a href="https://guides.rubyonrails.org/command_line.html#bin-rails" target="_blank">
+                            bin/rails</a><br></ul>
+            </div>
+        </div><div class="card">
+            <div class="card-section" id="concurrency, parallelism">
+                concurrency, parallelism
+            </div>
+
+            <div class="card-section">
+                <ul><a href="https://www.ruby-toolbox.com/categories/Concurrent_Processing" target="_blank">
+                            Concurrent-Ruby, EventMachine</a><br></ul>
+            </div>
+        </div><div class="card">
+            <div class="card-section" id="configuration">
+                configuration
+            </div>
+
+            <div class="card-section">
+                <ul><a href="https://guides.rubyonrails.org/configuring.html#running-code-before-rails" target="_blank">
+                            Code Before Rails</a><br><a href="https://guides.rubyonrails.org/configuring.html#configuring-rails-components" target="_blank">
+                            Component Configs</a><br><a href="https://www.ruby-toolbox.com/categories/Configuration_Management" target="_blank">
+                            Config Mgmt (Dotenv)</a><br><a href="https://guides.rubyonrails.org/configuring.html#custom-configuration" target="_blank">
+                            Customization</a><br><a href="https://guides.rubyonrails.org/configuring.html#database-pooling" target="_blank">
+                            Database Pooling</a><br><a href="https://guides.rubyonrails.org/configuring.html#rails-environment-settings" target="_blank">
+                            Environment Settings</a><br><a href="https://guides.rubyonrails.org/configuring.html#evented-file-system-monitor" target="_blank">
+                            Evented File System Monitor</a><br><a href="https://www.ruby-toolbox.com/categories/gem_creation" target="_blank">
+                            Gems (Bundler)</a><br><a href="https://guides.rubyonrails.org/configuring.html#initialization-events" target="_blank">
+                            Initialization Events</a><br><a href="https://guides.rubyonrails.org/configuring.html#using-initializer-files" target="_blank">
+                            Initializer Files</a><br><a href="https://guides.rubyonrails.org/configuring.html#locations-for-initialization-code" target="_blank">
+                            Locations</a><br><a href="https://guides.rubyonrails.org/configuring.html#search-engines-indexing" target="_blank">
+                            SEO Indexing</a><br></ul>
+            </div>
+        </div><div class="card">
+            <div class="card-section" id="controllers">
+                controllers
+            </div>
+
+            <div class="card-section">
+                <ul><a href="https://guides.rubyonrails.org/action_controller_overview.html#cookies" target="_blank">
+                            Cookies</a><br><a href="https://guides.rubyonrails.org/action_controller_overview.html#filters>Filters" target="_blank">
+                            Filters</a><br><a href="https://guides.rubyonrails.org/action_controller_overview.html#force-https-protocol" target="_blank">
+                            Forcing HTTPS</a></a><br><a href="https://guides.rubyonrails.org/action_controller_overview.html#http-authentications" target="_blank">
+                            HTTP Authentication</a><br><a href="https://guides.rubyonrails.org/action_controller_overview.html#log-filtering" target="_blank">
+                            Log Filters</a><br><a href="https://guides.rubyonrails.org/action_controller_overview.html#methods-and-actions" target="_blank">
+                            Methods</a><br><a href="https://guides.rubyonrails.org/action_controller_overview.html#controller-naming-convention" target="_blank">
+                            Naming</a><br><a href="https://guides.rubyonrails.org/action_controller_overview.html#what-does-a-controller-do-questionmark" target="_blank">
+                            Overview</a><br><a href="https://guides.rubyonrails.org/action_controller_overview.html#parameters" target="_blank">
+                            Parameters</a><br><a href="https://guides.rubyonrails.org/action_controller_overview.html#request-forgery-protection" target="_blank">
+                            Request Forgery Protection</a><br><a href="https://guides.rubyonrails.org/action_controller_overview.html#the-request-and-response-objects" target="_blank">
+                            Requests & Responses</a><br><a href="https://guides.rubyonrails.org/action_controller_overview.html#rescue" target="_blank">
+                            Rescue (404,500)</a><br><a href="https://guides.rubyonrails.org/action_controller_overview.html#session" target="_blank">
+                            Sessions</a><br><a href="https://guides.rubyonrails.org/action_controller_overview.html#streaming-and-file-downloads" target="_blank">
+                            Streaming</a><br><a href="https://guides.rubyonrails.org/action_controller_overview.html#rendering-xml-and-json-data" target="_blank">
+                            XML & JSON</a><br></ul>
+            </div>
+        </div><div class="card">
+            <div class="card-section" id="css">
+                css
+            </div>
+
+            <div class="card-section">
+                <ul><a href="https://www.ruby-toolbox.com/categories/web_ui_frameworks" target="_blank">
+                            Bootstrap, Semantic UI</a><br><a href="https://www.ruby-toolbox.com/categories/Font_Face_Servers" target="_blank">
+                            Font Face Servers</a><br><a href="https://www.ruby-toolbox.com/categories/css_with_ruby" target="_blank">
+                            Sass</a><br></ul>
+            </div>
+        </div><div class="card">
+            <div class="card-section" id="datasets">
+                datasets
+            </div>
+
+            <div class="card-section">
+                <ul><a href="https://towardsdatascience.com/how-to-create-fake-data-with-faker-a835e5b7a9d9?source=rss----7f60cf5620c9---4" target="_blank">
+                            Fake data generator</a><br></ul>
+            </div>
+        </div><div class="card">
+            <div class="card-section" id="db options">
+                db options
+            </div>
+
+            <div class="card-section">
+                <ul><a href="https://www.ruby-toolbox.com/categories/Amazon_DynamoDB" target="_blank">
+                            Amazon Dynamo</a><br><a href="https://www.ruby-toolbox.com/categories/CSV_Parsers" target="_blank">
+                            CSV Parsers</a><br><a href="https://www.ruby-toolbox.com/categories/Connection_Pooling" target="_blank">
+                            Connection Pooling</a><br><a href="https://www.ruby-toolbox.com/categories/couchdb_clients" target="_blank">
+                            CouchDB</a><br><a href="https://www.ruby-toolbox.com/categories/Active_Record_DB_Adapters" target="_blank">
+                            DB Adapters</a><br><a href="https://www.ruby-toolbox.com/categories/Data_Migration" target="_blank">
+                            Data Migrations</a><br><a href="https://www.ruby-toolbox.com/categories/mongodb_clients" target="_blank">
+                            MongoDB</a><br><a href="https://www.botreetechnologies.com/blog/how-to-install-and-use-mongodb-with-rails6/" target="_blank">
+                            MongoDB installation</a><br><a href="https://www.ruby-toolbox.com/projects/mysql2" target="_blank">
+                            Mysql2</a><br><a href="https://www.ruby-toolbox.com/projects/pg" target="_blank">
+                            Postgres</a><br><a href="https://www.ruby-toolbox.com/categories/orm" target="_blank">
+                            Rails ActiveRecord</a><br><a href="https://www.ruby-toolbox.com/categories/Redis" target="_blank">
+                            Redis</a><br><a href="https://www.ruby-toolbox.com/projects/sqlite3" target="_blank">
+                            Sqlite3</a><br><a href="https://www.ruby-toolbox.com/categories/ActiveRecord_without_Rails" target="_blank">
+                            Standalone Migrations</a><br></ul>
+            </div>
+        </div><div class="card">
+            <div class="card-section" id="db queries">
+                db queries
+            </div>
+
+            <div class="card-section">
+                <ul><a href="https://guides.rubyonrails.org/active_record_querying.html#calculations" target="_blank">
+                            calculations</a><br><a href="https://guides.rubyonrails.org/active_record_querying.html#conditions" target="_blank">
+                            conditions</a><br><a href="https://guides.rubyonrails.org/active_record_querying.html#dynamic-finders" target="_blank">
+                            dynamic finders</a><br><a href="https://guides.rubyonrails.org/active_record_querying.html#eager-loading-associations" target="_blank">
+                            eager loading</a><br><a href="https://guides.rubyonrails.org/active_record_querying.html#enums" target="_blank">
+                            enums</a><br><a href="https://guides.rubyonrails.org/active_record_querying.html#existence-of-objects" target="_blank">
+                            existence</a><br><a href="https://guides.rubyonrails.org/active_record_querying.html#running-explain" target="_blank">
+                            explain</a><br><a href="https://guides.rubyonrails.org/active_record_querying.html#finding-by-sql" target="_blank">
+                            find with sql</a><br><a href="https://guides.rubyonrails.org/active_record_querying.html#find-or-build-a-new-object" target="_blank">
+                            find-or-build</a><br><a href="https://guides.rubyonrails.org/active_record_querying.html#retrieving-multiple-objects-in-batches" target="_blank">
+                            get (multiple objects)</a><br><a href="https://guides.rubyonrails.org/active_record_querying.html#retrieving-a-single-object" target="_blank">
+                            get (single object)</a><br><a href="https://guides.rubyonrails.org/active_record_querying.html#group" target="_blank">
+                            grouping</a><br><a href="https://guides.rubyonrails.org/active_record_querying.html#having" target="_blank">
+                            having</a><br><a href="https://guides.rubyonrails.org/active_record_querying.html#joining-tables" target="_blank">
+                            join tables</a><br><a href="https://guides.rubyonrails.org/active_record_querying.html#limit-and-offset" target="_blank">
+                            limit, offset</a><br><a href="https://guides.rubyonrails.org/active_record_querying.html#understanding-the-method-chaining" target="_blank">
+                            method chains</a><br><a href="https://guides.rubyonrails.org/active_record_querying.html#null-relation" target="_blank">
+                            null relations</a><br><a href="https://guides.rubyonrails.org/active_record_querying.html#ordering" target="_blank">
+                            ordering</a><br><a href="https://guides.rubyonrails.org/active_record_querying.html#overriding-conditions" target="_blank">
+                            overriding conditions</a><br><a href="https://guides.rubyonrails.org/active_record_querying.html#readonly-objects" target="_blank">
+                            read-only records</a><br><a href="https://guides.rubyonrails.org/active_record_querying.html#locking-records-for-update" target="_blank">
+                            record locking</a><br><a href="https://guides.rubyonrails.org/active_record_querying.html#scopes" target="_blank">
+                            scopes</a><br><a href="https://guides.rubyonrails.org/active_record_querying.html#selecting-specific-fields" target="_blank">
+                            specific fields</a><br></ul>
+            </div>
+        </div><div class="card">
+            <div class="card-section" id="db schema migrations">
+                db schema migrations
+            </div>
+
+            <div class="card-section">
+                <ul><a href="https://guides.rubyonrails.org/active_record_migrations.html#changing-existing-migrations" target="_blank">
+                            Changing Existing Migrations</a><br><a href="https://guides.rubyonrails.org/active_record_migrations.html#creating-a-migration" target="_blank">
+                            Creating</a><br><a href="https://guides.rubyonrails.org/active_record_migrations.html#writing-a-migration" target="_blank">
+                            Formats</a><br><a href="https://guides.rubyonrails.org/active_record_migrations.html#active-record-and-referential-integrity" target="_blank">
+                            Referential Integrity</a><br><a href="https://guides.rubyonrails.org/active_record_migrations.html#running-migrations" target="_blank">
+                            Running</a><br><a href="https://guides.rubyonrails.org/active_record_migrations.html#schema-dumping-and-you" target="_blank">
+                            Schema Dumps</a><br><a href="https://guides.rubyonrails.org/active_record_migrations.html#migrations-and-seed-data" target="_blank">
+                            Seed Data</a><br></ul>
+            </div>
+        </div><div class="card">
+            <div class="card-section" id="db seeds">
+                db seeds
+            </div>
+
+            <div class="card-section">
+                <ul><a href="https://stackoverflow.com/questions/19872271/adding-a-custom-seed-file#19872375" target="_blank">
+                            custom seed files</a><br></ul>
+            </div>
+        </div><div class="card">
+            <div class="card-section" id="debugging">
+                debugging
+            </div>
+
+            <div class="card-section">
+                <ul><a href="https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-byebug-gem" target="_blank">
+                            Byebug</a><br><a href="https://guides.rubyonrails.org/debugging_rails_applications.html#the-logger" target="_blank">
+                            Logging</a><br><a href="https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-memory-leaks" target="_blank">
+                            Memory Leaks</a><br><a href="https://guides.rubyonrails.org/debugging_rails_applications.html#plugins-for-debugging" target="_blank">
+                            Plugins</a></a><br><a href="https://guides.rubyonrails.org/debugging_rails_applications.html#view-helpers-for-debugging" target="_blank">
+                            View Helpers</a><br><a href="https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-web-console-gem" target="_blank">
+                            web-console</a><br></ul>
+            </div>
+        </div><div class="card">
+            <div class="card-section" id="devops">
+                devops
+            </div>
+
+            <div class="card-section">
+                <ul><a href="https://www.ruby-toolbox.com/categories/Amazon_Web_Services" target="_blank">
+                            AWS</a><br><a href="https://www.ruby-toolbox.com/projects/backup" target="_blank">
+                            Backup</a><br><a href="https://www.ruby-toolbox.com/projects/capistrano" target="_blank">
+                            Capistrano</a><br><a href="https://www.ruby-toolbox.com/projects/chef" target="_blank">
+                            Chef</a><br><a href="https://hixonrails.com/ruby-on-rails-tutorials/ruby-on-rails-set-up-on-github-with-circleci/" target="_blank">
+                            Continuous Integration with CircleCI</a><br><a href="https://www.ruby-toolbox.com/projects/fog" target="_blank">
+                            Fog</a><br><a href="https://www.ruby-toolbox.com/categories/Gnome" target="_blank">
+                            Gtk2, glib2</a><br><a href="https://www.ruby-toolbox.com/projects/heroku" target="_blank">
+                            Heroku</a><br><a href="https://www.reddit.com/r/rails/comments/l59eti/best_alternatives_to_hosting_on_heroku/" target="_blank">
+                            Heroku alternatives?</a><br><a href="https://www.ruby-toolbox.com/projects/puppet" target="_blank">
+                            Puppet</a><br><a href="https://www.ruby-toolbox.com/projects/brandonweiss/railyard" target="_blank">
+                            Railyard</a><br><a href="https://www.ruby-toolbox.com/projects/travis-ci/travis-ci" target="_blank">
+                            Travis CI</a><br><a href="https://www.ruby-toolbox.com/projects/vagrant" target="_blank">
+                            Vagrant</a><br></ul>
+            </div>
+        </div><div class="card">
+            <div class="card-section" id="documentation">
+                documentation
+            </div>
+
+            <div class="card-section">
+                <ul><a href="https://www.ruby-toolbox.com/projects/rdoc" target="_blank">
+                            Rdoc</a><br></ul>
+            </div>
+        </div><div class="card">
+            <div class="card-section" id="ecommerce, payments">
+                ecommerce, payments
+            </div>
+
+            <div class="card-section">
+                <ul><a href="https://www.ruby-toolbox.com/categories/Payments" target="_blank">
+                            ActiveMerchant, Stripe</a><br><a href="https://www.ruby-toolbox.com/projects/spree" target="_blank">
+                            Spree</a><br></ul>
+            </div>
+        </div><div class="card">
+            <div class="card-section" id="email">
+                email
+            </div>
+
+            <div class="card-section">
+                <ul><a href="https://hixonrails.com/ruby-on-rails-tutorials/ruby-on-rails-action-mailer-configuration/" target="_blank">
+                            ActionMailer configuration</a><br><a href="https://www.ruby-toolbox.com/categories/Asynchronous_E-Mail" target="_blank">
+                            Async Email</a><br><a href="https://guides.rubyonrails.org/action_mailer_basics.html#action-mailer-callbacks" target="_blank">
+                            Callbacks</a><br><a href="https://guides.rubyonrails.org/action_mailer_basics.html#action-mailer-configuration" target="_blank">
+                            Configuration</a><br><a href="https://www.ruby-toolbox.com/categories/forum_systems" target="_blank">
+                            Forum Tools</a><br><a href="https://guides.rubyonrails.org/action_mailer_basics.html#using-action-mailer-helpers" target="_blank">
+                            Helpers</a><br><a href="https://www.ruby-toolbox.com/categories/Inline_CSS_for_E-Mail" target="_blank">
+                            Inline CSS</a><br><a href="https://guides.rubyonrails.org/action_mailer_basics.html#intercepting-emails" target="_blank">
+                            Intercepting</a><br><a href="https://www.ruby-toolbox.com/categories/Exchange_Clients" target="_blank">
+                            MS Exchange Client</a><br><a href="https://www.ruby-toolbox.com/categories/EMail_Fake_Servers" target="_blank">
+                            Previews</a><br><a href="https://www.ruby-toolbox.com/categories/e_mail_processing" target="_blank">
+                            Processing</a><br><a href="https://guides.rubyonrails.org/action_mailer_basics.html#receiving-emails" target="_blank">
+                            Receiving</a><br><a href="https://guides.rubyonrails.org/action_mailer_basics.html#sending-emails" target="_blank">
+                            Sending</a><br><a href="https://guides.rubyonrails.org/action_mailer_basics.html#mailer-testing" target="_blank">
+                            Testing</a><br></ul>
+            </div>
+        </div><div class="card">
+            <div class="card-section" id="encryption">
+                encryption
+            </div>
+
+            <div class="card-section">
+                <ul><a href="https://rubyweekly.com/link/102532/ad5e785e3b" target="_blank">
+                            Bcrypt hashing</a><br></ul>
+            </div>
+        </div><div class="card">
+            <div class="card-section" id="generators & templates">
+                generators & templates
+            </div>
+
+            <div class="card-section">
+                <ul><a href="https://guides.rubyonrails.org/generators.html#first-contact" target="_blank">
+                            1st Contact</a><br><a href="https://guides.rubyonrails.org/generators.html#application-templates" target="_blank">
+                            App Templates</a><br><a href="https://guides.rubyonrails.org/generators.html#adding-command-line-arguments" target="_blank">
+                            Cmnd Line Args</a><br><a href="https://guides.rubyonrails.org/generators.html#creating-your-first-generator" target="_blank">
+                            Creating</a><br><a href="https://guides.rubyonrails.org/generators.html#customizing-your-workflow-by-changing-generators-templates" target="_blank">
+                            Custom Templates</a><br><a href="https://guides.rubyonrails.org/generators.html#customizing-your-workflow" target="_blank">
+                            Custom Workflows</a><br><a href="https://guides.rubyonrails.org/generators.html#adding-generators-fallbacks" target="_blank">
+                            Fallbacks</a><br><a href="https://guides.rubyonrails.org/generators.html#generator-methods" target="_blank">
+                            Generators</a><br><a href="https://guides.rubyonrails.org/generators.html#creating-generators-with-generators" target="_blank">
+                            Generators w/ Generators</a><br><a href="https://guides.rubyonrails.org/generators.html#generators-lookup" target="_blank">
+                            Lookups</a><br></ul>
+            </div>
+        </div><div class="card">
+            <div class="card-section" id="graphics, pdfs, images">
+                graphics, pdfs, images
+            </div>
+
+            <div class="card-section">
+                <ul><a href="https://www.ruby-toolbox.com/projects/chartkick" target="_blank">
+                            Charting</a><br><a href="https://www.ruby-toolbox.com/categories/irc_bots" target="_blank">
+                            IRC Bots</a><br><a href="https://www.ruby-toolbox.com/categories/image_processing" target="_blank">
+                            Images</a><br><a href="https://www.ruby-toolbox.com/categories/Optical_Character_Recognition" target="_blank">
+                            OCR Tools</a></a><br><a href="https://www.ruby-toolbox.com/projects/pdf-reader" target="_blank">
+                            PDF Reader</a><br><a href="https://www.ruby-toolbox.com/categories/pdf_generation" target="_blank">
+                            PDFs - Prawn, PDFkit, etc</a><br><a href="https://www.ruby-toolbox.com/categories/QR_Codes" target="_blank">
+                            QR Codes</a></a><br><a href="https://www.ruby-toolbox.com/categories/reporting" target="_blank">
+                            Spreadsheets</a><br><a href="https://www.ruby-toolbox.com/categories/visualizing_data" target="_blank">
+                            Visualization</a><br></ul>
+            </div>
+        </div><div class="card">
+            <div class="card-section" id="html forms">
+                html forms
+            </div>
+
+            <div class="card-section">
+                <ul><a href="https://guides.rubyonrails.org/form_helpers.html#dealing-with-basic-forms" target="_blank">
+                            Basics</a><br><a href="https://guides.rubyonrails.org/form_helpers.html#building-complex-forms" target="_blank">
+                            Complex Forms</a><br><a href="https://guides.rubyonrails.org/form_helpers.html#customizing-form-builders" target="_blank">
+                            Custom Forms</a><br><a href="https://guides.rubyonrails.org/form_helpers.html#using-date-and-time-form-helpers" target="_blank">
+                            Date & Time</a><br><a href="https://guides.rubyonrails.org/form_helpers.html#forms-to-external-resources" target="_blank">
+                            External Resources</a><br><a href="https://guides.rubyonrails.org/form_helpers.html#uploading-files" target="_blank">
+                            File Uploads</a><br><a href="https://guides.rubyonrails.org/form_helpers.html#dealing-with-model-objects" target="_blank">
+                            Model Objects</a><br><a href="https://guides.rubyonrails.org/form_helpers.html#making-select-boxes-with-ease" target="_blank">
+                            Option Selectors</a><br><a href="https://guides.rubyonrails.org/form_helpers.html#understanding-parameter-naming-conventions" target="_blank">
+                            Parameter Names</a><br></ul>
+            </div>
+        </div><div class="card">
+            <div class="card-section" id="html helpers">
+                html helpers
+            </div>
+
+            <div class="card-section">
+                <ul><a href="https://guides.rubyonrails.org/action_view_overview.html#assettaghelper" target="_blank">
+                            Asset Tags</a><br><a href="https://guides.rubyonrails.org/action_view_overview.html#atomfeedhelper" target="_blank">
+                            Atom Feeds</a><br><a href="https://guides.rubyonrails.org/action_view_overview.html#benchmarkhelper" target="_blank">
+                            Benchmark Helper</a><br><a href="https://guides.rubyonrails.org/action_view_overview.html#csrfhelper" target="_blank">
+                            CSRF Helper</a><br><a href="https://guides.rubyonrails.org/action_view_overview.html#cachehelper" target="_blank">
+                            Cache Helper</a><br><a href="https://guides.rubyonrails.org/action_view_overview.html#capturehelper" target="_blank">
+                            Capture Helper</a><br><a href="https://guides.rubyonrails.org/action_view_overview.html#datehelper" target="_blank">
+                            Date Helpers</a><br><a href="https://guides.rubyonrails.org/action_view_overview.html#formhelper" target="_blank">
+                            Form Helpers</a><br><a href="https://guides.rubyonrails.org/action_view_overview.html#formoptionshelper" target="_blank">
+                            Form Options</a><br><a href="https://guides.rubyonrails.org/action_view_overview.html#formtaghelper" target="_blank">
+                            Form Tags</a><br><a href="https://guides.rubyonrails.org/action_view_overview.html#sanitizehelper" target="_blank">
+                            HTML Sanitize Helpers</a><br><a href="https://guides.rubyonrails.org/action_view_overview.html#layouts" target="_blank">
+                            Layouts</a><br><a href="https://guides.rubyonrails.org/action_view_overview.html#localized-views" target="_blank">
+                            Localized Views</a><br><a href="https://guides.rubyonrails.org/action_view_overview.html#numberhelper" target="_blank">
+                            Number Helpers</a><br><a href="https://guides.rubyonrails.org/action_view_overview.html#partial-layouts" target="_blank">
+                            Partial Layouts</a><br><a href="https://guides.rubyonrails.org/action_view_overview.html#partials" target="_blank">
+                            Partials</a><br><a href="https://guides.rubyonrails.org/action_view_overview.html#templates" target="_blank">
+                            Templates</a><br><a href="https://guides.rubyonrails.org/action_view_overview.html#view-paths" target="_blank">
+                            View Paths</a><br><a href="https://guides.rubyonrails.org/action_view_overview.html#debughelper" target="_blank">
+                            debug(content)</a><br><a href="https://guides.rubyonrails.org/action_view_overview.html#javascripthelper" target="_blank">
+                            javascript_tag</a><br><a href="https://boringrails.com/tips/rails-excerpt-helper" target="_blank">
+                            text excerpts</a><br></ul>
+            </div>
+        </div><div class="card">
+            <div class="card-section" id="internationalization">
+                internationalization
+            </div>
+
+            <div class="card-section">
+                <ul><a href="https://guides.rubyonrails.org/i18n.html#overview-of-the-i18n-api-features" target="_blank">
+                            API</a><br><a href="https://guides.rubyonrails.org/i18n.html#customize-your-i18n-setup" target="_blank">
+                            Custom Setups</a><br><a href="https://guides.rubyonrails.org/i18n.html#how-to-store-your-custom-translations" target="_blank">
+                            Custom Translations</a><br><a href="https://guides.rubyonrails.org/i18n.html#internationalization-and-localization" target="_blank">
+                            Localization</a><br><a href="https://guides.rubyonrails.org/i18n.html#translating-model-content" target="_blank">
+                            Model Content</a><br><a href="https://guides.rubyonrails.org/i18n.html#how-i18n-in-ruby-on-rails-works" target="_blank">
+                            Overview</a><br><a href="https://guides.rubyonrails.org/i18n.html#setup-the-rails-application-for-internationalization" target="_blank">
+                            Setup</a><br></ul>
+            </div>
+        </div><div class="card">
+            <div class="card-section" id="javascript">
+                javascript
+            </div>
+
+            <div class="card-section">
+                <ul><a href="https://www.ruby-toolbox.com/projects/coffee-script" target="_blank">
+                            Coffeescript</a><br><a href="https://guides.rubyonrails.org/working_with_javascript_in_rails.html#built-in-helpers" target="_blank">
+                            Helpers</a><br><a href="https://www.ruby-toolbox.com/projects/uglifier" target="_blank">
+                            Minifiers</a><br><a href="https://www.ruby-toolbox.com/projects/sprockets" target="_blank">
+                            Packaging</a><br><a href="https://medium.com/@nikolalsvk/getting-started-with-svelte-and-rails-6-d8384c80ad6c" target="_blank">
+                            Rails with Svelte</a><br><a href="https://www.ruby-toolbox.com/categories/react_tools" target="_blank">
+                            React-Rails</a><br><a href="https://www.ruby-toolbox.com/categories/JavaScript_runtimes" target="_blank">
+                            Runtimes</a><br><a href="https://guides.rubyonrails.org/working_with_javascript_in_rails.html#server-side-concerns" target="_blank">
+                            Server-Side</a><br><a href="https://www.ruby-toolbox.com/categories/javascript_testing" target="_blank">
+                            Testing</a><br><a href="https://guides.rubyonrails.org/working_with_javascript_in_rails.html#turbolinks" target="_blank">
+                            Turbolinks</a><br><a href="https://guides.rubyonrails.org/working_with_javascript_in_rails.html#unobtrusive-javascript" target="_blank">
+                            Unobtrusive JS</a><br><a href="https://www.ruby-toolbox.com/projects/webpacker" target="_blank">
+                            Webpacker</a><br><a href="https://prathamesh.tech/2019/08/26/understanding-webpacker-in-rails-6/" target="_blank">
+                            Webpacker in Rails 6</a><br></ul>
+            </div>
+        </div><div class="card">
+            <div class="card-section" id="layouts & rendering">
+                layouts & rendering
+            </div>
+
+            <div class="card-section">
+                <ul><a href="https://guides.rubyonrails.org/layouts_and_rendering.html#asset-tag-helpers" target="_blank">
+                            Asset Tags</a><br><a href="https://semaphoreci.com/blog/2017/06/08/speeding-up-rails-pages-with-render-async.html" target="_blank">
+                            Rendering with render_async</a><br><a href="https://guides.rubyonrails.org/layouts_and_rendering.html#using-the-content-for-method" target="_blank">
+                            content_for</a><br><a href="https://guides.rubyonrails.org/layouts_and_rendering.html#using-head-to-build-header-only-responses" target="_blank">
+                            head</a><br><a href="https://guides.rubyonrails.org/layouts_and_rendering.html#using-nested-layouts" target="_blank">
+                            nested layouts</a><br><a href="https://guides.rubyonrails.org/layouts_and_rendering.html#using-partials" target="_blank">
+                            partials</a><br><a href="https://guides.rubyonrails.org/layouts_and_rendering.html#using-redirect-to" target="_blank">
+                            redirect_to</a><br><a href="https://guides.rubyonrails.org/layouts_and_rendering.html#using-render" target="_blank">
+                            render</a><br><a href="https://guides.rubyonrails.org/layouts_and_rendering.html#understanding-yield" target="_blank">
+                            yield</a><br></ul>
+            </div>
+        </div><div class="card">
+            <div class="card-section" id="logging">
+                logging
+            </div>
+
+            <div class="card-section">
+                <ul><a href="https://www.ruby-toolbox.com/projects/fluentd" target="_blank">
+                            Fluentd, etc</a><br><a href="https://www.ruby-toolbox.com/projects/logstash/logstash" target="_blank">
+                            Logstash</a><br></ul>
+            </div>
+        </div><div class="card">
+            <div class="card-section" id="markup">
+                markup
+            </div>
+
+            <div class="card-section">
+                <ul><a href="https://www.ruby-toolbox.com/categories/rails_admin_interfaces" target="_blank">
+                            Admin UIs</a><br><a href="https://www.ruby-toolbox.com/categories/Breadcrumb_Builders" target="_blank">
+                            Breadcrumbs</a><br><a href="https://www.ruby-toolbox.com/categories/microformats" target="_blank">
+                            Microformats (Prism,..)</a><br><a href="https://www.ruby-toolbox.com/categories/rails_permalinks___slugs" target="_blank">
+                            Permalinks</a><br><a href="https://www.ruby-toolbox.com/categories/markup_processors" target="_blank">
+                            Processors (Redcarpet, Kramdown)</a><br><a href="https://www.ruby-toolbox.com/categories/syntax_highlighting" target="_blank">
+                            Syntax Highlighters</a><br><a href="https://www.ruby-toolbox.com/categories/Table_Builders" target="_blank">
+                            Table Builders</a><br><a href="https://www.ruby-toolbox.com/categories/template_engines" target="_blank">
+                            Template Engines</a><br></ul>
+            </div>
+        </div><div class="card">
+            <div class="card-section" id="modules">
+                modules
+            </div>
+
+            <div class="card-section">
+                <ul><a href="https://riptutorial.com/ruby-on-rails/example/3865/concerns" target="_blank">
+                            Concerns example</a><br><a href="https://blog.appsignal.com/2020/09/16/rails-concers-to-concern-or-not-to-concern.html" target="_blank">
+                            Intro to Concerns</a><br></ul>
+            </div>
+        </div><div class="card">
+            <div class="card-section" id="monitoring">
+                monitoring
+            </div>
+
+            <div class="card-section">
+                <ul><a href="https://hixonrails.com/ruby-on-rails-tutorials/ruby-on-rails-application-monitoring/" target="_blank">
+                            40 Monitoring Tools</a><br><a href="https://app.getpocket.com/read/2928780813" target="_blank">
+                            40 tools (hixonrails)</a><br><a href="https://www.ruby-toolbox.com/projects/airbrake" target="_blank">
+                            Airbrake</a><br><a href="https://www.ruby-toolbox.com/projects/better_errors" target="_blank">
+                            Better Errors</a><br><a href="https://www.ruby-toolbox.com/projects/bullet" target="_blank">
+                            Bullet</a><br><a href="https://www.ruby-toolbox.com/projects/errbit/errbit" target="_blank">
+                            Errbit</a><br><a href="https://www.ruby-toolbox.com/projects/newrelic_rpm" target="_blank">
+                            New Relic</a><br></ul>
+            </div>
+        </div><div class="card">
+            <div class="card-section" id="optimization">
+                optimization
+            </div>
+
+            <div class="card-section">
+                <ul><a href="https://dev.to/mskog/42-performance-tips-for-ruby-on-rails-4aik" target="_blank">
+                            42 Performance Tips</a><br><a href="https://www.honeybadger.io/blog/ruby-rails-memoization/?utm_source=rubyweekly&utm_medium=email&utm_campaign=ruby" target="_blank">
+                            Memoization</a><br></ul>
+            </div>
+        </div><div class="card">
+            <div class="card-section" id="publishing">
+                publishing
+            </div>
+
+            <div class="card-section">
+                <ul><a href="https://www.ruby-toolbox.com/categories/wiki_apps" target="_blank">
+                            Gollum</a><br><a href="https://www.ruby-toolbox.com/categories/static_website_generation" target="_blank">
+                            Jekyll, etc</a><br><a href="https://www.ruby-toolbox.com/categories/Blog_Engines" target="_blank">
+                            Octopress, etc</a><br><a href="https://www.ruby-toolbox.com/categories/content_management_systems" target="_blank">
+                            Refinery, etc</a><br></ul>
+            </div>
+        </div><div class="card">
+            <div class="card-section" id="rack middleware">
+                rack middleware
+            </div>
+
+            <div class="card-section">
+                <ul><a href="http://chneukirchen.org/blog/archive/2007/02/introducing-rack.html" target="_blank">
+                            Intro to Rack</a><br><a href="https://guides.rubyonrails.org/rails_on_rack.html#action-dispatcher-middleware-stack" target="_blank">
+                            Middleware Stack</a><br><a href="https://rack.github.io/" target="_blank">
+                            Rack Website</a><br><a href="https://guides.rubyonrails.org/rails_on_rack.html#rails-on-rack" target="_blank">
+                            Rails on Rack</a><br></ul>
+            </div>
+        </div><div class="card">
+            <div class="card-section" id="rails v6">
+                rails v6
+            </div>
+
+            <div class="card-section">
+                <ul><a href="https://evilmartians.com/chronicles/rails-6-b-sides-and-rarities" target="_blank">
+                            Rails 6 features</a><br><a href="https://dev.to/vvo/a-rails-6-setup-guide-for-2019-and-2020-hf5" target="_blank">
+                            Rails 6 setup</a><br></ul>
+            </div>
+        </div><div class="card">
+            <div class="card-section" id="revision control">
+                revision control
+            </div>
+
+            <div class="card-section">
+                <ul><a href="https://www.ruby-toolbox.com/categories/git_Tools" target="_blank">
+                            Git Tools</a><br><a href="https://www.ruby-toolbox.com/categories/project_management" target="_blank">
+                            GitlabHQ</a><br></ul>
+            </div>
+        </div><div class="card">
+            <div class="card-section" id="routing">
+                routing
+            </div>
+
+            <div class="card-section">
+                <ul><a href="https://guides.rubyonrails.org/routing.html#customizing-resourceful-routes" target="_blank">
+                            Custom Resource Routes</a><br><a href="https://guides.rubyonrails.org/routing.html#inspecting-and-testing-routes" target="_blank">
+                            Listing & Testing</a><br><a href="https://guides.rubyonrails.org/routing.html#the-purpose-of-the-rails-router" target="_blank">
+                            Overview</a><br><a href="https://guides.rubyonrails.org/routing.html#resource-routing-the-rails-default" target="_blank">
+                            Resource Routing</a><br><a href="https://guides.rubyonrails.org/routing.html#non-resourceful-routes" target="_blank">
+                            Resourceful Routes</a><br><a href="https://www.ruby-toolbox.com/categories/rails_subdomains" target="_blank">
+                            Subdomains</a><br></ul>
+            </div>
+        </div><div class="card">
+            <div class="card-section" id="ruby language extensions">
+                ruby language extensions
+            </div>
+
+            <div class="card-section">
+                <ul><a href="https://guides.rubyonrails.org/active_support_core_extensions.html#extensions-to-all-objects" target="_blank">
+                            All Objects</a><br><a href="https://guides.rubyonrails.org/active_support_core_extensions.html#extensions-to-array" target="_blank">
+                            Arrays</a><br><a href="https://guides.rubyonrails.org/active_support_core_extensions.html#extensions-to-bigdecimal" target="_blank">
+                            Big Decimals</a><br><a href="https://guides.rubyonrails.org/active_support_core_extensions.html#extensions-to-class" target="_blank">
+                            Classes</a><br><a href="https://guides.rubyonrails.org/active_support_core_extensions.html#extensions-to-datetime" target="_blank">
+                            Date/Times</a><br><a href="https://guides.rubyonrails.org/active_support_core_extensions.html#extensions-to-date" target="_blank">
+                            Dates</a><br><a href="https://guides.rubyonrails.org/active_support_core_extensions.html#extensions-to-enumerable" target="_blank">
+                            Enumerables</a><br><a href="https://guides.rubyonrails.org/active_support_core_extensions.html#extensions-to-file" target="_blank">
+                            Files</a><br><a href="https://guides.rubyonrails.org/active_support_core_extensions.html#extensions-to-hash" target="_blank">
+                            Hashes</a><br><a href="https://guides.rubyonrails.org/active_support_core_extensions.html#how-to-load-core-extensions" target="_blank">
+                            How to Load</a><br><a href="https://guides.rubyonrails.org/active_support_core_extensions.html#extensions-to-integer" target="_blank">
+                            Integers</a><br><a href="https://guides.rubyonrails.org/active_support_core_extensions.html#extensions-to-loaderror" target="_blank">
+                            Load Errors</a><br><a href="https://guides.rubyonrails.org/active_support_core_extensions.html#extensions-to-marshal" target="_blank">
+                            Marshals</a><br><a href="https://guides.rubyonrails.org/active_support_core_extensions.html#extensions-to-module" target="_blank">
+                            Modules</a><br><a href="https://guides.rubyonrails.org/active_support_core_extensions.html#extensions-to-nameerror" target="_blank">
+                            Name Errors</a><br><a href="https://guides.rubyonrails.org/active_support_core_extensions.html#extensions-to-numeric" target="_blank">
+                            Numerics</a><br><a href="https://guides.rubyonrails.org/active_support_core_extensions.html#extensions-to-range" target="_blank">
+                            Ranges</a><br><a href="https://guides.rubyonrails.org/active_support_core_extensions.html#extensions-to-regexp" target="_blank">
+                            Regexes</a><br><a href="https://guides.rubyonrails.org/active_support_core_extensions.html#extensions-to-string" target="_blank">
+                            Strings</a><br><a href="https://guides.rubyonrails.org/active_support_core_extensions.html#extensions-to-time" target="_blank">
+                            Times</a><br></ul>
+            </div>
+        </div><div class="card">
+            <div class="card-section" id="rubygems">
+                rubygems
+            </div>
+
+            <div class="card-section">
+                <ul><a href="https://blog.engineyard.com/how-to-build-your-own-gem-in-ruby" target="_blank">
+                            how to build your own</a><br><a href="https://www.ruby-toolbox.com/" target="_blank">
+                            ruby toolbox</a><br><a href="https://rubygems.org/" target="_blank">
+                            rubygems dot org</a><br></ul>
+            </div>
+        </div><div class="card">
+            <div class="card-section" id="scaffolds">
+                scaffolds
+            </div>
+
+            <div class="card-section">
+                <ul><a href="https://www.nopio.com/blog/creating-scaffold-generator-rails/" target="_blank">
+                            Custom Scaffolds</a><br></ul>
+            </div>
+        </div><div class="card">
+            <div class="card-section" id="search engines">
+                search engines
+            </div>
+
+            <div class="card-section">
+                <ul><a href="https://www.ruby-toolbox.com/categories/rails_search" target="_blank">
+                            ElasticSearch</a><br><a href="https://pganalyze.com/blog/full-text-search-ruby-rails-postgres" target="_blank">
+                            Postgres search</a><br><a href="https://www.ruby-toolbox.com/projects/searchkick" target="_blank">
+                            Searchkick</a><br><a href="https://www.ruby-toolbox.com/projects/sunspot" target="_blank">
+                            Sunspot</a><br></ul>
+            </div>
+        </div><div class="card">
+            <div class="card-section" id="security">
+                security
+            </div>
+
+            <div class="card-section">
+                <ul><a href="https://guides.rubyonrails.org/security.html#intranet-and-admin-security" target="_blank">
+                            Admin Security</a><br><a href="https://www.ruby-toolbox.com/categories/rails_authentication" target="_blank">
+                            Authentication (Devise, ...)</a><br><a href="https://www.ruby-toolbox.com/categories/rails_authorization" target="_blank">
+                            Authorization (Cancan, ...)</a><br><a href="https://hixonrails.com/ruby-on-rails-tutorials/ruby-on-rails-security-best-practices/" target="_blank">
+                            Best Practices (Hix on Rails)</a><br><a href="https://www.ruby-toolbox.com/projects/brakeman" target="_blank">
+                            Brakeman</a><br><a href="https://guides.rubyonrails.org/security.html#cross-site-request-forgery-csrf" target="_blank">
+                            CSRF</a><br><a href="https://guides.rubyonrails.org/security.html#environmental-security" target="_blank">
+                            Environmental Security</a><br><a href="https://guides.rubyonrails.org/security.html#default-headers" target="_blank">
+                            Headers</a><br><a href="https://guides.rubyonrails.org/security.html#injection" target="_blank">
+                            Injection</a><br><a href="https://rubyweekly.com/link/83853/ad5e785e3b" target="_blank">
+                            Intro to secrets & credentials</a><br><a href="https://www.ruby-toolbox.com/projects/loofah" target="_blank">
+                            Loofah</a><br><a href="https://guides.rubyonrails.org/security.html#redirection-and-files" target="_blank">
+                            Redirection & Files</a><br><a href="https://hixonrails.com/ruby-on-rails-tutorials/ruby-on-rails-security-best-practices/" target="_blank">
+                            Security best practices</a><br><a href="https://guides.rubyonrails.org/security.html#sessions" target="_blank">
+                            Sessions</a><br><a href="https://www.ruby-toolbox.com/categories/spam_detection" target="_blank">
+                            Spam Detection</a><br><a href="https://guides.rubyonrails.org/security.html#unsafe-query-generation" target="_blank">
+                            Unsafe Queries</a><br><a href="https://guides.rubyonrails.org/security.html#user-management" target="_blank">
+                            User Mgmt</a><br></ul>
+            </div>
+        </div><div class="card">
+            <div class="card-section" id="sinatra">
+                sinatra
+            </div>
+
+            <div class="card-section">
+                <ul><a href="http://www.sinatrarb.com/intro.html" target="_blank">
+                            intro</a><br><a href="http://padrinorb.com/" target="_blank">
+                            padrinorb.com</a><br><a href="https://github.com/sinatra/sinatra-recipes" target="_blank">
+                            recipes (github)</a><br><a href="http://shiroyasha.io/sinatra-app-with-rspec.html" target="_blank">
+                            sinatra with rspec (shiroyasha)</a><br><a href="http://www.sinatrarb.com/2017/05/15/sinatra-two-point-oh.html" target="_blank">
+                            v2.0</a><br></ul>
+            </div>
+        </div><div class="card">
+            <div class="card-section" id="testing">
+                testing
+            </div>
+
+            <div class="card-section">
+                <ul><a href="https://guides.rubyonrails.org/testing.html#testing-jobs" target="_blank">
+                            Background Job Testing</a><br><a href="https://www.ruby-toolbox.com/projects/cucumber" target="_blank">
+                            Cucumber</a><br><a href="https://guides.rubyonrails.org/testing.html#testing-your-mailers" target="_blank">
+                            Email Testing</a><br><a href="https://www.ruby-toolbox.com/projects/factory_bot" target="_blank">
+                            Factory Bot</a><br><a href="https://www.ruby-toolbox.com/projects/faker" target="_blank">
+                            Faker</a><br><a href="https://guides.rubyonrails.org/testing.html#functional-tests-for-your-controllers" target="_blank">
+                            Function Testing</a><br><a href="https://www.ruby-toolbox.com/projects/guard" target="_blank">
+                            Guard</a><br><a href="https://www.ruby-toolbox.com/projects/guard-rspec" target="_blank">
+                            Guard-rspec</a><br><a href="https://guides.rubyonrails.org/testing.html#testing-helpers" target="_blank">
+                            Helper Testing</a><br><a href="https://guides.rubyonrails.org/testing.html#integration-testing" target="_blank">
+                            Integration Testing</a><br><a href="https://guides.rubyonrails.org/testing.html#introduction-to-testing" target="_blank">
+                            Intro</a><br><a href="https://www.ruby-toolbox.com/categories/code_metrics" target="_blank">
+                            Metrics</a><br><a href="https://www.ruby-toolbox.com/projects/minitest" target="_blank">
+                            Minitest</a><br><a href="https://guides.rubyonrails.org/testing.html#model-testing" target="_blank">
+                            Model Testing</a><br><a href="https://relishapp.com/rspec" target="_blank">
+                            Relish</a><br><a href="https://guides.rubyonrails.org/testing.html#additional-testing-resources" target="_blank">
+                            Resources</a><br><a href="https://www.ruby-toolbox.com/categories/code_review_tools" target="_blank">
+                            Review Tools</a><br><a href="https://guides.rubyonrails.org/testing.html#testing-routes" target="_blank">
+                            Route Testing</a><br><a href="https://hixonrails.com/ruby-on-rails-tutorials/ruby-on-rails-testing-rspec-configuration/" target="_blank">
+                            Rspec configuration</a><br><a href="https://www.ruby-toolbox.com/projects/selenium-webdriver" target="_blank">
+                            Selenium</a><br><a href="https://www.ruby-toolbox.com/projects/split" target="_blank">
+                            Split</a><br><a href="https://www.ruby-toolbox.com/projects/spring" target="_blank">
+                            Spring</a><br><a href="https://guides.rubyonrails.org/testing.html#system-testing" target="_blank">
+                            System Testing</a><br><a href="https://guides.rubyonrails.org/testing.html#the-test-database" target="_blank">
+                            Test DB</a><br><a href="/pdfs/rails/rails_testing_beginners.pdf" target="_blank">
+                            Testing for beginners with rspec</a><br><a href="https://www.ruby-toolbox.com/projects/timecop" target="_blank">
+                            Timecop</a><br><a href="https://guides.rubyonrails.org/testing.html#testing-views" target="_blank">
+                            View Testing</a><br><a href="https://www.ruby-toolbox.com/categories/mocking_web_requests" target="_blank">
+                            Webmock</a><br><a href="https://hixonrails.com/ruby-on-rails-tutorials/ruby-on-rails-testing-rspec-configuration/" target="_blank">
+                            rspec tutorial (Hix on Rails)</a><br><a href="https://www.ruby-toolbox.com/categories/RSpec_Matchers" target="_blank">
+                            rspec-matchers</a><br><a href="https://www.ruby-toolbox.com/projects/rspec-mocks" target="_blank">
+                            rspec-mocks</a><br><a href="https://www.ruby-toolbox.com/categories/code_coverage" target="_blank">
+                            ruby toolbox</a><br><a href="https://github.com/colszowka/simplecov" target="_blank">
+                            simplecov</a><br></ul>
+            </div>
+        </div><div class="card">
+            <div class="card-section" id="tutorials & resources">
+                tutorials & resources
+            </div>
+
+            <div class="card-section">
+                <ul><a href="https://github.com/markets/awesome-ruby" target="_blank">
+                            Awesome Ruby (GitHub)</a><br><a href="https://dev.to/search?q=rails" target="_blank">
+                            Dev.to posts</a><br><a href="https://www.ruby-toolbox.com/categories" target="_blank">
+                            Gems (Ruby Toolbox)</a><br><a href="https://guides.rubyonrails.org/getting_started.html" target="_blank">
+                            Getting Started</a><br><a href="https://www.railstutorial.org/book" target="_blank">
+                            Hartl Rails Tutorial</a><br><a href="http://railscasts.com/" target="_blank">
+                            Railscasts</a><br></ul>
+            </div>
+        </div><div class="card">
+            <div class="card-section" id="validations">
+                validations
+            </div>
+
+            <div class="card-section">
+                <ul><a href="https://guides.rubyonrails.org/active_record_validations.html#conditional-validation" target="_blank">
+                            Conditional</a><br><a href="https://guides.rubyonrails.org/active_record_validations.html#performing-custom-validations" target="_blank">
+                            Custom</a><br><a href="https://guides.rubyonrails.org/active_record_validations.html#working-with-validation-errors" target="_blank">
+                            Errors</a><br><a href="https://guides.rubyonrails.org/active_record_validations.html#displaying-validation-errors-in-views" target="_blank">
+                            Errors in Views</a><br><a href="https://guides.rubyonrails.org/active_record_validations.html#validation-helpers" target="_blank">
+                            Helpers</a><br><a href="https://guides.rubyonrails.org/active_record_validations.html#common-validation-options" target="_blank">
+                            Options</a><br><a href="https://guides.rubyonrails.org/active_record_validations.html#validations-overview" target="_blank">
+                            Overview</a><br><a href="https://guides.rubyonrails.org/active_record_validations.html#strict-validations" target="_blank">
+                            Strict Validation</a><br></ul>
+            </div>
+        </div><div class="card">
+            <div class="card-section" id="web servers">
+                web servers
+            </div>
+
+            <div class="card-section">
+                <ul><a href="https://www.ruby-toolbox.com/projects/passenger" target="_blank">
+                            Passenger</a><br><a href="https://www.ruby-toolbox.com/projects/puma" target="_blank">
+                            Puma</a><br><a href="https://www.ruby-toolbox.com/projects/thin" target="_blank">
+                            Thin</a><br><a href="https://www.ruby-toolbox.com/projects/unicorn" target="_blank">
+                            Unicorn</a><br></ul>
+            </div>
+        </div><div class="card">
+            <div class="card-section" id="yaml">
+                yaml
+            </div>
+
+            <div class="card-section">
+                <ul><a href="http://www.yamllint.com/" target="_blank">
+                            YAML linter</a><br></ul>
+            </div>
+        </div></div>
+
+        </div>
+
+      </div>
+
+      <hr><footer>
+
+  <a href="/feed.xml">
+    <svg>
+      <use href="/assets/minima-social-icons.svg#rss"></use>
+    </svg></a>
+
+</footer>
+</div><!-- Compressed JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/js/foundation.min.js" 
+  integrity="sha256-pRF3zifJRA9jXGv++b06qwtSqX1byFQOLjqa2PTEb2o=" 
+  crossorigin="anonymous"></script>
+  
+</body>
+</html>

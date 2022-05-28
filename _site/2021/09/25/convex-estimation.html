@@ -1,0 +1,221 @@
+<html lang="en"><!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="http://localhost:4000/favicon-32x32.png" /><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Convex Optimization - book notes | Obviously Awesome</title>
+<meta name="generator" content="Jekyll v3.9.2" />
+<meta property="og:title" content="Convex Optimization - book notes" />
+<meta name="author" content="Brian Piercy" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Convex Optimization - book notes" />
+<meta property="og:description" content="Convex Optimization - book notes" />
+<link rel="canonical" href="http://localhost:4000/2021/09/25/convex-estimation.html" />
+<meta property="og:url" content="http://localhost:4000/2021/09/25/convex-estimation.html" />
+<meta property="og:site_name" content="Obviously Awesome" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-09-25T00:00:00-04:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Convex Optimization - book notes" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Brian Piercy"},"dateModified":"2021-09-25T00:00:00-04:00","datePublished":"2021-09-25T00:00:00-04:00","description":"Convex Optimization - book notes","headline":"Convex Optimization - book notes","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2021/09/25/convex-estimation.html"},"url":"http://localhost:4000/2021/09/25/convex-estimation.html"}</script>
+<!-- End Jekyll SEO tag -->
+<!-- Compressed CSS -->
+  <link rel="stylesheet" 
+  href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation.min.css" 
+  integrity="sha256-ogmFxjqiTMnZhxCqVmcqTvjfe1Y/ec4WaRj/aQPvn+I=" 
+  crossorigin="anonymous"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Obviously Awesome" /></head>
+<body>
+    <div class="grid-container fluid">
+
+      <div class="grid-x">     
+
+        <div class="text-left">
+          <h1><a href="/">Obviously Awesome</a></h1><form action="https://google.com/search" type="GET">
+  <div class="input-group">
+  	<input class="input-group-field" 
+        type="search" name="q" value="site search (Google)" onfocus=this.value=''>
+    <div class="input-group-button">
+      <input type="submit" class="button" value="Go">
+    </div>
+  </div>
+</form>
+
+<script>
+var form = document.querySelector("form");
+
+form.addEventListener("submit", function (e) {
+  e.preventDefault();
+  var search = form.querySelector("input[type=search]");
+  search.value = "site:bjpcjp.github.io " + search.value;
+  form.submit();
+});
+</script>
+ </div>
+
+      </div>
+
+      <div class="grid-x">     
+
+        <div class="cell small-4 medium-3 large-2"><ul class="vertical menu"><li>
+          <a href="/posts-by-tag.html">
+            Posts by Tag</a></li><li>
+          <a href="/behaviors/">
+            Behaviors</a></li><li>
+          <a href="/math/">
+            Math</a></li><li>
+          <a href="/devops.html">
+            DevOps &amp; Linux</a></li><li>
+          <a href="/gametheory/">
+            Game Theory</a></li><li>
+          <a href="/golang.html">
+            Golang</a></li><li>
+          <a href="/ideas.html">
+            Ideas</a></li><li>
+          <a href="/language/">
+            Language</a></li><li>
+          <a href="/prodmgmt/">
+            Prod Mgmt</a></li><li>
+          <a href="/python/">
+            Python</a></li><li>
+          <a href="/ruby.html">
+            Ruby</a></li><li>
+          <a href="/semiconductors.html">
+            Chips</a></li><li>
+          <a href="/uiux/">
+            UI/UX</a></li><li>
+          <a href="/webdev/">
+            Web Dev Tools</a></li><li>
+          <a href="/all-posts.html">
+            Index</a></li></ul></div>
+        
+        <div class="cell small-8 medium-9 large-10">
+          <h2>Convex Optimization - book notes</h2>
+
+<div class="callout">
+	<h3>
+		This post is in progress. It will be fleshed out as time permits.
+	</h3>
+</div>
+
+<ul>
+  <li>
+    <p><a href="/pdfs/math/convex-optimization.pdf#page=1">Convex Optimization (Boyd, Vandenberghe)</a></p>
+
+    <ul>
+      <li><a href="/pdfs/math/convex-optimization.pdf#page=7">Contents</a></li>
+      <li>
+        <p><a href="/pdfs/math/convex-optimization.pdf#page=11">Preface</a></p>
+      </li>
+      <li>
+        <p><a href="/pdfs/math/convex-optimization.pdf#page=15">Intro</a></p>
+
+        <p>Math optimization; Linear programming / least squares; Convex optimization;
+  Non-linear optimization; Book outline; Notation</p>
+      </li>
+      <li>
+        <p><a href="/pdfs/math/convex-optimization.pdf#page=35">Convex Sets</a></p>
+
+        <p>Affine &amp; convex sets; examples; operations that preserve convexity; 
+  inequalities; separating &amp; supporting hyperplanes; dual cones</p>
+      </li>
+      <li>
+        <p><a href="/pdfs/math/convex-optimization.pdf#page=81">Convex Functions</a></p>
+
+        <p>Basic properties; operations that preserve convexity; conjugate functions;
+  quasi-convex functions; log-concave &amp; log-convex functions; convexity &amp; 
+  generalized inequalities</p>
+      </li>
+      <li>
+        <p><a href="/pdfs/math/convex-optimization.pdf#page=141">Convex Optimization</a></p>
+
+        <p>Intro; convex optimization; linear optimization; quadratic optimization;
+  geometric programming; generalized inequality constraints; 
+  vector optimization</p>
+      </li>
+      <li>
+        <p><a href="/pdfs/math/convex-optimization.pdf#page=229">Duality</a></p>
+
+        <p>Lagrange dual function; Lagrange dual problem; geometric interpretation;
+  saddle-point interpretation; optimality conditions; pertubation &amp; sensitivity
+  analysis; examples; theorems of alternatives; generalized inequalities</p>
+      </li>
+      <li>
+        <p><a href="/pdfs/math/convex-optimization.pdf#page=305">Approximation &amp; fitting</a></p>
+
+        <p>Norm approximation; least-norm problems; regularized approximation; 
+  robust approximation; function fitting &amp; interpolation</p>
+      </li>
+      <li>
+        <p><a href="/pdfs/math/convex-optimization.pdf#page=365">Statistical estimation</a></p>
+
+        <p>Parametric distributions; non-parametric distributions; optimal detector
+  design &amp; hypothesis testing; Chebyshev &amp; Chernoff bounds; experiment design</p>
+      </li>
+      <li>
+        <p><a href="/pdfs/math/convex-optimization.pdf#page=411">Geometric problems</a></p>
+
+        <p>Projection on a set; distances between sets; Euclidean distances &amp; angle
+  problems; extremal volume ellipsoids; centering; classification; placement
+  &amp; location; floorplanning</p>
+      </li>
+      <li>
+        <p><a href="/pdfs/math/convex-optimization.pdf#page=471">Unconstrained optimization</a></p>
+
+        <p>Problems; descent methods; gradient descent; steepest descent; Newton’s method;
+  self-concordance; implementation</p>
+      </li>
+      <li>
+        <p><a href="/pdfs/math/convex-optimization.pdf#page=535">Equality-constrained minimization</a></p>
+
+        <p>Problems; Newton’s method; infeasible-start Newton’s method; implementation</p>
+      </li>
+      <li>
+        <p><a href="/pdfs/math/convex-optimization.pdf#page=575">Interior-point methods</a></p>
+
+        <p>Problems; log-barrier function &amp; central path; barrier method; feasibility &amp;
+  phase I methods; complexity analysis; general-inequality problems; primal-dual
+  methods; implementation</p>
+      </li>
+      <li>
+        <p><a href="/pdfs/math/convex-optimization.pdf#page=647">Appendix: Math</a></p>
+
+        <p>Norms; analysis; functions; derivatives; linear algebra</p>
+      </li>
+      <li>
+        <p><a href="/pdfs/math/convex-optimization.pdf#page=667">Appendix: Two-quadratic-function problems</a></p>
+
+        <p>Single-constraint optimization; S-procedure; symmetric matrix values;
+  strong duality proofs</p>
+      </li>
+      <li>
+        <p><a href="/pdfs/math/convex-optimization.pdf#page=675">Appendix: Numerical linear algebra</a></p>
+
+        <p>Matrix structures &amp; algorithm complexity; solving linear equations with
+  factored matrices; LU, Cholesky &amp; LDL factorization; block elimination &amp;
+  Schur complements; solving under-determined linear equations</p>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+        </div>
+
+      </div>
+
+      <hr><footer>
+
+  <a href="/feed.xml">
+    <svg>
+      <use href="/assets/minima-social-icons.svg#rss"></use>
+    </svg></a>
+
+</footer>
+</div><!-- Compressed JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/js/foundation.min.js" 
+  integrity="sha256-pRF3zifJRA9jXGv++b06qwtSqX1byFQOLjqa2PTEb2o=" 
+  crossorigin="anonymous"></script>
+  
+</body>
+</html>

@@ -1,0 +1,83 @@
+{"status":1,
+ "complete":1, 
+"list":{"199949546":{"item_id":"199949546", 
+"resolved_id":"199949546", 
+"given_url":"https://www.theunixschool.com/p/awk-sed.html", 
+"given_title":"The UNIX School: awk &amp; sed", "favorite":"0", 
+"status":"1", "time_added":"1612630121", 
+"time_updated":"1612801607", "time_read":"1612801607", 
+"time_favorited":"0", "sort_id":0, "resolved_title":"awk 
+&amp; sed", 
+"resolved_url":"http://www.theunixschool.com/p/awk-sed.html", 
+"excerpt":"Note: For the complete list of all the articles of The 
+UNIX School, check the 'Article Archive' in the right hand side.", 
+"is_article":"1", "is_index":"0", "has_video":"0", 
+"has_image":"0", "word_count":"190", "lang":"en", 
+"tags":{"awk":{"item_id":"199949546", "tag":"awk"}, 
+"sed":{"item_id":"199949546", "tag":"sed"}}, 
+"authors":{"6049215":{"item_id":"199949546", 
+"author_id":"6049215", "name":"guru prasad", "url":""}}, 
+"listen_duration_estimate":74}, 
+"3156849649":{"item_id":"3156849649", 
+"resolved_id":"3156849649", 
+"given_url":"https://jemma.dev/blog/awk-part-1", 
+"given_title":"Awk: `Begin { ` Part 1", "favorite":"0", 
+"status":"1", "time_added":"1604060853", 
+"time_updated":"1604187205", "time_read":"1604187204", 
+"time_favorited":"0", "sort_id":1, "resolved_title":"awk: 
+`BEGIN { ...`", "resolved_url":"https://jemma.dev/blog/awk-part-1", 
+"excerpt":"The other day, I was watching Bryan Cantrill’s 2018 talk,
+ Rust, and Other Interesting Things, and he made an offhanded comment 
+while discussing values of different programming languages and 
+communities.", "is_article":"1", "is_index":"0", 
+"has_video":"0", "has_image":"0", "word_count":"1153", 
+"lang":"en", "time_to_read":5, 
+"tags":{"awk":{"item_id":"3156849649", "tag":"awk"}}, 
+"listen_duration_estimate":446}, 
+"816691033":{"item_id":"816691033", 
+"resolved_id":"816691033", 
+"given_url":"https://ferd.ca/awk-in-20-minutes.html", 
+"given_title":"Awk in 20 Minutes", "favorite":"0", 
+"status":"1", "time_added":"1588426160", 
+"time_updated":"1588447972", "time_read":"1588447972", 
+"time_favorited":"0", "sort_id":2, "resolved_title":"Awk in 
+20 Minutes", "resolved_url":"http://ferd.ca/awk-in-20-minutes.html",
+ "excerpt":"Awk is a tiny programming language and a command line 
+tool. It's particularly appropriate for log parsing on servers, mostly 
+because Awk will operate on files, usually structured in lines of 
+human-readable text.", "is_article":"1", "is_index":"0", 
+"has_video":"0", "has_image":"0", "word_count":"1521", 
+"lang":"en", "time_to_read":7, 
+"tags":{"awk":{"item_id":"816691033", "tag":"awk"}}, 
+"listen_duration_estimate":589}, 
+"1220706318":{"item_id":"1220706318", 
+"resolved_id":"1220706318", 
+"given_url":"https://web.archive.org/web/20150906053501/http://gregable.com/2010/09/why-you-should-know-just-little-awk.html",
+ "given_title":"Learn Just a Little Awk: An Awk Tutorial by 
+Example", "favorite":"0", "status":"1", 
+"time_added":"1569698458", "time_updated":"1608340444", 
+"time_read":"1569859846", "time_favorited":"0", "sort_id":3,
+ "resolved_title":"Why you should learn just a little Awk - An Awk 
+Tutorial by Example", 
+"resolved_url":"https://web.archive.org/web/20150906053501/http://gregable.com/2010/09/why-you-should-know-just-little-awk.html",
+ "excerpt":"In grad school, I once saw a prof I was working with 
+grab a text file and in seconds manipulate it into little pieces so 
+deftly it blew my mind. I immediately decided it was time for me to 
+learn awk, which he had so clearly mastered.", "is_article":"1", 
+"is_index":"0", "has_video":"0", "has_image":"1", 
+"word_count":"1352", "lang":"en", "time_to_read":6, 
+"tags":{"awk":{"item_id":"1220706318", "tag":"awk"}, 
+"text":{"item_id":"1220706318", "tag":"text"}}, 
+"authors":{"236786":{"item_id":"1220706318", 
+"author_id":"236786", "name":"Greg Grothaus", "url":""}}, 
+"image":{"item_id":"1220706318", 
+"src":"https://web.archive.org/web/20150906053501im_/http://4.bp.blogspot.com/_s5emCsFnEdE/TKLk4ZBFfwI/AAAAAAAADl4/pQsWzHs9da0/s400/awk.JPG",
+ "width":"220", "height":"400"}, 
+"images":{"1":{"item_id":"1220706318", "image_id":"1", 
+"src":"https://web.archive.org/web/20150906053501im_/http://4.bp.blogspot.com/_s5emCsFnEdE/TKLk4ZBFfwI/AAAAAAAADl4/pQsWzHs9da0/s400/awk.JPG",
+ "width":"220", "height":"400", "credit":"", 
+"caption":""}}, "domain_metadata":{"name":"Internet 
+Archive", "logo":"https://logo.clearbit.com/archive.org?size=800", 
+"greyscale_logo":"https://logo.clearbit.com/archive.org?size=800&amp;greyscale=true"},
+ "listen_duration_estimate":523}}, "error":nil, 
+"search_meta":{"search_type":"normal"}, "since":1624315178}

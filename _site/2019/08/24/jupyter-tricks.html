@@ -1,0 +1,319 @@
+<html lang="en"><!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="http://localhost:4000/favicon-32x32.png" /><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Jupyter tricks &amp; tips | Obviously Awesome</title>
+<meta name="generator" content="Jekyll v3.9.2" />
+<meta property="og:title" content="Jupyter tricks &amp; tips" />
+<meta name="author" content="Brian Piercy" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Dataquest.io" />
+<meta property="og:description" content="Dataquest.io" />
+<link rel="canonical" href="http://localhost:4000/2019/08/24/jupyter-tricks.html" />
+<meta property="og:url" content="http://localhost:4000/2019/08/24/jupyter-tricks.html" />
+<meta property="og:site_name" content="Obviously Awesome" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2019-08-24T00:00:00-04:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Jupyter tricks &amp; tips" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Brian Piercy"},"dateModified":"2019-08-24T00:00:00-04:00","datePublished":"2019-08-24T00:00:00-04:00","description":"Dataquest.io","headline":"Jupyter tricks &amp; tips","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2019/08/24/jupyter-tricks.html"},"url":"http://localhost:4000/2019/08/24/jupyter-tricks.html"}</script>
+<!-- End Jekyll SEO tag -->
+<!-- Compressed CSS -->
+  <link rel="stylesheet" 
+  href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation.min.css" 
+  integrity="sha256-ogmFxjqiTMnZhxCqVmcqTvjfe1Y/ec4WaRj/aQPvn+I=" 
+  crossorigin="anonymous"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Obviously Awesome" /></head>
+<body>
+    <div class="grid-container fluid">
+
+      <div class="grid-x">     
+
+        <div class="text-left">
+          <h1><a href="/">Obviously Awesome</a></h1><form action="https://google.com/search" type="GET">
+  <div class="input-group">
+  	<input class="input-group-field" 
+        type="search" name="q" value="site search (Google)" onfocus=this.value=''>
+    <div class="input-group-button">
+      <input type="submit" class="button" value="Go">
+    </div>
+  </div>
+</form>
+
+<script>
+var form = document.querySelector("form");
+
+form.addEventListener("submit", function (e) {
+  e.preventDefault();
+  var search = form.querySelector("input[type=search]");
+  search.value = "site:bjpcjp.github.io " + search.value;
+  form.submit();
+});
+</script>
+ </div>
+
+      </div>
+
+      <div class="grid-x">     
+
+        <div class="cell small-4 medium-3 large-2"><ul class="vertical menu"><li>
+          <a href="/posts-by-tag.html">
+            Posts by Tag</a></li><li>
+          <a href="/behaviors/">
+            Behaviors</a></li><li>
+          <a href="/math/">
+            Math</a></li><li>
+          <a href="/devops.html">
+            DevOps &amp; Linux</a></li><li>
+          <a href="/gametheory/">
+            Game Theory</a></li><li>
+          <a href="/golang.html">
+            Golang</a></li><li>
+          <a href="/ideas.html">
+            Ideas</a></li><li>
+          <a href="/language/">
+            Language</a></li><li>
+          <a href="/prodmgmt/">
+            Prod Mgmt</a></li><li>
+          <a href="/python/">
+            Python</a></li><li>
+          <a href="/ruby.html">
+            Ruby</a></li><li>
+          <a href="/semiconductors.html">
+            Chips</a></li><li>
+          <a href="/uiux/">
+            UI/UX</a></li><li>
+          <a href="/webdev/">
+            Web Dev Tools</a></li><li>
+          <a href="/all-posts.html">
+            Index</a></li></ul></div>
+        
+        <div class="cell small-8 medium-9 large-10">
+          <div class="callout">
+	<a href="https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts/">
+		<img src="/px/math/jupyter-logo.png">
+		Dataquest.io</a>
+</div>
+
+<div style="columns: 2;">
+
+<div class="card">
+  <div class="card-section">
+	Keyboard Shortcuts:</div>
+	<img src="/px/math/jupyter-command-palette.gif">
+</div>
+
+<div class="card">
+  <div class="card-section">
+	<code>ast_note_interactivity</code>:Formatted variable displays:</div>
+<img src="/px/math/jupyter-ast-node-interactivity.png">
+</div>
+
+<div class="card">
+  <div class="card-section">
+	<code>?(function name)</code> - Documentation links:</div>
+<img src="/px/math/jupyter-doc-links.png">
+</div>
+
+<div class="card">
+  <div class="card-section">
+<code>%%matplotlib inline</code> - plotting options</div>
+<img src="/px/math/jupyter-plotting-bokeh.png">
+</div>
+
+<div class="card">
+  <div class="card-section">
+<code>%lsmagic</code>: list IPython Magic Commands:</div>
+<img src="/px/math/jupyter-magics.png">
+</div>
+
+<div class="card">
+  <div class="card-section">
+<code>%env</code>: Set environment variables:</div>
+<img src="/px/math/jupyter-magics-env.png">
+</div>
+
+<div class="card">
+  <div class="card-section">
+<code>%run</code>: Execute python code:</div>
+<img src="/px/math/jupyter-magics-run.png">
+</div>
+
+<div class="card">
+  <div class="card-section">
+<code>%load</code>: Insert code from external script:</div>
+<img src="/px/math/jupyter-magics-load.png">
+</div>
+
+<div class="card">
+  <div class="card-section">
+<code>%store</code>: Pass variables between notebooks:</div>
+<img src="/px/math/jupyter-magics-store.png">
+</div>
+
+<div class="card">
+  <div class="card-section">
+<code>%who</code>: List global variables:</div>
+<img src="/px/math/jupyter-magics-who.png">
+</div>
+
+<div class="card">
+  <div class="card-section">
+<code>%%time</code>: Benchmark (single run):</div>
+<img src="/px/math/jupyter-magics-time.png">
+</div>
+
+<div class="card">
+  <div class="card-section">
+<code>%%timeit</code>: Benchmark (multi runs):</div>
+<img src="/px/math/jupyter-magics-timeit.png">
+</div>
+
+<div class="card">
+  <div class="card-section">
+<code>%%writefile</code>: export cell contents:</div>
+<img src="/px/math/jupyter-magics-writefile.png">
+</div>
+
+<div class="card">
+  <div class="card-section">
+<code>%%pycat</code>: show contents of exported script:</div>
+<img src="/px/math/jupyter-magics-pycat.png">
+</div>
+
+<div class="card">
+  <div class="card-section">
+<code>%%prun</code>: show execution time:</div>
+<img src="/px/math/jupyter-magics-prun.png">
+</div>
+
+<div class="card">
+  <div class="card-section">
+<code>%pdb</code>: Python debugger interface:</div>
+<img src="/px/math/jupyter-magics-pdb.png">
+</div>
+
+<div class="card">
+  <div class="card-section">
+<code>%config InlineBackend.figure_format ='retina'</code></div>
+<img src="/px/math/jupyter-magics-retina.png">
+</div>
+
+<div class="card">
+  <div class="card-section">
+<code>;</code> suppress output of final function</div>
+<img src="/px/math/jupyter-magics-suppress.png">
+</div>
+
+<div class="card">
+  <div class="card-section">
+<code>!</code>; shell command execution</div>
+<img src="/px/math/jupyter-magics-shell.png">
+</div>
+
+<div class="card">
+  <div class="card-section">
+<code>$</code>: Formula rendering with LaTeX</div>
+<img src="/px/math/jupyter-magics-latex.png">
+</div>
+
+<div class="card">
+  <div class="card-section">
+<code>%%bash, %%HTML, %%python2, %%python3, %%ruby, %%perl</code>: Run code from other kernels</div>
+<img src="/px/math/jupyter-magics-kernels.png">
+</div>
+
+<div class="card">
+  <div class="card-section">
+Installing other kernels with Anaconda</div>
+<img src="/px/math/jupyter-magics-install-r-conda.png">
+</div>
+
+<div class="card">
+  <div class="card-section">
+Installing other kernels (ex: R) manually</div>
+<img src="/px/math/jupyter-magics-install-r-manual.png">
+</div>
+
+<div class="card">
+  <div class="card-section">
+<code>rpy2</code>: run R & Python in same notebook</div>
+<img src="/px/math/jupyter-magics-install-r-with-python.png">
+</div>
+
+<div class="card">
+  <div class="card-section">
+<code>%%cython</code>: Cython/Python wrapper</div>
+<img src="/px/math/jupyter-magics-cython.png">
+</div>
+
+<div class="card">
+  <div class="card-section">
+<code>%%fortran</code>: Fortran/Python wrapper</div>
+<img src="/px/math/jupyter-magics-fortran.png">
+</div>
+
+<div class="card">
+  <div class="card-section">
+<code>Alt key + cursor</code>: Multicursor support</div>
+<img src="/px/math/multiline.gif">
+</div>
+
+<div class="card">
+  <div class="card-section">
+<code><a href="https://github.com/ipython-contrib/jupyter_contrib_nbextensions">Jupyter-contrib</a></code> - Jupyter Extensions Manager:</div>
+<img src="/px/math/jupyter-nbextensions.png">
+</div>
+
+<div class="card">
+  <div class="card-section">
+	<code>
+	<a href="https://github.com/damianavila/RISE">RISE</a></code> - Presentations from Notebooks:</div>
+<img src="/px/math/jupyter-rise.png">
+</div>
+
+<div class="card">
+  <div class="card-section">
+	Output Options:</div>
+	<img src="/px/math/jupyter-outputs3.png">
+</div>
+
+<div class="card">
+  <div class="card-section">
+	Big Data Analysis:<br>
+	<a href="https://github.com/ipython/ipyparallel">ipyparallel (github)</a><br>
+	<a href="http://www.cloudera.com/documentation/enterprise/5-5-x/topics/spark_ipython.html">pyspark (cloudera)</a><br>
+	<a href="https://github.com/jupyter-incubator/sparkmagic">spark-sql magic (github)</a><br>
+	</div>
+</div>
+
+<div class="card">
+  <div class="card-section">
+	Notebook Sharing:
+	<a href="https://github.com/jupyterhub/jupyterhub">JupyterHub (GitHub)</a><br>
+	<a href="http://nbviewer.jupyter.org/">nbviewer (Jupyter)</a><br>
+	</div>
+</div>
+
+</div></div>
+        </div>
+
+      </div>
+
+      <hr><footer>
+
+  <a href="/feed.xml">
+    <svg>
+      <use href="/assets/minima-social-icons.svg#rss"></use>
+    </svg></a>
+
+</footer>
+</div><!-- Compressed JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/js/foundation.min.js" 
+  integrity="sha256-pRF3zifJRA9jXGv++b06qwtSqX1byFQOLjqa2PTEb2o=" 
+  crossorigin="anonymous"></script>
+  
+</body>
+</html>

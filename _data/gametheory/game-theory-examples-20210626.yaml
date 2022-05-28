@@ -1,0 +1,17 @@
+- title: original book (Erich Prisner)
+  url: /pdfs/gametheory/game-theory-examples.pdf
+  px: /px/gametheory/game-theory-examples-cover.png
+  notes:
+    <p>
+      1) Intro<br>
+      2) Simultaneous-move games<br>
+      3) Sequential-move, perfect-info-availability games<br>
+      4) Probability<br>
+      5) Sequential-move randomized games<br>
+      6) Extensive form<br>
+      7) Normal form<br>
+      8) Mixed strategies<br>
+      9) Behavioral strategies<br>
+      Bibliography & index<br>
+    </p>
+  parent:

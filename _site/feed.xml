@@ -1,0 +1,1893 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-05-28T14:51:41-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Obviously Awesome</title><subtitle>Brian Piercy&apos;s collection of bookmark esoterica.</subtitle><author><name>Brian Piercy</name></author><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2022/05/26/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2022-05-26T19:32:04-04:00</published><updated>2022-05-26T19:32:04-04:00</updated><id>http://localhost:4000/jekyll/update/2022/05/26/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2022/05/26/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;Tom&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &apos;Hi, Tom&apos; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name>Brian Piercy</name></author><category term="jekyll" /><category term="update" /><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry><entry><title type="html">Jekyll links - 2022-03-19</title><link href="http://localhost:4000/2022/03/19/jekyll.html" rel="alternate" type="text/html" title="Jekyll links - 2022-03-19" /><published>2022-03-19T16:34:00-04:00</published><updated>2022-03-19T16:34:00-04:00</updated><id>http://localhost:4000/2022/03/19/jekyll</id><content type="html" xml:base="http://localhost:4000/2022/03/19/jekyll.html">&lt;div class=&quot;callout warning&quot;&gt;
+&lt;h2&gt;Jekyll links - 2022-03-19&lt;/h2&gt;
+&lt;/div&gt;
+
+&lt;div style=&quot;columns: 3;&quot;&gt;
+
+
+	&lt;div class=&quot;card&quot;&gt;
+		&lt;div class=&quot;card-divider&quot;&gt;
+			&lt;a href=&quot;https://jekyllrb.com&quot;&gt;Jekyll home&lt;/a&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+
+
+
+	&lt;div class=&quot;card&quot;&gt;
+		&lt;div class=&quot;card-divider&quot;&gt;
+			&lt;a href=&quot;http://www.yamllint.com&quot;&gt;YAML linting tool&lt;/a&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+
+
+
+	&lt;div class=&quot;card&quot;&gt;
+		&lt;div class=&quot;card-divider&quot;&gt;
+			&lt;a href=&quot;https://jekyllrb.com/docs/datafiles&quot;&gt;Jekyll data files&lt;/a&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+
+
+
+	&lt;div class=&quot;card&quot;&gt;
+		&lt;div class=&quot;card-divider&quot;&gt;
+			&lt;a href=&quot;http://jmcglone.com/guides/github-pages&quot;&gt;Hosting on GitHub (Jon McGlone)&lt;/a&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+
+
+
+	&lt;div class=&quot;card&quot;&gt;
+		&lt;div class=&quot;card-divider&quot;&gt;
+			&lt;a href=&quot;https://github.com/jekyll/jekyll-seo-tag&quot;&gt;Jekyll SEO tag plugin&lt;/a&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+
+
+
+	&lt;div class=&quot;card&quot;&gt;
+		&lt;div class=&quot;card-divider&quot;&gt;
+			&lt;a href=&quot;http://jekyllthemes.org/themes/cards-jekyll-template&quot;&gt;Cards - Jekyll themes&lt;/a&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+
+
+
+	&lt;div class=&quot;card&quot;&gt;
+		&lt;div class=&quot;card-divider&quot;&gt;
+			&lt;a href=&quot;https://blog.webjeda.com/jekyll-collections&quot;&gt;Jekyll collections&lt;/a&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+
+
+
+	&lt;div class=&quot;card&quot;&gt;
+		&lt;div class=&quot;card-divider&quot;&gt;
+			&lt;a href=&quot;https://blog.webjeda.com/jekyll-categories&quot;&gt;Category &amp; Tag setup&lt;/a&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+
+
+
+	&lt;div class=&quot;card&quot;&gt;
+		&lt;div class=&quot;card-divider&quot;&gt;
+			&lt;a href=&quot;http://cloudcannon.com/announcements/2016/12/05/free-jekyll-templates&quot;&gt;Free templates&lt;/a&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+
+
+
+	&lt;div class=&quot;card&quot;&gt;
+		&lt;div class=&quot;card-divider&quot;&gt;
+			&lt;a href=&quot;https://longqian.me/2017/02/09/github-jekyll-tag&quot;&gt;Tags on Github pages&lt;/a&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+
+
+
+	&lt;div class=&quot;card&quot;&gt;
+		&lt;div class=&quot;card-divider&quot;&gt;
+			&lt;a href=&quot;https://github.com/jenofdoom/jekyll-bootstrap-4&quot;&gt;Bootstrap 4 layout&lt;/a&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+
+
+
+	&lt;div class=&quot;card&quot;&gt;
+		&lt;div class=&quot;card-divider&quot;&gt;
+			&lt;a href=&quot;https://community.algolia.com/jekyll-algolia&quot;&gt;Algolia search setup&lt;/a&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+
+
+
+	&lt;div class=&quot;card&quot;&gt;
+		&lt;div class=&quot;card-divider&quot;&gt;
+			&lt;a href=&quot;https://darekkay.com/blog/static-site-comments&quot;&gt;Commenting&lt;/a&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+
+
+
+	&lt;div class=&quot;card&quot;&gt;
+		&lt;div class=&quot;card-divider&quot;&gt;
+			&lt;a href=&quot;https://forestry.io/blog/search-with-algolia-in-jekyll&quot;&gt;Algolia &amp; webtasks&lt;/a&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+
+
+
+	&lt;div class=&quot;card&quot;&gt;
+		&lt;div class=&quot;card-divider&quot;&gt;
+			&lt;a href=&quot;https://community.algolia.com/jekyll-algolia/blog.html&quot;&gt;Algolia intro&lt;/a&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+
+
+
+	&lt;div class=&quot;card&quot;&gt;
+		&lt;div class=&quot;card-divider&quot;&gt;
+			&lt;a href=&quot;https://duseev.com/articles/rbenv-vs-rvm&quot;&gt;rbenv vs RVM ruby managers&lt;/a&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+
+
+
+	&lt;div class=&quot;card&quot;&gt;
+		&lt;div class=&quot;card-divider&quot;&gt;
+			&lt;a href=&quot;https://medium.com/@glynn_bird/adding-cloudant-search-to-your-static-jekyll-blog-5ad76b32a902&quot;&gt;Cloudant search&lt;/a&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+
+
+
+	&lt;div class=&quot;card&quot;&gt;
+		&lt;div class=&quot;card-divider&quot;&gt;
+			&lt;a href=&quot;https://engineering.chrobinson.com/how-to/linking-a-series-of-jekyll-posts&quot;&gt;Linking posts together&lt;/a&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+
+
+
+	&lt;div class=&quot;card&quot;&gt;
+		&lt;div class=&quot;card-divider&quot;&gt;
+			&lt;a href=&quot;https://gist.github.com/JJediny/a466eed62cee30ad45e2&quot;&gt;Liquid cheatsheet&lt;/a&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+
+
+
+	&lt;div class=&quot;card&quot;&gt;
+		&lt;div class=&quot;card-divider&quot;&gt;
+			&lt;a href=&quot;https://idratherbewriting.com/documentation-theme-jekyll/mydoc_conditional_logic.html&quot;&gt;Liquid conditionals&lt;/a&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+
+
+
+	&lt;div class=&quot;card&quot;&gt;
+		&lt;div class=&quot;card-divider&quot;&gt;
+			&lt;a href=&quot;https://ranvir.xyz/blog/lazy-loading-your-images-in-jekyll-blog-improving-page-speed&quot;&gt;Page speed &amp; lazy loading&lt;/a&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+
+
+
+	&lt;div class=&quot;card&quot;&gt;
+		&lt;div class=&quot;card-divider&quot;&gt;
+			&lt;a href=&quot;https://github.com/wowthemesnet/template-pintereso-bootstrap-jekyll&quot;&gt;Pintereso-bootstrap layout&lt;/a&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+
+
+&lt;/div&gt;</content><author><name>Brian Piercy</name></author><category term="jekyll" /><category term="ruby" /><summary type="html"></summary></entry><entry><title type="html">git cheatsheet</title><link href="http://localhost:4000/2022/02/27/git.html" rel="alternate" type="text/html" title="git cheatsheet" /><published>2022-02-27T00:00:00-05:00</published><updated>2022-02-27T00:00:00-05:00</updated><id>http://localhost:4000/2022/02/27/git</id><content type="html" xml:base="http://localhost:4000/2022/02/27/git.html">&lt;div class=&quot;callout&quot;&gt;
+&lt;h2&gt;git cheatsheet&lt;/h2&gt;
+&lt;/div&gt;
+
+
+&lt;div class=&quot;card&quot;&gt;
+	&lt;div class=&quot;card-image&quot;&gt;
+		&lt;a href=&quot;/pdfs/tools/git-cheatsheet.pdf&quot;&gt;
+			&lt;img src=&quot;/px/devops/git-cheatsheet.png&quot;&gt;&lt;/a&gt;
+	&lt;/div&gt;
+&lt;/div&gt;</content><author><name>Brian Piercy</name></author><category term="cmndline" /><category term="devops" /><summary type="html">git cheatsheet</summary></entry><entry><title type="html">Eloquent Ruby - book notes</title><link href="http://localhost:4000/2022/01/31/eloquent-ruby-booknotes.html" rel="alternate" type="text/html" title="Eloquent Ruby - book notes" /><published>2022-01-31T00:00:00-05:00</published><updated>2022-01-31T00:00:00-05:00</updated><id>http://localhost:4000/2022/01/31/eloquent-ruby-booknotes</id><content type="html" xml:base="http://localhost:4000/2022/01/31/eloquent-ruby-booknotes.html">&lt;div class=&quot;callout&quot;&gt;
+&lt;h2&gt;Eloquent Ruby - book notes&lt;/h2&gt;
+&lt;/div&gt;
+
+
+
+&lt;div style=&quot;columns: 2;&quot;&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+	&lt;div class=&quot;card-image&quot;&gt;
+		&lt;img src=&quot;/px/ruby/eloquent-ruby-book-cover.png&quot;&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2&gt;Language Basics&lt;/h2&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+	&lt;div class=&quot;card-section&quot;&gt;
+	&lt;details&gt;&lt;summary&gt;&lt;a href=&quot;/pdfs/ruby/Eloquent_Ruby.pdf#page=31&quot;&gt;Ch 01 - Syntax&lt;/a&gt;&lt;/summary&gt;
+		- Very Basics&lt;br&gt;
+		- Comments&lt;br&gt;
+		- Camels &amp; Snakes&lt;br&gt;
+		- Parentheses&lt;br&gt;
+		- Line Folding&lt;br&gt;
+		- Code Blocks&lt;br&gt;
+&lt;/div&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+	&lt;div class=&quot;card-section&quot;&gt;
+	&lt;details&gt;&lt;summary&gt;&lt;a href=&quot;/pdfs/ruby/Eloquent_Ruby.pdf#page=45&quot;&gt;Ch 02 - Control Structures&lt;/a&gt;&lt;/summary&gt;
+		- If, Unless, While, Until&lt;br&gt;
+		- Modifier forms&lt;br&gt;
+		- Use &lt;code&gt;each&lt;/code&gt; - not &lt;code&gt;for&lt;/code&gt;&lt;br&gt;
+		- Case&lt;br&gt;
+		- Boolean logic pitfalls&lt;br&gt;
+	&lt;/div&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+	&lt;div class=&quot;card-section&quot;&gt;
+	&lt;details&gt;&lt;summary&gt;&lt;a href=&quot;/pdfs/ruby/Eloquent_Ruby.pdf#page=57&quot;&gt;Ch 03 - Smart Collections&lt;/a&gt;&lt;/summary&gt;
+		- Literal shortcuts&lt;br&gt;
+		- Instant arrays &amp; hashes from Method calls&lt;br&gt;
+		- Iterating through a collection&lt;br&gt;
+		- Bang (!) methods&lt;br&gt;
+		- Hash ordering&lt;br&gt;
+	&lt;/div&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+	&lt;div class=&quot;card-section&quot;&gt;
+	&lt;details&gt;&lt;summary&gt;&lt;a href=&quot;/pdfs/ruby/Eloquent_Ruby.pdf#page=71&quot;&gt;Ch 04 - Smart Strings&lt;/a&gt;&lt;/summary&gt;
+		- Creating&lt;br&gt;
+		- String methods&lt;br&gt;
+		- Lines, characters &amp; bytes&lt;br&gt;
+	&lt;/div&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+	&lt;div class=&quot;card-section&quot;&gt;
+	&lt;details&gt;&lt;summary&gt;&lt;a href=&quot;/pdfs/ruby/Eloquent_Ruby.pdf#page=81&quot;&gt;Ch 05 - Regexes&lt;/a&gt;&lt;/summary&gt;
+		- Matching one character at a time&lt;br&gt;
+		- Sets, ranges &amp; alternatives&lt;br&gt;
+		- The Star (&quot;*&quot;) operator&lt;br&gt;
+		- Regexes in Ruby&lt;br&gt;
+		- Beginnings &amp; endings&lt;br&gt;
+	&lt;/div&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+	&lt;div class=&quot;card-section&quot;&gt;
+	&lt;details&gt;&lt;summary&gt;&lt;a href=&quot;/pdfs/ruby/Eloquent_Ruby.pdf#page=93&quot;&gt;Ch 06 - Symbols&lt;/a&gt;&lt;/summary&gt;
+		- Symbols vs Strings&lt;br&gt;
+		- Not Quite a String&lt;br&gt;
+		- Optimized to &quot;stand for something&quot;&lt;br&gt;
+	&lt;/div&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+	&lt;div class=&quot;card-section&quot;&gt;
+	&lt;details&gt;&lt;summary&gt;&lt;a href=&quot;/pdfs/ruby/Eloquent_Ruby.pdf#page=101&quot;&gt;Ch 07 - Everything is an Object&lt;/a&gt;&lt;/summary&gt;
+		- Classes, instances &amp; methods - a quick review&lt;br&gt;
+		- Objects: all the way down&lt;br&gt;
+		- Key object attributes&lt;br&gt;
+		- Public, private &amp; protected methods&lt;br&gt;
+	&lt;/div&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+	&lt;div class=&quot;card-section&quot;&gt;
+	&lt;details&gt;&lt;summary&gt;&lt;a href=&quot;/pdfs/ruby/Eloquent_Ruby.pdf#page=113&quot;&gt;Ch 08 - Dynamic Typing&lt;/a&gt;&lt;/summary&gt;
+		- Shorter programs - not in the way you think&lt;br&gt;
+		- Decoupling&lt;br&gt;
+		- Ceremony vs Clarity&lt;br&gt;
+	&lt;/div&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+	&lt;div class=&quot;card-section&quot;&gt;
+	&lt;details&gt;&lt;summary&gt;&lt;a href=&quot;/pdfs/ruby/Eloquent_Ruby.pdf#page=125&quot;&gt;Ch 09 - Specs &amp; Testing&lt;/a&gt;&lt;/summary&gt;
+		- Test::Unit basics&lt;br&gt;
+		- Assert&lt;br&gt;
+		- Rspec basics&lt;br&gt;
+		- Tidy specs&lt;br&gt;
+		- Stubs&lt;br&gt;
+		- Mocks&lt;br&gt;
+	&lt;/div&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+
+&lt;h2&gt;Classes, Modules, Blocks&lt;/h2&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+	&lt;div class=&quot;card-section&quot;&gt;
+	&lt;details&gt;&lt;summary&gt;&lt;a href=&quot;/pdfs/ruby/Eloquent_Ruby.pdf#page=145&quot;&gt;Ch 10 - Classes&lt;/a&gt;&lt;/summary&gt;
+		- Compressing specifications&lt;br&gt;
+		- Composing Methods for Humans&lt;br&gt;
+		- Composing Ruby Methods&lt;br&gt;
+		- Single Exit Methods&lt;br&gt;
+	&lt;/div&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+	&lt;div class=&quot;card-section&quot;&gt;
+	&lt;details&gt;&lt;summary&gt;&lt;a href=&quot;/pdfs/ruby/Eloquent_Ruby.pdf#page=157&quot;&gt;Ch 11 - Operators&lt;/a&gt;&lt;/summary&gt;
+		- Defining Ruby Operators&lt;br&gt;
+		- Examples&lt;br&gt;
+		- Operating across Classes&lt;br&gt;
+		- Broadening the Definition of &quot;==&quot;&lt;br&gt;
+		- Well-Behaved Equality&lt;br&gt;
+		- Triple Equals (&quot;===&quot;) for Case Statements&lt;br&gt;
+		- Hash Tables and &lt;code&gt;eql?&lt;/code&gt;&lt;br&gt;
+		- Well-Behaved Hash Keys&lt;br&gt;
+	&lt;/div&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+	&lt;div class=&quot;card-section&quot;&gt;
+	&lt;details&gt;&lt;summary&gt;&lt;a href=&quot;/pdfs/ruby/Eloquent_Ruby.pdf#page=169&quot;&gt;Ch 12 - Classes &amp; Equality&lt;/a&gt;&lt;/summary&gt;
+		- An Identifier for your Documents&lt;br&gt;
+		- Multiple Equality Methods&lt;br&gt;
+		- Double Equals (&quot;==&quot;)&lt;br&gt;
+
+	&lt;/div&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+	&lt;div class=&quot;card-section&quot;&gt;
+	&lt;details&gt;&lt;summary&gt;&lt;a href=&quot;/pdfs/ruby/Eloquent_Ruby.pdf#page=185&quot;&gt;Ch 13 - Singleton &amp; Class Methods&lt;/a&gt;&lt;/summary&gt;
+		- Stubs&lt;br&gt;
+		- The &lt;code&gt;singleton&lt;/code&gt; class&lt;br&gt;
+		- Singletons in Plain Sight&lt;br&gt;
+	&lt;/div&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+	&lt;div class=&quot;card-section&quot;&gt;
+	&lt;details&gt;&lt;summary&gt;&lt;a href=&quot;/pdfs/ruby/Eloquent_Ruby.pdf#page=197&quot;&gt;Ch 14 - Class Instance Variables&lt;/a&gt;&lt;/summary&gt;
+		- Quick Review&lt;br&gt;
+		- &quot;Wandering&quot; Variables&lt;br&gt;
+		- Class data&lt;br&gt;
+		- Class Instances - Variables &amp; Subclasses&lt;br&gt;
+		- Convenience Tricks&lt;br&gt;
+	&lt;/div&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+	&lt;div class=&quot;card-section&quot;&gt;
+	&lt;details&gt;&lt;summary&gt;&lt;a href=&quot;/pdfs/ruby/Eloquent_Ruby.pdf#page=209&quot;&gt;Ch 15 - Modules &amp; Name Spaces&lt;/a&gt;&lt;/summary&gt;
+		- A Place for your Stuff&lt;br&gt;
+		- A Home for Utility Methods&lt;br&gt;
+		- Building Modules&lt;br&gt;
+		- Treat Modules as Objects (Because they are)&lt;br&gt;
+	&lt;/div&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+	&lt;div class=&quot;card-section&quot;&gt;
+	&lt;details&gt;&lt;summary&gt;&lt;a href=&quot;/pdfs/ruby/Eloquent_Ruby.pdf#page=221&quot;&gt;Ch 16 - Modules &amp; Mixins&lt;/a&gt;&lt;/summary&gt;
+		- Better Books with Modules&lt;br&gt;
+		- Mixin Modules to the Rescue&lt;br&gt;
+		- Extending a Module&lt;br&gt;
+	&lt;/div&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+	&lt;div class=&quot;card-section&quot;&gt;
+	&lt;details&gt;&lt;summary&gt;&lt;a href=&quot;/pdfs/ruby/Eloquent_Ruby.pdf#page=235&quot;&gt;Ch 17 - Blocks &amp; Iteration&lt;/a&gt;&lt;/summary&gt;
+		- Review of Code Blocks&lt;br&gt;
+		- One Words after Another&lt;br&gt;
+		- As Many Iterators as You Like&lt;br&gt;
+		- Other Iterator Tools&lt;br&gt;
+		- Enumerable: Your Iterator on Steroids&lt;br&gt;
+	&lt;/div&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+	&lt;div class=&quot;card-section&quot;&gt;
+	&lt;details&gt;&lt;summary&gt;&lt;a href=&quot;/pdfs/ruby/Eloquent_Ruby.pdf#page=247&quot;&gt;Ch 18 - Executing around Blocks&lt;/a&gt;&lt;/summary&gt;
+		- Logging&lt;br&gt;
+		- When it Must Happen&lt;br&gt;
+		- Initialization Blocks&lt;br&gt;
+		- Scope and Blocks&lt;br&gt;
+		- Carrying Answers Back&lt;br&gt;
+	&lt;/div&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+	&lt;div class=&quot;card-section&quot;&gt;
+	&lt;details&gt;&lt;summary&gt;&lt;a href=&quot;/pdfs/ruby/Eloquent_Ruby.pdf#page=261&quot;&gt;Ch 19 - Delayed Execution&lt;/a&gt;&lt;/summary&gt;
+		- Explicit Blocks&lt;br&gt;
+		- The Callback Problem&lt;br&gt;
+		- Banking Blocks&lt;br&gt;
+		- Saving Blocks for Lazy Initialization&lt;br&gt;
+		- Instant Block Objects&lt;br&gt;
+	&lt;/div&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+
+&lt;h2&gt;Metaprogramming&lt;/h2&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+	&lt;div class=&quot;card-section&quot;&gt;
+	&lt;details&gt;&lt;summary&gt;&lt;a href=&quot;/pdfs/ruby/Eloquent_Ruby.pdf#page=277&quot;&gt;Ch 20 - Hooks&lt;/a&gt;&lt;/summary&gt;
+		- Waking up to a New Subclass&lt;br&gt;
+		- Modules Want to be Heard&lt;br&gt;
+		- Knowing When your Time is Up&lt;br&gt;
+		- ...And a Cast of Thousands&lt;br&gt;
+	&lt;/div&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+	&lt;div class=&quot;card-section&quot;&gt;
+	&lt;details&gt;&lt;summary&gt;&lt;a href=&quot;/pdfs/ruby/Eloquent_Ruby.pdf#page=291&quot;&gt;Ch 21 - method_missing &amp; Errors&lt;/a&gt;&lt;/summary&gt;
+		- Meeting those Missing Methods&lt;br&gt;
+		- Handling Document Errors&lt;br&gt;
+		- Coping with Constants&lt;br&gt;		
+	&lt;/div&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+	&lt;div class=&quot;card-section&quot;&gt;
+	&lt;details&gt;&lt;summary&gt;&lt;a href=&quot;/pdfs/ruby/Eloquent_Ruby.pdf#page=301&quot;&gt;Ch 22 - method_missing &amp; Delegation&lt;/a&gt;&lt;/summary&gt;
+		- Delegation&lt;br&gt;
+		- Old-Fashioned Delegation Trouble&lt;br&gt;
+		- &lt;code&gt;method_missing&lt;/code&gt;&lt;br&gt;
+		- More Discriminating Delegation&lt;br&gt;
+	&lt;/div&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+	&lt;div class=&quot;card-section&quot;&gt;
+	&lt;details&gt;&lt;summary&gt;&lt;a href=&quot;/pdfs/ruby/Eloquent_Ruby.pdf#page=313&quot;&gt;Ch 23 - method_missing &amp; APIs&lt;/a&gt;&lt;/summary&gt;
+		- Building Form Letters One Word at a Time&lt;br&gt;
+		- Magic Methods&lt;br&gt;
+		- It&apos;s the Users that Count&lt;br&gt;
+	&lt;/div&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+	&lt;div class=&quot;card-section&quot;&gt;
+	&lt;details&gt;&lt;summary&gt;&lt;a href=&quot;/pdfs/ruby/Eloquent_Ruby.pdf#page=321&quot;&gt;Ch 24 - Monkey Patching (Existing Classes)&lt;/a&gt;&lt;/summary&gt;
+		- Wide-Open Classes&lt;br&gt;
+		- Fixing a Broken Class&lt;br&gt;
+		- Improving Existing Classes&lt;br&gt;
+		- Renaming with &lt;code&gt;alias_method&lt;/code&gt;&lt;br&gt;
+		- Do Anything to any Class - Anytime&lt;br&gt;
+
+	&lt;/div&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+	&lt;div class=&quot;card-section&quot;&gt;
+	&lt;details&gt;&lt;summary&gt;&lt;a href=&quot;/pdfs/ruby/Eloquent_Ruby.pdf#page=333&quot;&gt;Ch 25 - Self-modifying Classes&lt;/a&gt;&lt;/summary&gt;
+		- Open Classes - Again&lt;br&gt;
+		- Putting Logic in a Class&lt;br&gt;
+		- Class Methods that Change their Class&lt;br&gt;
+	&lt;/div&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+	&lt;div class=&quot;card-section&quot;&gt;
+	&lt;details&gt;&lt;summary&gt;&lt;a href=&quot;/pdfs/ruby/Eloquent_Ruby.pdf#page=345&quot;&gt;Ch 26 - Classes that Modify Subclasses&lt;/a&gt;&lt;/summary&gt;
+		- A document of Paragraphs&lt;br&gt;
+		- Subclassing&lt;br&gt;
+		- Class Methods that Build Instance Methods&lt;br&gt;
+		- Better Method Creation: &lt;code&gt;define_method&lt;/code&gt;&lt;br&gt;
+		- Modifications: the Sky is the Limit&lt;br&gt;
+
+	&lt;/div&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+
+&lt;h2&gt;Putting it Together&lt;/h2&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+	&lt;div class=&quot;card-section&quot;&gt;
+	&lt;details&gt;&lt;summary&gt;&lt;a href=&quot;/pdfs/ruby/Eloquent_Ruby.pdf#page=363&quot;&gt;Ch 27 - Internal DSLs&lt;/a&gt;&lt;/summary&gt;
+		- Little Languages for Big Problems&lt;br&gt;
+		- XML&lt;br&gt;
+		- Stepping over the DSL Line&lt;br&gt;
+		- Pulling out the Stops&lt;br&gt;
+	&lt;/div&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+	&lt;div class=&quot;card-section&quot;&gt;
+	&lt;details&gt;&lt;summary&gt;&lt;a href=&quot;/pdfs/ruby/Eloquent_Ruby.pdf#page=379&quot;&gt;Ch 28 - External DSLs&lt;/a&gt;&lt;/summary&gt;
+		- The Trouble with the Ripper&lt;br&gt;
+		- Internal is not the only DSL&lt;br&gt;
+		- Regex for Heavier Parsing&lt;br&gt;
+		- Treetops&lt;br&gt;
+		- 
+	&lt;/div&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+	&lt;div class=&quot;card-section&quot;&gt;
+	&lt;details&gt;&lt;summary&gt;&lt;a href=&quot;/pdfs/ruby/Eloquent_Ruby.pdf#page=395&quot;&gt;Ch 29 - Packaging Gems&lt;/a&gt;&lt;/summary&gt;
+		- Consuming Gems&lt;br&gt;
+		- Gem Versions&lt;br&gt;
+		- Nuts &amp; Bolts&lt;br&gt;
+		- Building a Gem&lt;br&gt;
+		- Uploading Your Gem to a Repo&lt;br&gt;
+		- Automating Gem Creation&lt;br&gt;
+	&lt;/div&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+	&lt;div class=&quot;card-section&quot;&gt;
+	&lt;details&gt;&lt;summary&gt;&lt;a href=&quot;/pdfs/ruby/Eloquent_Ruby.pdf#page=409&quot;&gt;Ch 30 - Ruby Implementations&lt;/a&gt;&lt;/summary&gt;
+		- Fistful of Rubies&lt;br&gt;
+		- MRI&lt;br&gt;
+		- YARV&lt;br&gt;
+		- JRuby&lt;br&gt;
+		- Rubinius&lt;br&gt;
+	&lt;/div&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+	&lt;div class=&quot;card-section&quot;&gt;
+	&lt;details&gt;&lt;summary&gt;&lt;a href=&quot;/pdfs/ruby/Eloquent_Ruby.pdf#page=419&quot;&gt;Ch 31 - Open Classes&lt;/a&gt;&lt;/summary&gt;
+	&lt;/div&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+	&lt;div class=&quot;card-section&quot;&gt;
+	&lt;details&gt;&lt;summary&gt;&lt;a href=&quot;/pdfs/ruby/Eloquent_Ruby.pdf#page=421&quot;&gt;Appendix&lt;/a&gt;&lt;/summary&gt;
+	&lt;/div&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;</content><author><name>Brian Piercy</name></author><category term="ruby" /><category term="booknotes" /><summary type="html">Eloquent Ruby - book notes</summary></entry><entry><title type="html">Scikit-image Github links</title><link href="http://localhost:4000/2022/01/23/scikit-image.html" rel="alternate" type="text/html" title="Scikit-image Github links" /><published>2022-01-23T00:00:00-05:00</published><updated>2022-01-23T00:00:00-05:00</updated><id>http://localhost:4000/2022/01/23/scikit-image</id><content type="html" xml:base="http://localhost:4000/2022/01/23/scikit-image.html">&lt;div class=&quot;callout&quot;&gt;
+	&lt;a href=&quot;https://scikit-image.org&quot;&gt;
+		&lt;img src=&quot;https://scikit-image.org/docs/stable/_static/img/logo.png&quot;/&gt;&lt;/a&gt;
+	&lt;h2&gt;My GitHub code&lt;/h2&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div style=&quot;columns: 2;&quot;&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+	&lt;div class=&quot;card-section&quot;&gt;
+	&lt;details&gt;
+		&lt;summary&gt;&lt;a href=&quot;&quot;&gt;API Reference&lt;/a&gt;&lt;/summary&gt;
+		1. &lt;a href=&quot;https://scikit-image.org/docs/stable/api/skimage.color&quot;&gt;skimage.color&lt;/a&gt;&lt;br&gt;
+		2. &lt;a href=&quot;https://scikit-image.org/docs/stable/api/skimage.data&quot;&gt;skimage.data&lt;/a&gt;&lt;br&gt;
+		3. &lt;a href=&quot;https://scikit-image.org/docs/stable/api/skimage.draw&quot;&gt;skimage.draw&lt;/a&gt;&lt;br&gt;
+		4. &lt;a href=&quot;https://scikit-image.org/docs/stable/api/skimage.exposure&quot;&gt;skimage.exposure&lt;/a&gt;&lt;br&gt;
+		5. &lt;a href=&quot;https://scikit-image.org/docs/stable/api/skimage.feature&quot;&gt;skimage.feature&lt;/a&gt;&lt;br&gt;
+		6. &lt;a href=&quot;https://scikit-image.org/docs/stable/api/skimage.filters&quot;&gt;skimage.filters&lt;/a&gt;&lt;br&gt;
+		7. &lt;a href=&quot;https://scikit-image.org/docs/stable/api/skimage.future&quot;&gt;skimage.future&lt;/a&gt;&lt;br&gt;
+		8. &lt;a href=&quot;https://scikit-image.org/docs/stable/api/skimage.graph&quot;&gt;skimage.graph&lt;/a&gt;&lt;br&gt;
+		9. &lt;a href=&quot;https://scikit-image.org/docs/stable/api/skimage.io&quot;&gt;skimage.io&lt;/a&gt;&lt;br&gt;
+		10. &lt;a href=&quot;https://scikit-image.org/docs/stable/api/skimage.measure&quot;&gt;skimage.measure&lt;/a&gt;&lt;br&gt;
+		11. &lt;a href=&quot;https://scikit-image.org/docs/stable/api/skimage.metrics&quot;&gt;skimage.metrics&lt;/a&gt;&lt;br&gt;
+		12. &lt;a href=&quot;https://scikit-image.org/docs/stable/api/skimage.morphology&quot;&gt;skimage.morphology&lt;/a&gt;&lt;br&gt;
+		13. &lt;a href=&quot;https://scikit-image.org/docs/stable/api/skimage.registration&quot;&gt;skimage.registration&lt;/a&gt;&lt;br&gt;
+		14. &lt;a href=&quot;https://scikit-image.org/docs/stable/api/skimage.restoration&quot;&gt;skimage.restoration&lt;/a&gt;&lt;br&gt;
+		15. &lt;a href=&quot;https://scikit-image.org/docs/stable/api/skimage.segmentation&quot;&gt;skimage.segmentation&lt;/a&gt;&lt;br&gt;
+		16. &lt;a href=&quot;https://scikit-image.org/docs/stable/api/skimage.transform&quot;&gt;skimage.transform&lt;/a&gt;&lt;br&gt;
+		17. &lt;a href=&quot;https://scikit-image.org/docs/stable/api/skimage.util&quot;&gt;skimage.util&lt;/a&gt;&lt;br&gt;
+		18. &lt;a href=&quot;https://scikit-image.org/docs/stable/api/skimage.viewer&quot;&gt;skimage.viewer&lt;/a&gt;&lt;br&gt;
+	&lt;/details&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;div class=&quot;card&quot;&gt;
+	&lt;div class=&quot;card-section&quot;&gt;
+	&lt;details&gt;
+		&lt;summary&gt;&lt;a href=&quot;https://github.com/bjpcjp/scikit-image-tutorial/blob/master/gallery/image-data.ipynb&quot;&gt;Image dataset utilities&lt;/a&gt;
+			&lt;div class=&quot;card-image&quot;&gt;
+				&lt;img src=&quot;https://scikit-image.org/docs/stable/_images/sphx_glr_plot_specific_001.png&quot;/&gt;
+			&lt;/div&gt;
+		&lt;/summary&gt;
+		1. Stereo images&lt;br&gt;
+		2. LFW (labeled faces in the wild)&lt;br&gt;
+		3. Selected scientific images&lt;br&gt;
+		4. Selected general-purpose images&lt;br&gt;
+	&lt;/details&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;div class=&quot;card&quot;&gt;
+	&lt;div class=&quot;card-section&quot;&gt;
+	&lt;details&gt;
+		&lt;summary&gt;&lt;a href=&quot;https://github.com/bjpcjp/scikit-image-tutorial/blob/master/gallery/numpy-operations.ipynb&quot;&gt;Numpy ops&lt;/a&gt;
+			&lt;div class=&quot;card-image&quot;&gt;
+				&lt;img src=&quot;https://scikit-image.org/docs/stable/_images/sphx_glr_plot_camera_numpy_001.png&quot;/&gt;
+			&lt;/div&gt;
+		&lt;/summary&gt;
+		1. Simple example&lt;br&gt;
+		2. Block views&lt;br&gt;
+	&lt;/details&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;div class=&quot;card&quot;&gt;
+	&lt;div class=&quot;card-section&quot;&gt;
+	&lt;details&gt;
+		&lt;summary&gt;&lt;a href=&quot;https://github.com/bjpcjp/scikit-image-tutorial/blob/master/gallery/edges-lines.ipynb&quot;&gt;Edges &amp; Lines&lt;/a&gt;
+			&lt;div class=&quot;card-image&quot;&gt;
+				&lt;img src=&quot;https://scikit-image.org/docs/stable/_images/sphx_glr_plot_contours_001.png&quot;/&gt;
+			&lt;/div&gt;
+		&lt;/summary&gt;
+		1. Finding contours&lt;br&gt;
+		2. Convex hulls (binary images)&lt;br&gt;
+		3. Canny filters&lt;br&gt;
+		4. Marching cubes&lt;br&gt;
+		5. Ridge finders&lt;br&gt;
+		6. Active contour model&lt;br&gt;
+		7. Drawing standard shapes&lt;br&gt;
+		8. Drawing random shapes&lt;br&gt;
+		9. Hough transform (straight line detector)&lt;br&gt;
+		10. Polygon approximation &amp; subdivision&lt;br&gt;
+		11. Hough transform (circular &amp; elliptical)&lt;br&gt;
+		12. Skeletonizer&lt;br&gt;
+		13. Edge Operations&lt;br&gt;
+	&lt;/details&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;div class=&quot;card&quot;&gt;
+	&lt;div class=&quot;card-section&quot;&gt;
+	&lt;details&gt;
+		&lt;summary&gt;&lt;a href=&quot;https://github.com/bjpcjp/scikit-image-tutorial/blob/master/gallery/feature-object-detection.ipynb&quot;&gt;Image &amp; Feature Detection&lt;/a&gt;
+			&lt;div class=&quot;card-image&quot;&gt;
+				&lt;img src=&quot;https://scikit-image.org/docs/stable/_images/sphx_glr_plot_multiblock_local_binary_pattern_001.png&quot;/&gt;
+			&lt;/div&gt;
+		&lt;/summary&gt;
+		1. DAISY local image descriptor&lt;br&gt;
+		2. HOG (histogram of oriented gradients)&lt;br&gt;
+		3. Template matching (image patch ID)&lt;br&gt;
+		4. Corner detection&lt;br&gt;
+		5. Hole filling&lt;br&gt;
+		6. Peak detection&lt;br&gt;
+		7. CENSURE (feature detection)&lt;br&gt;
+		8. MB-LBP (multiblock local binary pattern - texture classification)&lt;br&gt;
+		9. HAAR (feature descriptors)&lt;br&gt;
+		10. Blob detection - LoG, DoG, DoH&lt;br&gt;
+		11. ORB feature detection&lt;br&gt;
+		12. BRIEF binary descriptor&lt;br&gt;
+		13. Gabor filters&lt;br&gt;
+		14. GLCM (gray level co-occurence matching - texture classification)&lt;br&gt;
+		15. Shape indexing (curvature measure)&lt;br&gt;
+		16. Sliding window histograms (object detection)&lt;br&gt;
+		17. Gabor filter banks (texture classification)&lt;br&gt;
+		18. LBP (local binary pattern - texture classification)&lt;br&gt;
+	&lt;/details&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;div class=&quot;card&quot;&gt;
+	&lt;div class=&quot;card-section&quot;&gt;
+	&lt;details&gt;
+		&lt;summary&gt;&lt;a href=&quot;https://github.com/bjpcjp/scikit-image-tutorial/blob/master/gallery/filtering-restoration.ipynb&quot;&gt;Filtering &amp; Restoration&lt;/a&gt;
+			&lt;div class=&quot;card-image&quot;&gt;
+				&lt;img src=&quot;https://scikit-image.org/docs/stable/_images/sphx_glr_plot_tophat_001.png&quot;/&gt;
+			&lt;/div&gt;
+		&lt;/summary&gt;
+		1. Hysteresis thresholding&lt;br&gt;
+		2. Image deconvolution&lt;br&gt;
+		3. Mean filters (local, percentile, bilateral)&lt;br&gt;
+		4. Unsharp masking (image sharpening)&lt;br&gt;
+		5. Richardson-Lucy image deconvolution&lt;br&gt;
+		6. Inpainting&lt;br&gt;
+		7. Entropy filters&lt;br&gt;
+		8. Denoising (3 filter types)&lt;br&gt;
+		9. Shift-invariant wavelet denoising&lt;br&gt;
+		10. Phase unwrapping&lt;br&gt;
+		11. Non-local means denoising (texture preservation)&lt;br&gt;
+		12. Attribute operators (contour preservation filters)&lt;br&gt;
+		13. Wavelet denoising&lt;br&gt;
+	&lt;/details&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;div class=&quot;card&quot;&gt;
+	&lt;div class=&quot;card-section&quot;&gt;
+	&lt;details&gt;
+	&lt;summary&gt;&lt;a href=&quot;https://github.com/bjpcjp/scikit-image-tutorial/blob/master/gallery/transforms-registration.ipynb&quot;&gt;Transforms &amp; Registration&lt;/a&gt;
+		&lt;div class=&quot;card-image&quot;&gt;
+			&lt;img src=&quot;https://scikit-image.org/docs/stable/_images/sphx_glr_plot_register_rotation_001.png&quot;/&gt;
+		&lt;/div&gt;
+	&lt;/summary&gt;
+	1. Swirl&lt;br&gt;
+	2. Image pyramids&lt;br&gt;
+	3. Interpolation: edge modes&lt;br&gt;
+	4. Rescale / Resize / Downscale&lt;br&gt;
+	5. Piecewise affine transforms&lt;br&gt;
+	6. Structural similarity index&lt;br&gt;
+	7. Phase correlation&lt;br&gt;
+	8. FM (fundamental matrix) estimation&lt;br&gt;
+	9. Masked, normalized cross-correlation&lt;br&gt;
+	10. Polar &amp; log-polar transforms&lt;br&gt;
+	11. Line model estimation with RANSAC&lt;br&gt;
+	12. Radon transforms&lt;br&gt;
+	13. Image matching with RANSAC&lt;br&gt;
+	&lt;/details&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;div class=&quot;card&quot;&gt;
+	&lt;div class=&quot;card-section&quot;&gt;
+	&lt;details&gt;
+	&lt;summary&gt;&lt;a href=&quot;https://github.com/bjpcjp/scikit-image-tutorial/blob/master/gallery/exposure-colors.ipynb&quot;&gt;Exposures &amp; Color Channels&lt;/a&gt;
+		&lt;div class=&quot;card-image&quot;&gt;
+			&lt;img src=&quot;https://scikit-image.org/docs/stable/_images/sphx_glr_plot_adapt_rgb_001.png&quot;/&gt;
+		&lt;/div&gt;
+	&lt;/summary&gt;
+	1. RGB to grayscale&lt;br&gt;
+	2. RGB to HSV (hue/saturation/value)&lt;br&gt;
+	3. Histogram matching&lt;br&gt;
+	4. Color separation&lt;br&gt;
+	5. Grayscale filters &amp; RGB images&lt;br&gt;
+	6. Filtering regional maxima (bright features)&lt;br&gt;
+	7. Local histogram equalization (LHE)&lt;br&gt;
+	8. Gamma &amp; log-contrast adjustments&lt;br&gt;
+	9. Histogram equalization&lt;br&gt;
+	10. Tinting grayscale images&lt;br&gt;
+	&lt;/details&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;div class=&quot;card&quot;&gt;
+	&lt;div class=&quot;card-section&quot;&gt;
+	&lt;details&gt;
+	&lt;summary&gt;&lt;a href=&quot;https://github.com/bjpcjp/scikit-image-tutorial/blob/master/gallery/object-segmentation.ipynb&quot;&gt;Object Segmentation&lt;/a&gt;
+		&lt;div class=&quot;card-image&quot;&gt;
+			&lt;img src=&quot;https://scikit-image.org/docs/stable/_images/sphx_glr_plot_expand_labels_001.png&quot;/&gt;
+		&lt;/div&gt;
+	&lt;/summary&gt;
+	1. RAGs - region boundary basis&lt;br&gt;
+	2. Normalized cuts&lt;br&gt;
+	3. RAG thresholding&lt;br&gt;
+	4. Watershed transforms&lt;br&gt;
+	5. RAG drawing&lt;br&gt;
+	6. Thresholding (binary from grayscale)&lt;br&gt;
+	7. Chan-Vese segmentation&lt;br&gt;
+	8. Finding local maxima&lt;br&gt;
+	9. Niblack &amp; Sauvola thresholding&lt;br&gt;
+	10. Multi-otsu thresholding&lt;br&gt;
+	11. Labeling image regions&lt;br&gt;
+	12. Measuring region properties&lt;br&gt;
+	13. Random walker segmentation&lt;br&gt;
+	14. Watershed segmentation&lt;br&gt;
+	15. Watershed markers&lt;br&gt;
+	16. Segmenation vs Superpixel algorithms&lt;br&gt;
+	17. Finding intersection of 2 segmentations&lt;br&gt;
+	18. RAGs - mergenodes function&lt;br&gt;
+	19. RAG merging&lt;br&gt;
+	20. RAGs - hierarchical merging&lt;br&gt;
+	21. Local extrema&lt;br&gt;
+	22. Flood filling&lt;br&gt;
+	23. Morphological snakes&lt;br&gt;
+	24. Metrics
+	&lt;/details&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;div class=&quot;card&quot;&gt;
+	&lt;div class=&quot;card-section&quot;&gt;
+	&lt;details&gt;
+	&lt;summary&gt;&lt;a href=&quot;https://github.com/bjpcjp/scikit-image-tutorial/blob/master/gallery/developers.ipynb&quot;&gt;Additional Examples&lt;/a&gt;
+		&lt;div class=&quot;card-image&quot;&gt;
+			&lt;img src=&quot;https://scikit-image.org/docs/stable/_images/sphx_glr_plot_max_tree_003.png&quot;/&gt;
+		&lt;/div&gt;
+	&lt;/summary&gt;
+	1. LI thresholding&lt;br&gt;
+	2. Max-tree (hierarchical image representation)&lt;br&gt;
+	&lt;/details&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;</content><author><name>Brian Piercy</name></author><category term="scikit-image" /><category term="machine-vision" /><category term="github" /><category term="jupyter" /><summary type="html">My GitHub code</summary></entry><entry><title type="html">Stuff to Read, 12/26/2021</title><link href="http://localhost:4000/2021/12/26/stuff-to-read.html" rel="alternate" type="text/html" title="Stuff to Read, 12/26/2021" /><published>2021-12-26T00:00:00-05:00</published><updated>2021-12-26T00:00:00-05:00</updated><id>http://localhost:4000/2021/12/26/stuff-to-read</id><content type="html" xml:base="http://localhost:4000/2021/12/26/stuff-to-read.html">&lt;div class=&quot;callout&quot;&gt;
+	&lt;h2&gt;Stuff to Read (Hacker News, Reader, elsewhere), 12/26/21&lt;/h2&gt;
+&lt;/div&gt;
+
+
+
+&lt;div style=&quot;columns: 2;&quot;&gt;
+
+
+
+&lt;div class=&quot;card&quot;&gt;
+	&lt;div class=&quot;card-section&quot;&gt;
+		&lt;a href=&quot;http://www.shubhro.com/2021/12/20/be-curious-not-judgmental/&quot;&gt;Be Curious, not Judgmental&lt;/a&gt;
+		&lt;details&gt;&lt;summary&gt;more&lt;/summary&gt;
+			&lt;p&gt;The reality, though, is that without understanding all constraints of the problem, we can’t really tell what the best solution would be– perhaps what’s depicted in the video, perhaps something else.&lt;/p&gt;&lt;/details&gt;
+	&lt;/div&gt;
+
+	&lt;div class=&quot;card-image&quot;&gt;
+		&lt;a href=&quot;http://www.shubhro.com/2021/12/20/be-curious-not-judgmental/&quot;&gt;
+			&lt;img src=&quot;http://www.shubhro.com/static/be-curious-not-judgmental/tweet1.png&quot;/&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class=&quot;card&quot;&gt;
+	&lt;div class=&quot;card-section&quot;&gt;
+		&lt;a href=&quot;https://noahpinion.substack.com/&quot;&gt;Can we &quot;brain drain&quot; China?&lt;/a&gt;
+		&lt;details&gt;&lt;summary&gt;more&lt;/summary&gt;
+			&lt;p&gt;No. But we can give America a big economic boost while boosting our moral image.&lt;/p&gt;&lt;/details&gt;
+	&lt;/div&gt;
+
+	&lt;div class=&quot;card-image&quot;&gt;
+		&lt;a href=&quot;https://noahpinion.substack.com/&quot;&gt;
+			&lt;img src=&quot;https://cdn.substack.com/image/fetch/w_1100,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F6c571730-5927-4880-a096-7f5246eedb57_1376x1972.jpeg&quot;/&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class=&quot;card&quot;&gt;
+	&lt;div class=&quot;card-section&quot;&gt;
+		&lt;a href=&quot;http://www.stochasticlifestyle.com/engineering-trade-offs-in-automatic-differentiation-from-tensorflow-and-pytorch-to-jax-and-julia/&quot;&gt;Engineering Tradeoffs in Auto Differentiation&lt;/a&gt;
+		&lt;details&gt;&lt;summary&gt;more&lt;/summary&gt;
+			&lt;p&gt;&lt;/p&gt;&lt;/details&gt;
+	&lt;/div&gt;
+
+	&lt;div class=&quot;card-image&quot;&gt;
+		&lt;a href=&quot;http://www.stochasticlifestyle.com/engineering-trade-offs-in-automatic-differentiation-from-tensorflow-and-pytorch-to-jax-and-julia/&quot;&gt;
+			&lt;img src=&quot;&quot;/&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class=&quot;card&quot;&gt;
+	&lt;div class=&quot;card-section&quot;&gt;
+		&lt;a href=&quot;https://jarbus.net/blog/write-latex-without-latex/&quot;&gt;How to Write LaTex without writing LaTex&lt;/a&gt;
+		&lt;details&gt;&lt;summary&gt;more&lt;/summary&gt;
+			&lt;p&gt;I love the look of LaTeX but hate the experience of writing in LaTeX, at least compared to Markdown. Luckily, Pandoc can convert Markdown files to PDFs using a LaTeX engine as the renderer, and includes a custom Markdown specification that can fill almost all my LaTeX needs.&lt;/p&gt;&lt;/details&gt;
+	&lt;/div&gt;
+
+	&lt;div class=&quot;card-image&quot;&gt;
+		&lt;a href=&quot;https://jarbus.net/blog/write-latex-without-latex/&quot;&gt;
+			&lt;img src=&quot;https://jarbus.net/final-document.png&quot;/&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class=&quot;card&quot;&gt;
+	&lt;div class=&quot;card-section&quot;&gt;
+		&lt;a href=&quot;https://jeffhuang.com/productivity_text_file/&quot;&gt;My Productivity App for the past 12 Years Has Been a Single .txt File&lt;/a&gt;
+		&lt;details&gt;&lt;summary&gt;more&lt;/summary&gt;
+			&lt;p&gt;The biggest transition for me when I started college was learning to get organized. There was a point when I couldn&apos;t just remember everything in my head. And having to constantly keep track of things was distracting me from whatever task I was doing at the moment.&lt;/p&gt;&lt;/details&gt;
+	&lt;/div&gt;
+
+	&lt;div class=&quot;card-image&quot;&gt;
+		&lt;a href=&quot;https://jeffhuang.com/productivity_text_file/&quot;&gt;
+			&lt;img src=&quot;&quot;/&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class=&quot;card&quot;&gt;
+	&lt;div class=&quot;card-section&quot;&gt;
+		&lt;a href=&quot;https://hashnode.tpschmidt.com/my-top-10-free-learning-resources-for-aws&quot;&gt;My Top 10 Free AWS Learning Resources&lt;/a&gt;
+		&lt;details&gt;&lt;summary&gt;more&lt;/summary&gt;
+			&lt;p&gt;There&apos;s probably nothing you can&apos;t build on AWS, but starting your Cloud Journey looking at over 200 AWS Services needs guidance.&lt;/p&gt;&lt;/details&gt;
+	&lt;/div&gt;
+
+	&lt;div class=&quot;card-image&quot;&gt;
+		&lt;a href=&quot;https://hashnode.tpschmidt.com/my-top-10-free-learning-resources-for-aws&quot;&gt;
+			&lt;img src=&quot;https://hashnode.tpschmidt.com/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Funsplash%2FFHnnjk1Yj7Y%2Fupload%2Fv1640075900432%2FVLyU-kZU5G.jpeg%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&amp;w=1920&amp;q=75&quot;/&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class=&quot;card&quot;&gt;
+	&lt;div class=&quot;card-section&quot;&gt;
+		&lt;a href=&quot;https://arxiv.org/abs/1909.10140&quot;&gt;New Coefficient of Correlation&lt;/a&gt;
+		&lt;details&gt;&lt;summary&gt;more&lt;/summary&gt;
+			&lt;p&gt;&lt;/p&gt;&lt;/details&gt;
+	&lt;/div&gt;
+
+	&lt;div class=&quot;card-image&quot;&gt;
+		&lt;a href=&quot;https://arxiv.org/abs/1909.10140&quot;&gt;
+			&lt;img src=&quot;https://static.arxiv.org/static/browse/0.3.2.8/images/icons/cu/cornell-reduced-white-SMALL.svg&quot;/&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class=&quot;card&quot;&gt;
+	&lt;div class=&quot;card-section&quot;&gt;
+		&lt;a href=&quot;https://zandercutt.com/2018/07/08/people-dont-buy-products-they-buy-better-versions-of-themselves/&quot;&gt;People Don&apos;t Buy Products - They Buy Better Versions of Themselves (2018)&lt;/a&gt;
+		&lt;details&gt;&lt;summary&gt;more&lt;/summary&gt;
+			&lt;p&gt;What Apple, Samsung, and Starbucks learned from Pepsi&lt;/p&gt;&lt;/details&gt;
+	&lt;/div&gt;
+
+	&lt;div class=&quot;card-image&quot;&gt;
+		&lt;a href=&quot;https://zandercutt.com/2018/07/08/people-dont-buy-products-they-buy-better-versions-of-themselves/&quot;&gt;
+			&lt;img src=&quot;https://images.unsplash.com/photo-1531036431755-9dd68462d653?ixlib=rb-0.3.5&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;s=e10e3b6dda58e8e9e595cce5d8c4cb23&amp;dpr=1&amp;auto=format&amp;fit=crop&amp;w=1000&amp;q=80&amp;cs=tinysrgb&amp;crop&quot;/&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class=&quot;card&quot;&gt;
+	&lt;div class=&quot;card-section&quot;&gt;
+		&lt;a href=&quot;https://www.ruby-lang.org/en/news/2021/12/25/ruby-3-1-0-released/&quot;&gt;Ruby 3.1 release&lt;/a&gt;
+		&lt;details&gt;&lt;summary&gt;more&lt;/summary&gt;
+			&lt;p&gt;We are pleased to announce the release of Ruby 3.1.0. Ruby 3.1 keeps compatibility with Ruby 3.0 and also adds many features.&lt;/p&gt;&lt;/details&gt;
+	&lt;/div&gt;
+
+	&lt;div class=&quot;card-image&quot;&gt;
+		&lt;a href=&quot;https://www.ruby-lang.org/en/news/2021/12/25/ruby-3-1-0-released/&quot;&gt;
+			&lt;img src=&quot;&quot;/&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class=&quot;card&quot;&gt;
+	&lt;div class=&quot;card-section&quot;&gt;
+		&lt;a href=&quot;https://news.ycombinator.com/item?id=29673707&quot;&gt;Tell HN - show me your failed projects&lt;/a&gt;
+		&lt;details&gt;&lt;summary&gt;more&lt;/summary&gt;
+			&lt;p&gt;guess no body is doing this, everyone talks about making money. So, let&apos;s use this post to share our failed projects and the learnings with other founders.&lt;/p&gt;&lt;/details&gt;
+	&lt;/div&gt;
+
+	&lt;div class=&quot;card-image&quot;&gt;
+		&lt;a href=&quot;https://news.ycombinator.com/item?id=29673707&quot;&gt;
+			&lt;img src=&quot;&quot;/&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class=&quot;card&quot;&gt;
+	&lt;div class=&quot;card-section&quot;&gt;
+		&lt;a href=&quot;https://www.themarginalian.org/2015/09/21/bertrand-russell-nobel-prize-acceptance-speech/&quot;&gt;The 4 Desires Driving All Human Behavior&lt;/a&gt;
+		&lt;details&gt;&lt;summary&gt;more&lt;/summary&gt;
+			&lt;p&gt;Bertrand Russell’s Magnificent Nobel Prize Acceptance Speech&lt;/p&gt;&lt;/details&gt;
+	&lt;/div&gt;
+
+	&lt;div class=&quot;card-image&quot;&gt;
+		&lt;a href=&quot;https://www.themarginalian.org/2015/09/21/bertrand-russell-nobel-prize-acceptance-speech/&quot;&gt;
+			&lt;img src=&quot;&quot;/&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class=&quot;card&quot;&gt;
+	&lt;div class=&quot;card-section&quot;&gt;
+		&lt;a href=&quot;https://www.lynalden.com/price-signals/&quot;&gt;The Importance of Price Signals&lt;/a&gt;
+		&lt;details&gt;&lt;summary&gt;more&lt;/summary&gt;
+			&lt;p&gt;When price inflation occurs, it can be a very challenging time for everyone. In that type of environment, prices of goods and services often go up faster than wages, and the public and policymakers wish to constrain them. Historically, when price inflation becomes rampant, policymakers tend to put in place price and wage controls to try to tame inflation, but those don’t have a good track record of working out well.&lt;/p&gt;&lt;/details&gt;
+	&lt;/div&gt;
+
+	&lt;div class=&quot;card-image&quot;&gt;
+		&lt;a href=&quot;https://www.lynalden.com/price-signals/&quot;&gt;
+			&lt;img src=&quot;https://www.lynalden.com/wp-content/uploads/price-signals-feature.jpg&quot;/&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class=&quot;card&quot;&gt;
+	&lt;div class=&quot;card-section&quot;&gt;
+		&lt;a href=&quot;https://latex-cookbook.net/&quot;&gt;The Latex Cookbook&lt;/a&gt;
+		&lt;details&gt;&lt;summary&gt;more&lt;/summary&gt;
+			&lt;p&gt;A collection of LaTeX recipes&lt;/p&gt;&lt;/details&gt;
+	&lt;/div&gt;
+
+	&lt;div class=&quot;card-image&quot;&gt;
+		&lt;a href=&quot;https://latex-cookbook.net/&quot;&gt;
+			&lt;img src=&quot;https://i2.wp.com/latex-cookbook.net/wp-content/uploads/2021/01/poster.png?w=500&amp;ssl=1&quot;/&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class=&quot;card&quot;&gt;
+	&lt;div class=&quot;card-section&quot;&gt;
+		&lt;a href=&quot;https://ptribble.blogspot.com/2021/12/the-cost-of-cloud.html&quot;&gt;The cost of cloud&lt;/a&gt;
+		&lt;details&gt;&lt;summary&gt;more&lt;/summary&gt;
+			&lt;p&gt;My rough estimate is that the unit cost of provisioning a service on AWS is about 3 times that of a competent IT organization providing a similar service in house. Other people have come to the same number, and it hasn&apos;t really changed much over the last decade. (If you don&apos;t think 3x is right, consider what AWS&apos; gross margin is.)&lt;/p&gt;&lt;/details&gt;
+	&lt;/div&gt;
+
+	&lt;div class=&quot;card-image&quot;&gt;
+		&lt;a href=&quot;https://ptribble.blogspot.com/2021/12/the-cost-of-cloud.html&quot;&gt;
+			&lt;img src=&quot;&quot;/&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class=&quot;card&quot;&gt;
+	&lt;div class=&quot;card-section&quot;&gt;
+		&lt;a href=&quot;https://jeffhuang.com/designed_to_last/&quot;&gt;This (web) Page is Designed to Last&lt;/a&gt;
+		&lt;details&gt;&lt;summary&gt;more&lt;/summary&gt;
+			&lt;p&gt;A Manifesto for Preserving Content on the Web&lt;/p&gt;&lt;/details&gt;
+	&lt;/div&gt;
+
+	&lt;div class=&quot;card-image&quot;&gt;
+		&lt;a href=&quot;https://jeffhuang.com/designed_to_last/&quot;&gt;
+			&lt;img src=&quot;&quot;/&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class=&quot;card&quot;&gt;
+	&lt;div class=&quot;card-section&quot;&gt;
+		&lt;a href=&quot;https://www.meforum.org/441/why-arabs-lose-wars&quot;&gt;Why Arabs Lose Wars (1999)&lt;/a&gt;
+		&lt;details&gt;&lt;summary&gt;more&lt;/summary&gt;
+			&lt;p&gt;Why this unimpressive record? There are many factors—economic, ideological, technical—but perhaps the most important has to do with culture and certain societal attributes which inhibit Arabs from producing an effective military force.&lt;/p&gt;&lt;/details&gt;
+	&lt;/div&gt;
+
+	&lt;div class=&quot;card-image&quot;&gt;
+		&lt;a href=&quot;https://www.meforum.org/441/why-arabs-lose-wars&quot;&gt;
+			&lt;img src=&quot;http://www.meforum.org/pics/large/2391.jpg&quot;/&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class=&quot;card&quot;&gt;
+	&lt;div class=&quot;card-section&quot;&gt;
+		&lt;a href=&quot;https://github.com/wader/fq&quot;&gt;fq - jq for binary formats&lt;/a&gt;
+		&lt;details&gt;&lt;summary&gt;more&lt;/summary&gt;
+			&lt;p&gt;In most cases fq works the same way as jq but instead of reading JSON it reads binary data. The result is a JSON compatible structures where each value has a bit range, symbolic interpretations and know how to be presented in a useful way.&lt;/p&gt;&lt;/details&gt;
+	&lt;/div&gt;
+
+	&lt;div class=&quot;card-image&quot;&gt;
+		&lt;a href=&quot;https://github.com/wader/fq&quot;&gt;
+			&lt;img src=&quot;https://github.com/wader/fq/raw/master/doc/demo.svg&quot;/&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+
+
+&lt;/div&gt;</content><author><name>Brian Piercy</name></author><category term="goodreads" /><summary type="html">Stuff to Read (Hacker News, Reader, elsewhere), 12/26/21</summary></entry><entry><title type="html">Productivity articles</title><link href="http://localhost:4000/2021/12/23/productivity.html" rel="alternate" type="text/html" title="Productivity articles" /><published>2021-12-23T00:00:00-05:00</published><updated>2021-12-23T00:00:00-05:00</updated><id>http://localhost:4000/2021/12/23/productivity</id><content type="html" xml:base="http://localhost:4000/2021/12/23/productivity.html">&lt;div class=&quot;callout&quot;&gt;
+	&lt;h2&gt;Productivity articles (Pocket), 12/23/21&lt;/h2&gt;
+&lt;/div&gt;
+
+&lt;div style=&quot;columns: 2;&quot;&gt;
+
+
+	&lt;div class=&quot;card&quot;&gt;
+		&lt;div class=&quot;card-section&quot;&gt;
+			&lt;a href=&quot;https://jeffhuang.com/productivity_text_file/?utm_source=pocket_mylist&quot;&gt;
+				My productivity app for the past 12 years has been a single .txt file (Jeff Huang)&lt;/a&gt;
+				&lt;details&gt;&lt;summary&gt;more..&lt;/summary&gt;
+				&lt;p&gt;The biggest transition for me when I started college was learning to get organized. There was a point when I couldn&apos;t just remember everything in my head. And having to constantly keep track of things was distracting me from whatever task I was doing at the moment. &lt;/p&gt;
+			&lt;/details&gt;
+			&lt;/div&gt;
+	&lt;/div&gt;
+
+	&lt;!-- ---------------------------------------------------------------------- --&gt;
+
+	&lt;div class=&quot;card&quot;&gt;
+		&lt;div class=&quot;card-section&quot;&gt;
+			&lt;a href=&quot;https://blog.superhuman.com/five-whys-method/?utm_source=pocket_mylist&quot;&gt;5 Whys (Karine Bengualid)&lt;/a&gt;
+			&lt;details&gt;&lt;summary&gt;more..&lt;/summary&gt;
+			&lt;p&gt;When your productivity takes a nosedive, it adds stress and anxiety, as you don&apos;t have enough time to accomplish your goals and do what really matters to you. Understanding why your productivity is flailing will help you get back on track.&lt;/p&gt;
+		&lt;/details&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;card-image&quot;&gt;
+			&lt;a href=&quot;https://blog.superhuman.com/five-whys-method/?utm_source=pocket_mylist&quot;&gt;
+				&lt;img src=&quot;https://blog.superhuman.com/content/images/size/w1336/2021/11/00_Hero-v1-2.png&quot;&gt;&lt;/a&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+
+	&lt;!-- ---------------------------------------------------------------------- --&gt;
+
+	&lt;div class=&quot;card&quot;&gt;
+		&lt;div class=&quot;card-section&quot;&gt;
+			&lt;a href=&quot;https://noidea.dog/glue?utm_source=pocket_mylist&quot;&gt;
+				Being &quot;Glue&quot; (Denise Yu)&lt;/a&gt;
+			&lt;details&gt;&lt;summary&gt;more..&lt;/summary&gt;
+				&lt;p&gt;IYour job title says &quot;software engineer&quot;, but you seem to spend most of your time in meetings. You&apos;d like to have time to code, but nobody else is onboarding the junior engineers, updating the roadmap, talking to the users, noticing the things that got dropped, asking questions on design documents, and making sure that everyone&apos;s going roughly in the same direction. If you stop doing those things, the team won&apos;t be as successful. But now someone&apos;s suggesting that you might be happier in a less technical role. If this describes you, congratulations: you&apos;re the glue. If it&apos;s not, have you thought about who is filling this role on your team?&lt;/p&gt;
+			&lt;/details&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;card-image&quot;&gt;
+			&lt;a href=&quot;https://noidea.dog/glue?utm_source=pocket_mylist&quot;&gt;
+				&lt;img src=&quot;https://images.squarespace-cdn.com/content/v1/5a05ececd55b4165f250f032/1556571242404-7HWDW1RF7YLKF9X6WSB0/Slide2.jpeg?format=750w&quot;&gt;&lt;/a&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+
+	&lt;!-- ---------------------------------------------------------------------- --&gt;
+
+	&lt;div class=&quot;card&quot;&gt;
+		&lt;div class=&quot;card-section&quot;&gt;
+			&lt;a href=&quot;https://hamberg.no/gtd/?utm_source=pocket_mylist&quot;&gt;
+				GTD in 15 minutes – A Pragmatic Guide to Getting Things Done (Hamberg.no)&lt;/a&gt;
+			&lt;details&gt;&lt;summary&gt;more..&lt;/summary&gt;
+				&lt;p&gt;GTD—or “Getting things done”—is a framework for organizing and tracking your tasks and projects. Its aim is a bit higher than just “getting things done”, though.&lt;/p&gt;
+			&lt;/details&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;card-image&quot;&gt;
+			&lt;a href=&quot;https://hamberg.no/gtd/?utm_source=pocket_mylist&quot;&gt;
+				&lt;img src=&quot;https://hamberg.no/gtd/images/slinky.svg&quot;&gt;&lt;/a&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+
+	&lt;!-- ---------------------------------------------------------------------- --&gt;
+
+	&lt;div class=&quot;card&quot;&gt;
+		&lt;div class=&quot;card-section&quot;&gt;
+			&lt;a href=&quot;http://www.hanselman.com/blog/scott-hanselmans-complete-list-of-productivity-tips&quot;&gt;
+				Scott Hanselman&apos;s List of Productivity Tips&lt;/a&gt;
+			&lt;details&gt;&lt;summary&gt;more..&lt;/summary&gt;
+				&lt;p&gt;What follows is Danny Schreiber&apos;s summary of my Productivity Talk. If you&apos;d like me to give a version of this talk at your company or event, contact me.&lt;/p&gt;
+			&lt;/details&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;card-image&quot;&gt;
+			&lt;a href=&quot;http://www.hanselman.com/blog/scott-hanselmans-complete-list-of-productivity-tips&quot;&gt;
+				&lt;img src=&quot;https://hanselmanblogcontent.azureedge.net/Windows-Live-Writer/0a3df681baef_C924/97e47e1feb7b591e8220b08a8c83cc9a_28706943-45af-44b8-a280-d15e7cfbc89c.jpg&quot;&gt;&lt;/a&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+
+	&lt;!-- ---------------------------------------------------------------------- --&gt;
+
+	&lt;div class=&quot;card&quot;&gt;
+		&lt;div class=&quot;card-section&quot;&gt;
+			&lt;a href=&quot;https://blog.aaronkharris.com/things-that-arent-progress&quot;&gt;
+				Things that Aren&apos;t Progress (Aaron Harris)
+			&lt;/a&gt;
+			&lt;details&gt;&lt;summary&gt;more..&lt;/summary&gt;
+				&lt;p&gt;&lt;/p&gt;
+			&lt;/details&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+
+	&lt;!-- ---------------------------------------------------------------------- --&gt;
+
+	&lt;div class=&quot;card&quot;&gt;
+		&lt;div class=&quot;card-section&quot;&gt;
+			&lt;a href=&quot;https://thecreativeindependent.com/people/henry-rollins-on-defining-success/?utm_source=pocket_mylist&quot;&gt;
+				Henry Rollins on defining success&lt;/a&gt;
+			&lt;details&gt;&lt;summary&gt;more..&lt;/summary&gt;
+				&lt;p&gt;Henry Rollins is an American musician, writer, actor, radio host, activist, spoken word artist, and comedian. He was the singer of the hardcore punk band Black Flag and later the Rollins Band among other solo projects and collaborations. He won a Grammy in 1995 for the spoken adaptation of his 1994 tour memoir, Get in the Van. Since the early 1980s he’s released too many things to list here. &lt;/p&gt;
+			&lt;/details&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;card-image&quot;&gt;
+			&lt;a href=&quot;https://thecreativeindependent.com/people/henry-rollins-on-defining-success/?utm_source=pocket_mylist&quot;&gt;
+				&lt;img src=&quot;https://s3.amazonaws.com/tci-assets/uploads/HRgoodres.jpg&quot;&gt;&lt;/a&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+
+	&lt;!-- ---------------------------------------------------------------------- --&gt;
+
+	&lt;div class=&quot;card&quot;&gt;
+		&lt;div class=&quot;card-section&quot;&gt;
+			&lt;a href=&quot;https://doist.com/blog/complete-guide-to-deep-work/?utm_source=pocket_mylist&quot;&gt;Deep Work&lt;/a&gt;
+			&lt;details&gt;&lt;summary&gt;more..&lt;/summary&gt;
+				&lt;p&gt;How to master the #1 job skill that will never be obsolete&lt;/p&gt;
+			&lt;/details&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;card-image&quot;&gt;
+			&lt;a href=&quot;https://doist.com/blog/complete-guide-to-deep-work/?utm_source=pocket_mylist&quot;&gt;
+				&lt;img src=&quot;https://blog.doist.com/wp-content/uploads/2019/05/M_deep-work-1536x809.jpg&quot;&gt;&lt;/a&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;!-- ---------------------------------------------------------------------- --&gt;
+
+	&lt;div class=&quot;card&quot;&gt;
+		&lt;div class=&quot;card-section&quot;&gt;
+			&lt;a href=&quot;https://austinkleon.com/2013/12/29/something-small-every-day/&quot;&gt;Something Small. Every Day. (Austin Kleon)&lt;/a&gt;
+			&lt;details&gt;&lt;summary&gt;more..&lt;/summary&gt;
+				&lt;p&gt;It takes time to do anything worthwhile, but thankfully, we don’t need it all in one chunk. So this year, forget about the year as a whole. Forget about months and forget about weeks. Focus on days.&lt;/p&gt;
+			&lt;/details&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;card-image&quot;&gt;
+			&lt;a href=&quot;https://austinkleon.com/2013/12/29/something-small-every-day/&quot;&gt;
+				&lt;img src=&quot;https://austinkleon.com/wp-content/uploads/2018/09/kleon-200px.jpg&quot;&gt;&lt;/a&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+
+	&lt;!-- ---------------------------------------------------------------------- --&gt;
+
+	&lt;div class=&quot;card&quot;&gt;
+		&lt;div class=&quot;card-section&quot;&gt;
+			&lt;a href=&quot;http://eleganthack.com/designing-high-performing-teams/?utm_source=pocket_mylist&quot;&gt;Designing High Performing Teams (Elegant Hack)&lt;/a&gt;
+			&lt;details&gt;&lt;summary&gt;more..&lt;/summary&gt;
+				&lt;p&gt;&lt;/p&gt;
+			&lt;/details&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;card-image&quot;&gt;
+			&lt;a href=&quot;http://eleganthack.com/designing-high-performing-teams/?utm_source=pocket_mylist&quot;&gt;
+				&lt;img src=&quot;https://cdn-images-1.medium.com/max/800/1*4t5PXiZk8lfiTgj0s4usbw.jpeg&quot;&gt;&lt;/a&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+
+	&lt;!-- ---------------------------------------------------------------------- --&gt;
+
+	&lt;div class=&quot;card&quot;&gt;
+		&lt;div class=&quot;card-section&quot;&gt;
+			&lt;a href=&quot;http://eleganthack.com/the-dreaded-weekly-status-email/?utm_source=pocket_mylist&quot;&gt;The Dreaded Weekly Status Email (Elegant Hack)&lt;/a&gt;
+			&lt;details&gt;&lt;summary&gt;more..&lt;/summary&gt;
+				&lt;p&gt;I remember the first time I had to write one of these puppies.&lt;/p&gt;
+			&lt;/details&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;card-image&quot;&gt;
+			&lt;a href=&quot;http://eleganthack.com/the-dreaded-weekly-status-email/?utm_source=pocket_mylist&quot;&gt;
+				&lt;img src=&quot;https://eleganthack.com/wp-content/uploads/2016/02/Wodke-Radical-Focus-184x300.jpg&quot;&gt;&lt;/a&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+
+	&lt;!-- ---------------------------------------------------------------------- --&gt;
+
+	&lt;div class=&quot;card&quot;&gt;
+		&lt;div class=&quot;card-section&quot;&gt;
+			&lt;a href=&quot;https://stackingthebricks.com//pick-your-brain/?utm_source=pocket_mylist&quot;&gt;My Magic Response to &quot;Can I Pick Your Brain?&quot; (Stacking the Bricks)&lt;/a&gt;
+			&lt;details&gt;&lt;summary&gt;more..&lt;/summary&gt;
+				&lt;p&gt;The first few times it happens, it feels like a positive signal.Somebody wants your advice and perspective. You must be good at what you do. And that’s gotta translate to your career…somehow, right?&lt;/p&gt;
+			&lt;/details&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;card-image&quot;&gt;
+			&lt;a href=&quot;https://stackingthebricks.com//pick-your-brain/?utm_source=pocket_mylist&quot;&gt;
+				&lt;img src=&quot;https://d33wubrfki0l68.cloudfront.net/assets/76d57440cfe6a2a6b818832ab6f6fe7ba8014306/alex.jpg&quot;&gt;&lt;/a&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+
+	&lt;!-- ---------------------------------------------------------------------- --&gt;
+
+	&lt;div class=&quot;card&quot;&gt;
+		&lt;div class=&quot;card-section&quot;&gt;
+			&lt;a href=&quot;https://hbr.org/2018/12/how-timeboxing-works-and-why-it-will-make-you-more-productive?utm_source=pocket_mylist&quot;&gt;How Timeboxing Works (HBR)&lt;/a&gt;
+			&lt;details&gt;&lt;summary&gt;more..&lt;/summary&gt;
+				&lt;p&gt;&lt;/p&gt;
+			&lt;/details&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;card-image&quot;&gt;
+			&lt;a href=&quot;https://hbr.org/2018/12/how-timeboxing-works-and-why-it-will-make-you-more-productive?utm_source=pocket_mylist&quot;&gt;
+				&lt;img src=&quot;https://hbr.org/resources/images/article_assets/2018/12/Dec18_12_sb10063216b.jpg&quot;&gt;&lt;/a&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+
+	&lt;!-- ---------------------------------------------------------------------- --&gt;
+
+	&lt;div class=&quot;card&quot;&gt;
+		&lt;div class=&quot;card-section&quot;&gt;
+			&lt;a href=&quot;https://fs.blog/2019/01/getting-ahead-inefficient/?utm_source=pocket_mylist&quot;&gt;Getting Ahead by Being Inefficient (Shane Parrish)&lt;/a&gt;
+			&lt;details&gt;&lt;summary&gt;more..&lt;/summary&gt;
+				&lt;p&gt;Inefficient does not mean ineffective, and it is certainly not the same as lazy. You get things done – just not in the most effective way possible. You’re a bit sloppy, and use more energy. But don’t feel bad about it. There is real value in not being the best.&lt;/p&gt;
+			&lt;/details&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;card-image&quot;&gt;
+			&lt;a href=&quot;https://fs.blog/2019/01/getting-ahead-inefficient/?utm_source=pocket_mylist&quot;&gt;
+				&lt;img src=&quot;https://149664534.v2.pressablecdn.com/wp-content/uploads/2021/06/fsblog-logo@2x.png&quot;&gt;&lt;/a&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+
+	&lt;!-- ---------------------------------------------------------------------- --&gt;
+
+	&lt;div class=&quot;card&quot;&gt;
+		&lt;div class=&quot;card-section&quot;&gt;
+			&lt;a href=&quot;https://tomtunguz.com/hustle-as-strategy/?utm_source=pocket_mylist&quot;&gt;Hustle as Strategy (Tom Tunguz)&lt;/a&gt;
+			&lt;details&gt;&lt;summary&gt;more..&lt;/summary&gt;
+				&lt;p&gt;In a world where there are no secrets, where innovations are quickly imitated or become obsolete, the theory of competitive advantage may have had its day. Realistically, ask yourself, If all your competitors gave their strategic plans to each other, would it really make a difference?&lt;/p&gt;
+			&lt;/details&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+
+	&lt;!-- ---------------------------------------------------------------------- --&gt;
+
+	&lt;div class=&quot;card&quot;&gt;
+		&lt;div class=&quot;card-section&quot;&gt;
+			&lt;a href=&quot;https://www.dev-diaries.com/blog/im-just-good-at-googling-things/?utm_source=pocket_mylist&quot;&gt;I&apos;m not really a Good Web Developer, I&apos;m Just Good at Googling things (dev-diaries)&lt;/a&gt;
+			&lt;details&gt;&lt;summary&gt;more..&lt;/summary&gt;
+				&lt;p&gt;Being a web developer means having a good grasp on a wide array of topics: navigating the terminal, html, css, javascript, cloud infrastructure, deployment strategies, databases, HTTP protocols and that’s just the beginning. &lt;/p&gt;
+			&lt;/details&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;card-image&quot;&gt;
+			&lt;a href=&quot;https://www.dev-diaries.com/blog/im-just-good-at-googling-things/?utm_source=pocket_mylist&quot;&gt;
+				&lt;img src=&quot;https://www.dev-diaries.com/assets/images/researching.jpg&quot;&gt;&lt;/a&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+
+	&lt;!-- ---------------------------------------------------------------------- --&gt;
+
+	&lt;div class=&quot;card&quot;&gt;
+		&lt;div class=&quot;card-section&quot;&gt;
+			&lt;a href=&quot;https://getpocket.com/explore/item/two-things-to-do-after-every-meeting?utm_source=pocket_mylist&quot;&gt;Two Things to do After Every Meeting (Paul Axtell)&lt;/a&gt;
+			&lt;details&gt;&lt;summary&gt;more..&lt;/summary&gt;
+				&lt;p&gt;Steve Jobs insisted that every item on a meeting agenda have a designated person responsible for that task and any follow-up work that happened. He called that person the DRI—the Directly Responsible Individual. He knew the public accountability would ensure that a project or task would actually get done, and he wanted to set clear, organized instructions for his team to follow.&lt;/p&gt;
+			&lt;/details&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;card-image&quot;&gt;
+			&lt;a href=&quot;https://getpocket.com/explore/item/two-things-to-do-after-every-meeting?utm_source=pocket_mylist&quot;&gt;
+				&lt;img src=&quot;https://pocket-image-cache.com//filters:format(jpg):extract_focal()/https://pocket-image-cache.com/direct?resize=w2000&amp;url=https%3A%2F%2Fhbr.org%2Fresources%2Fimages%2Farticle_assets%2F2015%2F11%2Fnov15-26-2696244.jpg&quot;&gt;&lt;/a&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+
+	&lt;!-- ---------------------------------------------------------------------- --&gt;
+
+	&lt;div class=&quot;card&quot;&gt;
+		&lt;div class=&quot;card-section&quot;&gt;
+			&lt;a href=&quot;https://doist.com/blog/best-productivity-apps-ios-android-mac-windows/?utm_source=pocket_mylist&quot;&gt;2020&apos;s Best Productivity Apps (Kelsey Wroten)&lt;/a&gt;
+			&lt;details&gt;&lt;summary&gt;more..&lt;/summary&gt;
+				&lt;p&gt;Let’s get one thing out of the way first:  You do not need any of the apps on this list in order to be productive.&lt;/p&gt;
+			&lt;/details&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;card-image&quot;&gt;
+			&lt;a href=&quot;https://doist.com/blog/best-productivity-apps-ios-android-mac-windows/?utm_source=pocket_mylist&quot;&gt;
+				&lt;img src=&quot;&quot;&gt;&lt;/a&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+
+	&lt;!-- ---------------------------------------------------------------------- --&gt;
+
+	&lt;div class=&quot;card&quot;&gt;
+		&lt;div class=&quot;card-section&quot;&gt;
+			&lt;a href=&quot;https://www.bbc.com/worklife/article/20191205-how-to-conquer-work-paralysis-like-ernest-hemingway?utm_source=pocket_mylist&quot;&gt;How to conquer work paralysis like Ernest Hemingway (Zaria Gorvett)&lt;/a&gt;
+			&lt;details&gt;&lt;summary&gt;more..&lt;/summary&gt;
+				&lt;p&gt;The author wasn’t all about literary masterpieces, dry martinis and rakish charm – he also invented a technique that can beat procrastination and boost productivity.&lt;/p&gt;
+			&lt;/details&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;card-image&quot;&gt;
+			&lt;a href=&quot;https://www.bbc.com/worklife/article/20191205-how-to-conquer-work-paralysis-like-ernest-hemingway?utm_source=pocket_mylist&quot;&gt;
+				&lt;img src=&quot;https://ychef.files.bbci.co.uk/1280x720/p07x1rnx.webp&quot;&gt;&lt;/a&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+
+	&lt;!-- ---------------------------------------------------------------------- --&gt;
+
+	&lt;div class=&quot;card&quot;&gt;
+		&lt;div class=&quot;card-section&quot;&gt;
+			&lt;a href=&quot;https://amontalenti.com/2019/11/04/work-is-a-queue-of-queues?utm_source=pocket_mylist&quot;&gt;Work is a Queue of Queues (Andrew Montalenti)&lt;/a&gt;
+			&lt;details&gt;&lt;summary&gt;more..&lt;/summary&gt;
+				&lt;p&gt;Do you ever get that feeling like no matter how hard you work, you just can’t keep up? This isn’t a problem uniquely faced by modern knowledge workers. It’s also a characteristic of certain software systems. This state — of being perpetually behind on intended work-in-progress — can fall naturally out of the data structures used to design a software system. Perhaps by learning something about these data structures, we can learn something about the nature of work itself.&lt;/p&gt;
+			&lt;/details&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;card-image&quot;&gt;
+			&lt;a href=&quot;https://amontalenti.com/2019/11/04/work-is-a-queue-of-queues?utm_source=pocket_mylist&quot;&gt;
+				&lt;img src=&quot;https://amontalenti.com/wordpress/wp-content/uploads/2019/11/nasa_transonic_tunnel-1024x442.jpg&quot;&gt;&lt;/a&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+
+	&lt;!-- ---------------------------------------------------------------------- --&gt;
+
+	&lt;div class=&quot;card&quot;&gt;
+		&lt;div class=&quot;card-section&quot;&gt;
+			&lt;a href=&quot;https://getpocket.com/explore/item/productivity-lessons-from-artists-and-entrepreneurs?utm_source=pocket_mylist&quot;&gt;
+				Productivity Lessons from Artists &amp; Entrepreneurs (Brad Stulberg)
+			&lt;/a&gt;
+			&lt;details&gt;&lt;summary&gt;more..&lt;/summary&gt;
+				&lt;p&gt;Put simply, the overlap between professional, creative, and athletic success is huge. Here are a few timeless productivity lessons, or principles of performance, that apply no matter what you’re doing. &lt;/p&gt;
+			&lt;/details&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;card-image&quot;&gt;
+			&lt;a href=&quot;https://getpocket.com/explore/item/productivity-lessons-from-artists-and-entrepreneurs?utm_source=pocket_mylist&quot;&gt;
+				&lt;img src=&quot;https://pocket-image-cache.com//filters:format(jpg):extract_focal()/https://pocket-image-cache.com/direct?url=https%3A%2F%2Fpocket-syndicated-images.s3.amazonaws.com%2F5d10e9da9e244.jpg&quot;&gt;&lt;/a&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+
+	&lt;!-- ---------------------------------------------------------------------- --&gt;
+
+	&lt;div class=&quot;card&quot;&gt;
+		&lt;div class=&quot;card-section&quot;&gt;
+			&lt;a href=&quot;https://www.fastcompany.com/90432278/one-mans-obsessive-40-year-pursuit-of-the-productive-life?partner=feedburner&amp;utm_source=pocket_mylist&quot;&gt;One man&apos;s obsessive 40-year pursuit of the productive life (Stephen Wolfram)&lt;/a&gt;
+			&lt;details&gt;&lt;summary&gt;more..&lt;/summary&gt;
+				&lt;p&gt;Stephen Wolfram has always liked using technology to get stuff done and monitor personal progress. Here are the secrets that help him power through his workdays.&lt;/p&gt;
+			&lt;/details&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;card-image&quot;&gt;
+			&lt;a href=&quot;https://www.fastcompany.com/90432278/one-mans-obsessive-40-year-pursuit-of-the-productive-life?partner=feedburner&amp;utm_source=pocket_mylist&quot;&gt;
+				&lt;img src=&quot;https://pocket-image-cache.com//filters:format(jpg):extract_focal()/https%3A%2F%2Fimages.fastcompany.net%2Fimage%2Fupload%2Fw_1153%2Car_16%3A9%2Cc_fill%2Cg_auto%2Cf_auto%2Cq_auto%2Cfl_lossy%2Fwp-cms%2Fuploads%2F2019%2F12%2Fp-2-one-manand8217s-obsessive-40-year-pursuit-of-the-productive-life.jpg&quot;&gt;&lt;/a&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+
+	&lt;!-- ---------------------------------------------------------------------- --&gt;
+
+	&lt;div class=&quot;card&quot;&gt;
+		&lt;div class=&quot;card-section&quot;&gt;
+			&lt;a href=&quot;https://blog.pragmaticengineer.com/what-silicon-valley-gets-right-on-software-engineers/?utm_source=pocket_mylist&quot;&gt;What Silicon Valley &quot;Gets&quot; about Software Engineers that Traditional Companies Do Not (Gergely Orosz)&lt;/a&gt;
+			&lt;details&gt;&lt;summary&gt;more..&lt;/summary&gt;
+				&lt;p&gt;I&apos;ve noticed that Silicon Valley companies consistently &quot;get&quot; a few things that their traditional counterparts fail to either understand or implement in practice - especially in Europe. &lt;/p&gt;
+			&lt;/details&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;card-image&quot;&gt;
+			&lt;a href=&quot;https://blog.pragmaticengineer.com/what-silicon-valley-gets-right-on-software-engineers/?utm_source=pocket_mylist&quot;&gt;
+				&lt;img src=&quot;https://blog.pragmaticengineer.com/content/images/2020/10/Screenshot-2020-10-20-at-16.29.33.png&quot;&gt;&lt;/a&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+
+	&lt;!-- ---------------------------------------------------------------------- --&gt;
+
+	&lt;div class=&quot;card&quot;&gt;
+		&lt;div class=&quot;card-section&quot;&gt;
+			&lt;a href=&quot;https://alexvermeer.com/8760hours/&quot;&gt;8760 Hours: How to get the most out of next year (Alex Vermeer)&lt;/a&gt;
+			&lt;details&gt;&lt;summary&gt;more..&lt;/summary&gt;
+				&lt;p&gt;The end of a year is the perfect time to review one’s life, goals, plans, and projects, as well as plan for the upcoming year. I’ve been fine-tuning my own review process for several years and thought others might be interested to know what I do and how.&lt;/p&gt;
+			&lt;/details&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;card-image&quot;&gt;
+			&lt;a href=&quot;https://alexvermeer.com/8760hours/&quot;&gt;
+				&lt;img src=&quot;https://alexvermeer.com/wp-content/uploads/8760-post-cover-v2.jpg&quot;&gt;&lt;/a&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+
+	&lt;!-- ---------------------------------------------------------------------- --&gt;
+
+	&lt;div class=&quot;card&quot;&gt;
+		&lt;div class=&quot;card-section&quot;&gt;
+			&lt;a href=&quot;https://www.okayhq.com/blog/engineering-productivity-can-be-measured?utm_source=pocket_mylist&quot;&gt;Engineering productivity can be measured - just not how you&apos;d expect (OkayHQ)&lt;/a&gt;
+			&lt;details&gt;&lt;summary&gt;more..&lt;/summary&gt;
+				&lt;p&gt;&lt;/p&gt;
+			&lt;/details&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+
+	&lt;!-- ---------------------------------------------------------------------- --&gt;
+
+	&lt;div class=&quot;card&quot;&gt;
+		&lt;div class=&quot;card-section&quot;&gt;
+			&lt;a href=&quot;https://annehelen.substack.com/p/the-diminishing-returns-of-productivity?utm_source=pocket_mylist&quot;&gt;the diminishing returns of productivity culture (Anne Petersen)&lt;/a&gt;
+			&lt;details&gt;&lt;summary&gt;more..&lt;/summary&gt;
+				&lt;p&gt;This is the midweek edition of Culture Study — the newsletter from Anne Helen Petersen, which you can read about here. If you like it and want more like it in your inbox, consider subscribing.&lt;/p&gt;
+			&lt;/details&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;card-image&quot;&gt;
+			&lt;a href=&quot;https://annehelen.substack.com/p/the-diminishing-returns-of-productivity?utm_source=pocket_mylist&quot;&gt;
+				&lt;img src=&quot;https://cdn.substack.com/image/fetch/w_1100,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Feacbdd87-c2a3-4a78-812f-6ab9ad05e0bb_1946x1286.png&quot;&gt;&lt;/a&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+
+	&lt;!-- ---------------------------------------------------------------------- --&gt;
+
+	&lt;div class=&quot;card&quot;&gt;
+		&lt;div class=&quot;card-section&quot;&gt;
+			&lt;a href=&quot;https://www.nirandfar.com/timeboxing/?utm_source=pocket_mylist&quot;&gt;Timeboxing: The Most Powerful Time Management Technique You’re Probably Not Using (Nir Eyal)&lt;/a&gt;
+			&lt;details&gt;&lt;summary&gt;more..&lt;/summary&gt;
+				&lt;p&gt;&lt;/p&gt;
+			&lt;/details&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;card-image&quot;&gt;
+			&lt;a href=&quot;https://www.nirandfar.com/timeboxing/?utm_source=pocket_mylist&quot;&gt;
+				&lt;img src=&quot;https://www.nirandfar.com/wp-content/uploads/2021/06/timeboxing-time-management-1080x675.png&quot;&gt;&lt;/a&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+
+&lt;/div&gt;</content><author><name>Brian Piercy</name></author><category term="productivity" /><category term="gtd" /><summary type="html">Productivity articles (Pocket), 12/23/21</summary></entry><entry><title type="html">Stuff to Read</title><link href="http://localhost:4000/2021/12/14/stuff-to-read.html" rel="alternate" type="text/html" title="Stuff to Read" /><published>2021-12-14T00:00:00-05:00</published><updated>2021-12-14T00:00:00-05:00</updated><id>http://localhost:4000/2021/12/14/stuff-to-read</id><content type="html" xml:base="http://localhost:4000/2021/12/14/stuff-to-read.html">&lt;div class=&quot;callout&quot;&gt;
+	&lt;h2&gt;Stuff to Read from Hacker News, 12/14/21&lt;/h2&gt;
+&lt;/div&gt;
+
+&lt;div style=&quot;columns: 2;&quot;&gt;
+
+
+	&lt;div class=&quot;card&quot;&gt;
+		&lt;div class=&quot;card-section&quot;&gt;
+			&lt;a href=&quot;https://www.oregonlive.com/trending/2021/12/friendly-foul-mouthed-crow-befriends-entire-oregon-elementary-school-before-state-police-are-called-in.html&quot;&gt;
+				Cosmo the Crow&lt;/a&gt;
+				&lt;details&gt;&lt;summary&gt;more..&lt;/summary&gt;
+				&lt;p&gt;A friendly, if somewhat foul-mouthed, crow became a temporary mascot at Allen Dale Elementary School in November when the bird took up residence at the Grants Pass school.&lt;/p&gt;
+			&lt;/details&gt;
+			&lt;/div&gt;
+			&lt;div class=&quot;card-image&quot;&gt;
+				&lt;a href=&quot;https://www.oregonlive.com/trending/2021/12/friendly-foul-mouthed-crow-befriends-entire-oregon-elementary-school-before-state-police-are-called-in.html&quot;&gt;
+					&lt;img src=&quot;https://www.oregonlive.com/resizer/_jPJ3Nx--Zb7IID0KwQ4xli0dpU=/800x0/smart/cloudfront-us-east-1.images.arcpublishing.com/advancelocal/C6WUVEUAMVDNXNNA2BJMZZL5JU.jpeg&quot;&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+	&lt;/div&gt;
+
+	&lt;!-- ---------------------------------------------------------------------- --&gt;
+
+	&lt;div class=&quot;card&quot;&gt;
+		&lt;div class=&quot;card-section&quot;&gt;
+			&lt;a href=&quot;https://github.com/iorate/uBlacklist&quot;&gt;uBlacklist (GitHub)&lt;/a&gt;
+			&lt;details&gt;&lt;summary&gt;more..&lt;/summary&gt;
+			&lt;p&gt;Blocks specific sites from appearing in Google search results &lt;/p&gt;
+		&lt;/details&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+
+	&lt;!-- ---------------------------------------------------------------------- --&gt;
+
+	&lt;div class=&quot;card&quot;&gt;
+		&lt;div class=&quot;card-section&quot;&gt;
+			&lt;a href=&quot;http://exquora.thoughtstorms.info/&quot;&gt;
+				Leaving Quora After 10 Years of Answering Questions (Phil Jones)&lt;/a&gt;
+			&lt;details&gt;&lt;summary&gt;more..&lt;/summary&gt;
+				&lt;p&gt;If you are reading this, you probably know me from Quora where I spent over 10 years writing more than 11,000 answers. I&apos;m writing this page because I will soon be gone from Quora.&lt;/p&gt;
+			&lt;/details&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+
+	&lt;!-- ---------------------------------------------------------------------- --&gt;
+
+	&lt;div class=&quot;card&quot;&gt;
+		&lt;div class=&quot;card-section&quot;&gt;
+			&lt;a href=&quot;https://www.theatlantic.com/ideas/archive/2021/12/california-san-francisco-outdoor-dining-progressive-utopia/620974/&quot;&gt;
+				What a Progressive Utopia Does to Outdoor Dining (Atlantic)&lt;/a&gt;
+			&lt;details&gt;&lt;summary&gt;more..&lt;/summary&gt;
+				&lt;p&gt;In San Francisco and elsewhere in California, the red tape that prevented dining alfresco before the pandemic is starting to grow back.&lt;/p&gt;
+			&lt;/details&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;card-image&quot;&gt;
+			&lt;a href=&quot;https://www.theatlantic.com/ideas/archive/2021/12/california-san-francisco-outdoor-dining-progressive-utopia/620974/&quot;&gt;
+				&lt;img src=&quot;https://cdn.theatlantic.com/thumbor/KOcJrrEwV7cbq2C2a-PuFFMZp_k=/0x0:2500x1406/976x549/media/img/mt/2021/12/GettyImages_1307492430/original.jpg&quot;&gt;&lt;/a&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+
+	&lt;!-- ---------------------------------------------------------------------- --&gt;
+
+	&lt;div class=&quot;card&quot;&gt;
+		&lt;div class=&quot;card-section&quot;&gt;
+			&lt;a href=&quot;https://dimitarsimeonov.com/2021/12/12/opt-out-of-cynicism&quot;&gt;
+				Opt Out of Cynicism (D13V)&lt;/a&gt;
+			&lt;details&gt;&lt;summary&gt;more..&lt;/summary&gt;
+				&lt;p&gt;Growing up in post-socialist-turned-cowboy-capitalist Bulgaria I grew up around a lot of cynical behavior and absorbed it deep into me. It was the water I was swimming in, and I knew no better. There was always this feeling that attempts at improvements are futile. If anyone tried to improve the system in any way, they will face a great opposition, and any value they bring forward will be immediately vultured away. This made it obvious for me to see how any changes will be abused and rendred futile. I also became good at rationalizing the existing status quo. There’s this example which stuck with me, that if someone created a coin operated parking meter, another one will quickly figure out how to steal the coins out of it. Thus, the attempt to bring order will fail, and the rationalization is that we are a motivated but backstabbing people which get in our own interest.&lt;/p&gt;
+			&lt;/details&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;card-image&quot;&gt;
+			&lt;a href=&quot;https://dimitarsimeonov.com/2021/12/12/opt-out-of-cynicism&quot;&gt;
+				&lt;img src=&quot;https://dimitarsimeonov.com/assets/image/2021_gamechanger/08end.png&quot;&gt;&lt;/a&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+
+	&lt;!-- ---------------------------------------------------------------------- --&gt;
+
+	&lt;div class=&quot;card&quot;&gt;
+		&lt;div class=&quot;card-section&quot;&gt;
+			&lt;a href=&quot;https://adactio.com/articles/18676&quot;&gt;
+				Aint No Party Like a 3rd Party (Adactio)&lt;/a&gt;
+			&lt;details&gt;&lt;summary&gt;more..&lt;/summary&gt;
+				&lt;p&gt;’d like to tell you something not to do to make your website better. Don’t add any third-party scripts to your site.&lt;/p&gt;
+			&lt;/details&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+
+	&lt;!-- ---------------------------------------------------------------------- --&gt;
+
+	&lt;div class=&quot;card&quot;&gt;
+		&lt;div class=&quot;card-section&quot;&gt;
+			&lt;a href=&quot;https://commoncog.com/blog/tacit-knowledge-is-a-real-thing/&quot;&gt;
+				Why Tacit Knowledge is More Important than Deliberate Practice (Commonplace)&lt;/a&gt;
+			&lt;details&gt;&lt;summary&gt;more..&lt;/summary&gt;
+				&lt;p&gt;I want to spend an essay talking about tacit knowledge, and why I think it is the most interesting topic in the domain of skill acquisition. If you are a longtime Commonplace reader, you’ll likely have come across this idea before, because I’ve written about it numerous times in the past. But I think it’s still good idea to dedicate a whole piece to the topic.&lt;/p&gt;
+			&lt;/details&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;card-image&quot;&gt;
+			&lt;a href=&quot;https://commoncog.com/blog/tacit-knowledge-is-a-real-thing/&quot;&gt;
+				&lt;img src=&quot;https://commoncog.com/blog/content/images/2020/06/tacit_knowledge.jpg&quot;&gt;&lt;/a&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+
+	&lt;!-- ---------------------------------------------------------------------- --&gt;
+
+	&lt;div class=&quot;card&quot;&gt;
+		&lt;div class=&quot;card-section&quot;&gt;
+			&lt;a href=&quot;https://www.espn.com/chess/story/_/id/32840390/magnus-carlsen-world-champion-best-chess-player&quot;&gt;
+				Anatomy of a GOAT: What Makes Magnus Carlsen the world&apos;s best Chess player (ESPN)&lt;/a&gt;
+			&lt;details&gt;&lt;summary&gt;more..&lt;/summary&gt;
+				&lt;p&gt;On Friday, needing just one point against Ian Nepomniachtchi to defend his world champion status, Magnus Carlsen closed the match out with three games to spare, 7.5-3.5. He&apos;s been the No 1 chess player in the world for a decade now and is in his eighth year as undisputed world champion.&lt;/p&gt;
+			&lt;/details&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;card-image&quot;&gt;
+			&lt;a href=&quot;https://www.espn.com/chess/story/_/id/32840390/magnus-carlsen-world-champion-best-chess-player&quot;&gt;
+				&lt;img src=&quot;https://a2.espncdn.com/combiner/i?img=%2Fphoto%2F2021%2F1211%2Fr949581_1296x729_16%2D9.png&amp;w=920&amp;h=518&amp;scale=crop&amp;cquality=80&amp;location=origin&amp;format=jpg&quot;&gt;&lt;/a&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+
+	&lt;!-- ---------------------------------------------------------------------- --&gt;
+
+	&lt;div class=&quot;card&quot;&gt;
+		&lt;div class=&quot;card-section&quot;&gt;
+			&lt;a href=&quot;https://learnxinyminutes.com/&quot;&gt;
+				Learn X in Y Minutes&lt;/a&gt;
+			&lt;details&gt;&lt;summary&gt;more..&lt;/summary&gt;
+				&lt;p&gt;Take a whirlwind tour of your next favorite language. Community-driven!&lt;/p&gt;
+			&lt;/details&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+
+	&lt;!-- ---------------------------------------------------------------------- --&gt;
+
+	&lt;div class=&quot;card&quot;&gt;
+		&lt;div class=&quot;card-section&quot;&gt;
+			&lt;a href=&quot;http://d2l.ai/&quot;&gt;Dive Into  Deep Learning (ebook) (d2l.ai)&lt;/a&gt;
+			&lt;details&gt;&lt;summary&gt;more..&lt;/summary&gt;
+				&lt;p&gt;Interactive deep learning book with code, math, and discussions. Implemented with NumPy/MXNet, PyTorch, and TensorFlow. Adopted at 300 universities from 55 countries.&lt;/p&gt;
+			&lt;/details&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;card-image&quot;&gt;
+			&lt;a href=&quot;http://d2l.ai/&quot;&gt;
+				&lt;img src=&quot;http://d2l.ai/_images/front.png&quot;&gt;&lt;/a&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+
+	&lt;!-- ---------------------------------------------------------------------- --&gt;
+
+	&lt;div class=&quot;card&quot;&gt;
+		&lt;div class=&quot;card-section&quot;&gt;
+			&lt;a href=&quot;https://www.youtube.com/watch?v=xJ3hWyfMlU0&quot;&gt;
+				I Have a Brain Injury (YouTube)&lt;/a&gt;
+			&lt;details&gt;&lt;summary&gt;more..&lt;/summary&gt;
+				&lt;p&gt;I got hit in the head by a falling pipe while shooting a video in July, and haven&apos;t been the same since...&lt;/p&gt;
+			&lt;/details&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+
+	&lt;!-- ---------------------------------------------------------------------- --&gt;
+
+	&lt;div class=&quot;card&quot;&gt;
+		&lt;div class=&quot;card-section&quot;&gt;
+			&lt;a href=&quot;https://thegradient.pub/how-to-train-your-decision-making-ais/&quot;&gt;
+				How to Train your Decision-Making AIs (Gradient)&lt;/a&gt;
+			&lt;details&gt;&lt;summary&gt;more..&lt;/summary&gt;
+				&lt;p&gt;The combination of deep learning and decision learning has led to several impressive stories in decision-making AI research, including AIs that can play a variety of games (Atari video games, board games, complex real-time strategy game Starcraft II), control robots (in simulation and in the real world), and even fly a weather balloon. These are examples of sequential decision tasks, in which the AI agent needs to make a sequence of decisions to achieve its goal.&lt;/p&gt;
+			&lt;/details&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;card-image&quot;&gt;
+			&lt;a href=&quot;https://thegradient.pub/how-to-train-your-decision-making-ais/&quot;&gt;
+				&lt;img src=&quot;https://thegradient.pub/content/images/2021/12/main.png&quot;&gt;&lt;/a&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+
+	&lt;!-- ---------------------------------------------------------------------- --&gt;
+
+	&lt;div class=&quot;card&quot;&gt;
+		&lt;div class=&quot;card-section&quot;&gt;
+			&lt;a href=&quot;https://course.spacy.io/en/&quot;&gt;Advanced NLP with SpaCy (SpaCy.io)&lt;/a&gt;
+			&lt;details&gt;&lt;summary&gt;more..&lt;/summary&gt;
+				&lt;p&gt;Chapter 1: Finding words, phrases, names and concepts&lt;br&gt;This chapter will introduce you to the basics of text processing with spaCy. You&apos;ll learn about the data structures, how to work with trained pipelines, and how to use them to predict linguistic features in your text.&lt;/p&gt;
+			&lt;/details&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+
+	&lt;!-- ---------------------------------------------------------------------- --&gt;
+
+	&lt;div class=&quot;card&quot;&gt;
+		&lt;div class=&quot;card-section&quot;&gt;
+			&lt;a href=&quot;https://www.cs.cmu.edu/~kmcrane/Projects/RepulsiveSurfaces/index.html&quot;&gt;
+				Repulsive Surfaces (Keenan Crane)&lt;/a&gt;
+			&lt;details&gt;&lt;summary&gt;more..&lt;/summary&gt;
+				&lt;p&gt;Functionals that penalize bending or stretching of a surface play a key role in geometric and scientific computing, but to date have ignored a very basic requirement: in many situations, surfaces must not pass through themselves or each other. This paper develops a numerical framework for optimization of surface geometry while avoiding (self-)collision. The starting point is the tangent-point energy, which effectively pushes apart pairs of points that are close in space but distant along the surface. We develop a discretization of this energy for triangle meshes, and introduce a novel acceleration scheme based on a fractional Sobolev inner product. In contrast to similar schemes developed for curves, we avoid the complexity of building a multiresolution mesh hierarchy by decomposing our preconditioner into two ordinary Poisson equations, plus forward application of a fractional differential operator. We further accelerate this scheme via hierarchical approximation, and describe how to incorporate a variety of constraints (on area, volume, etc.). Finally, we explore how this machinery might be applied to problems in mathematical visualization, geometric modeling, and geometry processing.&lt;/p&gt;
+			&lt;/details&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;card-image&quot;&gt;
+			&lt;a href=&quot;https://www.cs.cmu.edu/~kmcrane/Projects/RepulsiveSurfaces/index.html&quot;&gt;
+				&lt;img src=&quot;https://www.cs.cmu.edu/~kmcrane/Projects/RepulsiveSurfaces/teaser.png&quot;&gt;&lt;/a&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+
+	&lt;!-- ---------------------------------------------------------------------- --&gt;
+
+	&lt;div class=&quot;card&quot;&gt;
+		&lt;div class=&quot;card-section&quot;&gt;
+			&lt;a href=&quot;https://traditionalkyoto.com/culture/kintsugi/&quot;&gt;
+				The Art of Repair (Traditional Kyoto)&lt;/a&gt;
+			&lt;details&gt;&lt;summary&gt;more..&lt;/summary&gt;
+				&lt;p&gt;Kintsugi (golden joinery) is the Japanese art of repairing broken pottery with lacquer dusted or mixed with powdered gold, silver, or platinum, a method similar to the maki-e technique. As a philosophy, it treats breakage and repair as part of the history of an object, rather than something to disguise. Lacquerware is a longstanding tradition in Japan, at some point it may have been combined with maki-e as a replacement for other ceramic repair techniques.&lt;/p&gt;
+			&lt;/details&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;card-image&quot;&gt;
+			&lt;a href=&quot;https://traditionalkyoto.com/culture/kintsugi/&quot;&gt;
+				&lt;img src=&quot;https://traditionalkyoto.com/wp-content/uploads/2015/09/kintsugi7-2400x720.jpg&quot;&gt;&lt;/a&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+
+	&lt;!-- ---------------------------------------------------------------------- --&gt;
+
+	&lt;div class=&quot;card&quot;&gt;
+		&lt;div class=&quot;card-section&quot;&gt;
+			&lt;a href=&quot;https://bam.kalzumeus.com/archive/more-than-you-want-to-know-about-gift-cards/&quot;&gt;
+				More Than You Want to Know About Gift Cards (Kalzumeus)&lt;/a&gt;
+			&lt;details&gt;&lt;summary&gt;more..&lt;/summary&gt;
+				&lt;p&gt;There are few things comedians and personal finance writers agree on, but one comes up every holiday season: “Gift cards. For when you want to give someone money, except worse.” Like many topics in financial infrastructure, they’re a fascinating Gordian knot of user needs, business incentives, government regulation, and infrastructural weirdness. Let’s start unraveling it.&lt;/p&gt;
+			&lt;/details&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+
+	&lt;!-- ---------------------------------------------------------------------- --&gt;
+
+	&lt;div class=&quot;card&quot;&gt;
+		&lt;div class=&quot;card-section&quot;&gt;
+			&lt;a href=&quot;https://simons.berkeley.edu/news/spiking-neural-networks&quot;&gt;
+				Spiking Neural Nets (Simons Institute)&lt;/a&gt;
+				&lt;details&gt;&lt;summary&gt;more..&lt;/summary&gt;
+			&lt;p&gt;n August 2014, a significant advance in computing made the cover of the journal Science. It was IBM’s 5.4 billion-transistor chip that had a million hardware neurons and 256 million synapses. Algorithms running on this “neuromorphic” chip, when fed a video stream, could identify multiple objects, such as people, bicycles, trucks, and buses. Crucially, the hardware neural network consumed a mere 63 milliwatts, about 176,000 times less energy per synaptic event than the same network simulated on a general-purpose microprocessor.&lt;/p&gt;
+		&lt;/details&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;card-image&quot;&gt;
+			&lt;a href=&quot;https://simons.berkeley.edu/news/spiking-neural-networks&quot;&gt;
+				&lt;img src=&quot;https://simons.berkeley.edu/sites/default/files/uploads/banners/banner_1880x240px.png&quot;&gt;&lt;/a&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+
+	&lt;!-- ---------------------------------------------------------------------- --&gt;
+
+	&lt;div class=&quot;card&quot;&gt;
+		&lt;div class=&quot;card-section&quot;&gt;
+			&lt;a href=&quot;https://www.historytoday.com/archive/feature/invention-chinese&quot;&gt;
+				The Invention of Chinese (History Today)&lt;/a&gt;
+				&lt;details&gt;&lt;summary&gt;more..&lt;/summary&gt;
+			&lt;p&gt;Believing language would unify their struggling nation, Chinese officials began a project to create a national language and define what it meant to speak Chinese. &lt;/p&gt;
+		&lt;/details&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;card-image&quot;&gt;
+			&lt;a href=&quot;&quot;&gt;
+				&lt;img src=&quot;https://www.historytoday.com/sites/default/files/inline-images/chinese.jpg&quot;&gt;&lt;/a&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+
+	&lt;!-- ---------------------------------------------------------------------- --&gt;
+
+	&lt;div class=&quot;card&quot;&gt;
+		&lt;div class=&quot;card-section&quot;&gt;
+			&lt;a href=&quot;https://esahubble.org/images/heic1806a/&quot;&gt;
+				A Ghostly Galaxy Lacking Dark Matter (ESA Hubble)&lt;/a&gt;
+				&lt;details&gt;&lt;summary&gt;more..&lt;/summary&gt;
+			&lt;p&gt;NGC 1052-DF2 resides about 65 million light-years away in the NGC 1052 Group, which is dominated by a massive elliptical galaxy called NGC 1052.&lt;/p&gt;
+		&lt;/details&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;card-image&quot;&gt;
+			&lt;a href=&quot;https://esahubble.org/images/heic1806a/&quot;&gt;
+				&lt;img src=&quot;https://cdn.spacetelescope.org/archives/images/thumb700x/heic1806a.jpg&quot;&gt;&lt;/a&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+
+	&lt;!-- ---------------------------------------------------------------------- --&gt;
+
+	&lt;div class=&quot;card&quot;&gt;
+		&lt;div class=&quot;card-section&quot;&gt;
+			&lt;a href=&quot;https://www.audubon.org/magazine/winter-2021/the-internet-has-rat-poison-problem&quot;&gt;The Internet has a Rat Poison Problem (Audobon)&lt;/a&gt;
+			&lt;details&gt;&lt;summary&gt;more..&lt;/summary&gt;
+			&lt;p&gt;My shopping spree was born out of boredom. On a lazy July morning I was in bed browsing Amazon when I decided to follow up on a tip I had received. I plugged the word “brodifacoum” into Amazon’s search bar, and a second later my screen filled with what are known as second-generation anticoagulant rodenticides, a class of rat poison so dangerous to humans and wildlife that the Environmental Protection Agency strove to keep them from being sold in consumer stores. After clicking around for a few bewildered minutes, I ordered something called Motomco D 31402 Jaguar Rodenticide Pail Pest Control. It cost $69.99, its delivery was free, and it had a 4.8-star rating. The top customer review said, “Kills them all, but the dead mice smells is not what I need,” which sounded like a solid testimonial.&lt;/p&gt;
+		&lt;/details&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;card-image&quot;&gt;
+			&lt;a href=&quot;https://www.audubon.org/magazine/winter-2021/the-internet-has-rat-poison-problem&quot;&gt;
+				&lt;img src=&quot;https://nas-national-prod.s3.amazonaws.com/styles/hero_image/s3/bucket.fc10.web_.jpg?itok=ZA1UPzaw&quot;&gt;&lt;/a&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+
+	&lt;!-- ---------------------------------------------------------------------- --&gt;
+
+	&lt;div class=&quot;card&quot;&gt;
+		&lt;div class=&quot;card-section&quot;&gt;
+			&lt;a href=&quot;https://crawshaw.io/blog/log4j&quot;&gt;
+				log4j: between a rock and hard place&lt;/a&gt;\
+				&lt;details&gt;&lt;summary&gt;more..&lt;/summary&gt;
+			&lt;p&gt;This is making the rounds because highly-profitable companies are using infrastructure they do not pay for. That is a worthy topic, but not the most interesting thing in this particular case because it would not clearly have contributed to preventing this bug. It is the second statement in this tweet that is worthy of attention: the maintainers of log4j would have loved to remove this bad feature long ago, but could not because of the backwards compatibility promises they are held to.&lt;/p&gt;
+		&lt;/details&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;card-image&quot;&gt;
+			&lt;a href=&quot;&quot;&gt;
+				&lt;img src=&quot;&quot;&gt;&lt;/a&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+
+&lt;/div&gt;</content><author><name>Brian Piercy</name></author><category term="animals" /><category term="algorithms" /><category term="policy" /><category term="cynicism" /><category term="repair" /><category term="webdev" /><category term="learning" /><category term="deep-learning" /><category term="chess" /><category term="neurology" /><category term="log4j" /><summary type="html">Stuff to Read from Hacker News, 12/14/21</summary></entry><entry><title type="html">Word Clouds</title><link href="http://localhost:4000/2021/11/23/wordclouds.html" rel="alternate" type="text/html" title="Word Clouds" /><published>2021-11-23T00:00:00-05:00</published><updated>2021-11-23T00:00:00-05:00</updated><id>http://localhost:4000/2021/11/23/wordclouds</id><content type="html" xml:base="http://localhost:4000/2021/11/23/wordclouds.html">&lt;div class=&quot;callout&quot;&gt;
+	&lt;h2&gt;Word Clouds&lt;/h2&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+	&lt;a href=&quot;http://tagcrowd.com/&quot;&gt;
+		&lt;img src=&quot;https://tagcrowd.com/images/tc_logo.gif&quot;&gt;&lt;/a&gt;
+	&lt;div class=&quot;card-section&quot;&gt;
+	TagCrowd
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+		&lt;a href=&quot;http://boxesandarrows.com/three-ways-to-improve-your-design-research-with-wordle/&quot;&gt;
+			&lt;img src=&quot;https://boxesandarrows.com/wp-content/uploads/2014/04/image03.png&quot;&gt;&lt;/a&gt;
+	&lt;div class=&quot;card-section&quot;&gt;
+		Word Clouds with Wordle (Boxes &amp; Arrows)
+		&lt;/div&gt;
+&lt;/div&gt;</content><author><name>Brian Piercy</name></author><category term="uiux" /><summary type="html">Word Clouds</summary></entry><entry><title type="html">Intro to Product Packaging</title><link href="http://localhost:4000/2021/11/18/prodmgmt-packaging-basics.html" rel="alternate" type="text/html" title="Intro to Product Packaging" /><published>2021-11-18T11:00:00-05:00</published><updated>2021-11-18T11:00:00-05:00</updated><id>http://localhost:4000/2021/11/18/prodmgmt-packaging-basics</id><content type="html" xml:base="http://localhost:4000/2021/11/18/prodmgmt-packaging-basics.html">&lt;div class=&quot;callout&quot;&gt;
+	&lt;h2&gt;Product Packaging Basics&lt;/h2&gt;
+	(multiple)
+&lt;/div&gt;
+
+&lt;div style=&quot;column-count: 2;&quot;&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+	&lt;a href=&quot;https://creativemarket.com/blog/package-design-blogs-inspiration&quot;&gt;
+		&lt;img src=&quot;https://d3ui957tjb5bqd.cloudfront.net/uploads/2017/09/24142223/Screen-Shot-2017-09-24-at-2.21.32-PM.jpg&quot;&gt;&lt;/a&gt;
+		&lt;div class=&quot;card-section&quot;&gt;
+			Design Inspiration blogs (creativemarket)
+	&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+	&lt;a href=&quot;https://creativemarket.com/blog/custom-packaging-design&quot;&gt;
+		&lt;img src=&quot;https://d3ui957tjb5bqd.cloudfront.net/uploads/2018/09/19124802/Custom-Packaging-Design-image8.jpg&quot;&gt;&lt;/a&gt;
+	&lt;div class=&quot;card-section&quot;&gt;
+		Guide to Custom Packaging (creativemarket)
+&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+	&lt;a href=&quot;https://dribbble.com/stories/2020/08/05/guide-to-product-packaging&quot;&gt;
+		&lt;img src=&quot;https://cdn.dribbble.com/users/123657/screenshots/4115189/zinus-packaging-dribbble.jpg&quot;&gt;&lt;/a&gt;
+	&lt;div class=&quot;card-section&quot;&gt;Guide to Product Packaging (dribble)
+&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+	&lt;a href=&quot;https://news.climate.columbia.edu/2020/04/30/plastic-paper-cotton-bags/&quot;&gt;&lt;img src=&quot;https://news.climate.columbia.edu/wp-content/uploads/2020/04/Shopping-637x425.jpg&quot;&gt;&lt;/a&gt;
+	&lt;div class=&quot;card-section&quot;&gt;
+	Plastic, Paper or Cotton: Which Shopping Bag is Best? (Columbia)&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+	&lt;a href=&quot;https://www.theatlantic.com/entertainment/archive/2015/08/marks-spencer-whole-foods-packaging-design/400340/&quot;&gt;
+		&lt;img src=&quot;https://pocket-image-cache.com//filters:format(jpg):extract_focal()/https%3A%2F%2Fcdn.theatlantic.com%2Fthumbor%2FowMazLoAGdFJcbbVECX_mGALKBE%3D%2F126x29%3A1292x685%2F960x540%2Fmedia%2Fimg%2Fmt%2F2015%2F08%2FScreen_Shot_2015_08_04_at_5.56.00_PM%2Foriginal.jpg&quot;&gt;
+	&lt;/a&gt;
+	&lt;div class=&quot;card-section&quot;&gt;
+		The Subtle Joys of Food Packaging (Atlantic)
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;</content><author><name>Brian Piercy</name></author><category term="prodmgmt" /><category term="packaging" /><summary type="html">Product Packaging Basics (multiple)</summary></entry></feed>

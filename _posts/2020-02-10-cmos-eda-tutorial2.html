@@ -1,0 +1,335 @@
+---
+title: CMOS EDA tool tutorial version 2
+date: 2021-03-10 18:0:0
+layout: default-foundation-20210515
+tags: semiconductors circuit-design chip-design
+---
+
+<div class="callout">
+	<h2>CMOS EDA tool tutorial</h2>
+</div>
+
+<div style="columns: 2;">
+
+<div class="card">
+	<div class="card-image"><img src="/px/chips/stdcell-cz/objective.png"></div>
+</div>
+
+<div class="card">
+	<div class="card-image"><img src="/px/chips/stdcell-cz/advanced-topics-syllabus.png"></div>
+</div>
+
+<div class="card">
+  <div class="card-section">
+  	<strong>Overview</strong>
+  </div>
+	<div class="card-image"><img src="/px/chips/stdcell-cz/overview.png"></div>
+	<br>
+</div>
+
+<div class="card">
+	<div class="card-image"><img src="/px/chips/stdcell-cz/delay-timing-constraints-setup-hold.png"></div>
+</div>
+
+<div class="card">
+	<div class="card-image"><img src="/px/chips/stdcell-cz/analog-digital-bridging.png"></div>
+</div>
+
+<div class="card">
+	<div class="card-image"><img src="/px/chips/stdcell-cz/input-files.png"></div>
+</div>
+
+<div class="card">
+	<div class="card-image"><img src="/px/chips/stdcell-cz/input-files-from-other-tools.png"></div>
+</div>
+
+<div class="card">
+	<div class="card-image"><img src="/px/chips/stdcell-cz/cell-cz-features.png"></div>
+</div>
+
+<div class="card">
+	<div class="card-image"><img src="/px/chips/stdcell-cz/cell-library-features.png"></div>
+</div>
+
+<div class="card">
+	<div class="card-image"><img src="/px/chips/stdcell-cz/inverter.png"></div>
+</div>
+
+<div class="card">
+	<div class="card-image"><img src="/px/chips/stdcell-cz/inverter-digital.png"></div>
+</div>
+
+<div class="card">
+	<div class="card-image"><img src="/px/chips/stdcell-cz/cell-library-features.png"></div>
+</div>
+
+<div class="card">
+	<div class="card-image"><img src="/px/chips/stdcell-cz/cell-library-measures.png"></div>
+</div>
+
+<div class="card">
+	<div class="card-image"><img src="/px/chips/stdcell-cz/cell-library-quality.png"></div>
+</div>
+
+<div class="card">
+	<div class="card-image"><img src="/px/chips/stdcell-cz/stdcell-libs-features.png"></div>
+</div>
+
+<div class="card">
+	<div class="card-image"><img src="/px/chips/stdcell-cz/tools.png"></div>
+</div>
+
+<div class="card">
+	<div class="card-image"><img src="/px/chips/stdcell-cz/liberty-sta-usage.png"></div>
+</div>
+
+</div>
+
+<hr>
+
+<div class="card">
+  <div class="card-divider">LIBRARY FILES:</div>
+</div>
+
+<div style="columns: 2;">
+
+<div class="card">
+	<div class="card-image"><img src="/px/chips/stdcell-cz/liberty-file-and2-datasheet.png"></div>
+</div>
+
+<div class="card">
+	<div class="card-image"><img src="/px/chips/stdcell-cz/liberty-file-cell-features.png"></div>
+</div>
+
+<div class="card">
+	<div class="card-image"><img src="/px/chips/stdcell-cz/liberty-file-format.png"></div>
+</div>
+
+<div class="card">
+	<div class="card-image"><img src="/px/chips/stdcell-cz/liberty-file-level-features.png"></div>
+</div>
+
+<div class="card">
+	<div class="card-image"><img src="/px/chips/stdcell-cz/liberty-file-op-conditions.png"></div>
+</div>
+
+<div class="card">
+	<div class="card-image"><img src="/px/chips/stdcell-cz/liberty-file-output-load-limits.png"></div>
+</div>
+
+<div class="card">
+	<div class="card-image"><img src="/px/chips/stdcell-cz/liberty-file-pin-features.png"></div>
+</div>
+
+<div class="card">
+	<div class="card-image"><img src="/px/chips/stdcell-cz/liberty-sta-usage.png"></div>
+</div>
+
+<div class="card">
+	<div class="card-image"><img src="/px/chips/stdcell-cz/libfile-d-flipflop-type-ff.png"></div>
+</div>
+
+<div class="card">
+	<div class="card-image"><img src="/px/chips/stdcell-cz/libfile-flipflop-state-table.png"></div>
+</div>
+
+</div>
+
+<hr>
+
+<div class="card">
+  <div class="card-divider">DELAY TIMING:</div>
+</div>
+
+<div style="columns: 2;">
+
+<div class="card">
+	<div class="card-image">
+	  <img src="/px/chips/stdcell-cz/delay-connect.png"></div>
+</div>
+
+<div class="card">
+	<div class="card-image"><img src="/px/chips/stdcell-cz/delay-equation.png"></div>
+</div>
+
+<div class="card">
+	<div class="card-image"><img src="/px/chips/stdcell-cz/delay-interconnect.png"></div>
+</div>
+
+<div class="card">
+	<div class="card-image"><img src="/px/chips/stdcell-cz/delay-intrinsic-vs-transition.png"></div>
+</div>
+
+<div class="card">
+	<div class="card-image"><img src="/px/chips/stdcell-cz/delay-model-intro.png"></div>
+</div>
+
+<div class="card">
+	<div class="card-image"><img src="/px/chips/stdcell-cz/delay-scaling.png"></div>
+</div>
+
+<div class="card">
+	<div class="card-image"><img src="/px/chips/stdcell-cz/delay-slew-model.png"></div>
+</div>
+
+<div class="card">
+	<div class="card-image"><img src="/px/chips/stdcell-cz/delay-slope-features.png"></div>
+</div>
+
+</div>
+
+<hr>
+
+<div class="card">
+  <div class="card-divider">TIMING ARCS:</div>
+</div>
+
+<div style="columns: 2;">
+
+<div class="card">
+	<div class="card-image"><img src="/px/chips/stdcell-cz/delay-timing-arcs-combinational.png"></div>
+</div>
+
+<div class="card">
+	<div class="card-image"><img src="/px/chips/stdcell-cz/delay-timing-arcs-concepts-p2.png"></div>
+</div>
+
+<div class="card">
+	<div class="card-image"><img src="/px/chips/stdcell-cz/delay-timing-arcs-concepts.png"></div>
+</div>
+
+<div class="card">
+	<div class="card-image"><img src="/px/chips/stdcell-cz/delay-timing-arcs-edge-clear-p2.png"></div>
+</div>
+
+<div class="card">
+	<div class="card-image"><img src="/px/chips/stdcell-cz/delay-timing-arcs-edge-clear.png"></div>
+</div>
+
+<div class="card">
+	<div class="card-image"><img src="/px/chips/stdcell-cz/delay-timing-arcs-edge-preset-p2.png"></div>
+</div>
+
+<div class="card">
+	<div class="card-image"><img src="/px/chips/stdcell-cz/delay-timing-arcs-edge-preset.png"></div>
+</div>
+
+<div class="card">
+	<div class="card-image"><img src="/px/chips/stdcell-cz/delay-timing-arcs-edge-sensitive.png"></div>
+</div>
+
+<div class="card">
+	<div class="card-image"><img src="/px/chips/stdcell-cz/delay-timing-arcs-lookup-tables.png"></div>
+</div>
+
+<div class="card">
+	<div class="card-image"><img src="/px/chips/stdcell-cz/delay-timing-arcs-lookup-tables-templates.png"></div>
+</div>
+
+<div class="card">
+	<div class="card-image"><img src="/px/chips/stdcell-cz/delay-timing-arcs-lookup-tables-value-assign.png"></div>
+</div>
+
+<div class="card">
+	<div class="card-image"><img src="/px/chips/stdcell-cz/delay-timing-arcs.png"></div>
+</div>
+
+<div class="card">
+	<div class="card-image"><img src="/px/chips/stdcell-cz/delay-timing-arcs-sequential.png"></div>
+</div>
+
+<div class="card">
+	<div class="card-image"><img src="/px/chips/stdcell-cz/delay-timing-arcs-single-vs-multi-pins.png"></div>
+</div>
+
+<div class="card">
+	<div class="card-image"><img src="/px/chips/stdcell-cz/delay-timing-arcs-tristate.png"></div>
+</div>
+
+<div class="card">
+	<div class="card-image"><img src="/px/chips/stdcell-cz/delay-timing-constraints.png"></div>
+</div>
+
+<div class="card">
+	<div class="card-image"><img src="/px/chips/stdcell-cz/delay-timing-constraints-recovery.png"></div>
+</div>
+
+<div class="card">
+	<div class="card-image"><img src="/px/chips/stdcell-cz/delay-timing-constraints-removal.png"></div>
+</div>
+
+<div class="card">
+	<div class="card-image"><img src="/px/chips/stdcell-cz/stdcell-libs-features.png"></div>
+</div>
+
+</div>
+
+<hr>
+
+<div class="card">
+  <div class="card-divider">POWER</div>
+</div>
+
+<div style="columns: 2;">
+
+<div class="card">
+	<div class="card-image"><img src="/px/chips/stdcell-cz/power-models-intro.png"></div>
+</div>
+
+<div class="card">
+	<div class="card-image"><img src="/px/chips/stdcell-cz/power-intro.png"></div>
+</div>
+
+<div class="card">
+	<div class="card-image"><img src="/px/chips/stdcell-cz/overview.png"></div>
+</div>
+
+<div class="card">
+	<div class="card-image"><img src="/px/chips/stdcell-cz/power-internal-formula.png"></div>
+</div>
+
+<div class="card">
+	<div class="card-image"><img src="/px/chips/stdcell-cz/power-pin-output.png"></div>
+</div>
+
+<div class="card">
+	<div class="card-image"><img src="/px/chips/stdcell-cz/power-clock-pin.png"></div>
+</div>
+
+<div class="card">
+	<div class="card-image"><img src="/px/chips/stdcell-cz/power-internal-table.png"></div>
+</div>
+
+<div class="card">
+	<div class="card-image"><img src="/px/chips/stdcell-cz/power-leakage-shortckt-defs.png"></div>
+</div>
+
+<div class="card">
+	<div class="card-image"><img src="/px/chips/stdcell-cz/power-leakage-state-dependent.png"></div>
+</div>
+
+<div class="card">
+	<div class="card-image"><img src="/px/chips/stdcell-cz/power-lookup-tables.png"></div>
+</div>
+
+<div class="card">
+	<div class="card-image"><img src="/px/chips/stdcell-cz/power-lookup-tables-format.png"></div>
+</div>
+
+<div class="card">
+	<div class="card-image"><img src="/px/chips/stdcell-cz/power-lookup-tables-modeling.png"></div>
+</div>
+
+<div class="card">
+	<div class="card-image"><img src="/px/chips/stdcell-cz/power-switching-calc-example.png"></div>
+</div>
+
+<div class="card">
+	<div class="card-image"><img src="/px/chips/stdcell-cz/power-switching-defs.png"></div>
+</div>
+
+<div class="card">
+	<div class="card-image"><img src="/px/chips/stdcell-cz/power-switching-calc.png"></div>
+</div>
+
+</div>

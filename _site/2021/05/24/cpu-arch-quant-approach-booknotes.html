@@ -1,0 +1,207 @@
+<html lang="en"><!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="http://localhost:4000/favicon-32x32.png" /><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>CPU Quant Architecture Book Notes | Obviously Awesome</title>
+<meta name="generator" content="Jekyll v3.9.2" />
+<meta property="og:title" content="CPU Quant Architecture Book Notes" />
+<meta name="author" content="Brian Piercy" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Brian Piercy’s collection of bookmark esoterica." />
+<meta property="og:description" content="Brian Piercy’s collection of bookmark esoterica." />
+<link rel="canonical" href="http://localhost:4000/2021/05/24/cpu-arch-quant-approach-booknotes.html" />
+<meta property="og:url" content="http://localhost:4000/2021/05/24/cpu-arch-quant-approach-booknotes.html" />
+<meta property="og:site_name" content="Obviously Awesome" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-05-24T21:13:00-04:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="CPU Quant Architecture Book Notes" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Brian Piercy"},"dateModified":"2021-05-24T21:13:00-04:00","datePublished":"2021-05-24T21:13:00-04:00","description":"Brian Piercy’s collection of bookmark esoterica.","headline":"CPU Quant Architecture Book Notes","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2021/05/24/cpu-arch-quant-approach-booknotes.html"},"url":"http://localhost:4000/2021/05/24/cpu-arch-quant-approach-booknotes.html"}</script>
+<!-- End Jekyll SEO tag -->
+<!-- Compressed CSS -->
+  <link rel="stylesheet" 
+  href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation.min.css" 
+  integrity="sha256-ogmFxjqiTMnZhxCqVmcqTvjfe1Y/ec4WaRj/aQPvn+I=" 
+  crossorigin="anonymous"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Obviously Awesome" /></head>
+<body>
+    <div class="grid-container fluid">
+
+      <div class="grid-x">     
+
+        <div class="text-left">
+          <h1><a href="/">Obviously Awesome</a></h1><form action="https://google.com/search" type="GET">
+  <div class="input-group">
+  	<input class="input-group-field" 
+        type="search" name="q" value="site search (Google)" onfocus=this.value=''>
+    <div class="input-group-button">
+      <input type="submit" class="button" value="Go">
+    </div>
+  </div>
+</form>
+
+<script>
+var form = document.querySelector("form");
+
+form.addEventListener("submit", function (e) {
+  e.preventDefault();
+  var search = form.querySelector("input[type=search]");
+  search.value = "site:bjpcjp.github.io " + search.value;
+  form.submit();
+});
+</script>
+ </div>
+
+      </div>
+
+      <div class="grid-x">     
+
+        <div class="cell small-4 medium-3 large-2"><ul class="vertical menu"><li>
+          <a href="/posts-by-tag.html">
+            Posts by Tag</a></li><li>
+          <a href="/behaviors/">
+            Behaviors</a></li><li>
+          <a href="/math/">
+            Math</a></li><li>
+          <a href="/devops.html">
+            DevOps &amp; Linux</a></li><li>
+          <a href="/gametheory/">
+            Game Theory</a></li><li>
+          <a href="/golang.html">
+            Golang</a></li><li>
+          <a href="/ideas.html">
+            Ideas</a></li><li>
+          <a href="/language/">
+            Language</a></li><li>
+          <a href="/prodmgmt/">
+            Prod Mgmt</a></li><li>
+          <a href="/python/">
+            Python</a></li><li>
+          <a href="/ruby.html">
+            Ruby</a></li><li>
+          <a href="/semiconductors.html">
+            Chips</a></li><li>
+          <a href="/uiux/">
+            UI/UX</a></li><li>
+          <a href="/webdev/">
+            Web Dev Tools</a></li><li>
+          <a href="/all-posts.html">
+            Index</a></li></ul></div>
+        
+        <div class="cell small-8 medium-9 large-10">
+          <div class="callout">
+	<h2>CPU Architecture: A Quantitative Approach - book chapters</h2>
+</div>
+
+<!--
+Expected data file (.yaml, .yml) record contents:
+	- title: (primary index)
+	  url:
+	  tags:
+	  px:
+	  notes:
+	  parent:
+	  more:
+--><div class="card">
+
+			<div class="card-divider">
+				<a href="/pdfs/cpus-quant/comparchs-apxA.pdf" target="_blank">
+					Apndx A - Instruction Set Basics</a>
+			</div><div class="card-image">
+					<img src="/px/chips/quant-arch/A-addressing-modes.png">
+				</div><div class="card-section">
+					1) Intro<br> 2) Classifications<br> 3) Memory addressing<br> 4) Operands<br> 5) Operations in the instruction set<br> 6) Control flow<br> 7) Encoding<br> 8) Compilers<br> 9) Example - MIPS<br> 10) Fallacies & Pitfalls<br> 11) Conclusion<br> 12) History
+				</div></div><div class="card">
+
+			<div class="card-divider">
+				<a href="/pdfs/cpus-quant/comparchs-apxB.pdf" target="_blank">
+					Apndx B - Memory Hierarchy Review</a>
+			</div><div class="card-image">
+					<img src="/px/chips/quant-arch/B-cache-block-options.png">
+				</div><div class="card-section">
+					1) Intro<br> 2) Cache Performance<br> 3) Six Basic Optimizations<br> 3a) - block sizes<br> 3b) - larger caches<br> 3c) - higher associativity<br> 3d) - multilevel caches<br> 3e) - read misses > writes<br> 3f) - avoiding address translations
+				</div></div><div class="card">
+
+			<div class="card-divider">
+				<a href="/pdfs/cpus-quant/comparchs-apxC.pdf" target="_blank">
+					Apndx C - Pipelining Concepts</a>
+			</div><div class="card-image">
+					<img src="/px/chips/quant-arch/C-risc-pipeline.png">
+				</div><div class="card-section">
+					1) Pipelining basics<br> 2a) Hazards (stalls)<br> 2b) Data hazards<br> 2c) Branch hazards<br> 2d) Implementation<br> 2e) Why is Pipelining so hard?<br> 2f) MIPS & multicycle ops<br> 2g) Summary - MIPS R4000<br> 2h) Issues
+				</div></div><div class="card">
+
+			<div class="card-divider">
+				<a href="/pdfs/cpus-quant/comparchs-ch01.pdf" target="_blank">
+					Chap 1 - Fundamentals</a>
+			</div><div class="card-image">
+					<img src="/px/chips/quant-arch/01-bandwidth-vs-latency-by-tech.png">
+				</div><div class="card-section">
+					1) Intro<br> 2) Classifications<br> 3) Basic definitions<br> 4) Trends<br> 5) Power & Energy<br> 6) Costs<br> 7) Dependability / Reliability<br> 8) Measuring, reporting, summarizing
+				</div></div><div class="card">
+
+			<div class="card-divider">
+				<a href="/pdfs/cpus-quant/comparchs-ch02.pdf" target="_blank">
+					Chap 2 - Memory Hierarchy Design</a>
+			</div><div class="card-image">
+					<img src="/px/chips/quant-arch/02-cache-energy-vs-size-vs-associativity.png">
+				</div><div class="card-section">
+					1) Intro<br> 2) Ten cache optimizations<br> 3) Memory technologies<br> 4) Virtual memory & virtual machines<br> 5) Issues<br> 6) Examples - ARM Cortex A8, Intel Core i7<br> 7) Fallacies<br> 8) Looking ahead<br> 9) Quant principles<br> 10) Putting it all together<br> 11) Fallacies<br> 12) Conclusion
+				</div></div><div class="card">
+
+			<div class="card-divider">
+				<a href="/pdfs/cpus-quant/comparchs-ch03.pdf" target="_blank">
+					Chap 3 - Instruction Parallelism Techniques</a>
+			</div><div class="card-image">
+					<img src="/px/chips/quant-arch/03-techniques.png">
+				</div><div class="card-section">
+					1) Concepts<br> 2) Basic compiler techniques<br> 3) Advanced branch prediction<br> 4) Dynamic scheduling<br> 5) Dynamic scheduling example<br> 6) Hardware-based speculation<br> 7) Multiple-issue & static scheduling<br> 8) Dynamic scheduling, multiple-issue & speculation<br> 9) Advanced techniques<br> 10) Limitations<br> 11) Issues<br> 12) Multithreading<br> 13) Example - ARM Cortex A8 vs Intel Core i7<br> 14) Fallacies<br> 15) Conclusion
+				</div></div><div class="card">
+
+			<div class="card-divider">
+				<a href="/pdfs/cpus-quant/comparchs-ch04.pdf" target="_blank">
+					Chap 4 - Data Parallelism Techniques</a>
+			</div><div class="card-image">
+					<img src="/px/chips/quant-arch/04-arithmetic-intensity.png">
+				</div><div class="card-section">
+					1) Intro<br> 2) Vector archtiectures<br> 3) SIMD multimedia instruction set extensions<br> 4) GPUs<br> 5) Loop-level parallelism<br> 6) Issues<br> 7) Comparisons<br> 8) Fallacies<br> 9) Conclusions<br> 10) History<br> 11) Case studies
+				</div></div><div class="card">
+
+			<div class="card-divider">
+				<a href="/pdfs/cpus-quant/comparchs-ch05.pdf" target="_blank">
+					Chap 5 - Thread Parallelism Techniques</a>
+			</div><div class="card-image">
+					<img src="/px/chips/quant-arch/05-multicore-uniform-memory-access.png">
+				</div><div class="card-section">
+					1) Intro<br> 2) Centralized shared-memory designs<br> 3) Symmetric shared-memory designs<br> 4) Distributed shared-memory designs & directory-based coherence<br> 5) Synchronization basics<br> 6) Memory consistency models<br> 7) Issues<br> 8) Summary - Multicore processors<br> 9) Fallacies<br> 10) Conclusions<br> 11) History<br> 12) Case studies
+				</div></div><div class="card">
+
+			<div class="card-divider">
+				<a href="/pdfs/cpus-quant/comparchs-ch06.pdf" target="_blank">
+					Chap 6 - Data Center Scaling</a>
+			</div><div class="card-image">
+					<img src="/px/chips/quant-arch/06-cpu-utilization-google.png">
+				</div><div class="card-section">
+					1) Intro<br> 2) Workloads<br> 3) Architecture<br> 4) Physical infrastructure & costs<br> 5) Utility computing<br> 6) Issues<br> 7) Example - Google DC<br> 8) Fallacies<br> 9) Conclusions<br> 10) History
+				</div></div>
+        </div>
+
+      </div>
+
+      <hr><footer>
+
+  <a href="/feed.xml">
+    <svg>
+      <use href="/assets/minima-social-icons.svg#rss"></use>
+    </svg></a>
+
+</footer>
+</div><!-- Compressed JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/js/foundation.min.js" 
+  integrity="sha256-pRF3zifJRA9jXGv++b06qwtSqX1byFQOLjqa2PTEb2o=" 
+  crossorigin="anonymous"></script>
+  
+</body>
+</html>

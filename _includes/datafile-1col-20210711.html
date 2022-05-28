@@ -1,0 +1,96 @@
+<div class="callout">
+	<h1>{{title}}</h1>
+</div>
+
+<!--
+Expected data file (.yaml, .yml) record contents:
+	- title: (primary index)
+	  url:
+	  tags:
+	  pic:
+	  notes:
+	  parent:
+	  more:
+-->
+
+{%- assign records = {{sourcedata}} | sort: "title" -%}
+
+<!--
+IF GROUPED, LIST TAG NAMES IN CALLOUT DIV.
+-->
+
+{%- if {{grouped}} == "grouped" -%}
+	{%- assign groups = records | group_by: "tags" -%}
+
+	<div class="callout primary">
+	    <big>Tags:</big><br>
+	    {%- for tag in groups -%}
+	        <a href="#{{tag.name}}">{{tag.name}}</a> &nbsp; &nbsp;
+	    {%- endfor -%}
+	</div>
+
+<!--
+IF GROUPED, EACH CARD CONTAINS A TAG.
+	- THE CARD SECTION CONTAINS THE TAG'S ITEMS, SORTED BY TITLE.
+	- FOR EACH ITEM: LINK TO URL
+-->
+
+	{%- for tag in groups -%}
+	    {%- if tag.name != "" -%}
+	        <div class="card">
+	            <div class="card-divider" id="{{tag.name}}">
+	                {{ tag.name }}
+	            </div>
+
+	            <div class="card-section">
+	                {%- assign items = tag.items | sort: "title" -%}
+	                {%- for item in items -%}
+
+	                    <a href="{{item.url}}" target="_blank">
+	                        {{item.title}}
+	                    </a><br>
+	                {%- endfor -%}
+	            </div>
+	        </div>
+	    {%- endif -%}
+	{%- endfor -%}
+
+{%- else -%}
+
+<h1>not grouped</h1>
+
+<!--
+IF NOT GROUPED, EACH CARD CONTAINS A RECORD.
+	- THE CARD DIVIDER DISPLAYS THE TITLE (LINK TO URL).
+	- FOR EACH ITEM: 
+		- DISPLAY AN IMAGE IF IT EXISTS.
+		- DISPLAY NOTES IF THEY EXIST. 
+
+	{%- for record in records -%}
+		{%- if record.title != "" -%}
+
+			<div class="card">
+
+				<div class="card-divider">
+					<a href="{{parent_url}}{{record.url}}" target="_blank">
+						{{record.title}}</a>
+				</div>
+
+				{% if record.pic %}
+					<div class="card-image">
+						<img src="{{record.pic}}">
+					</div>
+				{% endif %}
+
+				{%- if record.notes -%}
+					<div class="card-section">
+						{{record.notes}}
+					</div>
+				{%- endif -%}
+
+			</div>
+
+		{%- endif -%}
+	{%- endfor -%}
+-->
+{%- endif -%}

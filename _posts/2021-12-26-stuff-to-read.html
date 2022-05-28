@@ -1,0 +1,34 @@
+---
+title: Stuff to Read, 12/26/2021
+date: 2021-12-26
+tags: goodreads
+layout: default-foundation-20210515
+---
+
+<div class="callout">
+	<h2>Stuff to Read (Hacker News, Reader, elsewhere), 12/26/21</h2>
+</div>
+
+{% assign file = site.data.pocket.stufftoread-20211226 | sort: "title" %}
+
+<div style="columns: 2;">
+
+{% for article in file %}
+
+<div class="card">
+	<div class="card-section">
+		<a href="{{article.url}}">{{ article.title }}</a>
+		<details><summary>more</summary>
+			<p>{{article.intro}}</p></details>
+	</div>
+
+	<div class="card-image">
+		<a href="{{article.url}}">
+			<img src="{{article.pic1}}"/>
+		</a>
+	</div>
+</div>
+
+{% endfor %}
+
+</div>

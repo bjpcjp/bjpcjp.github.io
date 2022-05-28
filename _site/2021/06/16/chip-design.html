@@ -1,0 +1,269 @@
+<html lang="en"><!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="http://localhost:4000/favicon-32x32.png" /><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Chip Design Articles | Obviously Awesome</title>
+<meta name="generator" content="Jekyll v3.9.2" />
+<meta property="og:title" content="Chip Design Articles" />
+<meta name="author" content="Brian Piercy" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Various Chip Design Articles The Ultimate Guide to Clock Gating Clock Gating is defined as: “Clock gating is a technique/methodology to turn off the clock to certain parts of the digital design when not needed”. 6 Causes of MOS Transistor Leakage Current Before continuing, be sure you&#39;re familiar with the basic concepts of MOS transistors that will prepare you for the following information. The drain/source and substrate junctions in a MOS transistor are reverse biased during transistor operation. New Transistor Structures At 3nm/2nm Several foundries continue to develop new processes based on next-generation gate-all-around transistors, including more advanced high-mobility versions, but bringing these technologies into production is going to be difficult and expensive. Die Per Wafer Formula and (free) Calculator Calculating the number of Dies Per Wafer (DPW) is a very simple and straight forward task. It’s actually based on basic high school mathematics which are related to circle area formula, remember Pi? The Ultimate Guide to Static Timing Analysis (STA) Static Timing Analysis is defined as: a timing verification that ensures whether the various circuit timing are meeting the various timing requirements. One of the most important and challenging aspect in the ASIC/FPGA design flow is timing closure. Introduction to Thermal Characterization Parameters In previous articles in this series, we looked at two important thermal performance metrics of an IC package, junction-to-thermal (or θJA) and junction-to-case (θJC) thermal resistances. We also discussed the test conditions for measuring θJA and how to design for θJC with a heat sink. Die Yield Calculator Use this online calculator to figure out die yield using Murphy&#39;s model. You&#39;ll need to know the die size, wafer diameter, and defect density. iSine is your complete resource for ASIC design - from concept to manufacturing and testing. Designing with a Heat Sink for Junction-to-Case Thermal Resistance In the previous articles, we&#39;ve discussed factors that affect the thermal performance of an IC package, including junction-to-ambient thermal resistance (θJA) (including optimal test conditions for θJA) and junction-to-case thermal resistance (θJC). Junction-to-Case Thermal Resistance in Thermal Design The lifetime of a semiconductor device can reduce significantly when it is operated at temperatures above the rated values. Hence, the thermal performance should be carefully evaluated both at the device and system levels. 10 basic advanced IC packaging terms to know Advanced IC packaging is a prominent technology highlight of the “More than Moore” arena. At a time when chip scaling is becoming more difficult and expensive at each node, engineers are putting multiple chips in advanced packages as an alternative to chip scaling. How Junction-to-Ambient Thermal Resistance of an IC Package Affects Thermal Performance Thermal performance of an IC (integrated circuit) package can be specified by several different parameters such as θJA, θJB, θJC, ΨJT, and ΨJB. A deeper understanding of these parameters can help us have a more accurate estimation of the thermal performance of our product. Transistor Sizing in VLSI Design Using the Linear Delay Model In this continuation of our series on transistor sizing in VLSI, we&#39;ll go over the third and final model in our series, the linear delay model. Be sure to check out the previous articles if you&#39;d like to learn about the linear-RC delay model and the popular Elmore delay model. FinFETs Give Way to Gate-All-Around When they were first commercialized at the 22 nm node, finFETs represented a revolutionary change to the way we build transistors, the tiny switches in the “brains” of a chip. The Elmore Delay Model in VLSI Design In the last article, we discussed transistor sizing in VLSI design using the linear-RC delay model. We concluded that article by noting academics who argue this model is not the most accurate. A more accurate model is the Elmore delay model, which we will discuss here." />
+<meta property="og:description" content="Various Chip Design Articles The Ultimate Guide to Clock Gating Clock Gating is defined as: “Clock gating is a technique/methodology to turn off the clock to certain parts of the digital design when not needed”. 6 Causes of MOS Transistor Leakage Current Before continuing, be sure you&#39;re familiar with the basic concepts of MOS transistors that will prepare you for the following information. The drain/source and substrate junctions in a MOS transistor are reverse biased during transistor operation. New Transistor Structures At 3nm/2nm Several foundries continue to develop new processes based on next-generation gate-all-around transistors, including more advanced high-mobility versions, but bringing these technologies into production is going to be difficult and expensive. Die Per Wafer Formula and (free) Calculator Calculating the number of Dies Per Wafer (DPW) is a very simple and straight forward task. It’s actually based on basic high school mathematics which are related to circle area formula, remember Pi? The Ultimate Guide to Static Timing Analysis (STA) Static Timing Analysis is defined as: a timing verification that ensures whether the various circuit timing are meeting the various timing requirements. One of the most important and challenging aspect in the ASIC/FPGA design flow is timing closure. Introduction to Thermal Characterization Parameters In previous articles in this series, we looked at two important thermal performance metrics of an IC package, junction-to-thermal (or θJA) and junction-to-case (θJC) thermal resistances. We also discussed the test conditions for measuring θJA and how to design for θJC with a heat sink. Die Yield Calculator Use this online calculator to figure out die yield using Murphy&#39;s model. You&#39;ll need to know the die size, wafer diameter, and defect density. iSine is your complete resource for ASIC design - from concept to manufacturing and testing. Designing with a Heat Sink for Junction-to-Case Thermal Resistance In the previous articles, we&#39;ve discussed factors that affect the thermal performance of an IC package, including junction-to-ambient thermal resistance (θJA) (including optimal test conditions for θJA) and junction-to-case thermal resistance (θJC). Junction-to-Case Thermal Resistance in Thermal Design The lifetime of a semiconductor device can reduce significantly when it is operated at temperatures above the rated values. Hence, the thermal performance should be carefully evaluated both at the device and system levels. 10 basic advanced IC packaging terms to know Advanced IC packaging is a prominent technology highlight of the “More than Moore” arena. At a time when chip scaling is becoming more difficult and expensive at each node, engineers are putting multiple chips in advanced packages as an alternative to chip scaling. How Junction-to-Ambient Thermal Resistance of an IC Package Affects Thermal Performance Thermal performance of an IC (integrated circuit) package can be specified by several different parameters such as θJA, θJB, θJC, ΨJT, and ΨJB. A deeper understanding of these parameters can help us have a more accurate estimation of the thermal performance of our product. Transistor Sizing in VLSI Design Using the Linear Delay Model In this continuation of our series on transistor sizing in VLSI, we&#39;ll go over the third and final model in our series, the linear delay model. Be sure to check out the previous articles if you&#39;d like to learn about the linear-RC delay model and the popular Elmore delay model. FinFETs Give Way to Gate-All-Around When they were first commercialized at the 22 nm node, finFETs represented a revolutionary change to the way we build transistors, the tiny switches in the “brains” of a chip. The Elmore Delay Model in VLSI Design In the last article, we discussed transistor sizing in VLSI design using the linear-RC delay model. We concluded that article by noting academics who argue this model is not the most accurate. A more accurate model is the Elmore delay model, which we will discuss here." />
+<link rel="canonical" href="http://localhost:4000/2021/06/16/chip-design.html" />
+<meta property="og:url" content="http://localhost:4000/2021/06/16/chip-design.html" />
+<meta property="og:site_name" content="Obviously Awesome" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-06-16T00:00:00-04:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Chip Design Articles" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Brian Piercy"},"dateModified":"2021-06-16T00:00:00-04:00","datePublished":"2021-06-16T00:00:00-04:00","description":"Various Chip Design Articles The Ultimate Guide to Clock Gating Clock Gating is defined as: “Clock gating is a technique/methodology to turn off the clock to certain parts of the digital design when not needed”. 6 Causes of MOS Transistor Leakage Current Before continuing, be sure you&#39;re familiar with the basic concepts of MOS transistors that will prepare you for the following information. The drain/source and substrate junctions in a MOS transistor are reverse biased during transistor operation. New Transistor Structures At 3nm/2nm Several foundries continue to develop new processes based on next-generation gate-all-around transistors, including more advanced high-mobility versions, but bringing these technologies into production is going to be difficult and expensive. Die Per Wafer Formula and (free) Calculator Calculating the number of Dies Per Wafer (DPW) is a very simple and straight forward task. It’s actually based on basic high school mathematics which are related to circle area formula, remember Pi? The Ultimate Guide to Static Timing Analysis (STA) Static Timing Analysis is defined as: a timing verification that ensures whether the various circuit timing are meeting the various timing requirements. One of the most important and challenging aspect in the ASIC/FPGA design flow is timing closure. Introduction to Thermal Characterization Parameters In previous articles in this series, we looked at two important thermal performance metrics of an IC package, junction-to-thermal (or θJA) and junction-to-case (θJC) thermal resistances. We also discussed the test conditions for measuring θJA and how to design for θJC with a heat sink. Die Yield Calculator Use this online calculator to figure out die yield using Murphy&#39;s model. You&#39;ll need to know the die size, wafer diameter, and defect density. iSine is your complete resource for ASIC design - from concept to manufacturing and testing. Designing with a Heat Sink for Junction-to-Case Thermal Resistance In the previous articles, we&#39;ve discussed factors that affect the thermal performance of an IC package, including junction-to-ambient thermal resistance (θJA) (including optimal test conditions for θJA) and junction-to-case thermal resistance (θJC). Junction-to-Case Thermal Resistance in Thermal Design The lifetime of a semiconductor device can reduce significantly when it is operated at temperatures above the rated values. Hence, the thermal performance should be carefully evaluated both at the device and system levels. 10 basic advanced IC packaging terms to know Advanced IC packaging is a prominent technology highlight of the “More than Moore” arena. At a time when chip scaling is becoming more difficult and expensive at each node, engineers are putting multiple chips in advanced packages as an alternative to chip scaling. How Junction-to-Ambient Thermal Resistance of an IC Package Affects Thermal Performance Thermal performance of an IC (integrated circuit) package can be specified by several different parameters such as θJA, θJB, θJC, ΨJT, and ΨJB. A deeper understanding of these parameters can help us have a more accurate estimation of the thermal performance of our product. Transistor Sizing in VLSI Design Using the Linear Delay Model In this continuation of our series on transistor sizing in VLSI, we&#39;ll go over the third and final model in our series, the linear delay model. Be sure to check out the previous articles if you&#39;d like to learn about the linear-RC delay model and the popular Elmore delay model. FinFETs Give Way to Gate-All-Around When they were first commercialized at the 22 nm node, finFETs represented a revolutionary change to the way we build transistors, the tiny switches in the “brains” of a chip. The Elmore Delay Model in VLSI Design In the last article, we discussed transistor sizing in VLSI design using the linear-RC delay model. We concluded that article by noting academics who argue this model is not the most accurate. A more accurate model is the Elmore delay model, which we will discuss here.","headline":"Chip Design Articles","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2021/06/16/chip-design.html"},"url":"http://localhost:4000/2021/06/16/chip-design.html"}</script>
+<!-- End Jekyll SEO tag -->
+<!-- Compressed CSS -->
+  <link rel="stylesheet" 
+  href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation.min.css" 
+  integrity="sha256-ogmFxjqiTMnZhxCqVmcqTvjfe1Y/ec4WaRj/aQPvn+I=" 
+  crossorigin="anonymous"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Obviously Awesome" /></head>
+<body>
+    <div class="grid-container fluid">
+
+      <div class="grid-x">     
+
+        <div class="text-left">
+          <h1><a href="/">Obviously Awesome</a></h1><form action="https://google.com/search" type="GET">
+  <div class="input-group">
+  	<input class="input-group-field" 
+        type="search" name="q" value="site search (Google)" onfocus=this.value=''>
+    <div class="input-group-button">
+      <input type="submit" class="button" value="Go">
+    </div>
+  </div>
+</form>
+
+<script>
+var form = document.querySelector("form");
+
+form.addEventListener("submit", function (e) {
+  e.preventDefault();
+  var search = form.querySelector("input[type=search]");
+  search.value = "site:bjpcjp.github.io " + search.value;
+  form.submit();
+});
+</script>
+ </div>
+
+      </div>
+
+      <div class="grid-x">     
+
+        <div class="cell small-4 medium-3 large-2"><ul class="vertical menu"><li>
+          <a href="/posts-by-tag.html">
+            Posts by Tag</a></li><li>
+          <a href="/behaviors/">
+            Behaviors</a></li><li>
+          <a href="/math/">
+            Math</a></li><li>
+          <a href="/devops.html">
+            DevOps &amp; Linux</a></li><li>
+          <a href="/gametheory/">
+            Game Theory</a></li><li>
+          <a href="/golang.html">
+            Golang</a></li><li>
+          <a href="/ideas.html">
+            Ideas</a></li><li>
+          <a href="/language/">
+            Language</a></li><li>
+          <a href="/prodmgmt/">
+            Prod Mgmt</a></li><li>
+          <a href="/python/">
+            Python</a></li><li>
+          <a href="/ruby.html">
+            Ruby</a></li><li>
+          <a href="/semiconductors.html">
+            Chips</a></li><li>
+          <a href="/uiux/">
+            UI/UX</a></li><li>
+          <a href="/webdev/">
+            Web Dev Tools</a></li><li>
+          <a href="/all-posts.html">
+            Index</a></li></ul></div>
+        
+        <div class="cell small-8 medium-9 large-10">
+          <div class="callout">
+	<h2>Various Chip Design Articles</h2>
+</div><div class="card">
+
+		<div class="card-section">
+			<a href="https://anysilicon.com/the-ultimate-guide-to-clock-gating/" target="_blank">
+				The Ultimate Guide to Clock Gating</a>
+		</div>
+
+		<div class="card-image">
+			<img src="https://anysilicon.com/wp-content/uploads/2021/02/clock-gating-feature.png">
+		</div><div class="card-section">
+				Clock Gating is defined as: “Clock gating is a technique/methodology to turn off the clock to certain parts of the digital design when not needed”.
+			</div></div><div class="card">
+
+		<div class="card-section">
+			<a href="https://www.allaboutcircuits.com/technical-articles/6-causes-of-mos-transistor-leakage-current/" target="_blank">
+				6 Causes of MOS Transistor Leakage Current</a>
+		</div>
+
+		<div class="card-image">
+			<img src="https://www.allaboutcircuits.com/uploads/thumbnails/MOS_transistor_leakage_current_featured1.jpg">
+		</div><div class="card-section">
+				Before continuing, be sure you're familiar with the basic concepts of MOS transistors that will prepare you for the following information. The drain/source and substrate junctions in a MOS transistor are reverse biased during transistor operation.
+			</div></div><div class="card">
+
+		<div class="card-section">
+			<a href="https://semiengineering.com/new-transistor-structures-at-3nm-2nm/" target="_blank">
+				New Transistor Structures At 3nm/2nm</a>
+		</div>
+
+		<div class="card-image">
+			<img src="https://semiengineering.com/wp-content/uploads/SiGe-Channels_IBM-paper.jpg">
+		</div><div class="card-section">
+				Several foundries continue to develop new processes based on next-generation gate-all-around transistors, including more advanced high-mobility versions, but bringing these technologies into production is going to be difficult and expensive.
+			</div></div><div class="card">
+
+		<div class="card-section">
+			<a href="http://anysilicon.com/die-per-wafer-formula-free-calculators/" target="_blank">
+				Die Per Wafer Formula and (free) Calculator</a>
+		</div>
+
+		<div class="card-image">
+			<img src="http://anysilicon.com/wp-content/uploads/2013/03/die-per-wafer.png">
+		</div><div class="card-section">
+				Calculating the number of Dies Per Wafer (DPW) is a very simple and straight forward task. It’s actually based on basic high school mathematics which are related to circle area formula, remember Pi?
+			</div></div><div class="card">
+
+		<div class="card-section">
+			<a href="https://anysilicon.com/the-ultimate-guide-to-static-timing-analysis-sta/" target="_blank">
+				The Ultimate Guide to Static Timing Analysis (STA)</a>
+		</div>
+
+		<div class="card-image">
+			<img src="https://anysilicon.com/wp-content/uploads/2021/01/static-timing-anaysis-overview-feature.png">
+		</div><div class="card-section">
+				Static Timing Analysis is defined as: a timing verification that ensures whether the various circuit timing are meeting the various timing requirements. One of the most important and challenging aspect in the ASIC/FPGA design flow is timing closure.
+			</div></div><div class="card">
+
+		<div class="card-section">
+			<a href="https://www.allaboutcircuits.com/technical-articles/learn-about-the-thermal-characterization-parameters/" target="_blank">
+				Introduction to Thermal Characterization Parameters</a>
+		</div>
+
+		<div class="card-image">
+			<img src="https://www.allaboutcircuits.com/uploads/thumbnails/psi_jt_featured.png">
+		</div><div class="card-section">
+				In previous articles in this series, we looked at two important thermal performance metrics of an IC package, junction-to-thermal (or θJA) and junction-to-case (θJC) thermal resistances. We also discussed the test conditions for measuring θJA and how to design for θJC with a heat sink.
+			</div></div><div class="card">
+
+		<div class="card-section">
+			<a href="http://www.isine.com/resources/die-yield-calculator" target="_blank">
+				Die Yield Calculator</a>
+		</div>
+
+		<div class="card-image">
+			<img src="">
+		</div><div class="card-section">
+				Use this online calculator to figure out die yield using Murphy's model. You'll need to know the die size, wafer diameter, and defect density. iSine is your complete resource for ASIC design - from concept to manufacturing and testing.
+			</div></div><div class="card">
+
+		<div class="card-section">
+			<a href="https://www.allaboutcircuits.com/technical-articles/designing-with-a-heat-sink-for-junction-to-case-thermal-resistance/" target="_blank">
+				Designing with a Heat Sink for Junction-to-Case Thermal Resistance</a>
+		</div>
+
+		<div class="card-image">
+			<img src="https://www.allaboutcircuits.com/uploads/thumbnails/Junction-to-Case_Thermal_Resistance_featured1_1.jpg">
+		</div><div class="card-section">
+				In the previous articles, we've discussed factors that affect the thermal performance of an IC package, including junction-to-ambient thermal resistance (θJA) (including optimal test conditions for θJA) and junction-to-case thermal resistance (θJC).
+			</div></div><div class="card">
+
+		<div class="card-section">
+			<a href="https://www.allaboutcircuits.com/technical-articles/junction-to-case-thermal-resistance-in-thermal-design/" target="_blank">
+				Junction-to-Case Thermal Resistance in Thermal Design</a>
+		</div>
+
+		<div class="card-image">
+			<img src="https://www.allaboutcircuits.com/uploads/thumbnails/Junction-to-Case_Thermal_Resistance_measuring_R-thetaJC_featured1.jpeg">
+		</div><div class="card-section">
+				The lifetime of a semiconductor device can reduce significantly when it is operated at temperatures above the rated values. Hence, the thermal performance should be carefully evaluated both at the device and system levels.
+			</div></div><div class="card">
+
+		<div class="card-section">
+			<a href="https://www.electronicproducts.com/10-basic-advanced-ic-packaging-terms-to-know/" target="_blank">
+				10 basic advanced IC packaging terms to know</a>
+		</div>
+
+		<div class="card-image">
+			<img src="https://www.electronicproducts.com/wp-content/uploads/Samsung-Through-silicon-via.jpg?fit=706%2C686">
+		</div><div class="card-section">
+				Advanced IC packaging is a prominent technology highlight of the “More than Moore” arena. At a time when chip scaling is becoming more difficult and expensive at each node, engineers are putting multiple chips in advanced packages as an alternative to chip scaling.
+			</div></div><div class="card">
+
+		<div class="card-section">
+			<a href="https://www.allaboutcircuits.com/technical-articles/junction-to-ambient-thermal-resistance-ic-package-thermal-performance/" target="_blank">
+				How Junction-to-Ambient Thermal Resistance of an IC Package Affects Thermal Performance</a>
+		</div>
+
+		<div class="card-image">
+			<img src="https://www.allaboutcircuits.com/uploads/thumbnails/Junction-to-Ambient_Thermal_Resistance_of_an_IC_Package_featured.jpg">
+		</div><div class="card-section">
+				Thermal performance of an IC (integrated circuit) package can be specified by several different parameters such as θJA, θJB, θJC, ΨJT, and ΨJB. A deeper understanding of these parameters can help us have a more accurate estimation of the thermal performance of our product.
+			</div></div><div class="card">
+
+		<div class="card-section">
+			<a href="https://www.allaboutcircuits.com/technical-articles/transistor-sizing-vlsi-design-linear-delay-model/" target="_blank">
+				Transistor Sizing in VLSI Design Using the Linear Delay Model</a>
+		</div>
+
+		<div class="card-image">
+			<img src="https://www.allaboutcircuits.com/uploads/thumbnails/Linear_delay_model_featured.jpg">
+		</div><div class="card-section">
+				In this continuation of our series on transistor sizing in VLSI, we'll go over the third and final model in our series, the linear delay model. Be sure to check out the previous articles if you'd like to learn about the linear-RC delay model and the popular Elmore delay model.
+			</div></div><div class="card">
+
+		<div class="card-section">
+			<a href="https://blog.lamresearch.com/finfets-give-way-to-gate-all-around/" target="_blank">
+				FinFETs Give Way to Gate-All-Around</a>
+		</div>
+
+		<div class="card-image">
+			<img src="https://blog.lamresearch.com/wp-content/uploads/2020/10/Lam_GAA_10.26.20_sq.jpg">
+		</div><div class="card-section">
+				When they were first commercialized at the 22 nm node, finFETs represented a revolutionary change to the way we build transistors, the tiny switches in the “brains” of a chip.
+			</div></div><div class="card">
+
+		<div class="card-section">
+			<a href="https://www.allaboutcircuits.com/technical-articles/elmore-delay-model-transistor-sizing-vlsi-design/" target="_blank">
+				The Elmore Delay Model in VLSI Design</a>
+		</div>
+
+		<div class="card-image">
+			<img src="https://www.allaboutcircuits.com/uploads/thumbnails/Elmore_delay_featured.jpg">
+		</div><div class="card-section">
+				In the last article, we discussed transistor sizing in VLSI design using the linear-RC delay model. We concluded that article by noting academics who argue this model is not the most accurate. A more accurate model is the Elmore delay model, which we will discuss here.
+			</div></div>
+        </div>
+
+      </div>
+
+      <hr><footer>
+
+  <a href="/feed.xml">
+    <svg>
+      <use href="/assets/minima-social-icons.svg#rss"></use>
+    </svg></a>
+
+</footer>
+</div><!-- Compressed JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/js/foundation.min.js" 
+  integrity="sha256-pRF3zifJRA9jXGv++b06qwtSqX1byFQOLjqa2PTEb2o=" 
+  crossorigin="anonymous"></script>
+  
+</body>
+</html>

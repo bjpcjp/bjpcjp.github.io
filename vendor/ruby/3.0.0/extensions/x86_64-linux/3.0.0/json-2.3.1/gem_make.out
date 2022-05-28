@@ -1,0 +1,13 @@
+current directory: /home/bjpcjp/1TB/projects/ruby-jekyll/github-20220527/bjpcjp.github.io/vendor/ruby/3.0.0/gems/json-2.3.1/ext/json
+/usr/bin/ruby3.0 -I /usr/lib/ruby/vendor_ruby -r ./siteconf20220527-50837-f1log9.rb extconf.rb
+creating Makefile
+
+current directory: /home/bjpcjp/1TB/projects/ruby-jekyll/github-20220527/bjpcjp.github.io/vendor/ruby/3.0.0/gems/json-2.3.1/ext/json
+make DESTDIR\= clean
+
+current directory: /home/bjpcjp/1TB/projects/ruby-jekyll/github-20220527/bjpcjp.github.io/vendor/ruby/3.0.0/gems/json-2.3.1/ext/json
+make DESTDIR\=
+make: Nothing to be done for 'all'.
+
+current directory: /home/bjpcjp/1TB/projects/ruby-jekyll/github-20220527/bjpcjp.github.io/vendor/ruby/3.0.0/gems/json-2.3.1/ext/json
+make DESTDIR\= install

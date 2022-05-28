@@ -1,0 +1,332 @@
+---
+layout: default-foundation-20210515
+title:  Deep Learning - Goodfellow book notes
+date:   2019-06-08 0:0:0 -0500
+tags: deep-learning booknotes
+---
+
+<div class="callout">
+    <h2>Deep Learning - Goodfellow (book notes)</h2>
+</div>
+
+<div class="card">
+    <div class="card-divider">
+        "Deep Learning" (Ian Goodfellow, Yoshua Bengio, Ian Courville)</cite> is cited by many developers as a very influential work. Finishing this book is one of my bucket list items.
+    </div>
+    <div class="card-image">
+        <a href="https://www.deeplearningbook.org/">
+            <img src="/px/math/goodfellow-book-chap1.png"></a>
+    </div>
+</div>
+
+
+<div style="columns: 2;">
+
+<div class="card"> 
+    <div class="card-divider">
+    <a href="/pdfs/dl-goodfellow/intro.pdf">Introduction</a></div>
+</div>
+
+<div class="card">
+    <div class="card-divider">
+        <a href="/pdfs/dl-goodfellow/linear_algebra-DLgoodfellow.pdf">
+        Linear Algebra</a></div>
+    <div class="card-section">
+        Scalars, Vectors, Matrics, Tensors<br>
+        Vector & Matrix Multiplication<br>
+        Identity & Inverse Matrices<br>
+        Linear Dependence<br>
+        Span<br>
+        Norms<br>
+        Other Special Vectors & Matrices<br>
+        Eigendecomposition<br>
+        Singular Value Decomposition<br>
+        Moore-Penrose Pseudoinverse<br>
+        Trace Operator<br>
+        Determinants<br>
+        Principal Component Analysis
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-divider">
+        <a href="/pdfs/dl-goodfellow/probability-DLgoodfellow.pdf">
+        Probability</a></div>
+    <div class="card-section">
+        Why?<br>
+        Random Variables<br>
+        Distributions<br>
+        Marginal Probability<br>
+        Conditional Probability<br>
+        Chain Rule<br>
+        (Conditional) Independence<br>
+        Expectation, Variance, Covariance<br>
+        Common Distributions<br>
+        Useful Properties<br>
+        Bayes' Rule<br>
+        Continuous Variables - Details<br>
+        Information Theory<br>
+        Structured Models
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-divider">
+        <a href="/pdfs/dl-goodfellow/numerical-computation-DLgoodfellow.pdf">
+        Math</a></div>
+    <div class="card-section">
+            Overflow, Underflow<br>
+            (Poor) Conditioning<br>
+            Gradients<br>
+            Constrained Optimization<br>
+            Ex: Linear Least Squares
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-divider">
+        <a href="/pdfs/dl-goodfellow/machine-learning-basics-DLgoodfellow.pdf">
+        Machine Learning Basics</a></div>
+
+    <div class="card-section">
+            Learning Algorithms<br>
+            Capacity, Overfit, Underfit<br>
+            Hyperparameters<br>
+            Validation Sets<br>
+            Estimators, Bias, Variance<br>
+            Max Likelihood Estimation (MLE)<br>
+            Bayes Statistics<br>
+            Supervised Learning<br>
+            Unsupervised Learning<br>
+            Stochastic Gradient Descent (SGD)<br>
+            Building an Algorithm<br>
+            Challenges
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-divider">
+        <a href="/pdfs/dl-goodfellow/deep-feedforward-nets-DLgoodfellow.pdf">
+        Deep Feedforward Nets</a></div>
+
+    <div class="card-section">
+            Ex: XOR<br>
+            Gradient-based Learning<br>
+            Hidden Units<br>
+            Architecture Design<br>
+            Back-Propagation & Related Algos<br>
+            Historical Notes
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-divider">
+        <a href="/pdfs/dl-goodfellow/regularization-DLgoodfellow.pdf">
+        Regularization</a></div>
+    <div class="card-section">
+            Parameter Norm Penalties<br>
+            Penalties as Constrained Optimization<br>
+            Under-Constrained Problems<br>
+            Dataset Augmentation<br>
+            Noise Robustness<br>
+            Semi-Supervised Learning<br>
+            Multi-task Learning<br>
+            Early Stopping<br>
+            Parameter Tying/Sharing<br>
+            Sparse Representations<br>
+            Ensemble Methods (Bagging, etc)<br>
+            Dropout<br>
+            Adversarial Training<br>
+            Tangent Distance, Tangentassifier
+    </div>
+</div>
+        
+<div class="card">
+    <div class="card-divider">
+        <a href="/pdfs/dl-goodfellow/optimization-DLgoodfellow.pdf">
+        Optimization</a></div>
+    <div class="card-section">
+            Learning vs Pure Optimization<br>
+            Challenges<br>
+            Basic Algos<br>
+            Parameter Setup<br>
+            Adaptive Learning Rates<br>
+            Approximate 2nd-Order Methods<br>
+            Meta-Algorithms
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-divider">
+        <a href="/pdfs/dl-goodfellow/convolutional-nets-DLgoodfellow.pdf">
+        Convolutional Nets</a></div>
+    <div class="card-section">
+            Convolution<br>
+            Motivation<br>
+            Pooling<br>
+            Infinitely Strong Prior<br>
+            Variants<br>
+            Structured Outputs<br>
+            Data types<br>
+            Efficient Algorithms<br>
+            Random / Unsupervised Features<br>
+            Historicals
+    </div>
+</div>
+    
+<div class="card">
+    <div class="card-divider">
+        <a href="/pdfs/dl-goodfellow/recurrent-recursive-nets-DLgoodfellow.pdf">
+            Sequences: RNNs</a></div>
+    <div class="card-section">
+            Unfolding Computational Graphs<br>
+            Recurrent NNs (RNNs)<br>
+            Bidirectional RNNs<br>
+            coder-Decoder Architectures<br>
+            Deep RNNs<br>
+            Recursive NNs<br>
+            Long-Term Dependency Challenges<br>
+            Echo State Nets<br>
+            Multiple Time Scale Strategies<br>
+            Gated RNNs<br>
+            Long-Term Dependency Optimization<br>
+            Explicit Memory
+    </div>
+</div>
+    
+<div class="card">
+    <div class="card-divider">
+        <a href="/pdfs/dl-goodfellow/guidelines-methodology-DLgoodfellow.pdf">
+            Methodologies</a></div>
+    <div class="card-section">
+            Metrics<br>
+            Baseline Models<br>
+            Gather More Data?<br>
+            Hyperparameters<br>
+            Debugging<br>
+            Example: Digit Recognition
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-divider">
+        <a href="/pdfs/dl-goodfellow/applications-DLgoodfellow.pdf">
+        Applications</a></div>
+    <div class="card-section">
+            Large-scale Deep Learning<br>
+            Vision<br>
+            Speech Recognition<br>
+            Natural Language Processing<br>
+            More
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-divider">
+        <a href="/pdfs/dl-goodfellow/autoencoders-DLgoodfellow.pdf">
+        Autoencoders (AEs)</a></div>
+    <div class="card-section">
+            Undercomplete AEs<br>
+            Regularized AEs<br>
+            Representational Power, Layer Size, Depth<br>
+            Stochastic Encoders, Decoders<br>
+                Learning Manifolds with AEs<br>
+            Contractive AEs<br>
+            Predictive Sparse Decomposition (PSD)<br>
+            Applications
+    </div>
+</div>
+        
+<div class="card">
+    <div class="card-divider">
+        <a href="/pdfs/dl-goodfellow/representation-learning-DLgoodfellow.pdf">
+        Representation Learning</a></div>
+    <div class="card-section">
+            Transfer Learning, Domain Adaptation<br>
+            Semi-Supervised Causal Factor Analysis<br>
+            Distributed Representation<br>
+            Exponential Gains from Depth<br>
+            Clues & Causes
+    </div>
+</div>
+            
+<div class="card">
+    <div class="card-divider">
+        <a href="/pdfs/dl-goodfellow/structured-probabilistic-models-DLgoodfellow.pdf">
+        Structured Probabilistic Models (SPMs)</a></div>
+    <div class="card-section">
+            Challenges<br>
+            Using Graphs<br>
+            Sampling from Graphs<br>
+            Advantages<br>
+            Learning about Dependencies<br>
+            (Approximate) Inference<br>
+            Deep Learning & SPMs
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-divider">
+        <a href="/pdfs/dl-goodfellow/monte-carlo-methods-DLgoodfellow.pdf">
+        Monte Carlo Methods</a></div>
+    <div class="card-section">
+            Sampling<br>
+            Importance Sampling<br>
+            Markov Chain Monte Carlo (MCMC)<br>
+            Gibbs Sampling<br>
+            Challenges
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-divider">
+        <a href="/pdfs/dl-goodfellow/the-partition-problem-DLgoodfellow.pdf">
+        The Partition Problem</a></div>
+    <div class="card-section">
+            Log-Likelihood Gradient<br>
+            Stochastic Max Likelihood & Contrastive Divergence<br>
+            Pseudolikelihood<br>
+            Score/Ratio Matching<br>
+            Denoising Score Matching<br>
+            Noise-Contrastive Estimation<br>
+            Estimating the Partition Function
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-divider">
+        <a href="/pdfs/dl-goodfellow/approximate-inference-DLgoodfellow.pdf">
+            Approximate Inference</a></div>
+    
+    <div class="card-section">
+            Inference as Optimization<br>
+            Expectation Maximization (EM)<br>
+            MAP Inference, Sparse Coding<br>
+            Variational Inference<br>
+            Learned Approximate Inference<br>
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-divider">
+        <a href="/pdfs/dl-goodfellow/deep-generative-models-DLgoodfellow.pdf">
+            Deep Generative Models</a></div>
+
+    <div class="card-section">
+        Boltzmann Machines (BMs)<br>
+        Restricted BMs<br>
+        Deep Belief Nets (DBNs)<br>
+        Deep BMs<br>
+        BMs & Real World Data<br>
+        Convolutional BMs<br>
+        BMs - Structured/Sequential outputs<br>
+        Other BMs<br>
+        Back-Propagation thru Random Ops<br>
+        Directed Generative Nets<br>
+        Drawing Samples from AEs<br>
+        Generative Stochastic Nets<br>
+        Other Generation Schemes
+    </div>
+</div>
+    
+</div>

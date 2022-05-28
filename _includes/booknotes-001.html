@@ -1,0 +1,47 @@
+<h1>{{page.title}}</h1>
+
+<img src="{{title_pic_url}}">
+
+<div class="callout">
+	<p>{{page.title}}</p>
+</div>
+
+<!--
+Expected data file (.yaml, .yml) record contents:
+	- title: (primary index)
+	  url:
+	  tags:
+	  px:
+	  notes:
+	  parent:
+	  more:
+-->
+
+{%- assign records = {{sourcedata}} | sort: "url" -%}
+
+{%- for record in records -%}
+	{%- if record.title != "" -%}
+
+		<div class="card">
+
+			<div class="card-divider">
+				<a href="{{parent_url}}{{record.url}}" target="_blank">
+					{{record.title}}</a>
+			</div>
+
+			{%- if record.notes -%}
+				<div class="card-section">
+					{{record.notes}}
+				</div>
+			{%- endif -%}
+
+			{%- if record.more -%}
+				<div class="card-section">
+					{{record.more}}
+				</div>
+			{%- endif -%}
+
+		</div>
+
+	{%- endif -%}
+{%- endfor -%}

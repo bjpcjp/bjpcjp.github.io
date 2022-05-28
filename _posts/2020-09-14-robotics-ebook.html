@@ -1,0 +1,51 @@
+---
+title: Robotics ebook notes - initial draft
+layout: default-foundation-20210515
+date: 2020-09-14
+tags: robotics
+---
+
+<div class="callout">
+    <h2>Robotics Book Notes (initial draft)</h2>
+    (Hades.mech.northwestern.edu)
+</div>
+
+<div class="card">
+    <div class="card-image">
+        <a href="http://hades.mech.northwestern.edu/index.php/Modern_Robotics">
+        <img src="/px/robotics/lynch-park-ebook-cover.png">
+    </a>
+</div>
+
+{%- assign sorted_records = site.data.robotics.notes | sort: "order" -%}
+
+<div style="column-count: 2;">
+{%- for item in sorted_records -%}
+
+    <div class="card">
+
+        {%- if item.pic -%}
+            <div class="card-image">
+                <img src="{{ item.pic }}">
+            </div>
+        {%- endif -%}
+
+        {%- if item.source -%}
+            <div class="card-section">
+                {{ item.source }}
+            </div>
+        {%- endif -%}
+
+        <div class="card-section">
+        <a href="{{item.url}}">{{item.title}}</a>
+        </div>
+
+        {%- if item.notes -%}
+            <div class="card-section">
+                {{ item.notes }}
+            </div>
+        {%- endif -%}
+    </div>
+{%- endfor -%}
+</div>
+

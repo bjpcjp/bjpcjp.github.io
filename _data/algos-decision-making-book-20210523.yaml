@@ -1,0 +1,303 @@
+- title: intro
+  url: 01-intro.pdf
+  tags:
+  px:
+  notes:
+  parent: Part I - probabilistic reasoning
+  more:
+
+- title: representation
+  url: 02-representation.pdf
+  tags:
+  px:
+  notes:
+    1. Degrees of belief<br>
+    2. Probability distributions<br>
+
+  parent: Part I - probabilistic reasoning
+  more:
+    <strong>this is more stuff.</strong>
+
+- title: inference
+  url: 03-inference.pdf
+  tags:
+  px:
+  notes:
+    1. bayesian<br>
+    2. naive bayes<br>
+    3. sum-product variable elimination<br>
+    4. belief propagation<br>
+    5. computational complexity<br>
+    6. direct sampling<br>
+    7. likelihood weighted sampling<br>
+    8. gibbs sampling<br>
+    9. gaussian<br>
+    10. summary
+
+  parent: Part I - probabilistic reasoning
+  more:
+
+- title: parameter learning
+  url: 04-param-learning.pdf
+  tags:
+  px:
+  notes:
+  parent: Part I - probabilistic reasoning
+  more:
+
+- title: structure learning
+  url: 05-struct-learning.pdf
+  tags:
+  px:
+  notes:
+  parent: Part I - probabilistic reasoning
+  more:
+
+- title: simple decisions
+  url: 06-simple-decisions.pdf
+  tags:
+  px:
+  notes:
+  parent: Part I - probabilistic reasoning
+  more:
+
+- title: sequential exact solutions
+  url: 07-sequential-exact-solns.pdf
+  tags:
+  px:
+  notes:
+  parent: Part II - sequential problems
+  more:
+
+- title: sequential approximate solutions
+  url: 08-sequential-approx-val-functs.pdf
+  tags:
+  px:
+  notes:
+  parent: Part II - sequential problems
+  more:
+
+- title: sequential planning
+  url: 09-sequential-planning.pdf
+  tags:
+  px:
+  notes:
+  parent: Part II - sequential problems
+  more:
+
+- title: sequential policy search
+  url: 10-sequential-policy-search.pdf
+  tags:
+  px:
+  notes:
+  parent: Part II - sequential problems
+  more:
+
+- title: sequential policy grad est
+  url: 11-sequential-policy-grad-est.pdf
+  tags:
+  px:
+  notes:
+  parent:
+  more:
+
+- title: sequential policy grad optm
+  url: 12-sequential-policy-grad-optm.pdf
+  tags:
+  px:
+  notes:
+  parent: Part II - sequential problems
+  more:
+
+- title: sequential actor critic methods
+  url: 13-sequential-actor-critic-methods.pdf
+  tags:
+  px:
+  notes:
+  parent: Part II - sequential problems
+  more:
+
+- title: sequential policy validation
+  url: 14-sequential-policy-validation.pdf
+  tags:
+  px:
+  notes:
+  parent: Part II - sequential problems
+  more:
+
+- title: explore & exploit methods
+  url: 15-explore-exploit.pdf
+  tags:
+  px:
+  notes:
+  parent: Part III - model uncertainty
+  more:
+
+- title: model-based methods
+  url: 16-model-based-methods.pdf
+  tags:
+  px:
+  notes:
+  parent: Part III - model uncertainty
+  more:
+
+- title: model-free methods
+  url: 17-model-free-methods.pdf
+  tags:
+  px:
+  notes:
+  parent: Part III - model uncertainty
+  more:
+
+- title: imitation learning
+  url: 18-imitation-learning.pdf
+  tags:
+  px:
+  notes:
+  parent: Part III - model uncertainty
+  more:
+
+- title: beliefs
+  url: 19-beliefs.pdf
+  tags:
+  px:
+  notes:
+    1. initialization<br>
+    2. discrete state filter<br>
+    3. linear gaussian filter<br>
+    4. extended kalman filter<br>
+    5. unscented kalman filter<br>
+    6. particle filter<br>
+    7. particle injection<br>
+    8. summary<br>
+
+  parent: Part IV - state uncertainty
+  more:
+
+- title: belief state planning - exact
+  url: 20-belief-state-planning-exact.pdf
+  tags:
+  px:
+  notes:
+  parent: Part IV - state uncertainty
+  more:
+
+- title: belief state planning - offline
+  url: 21-belief-state-planning-offline.pdf
+  tags:
+  px:
+  notes:
+  parent: Part IV - state uncertainty
+  more:
+
+- title: belief state planning - online
+  url: 22-belief-state-planning-online.pdf
+  tags:
+  px:
+  notes:
+  parent: Part IV - state uncertainty
+  more:
+
+- title: controller abstracts
+  url: 23-controller-abstracts.pdf
+  tags:
+  px:
+  notes:
+  parent: Part IV - state uncertainty
+  more:
+
+- title: multiagent reasoning
+  url: 24-multiagent-reasoning.pdf
+  tags:
+  px:
+  notes:
+  parent: Part V - multiagent systems
+  more:
+
+- title: sequential problems
+  url: 25-sequential-problems.pdf
+  tags:
+  px:
+  notes:
+  parent: Part V - multiagent systems
+  more:
+
+- title: state uncertainty
+  url: 26-state-uncertainty.pdf
+  tags:
+  px:
+  notes:
+  parent: Part V - multiagent systems
+  more:
+
+- title: collaborative agents
+  url: 27-collaborative-agents.pdf
+  tags:
+  px:
+  notes:
+  parent: Part V - multiagent systems
+  more:
+
+- title: math concepts
+  url: 28-math.pdf
+  tags:
+  px:
+  notes:
+  parent: Appendices
+  more:
+
+- title: probability distributions
+  url: 29-prob-distributions.pdf
+  tags:
+  px:
+  notes:
+  parent: Appendices
+  more:
+
+- title: computational complexity
+  url: 30-comp-complexity.pdf
+  tags:
+  px:
+  notes:
+  parent: Appendices
+  more:
+
+- title: neural representations
+  url: 31-neural-representations.pdf
+  tags:
+  px:
+  notes:
+  parent: Appendices
+  more:
+
+- title: search algorithms
+  url: 32-search-algos.pdf
+  tags:
+  px:
+  notes:
+  parent: Appendices
+  more:
+
+- title: problems
+  url: 33-problems.pdf
+  tags:
+  px:
+  notes:
+  parent: Appendices
+  more:
+
+- title: julia programming language
+  url: 34-julia.pdf
+  tags:
+  px:
+  notes:
+  parent: Appendices
+  more:
+
+- title: dm
+  url: dm.pdf
+  tags:
+  px:
+  notes:
+  parent: other
+  more:

@@ -1,0 +1,444 @@
+<html lang="en"><!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="http://localhost:4000/favicon-32x32.png" /><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>DL with Python &amp; DL with PyTorch - book notes | Obviously Awesome</title>
+<meta name="generator" content="Jekyll v3.9.2" />
+<meta property="og:title" content="DL with Python &amp; DL with PyTorch - book notes" />
+<meta name="author" content="Brian Piercy" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="DL with Python &amp; DL with PyTorch - book notes" />
+<meta property="og:description" content="DL with Python &amp; DL with PyTorch - book notes" />
+<link rel="canonical" href="http://localhost:4000/2021/10/21/DL-python-pytorch-booknotes.html" />
+<meta property="og:url" content="http://localhost:4000/2021/10/21/DL-python-pytorch-booknotes.html" />
+<meta property="og:site_name" content="Obviously Awesome" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-10-21T00:00:00-04:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="DL with Python &amp; DL with PyTorch - book notes" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Brian Piercy"},"dateModified":"2021-10-21T00:00:00-04:00","datePublished":"2021-10-21T00:00:00-04:00","description":"DL with Python &amp; DL with PyTorch - book notes","headline":"DL with Python &amp; DL with PyTorch - book notes","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2021/10/21/DL-python-pytorch-booknotes.html"},"url":"http://localhost:4000/2021/10/21/DL-python-pytorch-booknotes.html"}</script>
+<!-- End Jekyll SEO tag -->
+<!-- Compressed CSS -->
+  <link rel="stylesheet" 
+  href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation.min.css" 
+  integrity="sha256-ogmFxjqiTMnZhxCqVmcqTvjfe1Y/ec4WaRj/aQPvn+I=" 
+  crossorigin="anonymous"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Obviously Awesome" /></head>
+<body>
+    <div class="grid-container fluid">
+
+      <div class="grid-x">     
+
+        <div class="text-left">
+          <h1><a href="/">Obviously Awesome</a></h1><form action="https://google.com/search" type="GET">
+  <div class="input-group">
+  	<input class="input-group-field" 
+        type="search" name="q" value="site search (Google)" onfocus=this.value=''>
+    <div class="input-group-button">
+      <input type="submit" class="button" value="Go">
+    </div>
+  </div>
+</form>
+
+<script>
+var form = document.querySelector("form");
+
+form.addEventListener("submit", function (e) {
+  e.preventDefault();
+  var search = form.querySelector("input[type=search]");
+  search.value = "site:bjpcjp.github.io " + search.value;
+  form.submit();
+});
+</script>
+ </div>
+
+      </div>
+
+      <div class="grid-x">     
+
+        <div class="cell small-4 medium-3 large-2"><ul class="vertical menu"><li>
+          <a href="/posts-by-tag.html">
+            Posts by Tag</a></li><li>
+          <a href="/behaviors/">
+            Behaviors</a></li><li>
+          <a href="/math/">
+            Math</a></li><li>
+          <a href="/devops.html">
+            DevOps &amp; Linux</a></li><li>
+          <a href="/gametheory/">
+            Game Theory</a></li><li>
+          <a href="/golang.html">
+            Golang</a></li><li>
+          <a href="/ideas.html">
+            Ideas</a></li><li>
+          <a href="/language/">
+            Language</a></li><li>
+          <a href="/prodmgmt/">
+            Prod Mgmt</a></li><li>
+          <a href="/python/">
+            Python</a></li><li>
+          <a href="/ruby.html">
+            Ruby</a></li><li>
+          <a href="/semiconductors.html">
+            Chips</a></li><li>
+          <a href="/uiux/">
+            UI/UX</a></li><li>
+          <a href="/webdev/">
+            Web Dev Tools</a></li><li>
+          <a href="/all-posts.html">
+            Index</a></li></ul></div>
+        
+        <div class="cell small-8 medium-9 large-10">
+          <h2>DL with Python &amp; DL with PyTorch - book notes</h2>
+
+<div class="card" style="width: 50%;">
+	<div class="card-divider">
+		Deep Learning with Python (2nd ed) - Chollet
+	</div>
+	<img source="/px/math/DL-python-chollet-book-cover.png" />
+	<div class="card-divider">
+		Deep Learning with PyTorch (1st ed) - multiple
+	</div>
+	<img source="/px/math/DL-PyTorch-book-cover.png" />
+</div>
+
+<ul>
+  <li>Python 2nd ed:
+    <ul>
+      <li>1) Definition</li>
+      <li>2) Math
+        <ul>
+          <li>Neural nets - first look</li>
+          <li>Data representation</li>
+          <li>Tensor ops</li>
+          <li>Gradients</li>
+          <li>Review</li>
+        </ul>
+      </li>
+      <li>3) Keras &amp; Tensorflow
+        <ul>
+          <li>Keras</li>
+          <li>Tensorflow</li>
+          <li>History</li>
+          <li>Workspace setup</li>
+          <li>TF first steps</li>
+          <li>Neural net anatomy</li>
+        </ul>
+      </li>
+      <li>4) Classification basics
+        <ul>
+          <li>Binary classification (movie reviews)</li>
+          <li>Multiclass classification (newswires)</li>
+          <li>Regression (house prices)</li>
+        </ul>
+      </li>
+      <li>5) ML fundamentals
+        <ul>
+          <li>Generalization</li>
+          <li>Model evaluation</li>
+          <li>Improving model fit</li>
+          <li>Improving generalization</li>
+        </ul>
+      </li>
+      <li>6) Universal workflow
+        <ul>
+          <li>Tasks</li>
+          <li>Models</li>
+          <li>Deployment</li>
+        </ul>
+      </li>
+      <li>7) Keras deep dive
+        <ul>
+          <li>Workflows</li>
+          <li>How to build models</li>
+          <li>Training &amp; evaluation loops - built-in</li>
+          <li>Training &amp; evaluation loops - custom</li>
+        </ul>
+      </li>
+      <li>8) DL for CV (intro)
+        <ul>
+          <li>Convnets</li>
+          <li>Training from scratch - small dataset</li>
+          <li>Leveraging pretrained models</li>
+        </ul>
+      </li>
+      <li>9) DL for CV (advanced)
+        <ul>
+          <li>Three essential tasks</li>
+          <li>Image segmentation</li>
+          <li>Modern convnets</li>
+          <li>Interpreting what convnets learn</li>
+        </ul>
+      </li>
+      <li>10) DL for time series
+        <ul>
+          <li>Tasks</li>
+          <li>Example - temp forecasting</li>
+          <li>Recurrent networks (RNNs)</li>
+          <li>RNNs - advanced usage</li>
+        </ul>
+      </li>
+      <li>11) DL for text
+        <ul>
+          <li>NLP</li>
+          <li>Data prep</li>
+          <li>Word representation - two methods</li>
+          <li>Transformer</li>
+          <li>Sequence-to-sequence learning</li>
+        </ul>
+      </li>
+      <li>12) Generative DL
+        <ul>
+          <li>Text generation
+            <ul>
+              <li>History</li>
+              <li>Sequence data</li>
+              <li>Sampling</li>
+              <li>Keras implementation</li>
+              <li>Text-generation callback</li>
+              <li>Wrapup</li>
+            </ul>
+          </li>
+          <li>Deep Dream
+            <ul>
+              <li>Keras implementation</li>
+              <li>Wrapup</li>
+            </ul>
+          </li>
+          <li>Style Transfer
+            <ul>
+              <li>Content loss</li>
+              <li>Style loss</li>
+              <li>Keras implementation</li>
+              <li>Wrapup</li>
+            </ul>
+          </li>
+          <li>Variational Autoencoders - Generating images
+            <ul>
+              <li>Sampling from latent image spaces</li>
+              <li>Concept vectors - image editing</li>
+              <li>VAEs</li>
+              <li>Keras implementation</li>
+              <li>Wrapup</li>
+            </ul>
+          </li>
+          <li>GANs (generative adversarial nets)
+            <ul>
+              <li>Schematic</li>
+              <li>Bag of Tricks</li>
+              <li>CelebA dataset</li>
+              <li>Discriminator</li>
+              <li>Generator</li>
+              <li>Adversarial net</li>
+              <li>Wrapup</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>13) Best practices
+        <ul>
+          <li>Parameter optimization</li>
+          <li>Model ensembles</li>
+          <li>Mixed-precision math</li>
+          <li>Multi-GPU training</li>
+          <li>TPU training</li>
+        </ul>
+      </li>
+      <li>14) Conclusions
+        <ul>
+          <li>Key concepts</li>
+          <li>Limitations</li>
+          <li>Generality</li>
+          <li>Implementing intelligence</li>
+          <li>Future</li>
+          <li>Staying up to date</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>PyTorch:
+    <ul>
+      <li>Core
+        <ul>
+          <li>1) Intro
+            <ul>
+              <li>Deep Learning</li>
+              <li>PyTorch</li>
+              <li>Why PyTorch</li>
+              <li>PyTorch for DL</li>
+              <li>HW/SW requirements</li>
+            </ul>
+          </li>
+          <li>2) Pretrained Nets
+            <ul>
+              <li>Net that recognizes image subjects</li>
+              <li>Fake it till you make it</li>
+              <li>Scene descriptions</li>
+              <li>Torch Hub</li>
+            </ul>
+          </li>
+          <li>3) Tensors
+            <ul>
+              <li>Floating point</li>
+              <li>Intro</li>
+              <li>Indexing</li>
+              <li>Named</li>
+              <li>Element types</li>
+              <li>API</li>
+              <li>Storage</li>
+              <li>Size, Offset, Stride</li>
+              <li>Moving to GPU</li>
+              <li>NumPy</li>
+              <li>Generalized tensors</li>
+              <li>Serializing</li>
+            </ul>
+          </li>
+          <li>4) Data Representation
+            <ul>
+              <li>Images</li>
+              <li>3D (volumetric) Images</li>
+              <li>Tablular data</li>
+              <li>Time series</li>
+              <li>Text</li>
+            </ul>
+          </li>
+          <li>5) Learning Mechanics
+            <ul>
+              <li>Modeling lessons</li>
+              <li>Parameter estimation</li>
+              <li>Loss</li>
+              <li>Gradients</li>
+              <li>PyTorch autograd</li>
+            </ul>
+          </li>
+          <li>6) Fitting and Nets
+            <ul>
+              <li>Neurons</li>
+              <li>PyTorch nn module</li>
+              <li>Neural net</li>
+            </ul>
+          </li>
+          <li>7) Learning from Images
+            <ul>
+              <li>Image dataset</li>
+              <li>Distinguishing birds from airplanes</li>
+            </ul>
+          </li>
+          <li>8) Convolutions
+            <ul>
+              <li>Purpose</li>
+              <li>Convos in action</li>
+              <li>Subclassing the nn module</li>
+              <li>Training</li>
+              <li>Model design</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>Learning from Images
+        <ul>
+          <li>9) Example: Cancer diagnosis
+            <ul>
+              <li>Intro</li>
+              <li>Setup</li>
+              <li>What is a CT Scan</li>
+              <li>Project (E2E)</li>
+            </ul>
+          </li>
+          <li>10) Combining Datasets
+            <ul>
+              <li>Raw CT Files</li>
+              <li>Parsing LUNA data</li>
+              <li>Loading Individual CT Scans</li>
+              <li>Patient Coordinates</li>
+              <li>Dataset Implementation</li>
+            </ul>
+          </li>
+          <li>11) Tumor Detection
+            <ul>
+              <li>Foundational Model</li>
+              <li>Main (entry point)</li>
+              <li>Setup</li>
+              <li>Net design (1st pass)</li>
+              <li>Training &amp; validation</li>
+              <li>Metrics</li>
+              <li>Training script</li>
+              <li>Evaluation</li>
+              <li>Visualization w/ Tensorboard</li>
+              <li>Problem solving</li>
+            </ul>
+          </li>
+          <li>12) Metrics &amp; Augmentation
+            <ul>
+              <li>High level plan</li>
+              <li>False positives &amp; false negatives</li>
+              <li>Graphing</li>
+              <li>“Ideal” datasets</li>
+              <li>Overfitting</li>
+              <li>Overfitting &amp; data augmentation</li>
+            </ul>
+          </li>
+          <li>13) Segmentation
+            <ul>
+              <li>Adding a 2nd model</li>
+              <li>Types of segmentation</li>
+              <li>Semantic segmentation (per-pixel classification)</li>
+              <li>Updating the model</li>
+              <li>Updating the dataset</li>
+              <li>Updating the script</li>
+              <li>Results</li>
+            </ul>
+          </li>
+          <li>14) E2E Nodule Analysis
+            <ul>
+              <li>Finish Line</li>
+              <li>Validation set independence</li>
+              <li>Bridging CT segmentation &amp; nodule candidate classification</li>
+              <li>Quantitative validation</li>
+              <li>Predicting malignancy</li>
+              <li>What we see</li>
+              <li>What’s next?</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>Deployment
+        <ul>
+          <li>15) To Production
+            <ul>
+              <li>Serving PyTorch models</li>
+              <li>Exporting</li>
+              <li>PyTorch JIT</li>
+              <li>LibTorch</li>
+              <li>Mobile</li>
+              <li>Enterprise Model Serving</li>
+              <li>Conclusion</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+        </div>
+
+      </div>
+
+      <hr><footer>
+
+  <a href="/feed.xml">
+    <svg>
+      <use href="/assets/minima-social-icons.svg#rss"></use>
+    </svg></a>
+
+</footer>
+</div><!-- Compressed JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/js/foundation.min.js" 
+  integrity="sha256-pRF3zifJRA9jXGv++b06qwtSqX1byFQOLjqa2PTEb2o=" 
+  crossorigin="anonymous"></script>
+  
+</body>
+</html>

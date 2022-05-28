@@ -1,0 +1,157 @@
+# /data/stufftoread-20211226.yaml
+
+- title: The cost of cloud
+  url: https://ptribble.blogspot.com/2021/12/the-cost-of-cloud.html
+  tags: deployment cloud
+  pic1:
+  pic2:
+  intro: My rough estimate is that the unit cost of provisioning a service on AWS is about 3 times that of a competent IT organization providing a similar service in house. Other people have come to the same number, and it hasn't really changed much over the last decade. (If you don't think 3x is right, consider what AWS' gross margin is.)
+  source: Peter Tribble
+
+
+- title: Ruby 3.1 release
+  url: https://www.ruby-lang.org/en/news/2021/12/25/ruby-3-1-0-released/
+  tags: ruby
+  pic1:
+  pic2:
+  intro: We are pleased to announce the release of Ruby 3.1.0. Ruby 3.1 keeps compatibility with Ruby 3.0 and also adds many features.
+  source: ruby-lang.org
+  
+
+- title: How to Write LaTex without writing LaTex
+  url: https://jarbus.net/blog/write-latex-without-latex/
+  tags: latex
+  pic1: https://jarbus.net/final-document.png
+  pic2:
+  intro: I love the look of LaTeX but hate the experience of writing in LaTeX, at least compared to Markdown. Luckily, Pandoc can convert Markdown files to PDFs using a LaTeX engine as the renderer, and includes a custom Markdown specification that can fill almost all my LaTeX needs.
+  source: jarbus.net
+  
+
+- title: My Top 10 Free AWS Learning Resources
+  url: https://hashnode.tpschmidt.com/my-top-10-free-learning-resources-for-aws
+  tags: deployment aws cloud
+  pic1: https://hashnode.tpschmidt.com/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Funsplash%2FFHnnjk1Yj7Y%2Fupload%2Fv1640075900432%2FVLyU-kZU5G.jpeg%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75
+  pic2:
+  intro: There's probably nothing you can't build on AWS, but starting your Cloud Journey looking at over 200 AWS Services needs guidance.
+  source: Tobias Schmidt
+  
+
+- title: The 4 Desires Driving All Human Behavior
+  url: https://www.themarginalian.org/2015/09/21/bertrand-russell-nobel-prize-acceptance-speech/
+  tags: behavior
+  pic1:
+  pic2:
+  intro: Bertrand Russell’s Magnificent Nobel Prize Acceptance Speech
+  source: The Marginalian
+  
+
+- title: The Latex Cookbook
+  url: https://latex-cookbook.net/
+  tags: latex
+  pic1: https://i2.wp.com/latex-cookbook.net/wp-content/uploads/2021/01/poster.png?w=500&ssl=1
+  pic2:
+  intro: A collection of LaTeX recipes
+  source: latex-cookbook.net
+  
+
+
+- title: Why Arabs Lose Wars (1999)
+  url: https://www.meforum.org/441/why-arabs-lose-wars
+  tags: culture
+  pic1: http://www.meforum.org/pics/large/2391.jpg
+  pic2:
+  intro: Why this unimpressive record? There are many factors—economic, ideological, technical—but perhaps the most important has to do with culture and certain societal attributes which inhibit Arabs from producing an effective military force.
+  source: Middle East Forum
+  
+
+
+- title: Be Curious, not Judgmental
+  url: http://www.shubhro.com/2021/12/20/be-curious-not-judgmental/
+  tags: prodmgmt
+  pic1: http://www.shubhro.com/static/be-curious-not-judgmental/tweet1.png
+  pic2:
+  intro: The reality, though, is that without understanding all constraints of the problem, we can’t really tell what the best solution would be– perhaps what’s depicted in the video, perhaps something else.
+  source: shubhro.com
+  
+
+
+- title: fq - jq for binary formats
+  url: https://github.com/wader/fq
+  tags: tools linux
+  pic1: https://github.com/wader/fq/raw/master/doc/demo.svg
+  pic2:
+  intro: In most cases fq works the same way as jq but instead of reading JSON it reads binary data. The result is a JSON compatible structures where each value has a bit range, symbolic interpretations and know how to be presented in a useful way.
+  source: github
+  
+
+- title: Tell HN - show me your failed projects
+  url: https://news.ycombinator.com/item?id=29673707
+  tags: startups learning failure
+  pic1: 
+  pic2:
+  intro:  guess no body is doing this, everyone talks about making money. So, let's use this post to share our failed projects and the learnings with other founders.
+  source: news.ycombinator.com
+  
+
+- title: People Don't Buy Products - They Buy Better Versions of Themselves (2018)
+  url: https://zandercutt.com/2018/07/08/people-dont-buy-products-they-buy-better-versions-of-themselves/
+  tags: prodmgmt
+  pic1: https://images.unsplash.com/photo-1531036431755-9dd68462d653?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e10e3b6dda58e8e9e595cce5d8c4cb23&dpr=1&auto=format&fit=crop&w=1000&q=80&cs=tinysrgb&crop
+  pic2:
+  intro: What Apple, Samsung, and Starbucks learned from Pepsi
+  source: Zander Nethercutt
+  
+
+- title: This (web) Page is Designed to Last
+  url: https://jeffhuang.com/designed_to_last/
+  tags: webdev
+  pic1: 
+  pic2:
+  intro: A Manifesto for Preserving Content on the Web
+  source: Jeff Huang
+  
+
+- title: Can we "brain drain" China?
+  url: https://noahpinion.substack.com/
+  tags: policy
+  pic1: https://cdn.substack.com/image/fetch/w_1100,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F6c571730-5927-4880-a096-7f5246eedb57_1376x1972.jpeg
+  pic2:
+  intro: No. But we can give America a big economic boost while boosting our moral image.
+  source: Noah Smith
+  
+
+- title: My Productivity App for the past 12 Years Has Been a Single .txt File
+  url: https://jeffhuang.com/productivity_text_file/
+  tags: productivity
+  pic1: 
+  pic2:
+  intro:  The biggest transition for me when I started college was learning to get organized. There was a point when I couldn't just remember everything in my head. And having to constantly keep track of things was distracting me from whatever task I was doing at the moment.
+  source: Jeff Huang
+  
+
+- title: Engineering Tradeoffs in Auto Differentiation
+  url: http://www.stochasticlifestyle.com/engineering-trade-offs-in-automatic-differentiation-from-tensorflow-and-pytorch-to-jax-and-julia/
+  tags: deep-learning tensorflow pytorch jax julia
+  pic1: 
+  pic2:
+  intro: 
+  source: Stochastic Lifestyle
+  
+
+- title: New Coefficient of Correlation
+  url: https://arxiv.org/abs/1909.10140
+  tags: deep-learning machine-learning
+  pic1: https://static.arxiv.org/static/browse/0.3.2.8/images/icons/cu/cornell-reduced-white-SMALL.svg
+  pic2:
+  intro: 
+  source: ArXiV
+  
+
+- title: The Importance of Price Signals
+  url: https://www.lynalden.com/price-signals/
+  tags: economics
+  pic1: https://www.lynalden.com/wp-content/uploads/price-signals-feature.jpg
+  pic2:
+  intro: When price inflation occurs, it can be a very challenging time for everyone. In that type of environment, prices of goods and services often go up faster than wages, and the public and policymakers wish to constrain them. Historically, when price inflation becomes rampant, policymakers tend to put in place price and wage controls to try to tame inflation, but those don’t have a good track record of working out well.
+  source: Lyn Alden
+  

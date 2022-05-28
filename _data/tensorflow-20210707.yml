@@ -1,0 +1,100 @@
+- title: intro
+  language: python
+  tags: python tensorflow
+  url: https://github.com/bjpcjp/scikit-and-tensorflow-workbooks/blob/master/ch09-tensorflow-setup.ipynb
+  pic:
+  note: installation,
+        graphs,
+        gradient descent,
+        momentum,
+        model save-restore,
+        visualization,
+        tensorboard,
+        sharing variables
+  source: scikit-and-tensorflow-workbooks
+  parent: deep-learning
+  
+  
+- title: neural nets
+  language: python
+  tags: python tensorflow
+  url: https://github.com/bjpcjp/scikit-and-tensorflow-workbooks/blob/master/ch10-neural-nets.ipynb
+  pic:
+  note: perceptrons,
+        MLPs,
+        backprop,
+        training,
+  source: scikit-and-tensorflow-workbooks
+  parent: deep-learning
+
+
+- title: convolutional neural nets (CNNs)
+  language: python
+  tags: python tensorflow
+  url: https://github.com/bjpcjp/scikit-and-tensorflow-workbooks/blob/master/ch13-convolutional-NNs.ipynb
+  note: layers,
+        filters,
+        map stacking,
+        padding & pooling,
+        architectures
+  source: scikit-and-tensorflow-workbooks
+  parent: deep-learning
+
+
+- title: DNNs
+  language: python
+  tags: python tensorflow
+  url: https://github.com/bjpcjp/scikit-and-tensorflow-workbooks/blob/master/ch11-DNN-training.ipynb
+  note: gradients,
+        activation functions,
+        batch normalization,
+        gradient clipping,
+        model reuse,
+        layer freeze & cache,
+        model zoos,
+        regularization
+  source: scikit-and-tensorflow-workbooks
+  parent: deep-learning
+
+
+- title: RNNs
+  language: python
+  tags: python tensorflow
+  url: https://github.com/bjpcjp/scikit-and-tensorflow-workbooks/blob/master/ch14-Recurrent-NNs.ipynb
+  note: intro,
+        sequences,
+        unrolling,
+        simplification,
+        training,
+        deep RNNs,
+        LSTMs,
+        GRU cells,
+        NLP basics
+  source: scikit-and-tensorflow-workbooks
+  parent: deep-learning
+
+
+- title: autoencoders (AEs)
+  language: python
+  tags: python tensorflow
+  url: https://github.com/bjpcjp/scikit-and-tensorflow-workbooks/blob/master/ch15-autoencoders.ipynb
+  note: intro,
+        stacked AEs,
+        tying weights,
+        reconstructions
+  source: scikit-and-tensorflow-workbooks
+  parent: deep-learning
+
+  
+- title: reinforcement learning (RL)
+  language: python
+  tags: python tensorflow
+  url: https://github.com/bjpcjp/scikit-and-tensorflow-workbooks/blob/master/ch16-reinforcement-learning.ipynb
+  note: openAI gym,
+        policies,
+        markov decision processes,
+        q-learning
+  source: scikit-and-tensorflow-workbooks
+  parent: deep-learning
+
+

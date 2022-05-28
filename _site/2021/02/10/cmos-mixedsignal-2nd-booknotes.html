@@ -1,0 +1,349 @@
+<html lang="en"><!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="http://localhost:4000/favicon-32x32.png" /><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>CMOS Mixed Signal Book Notes | Obviously Awesome</title>
+<meta name="generator" content="Jekyll v3.9.2" />
+<meta property="og:title" content="CMOS Mixed Signal Book Notes" />
+<meta name="author" content="Brian Piercy" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="CMOS Mixed-Signal Design, 2nd ed, book notes" />
+<meta property="og:description" content="CMOS Mixed-Signal Design, 2nd ed, book notes" />
+<link rel="canonical" href="http://localhost:4000/2021/02/10/cmos-mixedsignal-2nd-booknotes.html" />
+<meta property="og:url" content="http://localhost:4000/2021/02/10/cmos-mixedsignal-2nd-booknotes.html" />
+<meta property="og:site_name" content="Obviously Awesome" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-02-10T00:00:00-05:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="CMOS Mixed Signal Book Notes" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Brian Piercy"},"dateModified":"2021-02-10T00:00:00-05:00","datePublished":"2021-02-10T00:00:00-05:00","description":"CMOS Mixed-Signal Design, 2nd ed, book notes","headline":"CMOS Mixed Signal Book Notes","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2021/02/10/cmos-mixedsignal-2nd-booknotes.html"},"url":"http://localhost:4000/2021/02/10/cmos-mixedsignal-2nd-booknotes.html"}</script>
+<!-- End Jekyll SEO tag -->
+<!-- Compressed CSS -->
+  <link rel="stylesheet" 
+  href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation.min.css" 
+  integrity="sha256-ogmFxjqiTMnZhxCqVmcqTvjfe1Y/ec4WaRj/aQPvn+I=" 
+  crossorigin="anonymous"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Obviously Awesome" /></head>
+<body>
+    <div class="grid-container fluid">
+
+      <div class="grid-x">     
+
+        <div class="text-left">
+          <h1><a href="/">Obviously Awesome</a></h1><form action="https://google.com/search" type="GET">
+  <div class="input-group">
+  	<input class="input-group-field" 
+        type="search" name="q" value="site search (Google)" onfocus=this.value=''>
+    <div class="input-group-button">
+      <input type="submit" class="button" value="Go">
+    </div>
+  </div>
+</form>
+
+<script>
+var form = document.querySelector("form");
+
+form.addEventListener("submit", function (e) {
+  e.preventDefault();
+  var search = form.querySelector("input[type=search]");
+  search.value = "site:bjpcjp.github.io " + search.value;
+  form.submit();
+});
+</script>
+ </div>
+
+      </div>
+
+      <div class="grid-x">     
+
+        <div class="cell small-4 medium-3 large-2"><ul class="vertical menu"><li>
+          <a href="/posts-by-tag.html">
+            Posts by Tag</a></li><li>
+          <a href="/behaviors/">
+            Behaviors</a></li><li>
+          <a href="/math/">
+            Math</a></li><li>
+          <a href="/devops.html">
+            DevOps &amp; Linux</a></li><li>
+          <a href="/gametheory/">
+            Game Theory</a></li><li>
+          <a href="/golang.html">
+            Golang</a></li><li>
+          <a href="/ideas.html">
+            Ideas</a></li><li>
+          <a href="/language/">
+            Language</a></li><li>
+          <a href="/prodmgmt/">
+            Prod Mgmt</a></li><li>
+          <a href="/python/">
+            Python</a></li><li>
+          <a href="/ruby.html">
+            Ruby</a></li><li>
+          <a href="/semiconductors.html">
+            Chips</a></li><li>
+          <a href="/uiux/">
+            UI/UX</a></li><li>
+          <a href="/webdev/">
+            Web Dev Tools</a></li><li>
+          <a href="/all-posts.html">
+            Index</a></li></ul></div>
+        
+        <div class="cell small-8 medium-9 large-10">
+          <div class="callout">
+	<h2>CMOS Mixed-Signal Design, 2nd ed, book notes</h2>
+</div>
+
+<div class="card">
+	<div class="card-image">
+		<img src="/px/chips/mixedsignal-cktdesign-2nd-cover.png"/>
+	</div>
+
+	<div class="card-section">
+		<a href="/pdfs/cmos_mixedsignal/CMSCD2_toc.pdf">
+		table of contents</a>
+	</div>
+
+	<div class="card-section">
+		<a href="/pdfs/cmos_mixedsignal/CMSCD2_index.pdf">
+		index</a>
+	</div>
+</div>
+
+
+<div style="column-count: 2;">
+
+<div class="card">
+<div class="card-divider">
+	<a href="/pdfs/cmos_mixedsignal/CMSCD2_01_signals_filters_tools.pdf">
+  Ch 1: Signals, Filters, Tools</a>
+</div>
+
+<div class="card-section">
+	<strong>sinusoid signals</strong><br>
+	pendulum analogy<br>
+	z-plane<br>
+	<br>
+	<strong>comb filters</strong><br>
+	digital cf<br>
+	digital differentiator<br>
+	z-plane revisited<br>
+	comb filters - multiple delay elements<br>
+	digital integrator<br>
+	<br>
+	<strong>representing signals</strong><br>
+	exponential fourier series<br>
+	fourier transform<br>
+</div>
+</div>
+
+<div class="card">
+<div class="card-divider">
+	<a href="/pdfs/cmos_mixedsignal/CMSCD2_02_samples_aliasing.pdf">
+  Ch 2: Sampling & Aliasing</a>
+</div>
+
+<div class="card-section">
+	<strong>sampling</strong><br>
+	impulse sampling<br>
+	decimation<br>
+	sample-and-hold<br>
+	track-and-hold<br>
+	interpolation<br>
+	k-path sampling<br>
+	<br>
+	<strong>circuits</strong><br>
+	S/H implementation<br>
+	S/H with gain<br>
+	discrete analog integrator<br>
+</div>
+</div>
+
+<div class="card">
+<div class="card-divider">
+	<a href="/pdfs/cmos_mixedsignal/CMSCD2_03_analog_filters.pdf">
+  Ch 3: Analog Filters</a>
+</div>
+
+<div class="card-section">
+	<strong>integrator building blocks</strong><br>
+	lowpass filters<br>
+	active-rc integrators<br>
+	mosfet-c integrators<br>
+	transconductor-c integrators<br>
+	discrete-time integrators<br>
+	<br>
+	<strong>topologies</strong><br>
+	bilinear xfer function<br>
+	biquadratic xfer function<br>
+</div>
+</div>
+
+<div class="card">
+<div class="card-divider">
+	<a href="/pdfs/cmos_mixedsignal/CMSCD2_04_digital_filters.pdf">
+  Ch 4: Digital Filters</a>
+</div>
+
+<div class="card-section">
+	<strong>ADC & DAC spice models</strong><br>
+		ideal DAC & ADC<br>
+		number representation<br>
+	<br>
+	<strong>sinc-shaped digital filters</strong><br>
+		counters<br>
+		lowpass<br>
+		bandpass<br>
+		highpass<br>
+		interpolation<br>
+		decimation<br>
+	<br>
+	<strong>filter topologies</strong><br>
+		FIR filters<br>
+		stability, overflow<br>
+		bilinear xfer function<br>
+		biquadratic xfer function<br>
+</div>
+</div>
+
+<div class="card">
+<div class="card-divider">
+	<a href="/pdfs/cmos_mixedsignal/CMSCD2_05_data_converter_snr.pdf">
+  Ch 5: Data Converter SNR</a>
+</div>
+
+<div class="card-section">
+	<strong>quantization noise</strong><br>
+	QN spectrum w/ simulations<br>
+	QN voltage spectral density<br>
+	<br>
+	<strong>signal-to-noise ratio (SNR)</strong><br>
+	clock jitter<br>
+	spectral density<br>
+	<br>
+	<strong>SNR & averaging</strong><br>
+	averaging<br>
+	linearity<br>
+	noise dither<br>
+	jitter<br>
+	anti-aliasing filter<br>
+	<br>
+	<strong>SNR & feedback</strong><br>
+	intro<br>
+</div>
+</div>
+
+<div class="card">
+<div class="card-divider">
+	<a href="/pdfs/cmos_mixedsignal/CMSCD2_06_data_converter_design_basics.pdf">
+  Ch 6: Data Converter Design Basics</a>
+</div>
+
+<div class="card-section">
+	<strong>passive noise shaping</strong><br>
+	signal/noise ratio<br>
+	decimation/filtering<br>
+	offset, matching, linearity<br>
+	<br>
+	<strong>SNR & linearity improvements</strong><br>
+	2nd-order passive noise shaping<br>
+	noise shaping w/ switched caps<br>
+	k-paths<br>
+	linearity & active circuits<br>
+</div>
+</div>
+
+<div class="card">
+<div class="card-divider">
+	<a href="/pdfs/cmos_mixedsignal/CMSCD2_07_data_converter_noise_shaping.pdf">
+  Ch 7: Data Converters: Noise Shaping</a>
+</div>
+
+<div class="card-section">
+	<strong>1st-order</strong><br>
+	modulation noise<br>
+	quantization noise<br>
+	output decimation/filtering<br>
+	dc input pattern noise<br>
+	integration & fwd modulator gain<br>
+	comparator gain/offset/noise/hyst<br>
+	op-amp gain (integrator leakage)<br>
+	op-amp settling time<br>
+	op-amp offset<br>
+	op-amp input-referred noise<br>
+	practical implementation<br>
+	<br>
+	<strong>2nd-order</strong><br>
+	modulator topology<br>
+	integrator gain<br>
+	integrator gain selection<br>
+	<br>
+	<strong>topologies</strong><br>
+	higher-order modulators<br>
+	nth-order output filtering<br>
+	high-order, single-stage modulators<br>
+	multi-bit modulators<br>
+	error feedback<br>
+	cascaded modulators<br>
+</div>
+</div>
+
+<div class="card">
+<div class="card-divider">
+	<a href="/pdfs/cmos_mixedsignal/CMSCD2_08_data_converter_bandpass.pdf">
+  Ch 8: Bandpass Filters</a>
+</div>
+
+<div class="card-section">
+	<strong>(continuous-time)</strong><br>
+		passive-component modulators<br>
+		active-component modulators<br>
+		rf-conversion modulators<br>
+		<br>
+	<strong>(switched-capacity)</strong><br>
+		resonators<br>
+		2nd-order modulators<br>
+		4th-order modulators<br>
+		digital i/q extraction to baseband<br>
+</div>
+</div>
+
+<div class="card">
+<div class="card-divider">
+	<a href="/pdfs/cmos_mixedsignal/CMSCD2_09_data_converter_hispeed.pdf">
+  Ch 9: High Speed Data Converters</a>
+</div>
+
+<div class="card-section">
+	clock signals<br>
+	implementation<br>
+	filtering<br>
+	analysis<br>
+	clock signals revisited<br>
+	clock signal generation<br>
+	components<br>
+	ADC<br>
+</div>
+</div>
+
+</div>
+        </div>
+
+      </div>
+
+      <hr><footer>
+
+  <a href="/feed.xml">
+    <svg>
+      <use href="/assets/minima-social-icons.svg#rss"></use>
+    </svg></a>
+
+</footer>
+</div><!-- Compressed JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/js/foundation.min.js" 
+  integrity="sha256-pRF3zifJRA9jXGv++b06qwtSqX1byFQOLjqa2PTEb2o=" 
+  crossorigin="anonymous"></script>
+  
+</body>
+</html>

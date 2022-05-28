@@ -1,0 +1,389 @@
+---
+title: Eloquent Ruby - book notes
+layout: default-foundation-20210515
+date: 2022-01-31
+tags: ruby booknotes
+---
+
+<div class="callout">
+<h2>{{page.title}}</h2>
+</div>
+
+{% assign book = "/pdfs/ruby/Eloquent_Ruby.pdf" %}
+
+<div style="columns: 2;">
+
+<div class="card">
+	<div class="card-image">
+		<img src="/px/ruby/eloquent-ruby-book-cover.png">
+	</div>
+</div>
+
+<h2>Language Basics</h2>
+
+<div class="card">
+	<div class="card-section">
+	<details><summary><a href="{{book}}#page=31">Ch 01 - Syntax</a></summary>
+		- Very Basics<br>
+		- Comments<br>
+		- Camels & Snakes<br>
+		- Parentheses<br>
+		- Line Folding<br>
+		- Code Blocks<br>
+</div>
+    </details>
+</div>
+
+<div class="card">
+	<div class="card-section">
+	<details><summary><a href="{{book}}#page=45">Ch 02 - Control Structures</a></summary>
+		- If, Unless, While, Until<br>
+		- Modifier forms<br>
+		- Use <code>each</code> - not <code>for</code><br>
+		- Case<br>
+		- Boolean logic pitfalls<br>
+	</div>
+    </details>
+</div>
+
+<div class="card">
+	<div class="card-section">
+	<details><summary><a href="{{book}}#page=57">Ch 03 - Smart Collections</a></summary>
+		- Literal shortcuts<br>
+		- Instant arrays & hashes from Method calls<br>
+		- Iterating through a collection<br>
+		- Bang (!) methods<br>
+		- Hash ordering<br>
+	</div>
+    </details>
+</div>
+
+<div class="card">
+	<div class="card-section">
+	<details><summary><a href="{{book}}#page=71">Ch 04 - Smart Strings</a></summary>
+		- Creating<br>
+		- String methods<br>
+		- Lines, characters & bytes<br>
+	</div>
+    </details>
+</div>
+
+<div class="card">
+	<div class="card-section">
+	<details><summary><a href="{{book}}#page=81">Ch 05 - Regexes</a></summary>
+		- Matching one character at a time<br>
+		- Sets, ranges & alternatives<br>
+		- The Star ("*") operator<br>
+		- Regexes in Ruby<br>
+		- Beginnings & endings<br>
+	</div>
+    </details>
+</div>
+
+<div class="card">
+	<div class="card-section">
+	<details><summary><a href="{{book}}#page=93">Ch 06 - Symbols</a></summary>
+		- Symbols vs Strings<br>
+		- Not Quite a String<br>
+		- Optimized to "stand for something"<br>
+	</div>
+    </details>
+</div>
+
+<div class="card">
+	<div class="card-section">
+	<details><summary><a href="{{book}}#page=101">Ch 07 - Everything is an Object</a></summary>
+		- Classes, instances & methods - a quick review<br>
+		- Objects: all the way down<br>
+		- Key object attributes<br>
+		- Public, private & protected methods<br>
+	</div>
+    </details>
+</div>
+
+<div class="card">
+	<div class="card-section">
+	<details><summary><a href="{{book}}#page=113">Ch 08 - Dynamic Typing</a></summary>
+		- Shorter programs - not in the way you think<br>
+		- Decoupling<br>
+		- Ceremony vs Clarity<br>
+	</div>
+    </details>
+</div>
+
+<div class="card">
+	<div class="card-section">
+	<details><summary><a href="{{book}}#page=125">Ch 09 - Specs & Testing</a></summary>
+		- Test::Unit basics<br>
+		- Assert<br>
+		- Rspec basics<br>
+		- Tidy specs<br>
+		- Stubs<br>
+		- Mocks<br>
+	</div>
+    </details>
+</div>
+
+<h2>Classes, Modules, Blocks</h2>
+
+<div class="card">
+	<div class="card-section">
+	<details><summary><a href="{{book}}#page=145">Ch 10 - Classes</a></summary>
+		- Compressing specifications<br>
+		- Composing Methods for Humans<br>
+		- Composing Ruby Methods<br>
+		- Single Exit Methods<br>
+	</div>
+    </details>
+</div>
+
+<div class="card">
+	<div class="card-section">
+	<details><summary><a href="{{book}}#page=157">Ch 11 - Operators</a></summary>
+		- Defining Ruby Operators<br>
+		- Examples<br>
+		- Operating across Classes<br>
+		- Broadening the Definition of "=="<br>
+		- Well-Behaved Equality<br>
+		- Triple Equals ("===") for Case Statements<br>
+		- Hash Tables and <code>eql?</code><br>
+		- Well-Behaved Hash Keys<br>
+	</div>
+    </details>
+</div>
+
+<div class="card">
+	<div class="card-section">
+	<details><summary><a href="{{book}}#page=169">Ch 12 - Classes & Equality</a></summary>
+		- An Identifier for your Documents<br>
+		- Multiple Equality Methods<br>
+		- Double Equals ("==")<br>
+
+	</div>
+    </details>
+</div>
+
+<div class="card">
+	<div class="card-section">
+	<details><summary><a href="{{book}}#page=185">Ch 13 - Singleton & Class Methods</a></summary>
+		- Stubs<br>
+		- The <code>singleton</code> class<br>
+		- Singletons in Plain Sight<br>
+	</div>
+    </details>
+</div>
+
+<div class="card">
+	<div class="card-section">
+	<details><summary><a href="{{book}}#page=197">Ch 14 - Class Instance Variables</a></summary>
+		- Quick Review<br>
+		- "Wandering" Variables<br>
+		- Class data<br>
+		- Class Instances - Variables & Subclasses<br>
+		- Convenience Tricks<br>
+	</div>
+    </details>
+</div>
+
+<div class="card">
+	<div class="card-section">
+	<details><summary><a href="{{book}}#page=209">Ch 15 - Modules & Name Spaces</a></summary>
+		- A Place for your Stuff<br>
+		- A Home for Utility Methods<br>
+		- Building Modules<br>
+		- Treat Modules as Objects (Because they are)<br>
+	</div>
+    </details>
+</div>
+
+<div class="card">
+	<div class="card-section">
+	<details><summary><a href="{{book}}#page=221">Ch 16 - Modules & Mixins</a></summary>
+		- Better Books with Modules<br>
+		- Mixin Modules to the Rescue<br>
+		- Extending a Module<br>
+	</div>
+    </details>
+</div>
+
+<div class="card">
+	<div class="card-section">
+	<details><summary><a href="{{book}}#page=235">Ch 17 - Blocks & Iteration</a></summary>
+		- Review of Code Blocks<br>
+		- One Words after Another<br>
+		- As Many Iterators as You Like<br>
+		- Other Iterator Tools<br>
+		- Enumerable: Your Iterator on Steroids<br>
+	</div>
+    </details>
+</div>
+
+<div class="card">
+	<div class="card-section">
+	<details><summary><a href="{{book}}#page=247">Ch 18 - Executing around Blocks</a></summary>
+		- Logging<br>
+		- When it Must Happen<br>
+		- Initialization Blocks<br>
+		- Scope and Blocks<br>
+		- Carrying Answers Back<br>
+	</div>
+    </details>
+</div>
+
+<div class="card">
+	<div class="card-section">
+	<details><summary><a href="{{book}}#page=261">Ch 19 - Delayed Execution</a></summary>
+		- Explicit Blocks<br>
+		- The Callback Problem<br>
+		- Banking Blocks<br>
+		- Saving Blocks for Lazy Initialization<br>
+		- Instant Block Objects<br>
+	</div>
+    </details>
+</div>
+
+<h2>Metaprogramming</h2>
+
+<div class="card">
+	<div class="card-section">
+	<details><summary><a href="{{book}}#page=277">Ch 20 - Hooks</a></summary>
+		- Waking up to a New Subclass<br>
+		- Modules Want to be Heard<br>
+		- Knowing When your Time is Up<br>
+		- ...And a Cast of Thousands<br>
+	</div>
+    </details>
+</div>
+
+<div class="card">
+	<div class="card-section">
+	<details><summary><a href="{{book}}#page=291">Ch 21 - method_missing & Errors</a></summary>
+		- Meeting those Missing Methods<br>
+		- Handling Document Errors<br>
+		- Coping with Constants<br>		
+	</div>
+    </details>
+</div>
+
+<div class="card">
+	<div class="card-section">
+	<details><summary><a href="{{book}}#page=301">Ch 22 - method_missing & Delegation</a></summary>
+		- Delegation<br>
+		- Old-Fashioned Delegation Trouble<br>
+		- <code>method_missing</code><br>
+		- More Discriminating Delegation<br>
+	</div>
+    </details>
+</div>
+
+<div class="card">
+	<div class="card-section">
+	<details><summary><a href="{{book}}#page=313">Ch 23 - method_missing & APIs</a></summary>
+		- Building Form Letters One Word at a Time<br>
+		- Magic Methods<br>
+		- It's the Users that Count<br>
+	</div>
+    </details>
+</div>
+
+<div class="card">
+	<div class="card-section">
+	<details><summary><a href="{{book}}#page=321">Ch 24 - Monkey Patching (Existing Classes)</a></summary>
+		- Wide-Open Classes<br>
+		- Fixing a Broken Class<br>
+		- Improving Existing Classes<br>
+		- Renaming with <code>alias_method</code><br>
+		- Do Anything to any Class - Anytime<br>
+
+	</div>
+    </details>
+</div>
+
+<div class="card">
+	<div class="card-section">
+	<details><summary><a href="{{book}}#page=333">Ch 25 - Self-modifying Classes</a></summary>
+		- Open Classes - Again<br>
+		- Putting Logic in a Class<br>
+		- Class Methods that Change their Class<br>
+	</div>
+    </details>
+</div>
+
+<div class="card">
+	<div class="card-section">
+	<details><summary><a href="{{book}}#page=345">Ch 26 - Classes that Modify Subclasses</a></summary>
+		- A document of Paragraphs<br>
+		- Subclassing<br>
+		- Class Methods that Build Instance Methods<br>
+		- Better Method Creation: <code>define_method</code><br>
+		- Modifications: the Sky is the Limit<br>
+
+	</div>
+    </details>
+</div>
+
+<h2>Putting it Together</h2>
+
+<div class="card">
+	<div class="card-section">
+	<details><summary><a href="{{book}}#page=363">Ch 27 - Internal DSLs</a></summary>
+		- Little Languages for Big Problems<br>
+		- XML<br>
+		- Stepping over the DSL Line<br>
+		- Pulling out the Stops<br>
+	</div>
+    </details>
+</div>
+
+<div class="card">
+	<div class="card-section">
+	<details><summary><a href="{{book}}#page=379">Ch 28 - External DSLs</a></summary>
+		- The Trouble with the Ripper<br>
+		- Internal is not the only DSL<br>
+		- Regex for Heavier Parsing<br>
+		- Treetops<br>
+		- 
+	</div>
+    </details>
+</div>
+
+<div class="card">
+	<div class="card-section">
+	<details><summary><a href="{{book}}#page=395">Ch 29 - Packaging Gems</a></summary>
+		- Consuming Gems<br>
+		- Gem Versions<br>
+		- Nuts & Bolts<br>
+		- Building a Gem<br>
+		- Uploading Your Gem to a Repo<br>
+		- Automating Gem Creation<br>
+	</div>
+    </details>
+</div>
+
+<div class="card">
+	<div class="card-section">
+	<details><summary><a href="{{book}}#page=409">Ch 30 - Ruby Implementations</a></summary>
+		- Fistful of Rubies<br>
+		- MRI<br>
+		- YARV<br>
+		- JRuby<br>
+		- Rubinius<br>
+	</div>
+    </details>
+</div>
+
+<div class="card">
+	<div class="card-section">
+	<details><summary><a href="{{book}}#page=419">Ch 31 - Open Classes</a></summary>
+	</div>
+    </details>
+</div>
+
+<div class="card">
+	<div class="card-section">
+	<details><summary><a href="{{book}}#page=421">Appendix</a></summary>
+	</div>
+    </details>
+</div>
+
+</div>

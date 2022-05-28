@@ -1,0 +1,73 @@
+---
+date:   2021-04-30
+layout: default-foundation-20210515
+title: Sorting (ADM)
+tags: machine-learning algorithms
+---
+
+<div class="callout">
+    <h2>Algorithm Design Manual - Booknotes</h2>
+</div>
+
+<div style="columns: 2;">
+
+<div class="card">
+    <div class="card-section">
+        <h4><a href="/pdfs/math/sort-search-ADM.pdf">Sorting & Searching</a></h4></div>
+    <div class="card-section">
+    <strong>Factors:</strong><br>
+    <li>Increasing or decreasing order?</li>
+    <li>Sorting the key or entire record?</li>
+    <li>Equal keys. Now what?</li>
+    <li>Non-numerical data. Now what?</li>
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-section">
+        <strong>Heapsort</strong></div>
+    <div class="card-image">
+    <img src="/px/math/ADM-heapsort.png"></div>
+    <div class="card-section">
+    <p>A heap-labeled tree = a binary tree such that the key of each node "dominates" the keys of its children. You can store a binary tree in an array w/o pointers - space efficient, but missing nodes take up unused space.</p>
+</div>
+</div>
+
+<div class="card">
+    <div class="card-section">
+        <strong>Mergesort</strong></div>
+    <div class="card-image">
+        <img src="/px/math/ADM-mergesort.png"></div>
+    <div class="card-section">
+    <p>Partition elements into two groups, sort each smaller problem recursively, then interleave two sorted lists to order the merged elements.</p>
+</div>
+</div>
+
+<div class="card">
+    <div class="card-section">
+        <strong>Quicksort</strong></div>
+    <div class="card-image">
+        <img src="/px/math/ADM-quicksort.png"></div>
+</div>
+
+<div class="card">
+    <div class="card-section">
+        <strong>Distribution Sort</strong></div>
+    <div class="card-image">
+        <img src="/px/math/ADM-bucketsort.png"></div>
+    <div class="card-section">
+    <p>Ex: sorting phone book by 1st letter of last name ==> 26 buckets. Repeat with 2nd letter of last name (smaller piles), etc. Done when each bucket contains a single name.</p>
+    <p>Effective when distribution is roughly uniform, terrible when not.</p>
+</div>
+</div>
+
+<div class="card">
+    <div class="card-section">
+    <strong>Binary Search & Related algos</strong><br>
+    <p>Fast algorithm for searching a sorted array of keys.</p>
+</div>
+</div>
+
+</div>
+
+</div>

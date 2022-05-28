@@ -1,0 +1,37 @@
+---
+title: Ideas
+layout: default-foundation-20210515
+---
+
+<h2>Ideas & Creativity:</h2>
+
+<div class="callout primary">
+	<p>A placeholder page for creativity articles.</p>
+</div>
+
+{%- assign records = site.data.ideas.v20210516 | sort: "title" -%}
+
+{%- for record in records -%}
+    {%- if record.tags != "" -%}
+        <div class="card">
+            <div class="card-divider">
+                {%- if record.url -%}
+                    <a href="{{ record.url }}"> 
+                        {{ record.title }}
+                    </a>
+                {%- endif -%}
+            </div>
+
+            {%- if record.img -%}
+                <img src="/px/ideas/{{ record.img }}"/>
+            {%- endif -%}
+
+            {%- if record.note -%}
+                <div class="card-section">
+                        {{ record.note }}
+                </div>
+            {%- endif -%}
+
+        </div>
+    {%- endif -%}
+{%- endfor -%}
