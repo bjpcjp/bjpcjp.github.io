@@ -257,7 +257,6 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
-  jekyll (~> 3.9.0)
   jekyll-feed (~> 0.6)
   kramdown-parser-gfm
   tzinfo (~> 1.2)
