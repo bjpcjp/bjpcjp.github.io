@@ -1049,8 +1049,8 @@
 <lastmod>2022-03-19T16:34:00-04:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/jekyll/update/2022/05/26/welcome-to-jekyll.html</loc>
-<lastmod>2022-05-26T19:32:04-04:00</lastmod>
+<loc>http://localhost:4000/2022/03/19/svg-dummies.html</loc>
+<lastmod>2022-03-19T16:34:00-04:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/about/</loc>
@@ -1114,9 +1114,6 @@
 </url>
 <url>
 <loc>http://localhost:4000/uiux/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/about/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/was_index.html</loc>

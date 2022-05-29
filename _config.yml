@@ -29,7 +29,7 @@ show_excerpts: true
 # navigation links
 header_pages:
   - posts-by-tag.html
-#  - about.html 
+  - about.html
   - behaviors.html # data-based equivalent = in devt
   - math.html # titled as algorithms
   - devops.html # was linux.html
