@@ -6,16 +6,16 @@
   tags: articles & papers
   notes:
     <p>
-      1) Intro;
-      2) Simultaneous-move games; 
-      3) Sequential-move, perfect-info-availability games; 
-      4) Probability; 
-      5) Sequential-move randomized games; 
-      6) Extensive form; 
-      7) Normal form; 
-      8) Mixed strategies; 
-      9) Behavioral strategies; 
-      Bibliography & index
+      - Intro<br>
+      - Simultaneous-move games<br> 
+      - Sequential-move, perfect-info-availability games<br> 
+      - Probability<br>
+      - Sequential-move randomized games<br> 
+      - Extensive form<br>
+      - Normal form<br>
+      - Mixed strategies<br> 
+      - Behavioral strategies<br> 
+      - Bibliography & index
     </p>
   parent:
 
@@ -32,9 +32,16 @@
 - title:  Auction Theory  
   url: /pdfs/gametheory/gos-ch16-auctions.pdf 
   px:  /px/gametheory/auction-mechanisms-dongmo.png 
-  notes:  auction types; the winner's curse; 
-    how to bid; all-pay; how to sell; additional twists;
-    resources
+  notes:  
+    <p>
+    - auction types<br>
+    - the winner's curse,br> 
+    - how to bid<br>
+    - all-pay<br>
+    - how to sell<br>
+    - additional twists<br>
+    - resources<br>
+    </p>
   tags: auction theory 
  
 - title:  Single-Sided, Single-Unit Auctions (dongmo) 
@@ -64,42 +71,49 @@
   url:  /pdfs/gametheory/gos-ch17-bargaining.pdf 
   px:  /px/gametheory/bargaining-nash-simple.png 
   tags: bargaining frameworks 
-  notes: 
-    1) Nash's cooperative solution; 
-    2) Variable-thread bargaining
-    3) Alternating offers, Type I (total value decays);
-    4) Experimental evidence;
-    5) Alternating offers, Type II (impatience); 
-    6) Manipulating information;
-    7a) Multiple-issue bargaining; 
-    7b) Multiple-party bargaining
+  notes:
+    <p> 
+    - Nash's cooperative solution<br> 
+    - Variable-thread bargaining<br>
+    - Alternating offers, Type I (total value decay)<br>
+    - Experimental evidence<br>
+    - Alternating offers, Type II (impatience)<br> 
+    - Manipulating information<br>
+    - Multiple-issue bargaining<br>
+    - Multiple-party bargaining<br>
+    </p>
 
 - title: Evolutionary game structures
   url: /pdfs/gametheory/gos-ch12-evolutionary-games.pdf
   tags: classifications, terminology, mechanisms
   notes:
-    1) framework;
-    2) Prisoner's Dilemma;
-    3) "chicken";
-    4) The assurance game; 
-    5) Three phenotypes;
-    6) Hawk & Doves;
-    7) Interactions by population & across species;
-    8) Cooperation & Altruism
+    <p>
+    - framework<br>
+    - Prisoner's Dilemma<br>
+    - "chicken"<br>
+    - The assurance game<br> 
+    - Three phenotypes<br>
+    - Hawk & Doves<br>
+    - Interactions by population & across species<br>
+    - Cooperation & Altruism<br>
+    </p>
 
 - title:  Game Structures
   url: /pdfs/gametheory/gos-ch02-how-to-think.pdf 
   tags: classifications, terminology, mechanisms
-  notes: 
-    1) decisions vs games; 
-    2a) sequential vs simultaneous moves; 
-    2b) zero-sum vs common interests;
-    2c) single vs repeating plays; constant vs changing opponents;
-    2d) access to equal information;
-    2e) fixed vs malleable rules;
-    2f) enforceable agreements?; 
-    3) terminology;
-    4) uses
+  notes:
+    <p> 
+    - decisions vs games<br> 
+    - sequential vs simultaneous moves<br> 
+    - zero-sum vs common interests<br>
+    - single vs repeating plays<br>
+    - constant vs changing opponents<br>
+    - access to equal information<br>
+    - fixed vs malleable rules<br>
+    - enforceable agreements?<br>
+    - terminology<br>
+    - uses<br>
+    </p>
 
 - title:  Mechanism Design
   url: /pdfs/gametheory/gos-ch13-mechanism-design.pdf

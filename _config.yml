@@ -47,33 +47,3 @@ header_pages:
 # pagination
 paginate: 20
 
-# algolia search plugin API:
-algolia:
-  #application_id: 0ST64V6V0J
-  #index_name: jekyll
-  #search_only_api_key: e850d8fbd248c7d7df4a35544f104d32
-  #
-  #extensions_to_index:
-  #  - html
-  #  - md 
-  #  - txt 
-    #- pdf
-    #- ipynb
-    #
-#  nodes_to_index: 'p,div.card,div.textcard,blockquote'
-  
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
-
-# disabled 2021/02/05
-#disqus:
-#  shortname: brianpiercy

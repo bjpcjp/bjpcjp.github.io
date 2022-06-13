@@ -4,7 +4,8 @@ title:  Game Theory
 permalink: /gametheory/
 ---
 
-{%- assign records = site.data.gametheory.v20210626 | sort: "tags" | group_by: "tags" -%}
+<!-- formerly: v20210626 -->
+{%- assign records = site.data.gametheory.v20220612 | sort: "tags" | group_by: "tags" -%}
 
 <h2>Game Theory:</h2>
 
@@ -14,7 +15,6 @@ permalink: /gametheory/
         <a href="#{{tag.name}}">{{tag.name}}</a>&nbsp; &nbsp;
     {%- endfor -%}
 </div>
-
 
 {%- for tag in records -%}
     {%- if tag.name != "" -%}
