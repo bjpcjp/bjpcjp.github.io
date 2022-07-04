@@ -1,6 +1,6 @@
 ---
 layout: default-foundation-20210515
-title: Stuff I'm Reading
+title: Posts by Date
 ---
 
 {% if site.posts.size > 0 -%}
@@ -10,7 +10,10 @@ title: Stuff I'm Reading
   {%- assign last50posts = site.posts | sort: 'date' | reverse | slice: 0, 50 -%}
   {%- assign showindex = True -%}
 
-<h1>Last 50 Posts</h1>
+  <div class="callout">
+    <h2>Last 50 Posts - by Date</h2>
+  </div>
+  
 
 <div style="column-count: 2;">
   {%- for post in last50posts -%}

@@ -1,6 +1,6 @@
 ---
 layout: default-foundation-20210515
-title: Index
+title: Posts by Title
 ---
 
 {% if site.posts.size > 0 -%}
@@ -10,7 +10,9 @@ title: Index
   {%- assign last20posts = posts | reverse | slice: 1, 20 -%}
   {%- assign showindex = True -%}
 
-<h1>Stuff I'm Reading</h1>
+  <div class="callout">
+    <h2>All posts by title</h2>
+  </div>
 
 <div style="column-count: 2;">
   {%- for post in posts -%}

@@ -1,0 +1,42 @@
+---
+layout: default-foundation-20210515
+title:  Behavior & Emotion resources
+tags: behavior
+date: 2022-07-02
+---
+
+{%- assign sorted = site.data.behaviors.v20210307 | sort: "tags" | group_by: "tags" -%}
+
+<div class="callout">
+    <h2>Behaviors</h2>(formerly a top-level menu page.)</div>
+
+<div class="callout primary">
+    {%- for tag in sorted -%}
+        <a href="#{{tag.name}}">{{tag.name}}</a> &nbsp; &nbsp;
+    {%- endfor -%}
+</div>
+
+{%- for tag in sorted -%}
+    {%- if tag.name != "" -%}
+        <div class="card">
+            <div class="card-divider" id="{{tag.name}}">
+                {{ tag.name }}
+            </div>
+
+            <div class="card-section">
+                {%- assign sorted_tag_items = tag.items | sort: "title" -%}
+                {%- for item in sorted_tag_items -%}
+
+                    <a href="{{item.url}}" target="_blank">
+                        {{item.title}}<br>
+                        <!--
+                        {%- if item.img -%}
+                            <img src="{{item.img}}">
+                        {%- endif -%}<br>
+                    -->
+                    </a>
+                {%- endfor -%}
+            </div>
+        </div>
+    {%- endif -%}
+{%- endfor -%}

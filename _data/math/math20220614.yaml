@@ -6,312 +6,299 @@
   source: 
 
 - url: /math/01a_logistic_regression.html
-  title: jupyter notebook
-  tags: regression (logistic regression)
+  title: regression (logistic)
+  tags: scikit-learn (jupyter nb to HTML)
   source: SL 0.24
 
 - url: /math/01_linear_models.html
-  title: jupyter notebook
-  tags: regression (linear models)
+  title: regression (linear)
+  tags: scikit-learn (jupyter nb to HTML)
   source: SL 0.24
 
 - url: /math/02_discriminant_analysis.html
-  title: PCA, LDA - jupyter notebook
-  tags: discriminant analysis
+  title: discriminant analysis (PCA, LDA)
+  tags: scikit-learn (jupyter nb to HTML)
   source: SL 0.24
 
 - url: /math/03_kernel_ridge_regression.html
-  title: jupyter notebook
-  tags: regression (kernel ridge)
+  title: regression (kernel ridge)
+  tags: scikit-learn (jupyter nb to HTML)
   source: SL 0.24
 
 - url: /math/04_support_vector_machines.html
-  title: jupyter notebook
-  tags: support vector machines
+  title: support vector machines (SVMs)
+  tags: scikit-learn (jupyter nb to HTML)
   source: SL 0.24
 
 - url: /math/05_stochastic_gradient_descent.html
-  title: sgd (jupyter notebook)
-  tags: learning
+  title: stochastic gradient descent (SGD)
+  tags: scikit-learn (jupyter nb to HTML)
   source: SL 0.24
 
 - url: /math/06_nearest_neighbors.html
-  title: jupyter notebook
-  tags: nearest neighbors
+  title: nearest neighbors
+  tags: scikit-learn (jupyter nb to HTML)
   source: SL 0.24
 
 - url: /math/07_gaussians.html
-  title: jupyter notebook
-  tags: gaussian models
+  title: gaussian models
+  tags: scikit-learn (jupyter nb to HTML)
   source: SL 0.24
 
 - url: /math/08_cross_decomposition.html
-  title: jupyter notebook
-  tags: cross decomposition
+  title: cross decomposition
+  tags: scikit-learn (jupyter nb to HTML)
   source: SL 0.24
 
 - url: /math/09_naive_bayes.html
-  title: naive bayes (jupyter notebook)
-  tags: bayes
+  title: naive bayes
+  tags: scikit-learn (jupyter nb to HTML)
   source: SL 0.24
 
 - url: /math/10_decision_trees.html
-  title: jupyter notebook
-  tags: decision trees
+  title: decision trees
+  tags: scikit-learn (jupyter nb to HTML)
   source: SL 0.24
 
 - url: /math/11a_bagging_trees.html
-  title: jupyter notebook
-  tags: bagging
+  title: ensembles-bagging
+  tags: scikit-learn (jupyter nb to HTML)
   source: SL 0.24
 
 - url: /math/11b_boosting.html
-  title: jupyter notebook
-  tags: boosting
+  title: ensembles-boosting
+  tags: scikit-learn (jupyter nb to HTML)
   source: SL 0.24
 
 - url: /math/11c_voting.html
-  title: voting (jupyter notebook)
-  tags: ensembles
+  title: ensembles-voting
+  tags: scikit-learn (jupyter nb to HTML)
   source: SL 0.24
 
 - url: /math/11d_general_stacking.html
-  title: general stacking - jupyter notebook
-  tags: ensembles
+  title: ensembles-stacking
+  tags: scikit-learn (jupyter nb to HTML)
   source: SL 0.24
 
 - url: /math/12_multiclass_multioutput.html
-  title: jupyter notebook
-  tags: multiclass-multioutput
+  title: multiclass & multioutput solvers
+  tags: scikit-learn (jupyter nb to HTML)
   source: SL 0.24
 
 - url: /math/13_feature_selection.html
-  title: jupyter notebook
-  tags: feature selection
+  title: feature selection
+  tags: scikit-learn (jupyter nb to HTML)
   source: SL 0.24
 
 - url: /math/14_unsupervised.html
-  title: jupyter notebook
-  tags: unsupervised learning
+  title: unsupervised learning overview
+  tags: scikit-learn (jupyter nb to HTML)
   source: SL 0.24
 
 - url: /math/15_isotonic_regression.html
-  title: jupyter notebook
-  tags: regression (isotonic)
+  title: regression (isotonic)
+  tags: scikit-learn (jupyter nb to HTML)
   source: SL 0.24
 
 - url: /math/16_calibration_curves.html
-  title: jupyter notebook
-  tags: calibration
+  title: calibration curves
+  tags: scikit-learn (jupyter nb to HTML)
   source: SL 0.24
 
 - url: /math/17_perceptron.html
-  title: jupyter notebook
-  tags: perceptrons
+  title: multilayer perceptrons (MLPs)
+  tags: scikit-learn (jupyter nb to HTML)
   source: SL 0.24
 
 - url: /math/21_gaussian_mixtures.html
-  title: jupyter notebook
-  tags: gaussian mixtures
+  title: gaussian mixture models (GMMs)
+  tags: scikit-learn (jupyter nb to HTML)
   source: SL 0.24
 
 - url: /math/22_manifolds.html
-  title: jupyter notebook
-  tags: manifolds
+  title: manifold models
+  tags: scikit-learn (jupyter nb to HTML)
   source: SL 0.24
 
 - url: /math/23_clustering.html
-  title: jupyter notebook
-  tags: clustering
+  title: clustering
+  tags: scikit-learn (jupyter nb to HTML)
   source: SL 0.24
 
 - url: /math/24_biclustering.html
-  title: jupyter notebook
-  tags: biclustering
+  title: biclustering
+  tags: scikit-learn (jupyter nb to HTML)
   source: SL 0.24
 
 - url: /math/25_component_analysis_matrix_factorization.html
-  title: jupyter notebook
-  tags: component analysis
+  title: component analysis | matrix factorization
+  tags: scikit-learn (jupyter nb to HTML)
   source: SL 0.24
 
-- url: /math/25_component_analysis_matrix_factorization.html
-  title: jupyter notebook
-  tags: matrix math
-  source: SL 0.24
+#- url: /math/25_component_analysis_matrix_factorization.html
+#  title: jupyter notebook
+#  tags: matrix math
+#  source: SL 0.24
 
 - url: /math/26_covariance.html
-  title: jupyter notebook
-  tags: covariance
+  title: covariance
+  tags: scikit-learn (jupyter nb to HTML)
   source: SL 0.24
 
 - url: /math/27_novelties_outliers.html
-  title: jupyter notebook
-  tags: novelty & outlier detection
+  title: novelty & outlier detection
+  tags: scikit-learn (jupyter nb to HTML)
   source: SL 0.24
 
 - url: /math/28_density_estimation.html
-  title: jupyter notebook
-  tags: density estimation
+  title: density estimation
+  tags: scikit-learn (jupyter nb to HTML)
   source: SL 0.24
 
 - url: /math/29_restricted_boltzmann_machines.html
-  title: jupyter notebook
-  tags: rbms
+  title: restricted boltzmann machines (RBMs)
+  tags: scikit-learn (jupyter nb to HTML)
   source: SL 0.24
 
 - url: /math/31_cross_validation.html
-  title: jupyter notebook
-  tags: cross validation
+  title: cross validation
+  tags: scikit-learn (jupyter nb to HTML)
   source: SL 0.24
 
 - url: /math/32_hyperparameters.html
-  title: jupyter notebook
-  tags: hyperparameters
+  title: hyperparameter tuning
+  tags: scikit-learn (jupyter nb to HTML)
   source: SL 0.24
 
 - url: /math/33a_classification_metrics.html
-  title: classifier metrics
-  tags: metrics-scoring
+  title: classification metrics
+  tags: scikit-learn (jupyter nb to HTML)
   source: SL 0.24
 
 - url: /math/33b_multilabel_ranking_metrics.html
   title: multilabel metrics
-  tags: metrics-scoring
+  tags: scikit-learn (jupyter nb to HTML)
   source: SL 0.24
 
 - url: /math/33c_regression_metrics.html
   title: regression metrics
-  tags: metrics-scoring
+  tags: scikit-learn (jupyter nb to HTML)
   source: SL 0.24
 
 - url: /math/33_metrics.html
-  title: scikit-learn basics
-  tags: metrics-scoring
+  title: metrics basics
+  tags: scikit-learn (jupyter nb to HTML)
   source: SL 0.24
 
 - url: /math/34_validation_learning_curves.html
   title: validation & learning curves
-  tags: metrics-scoring
+  tags: scikit-learn (jupyter nb to HTML)
   source: SL 0.24
 
 - url: /math/41_inspection_plots.html
-  title: inspection plots
-  tags: visualization
+  title: visualization | inspection plots
+  tags: scikit-learn (jupyter nb to HTML)
   source: SL 0.24
 
 - url: /math/42_permutation_feature_importance.html
-  title: permutation feature importance plots
-  tags: metrics-scoring
+  title: visualization | permutation feature importance plots
+  tags: scikit-learn (jupyter nb to HTML)
   source: SL 0.24
 
 - url: /math/50a_ROC_curve_viz.html
-  title: roc curve plots
-  tags: metrics-scoring
+  title: visualization | roc curve plots
+  tags: scikit-learn (jupyter nb to HTML)
   source: SL 0.24
 
 - url: /math/50b_partial_dependence_viz.html
-  title: partial dependence plots
-  tags: metrics-scoring
+  title: visualization | partial dependence plots
+  tags: scikit-learn (jupyter nb to HTML)
   source: SL 0.24
 
 - url: /math/50c_display_objects.html
-  title: display objects (scikit-learn)
-  tags: metrics-scoring
+  title: visualization | display objects (scikit-learn)
+  tags: scikit-learn (jupyter nb to HTML)
   source: SL 0.24
 
 - url: /math/61_composite_transformers.html
-  title: pipelines, feature unions
-  tags: feature engineering
+  title: combination workflows (pipelines & feature unions)
+  tags: scikit-learn (jupyter nb to HTML)
   source: SL 0.24
 
 - url: /math/62a_text_feature_extraction.html
   title: feature extraction (text)
-  tags: feature engineering
+  tags: scikit-learn (jupyter nb to HTML)
   source: SL 0.24
 
 - url: /math/62b_image_patch_extraction.html
   title: feature extraction (images)
-  tags: feature engineering
+  tags: scikit-learn (jupyter nb to HTML)
   source: SL 0.24
 
 - url: /math/62_feature_extraction.html
   title: feature extraction (general)
-  tags: feature engineering
+  tags: scikit-learn (jupyter nb to HTML)
   source: SL 0.24
 
 - url: /math/63_preprocessing.html
-  title: feature preprocessing
-  tags: feature engineering
+  title: feature engineering | preprocessing
+  tags: scikit-learn (jupyter nb to HTML)
   source: SL 0.24
 
 - url: /math/64_imputation.html
-  title: data imputation
-  tags: feature engineering
+  title: feature engineering | data imputation
+  tags: scikit-learn (jupyter nb to HTML)
   source: SL 0.24
 
 - url: /math/66_random_projections.html
-  title: random projections
-  tags: feature engineering
+  title: feature engineering | random projections
+  tags: scikit-learn (jupyter nb to HTML)
   source: SL 0.24
 
 - url: /math/67_kernel_approximation.html
   title: kernel approximations
-  tags: feature engineering
+  tags: scikit-learn (jupyter nb to HTML)
   source: SL 0.24
 
 - url: /math/68_pairwise_ops.html
   title: pairwise ops
-  tags: feature engineering
+  tags: scikit-learn (jupyter nb to HTML)
   source: SL 0.24
 
 - url: /math/71_example_datasets.html
-  title: toy datasets
-  tags: datasets
+  title: datasets - toy datasets
+  tags: scikit-learn (jupyter nb to HTML)
   source: SL 0.24
 
 - url: /math/73_artificial_data_generators.html
-  title: artificial data generators
-  tags: datasets
+  title: datasets - artificial data generators
+  tags: scikit-learn (jupyter nb to HTML)
   source: SL 0.24
 
 - url: /math/74_other_datasets.html
-  title: other datasets incl openML
-  tags: feature engineering
+  title: datasets - openML, more
+  tags: scikit-learn (jupyter nb to HTML)
   source: SL 0.24
 
 - url: /math/81_scaling.html
   title: performance vs scaling
-  tags: feature engineering
+  tags: scikit-learn (jupyter nb to HTML)
   source: SL 0.24
 
 - url: /math/82_performance.html
   title: performance vs problem type
-  tags: feature engineering
+  tags: scikit-learn (jupyter nb to HTML)
   source: SL 0.24
 
 - url: /math/83_parallelism.html
   title: performance vs parallelism
-  tags: performance
+  tags: scikit-learn (jupyter nb to HTML)
   source: SL 0.24
 
 - url: /math/90_persistence.html
   title: file IO
-  tags: feature engineering
+  tags: scikit-learn (jupyter nb to HTML)
   source: SL 0.24
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 - url: /pdfs/math/101-Data-Science-Interview-Questions.pdf

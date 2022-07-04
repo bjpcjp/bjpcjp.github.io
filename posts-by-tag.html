@@ -1,15 +1,15 @@
 ---
-title: Posts by Tag
+title: Posts by Topic
 layout: default-foundation-20210515
 ---
 
 <div class="callout">
-  <h2>All Posts, Grouped by Tags:</h2>
+  <h2>Posts by Topic</h2>
 </div>
 
 {% assign sorted = site.tags | sort %}
 
-<div class="callout primary">
+<div class="callout">
   {%- for tag in sorted -%}
       <a href="#{{tag[0]}}">{{tag[0]}}</a> &nbsp; &nbsp;
   {%- endfor -%}

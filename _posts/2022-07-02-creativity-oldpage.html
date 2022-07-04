@@ -1,0 +1,37 @@
+---
+title: Creativity & Innovation
+layout: default-foundation-20210515
+tags: creativity, ideas, ideation, innovation 
+date: 2022-07-02
+---
+
+<div class="callout">
+    <h2>Ideas & Creativity:</h2>
+</div>
+
+{%- assign records = site.data.ideas.v20210516 | sort: "title" -%}
+
+{%- for record in records -%}
+    {%- if record.tags != "" -%}
+        <div class="card">
+            <div class="card-divider">
+                {%- if record.url -%}
+                    <a href="{{ record.url }}"> 
+                        {{ record.title }}
+                    </a>
+                {%- endif -%}
+            </div>
+
+            {%- if record.img -%}
+                <img src="/px/ideas/{{ record.img }}"/>
+            {%- endif -%}
+
+            {%- if record.note -%}
+                <div class="card-section">
+                        {{ record.note }}
+                </div>
+            {%- endif -%}
+
+        </div>
+    {%- endif -%}
+{%- endfor -%}

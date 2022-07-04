@@ -6,17 +6,11 @@
       <div class="grid-x">     
 
         <div class="text-left">
-
           <h1><a href="{{ "/" | relative_url }}">{{ site.title | escape }}</a></h1>
+          {%- include searchform.html -%}
+          <br>
+          {%- include mainmenu-foundation-20210515.html -%}
 
-          <!--{%- include searchform.html -%}-->
-
-          <!--<div class="cell small-4 medium-3 large-2">-->
-            <!-- was include mainmenu-foundation-20210515.html -->
-          {%- include mainmenu-foundation-20220703.html -%}
-          <!--</div>-->
-          
-  
         </div>
 
       </div>
