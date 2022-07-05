@@ -3,30 +3,18 @@
   <body>
     <div class="grid-container fluid">
 
-      <div class="grid-x">     
-
+      <div class="row">     
         <div class="text-left">
-
           <h1><a href="{{ "/" | relative_url }}">{{ site.title | escape }}</a></h1>
-
-          <!--{%- include searchform.html -%}-->
-
-          <!--<div class="cell small-4 medium-3 large-2">-->
-            <!-- was include mainmenu-foundation-20210515.html -->
-          {%- include mainmenu-foundation-20220703.html -%}
-          <!--</div>-->
-          
-  
         </div>
-
       </div>
 
-      <div class="grid-x">     
+      <div class="row">
+        {%- include mainmenu-foundation-20220703.html -%}
+      </div>
 
-        <div class="cell small-8 medium-9 large-10">
+      <div class="row">     
           {{ content }}
-        </div>
-
       </div>
 
       <hr>
