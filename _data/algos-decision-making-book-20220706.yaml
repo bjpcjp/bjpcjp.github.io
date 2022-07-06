@@ -1,0 +1,464 @@
+- title: intro
+  url: 01-intro.pdf
+  tags:
+  px:
+  notes:
+    1. decision making<br>
+    2. applications / use cases<br>
+    3. methods<br>
+    4. history<br>
+    5. societal impact<br>
+    6. overview<br>
+  more:
+
+- title: representation
+  url: 02-representation.pdf
+  tags:
+  px:
+  notes:
+    1. Degrees of belief<br>
+    2. Probability distributions<br>
+  more:
+
+- title: inference
+  url: 03-inference.pdf
+  tags:
+  px:
+  notes:
+    1. bayesian<br>
+    2. naive bayes<br>
+    3. sum-product variable elimination<br>
+    4. belief propagation<br>
+    5. computational complexity<br>
+    6. direct sampling<br>
+    7. likelihood weighted sampling<br>
+    8. gibbs sampling<br>
+    9. gaussian<br>
+    10. summary
+  more:
+
+- title: parameter learning
+  url: 04-param-learning.pdf
+  tags:
+  px:
+  notes:
+    1. max-likelihood (categorical, gaussian, bayes)<br>
+    2. bayes<br>
+    3. non-parametric<br>
+    4. missing data<br>
+    - imputation<br>
+    - expectation-maximization (EM)<br>
+  more:
+
+- title: structure learning
+  url: 05-struct-learning.pdf
+  tags:
+  px:
+  notes:
+    1. bayesian network scoring<br>
+    2. directed graph search<br>
+    3. markov equivalence classes<br>
+    4. partially-directed graph search<br>
+  more:
+
+- title: simple decisions
+  url: 06-simple-decisions.pdf
+  tags:
+  px:
+  notes:
+    1. constraints on rational preferences<br>
+    2. utility functions<br>
+    3. utility elicitation<br>
+    4. max expected utility<br>
+    5. decision networks<br>
+    6. value of information<br>
+    7. irrationality<br>
+  more:
+
+- title: sequential exact solutions
+  url: 07-sequential-exact-solns.pdf
+  tags:
+  px:
+  notes:
+    1. markov decision processes (MDPs)<br>
+    2. policy evaluation<br>
+    3. value function policies<br>
+    4. policy iteration<br>
+    5. value iteration<br>
+    6. value iteration (async)<br>
+    7. linear program formulation<br>
+    8. linear systems with quadratic rewards<br>
+  more:
+
+- title: sequential approximate solutions
+  url: 08-sequential-approx-val-functs.pdf
+  tags:
+  px:
+  notes:
+    1. parametric representations<br>
+    2. nearest neighbors<br>
+    3. kernel smoothing<br>
+    4. linear interpolation<br>
+    5. simplex interpolation<br>
+    6. linear regression<br>
+    7. neural net regression<br>
+  more:
+
+- title: online planning
+  url: 09-sequential-planning.pdf
+  tags:
+  px:
+  notes:
+    1. receding-horizon plans<br>
+    2. lookahead with rollouts<br>
+    3. forward search<br>
+    4. branch & bound<br>
+    5. sparse sampling<br>
+    6. monte carlo tree search<br>
+    7. heuristic search<br>
+    8. labeled heuristic search<br>
+    9. open-loop planning<br>
+  more:
+
+- title: policy search
+  url: 10-policy-search.pdf
+  tags:
+  px:
+  notes:
+    1. approx policy evaluation<br>
+    2. local search<br>
+    3. genetic algorithms<br>
+    4. cross entropy methods<br>
+    5. evolutional strategies<br>
+    6. evolutional strategies (isotropic)<br>
+  more:
+
+- title: policy gradient estimation
+  url: 11-policy-grad-est.pdf
+  tags:
+  px:
+  notes:
+    1. finite difference methods<br>
+    2. regression gradients<br>
+    3. likelihood ratios<br>
+    4. reward-to-go<br>
+    5. baseline subtraction<br>
+  more:
+
+- title: policy gradient optimization
+  url: 12-policy-grad-optm.pdf
+  tags:
+  px:
+  notes:
+    1. gradient ascent updates<br>
+    2. gradient ascent updates (restricted)<br>
+    3. gradient ascent updates (natural)<br>
+    4. trust region updates<br>
+    5. clamped surrogate objective<br>
+  more:
+
+- title: actor critic methods
+  url: 13-actor-critic-methods.pdf
+  tags:
+  px:
+  notes:
+    1. intro<br>
+    2. generalized advantage estimation<br>
+    3. deterministic policy gradient<br>
+    4. actor-critic with monte carlo tree search<br>
+  more:
+
+- title: policy validation
+  url: 14-policy-validation.pdf
+  tags:
+  px:
+  notes:
+    1. performance evaluation<br>
+    2. rare-event simulation<br>
+    3. robustness<br>
+    4. tradeoff analysis<br>
+    5. adversarial analysis<br>
+  more:
+
+- title: explore & exploit methods
+  url: 15-explore-exploit.pdf
+  tags:
+  px:
+  notes:
+    1. bandit problems<br>
+    2. bayesian model estimation<br>
+    3. undirected exploration<br>
+    4. directed exploration<br>
+    5. optimal exploration<br>
+    6. multiple-state exploration<br>
+  more:
+
+- title: model-based methods
+  url: 16-model-based-methods.pdf
+  tags:
+  px:
+  notes:
+    1. max likelihood<br>
+    2. update schemes<br>
+    3. bayesian methods<br>
+    4. bayes-adaptive MDPs<br>
+    5. posterior sampling<br>
+  more:
+
+- title: model-free methods
+  url: 17-model-free-methods.pdf
+  tags:
+  px:
+  notes:
+    1. incremental mean estimates<br>
+    2. Q-learning<br>
+    3. sarsa<br>
+    4. eligibility tracing<br>
+    5. reward shaping<br>
+    6. action value function approximation<br>
+    7. experience replay<br>
+  more:
+
+- title: imitation learning
+  url: 18-imitation-learning.pdf
+  tags:
+  px:
+  notes:
+    1. behavioral cloning<br>
+    2. dataset aggregation<br>
+    3. stochastic mixing iterative learning<br>
+    4. max margin inverse reinforcement learning<br>
+    5. max entropy "    " "           " "      "<br>
+    6. generative adversarial imitation learning<br>
+  more:
+
+- title: beliefs
+  url: 19-beliefs.pdf
+  tags:
+  px:
+  notes:
+    1. initialization<br>
+    2. discrete state filter<br>
+    3. linear gaussian filter<br>
+    4. extended kalman filter<br>
+    5. unscented kalman filter<br>
+    6. particle filter<br>
+    7. particle injection<br>
+    8. summary<br>
+  more:
+
+- title: belief state planning - exact
+  url: 20-belief-state-planning-exact.pdf
+  tags:
+  px:
+  notes:
+    1. belief-state MDPs<br>
+    2. conditional plans<br>
+    3. alpha vectors<br>
+    4. pruning<br>
+    5. value iteration<br>
+    6. linear policies<br>
+  more:
+
+- title: belief state planning - offline
+  url: 21-belief-state-planning-offline.pdf
+  tags:
+  px:
+  notes:
+    1. fully-observable value approximation<br>
+    2. fast informed bound<br>
+    3. fast lower bounds<br>
+    4. point-based value iteration<br>
+    5. point-based value iteration (randomized)<br>
+    6. upper bound (sawtooth)<br>
+    7. point selection<br>
+    8. sawtooth heuristic search<br>
+    9. triangulated value functions<br>
+  more:
+
+- title: belief state planning - online
+  url: 22-belief-state-planning-online.pdf
+  tags:
+  px:
+  notes:
+    1. lookahead with rollouts<br>
+    2. forward search<br>
+    3. branch & bound<br>
+    4. sparse sampling<br>
+    5. monte carlo tree search<br>
+    6. determinized sparse tree search<br>
+    7. gap heuristic search<br>
+  more:
+
+- title: controller abstractions
+  url: 23-controller-abstracts.pdf
+  tags:
+  px:
+  notes:
+    1. controllers<br>
+    2. policy iteration<br>
+    3. nonlinear programming<br>
+    4. gradient ascent<br>
+  more:
+
+- title: multiagent reasoning
+  url: 24-multiagent-reasoning.pdf
+  tags:
+  px:
+  notes:
+    1. simple games<br>
+    2. response models<br>
+    3. nash equilibrium<br>
+    4. correlated equilibrium<br>
+    5. iterated best response<br>
+    6. hierarchical softmax<br>
+    7. fictitious play<br>
+  more:
+
+- title: sequential problems
+  url: 25-sequential-problems.pdf
+  tags:
+  px:
+  notes:
+    1. markov game (MG)<br>
+    2. response models<br>
+    3. nash equilibrium<br>
+    4. opponent modeling<br>
+    5. nash q-learning<br>
+  more:
+
+- title: state uncertainty
+  url: 26-state-uncertainty.pdf
+  tags:
+  px:
+  notes:
+    1. partially observable markov game (POMG)<br>
+    2. policy evaluation<br>
+    3. nash equilibrium<br>
+    4. dynamic programming<br>
+  more:
+
+- title: collaborative agents
+  url: 27-collaborative-agents.pdf
+  tags:
+  px:
+  notes:
+    1. decentralized, partially observable, markov decision processes<br>
+    2. subclasses<br>
+    3. dynamic programming<br>
+    4. iterated best response<br>
+    5. heuristic search<br>
+    6. nonlinear programming<br>
+  more:
+
+- title: math concepts
+  url: 28-math.pdf
+  tags:
+  px:
+  notes:
+    1. measure spaces<br>
+    2. probability spaces<br>
+    3. metric spaces<br>
+    4. normed vector spaces<br>
+    5. positive definiteness<br>
+    6. convexity<br>
+    7. information content<br>
+    8. entropy<br>
+    9. cross entropy<br>
+    10. relative entropy<br>
+    11. gradient ascent<br>
+    12. taylor expansions<br>
+    13. monte carlo estimation<br>
+    14. importance sampling<br>
+    15. contraction mappings<br>
+  more:
+
+- title: probability distributions
+  url: 29-prob-distributions.pdf
+  tags:
+  px:
+  notes:
+    1. uniform<br>
+    2. gaussian (univariate)<br>
+    3. beta<br>
+    4. gaussian (multivariate)<br>
+    5. dirichlet<br>
+  more:
+
+- title: computational complexity
+  url: 30-comp-complexity.pdf
+  tags:
+  px:
+  notes:
+    1. asymptotic notation<br>
+    2. P, NP, NP-hard, NP-complete (time complexity)<br>
+    3. space complexity<br>
+    4. decideability, aka the halting problem<br>
+  more:
+
+- title: neural representations
+  url: 31-neural-representations.pdf
+  tags:
+  px:
+  notes:
+    1. neural nets (NNs)<br>
+    2. feedforward nets<br>
+    3. regularization<br>
+    4. convolutional NNs<br>
+    5. recurrent NNs<br>
+    6. autoencoder nets<br>
+    7. adversarial nets<br>
+  more:
+
+- title: search algorithms
+  url: 32-search-algos.pdf
+  tags:
+  px:
+  notes:
+    1. search problems<br>
+    2. graphs<br>
+    3. forward search<br>
+    4. branch & bound<br>
+    5. dynamic programming<br>
+    6. heuristic search<br>
+  more:
+
+- title: test problems
+  url: 33-problems.pdf
+  tags:
+  px:
+  notes:
+    1. test world<br>
+    2. 2048 (a tile game)<br>
+    3. cart-pole (pole balancing)<br>
+    4. mountain car<br>
+    5. linear quadratic regulator<br>
+    6. aircraft collision avoidance<br>
+    7. crying baby<br>
+    8. machine replacement<br>
+    9. catch<br>
+    10. prisoner's dilemma<br>
+    11. rock-paper-scissors<br>
+    12. traveler's dilemma<br>
+    13. predator-prey<br>
+    14. crying baby (multi-caregiver)<br>
+    15. predator-prey (collaborative)<br>
+  more:
+
+- title: julia programming language
+  url: 34-julia.pdf
+  tags:
+  px:
+  notes:
+    1. data types<br>
+    2. functions<br>
+    3. control flow<br>
+    4. packages<br>
+  more:
+
+- title: dm
+  url: dm.pdf
+  tags:
+  px:
+  notes:
+  more:
