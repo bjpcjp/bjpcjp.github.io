@@ -13,10 +13,8 @@
   notes:
     1. Degrees of belief<br>
     2. Probability distributions<br>
-
   parent: Part I - probabilistic reasoning
   more:
-    <strong>this is more stuff.</strong>
 
 - title: inference
   url: 03-inference.pdf
@@ -33,7 +31,6 @@
     8. gibbs sampling<br>
     9. gaussian<br>
     10. summary
-
   parent: Part I - probabilistic reasoning
   more:
 
@@ -42,6 +39,12 @@
   tags:
   px:
   notes:
+    1. max-likelihood (categorical, gaussian, bayes)<br>
+    2. bayes<br>
+    3. non-parametric<br>
+    4. missing data<br>
+    - imputation<br>
+    - expectation-maximization (EM)<br>
   parent: Part I - probabilistic reasoning
   more:
 
@@ -50,6 +53,11 @@
   tags:
   px:
   notes:
+    1. bayesian network scoring<br>
+    2. directed graph search<br>
+    3. markov equivalence classes<br>
+    4. partially-directed graph search<br>
+
   parent: Part I - probabilistic reasoning
   more:
 
@@ -58,6 +66,14 @@
   tags:
   px:
   notes:
+    1. constraints on rational preferences<br>
+    2. utility functions<br>
+    3. utility elicitation<br>
+    4. max expected utility<br>
+    5. decision networks<br>
+    6. value of information<br>
+    7. irrationality<br>
+
   parent: Part I - probabilistic reasoning
   more:
 
