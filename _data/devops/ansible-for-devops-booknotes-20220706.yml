@@ -1,0 +1,191 @@
+- title: ch01 - getting started
+  url: /pdfs/devops/ansible-getting-started.pdf
+  tags: ansible
+  pic:
+  notes:
+    1. intro<br>
+    2. installation<br>
+    3. inventory files<br>
+    4. running an ad-hoc command<br>
+
+
+- title: ch02 - local devt
+  url: /pdfs/devops/ansible-local-dev.pdf
+  tags: ansible
+  pic:
+  notes:
+    1. prototyping & testing with local virtual machines<br>
+    2. your first local server<br>
+    3. using ansible with vagrant<br>
+    4. your first playbook<br>
+    5. cleanup<br>
+  
+
+- title: ch03 - ad-hoc commands
+  url: /pdfs/devops/ansible-local-adhoc-commands.pdf
+  tags: ansible
+  pic:
+  notes:
+    1. conducting an orchestra<br>
+    2. build infrastructure with vagrant for testing<br>
+    3. inventory file - multiple servers<br>
+    4. first ad-hoc commands<br>
+    5. individual | grouped server configs<br>
+    6. users & groups<br>
+    7. packages<br>
+    8. files & directories<br>
+    9. background operations<br>
+    10. log files<br>
+    11. cron jobs<br>
+    12. deploying version-controlled apps<br>
+    13. SSH connection history<br>
+  
+
+- title: chap 04 - playbooks
+  url: /pdfs/devops/ansible-playbooks.pdf
+  tags: ansible
+  pic:
+  notes:
+    1. power plays<br>
+    2. running<br>
+    3. example - CentOS nodejs app server<br>
+    4. example - Ubuntu lamp server with drupal<br>
+    5. example - Ubuntu server with apache solr<br>
+  
+
+- title: chap 05 - playbook pt2
+  url: /pdfs/devops/ansible-playbooks-pt2.pdf
+  tags: ansible
+  pic:
+  notes:
+    1. handlers<br>
+    2. environment variables<br>
+    3. variables<br>
+    4. facts = variables derived from system info<br>
+    5. ansible vault<br>
+    6. variable precedence<br>
+    7. if | then | when conditionals<br>
+    8. delegation | local actions | pauses<br>
+    9. prompts<br>
+    10. tags<br>
+    11. blocks<br>
+
+- title: ch06 - roles, includes, imports
+  url: /pdfs/devops/ansible-playbooks-org.pdf
+  tags: ansible
+  pic:
+  notes:
+    1. imports<br>
+    2. includes<br>
+    3. roles<br>
+    4. ansible galaxy<br>
+    5. lamp server - 9 lines of yaml<br>
+    6. solr server - 7 lines of yaml<br>
+    7. galaxy commands<br>
+  
+
+- title: ch07 - inventories
+  url: /pdfs/devops/ansible-inventories.pdf
+  tags: ansible
+  pic:
+  notes:
+    1. example - real-world web app server<br>
+    2. inventory variables<br>
+    3. dynamic inventory<br>
+    4. custom inventory - python and php<br>
+
+
+- title: ch08 - cookbooks
+  url: /pdfs/devops/ansible-cookbooks.pdf
+  tags: ansible
+  pic:
+  notes:
+    1. intro<br>
+    2. vagrantfile for local infrastructure via VirtualBox<br>
+    3. provisioner config - DigitalOcean<br>
+    4. provisioner config - AWS EC2<br>
+    5. ELK logging<br>
+  
+
+- title: ch09 - deployment
+  url: /pdfs/devops/ansible-deployment.pdf
+  tags: ansible
+  pic:
+  notes:
+    1. strategies<br>
+    2. single-server (ruby on rails)<br>
+    3. zero-downtime, multi-server<br>
+    4. capistrano style<br>
+    5. blue-green<br>
+    6. more features<br>
+  
+
+- title: chap 10 - server security
+  url: /pdfs/devops/ansible-server-security.pdf
+  tags: ansible
+  pic:
+  notes:
+    1. brief history of SSH & remote access<br>
+    2. secure & encrypted comms basics<br>
+    3. disable root login - use sudo<br>
+    4. remove unused sw - open only required ports<br>
+    5. use "least privilege" principle<br>
+    6. update OS & installed sw<br>
+    7. proper firewall configs<br>
+    8. log files<br>
+    9. login monitors & blocking suspect IP addresses<br>
+    10. SELinux or apparmor<br>
+    11. summary & further reading<br>
+  
+
+- title: chap 11 - tower CI/CD
+  url: /pdfs/devops/ansible-tower-cicd.pdf
+  tags: ansible
+  pic:
+  notes:
+    1. ansible tower<br>
+    2. jenkins CI<br>
+    3. unit | integration | functional testing<br>
+    4. auto testing on GitHub with travis CI<br>
+    5. functional testing - serverspec<br>
+  
+
+- title: ch12 - automating HTTPS & TLS certificates
+  url: /pdfs/devops/ansible-certificates.pdf
+  tags: ansible
+  pic:
+  notes:
+    1. generating self-signed certs<br>
+    2. automating let's encrypt for free certs<br>
+    3. nginx, proxy HTTP traffic, served on HTTPS<br>
+  
+
+- title: ch13 - ansible with docker
+  url: /pdfs/devops/ansible-docker.pdf
+  tags: ansible
+  pic:
+  notes:
+    1. brief intro - docker containers<br>
+    2. using ansible to manage containers<br>
+    3. flask app<br>
+    4. building containers from the outside<br>
+  
+
+- title: ch14 - ansible with kubernetes
+  url: /pdfs/devops/ansible-kubernetes.pdf
+  tags: ansible
+  pic:
+  notes:
+    1. kubernetes history<br>
+    2. do you need k8s?<br>
+    3. building a k8s cluster<br>
+    4. managing a k8s cluster<br>
+  
+- title: appendix A - ansible on Windows
+  url: /pdfs/devops/ansible-windows.pdf
+  tags: ansible
+  pic:
+  notes:
+    1. WSL (windows subsystem for linux) on ubuntu<br>
+    2. when WSL is not an option<br>
+  

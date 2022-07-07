@@ -1,0 +1,138 @@
+- title: adversaries
+  url: /pdfs/devops/SRS-adversaries.pdf
+  tags: secure, reliable systems design
+  pic:
+  notes:
+  
+- title: landscapes
+  url: /pdfs/devops/SRS-changing-landscapes.pdf
+  tags: secure, reliable systems design
+  pic:
+  notes:
+  
+- title: crisis mgmt
+  url: /pdfs/devops/SRS-crisis-mgmt.pdf
+  tags: secure, reliable systems design
+  pic:
+  notes:
+  
+- title: culture
+  url: /pdfs/devops/SRS-culture.pdf
+  tags: secure, reliable systems design
+  pic:
+  notes:
+  
+- title: ddos
+  url: /pdfs/devops/SRS-ddos.pdf
+  tags: secure, reliable systems design
+  pic:
+  notes:
+  
+- title: deploying code
+  url: /pdfs/devops/SRS-deploying-code.pdf
+  tags: secure, reliable systems design
+  pic:
+  notes:
+  
+- title: disaster assessment matrix
+  url: /pdfs/devops/SRS-disaster-assess-matrix.pdf
+  tags: secure, reliable systems design
+  pic:
+  notes:
+  
+- title: disaster planning
+  url: /pdfs/devops/SRS-disaster-planning.pdf
+  tags: secure, reliable systems design
+  pic:
+  notes:
+  
+- title: example - Chrome
+  url: /pdfs/devops/SRS-example-chrome.pdf
+  tags: secure, reliable systems design
+  pic:
+  notes:
+  
+#  url: /pdfs/devops/SRS-index.pdf
+#- title: placeholder
+#  tags: secure, reliable systems design
+#  pic:
+#  notes:
+  
+- title: investigating
+  url: /pdfs/devops/SRS-investigating.pdf
+  tags: secure, reliable systems design
+  pic:
+  notes:
+  
+- title: privileges
+  url: /pdfs/devops/SRS-privileges.pdf
+  tags: secure, reliable systems design
+  pic:
+  notes:
+  
+- title: public certificate authorities
+  url: /pdfs/devops/SRS-public-certificate-authorities.pdf
+  tags: secure, reliable systems design
+  pic:
+  notes:
+  
+- title: recovery
+  url: /pdfs/devops/SRS-recovery.pdf
+  tags: secure, reliable systems design
+  pic:
+  notes:
+  
+- title: resilience
+  url: /pdfs/devops/SRS-resilience.pdf
+  tags: secure, reliable systems design
+  pic:
+  notes:
+  
+- title: roles
+  url: /pdfs/devops/SRS-roles.pdf
+  tags: secure, reliable systems design
+  pic:
+  notes:
+  
+- title: safe proxies
+  url: /pdfs/devops/SRS-safe-proxies.pdf
+  tags: secure, reliable systems design
+  pic:
+  notes:
+  
+- title: security-reliability
+  url: /pdfs/devops/SRS-security-reliability.pdf
+  tags: secure, reliable systems design
+  pic:
+  notes:
+  
+- title: testing code
+  url: /pdfs/devops/SRS-testing-code.pdf
+  tags: secure, reliable systems design
+  pic:
+  notes:
+  
+#  url: /pdfs/devops/SRS-toc.pdf
+#- title: TOC
+#  tags: secure, reliable systems design
+#  pic:
+#  notes:
+  
+- title: tradeoffs
+  url: /pdfs/devops/SRS-tradeoffs.pdf
+  tags: secure, reliable systems design
+  pic:
+  notes:
+  
+- title: understandability
+  url: /pdfs/devops/SRS-understandability.pdf
+  tags: secure, reliable systems design
+  pic:
+  notes:
+  
+- title: writing code
+  url: /pdfs/devops/SRS-writing-code.pdf
+  tags: secure, reliable systems design
+  pic:
+  notes:
+  

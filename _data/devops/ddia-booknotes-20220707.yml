@@ -1,0 +1,84 @@
+- title: batching
+  url: /pdfs/devops/DDIA-batching.pdf
+  tags: data-intensive app design
+  pic:
+  notes:
+  
+- title: consistency
+  url: /pdfs/devops/DDIA-consistency.pdf
+  tags: data-intensive app design
+  pic:
+  notes:
+  
+- title: data models
+  url: /pdfs/devops/DDIA-data-models.pdf
+  tags: data-intensive app design
+  pic:
+  notes:
+  
+- title: encoding
+  url: /pdfs/devops/DDIA-encoding.pdf
+  tags: data-intensive app design
+  pic:
+  notes:
+  
+- title: futures
+  url: /pdfs/devops/DDIA-futures.pdf
+  tags: data-intensive app design
+  pic:
+  notes:
+  
+- title: glossary
+  url: /pdfs/devops/DDIA-glossary.pdf
+  tags: data-intensive app design
+  pic:
+  notes:
+  
+- title: issues
+  url: /pdfs/devops/DDIA-issues.pdf
+  tags: data-intensive app design
+  pic:
+  notes:
+  
+- title: partitoining
+  url: /pdfs/devops/DDIA-partitioning.pdf
+  tags: data-intensive app design
+  pic:
+  notes:
+  
+- title: replication
+  url: /pdfs/devops/DDIA-replication.pdf
+  tags: data-intensive app design
+  pic:
+  notes:
+  
+- title: storage
+  url: /pdfs/devops/DDIA-storage.pdf
+  tags: data-intensive app design
+  pic:
+  notes:
+  
+- title: streams
+  url: /pdfs/devops/DDIA-streams.pdf
+  tags: data-intensive app design
+  pic:
+  notes:
+  
+- title: terminology
+  url: /pdfs/devops/DDIA-terminology.pdf
+  tags: data-intensive app design
+  pic:
+  notes:
+  
+#  url: /pdfs/devops/DDIA-toc.pdf
+#- title: placeholder
+#  tags: data-intensive app design
+#  pic:
+#  notes:
+  
+- title: transactions
+  url: /pdfs/devops/DDIA-transactions.pdf
+  tags: data-intensive app design
+  pic:
+  notes:
+  

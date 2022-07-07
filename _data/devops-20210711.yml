@@ -353,64 +353,10 @@
   notes: using Amazon elastic Kubernetes Service (EKS) and Terraform (Hashicorp)
   source: circleci
 
-- title: bash academy
-  url:  http://guide.bash.academy/ 
-  tags: bash
-
-- title: scripts cheatsheet 
-  url:  https://devhints.io/bash 
-  tags: bash
-  source: devhints
-
-- title: 101 commnds & tips 
-  url:  https://dev.to/awwsmm/101-bash-commands-and-tips-for-beginners-to-experts-30je 
-  tags: bash
-  source: dev.to
-
-- title: bash aliases
-  url: https://opensource.com/article/18/9/handy-bash-aliases 
-  tags: bash
-  source: opensource
-
-- title: beginners guide
-  url:  http://tldp.org/LDP/Bash-Beginners-Guide/html/index.html 
-  tags: bash
-  source: Machtelt Garrels
-  notes: intro, scripts, envt, regexes, sed, awk, conditionals,
-          interactive, repetition, vars, functions, signals
-
-- title: art of the cmnd line 
-  url:  https://github.com/jlevy/the-art-of-command-line 
-  tags: bash
-  notes: meta, basics, everyday usage, files & data, debugging,
-         one-liners, obscure, macOS, windows, resources
-
 - title: various cmndline tools 
   url:  http://www.coderholic.com/invaluable-command-line-tools-for-web-developers/ 
   tags: linux CLI 
   notes: curl, siege, ngrep
-
-- title: quirks 
-  url:  https://jvns.ca/blog/2017/03/26/bash-quirks/ 
-  tags: bash
-  source: jvns.ca
-
-- title: 10 things i wish had known 
-  url:  https://zwischenzugs.com/2018/01/06/ten-things-i-wish-id-known-about-bash/ 
-  tags: bash
-  source: zwischenzugs
-
-- title: bash bible (ebook)
-  url:  https://github.com/dylanaraps/pure-bash-bible/blob/master/README.md 
-  tags: bash
-  source: dylanaraps
-  notes: strings, arrays, loops, files, vars, escape seqs, param expansion,
-          brace expansion, conditionals, math ops, traps, speed, internals, more
-
-- title: shell intro 
-  url:  https://dev.to/maxwell_dev/the-shell-introduction-i-wish-i-had-551k 
-  tags: bash
-  source: dev.to/maxwell_dev
 
 - title: essentials
   url:  https://dev.to/skorotkiewicz/the-linux-commands-that-help-me-work-2o99 
