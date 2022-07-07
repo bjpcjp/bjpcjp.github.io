@@ -1,15 +1,19 @@
 ---
-title: DevOps & Linux
+title: DevOps & Linux Resources
 layout: default-foundation-20210515
+tags: linux, devops, sre
+date: 2022-07-02
 ---
 
 {%- assign sorted_records = site.data.devops.roadmap | sort: "tags" -%}
 {%- assign grouped_sorted_records = sorted_records | group_by: "tags" -%}
 
-<h2>Devops & Linux Topics:</h2>
+<div class="callout">
+    <h2>Devops & Linux Resources:</h2>
+</div>
+
 
 <div class="callout primary">
-    <big>Tags:</big><br>
     {%- for tag in grouped_sorted_records -%}
         <a href="#{{tag.name}}">{{tag.name}}</a> &nbsp; &nbsp;
     {%- endfor -%}
