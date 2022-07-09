@@ -1,0 +1,463 @@
+# v20220709 #########################################################################
+
+- title: ordinal games
+  source: bonanno
+  url: /pdfs/gametheory/bonanno-ch02-ordinal-games-strategic.pdf
+  px:
+  tags: game-structure
+  notes: 
+
+- title: perfect-information games
+  source: bonanno
+  url: /pdfs/gametheory/bonanno-ch03-perfect-info-games.pdf
+  px:
+  tags: game-structure
+  notes: 
+
+- title: dynamic games
+  source: bonanno
+  url: /pdfs/gametheory/bonanno-ch04-dynamic-games.pdf
+  px:
+  tags: game-structure
+  notes: 
+
+- title: utility
+  source: bonanno
+  url: /pdfs/gametheory/bonanno-ch05-utility.pdf
+  px:
+  tags: utility
+  notes: 
+
+- title: strategic-form games
+  source: bonanno
+  url: /pdfs/gametheory/bonanno-ch06-strategic-form-games.pdf
+  px:
+  tags: game-structure
+  notes: 
+
+- title: extensive-form games
+  source: bonanno
+  url: /pdfs/gametheory/bonanno-ch07-extensive-form-games.pdf
+  px:
+  tags: game-structure
+  notes: 
+
+- title: common knowledge
+  source: bonanno
+  url: /pdfs/gametheory/bonanno-ch08-common-knowledge.pdf
+  px:
+  tags: collective-information
+  notes: 
+
+- title: beliefs
+  source: bonanno
+  url: /pdfs/gametheory/bonanno-ch09-adding-beliefs.pdf
+  px:
+  tags: belief
+  notes: 
+
+- title: rationality
+  source: bonanno
+  url: /pdfs/gametheory/bonanno-ch10-rationality.pdf
+  px:
+  tags: rationality
+  notes: 
+
+- title: weak sequential equilibrium
+  source: bonanno
+  url: /pdfs/gametheory/bonanno-ch11-weak-sequential-equilibrium.pdf
+  px:
+  tags: equilibrium
+  notes: 
+
+- title: sequential equilibrium
+  source: bonanno
+  url: /pdfs/gametheory/bonanno-ch12-sequential-equilibrium.pdf
+  px:
+  tags: equilibrium
+  notes: 
+
+- title: perfect bayes equilibrium
+  source: bonanno
+  url: /pdfs/gametheory/bonanno-ch13-perfect-bayes-equilibrium.pdf
+  px:
+  tags: equilibrium
+  notes: 
+
+- title: incomplete information - static games
+  source: bonanno
+  url: /pdfs/gametheory/bonanno-ch14-incomplete-info-static-games.pdf
+  px:
+  tags: risk
+  notes: 
+
+- title: incomplete information - dynamic games
+  source: bonanno
+  url: /pdfs/gametheory/bonanno-ch15-incomplete-info-dynamic-games.pdf
+  px:
+  tags: risk
+  notes: 
+
+- title: incomplete information - typespace approach
+  source: bonanno
+  url: /pdfs/gametheory/bonanno-ch16-incomplete-info-typespace-approach.pdf
+  px:
+  tags: risk
+  notes: 
+
+- title: index
+  source: bonanno
+  url: /pdfs/gametheory/bonanno-index.pdf
+  px:
+  tags: indexes-glossaries
+  notes: 
+
+
+
+# v20210626 #########################################################################
+
+- title: Book of Examples (Erich Prisner)
+  url: /pdfs/gametheory/game-theory-examples.pdf
+  px: /px/gametheory/game-theory-examples-cover.png
+  tags: game structures
+  notes:
+    <p>
+      - Intro<br>
+      - Simultaneous-move games<br> 
+      - Sequential-move, perfect-info-availability games<br> 
+      - Probability<br>
+      - Sequential-move randomized games<br> 
+      - Extensive form<br>
+      - Normal form<br>
+      - Mixed strategies<br> 
+      - Behavioral strategies<br> 
+      - Bibliography & index
+    </p>
+  parent:
+
+#- title:  A Crash Course in Game Theory (deprecated)
+#  url:  https://towardsdatascience.com/a-crash-course-in-game-theory-for-machine-learning-classic-and-new-ideas-50e33ba2636d
+#  px:  /px/gametheory/game-theory-crash-course-cover.png 
+#  tags: articles & papers
+
+- title:  To Get Good, Go After The Metagame (commonplace) 
+  url: https://commoncog.com/blog/to-get-good-go-after-the-metagame/ 
+  px:  /px/gametheory/christopher-paul-high-y7Qq9IrgpOA-unsplash.jpg 
+  tags: articles & papers
+
+- title:  Auction Theory  
+  url: /pdfs/gametheory/gos-ch16-auctions.pdf 
+  px:  /px/gametheory/auction-mechanisms-dongmo.png 
+  notes:  
+  tags: auctions 
+ 
+- title:  Single-Sided, Single-Unit Auctions (dongmo) 
+  url:  /pdfs/gametheory/auctions-single-sided-single-unit-dongmo.pdf
+  px:  /px/gametheory/simple-auctions-dongmo.png 
+  tags: auctions 
+ 
+- title:  Double Auctions (dongmo) 
+  url:  /pdfs/gametheory/auctions-double-dongmo.pdf
+  px:  /px/gametheory/double-auctions-dongmo.png 
+  tags: auctions 
+ 
+- title:  Combinational Auctions (dongmo) 
+  url:  /pdfs/gametheory/auctions-combinational-dongmo.pdf
+  px:  /px/gametheory/combinational-auctions-dongmo.png 
+  tags: auctions 
+
+- title:  board games of the ancient world (smithsonian) 
+  url: https://www.smithsonianmag.com/science-nature/best-board-games-ancient-world-180974094
+  tags: history
+
+- title: Auction papers archive (ArXiV)
+  url: https://arxiv-sanity-lite.com/?q=auction&rank=time&tags=&pid=&time_filter=&svm_c=0.01&skip_have=no
+  notes:
+  tags: arxiv
+
+- title:  Geometric Regret Matching (arxiv)
+  url:  https://arxiv.org/abs/1908.09021 
+  tags: arxiv
+
+- title: Bargaining
+  url:  /pdfs/gametheory/gos-ch17-bargaining.pdf 
+  px:  /px/gametheory/bargaining-nash-simple.png 
+  tags: bargaining 
+  notes:
+    <p> 
+    - Nash's cooperative solution<br> 
+    - Variable-thread bargaining<br>
+    - Alternating offers, Type I (total value decay)<br>
+    - Experimental evidence<br>
+    - Alternating offers, Type II (impatience)<br> 
+    - Manipulating information<br>
+    - Multiple-issue bargaining<br>
+    - Multiple-party bargaining<br>
+    </p>
+
+- title: Evolutionary game structures
+  url: /pdfs/gametheory/gos-ch12-evolutionary-games.pdf
+  tags: game structures
+  notes:
+    <p>
+    - framework<br>
+    - Prisoner's Dilemma<br>
+    - "chicken"<br>
+    - The assurance game<br> 
+    - Three phenotypes<br>
+    - Hawk & Doves<br>
+    - Interactions by population & across species<br>
+    - Cooperation & Altruism<br>
+    </p>
+
+- title:  Game Structures
+  url: /pdfs/gametheory/gos-ch02-how-to-think.pdf 
+  tags: game structures
+  notes:
+    <p> 
+    - decisions vs games<br> 
+    - sequential vs simultaneous moves<br> 
+    - zero-sum vs common interests<br>
+    - single vs repeating plays<br>
+    - constant vs changing opponents<br>
+    - access to equal information<br>
+    - fixed vs malleable rules<br>
+    - enforceable agreements?<br>
+    - terminology<br>
+    - uses<br>
+    </p>
+
+- title:  Mechanism Design
+  url: /pdfs/gametheory/gos-ch13-mechanism-design.pdf
+  tags: game structures
+  notes:
+    <p>
+    - price discrimination<br>
+    - principals & agents<br>
+    - cost-plus & fixed-price contracts<br>
+    - information revelation mechanisms<br>
+    - incentives / managerial supervision<br>
+    - incentives / insurance provisions<br>
+    - incentives (nonlinear)<br>
+    - incentives (teams)<br>
+    - multiple tasks & outcomes<br>
+    - incentives over time<br>
+    </p>
+
+- title: Combined Moves
+  url: /pdfs/gametheory/gos-ch06-combined-moves.pdf 
+  tags: game structures
+  notes:
+    <p>
+    - 2-stage games & subgames<br>
+    - multistage game configurations<br>
+    - Changing the order of moves in a game<br>
+    - Analysis method changes<br>
+    - 3-player games<br>
+    </p>
+
+- title: The Prisoners Dilemma
+  url: /pdfs/gametheory/gos-ch10-prisoners-dilemma.pdf   
+  px:  /px/gametheory/prisoners-delimma-simple.png 
+  tags: game structures
+  notes: 
+    <p>
+    - basics<br>
+    - repetition<br>
+    - penalties & rewards<br>
+    - leadership<br>
+    - experimenal evidence<br>
+    - real-world examples
+    </p>
+
+- title: Sequential-Move Games
+  url: /pdfs/gametheory/gos-ch03-sequential-moves.pdf   
+  px: /px/gametheory/survivor-immunity-game-tree.png
+  tags: game structures
+  notes:
+    <p>
+    - Game trees<br>
+    - Solving games with trees<br>
+    - Adding players<br>
+    - 1st- and 2nd-mover advantages<br>
+    - Adding moves<br>
+    - Rollback<br>
+    - "Survivor"<br>
+    </p>
+
+- title: Simultaneous moves / discrete Strategies
+  url: /pdfs/gametheory/gos-ch04-simultaneous-moves.pdf 
+  tags: game structures
+  notes:
+    <p>
+    - Depictions<br>
+    - Nash equilibria<br>
+    - Dominant strategies<br>
+    - Best-response analysis<br>
+    - 3 players<br>
+    - Multiple equilibria
+    </p>
+
+- title: Simulaneous moves / mixed strategies
+  url: /pdfs/gametheory/gos-ch07-simultaneous-mixed.pdf 
+  tags: game structures
+  notes: 
+    <p>
+    - Definitions<br>
+    - Mixing moves<br>
+    - Nash equilibrium as beliefs & responses<br>
+    - Mixing in non-zero-sum games<br>
+    - Discussion<br>
+    - When 1 player has >= 3 strategies<br>
+    - When both players have >= 3 strategies<br>
+    - Mixed strategies in practice
+    - Evidence
+    </p>
+
+- title: Simulaneous moves / continuous strategies 
+  url: /pdfs/gametheory/gos-ch05-continuous-strategies.pdf 
+  tags: game structures
+  notes:
+    <p>
+    - Price competition<br>
+    - Oligopoly principles<br>
+    - Political campaign advertising<br>
+    - Nash equilibria methods<br>
+    - Nash equilibria concept<br>
+    - Rationalization<br>
+    - Empirical evidence
+    </p>
+
+- title: Strategic Moves
+  url: /pdfs/gametheory/gos-ch09-strategic-moves.pdf
+  tags: game structures
+  notes: 
+    <p>
+    - conditional vs unconditional moves<br>
+    - credibility<br> 
+    - commitments<br> 
+    - threats & promises<br> 
+    - examples - restaurant pricing<br> 
+    - additional topics
+    </p>
+
+- title: Collective-Action Games
+  url: /pdfs/gametheory/gos-ch11-collective-action.pdf 
+  tags: game structures 
+  notes: 
+    <p>
+    - 2-player games<br> 
+    - large-group games<br> 
+    - spillovers/externalities<br>
+    - historicals<br>
+    - "Help!" - a game of "chicken" with mixed strategies<br> 
+    </p>
+
+- title: Collective Action - Search Engine results (Duckduckgo)
+  url: https://duckduckgo.com/?q=game+theory+collective+action&t=canonical&ia=web
+  tags: structures 
+  notes: 
+
+- title: Uncertainty & Imperfect Information
+  url:  /pdfs/gametheory/gos-ch08-uncertainty-information.pdf   
+  tags: risk
+  notes: 
+    <p>
+    - risk management<br>
+    - assymetric information<br>
+    - cheap talk<br>
+    - adverse selection<br>
+    - signaling<br>
+    - screening<br>
+    - labor mkt signaling<br>
+    - 2-player equilibria
+    </p>
+
+- title: Voting Systems
+  url: /pdfs/gametheory/gos-ch15-voting.pdf   
+  tags: voting
+  notes: 
+    <p>
+    - rules & procedures<br>      
+    - paradoxes<br>   
+    - voting systems<br>    
+    - vote manipulation<br>   
+    - median voter theorem<br>
+    </p>
+
+- title: List of Games (Wikipedia)
+  url: https://en.wikipedia.org/wiki/List_of_games_in_game_theory
+  notes:
+  tags: articles & papers
+
+- title: Understanding culture through games (Modern War Institute)
+  url: https://mwi.usma.edu/the-games-we-play-understanding-strategic-culture-through-games/
+  notes:
+    <p>
+    - implicit learning<br>
+    - lessons via sports & games<br>
+    - case study - sacrifice<br>
+    - caveats<br>
+    </p>
+
+  tags: warfare
+
+- title: Intro to Plural Voting (Radical Xchange)
+  url: https://www.radicalxchange.org/concepts/plural-voting/
+  notes:
+  tags: voting
+
+- title: Games of Strategy (RAND corp)
+  url: https://www.rand.org/content/dam/rand/pubs/commercial_books/2007/RAND_CB149-1.pdf
+  notes:
+  tags: history
+
+- title: The Wild & Wonderful World of Estate Sales (New Yorker)
+  url: https://www.newyorker.com/culture/on-and-off-the-avenue/the-wild-wonderful-world-of-estate-sales
+  notes:
+  tags: bargaining
+
+- title: Auction Theory (J.Levin,Stanford,2004))
+  url: https://web.stanford.edu/~jdlevin/Econ%20286/Auctions.pdf
+  notes:
+  tags: auctions
+
+- title: Intro to Price Action Trading (Delta Trading Group)
+  url: https://deltatradinggroup.com/portfolio-items/auction-theory
+  notes:
+  tags: auctions
+
+- title: Auction Catalogue Symbols (Artsy)
+  url: https://www.artsy.net/article/artsy-editorial-auction-catalogue-symbols-decoded
+  notes: 
+  tags: auctions
+
+- title: Hacking the Perfect Auction (NPR)
+  url: https://www.artsy.net/article/artsy-editorial-auction-catalogue-symbols-decoded
+  notes:
+  tags: auctions
+
+- title: Auctions - Theory & Practice (Paul Klemperer)
+  url: http://www.nuffield.ox.ac.uk/users/klemperer/VirtualBook/VBCrevisedv2.asp
+  notes: 
+  tags: auctions
+
+- title: Atreus - a SaaS auction Platform
+  url: https://atreus.auction
+  notes:
+  tags: auctions
+
+- title: Vickrey-Clarke-Groves auction (Wikipedia)
+  url: https://en.wikipedia.org/wiki/Vickrey%E2%80%93Clarke%E2%80%93Groves_auction
+  notes:
+  tags: auctions
+
+- title: How Auction Houses Orchestrate Sales for Maximum Drama (NYT)
+  url: https://www.nytimes.com/2015/11/01/arts/design/how-auction-houses-orchestrate-sales-for-maximum-drama.html
+  notes:
+  tags: auctions
+
+- title: Why Auction Houses Attract Collectors with Private Sales (Artsy)
+  url: https://www.artsy.net/article/artsy-editorial-auction-houses-attract-collectors-private-sales-three-key-reasons
+  notes:
+  tags: auctions
