@@ -1,112 +1,96 @@
 # v20220709 #########################################################################
 
-- title: ordinal games
-  source: bonanno
+- title: ordinal games (bonanno)
   url: /pdfs/gametheory/bonanno-ch02-ordinal-games-strategic.pdf
   px:
-  tags: game-structure
+  tags: game structures
   notes: 
 
-- title: perfect-information games
-  source: bonanno
+- title: perfect-information games (bonanno)
   url: /pdfs/gametheory/bonanno-ch03-perfect-info-games.pdf
   px:
-  tags: game-structure
+  tags: game structures
   notes: 
 
-- title: dynamic games
-  source: bonanno
+- title: dynamic games (bonanno)
   url: /pdfs/gametheory/bonanno-ch04-dynamic-games.pdf
   px:
-  tags: game-structure
+  tags: game structures
   notes: 
 
-- title: utility
-  source: bonanno
+- title: utility (bonanno)
   url: /pdfs/gametheory/bonanno-ch05-utility.pdf
   px:
   tags: utility
   notes: 
 
-- title: strategic-form games
-  source: bonanno
+- title: strategic-form games (bonanno)
   url: /pdfs/gametheory/bonanno-ch06-strategic-form-games.pdf
   px:
-  tags: game-structure
+  tags: game structures
   notes: 
 
-- title: extensive-form games
-  source: bonanno
+- title: extensive-form games (bonanno)
   url: /pdfs/gametheory/bonanno-ch07-extensive-form-games.pdf
   px:
-  tags: game-structure
+  tags: game structures
   notes: 
 
-- title: common knowledge
-  source: bonanno
+- title: common knowledge (bonanno)
   url: /pdfs/gametheory/bonanno-ch08-common-knowledge.pdf
   px:
   tags: collective-information
   notes: 
 
-- title: beliefs
-  source: bonanno
+- title: beliefs (bonanno)
   url: /pdfs/gametheory/bonanno-ch09-adding-beliefs.pdf
   px:
   tags: belief
   notes: 
 
-- title: rationality
-  source: bonanno
+- title: rationality (bonanno)
   url: /pdfs/gametheory/bonanno-ch10-rationality.pdf
   px:
   tags: rationality
   notes: 
 
-- title: weak sequential equilibrium
-  source: bonanno
+- title: weak sequential equilibrium (bonanno)
   url: /pdfs/gametheory/bonanno-ch11-weak-sequential-equilibrium.pdf
   px:
   tags: equilibrium
   notes: 
 
-- title: sequential equilibrium
-  source: bonanno
+- title: sequential equilibrium (bonanno)
   url: /pdfs/gametheory/bonanno-ch12-sequential-equilibrium.pdf
   px:
   tags: equilibrium
   notes: 
 
-- title: perfect bayes equilibrium
-  source: bonanno
+- title: perfect bayes equilibrium (bonanno)
   url: /pdfs/gametheory/bonanno-ch13-perfect-bayes-equilibrium.pdf
   px:
   tags: equilibrium
   notes: 
 
-- title: incomplete information - static games
-  source: bonanno
+- title: incomplete information - static games (bonanno)
   url: /pdfs/gametheory/bonanno-ch14-incomplete-info-static-games.pdf
   px:
   tags: risk
   notes: 
 
-- title: incomplete information - dynamic games
-  source: bonanno
+- title: incomplete information - dynamic games (bonanno)
   url: /pdfs/gametheory/bonanno-ch15-incomplete-info-dynamic-games.pdf
   px:
   tags: risk
   notes: 
 
-- title: incomplete information - typespace approach
-  source: bonanno
+- title: incomplete information - typespace approach (bonanno)
   url: /pdfs/gametheory/bonanno-ch16-incomplete-info-typespace-approach.pdf
   px:
   tags: risk
   notes: 
 
-- title: index
-  source: bonanno
+- title: index (bonanno)
   url: /pdfs/gametheory/bonanno-index.pdf
   px:
   tags: indexes-glossaries
@@ -135,17 +119,12 @@
     </p>
   parent:
 
-#- title:  A Crash Course in Game Theory (deprecated)
-#  url:  https://towardsdatascience.com/a-crash-course-in-game-theory-for-machine-learning-classic-and-new-ideas-50e33ba2636d
-#  px:  /px/gametheory/game-theory-crash-course-cover.png 
-#  tags: articles & papers
-
 - title:  To Get Good, Go After The Metagame (commonplace) 
   url: https://commoncog.com/blog/to-get-good-go-after-the-metagame/ 
   px:  /px/gametheory/christopher-paul-high-y7Qq9IrgpOA-unsplash.jpg 
-  tags: articles & papers
+  tags: other
 
-- title:  Auction Theory  
+- title:  Auction Theory (Games of Strategy)
   url: /pdfs/gametheory/gos-ch16-auctions.pdf 
   px:  /px/gametheory/auction-mechanisms-dongmo.png 
   notes:  
@@ -168,18 +147,18 @@
 
 - title:  board games of the ancient world (smithsonian) 
   url: https://www.smithsonianmag.com/science-nature/best-board-games-ancient-world-180974094
-  tags: history
+  tags: other
 
 - title: Auction papers archive (ArXiV)
   url: https://arxiv-sanity-lite.com/?q=auction&rank=time&tags=&pid=&time_filter=&svm_c=0.01&skip_have=no
   notes:
-  tags: arxiv
+  tags: auctions
 
 - title:  Geometric Regret Matching (arxiv)
   url:  https://arxiv.org/abs/1908.09021 
-  tags: arxiv
+  tags: other
 
-- title: Bargaining
+- title: Bargaining (Games of Strategy)
   url:  /pdfs/gametheory/gos-ch17-bargaining.pdf 
   px:  /px/gametheory/bargaining-nash-simple.png 
   tags: bargaining 
@@ -195,7 +174,7 @@
     - Multiple-party bargaining<br>
     </p>
 
-- title: Evolutionary game structures
+- title: Evolutionary game structures (Games of Strategy)
   url: /pdfs/gametheory/gos-ch12-evolutionary-games.pdf
   tags: game structures
   notes:
@@ -210,7 +189,7 @@
     - Cooperation & Altruism<br>
     </p>
 
-- title:  Game Structures
+- title:  Game Structures (Games of Strategy)
   url: /pdfs/gametheory/gos-ch02-how-to-think.pdf 
   tags: game structures
   notes:
@@ -227,7 +206,7 @@
     - uses<br>
     </p>
 
-- title:  Mechanism Design
+- title:  Mechanism Design (Games of Strategy)
   url: /pdfs/gametheory/gos-ch13-mechanism-design.pdf
   tags: game structures
   notes:
@@ -244,7 +223,7 @@
     - incentives over time<br>
     </p>
 
-- title: Combined Moves
+- title: Combined Moves (Games of Strategy)
   url: /pdfs/gametheory/gos-ch06-combined-moves.pdf 
   tags: game structures
   notes:
@@ -256,7 +235,7 @@
     - 3-player games<br>
     </p>
 
-- title: The Prisoners Dilemma
+- title: The Prisoners Dilemma (Games of Strategy)
   url: /pdfs/gametheory/gos-ch10-prisoners-dilemma.pdf   
   px:  /px/gametheory/prisoners-delimma-simple.png 
   tags: game structures
@@ -270,7 +249,7 @@
     - real-world examples
     </p>
 
-- title: Sequential-Move Games
+- title: Sequential-Move Games (Games of Strategy)
   url: /pdfs/gametheory/gos-ch03-sequential-moves.pdf   
   px: /px/gametheory/survivor-immunity-game-tree.png
   tags: game structures
@@ -285,7 +264,7 @@
     - "Survivor"<br>
     </p>
 
-- title: Simultaneous moves / discrete Strategies
+- title: Simultaneous moves / discrete Strategies (Games of Strategy)
   url: /pdfs/gametheory/gos-ch04-simultaneous-moves.pdf 
   tags: game structures
   notes:
@@ -298,7 +277,7 @@
     - Multiple equilibria
     </p>
 
-- title: Simulaneous moves / mixed strategies
+- title: Simulaneous moves / mixed strategies (Games of Strategy)
   url: /pdfs/gametheory/gos-ch07-simultaneous-mixed.pdf 
   tags: game structures
   notes: 
@@ -314,7 +293,7 @@
     - Evidence
     </p>
 
-- title: Simulaneous moves / continuous strategies 
+- title: Simulaneous moves / continuous strategies  (Games of Strategy)
   url: /pdfs/gametheory/gos-ch05-continuous-strategies.pdf 
   tags: game structures
   notes:
@@ -328,7 +307,7 @@
     - Empirical evidence
     </p>
 
-- title: Strategic Moves
+- title: Strategic Moves (Games of Strategy)
   url: /pdfs/gametheory/gos-ch09-strategic-moves.pdf
   tags: game structures
   notes: 
@@ -341,7 +320,7 @@
     - additional topics
     </p>
 
-- title: Collective-Action Games
+- title: Collective-Action Games (Games of Strategy)
   url: /pdfs/gametheory/gos-ch11-collective-action.pdf 
   tags: game structures 
   notes: 
@@ -355,10 +334,10 @@
 
 - title: Collective Action - Search Engine results (Duckduckgo)
   url: https://duckduckgo.com/?q=game+theory+collective+action&t=canonical&ia=web
-  tags: structures 
+  tags: other 
   notes: 
 
-- title: Uncertainty & Imperfect Information
+- title: Uncertainty & Imperfect Information (Games of Strategy)
   url:  /pdfs/gametheory/gos-ch08-uncertainty-information.pdf   
   tags: risk
   notes: 
@@ -373,7 +352,7 @@
     - 2-player equilibria
     </p>
 
-- title: Voting Systems
+- title: Voting Systems (Games of Strategy)
   url: /pdfs/gametheory/gos-ch15-voting.pdf   
   tags: voting
   notes: 
@@ -388,7 +367,7 @@
 - title: List of Games (Wikipedia)
   url: https://en.wikipedia.org/wiki/List_of_games_in_game_theory
   notes:
-  tags: articles & papers
+  tags: other
 
 - title: Understanding culture through games (Modern War Institute)
   url: https://mwi.usma.edu/the-games-we-play-understanding-strategic-culture-through-games/
@@ -410,7 +389,7 @@
 - title: Games of Strategy (RAND corp)
   url: https://www.rand.org/content/dam/rand/pubs/commercial_books/2007/RAND_CB149-1.pdf
   notes:
-  tags: history
+  tags: other
 
 - title: The Wild & Wonderful World of Estate Sales (New Yorker)
   url: https://www.newyorker.com/culture/on-and-off-the-avenue/the-wild-wonderful-world-of-estate-sales
