@@ -1,0 +1,32 @@
+<div class="callout">
+	<h2>{{title}}</h2>
+</div>
+
+{%- assign records = {{sourcedata}} | sort: "title" -%}
+
+{%- for record in records -%}
+	{%- if record.title != "" -%}
+
+		<div class="card">
+
+			<div class="card-divider">
+				<a href="{{parent_url}}{{record.url}}" target="_blank">
+					{{record.title}}</a>
+			</div>
+
+			{%- if record.pic -%}
+				<div class="card-image">
+					<img src="{{record.pic}}">
+				</div>
+			{%- endif -%}
+
+			{%- if record.notes -%}
+				<div class="card-section">
+					{{record.notes}}
+				</div>
+			{%- endif -%}
+
+		</div>
+
+	{%- endif -%}
+{%- endfor -%}
