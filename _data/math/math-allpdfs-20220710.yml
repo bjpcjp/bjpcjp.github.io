@@ -442,7 +442,7 @@
 # duplicate
 #- url: /pdfs/math/AlgorithmDesignManual.pdf
 #  title: book
-#  tags: book
+#  tags: books
 #  source: ADM
 #  notes:
 
@@ -865,100 +865,100 @@
 # duplicate
 #- url: /pdfs/math/book-ADM.pdf
 #  title: algorithm design manual
-#  tags: book
+#  tags: books
 #  source: ADM
 #  notes:
 
 # duplicate
 #- url: /pdfs/math/book-AJE.pdf
 #  title: book
-#  tags: book
+#  tags: books
 #  source: AJE
 #  notes:
 
 # duplicate
 #- url: /pdfs/math/book-algorithm-design-manual-ADM.pdf
 #  title: book
-#  tags: book
+#  tags: books
 #  source: ADM
 #  notes:
 
 - url: /pdfs/math/book-algorithms-elementary-EA.pdf
   title: elementary algorithms
-  tags: book
+  tags: books
   source: EA
   notes:
 
 - url: /pdfs/math/book-Algorithms-JeffE.pdf
   title: algorithms
-  tags: book
+  tags: books
   source: AJE
   notes:
 
 - url: /pdfs/math/book-bandits-BA.pdf
   title: bandit algorithms
-  tags: book
+  tags: books
   source: BA
   notes:
 
 - url: /pdfs/math/book-computer-statistical-inference-hastie-CSI.pdf
   title: statistical inference
-  tags: book
+  tags: books
   source: CSI
   notes:
 
 - url: /pdfs/math/book-convex-optimization-CO.pdf
   title: convex estimation
-  tags: book
+  tags: books
   source: CO
   notes:
 
 - url: /pdfs/math/book-data-mining-massive-datasets-v2.1-DMMD.pdf
   title: data mining of massive datasets
-  tags: book
+  tags: books
   source: DMMD
   notes:
 
 - url: /pdfs/math/book-Data_Structures_and_Apps-DSA.pdf
   title: data structures & apps
-  tags: book
+  tags: books
   source: DSA
   notes:
 
 - url: /pdfs/math/book-elements-of-statistical-learning-ESL.pdf
   title: elements of statistical learning
-  tags: book
+  tags: books
   source: ESL
   notes:
 
 # redundant document
 #- url: /pdfs/math/book-ESL.pdf
 #  title: book
-#  tags: book
+#  tags: books
 #  source: ESL
 #  notes:
 
 - url: /pdfs/math/book-foundations-FDS.pdf
   title: foundations of data science
-  tags: book
+  tags: books
   source: FDS
   notes:
 
 - url: /pdfs/math/book-ITA.pdf
   title: intro to algorithms
-  tags: book
+  tags: books
   source: ITA
   notes:
 
 - url: /pdfs/math/book-machine-learning-probabilistic-MLP.pdf
   title: probabilistic machine learning
-  tags: book
+  tags: books
   source: MLP
   notes:
 
 - url: /pdfs/math/book-math4ml-thomas.pdf
   title: math for machine learning
-  tags: book
+  tags: books
   source: math4ML
   notes:
 
@@ -970,13 +970,13 @@
 
 - url: /pdfs/math/book-numerical-algorithms-solomon.pdf
   title: numerical analysis
-  tags: book
+  tags: books
   source: solomon
   notes:
 
 - url: /pdfs/math/book-numerical-python-NP.pdf
   title: numerical analysis
-  tags: book
+  tags: books
   source: NP
   notes:
 
@@ -988,7 +988,7 @@
 
 - url: /pdfs/math/book-reinforcement-learning-v2-RL.pdf
   title: reinforcement learning
-  tags: book
+  tags: books
   source: RL
   notes:
 
@@ -1125,7 +1125,7 @@
 # duplicate file
 #- url: /pdfs/math/convex-optimization.pdf
 #  title: convex-optimization
-#  tags: book?
+#  tags: books?
 #  source: CO
 #  notes:
 
@@ -1167,15 +1167,16 @@
 
 - url: /pdfs/math/DataSci-CmndLine-cheat-20190804.pdf
   title: data science at the command line
-  tags: cheatsheet
-  source: DSCL
+  tags: cheatsheets
+  source: Data Science - Command Line
   notes:
 
 - url: /pdfs/math/Data_Science_Cheatsheet_20210319.pdf
   title: cheatsheet
   tags: cheatsheets
-  source: 
+  source: DSCL
   notes:
+    - FAVORITE
 
 - url: /pdfs/math/datastructs-ADM.pdf
   title: datastructs
@@ -1227,7 +1228,7 @@
 
 - url: /pdfs/math/deep-learning-dive.pdf
   title: dive into deep learning
-  tags: book
+  tags: books
   source: DIDL
   notes:
 
@@ -2032,9 +2033,19 @@
 
 - url: /pdfs/math/machine-learning-cheat-sheet.pdf
   title: cheatsheet
-  tags: cheatsheets
-  source:
+  tags: books
+  source: soulmachine (github)
   notes:
+    intro; &nbsp; probability; &nbsp; generative models (discrete data); &nbsp;
+    gaussians; &nbsp; bayes; &nbsp; frequentist stats; &nbsp; 
+    linear regression; &nbsp; logistic regression; &nbsp;
+    generalized linear models; &nbsp; bayes nets; &nbsp; mixture models; &nbsp;
+    latent linear models; &nbsp; sparse linear models; &nbsp; kernels; &nbsp;
+    gaussians; &nbsp; adaptive basis (adaboost); &nbsp; hidden markov models; &nbsp;
+    state space models; &nbsp; markov random fields; &nbsp; graphs & inference; &nbsp;
+    variational inference; &nbsp; monte carlo inference; &nbsp; MCMC inference; &nbsp;
+    clustering; &nbsp; graph structure learning; &nbsp; deep learning optimization 
+
 
 - url: /pdfs/math/machine-learning-glossary.pdf
   title: glossary
@@ -2177,7 +2188,7 @@
 
 - url: /pdfs/math/mining-massive-datasets-3rd.pdf
   title: mining of massive datasets
-  tags: book
+  tags: books
   source: DMMD
   notes:
 
@@ -2382,7 +2393,7 @@
 
 - url: /pdfs/math/parallel-processing.pdf
   title: parallel processing
-  tags: book
+  tags: books
   source: PP
   notes:
 

@@ -24,8 +24,12 @@
 		        	{%- for item in sorted_tag_items -%}
 
 	        			<li><a href="{{item.url}}" target="_blank">
-	        				{{item.title}} ({{item.source}})
-	    	    		</a></li>
+	        				{{item.title}} ({{item.source}})</a>
+
+							{%- if item.notes -%} 
+							<div class="callout">{{item.notes}}</div>
+							{%- endif -%}
+						</li>
         			{%- endfor -%}
     			</ul>
     		</div>
