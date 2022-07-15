@@ -26,8 +26,20 @@
 	        			<li><a href="{{item.url}}" target="_blank">
 	        				{{item.title}} ({{item.source}})</a>
 
-							{%- if item.notes -%} 
-							<div class="callout">{{item.notes}}</div>
+							{%- if item.repo -%}
+								<span style="float:right;">
+								<small><a href="{{item.repo}}"/>
+											(GitHub|Bitbucket|Other)</a>
+								</small>
+								</span>
+							{%- endif -%}
+
+						{%- if item.notes -%} 
+								{%- if item.favorite -%}
+									<div class="callout success">{{item.notes}}</div>
+								{%- else -%}
+									<div class="callout">{{item.notes}}</div>
+								{%- endif -%}
 							{%- endif -%}
 						</li>
         			{%- endfor -%}
