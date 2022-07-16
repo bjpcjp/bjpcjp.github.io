@@ -2,7 +2,6 @@
 # math-allpdfs-20220716.yml
 # ------------------------------------------------------------------
 
-
 # ------------------------------------------------------------------
 # python for data analysis, 3E
 
@@ -485,6 +484,12 @@
 # layout uses "repo" attribute to link to code (github, etc)
 #
 
+- url: /pdfs/math/book-ADM.pdf
+  title: algorithm design manual
+  tags: books
+  source: skiena
+  notes:
+
 - url: https://wesmckinney.com/book/?utm_source=pocket_mylist
   title: python for data analysis, 3rd ed
   tags: books
@@ -568,6 +573,10 @@
   tags: classification
   source: SKL
   notes:
+    basic algos (ball tree, KD tree, ...)<br>
+    KNNs & radius-based algos<br>
+    nearest centroids<br>
+    neighborhood components analysis (NCA)<br>
 
 - url: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/07_gaussians.ipynb
   title: gaussian models
@@ -1469,7 +1478,7 @@
 
 - url: /pdfs/math/bin-packing-ADM.pdf
   title: bin packing
-  tags: graphs
+  tags: geometry
   source: ADM
   notes:
     given n items and m bins - store all the items using the smallest
@@ -1624,7 +1633,7 @@
 
 - url: /pdfs/math/bootstrap-confidence-intervals-CSI.pdf
   title: bootstrap-confidence-intervals
-  tags: probability
+  tags: probability & statistics
   source: CSI
   notes:
 
@@ -1745,7 +1754,7 @@
 #  notes:
 
 - url: /pdfs/math/convex-hull-ADM.pdf
-  title: convex-hull
+  title: convex hulls
   tags: geometry
   source: ADM
   notes:
@@ -1777,7 +1786,7 @@
 
 - url: /pdfs/math/cryptography-ADM.pdf
   title: cryptography
-  tags: numerical analsys
+  tags: numerical analysis
   source: ADM
   notes:
 
@@ -1933,7 +1942,7 @@
 
 - url: /pdfs/math/distributions-multivariate-PSC.pdf
   title: distributions multivariate
-  tags: probability
+  tags: probability & statistics
   source: PSC
   notes:
 
@@ -2055,10 +2064,11 @@
   notes:
 
 - url: /pdfs/math/file-io-NP.pdf
-  title: file io
+  title: file I/O
   tags: tools
   source: NP
   notes:
+    CSV; HDF5; h5py; Pytables; serialization
 
 - url: /pdfs/math/finite-state-machine-minimization-ADM.pdf
   title: finite state machine minimization
@@ -2327,13 +2337,13 @@
 
 - url: /pdfs/math/hypothesis-testing-false-discovery-CSI.pdf
   title: hypothesis testing - false discovery
-  tags: probability
+  tags: probability & statistics
   source: CSI
   notes:
 
 - url: /pdfs/math/hypothesis-testing-PSC.pdf
   title: hypothesis testing
-  tags: probability
+  tags: probability & statistics
   source: PSC
   notes:
 
@@ -2829,7 +2839,7 @@
 
 - url: /pdfs/math/medians-ADM.pdf
   title: medians
-  tags: statistics
+  tags: probability & statistics
   source: ADM
   notes:
 
@@ -2932,7 +2942,7 @@
 
 - url: /pdfs/math/nearest-neighbors-ADM.pdf
   title: nearest neighbors
-  tags: classification
+  tags: geometry
   source: ADM
   notes:
 
@@ -3223,55 +3233,55 @@
 
 - url: /pdfs/math/probability-distributions-PSC.pdf
   title: distributions
-  tags: probability
+  tags: probability & statistics
   source: PSC
   notes:
 
 - url: /pdfs/math/probability-DLgoodfellow.pdf
   title: probability
-  tags: probability
+  tags: probability & statistics
   source: DLG
   notes:
 
 - url: /pdfs/math/probability-expectation-PSC.pdf
   title: expectation
-  tags: probability
+  tags: probability & statistics
   source: PSC
   notes:
 
 - url: /pdfs/math/probability-other-math-PSC.pdf
   title: other math
-  tags: probability
+  tags: probability & statistics
   source: PSC
   notes:
 
 - url: /pdfs/math/probability-random-vars-PSC.pdf
   title: random vars
-  tags: probability
+  tags: probability & statistics
   source: PSC
   notes:
 
 - url: /pdfs/math/probability-SM.pdf
   title: probability
-  tags: probability
+  tags: probability & statistics
   source: SM
   notes:
 
 - url: /pdfs/math/probability-theory-PSC.pdf
   title: theory
-  tags: probability
+  tags: probability & statistics
   source: PSC
   notes:
 
 - url: /pdfs/math/prob_cheatsheet_william_chen.pdf
   title: cheatsheet
-  tags: probability
+  tags: probability & statistics
   source: WillChen
   notes:
 
 - url: /pdfs/math/prob-intro.pdf
   title: intro
-  tags: probability
+  tags: probability & statistics
   source:
   notes:
 
@@ -3283,13 +3293,13 @@
 
 - url: /pdfs/math/prob-stats-cookbook v0.2.1.pdf
   title: cookbook
-  tags: probability
+  tags: probability & statistics
   source:
   notes:
 
 - url: /pdfs/math/prob-stats-modeling.pdf
   title: modeling
-  tags: probability
+  tags: probability & statistics
   source:
   notes:
 
@@ -3343,7 +3353,7 @@
 
 - url: /pdfs/math/range-search-ADM.pdf
   title: range search
-  tags: search
+  tags: geometry
   source: ADM
   notes:
 
@@ -3571,7 +3581,7 @@
 
 - url: /pdfs/math/singular-value-decomposition-FDS.pdf
   title: singular value decomposition (svd)
-  tags: classification
+  tags: svd
   source: FDS
   notes:
 
@@ -3588,8 +3598,8 @@
   notes:
 
 - url: /pdfs/math/sort-search-ADM.pdf
-  title: sort search
-  tags: sorting
+  title: sorting & searching
+  tags: combinationals
   source: ADM
   notes:
 
@@ -3631,7 +3641,7 @@
 
 - url: /pdfs/math/statistics-NP.pdf
   title: statistics
-  tags: statistics
+  tags: probability & statistics
   source: NP
   notes:
 
@@ -3882,7 +3892,7 @@
 
 - url: /pdfs/math/variance-PSC.pdf
   title: variance
-  tags: probability
+  tags: probability & statistics
   source: PSC
   notes:
 
