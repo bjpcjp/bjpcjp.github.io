@@ -2,6 +2,383 @@
 # math-allpdfs-20220716.yml
 # ------------------------------------------------------------------
 
+
+# ------------------------------------------------------------------
+# python for data analysis, 3E
+
+- url: https://wesmckinney.com/book/numpy-basics.html
+  title: numpy basics
+  tags: tools
+  source: PDA
+  notes:
+
+- url: https://wesmckinney.com/book/pandas-basics.html
+  title: pandas basics
+  tags: tools
+  source: PDA
+  notes:
+    series; data frames; index objects;
+    essential functions; descriptive stats
+
+- url: https://wesmckinney.com/book/accessing-data.html
+  title: data I/O
+  tags: tools
+  source: PDA
+  notes: 
+    text files; JSON; XML/HTML scraping;
+    binary data; web APIs; databases
+
+- url: https://wesmckinney.com/book/data-cleaning.html
+  title: data cleaning
+  tags: tools
+  source: PDA
+  notes:
+    missing data; transforms; extension data types;
+    string ops; category ops
+
+- url: https://wesmckinney.com/book/data-wrangling.html
+  title: join, combine, reshape
+  tags: tools
+  source: PDA
+  notes: 
+    hierarchical indexing; combining datasets;
+    reshaping; pivoting
+
+- url: https://wesmckinney.com/book/plotting-and-visualization.html
+  title: plotting & visualization
+  tags: visualization
+  source: PDA
+  notes:
+    matplotlib primer; pandas & seaborn; other tools
+
+- url: https://wesmckinney.com/book/data-aggregation.html
+  title: data aggregation & grouping
+  tags: tools
+  source: PDA
+  notes:
+
+- url: https://wesmckinney.com/book/time-series.html
+  title: time series ops
+  tags: time series
+  source: PDA
+  notes:
+    date & time datatypes;
+    ranges, frequencies & shifting;
+    periods;
+    frequency conversion;
+    moving windows
+
+- url: https://wesmckinney.com/book/modeling.html
+  title: patsy, statsmodels & scikit-learn
+  tags: tools
+  source: PDA
+  notes:
+
+- url: https://wesmckinney.com/book/advanced-numpy.html
+  title: numpy (advanced)
+  tags: tools
+  source: PDA
+  notes:
+    ndarray internals<br>
+    array manipulation<br>
+    broadcasting<br>
+    ufuncs<br>
+    structured & record arrays<br>
+    sorting<br>
+    numba<br>
+    advanced array I/O<br>
+    performance tips<br>
+
+# ------------------------------------------------------------------
+
+- url: https://github.com/bjpcjp/jq-hello/blob/master/jq-hello.ipynb
+  title: jq (JSON) basics
+  tags: tools
+  source:
+  notes:
+  repo: https://github.com/bjpcjp/jq-hello/blob/master/jq-hello.ipynb
+
+# ------------------------------------------------------------------
+# data science at the command line
+
+- url: https://datascienceatthecommandline.com/2e/chapter-2-getting-started.html
+  title: setup
+  tags: tools
+  source: DSCL
+  notes:
+
+- url: https://datascienceatthecommandline.com/2e/chapter-3-obtaining-data.html
+  title: grabbing data
+  tags: tools
+  source: DSCL
+  notes:
+    local data to docker<br>
+    internet downloads (curl, ...)<br>
+    decompressions (zip, ...)<br>
+    excel to CSV<br>
+    relational DBs<br>
+    web APIs<br>
+    authentication<br>
+    streaming APIs<br>
+
+- url: https://datascienceatthecommandline.com/2e/chapter-4-creating-command-line-tools.html
+  title: creating one-liners
+  tags: tools
+  source: DSCL
+  notes: 
+    one-liners to scripts<br>
+    creation using python or R<br>
+
+- url: https://datascienceatthecommandline.com/2e/chapter-5-scrubbing-data.html
+  title: scrubbing data
+  tags: tools
+  source: DSCL
+  notes:
+    transforms<br>
+    plain text<br>
+    CSV<br>
+    XML,HTML,JSON<br>
+
+- url: https://datascienceatthecommandline.com/2e/chapter-6-project-management-with-make.html
+  title: intro to make
+  tags: tools
+  source: DSCL
+  notes:
+
+- url: https://datascienceatthecommandline.com/2e/chapter-7-exploring-data.html
+  title: data exploration / visualization
+  tags: visualization
+  source: DSCL
+  notes:
+    headers<br>
+    descriptive stats<br>
+    visuals / chart types<br>
+
+- url: https://datascienceatthecommandline.com/2e/chapter-8-parallel-pipelines.html
+  title: parallelization (pipelines)
+  tags: performance
+  source: DSCL
+  notes:
+    serial processing<br>
+    parallel processing<br>
+    distributed processing<br>
+
+- url: https://datascienceatthecommandline.com/2e/chapter-10-polyglot-data-science.html
+  title: common languages
+  tags: tools
+  source: DSCL
+  notes:
+    Jupyter, R, Python, Rstudio, spark
+
+- url: https://datascienceatthecommandline.com/2e/list-of-command-line-tools.html
+  title: list of tools (expanded)
+  tags: tools
+  source: DSCL
+  notes:
+
+# ------------------------------------------------------------------
+
+- url: https://github.com/bjpcjp/spaCy_hello_world
+  title: spaCy tutorial
+  tags: natural language processing
+  source: spacy.io
+  repo: https://github.com/bjpcjp/spaCy_hello_world
+  notes:
+
+- url: https://github.com/bjpcjp/python-data-science-handbook/tree/master/numpy
+  title: numpy basics
+  tags: tools
+  source: PDSH
+  repo: https://github.com/bjpcjp/python-data-science-handbook/tree/master/numpy
+  notes:
+    arrays; boolean arrays; broadcasting; indexing; sorting;
+    structured data; aggregations; ufuncs; data types
+
+- url: https://github.com/bjpcjp/python-data-science-handbook/tree/master/pandas
+  title: pandas basics
+  tags: tools
+  source: PDSH
+  repo: https://github.com/bjpcjp/python-data-science-handbook/tree/master/pandas
+  notes: 
+    aggregation/grouping, concat, append, hierarchical indexes,
+    merge, join, missing values, objects, ops, performance,
+    pivot tables, time series ops, vectorized string ops
+
+- url: https://github.com/bjpcjp/python-data-science-handbook/tree/master/seaborn
+  title: seaborn basics
+  tags: visualization
+  source: PDSH
+  repo: https://github.com/bjpcjp/python-data-science-handbook/tree/master/seaborn
+  notes:
+    intro and pokemon tutorial
+
+- url: https://github.com/bjpcjp/hypertools
+  title: hypertools
+  tags: visualization
+  source: hypertools.readthedocs.io
+  repo: https://github.com/bjpcjp/hypertools
+  notes:
+
+- url: https://github.com/bjpcjp/xgboost
+  title: xgboost
+  tags: boosting
+  source: xgboost.ai
+  repo: https://github.com/bjpcjp/xgboost
+  notes:
+    gradient boosting library
+
+- url: https://github.com/bjpcjp/catboost
+  title: catboost
+  tags: boosting
+  source: catboost.ai
+  notes:
+    gradient boosting on decision trees
+
+- url: https://github.com/bjpcjp/clifford-attractors
+  title: clifford attractors
+  tags: visualization
+  source: 
+  repo: https://github.com/bjpcjp/clifford-attractors
+  notes: simple demo using ggplot
+
+- url: https://github.com/bjpcjp/category-scatterplot
+  title: catscatter scatterplot demo
+  tags: visualization
+  source: myriam barnes
+  repo: https://github.com/bjpcjp/category-scatterplot
+  notes:
+
+- url: https://github.com/bjpcjp/gensim-lessons
+  title: Gensim lessons
+  tags: natural language processing
+  source:
+  repo: https://github.com/bjpcjp/gensim-lessons
+  notes:
+
+- url: https://github.com/bjpcjp/survival-analysis
+  title: survival analysis
+  tags: survival analysis
+  source:
+  repo: https://github.com/bjpcjp/survival-analysis
+  notes:
+
+- url: https://github.com/bjpcjp/fb-prophet
+  title: Prophet
+  tags: time series
+  source: Facebook
+  repo: https://github.com/bjpcjp/fb-prophet
+  notes:
+
+- url: https://github.com/bjpcjp/pycaret-intro
+  title: PyCaret intro
+  tags: tools
+  source: BJP
+  repo: https://github.com/bjpcjp/pycaret-intro
+  notes: 
+    PyCaret is a high-level, low-code Python library that makes it easy to compare, train, evaluate, tune, and deploy machine learning models with only a few lines of code. At its core, PyCaret is basically just a large wrapper over many data science libraries such as Scikit-learn, Yellowbrick, SHAP, Optuna, and Spacy. Yes, you could use these libraries for the same tasks, but if you don’t want to write a lot of code, PyCaret could save you a lot of time.
+
+# Hands-On ML with Scikit-Learn and Tensorflow (Geron)
+
+- url: https://github.com/bjpcjp/scikit-and-tensorflow-workbooks/blob/master/ch02%20-%20cal%20housing%20analysis.ipynb
+  title: cal housing market analysis
+  tags: classification
+  source: HoML
+  notes:
+  repo: https://github.com/bjpcjp/scikit-and-tensorflow-workbooks/blob/master/ch02%20-%20cal%20housing%20analysis.ipynb
+
+- url: https://github.com/bjpcjp/scikit-and-tensorflow-workbooks/blob/master/ch03-classification.ipynb
+  title: classification basics
+  tags: classification
+  source: HoML
+  notes:
+  repo: https://github.com/bjpcjp/scikit-and-tensorflow-workbooks/blob/master/ch03-classification.ipynb
+
+- url: https://github.com/bjpcjp/scikit-and-tensorflow-workbooks/blob/master/ch04-training-models.ipynb
+  title: training
+  tags: training
+  source: HoML
+  notes:
+  repo: https://github.com/bjpcjp/scikit-and-tensorflow-workbooks/blob/master/ch04-training-models.ipynb
+
+- url: https://github.com/bjpcjp/scikit-and-tensorflow-workbooks/blob/master/ch05-support-vector-machines.ipynb
+  title: svms
+  tags: svms
+  source: HoML
+  notes:
+  repo: https://github.com/bjpcjp/scikit-and-tensorflow-workbooks/blob/master/ch05-support-vector-machines.ipynb
+
+- url: https://github.com/bjpcjp/scikit-and-tensorflow-workbooks/blob/master/ch06-decision-trees.ipynb
+  title: decision trees
+  tags: ensembles
+  source: HoML
+  notes:
+  repo: https://github.com/bjpcjp/scikit-and-tensorflow-workbooks/blob/master/ch06-decision-trees.ipynb
+
+- url: https://github.com/bjpcjp/scikit-and-tensorflow-workbooks/blob/master/ch07-ensemble-learning.ipynb
+  title: ensemble learning
+  tags: ensembles
+  source: HoML
+  notes:
+  repo: https://github.com/bjpcjp/scikit-and-tensorflow-workbooks/blob/master/ch07-ensemble-learning.ipynb
+
+- url: https://github.com/bjpcjp/scikit-and-tensorflow-workbooks/blob/master/ch08-dimensionality-reduction.ipynb
+  title: dimensionality reduction
+  tags: dimensionality
+  source: HoML
+  notes:
+  repo: https://github.com/bjpcjp/scikit-and-tensorflow-workbooks/blob/master/ch08-dimensionality-reduction.ipynb
+
+- url: https://github.com/bjpcjp/scikit-and-tensorflow-workbooks/blob/master/ch09-tensorflow-setup.ipynb
+  title: setup
+  tags: tensorflow
+  source: HoML
+  notes:
+  repo: https://github.com/bjpcjp/scikit-and-tensorflow-workbooks/blob/master/ch09-tensorflow-setup.ipynb
+
+- url: https://github.com/bjpcjp/scikit-and-tensorflow-workbooks/blob/master/ch10-neural-nets.ipynb
+  title: neural net definitions
+  tags: tensorflow
+  source: HoML
+  notes:
+  repo: https://github.com/bjpcjp/scikit-and-tensorflow-workbooks/blob/master/ch10-neural-nets.ipynb
+
+- url: https://github.com/bjpcjp/scikit-and-tensorflow-workbooks/blob/master/ch11-DNN-training.ipynb
+  title: DNNs
+  tags: tensorflow
+  source: HoML
+  notes:
+  repo: https://github.com/bjpcjp/scikit-and-tensorflow-workbooks/blob/master/ch11-DNN-training.ipynb
+
+- url: https://github.com/bjpcjp/scikit-and-tensorflow-workbooks/blob/master/ch13-convolutional-NNs.ipynb
+  title: CNNs
+  tags: tensorflow
+  source: HoML
+  notes:
+  repo: https://github.com/bjpcjp/scikit-and-tensorflow-workbooks/blob/master/ch13-convolutional-NNs.ipynb
+
+- url: https://github.com/bjpcjp/scikit-and-tensorflow-workbooks/blob/master/ch14-Recurrent-NNs.ipynb
+  title: RNNs
+  tags: tensorflow
+  source: HoML
+  notes:
+  repo: https://github.com/bjpcjp/scikit-and-tensorflow-workbooks/blob/master/ch14-Recurrent-NNs.ipynb
+
+- url: https://github.com/bjpcjp/scikit-and-tensorflow-workbooks/blob/master/ch15-autoencoders.ipynb
+  title: autoencoders
+  tags: tensorflow
+  source: HoML
+  notes:
+  repo: https://github.com/bjpcjp/scikit-and-tensorflow-workbooks/blob/master/ch15-autoencoders.ipynb
+
+- url: https://github.com/bjpcjp/scikit-and-tensorflow-workbooks/blob/master/ch16-reinforcement-learning.ipynb
+  title: reinforcement learning
+  tags: tensorflow
+  source: HoML
+  notes:
+  repo: https://github.com/bjpcjp/scikit-and-tensorflow-workbooks/blob/master/ch16-reinforcement-learning.ipynb
+
+# papers with code ------------------------------------
+
 - url: https://paperswithcode.com/datasets
   title: 6619 datasets as of july 2022
   tags: datasets
@@ -41,7 +418,67 @@
   source: paperswithcode
   notes:
 
-  
+- url: https://paperswithcode.com/area/graphs
+  title: graph algos (SOTA)
+  tags: graphs
+  source: paperswithcode
+  notes:
+
+- url: https://paperswithcode.com/area/speech
+  title: speech algos
+  tags: use cases
+  source: paperswithcode
+  notes:
+
+- url: https://paperswithcode.com/area/playing-games
+  title: game-playing algos
+  tags: use cases
+  souce: paperswithcode
+  notes:
+
+- url: https://paperswithcode.com/area/audio
+  title: audio algos
+  tags: use cases
+  source: paperswithcode
+  notes:
+
+- url: https://paperswithcode.com/area/computer-code
+  title: code generation algos
+  tags: use cases
+  source: paperswithcode
+  notes:
+
+- url: https://paperswithcode.com/area/adversarial
+  title: adversarial apps
+  tags: deep learning architectures
+  source: paperswithcode
+  notes:
+
+- url: https://paperswithcode.com/area/robots
+  title: robotics apps
+  tags: robotics
+  source: paperswithcode
+  notes:
+
+- url: https://paperswithcode.com/area/reasoning
+  title: reasoning papers
+  tags: learning
+  source: paperswithcode
+  notes:
+
+- url: https://paperswithcode.com/area/knowledge-base
+  title: knowledge papers
+  tags: learning
+  source: paperswithcode
+  notes:
+
+- url: https://paperswithcode.com/area/music
+  title: music papers
+  tags: use cases
+  source: paperswithcode
+  notes:
+
+
 # math-allpdfs-20220714.yml
 # ------------------------------------------------------------------
 # layout uses "favorite" attribute to add green background
@@ -50,23 +487,22 @@
 
 - url: https://wesmckinney.com/book/?utm_source=pocket_mylist
   title: python for data analysis, 3rd ed
-  tags: ML basics
+  tags: books
   source: wes mckinney
   notes:
-    - python/ipython/jupyter basics<br>
-    - data structs/functions/files<br>
-    - numpy<br>
-    - pandas<br>
-    - data io<br>
-    - data cleaning<br>
-    - data ops (join,combine,reshape)<br>
-    - plotting & viz<br>
-    - data aggregation/grouping<br>
-    - time series<br>
-    - modeling libraries<br>
-    - examples<br>
-    - advanced numpy<br>
-
+#    - python/ipython/jupyter basics<br>
+#    - data structs/functions/files<br>
+#    - numpy<br>
+#    - pandas<br>
+#    - data io<br>
+#    - data cleaning<br>
+#    - data ops (join,combine,reshape)<br>
+#    - plotting & viz<br>
+#    - data aggregation/grouping<br>
+#    - time series<br>
+#    - modeling libraries<br>
+#    - examples<br>
+#    - advanced numpy<br>
 
 # math-allpdfs-20220710.yml
 # ------------------------------------------------------------------
@@ -75,8 +511,8 @@
 #
 
 - url: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/00_getting_started.ipynb
-  title: getting started
-  tags: ML basics
+  title: installation
+  tags: tools
   source: SKL
   notes:
 
@@ -109,7 +545,7 @@
 
 - url: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/04_support_vector_machines.ipynb
   title: support vector machines (SVMs)
-  tags: ML basics
+  tags: svms
   source: SKL
   notes: 
     - classification (SVC, NuSVC, LinearSVC)<br>
@@ -123,7 +559,7 @@
 
 - url: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/05_stochastic_gradient_descent.ipynb
   title: stochastic gradient descent (SGD)
-  tags: learning algorithms
+  tags: learning
   source: SKL
   notes:
 
@@ -135,14 +571,14 @@
 
 - url: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/07_gaussians.ipynb
   title: gaussian models
-  tags: ML basics
+  tags: gaussians
   source: SKL
   notes:
     - gaussian regressions<br>
 
 - url: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/08_cross_decomposition.ipynb
   title: cross decomposition
-  tags: ML basics
+  tags: dimensionality
   source: SKL
   notes:
     - canonical PLS (partial least squares)<br>
@@ -151,303 +587,355 @@
 
 - url: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/09_naive_bayes.ipynb
   title: naive bayes
-  tags: bayes
+  tags: classification
   source: SKL
   notes:
+    NB classification (gaussian, multinomial, complement, bernoulli)<br>
+    categorical NB<br>
+  repo: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/09_naive_bayes.ipynb
 
 - url: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/10_decision_trees.ipynb
   title: decision trees
   tags: ensembles
   source: SKL
   notes:
+  repo: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/10_decision_trees.ipynb
 
 - url: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/11a_bagging_trees.ipynb
   title: bagging
   tags: ensembles
   source: SKL
   notes:
+  repo: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/11a_bagging_trees.ipynb
 
 - url: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/11b_boosting.ipynb
   title: boosting (adaboost, gradient tree boosting, histogram boosting)
   tags: ensembles
   source: SKL
   notes:
+  repo: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/11b_boosting.ipynb
 
 - url: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/11c_voting.ipynb
   title: voting
   tags: ensembles
   source: SKL
   notes:
+  repo: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/11c_voting.ipynb
 
 - url: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/11d_general_stacking.ipynb
   title: stacking (general case)
   tags: ensembles
   source: SKL
   notes:
+  repo: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/11d_general_stacking.ipynb
 
 - url: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/12_multiclass_multioutput.ipynb
   title: multiclass & multioutput algos
   tags: classification
   source: SKL
   notes:
+  repo: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/12_multiclass_multioutput.ipynb
 
 - url: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/13_feature_selection.ipynb
   title: feature selection
   tags: design
   source: SKL
   notes:
+  repo: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/13_feature_selection.ipynb
 
 - url: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/14_unsupervised.ipynb
   title: semi-supervised learning
   tags: tbd
   source: SKL
   notes:
+  repo: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/14_unsupervised.ipynb
 
 - url: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/15_isotonic_regression.ipynb
   title: isotonic regression
   tags: regression
   source: SKL
   notes:
+  repo: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/15_isotonic_regression.ipynb
 
 - url: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/16_calibration_curves.ipynb
   title: calibration curves
   tags: evaluation
   source: SKL
   notes:
+  repo: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/16_calibration_curves.ipynb
 
 - url: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/17_perceptron.ipynb
   title: multilayer perceptron (MLP)
   tags: classification
   source: SKL
   notes:
+  repo: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/17_perceptron.ipynb
 
 - url: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/21_gaussian_mixtures.ipynb
   title: gaussian mixtures (GMMs) & expectation maximization (EM)
-  tags: tbd
+  tags: gaussians
   source: SKL
   notes:
+  repo: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/21_gaussian_mixtures.ipynb
 
 - url: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/22_manifolds.ipynb
   title: manifold learning
-  tags: tbd
+  tags: manifolds
   source: SKL
   notes:
+  repo: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/22_manifolds.ipynb
 
 - url: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/23_clustering.ipynb
   title: clustering methods
   tags: clustering
   source: SKL
   notes:
+  repo: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/23_clustering.ipynb
 
 - url: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/23a_clustering_metrics.ipynb
   title: clustering metrics
   tags: clustering
   source: SKL
   notes:
+  repo: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/23a_clustering_metrics.ipynb
 
 - url: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/24_biclustering.ipynb
   title: biclustering methods
   tags: clustering
   source: SKL
   notes:
+  repo: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/24_biclustering.ipynb
 
 - url: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/25_component_analysis_matrix_factorization.ipynb
   title: component analysis & matrix factorization
   tags: tbd
   source: SKL
   notes:
+  repo: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/25_component_analysis_matrix_factorization.ipynb
 
 - url: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/26_covariance.ipynb
   title: covariance
   tags: model evaluation
   source: SKL
   notes:
+  repo: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/26_covariance.ipynb
   
 - url: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/27_novelties_outliers.ipynb
   title: novelty & outlier detection
   tags: novelties-outliers
   source: SKL
   notes:
+  repo: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/27_novelties_outliers.ipynb
 
 - url: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/28_density_estimation.ipynb
   title: density estimation methods
   tags: density estimation
   source: SKL
   notes:
+  repo: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/28_density_estimation.ipynb
 
 - url: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/29_restricted_boltzmann_machines.ipynb
   title: restricted boltzmann machines (RBMs)
   tags: tbd
   source: SKL
   notes:
+  repo: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/29_restricted_boltzmann_machines.ipynb
 
 - url: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/31_cross_validation.ipynb
   title: cross validation methods
   tags: model evaluation
   source: SKL
   notes:
+  repo: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/31_cross_validation.ipynb
 
 - url: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/32_hyperparameters.ipynb
   title: (hyper)parameters
   tags: model evaluation
   source: SKL
   notes:
+  repo: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/32_hyperparameters.ipynb
 
 - url: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/33_metrics.ipynb
   title: metrics
   tags: model evaluation
   source: SKL
   notes:
+  repo: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/33_metrics.ipynb
 
 - url: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/33a_classification_metrics.ipynb
   title: metrics
   tags: classification
   source: SKL
   notes:
+  repo: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/33a_classification_metrics.ipynb
 
 - url: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/33b_multilabel_ranking_metrics.ipynb
   title: metrics
   tags: multilabel
   source: SKL
   notes:
+  repo: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/33b_multilabel_ranking_metrics.ipynb
 
 - url: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/33c_regression_metrics.ipynb
   title: metrics
   tags: regression
   source: SKL
   notes:
+  repo: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/33c_regression_metrics.ipynb
 
 - url: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/33d_dummy_metrics.ipynb
   title: dummy metrics
   tags: model evaluation
   source: SKL
   notes:
+  repo: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/33d_dummy_metrics.ipynb
 
 - url: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/41_inspection_plots.ipynb
   title: inspection plots
   tags: visualization
   source: SKL
   notes:
+  repo: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/41_inspection_plots.ipynb
 
 - url: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/42_permutation_feature_importance.ipynb
   title: permutation feature importance plots
   tags: visualization
   source: SKL
   notes:
+  repo: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/42_permutation_feature_importance.ipynb
 
 - url: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/50a_ROC_curve_viz.ipynb
   title: receiver operating characteristic (ROC) curves
   tags: visualization
   source: SKL
   notes:
+  repo: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/50a_ROC_curve_viz.ipynb
 
 - url: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/50b_partial_dependence_viz.ipynb
   title: partial dependence plots (PDPs)
   tags: visualization
   source: SKL
   notes:
+  repo: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/50b_partial_dependence_viz.ipynb
 
 - url: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/50c_display_objects.ipynb
   title: display objects
   tags: visualization
   source: SKL
   notes:
+  repo: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/50c_display_objects.ipynb
 
 - url: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/61_composite_transformers.ipynb
   title: composite transforms
   tags: feature engineering
   source: SKL
   notes:
+  repo: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/61_composite_transformers.ipynb
 
 - url: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/62_feature_extraction.ipynb
   title: feature extraction
   tags: feature engineering
   source: SKL
   notes:
+  repo: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/62_feature_extraction.ipynb
 
 - url: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/62a_text_feature_extraction.ipynb
   title: feature extraction (text)
   tags: feature engineering
   source: SKL
   notes:
+  repo: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/62a_text_feature_extraction.ipynb
 
 - url: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/62b_image_patch_extraction.ipynb
   title: image patch extraction
   tags: feature engineering
   source: SKL
   notes:
+  repo: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/62b_image_patch_extraction.ipynb
 
 - url: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/63_preprocessing.ipynb
   title: data preprocessing
   tags: feature engineering
   source: SKL
   notes:
+  repo: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/63_preprocessing.ipynb
 
 - url: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/64_imputation.ipynb
   title: data imputation
   tags: feature engineering
   source: SKL
   notes:
+  repo: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/64_imputation.ipynb
 
 - url: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/66_random_projections.ipynb
   title: random projections
   tags: feature engineering
   source: SKL
   notes:
+  repo: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/66_random_projections.ipynb
 
 - url: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/68_pairwise_ops.ipynb
   title: pairwise-data operations
   tags: feature engineering
   source: SKL
   notes:
+  repo: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/68_pairwise_ops.ipynb
 
 - url: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/69_transform_prediction_targets.ipynb
   title: prediction target transforms
   tags: feature engineering
   source: SKL
   notes:
+  repo: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/69_transform_prediction_targets.ipynb
 
 - url: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/71_example_datasets.ipynb
   title: example datasets
   tags: datasets
   source: SKL
   notes:
+  repo: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/71_example_datasets.ipynb
 
 - url: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/73_artificial_data_generators.ipynb
   title: artificial (generated) datasets
   tags: datasets
   source: SKL
   notes:
+  repo: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/73_artificial_data_generators.ipynb
 
 - url: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/74_other_datasets.ipynb
   title: other datasets
   tags: datasets
   source: SKL
   notes:
+  repo: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/74_other_datasets.ipynb
 
 - url: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/81_scaling.ipynb
   title: scaling tips
   tags: performance
   source: SKL
   notes:
+  repo: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/81_scaling.ipynb
 
 - url: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/82_performance.ipynb
   title: performance tips
   tags: performance
   source: SKL
   notes:
+  repo: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/82_performance.ipynb
 
 - url: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/83_parallelism.ipynb
   title: parallelism tips
   tags: performance
   source: SKL
   notes:
+  repo: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/83_parallelism.ipynb
 
 - url: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/90_persistence.ipynb
   title: disk I/O
   tag: performance
   source: SKL
   notes:
+  repo: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/90_persistence.ipynb
 
 
 # math-allpdfs-20220709.yml
@@ -904,19 +1392,23 @@
   notes:
 
 - url: /pdfs/math/bayes-inference-CSI.pdf
-  title: bayes-inference
+  title: bayes inference
   tags: bayes
   source: CSI
   notes:
+    two examples<br>
+    uninformed prior distributions<br>
+    flaws in frequentist inference<br>
+    bayes vs frequentist comparison<br>
 
 - url: /pdfs/math/bayes-inference-PSC.pdf
-  title: bayes-inference
-  tags: bayes
+  title: bayes inference
+  tags: cheatsheets
   source: PSC
   notes:
 
 - url: /pdfs/math/bayes-nets-SM.pdf
-  title: bayes-nets
+  title: bayes nets (directed graphs)
   tags: bayes
   source: SM
   notes:
@@ -937,6 +1429,14 @@
   tags: bayes
   source: SM
   notes:
+    intro<br>
+    posterior distribution<br>
+    MAP estimates<br>
+    bayes model selection<br>
+    priors<br>
+    hierarchical bayes<br>
+    empirical bayes<br>
+    decision theory<br>
 
 # redundant
 #- url: /pdfs/math/bibliography-dive.pdf
@@ -962,12 +1462,18 @@
   tags: tbd
   source: ITA
   notes:
+    definition<br>
+    query<br>
+    insert, delete<br>
+    random build<br>
 
 - url: /pdfs/math/bin-packing-ADM.pdf
   title: bin packing
   tags: graphs
   source: ADM
   notes:
+    given n items and m bins - store all the items using the smallest
+    number of bins.
 
 # duplicate
 #- url: /pdfs/math/book-ADM.pdf
@@ -1001,6 +1507,10 @@
   tags: books
   source: AJE
   notes:
+    intro; recursion; backtracking; dynamic programming;
+    greedy algos; graph algos; depth-first search;
+    min spanning trees; shortest paths; all-pairs shortest
+    paths; max flows; min cuts; NP-hardness
 
 - url: /pdfs/math/book-bandits-BA.pdf
   title: bandit algorithms
@@ -1015,10 +1525,11 @@
   notes:
 
 - url: /pdfs/math/book-convex-optimization-CO.pdf
-  title: convex estimation
+  title: convex optimization
   tags: books
   source: CO
   notes:
+    intro; theory; apps; algos; appendices
 
 - url: /pdfs/math/book-data-mining-massive-datasets-v2.1-DMMD.pdf
   title: data mining of massive datasets
@@ -1099,11 +1610,11 @@
   source: RL
   notes:
 
-- url: /pdfs/math/book-super-cheatsheet-deep-learning-SCDL.pdf
-  title: super cheatsheet
-  tags: cheatsheets
-  source: SCDL
-  notes:
+#- url: /pdfs/math/book-super-cheatsheet-deep-learning-SCDL.pdf
+#  title: super cheatsheet
+#  tags: cheatsheets
+#  source: SCDL
+#  notes:
 
 - url: /pdfs/math/boosting-additive-trees-ESL.pdf
   title: boosting additive trees
@@ -1131,15 +1642,17 @@
 
 - url: /pdfs/math/chinese-postman-ADM.pdf
   title: chinese-postman
-  tags: tbd
+  tags: graphs
   source: ADM
   notes:
+    given a graph, finding the shortest path touching each edge.
 
 - url: /pdfs/math/cliques-ADM.pdf
   title: cliques
-  tags: tbd
+  tags: graphs
   source: ADM
   notes:
+    how to find the largest clique (cluster) in a graph?
 
 - url: /pdfs/math/clustering-DMMD.pdf
   title: clustering
@@ -1181,9 +1694,14 @@
 
 - url: /pdfs/math/collective-intelligence.pdf
   title: collective intelligence
-  tags: tbd
-  source:
+  tags: books
+  source: CI
   notes:
+    intro; recommendations; groups/clustering;
+    search & rank; optimization; document filtering;
+    decision trees; price models; kernel methods & SVMs;
+    independent features; genetic programming;
+    algorithm summary
 
 - url: /pdfs/math/combinational-search-ADM.pdf
   title: combinational search
@@ -1216,6 +1734,8 @@
   tags: graphs
   source: ADM
   notes:
+    find the pieces of a graph, where vertices x & y are members of
+    different components if no path exists from x to y.
 
 # ill-formed PDF
 #- url: /pdfs/math/convergence-PSC.pdf
@@ -1465,12 +1985,16 @@
   tags: graphs
   source: ADM
   notes:
+    what's the smallest set of colors needed to color the edges of a
+    graph, such that no two same-color edges share a common vertex?
 
 - url: /pdfs/math/edge-vertex-connectivity-ADM.pdf
   title: edge vertex connectivity
   tags: graphs
   source: ADM
   notes:
+    what's the smallest subset of vertices (edges) whose deletion
+    will disconnect a graph?
 
 - url: /pdfs/math/eigenvectors-eigenvalues-LAY.pdf
   title: eigenvectors & eigenvalues
@@ -1658,17 +2182,27 @@
   tags: graphs
   source: ITA
   notes:
+    representations; breadth-first search; depth-first search;
+    topological sorting; strongly-connected components;
+
 
 - url: /pdfs/math/graph-datastructs-ADM.pdf
   title: graph datastructs
   tags: graphs
   source: ADM
   notes:
+    adjancency matrices; adjancency lists
 
 - url: /pdfs/math/graph-drawing-ADM.pdf
   title: graph drawing
   tags: graphs
   source: ADM
+  notes:
+
+- url: www.graphviz.org 
+  title: graphviz (tool)
+  tags: graphs
+  source: graphviz
   notes:
 
 - url: /pdfs/math/graph-generation-ADM.pdf
@@ -1682,12 +2216,17 @@
   tags: graphs
   source: ADM
   notes:
+    given two graphs G & H, find a function from G's vertices to
+    H's vertices such that G & H are identical. 
 
 - url: /pdfs/math/graph-partition-ADM.pdf
   title: graph partition
   tags: graphs
   source: ADM
   notes:
+    given a weighted graph G and integers k & m,
+    partition the vertices of G into m equally-sized subsets
+    such that the total edge cost spanning the subsets is at most k.
 
 - url: /pdfs/math/graphs-connected-components-ADM.pdf
   title: graphs connected components
@@ -2131,6 +2670,7 @@
   tags: graphs
   source: DMMD
   notes:
+    PageRank; link spam; hubs & authorities
 
 - url: /pdfs/math/lists-EA.pdf
   title: lists
@@ -2344,7 +2884,7 @@
 
 - url: /pdfs/math/mixture-models-SM.pdf
   title: gaussian mixtures
-  tags: gaussian
+  tags: gaussians
   source: SM
   notes:
 
@@ -2417,7 +2957,7 @@
 
 - url: /pdfs/math/nlp-dive.pdf
   title: natural language processing (NLP)
-  tags: nlp
+  tags: natural language processing
   source: DIDL
   notes:
 
@@ -2922,7 +3462,7 @@
 #  notes:
 
 - url: /pdfs/math/rnns-super-cheatsheet-SCDL.pdf
-  title: cheatsheet
+  title: cheatsheets
   tags: recurrent NNs
   source: SCDL
   notes:
@@ -3164,7 +3704,7 @@
 
 - url: /pdfs/math/support-vector-machines-ESL.pdf
   title: support vector machines
-  tags: svm
+  tags: svms
   source: ESL
   notes:
 
@@ -3223,7 +3763,7 @@
   notes:
 
 - url: /pdfs/math/tips-super-cheatsheet-SCDL.pdf
-  title: cheatsheet
+  title: deep learning cheatsheet (2018)
   tags: cheatsheets
   source: SCDL
   notes:
@@ -3265,6 +3805,26 @@
   tags: natural language processing
   source: FDS
   notes:
+    topic models<br>
+    non-negative matrix factorization (NMF)<br>
+    hard & soft clustering<br>
+    latent dirichlet allocation (LDA)<br>
+    dominant admixtures<br>
+    math<br>
+    term-topic matrices<br>
+    hidden markov models<br>
+    graph models & belief propagation<br>
+    bayes|belief nets<br>
+    markov random fields<br>
+    factor graphs<br>
+    tree algorithms<br>
+    message passing<br>
+    single-cycle graphs<br>
+    single-loop belief updates<br>
+    max weight matching<br>
+    warning propagation<br>
+    variable correlation<br>
+
 
 - url: /pdfs/math/topological-sort-ADM.pdf
   title: topological sort
