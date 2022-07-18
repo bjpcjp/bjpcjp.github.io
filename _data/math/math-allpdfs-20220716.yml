@@ -220,7 +220,7 @@
 
 - url: https://github.com/bjpcjp/xgboost
   title: xgboost
-  tags: boosting
+  tags: ensembles
   source: xgboost.ai
   repo: https://github.com/bjpcjp/xgboost
   notes:
@@ -228,7 +228,7 @@
 
 - url: https://github.com/bjpcjp/catboost
   title: catboost
-  tags: boosting
+  tags: ensembles
   source: catboost.ai
   notes:
     gradient boosting on decision trees
@@ -290,6 +290,14 @@
   tags: classification
   source: HoML
   notes:
+    - MNIST, aka hello world<br>
+    - confusion matrix<br>
+    - metrics (precision,recall)<br>
+    - ROC curve<br>
+    - multiclass classification<br>
+    - multilabel classification<br>
+    - multioutput classification<br>
+
   repo: https://github.com/bjpcjp/scikit-and-tensorflow-workbooks/blob/master/ch03-classification.ipynb
 
 - url: https://github.com/bjpcjp/scikit-and-tensorflow-workbooks/blob/master/ch04-training-models.ipynb
@@ -322,7 +330,7 @@
 
 - url: https://github.com/bjpcjp/scikit-and-tensorflow-workbooks/blob/master/ch08-dimensionality-reduction.ipynb
   title: dimensionality reduction
-  tags: dimensionality
+  tags: numerical analysis
   source: HoML
   notes:
   repo: https://github.com/bjpcjp/scikit-and-tensorflow-workbooks/blob/master/ch08-dimensionality-reduction.ipynb
@@ -356,22 +364,22 @@
   repo: https://github.com/bjpcjp/scikit-and-tensorflow-workbooks/blob/master/ch13-convolutional-NNs.ipynb
 
 - url: https://github.com/bjpcjp/scikit-and-tensorflow-workbooks/blob/master/ch14-Recurrent-NNs.ipynb
-  title: RNNs
-  tags: tensorflow
+  title: RNNs with Tensorflow
+  tags: recurrent NNs (RNNs)
   source: HoML
   notes:
   repo: https://github.com/bjpcjp/scikit-and-tensorflow-workbooks/blob/master/ch14-Recurrent-NNs.ipynb
 
 - url: https://github.com/bjpcjp/scikit-and-tensorflow-workbooks/blob/master/ch15-autoencoders.ipynb
-  title: autoencoders
-  tags: tensorflow
+  title: autoencoders with Tensorflow
+  tags: autoencoders
   source: HoML
   notes:
   repo: https://github.com/bjpcjp/scikit-and-tensorflow-workbooks/blob/master/ch15-autoencoders.ipynb
 
 - url: https://github.com/bjpcjp/scikit-and-tensorflow-workbooks/blob/master/ch16-reinforcement-learning.ipynb
-  title: reinforcement learning
-  tags: tensorflow
+  title: RL with Tensorflow
+  tags: reinforcement learning
   source: HoML
   notes:
   repo: https://github.com/bjpcjp/scikit-and-tensorflow-workbooks/blob/master/ch16-reinforcement-learning.ipynb
@@ -587,7 +595,7 @@
 
 - url: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/08_cross_decomposition.ipynb
   title: cross decomposition
-  tags: dimensionality
+  tags: numerical analysis
   source: SKL
   notes:
     - canonical PLS (partial least squares)<br>
@@ -640,9 +648,23 @@
 
 - url: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/12_multiclass_multioutput.ipynb
   title: multiclass & multioutput algos
-  tags: classification
+  tags: classification & regression
   source: SKL
   notes:
+    - classification<br>
+      - intro<br>
+      - multiclass (aka label binarization)<br>
+      - one-vs-rest<br>
+      - multilabel<br>
+      - one-vs-one<br>
+      - output code<br>
+      - multioutput<br>
+      - classifier chains<br>
+      - multiclass-multioutput (aka multitask)<br>
+    - regression<br>
+      - multioutput<br>
+      - regressor chains<br>
+
   repo: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/12_multiclass_multioutput.ipynb
 
 - url: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/13_feature_selection.ipynb
@@ -713,6 +735,7 @@
   tags: clustering
   source: SKL
   notes:
+    - intro, spectral co/biclustering
   repo: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/24_biclustering.ipynb
 
 - url: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/25_component_analysis_matrix_factorization.ipynb
@@ -724,7 +747,7 @@
 
 - url: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/26_covariance.ipynb
   title: covariance
-  tags: model evaluation
+  tags: evaluation
   source: SKL
   notes:
   repo: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/26_covariance.ipynb
@@ -741,6 +764,8 @@
   tags: density estimation
   source: SKL
   notes:
+    - intro, histograms, kernel density estimates (KDE)
+
   repo: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/28_density_estimation.ipynb
 
 - url: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/29_restricted_boltzmann_machines.ipynb
@@ -752,21 +777,21 @@
 
 - url: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/31_cross_validation.ipynb
   title: cross validation methods
-  tags: model evaluation
+  tags: evaluation
   source: SKL
   notes:
   repo: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/31_cross_validation.ipynb
 
 - url: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/32_hyperparameters.ipynb
   title: (hyper)parameters
-  tags: model evaluation
+  tags: evaluation
   source: SKL
   notes:
   repo: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/32_hyperparameters.ipynb
 
 - url: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/33_metrics.ipynb
   title: metrics
-  tags: model evaluation
+  tags: evaluation
   source: SKL
   notes:
   repo: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/33_metrics.ipynb
@@ -776,6 +801,21 @@
   tags: classification
   source: SKL
   notes:
+    - accuracy, top-K accuracy, balanced accuracy<br>
+    - cohen's kappa, confusion matrix, classification report<br>
+    - hamming loss, precision, recall, f-measure<br>
+    - precision-recall curve, avg precision<br>
+    - precision-recall curve (multilabel)<br>
+    - jaccard similarity<br>
+    - hinge loss<br>
+    - log loss<br>
+    - matthews correleation coefficient<br>
+    - confusion matrix (multilabel)<br>
+    - ROC curve<br>
+    - detection-error tradeoff (DET)<br>
+    - zero-one loss<br>
+    - brier score<br>
+
   repo: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/33a_classification_metrics.ipynb
 
 - url: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/33b_multilabel_ranking_metrics.ipynb
@@ -794,7 +834,7 @@
 
 - url: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/33d_dummy_metrics.ipynb
   title: dummy metrics
-  tags: model evaluation
+  tags: evaluation
   source: SKL
   notes:
   repo: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/33d_dummy_metrics.ipynb
@@ -1036,13 +1076,13 @@
 
 - url: /pdfs/math/all-pairs-shortest-paths-ITA.pdf
   title: all-pairs-shortest-paths
-  tags: search
+  tags: sorting-searching
   source: ITA
   notes:
 
 - url: /pdfs/math/all-pairs-shortest-paths-JE.pdf
   title: all-pairs-shortest-paths
-  tags: search
+  tags: sorting-searching
   source: JE
   notes:
 
@@ -1138,7 +1178,7 @@
 
   url: /pdfs/math/autoencoders-DLgoodfellow.pdf
   title: autoencoders
-  tags: dl-architectures
+  tags: autoencoders
   source: DLG
   notes:
 
@@ -1668,12 +1708,30 @@
   tags: clustering
   source: DMMD
   notes:
+    - intro (data, strategies, dimensionality)<br>
+    - hierarchical<br>
+    - k-means<br>
+    - CURE (clustering using representatives)<br>
+    - non-euclidean spaces<br>
+    - clustering for streams & parallelism<br>
 
 - url: /pdfs/math/clustering-FDS.pdf
   title: clustering
   tags: clustering
   source: FDS
   notes:
+    - intro<br>
+    - k-means (lloyds algo, wards algo)<br>
+    - k-center<br>
+    - low-error<br>
+    - spectral<br>
+    - approximation stability<br>
+    - high-density<br>
+    - kernel methods<br>
+    - recursive clustering w/ sparse cuts<br>
+    - dense submatrices & communities<br>
+    - community finding & graph partitions<br>
+    - spectral clustering & social nets<br>
 
 # redundant
 #- url: /pdfs/math/cnns-dive.pdf
@@ -1714,15 +1772,19 @@
 
 - url: /pdfs/math/combinational-search-ADM.pdf
   title: combinational search
-  tags: search
+  tags: sorting-searching
   source: ADM
   notes:
 
-- url: /pdfs/math/combinatorials-ADM.pdf
-  title: combinatorials
-  tags: combinatorials
-  source: ADM
-  notes:
+# redundant - chapter 14
+#- url: /pdfs/math/combinatorials-ADM.pdf
+#  title: combinationals
+#  tags: combinationals
+#  source: ADM
+#  notes:
+#    sorting, searching, median, selection, permutations,
+#    subsets, partitions, generating graphs, calendar math,
+#    job scheduling, satisfiability
 
 - url: /pdfs/math/complex-numbers-LAY.pdf
   title: complex-numbers
@@ -1882,7 +1944,7 @@
 
 - url: /pdfs/math/depth-first-search-AJE.pdf
   title: depth first search
-  tags: search
+  tags: sorting-searching
   source: AJE
   notes:
 
@@ -1906,31 +1968,31 @@
 
 - url: /pdfs/math/diffeqs-ordinary-NP.pdf
   title: diffeqs ordinary
-  tags: differential equations
+  tags: numerical analysis
   source: NP
   notes:
 
 - url: /pdfs/math/diffeqs-partial-NP.pdf
   title: diffeqs partial
-  tags: differential equations
+  tags: numerical analysis
   source: NP
   notes:
 
 - url: /pdfs/math/dimensionality-ESL.pdf
   title: dimensionality
-  tags: dimensionality
+  tags: numerical analysis
   source: ESL
   notes:
 
 - url: /pdfs/math/dimensionality-FDS.pdf
   title: dimensionality
-  tags: dimensionality
+  tags: numerical analysis
   source: FDS
   notes:
 
 - url: /pdfs/math/dimensionality-reduction-DMMD.pdf
   title: dimensionality reduction
-  tags: dimensionality
+  tags: numerical analysis
   source: DMMD
   notes:
 
@@ -1982,6 +2044,10 @@
   tags: dynamic programming
   source: JE
   notes:
+    - intro; faster fibonacci numbers; smart recursion;
+      greed is stupid; longest increasing subsequence;
+      edit distance; subset sum; binary search trees;
+      dynamic programming on trees; 
 
 - url: /pdfs/math/dynamic-programming-RL.pdf
   title: dynamic programming
@@ -2034,7 +2100,7 @@
 
 - url: /pdfs/math/equation-solving-NP.pdf
   title: equation solving
-  tags: equation solvers
+  tags: numerical analysis
   source: NP
   notes:
 
@@ -2108,10 +2174,13 @@
   notes:
 
 - url: /pdfs/math/function-estimation-non-parametric-PSC.pdf
-  title: function estimation non parametric
-  tags: function estimation
+  title: density estimates  
+  tags: density estimation
   source: PSC
   notes:
+    - density estimates<br>
+    - histograms<br>
+    - kernel density estimator (KDE)<br>
 
 - url: /pdfs/math/gans-dive.pdf
   title: gans
@@ -2437,6 +2506,20 @@
   tags: information theory
   source: stone, USheffield
   notes:
+    - finding a route<br>
+    - bits are not binary digits<br>
+    - entropy<br>
+    - entropy - continuous variables<br>
+    - max-entropy distributions<br>
+    - channel capacity<br>
+    - shannon's source coding theorem<br>
+    - noise reduces channel capacity<br>
+    - mutual info<br>
+    - shannon's noisy channel coding theorem<br>
+    - gaussian channels<br>
+    - fourier analysis<br>
+    - history<br>
+    - key equations<br>
 
 - url: /pdfs/math/inner-product-length-orthogonality-LAY.pdf
   title: inner-product-length-orthogonality
@@ -2540,6 +2623,9 @@
   tags: combinationals
   source: ADM
   notes:
+    given a directed acyclic graph (vertices = jobs,
+    edges = task dependencies), what schedule completes the job
+    in minimum time/effort?
 
 - url: /pdfs/math/kd-trees-ADM.pdf
   title: kd trees
@@ -2591,19 +2677,36 @@
 
 - url: /pdfs/math/linear_algebra-DLgoodfellow.pdf
   title: linear algebra
-  tags: linear algebra
+  tags: arithmetic
   source: DLG
+  favorite: yes
   notes:
+    - scalars, vectors, matrices, tensors<br>
+    - vector|matrix multiplication<br>
+    - identity matrix<br>
+    - inverse matrix<br>
+    - linear dependence<br>
+    - span<br>
+    - norms<br>
+    - diagonal matrix<br>
+    - symmetric matrix<br>
+    - orthogonal matrix<br>
+    - eigen decomposition<br>
+    - singular value decomposition (svd)<br>
+    - moore-penrose pseudoinverse matrix<br>
+    - trace operator<br>
+    - determinant<br>
+    - example - principal components analysis (PCA)<br>
 
 - url: /pdfs/math/linear-algebra-LAY.pdf
   title: linear algebra
-  tags: linear algebra
+  tags: arithmetic
   source: LAY
   notes:
 
 - url: /pdfs/math/Linear-Algebra-Lay.pdf
   title: linear algebra
-  tags: linear algebra
+  tags: arithmetic
   source: LAY
   notes:
 
@@ -2612,6 +2715,10 @@
   tags: classification
   source: ESL
   notes:
+    - regression - indicator matrix<br>
+    - linear discriminant analysis (LDA)<br>
+    - logistic regression<br>
+    - hyperplanes<br>
 
 - url: /pdfs/math/linear-equations-ADM.pdf
   title: linear equation solvers
@@ -2626,6 +2733,10 @@
   tags: latent variables
   source: DLG
   notes:
+    - probabilistic PCA + factor analysis<br>
+    - independent component analysis<br>
+    - sparse coding<br>
+    - manifold representation of PCA<br>
 
 - url: /pdfs/math/linear-nns-dive.pdf
   title: linear NNs
@@ -2671,7 +2782,7 @@
 
 - url: /pdfs/math/linear-time-sort-ITA.pdf
   title: linear time sort
-  tags: sorting
+  tags: sorting-searching
   source: ITA
   notes:
 
@@ -3130,10 +3241,12 @@
   tags: combinationals
   source: ADM
   notes:
+    - given integer n, generate partitions that
+      add up to n.
 
 - url: /pdfs/math/PCA-explained-visually.pdf
   title: principal component analysis (PCA)
-  tags: decompositon
+  tags: numerical analysis
   source:
   notes:
 
@@ -3151,9 +3264,10 @@
 
 - url: /pdfs/math/permutations-ADM.pdf
   title: permutations
-  tags: combinational
+  tags: combinationals
   source: ADM
   notes:
+    - given n, generate a set of items of length n.
 
 - url: /pdfs/math/planarity-ADM.pdf
   title: planarity detection
@@ -3308,6 +3422,11 @@
   tags: classification
   source: ESL
   notes:
+    - prototype methods (kmeans, learning vector quant, 
+      gaussian mixtures)<br>
+    - knn classifiers<br>
+    - adaptive NN methods<br>
+    - computational performance<br>
 
 - url: /pdfs/math/queues-sequences-EA.pdf
   title: queues sequences
@@ -3317,7 +3436,7 @@
 
 - url: /pdfs/math/quicksort-ITA.pdf
   title: quicksort
-  tags: sorting
+  tags: sorting-searching
   source: ITA
   notes:
 
@@ -3376,13 +3495,13 @@
   notes:
 
 - url: /pdfs/math/recurrent-recursive-nets-DLgoodfellow.pdf
-  title: recurrent NNs
-  tags: deep learning architectures
+  title: recursive nets
+  tags: recurrent NNs
   source: DLG
   notes:
 
 - url: /pdfs/math/recursion-JE.pdf
-  title: sorting
+  title: recursion
   tags: arithmetic
   source: JE
   notes:
@@ -3488,22 +3607,24 @@
   tags: combinationals
   source: ADM
   notes:
+    given a set of logical constraints,
+    is there a configuration that satisfies the set? 
 
 - url: /pdfs/math/search-depth-first-JE.pdf
   title: depth first search
-  tags: search
+  tags: sorting-searching
   source: JE
   notes:
 
 - url: /pdfs/math/searching-ADM.pdf
   title: searching
-  tags: search 
+  tags: sorting-searching 
   source: ADM
   notes:
 
 - url: /pdfs/math/search-methods-ADM.pdf
   title: searching
-  tags: search
+  tags: sorting-searching
   source: ADM
   notes:
 
@@ -3569,13 +3690,13 @@
 
 - url: /pdfs/math/similarity-search-DMMD.pdf
   title: similarity search
-  tags: search
+  tags: sorting-searching
   source: DMMD
   notes:
 
 - url: /pdfs/math/single-source-shortest-paths-ITA.pdf
   title: single source shortest paths
-  tags: search
+  tags: sorting-searching
   source: ITA
   notes:
 
@@ -3599,13 +3720,13 @@
 
 - url: /pdfs/math/sort-search-ADM.pdf
   title: sorting & searching
-  tags: combinationals
+  tags: sorting-searching
   source: ADM
   notes:
 
 - url: /pdfs/math/sort-search-EA.pdf
   title: sort search
-  tags: sorting
+  tags: sorting-searching
   source: EA
   notes:
 
@@ -3617,7 +3738,7 @@
 
 - url: /pdfs/math/sparse-models-lasso-CSI.pdf
   title: sparse models & lasso
-  tags: model selection
+  tags: evaluation
   source: CSI
   notes:
 
@@ -3838,7 +3959,7 @@
 
 - url: /pdfs/math/topological-sort-ADM.pdf
   title: topological sort
-  tags: sorting
+  tags: sorting-searching
   source: ADM
   notes:
 
@@ -3880,9 +4001,18 @@
 
 - url: /pdfs/math/unsupervised-learning-ESL.pdf
   title: unsupervised learning
-  tags: machine learning - unsupervised
+  tags: (multiple)
   source: ESL
   notes:
+    - association rules (market baskets, apriori)<br>
+    - clustering<br>
+    - self-organizing maps<br>
+    - principal components<br>
+    - non-negative matrix factorization (NMMF)<br>
+    - independent component analysis (ICA)<br>
+    - multidimensional scaling (MDS)<br>
+    - nonlinear dimension reduction<br>
+    - pagerank<br>
 
 - url: /pdfs/math/van-emde-boas-trees-ITA.pdf
   title: van emde boas trees
@@ -3929,9 +4059,26 @@
 
 - url: /pdfs/math/vision_szeliski_2010.pdf
   title: machine vision book
-  tags: machine vision
+  tags: books
   source: SZE
   notes:
+    - intro<br>
+    - formation<br>
+    - processing<br>
+    - feature detection & matching<br>
+    - segmentation<br>
+    - feature-based alignment<br>
+    - structure from motion<br>
+    - dense motion estimates<br>
+    - image stitching<br>
+    - computational photography<br>
+    - stereo correspondence<br>
+    - 3D reconstruction<br>
+    - image-based rendering<br>
+    - recognition<br>
+    - linear algebra<br>
+    - bayes modeling/inference<br>
+    - supplements
 
 - url: /pdfs/math/vizualization-NP.pdf
   title: matplotlib basics
