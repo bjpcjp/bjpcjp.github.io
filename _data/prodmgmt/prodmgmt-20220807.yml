@@ -17,9 +17,10 @@
   url: https://towardsdatascience.com/advanced-forecasting-using-bayesian-diffusion-modeling-b155a3dc1d84
   tags: forecasting
 
-- title: Bed Bath & Beyond - retail forecasting (supply chain dive)
-  url: https://www.supplychaindive.com/news/bed-bath-beyond-in-stock-inventory-erp-sku-technology-forecasting/602871/
-  tags: forecasting
+# more of a supply chain article
+#- title: Bed Bath & Beyond - retail forecasting (supply chain dive)
+#  url: https://www.supplychaindive.com/news/bed-bath-beyond-in-stock-inventory-erp-sku-technology-forecasting/602871/
+#  tags: forecasting
 
 - title: The History of Amazon's forecasting algorithm (science.amazon)
   url: https://www.amazon.science/latest-news/the-history-of-amazons-forecasting-algorithm
