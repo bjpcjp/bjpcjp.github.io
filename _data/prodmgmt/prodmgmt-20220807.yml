@@ -3,7 +3,59 @@
 # v20210713
 
 # --------------------------------------------------------------------------------
+# v20220807 - forecasting
+
+- title: intro to time series forecasting (algorithmia)
+  url: https://algorithmia.com/blog/an-introduction-to-time-series-forecasting
+  tags: forecasting
+
+- title: 5 sales forecasting techniques with machine learning (towards data science)
+  url: https://towardsdatascience.com/5-machine-learning-techniques-for-sales-forecasting-598e4984b109
+  tags: forecasting
+
+- title: Forecasting with Bayesian diffusion modeling (towards data science)
+  url: https://towardsdatascience.com/advanced-forecasting-using-bayesian-diffusion-modeling-b155a3dc1d84
+  tags: forecasting
+
+- title: Bed Bath & Beyond - retail forecasting (supply chain dive)
+  url: https://www.supplychaindive.com/news/bed-bath-beyond-in-stock-inventory-erp-sku-technology-forecasting/602871/
+  tags: forecasting
+
+- title: The History of Amazon's forecasting algorithm (science.amazon)
+  url: https://www.amazon.science/latest-news/the-history-of-amazons-forecasting-algorithm
+  tags: forecasting
+
+- title: Outcome Uncertainty and Spectator Demand for Contest-based Entertainment (ssrn.com)
+  url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3783339
+  tags: forecasting
+
+- title: Forecasting time series with ARIMA (the clever programmer)
+  url: https://thecleverprogrammer.com/2022/06/21/time-series-forecasting-with-arima/
+  tags: forecasting
+
+- title: Forecasting - principles & practice (Rob J Hyndman and George Athanasopoulos)
+  url: https://otexts.com/fpp2/
+  tags: forecasting
+
+- title: Using AI for retail forecasting (nVidia)
+  url: https://developer.nvidia.com/blog/best-practices-of-using-ai-to-develop-the-most-accurate-retail-forecasting-solution/
+  tags: forecasting
+
+- title: No-nonsense forecasting (dev-alloy)
+  url: https://dev-alloy.pantheonsite.io/wp-content/uploads/2020/11/Guide_NoNonsenseForecasting_Alloy_022019.pdf
+  tags: forecasting
+
+- title: Monte Carlo forecasting (Lucas Costa)
+  url: https://lucasfcosta.com/2021/09/20/monte-carlo-forecasts.html" 
+  tags: forecasting
+
+- title: Reduce Noise, Not Cognitive Biases (commoncog)
+  url: https://commoncog.com/blog/the-forecasting-series/
+  tags: forecasting
+
+# --------------------------------------------------------------------------------
 # v20220807
+
 - title: Intro to term sheets (Digify)
   url: https://digify.com/blog/the-startup-founders-ultimate-guide-to-term-sheets/
   tags: term sheets
@@ -43,7 +95,7 @@
 - title: Intro to uplift modeling (Shelby Temple)
   url: https://towardsdatascience.com/a-quick-uplift-modeling-introduction-6e14de32bfe0
   tags: uplift
-  
+
 # --------------------------------------------------------------------------------
 - title: 2020 stats report
   url: /pdfs/prodmgmt/2020-Ecommerce-Stats-Report.pdf
@@ -1410,7 +1462,7 @@
   notes: 
 
 - url: https://hbr.org/2015/03/relearning-the-art-of-asking-questions
-  title: Relearning the Art of Asking Questions (HBR)</a>?<br>
+  title: Relearning the Art of Asking Questions (HBR)
   tags: discovery & learning
   pic: 
   notes: 
@@ -2160,10 +2212,6 @@
 - url: https://towardsdatascience.com/croston-forecast-model-for-intermittent-demand-360287a17f5f
   title: Inconsistent demand - the Croston Model
   tags: forecasting
-
-- url: https://otexts.com/fpp2/
-  title: Forecasting Principles & Practice (book)
-  tags: forecasting 
 
 ##########################
 
