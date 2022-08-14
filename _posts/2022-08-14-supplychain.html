@@ -1,0 +1,63 @@
+---
+layout: default-foundation-20210515
+title:  Supply Chain Resources
+date: 2022-08-14
+tags: supply-chain
+---
+
+<div class="callout">
+    <h2>Supply Chain Resources</h2>
+    <p>(just getting started with this topic.)</p>
+    </div>
+
+<!-- formerly: v20210626 -->
+<!-- formerly: v20220612 -->
+<!-- formerly: v20220709 -->
+{%- assign records = site.data.supplychain.v20220814 | sort: "tags" | group_by: "tags" -%}
+
+<div class="callout primary">
+    <big>Tags:</big><br>
+    {%- for tag in records -%}
+        <a href="#{{tag.name}}">{{tag.name}}</a>&nbsp; &nbsp;
+    {%- endfor -%}
+</div>
+
+{%- for tag in records -%}
+    {%- if tag.name != "" -%}
+        <div class="card">
+        	<div class="card-divider" id="{{tag.name}}">
+        		{{ tag.name }}
+        	</div>
+
+        	<div class="card-section">
+        		<ul>
+		        	{%- assign sorted_tag_items = tag.items | sort: "title" -%}
+		        	{%- for item in sorted_tag_items -%}
+
+	        			<a href="{{item.url}}" target="_blank">
+	        				{{item.title}}
+							<!--
+							&nbsp;
+							{%- if item.source -%}
+								({{item.source}})
+							{%- endif -%}
+							-->
+                            <!--
+		        			{%- if item.px -%}
+	        					<img src="{{item.img}}" width=90%>
+	    	    			{%- endif -%}
+                            -->
+	    	    		</a><br>
+
+	    	    		{%- if item.notes -%}
+	    	    			<div class="card-section">
+	    	    				{{item.notes}}
+	    	    			</div>
+	    	    		{%- endif -%}
+
+        			{%- endfor -%}
+    			</ul>
+    		</div>
+    	</div>
+    {%- endif -%}
+{%- endfor -%}
