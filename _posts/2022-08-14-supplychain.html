@@ -13,7 +13,8 @@ tags: supply-chain
 <!-- formerly: v20210626 -->
 <!-- formerly: v20220612 -->
 <!-- formerly: v20220709 -->
-{%- assign records = site.data.supplychain.v20220814 | sort: "tags" | group_by: "tags" -%}
+<!-- formerly: v20220814 -->
+{%- assign records = site.data.supplychain.v20220815 | sort: "tags" | group_by: "tags" -%}
 
 <div class="callout primary">
     <big>Tags:</big><br>
@@ -44,9 +45,9 @@ tags: supply-chain
 							-->
                             <!--
 		        			{%- if item.px -%}
-	        					<img src="{{item.img}}" width=90%>
+	        					<img src="{{item.px}}" width="95%">
 	    	    			{%- endif -%}
-                            -->
+							-->
 	    	    		</a><br>
 
 	    	    		{%- if item.notes -%}
