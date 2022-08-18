@@ -1,0 +1,62 @@
+# v20220817 -------------------------------------------------------------------------------------------
+
+- title: Intro
+  url: https://jekyllrb.com/docs/datafiles/
+  tags: data files
+  source: jekyll
+
+- title: YAML linter
+  url: http://www.yamllint.com/
+  tags: yaml 
+  source: yamllint
+
+- title: Categories & tags 
+  url: https://blog.webjeda.com/jekyll-categories/
+  tags: categories
+  source: webjeda
+
+- title: Lazy loading 
+  url: https://ranvir.xyz/blog/lazy-loading-your-images-in-jekyll-blog-improving-page-speed/
+  tags: images
+  source: ranvir.xyz
+
+- title: Bootstrap 4 template 
+  url: https://github.com/jenofdoom/jekyll-bootstrap-4
+  tags: css
+  source: github
+
+- title: Hosting
+  url: http://jmcglone.com/guides/github-pages/
+  tags: GitHub 
+  source: jmcglone
+
+- title: Cloudant 
+  url: https://medium.com/@glynn_bird/adding-cloudant-search-to-your-static-jekyll-blog-5ad76b32a902
+  tags: search 
+  source: medium
+
+- title: Disqus 
+  url: https://desiredpersona.com/disqus-comments-jekyll/
+  tags: comments
+  source: desiredpersona
+
+- title: Metadata tags
+  url: https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/installation.md
+  tags: seo
+  source: github
+
+- title: Algolia 
+  url: https://forestry.io/blog/search-with-algolia-in-jekyll/
+  tags: search 
+  source: forestry.io
+
+- title: Linking series of posts 
+  url: https://engineering.chrobinson.com/how-to/linking-a-series-of-jekyll-posts/
+  tags: posts
+  source: chrobinson
+
+- title: Collections
+  url: https://blog.webjeda.com/jekyll-collections/
+  tags: collections
+  source: webjeda
+
