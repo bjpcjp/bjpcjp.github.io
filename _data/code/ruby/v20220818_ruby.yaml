@@ -1,2643 +1,409 @@
 # v20220818
-# v20220817
 
- - title: basics (intro)
-   url: /pdfs/ruby/er-ch01-basics.pdf
-   tags: ruby language
-   px:
-   source: eloquent-ruby
-
-
-- title: ruby core v3.1.2
-  url: https://ruby-doc.org/core-3.1.2/
+- title: basics (Write code that looks like Ruby)
+  url: https://github.com/cocoa/eloquent-ruby/tree/master/chapter_01
   tags: ruby language
   px: 
-  source: ruby-doc
+  source: eloquent ruby (pdf)
+  notes: 
+    - <a href="/pdfs/ruby/er-ch01-basics.pdf">book notes</a><br>
+    - format<br>
+    - comments<br>
+    - camel case & snake case<br>
+    - parentheses<br>
+    - semicolons & line folds<br>
+    - avoiding trouble; wrapup
 
-- title: ruby stdlib v3.1.2
-  url: https://ruby-doc.org/stdlib-3.1.2/
+- title: control structures
+  url: /pdfs/ruby/er-ch02-control-structs.pdf
+  tags: ruby language
+  px: 
+  source: eloquent ruby (pdf)
+  notes: 
+    - if, unless, while, until<br>
+    - modifiers<br>
+    - each, not for<br>
+    - case<br>
+    - avoiding trouble; in the wild; wrapup
+
+- title: collections
+  url: /pdfs/ruby/er-ch03-collections.pdf
+  tags: ruby language
+  px: 
+  source: eloquent ruby (pdf)
+  notes: 
+    - literal shortcuts<br>
+    - arrays & hashes from method calls<br>
+    - running through your collection<br>
+    - beware the bang!<br>
+    - hash ordering<br>
+    - avoiding trouble; in the wild; wrapup
+  
+- title: strings
+  url: /pdfs/ruby/er-ch04-strings.pdf
+  tags: ruby language
+  px: 
+  source: eloquent ruby (pdf)
+  notes: 
+    - syntax<br>
+    - string methods<br>
+    - lines, characters & bytes<br>
+    - avoiding trouble; in the wild; wrapup
+  
+- title: regexes
+  url: /pdfs/ruby/er-ch05-regexes.pdf
+  tags: ruby language
+  px: 
+  source: eloquent ruby (pdf)
+  notes: 
+    - single-character matches<br>
+    - sets, ranges, alternatives<br>
+    - the asterik, aka star<br>
+    - Ruby regexes<br>
+    - beginnings & endings<br>
+    - avoiding trouble; in the wild; wrapup
+  
+- title: symbols
+  url: /pdfs/ruby/er-ch06-symbols.pdf
+  tags: ruby language
+  px: 
+  source: eloquent ruby (pdf)
+  notes: 
+    - two faces of strings<br>
+    - not quite a string<br>
+    - symbols "stand for something"<br>
+    - avoiding trouble; in the wild; wrapup
+  
+- title: objects
+  url: /pdfs/ruby/er-ch07-objects.pdf
+  tags: ruby language
+  px: 
+  source: eloquent ruby (pdf)
+  notes: 
+    - review - classes, instances, methods<br>
+    - objects all the way down<br>
+    - importance of being an object<br>
+    - public, private, protected objects<br>
+    - in the wild; wrapup
+  
+- title: dynamic datatypes
+  url: /pdfs/ruby/er-ch08-dynamic-typing.pdf
+  tags: ruby language
+  px: 
+  source: eloquent ruby (pdf)
+  notes: 
+    - shorter programs - not the way you expect<br>
+    - decoupling<br>
+    - ceremony vs clarity<br>
+    - avoiding trouble; in the wild; wrapup
+  
+- title: specs & testing
+  url: /pdfs/ruby/er-ch09-specs-testing.pdf
+  tags: ruby language
+  px: 
+  source: eloquent ruby (pdf)
+  notes: 
+    - <strong>test::unit</strong><br>
+    - assertions<br>
+    - don't test it - spec it<br>    
+    - readability<br>
+    - stubs & mocks<br>
+    - avoiding trouble; in the wild; wrapup
+  
+- title: classes & methods
+  url: /pdfs/ruby/er-ch10-classes-methods.pdf
+  tags: ruby language
+  px: 
+  source: eloquent ruby (pdf)
+  notes:
+    - compressing specs<br>
+    - methods for humans<br>
+    - ruby methods<br>
+    - one way out?<br>
+    - avoiding trouble; in the wild; wrapup
+  
+- title: operators
+  url: /pdfs/ruby/er-ch11-operators.pdf
+  tags: ruby language
+  px: 
+  source: eloquent ruby (pdf)
+  notes: 
+    - defining operators<br>
+    - examples<br>
+    - operating across classes<br>
+    - avoiding trouble; in the wild; wrapup
+  
+- title: objects & equality
+  url: /pdfs/ruby/er-ch12-object-equality.pdf
+  tags: ruby language
+  px: 
+  source: eloquent ruby (pdf)
+  notes: 
+    - document identifiers<br>
+    - multiple equality methods<br>
+    - <strong>==</strong><br>
+    - more <strong>==</strong> uses<br>
+    - well-behaved equality<br>
+    - <strong>===</strong> for case statements<br>
+    - <strong>eql?</strong> and hashes<br>
+    - well-behaved hash keys<br>
+    - avoiding trouble; in the wild; wrapup
+  
+- title: singletons
+  url: /pdfs/ruby/er-ch13-singletons.pdf
+  tags: ruby language
+  px: /px/ruby/singleton.png
+  source: eloquent ruby (pdf)
+  notes: 
+    - a puzzle<br>
+    - a hidden, but real, class<br>
+    - class methods<br>
+    - avoiding trouble; in the wild; wrapup
+  
+- title: class instance variables (@@instvarname)
+  url: /pdfs/ruby/er-ch14-class-instance-vars.pdf
+  tags: ruby language
+  px: 
+  source: eloquent ruby (pdf)
+  notes: 
+    - quick review<br>
+    - wandering variables<br>
+    - controlling data in your class<br>
+    - class instance variables & subclasses<br>
+    - convenience helpers<br>
+    - avoiding trouble; in the wild; wrapup
+  
+- title: modules & namespaces
+  url: /pdfs/ruby/er-ch15-modules-namespaces.pdf
+  tags: ruby language
+  px: 
+  source: eloquent ruby (pdf)
+  notes: 
+    - a place for your stuff<br>
+    - a home for utility methods<br>
+    - construction<br>
+    - modules are objects<br>
+    - avoiding trouble; in the wild; wrapup
+
+  
+- title: modules & mixins
+  url: /pdfs/ruby/er-ch16-modules-mixins.pdf
+  tags: ruby language
+  px: 
+  source: eloquent ruby (pdf)
+  notes: 
+    - better books with modules<br>
+    - mixin modules<br>
+    - module extensions<br>
+    - avoiding trouble; in the wild; wrapup
+  
+- title: blocks & iteration
+  url: /pdfs/ruby/er-ch17-blocks-iteration.pdf
+  tags: ruby language
+  px: 
+  source: eloquent ruby (pdf)
+  notes: 
+    - quick review<br>
+    - one word after another<br>
+    - as many iterators as you want<br>
+    - iterating over the ethereal<br>
+    - Enumerable - your iterator on steroids<br>
+    - avoiding trouble; in the wild; wrapup
+  
+- title: blocks & wrappers
+  url: /pdfs/ruby/er-ch18-blocks-execute-around.pdf
   tags: ruby language
   px:
+  source: eloquent ruby (pdf)
+  notes: 
+    - logging<br>
+    - when something absolutely MUST happen<br>
+    - initialization blocks<br>
+    - dragging your scope along with the block<br>
+    - carrying the answers back<br>
+    - avoiding trouble; in the wild; wrapup
+
+- title: blocks - deferred execution
+  url: /pdfs/ruby/er-ch19-blocks-deferred-execution.pdf
+  tags: ruby language
+  px:
+  source: eloquent ruby (pdf)
+  notes: 
+    - explicit blocks<br>
+    - callback problems<br>
+    - banking blocks<br>
+    - saving blocks for lazy initialization<br>
+    - instant block objects<br>
+    - avoiding trouble; in the wild; wrapup
+
+- title: metaprogramming - hooks
+  url: /pdfs/ruby/er-ch20-metaprogramming-hooks.pdf
+  tags: ruby language
+  px:
+  source: eloquent ruby (pdf)
+  notes: 
+    - waking up to a new subclass<br>
+    - modules want to be heard too<br>
+    - knowing when time is up<br>
+    - ...and a cast of thousands<br>
+    - avoiding trouble; in the wild; wrapup
+  
+- title: method_missing
+  url: /pdfs/ruby/er-ch21-metaprogramming-method_missing.pdf
+  tags: ruby language
+  px:
+  source: eloquent ruby (pdf)
+  notes: 
+    - meeting those methods<br>
+    - handling document errors<br>
+    - coping with constants<br>
+    - in the wild; wrapup
+  
+- title: method_missing - delegation
+  url: /pdfs/ruby/er-ch22-metaprogramming-method_missing-delegation.pdf
+  tags: ruby language
+  px:
+  source: eloquent ruby (pdf)
+  notes: 
+    - intro<br>
+    - challenges<br>
+    - <strong>method_missing</strong><br>
+    - more discriminating delegation<br>
+    - in the wild; wrapup
+  
+- title: method_missing - APIs
+  url: /pdfs/ruby/er-ch23-metaprogramming-method_missing-apis.pdf
+  tags: ruby language
+  px:
+  source: eloquent ruby (pdf)
+  notes: 
+    - form letters - one word at a time<br>
+    - <strong>method_missing</strong and magic methods<br>
+    - its the users that count<br>
+    - in the wild; wrapup
+  
+- title: metaprogramming - monkey patching
+  url: /pdfs/ruby/er-ch24-metaprogramming-monkeypatching.pdf
+  tags: ruby language
+  px:
+  source: eloquent ruby (pdf)
+  notes: 
+    - classes are wide-open<br>
+    - fixing a broken class<br>
+    - improving classes<br>
+    - <strong>alias_method</strong><br>
+    - do anyting, anytime, to any class<br>
+    - avoiding trouble; in the wild; wrapup
+  
+- title: metaprogramming - self-modifying classes
+  url: /pdfs/ruby/er-ch25-metaprogramming-self-modify-classes.pdf
+  tags: ruby language
+  px:
+  source: eloquent ruby (pdf)
+  notes: 
+    - open classes<br>
+    - logic in classes<br>
+    - class methods that change their class<br>
+    - avoiding trouble; in the wild; wrapup
+  
+- title: metaprogramming - modifying subclasses
+  url: /pdfs/ruby/er-ch26-metaprogramming-self-modify-subclasses.pdf
+  tags: ruby language
+  px:
+  source: eloquent ruby (pdf)
+  notes: 
+    - a document of paragraphs<br>
+    - subclassing challenges<br>
+    - class methods that build instance methods<br>
+    - <strong>define_method</strong><br>
+    - advanced modification ideas<br>
+    - avoiding trouble; in the wild; wrapup
+  
+- title: inventing internal DSLs
+  url: /pdfs/ruby/er-ch27-building-dsls.pdf
+  tags: ruby language
+  px:
+  source: eloquent ruby (pdf)
+  notes:
+    - little languages for big problems<br>
+    - dealing with XML<br>
+    - stepping over the line<br>
+    - pulling out the stops<br>
+    - in the wild - avoiding trouble - wrapup<br>
+  
+- title: external DSLs
+  url: /pdfs/ruby/er-ch28-external-dsls.pdf
+  tags: ruby language
+  px:
+  source: eloquent ruby (pdf)
+  notes: 
+    - the trouble with Ripper<br>
+    - internal is not the only DSL<br>
+    - regexes & parsing<br>
+    - <a href="https://rubygems.org/gems/treetop/versions/1.6.11">treetop</a><br>
+    - avoiding trouble; in the wild; wrapup
+  
+- title: rubygem package building
+  url: /pdfs/ruby/er-ch29-gem-packaging.pdf
+  tags: ruby language
+  px:
+  source: eloquent ruby (pdf)
+  notes: 
+    - using gems<br>
+    - gem versions<br>
+    - nuts & bolts<br>
+    - construction<br>
+    - uploading to a repository<br>
+    - automation<br>
+    - avoiding trouble; in the wild; wrapup
+  
+- title: ruby implementations (variants)
+  url: /pdfs/ruby/er-ch30-ruby-implementations.pdf
+  tags: ruby language
+  px:
+  source: eloquent ruby (pdf)
+  notes: 
+    - quick list of variants<br>
+    - MRI<br>
+    - YARV (next-gen MRI)<br>
+    - JRuby<br>
+    - Rubinius<br>
+    - avoiding trouble; in the wild; wrapup
+  
+# v20220817
+
+- title: Core classes & methods, v3.1.2
+  url: https://ruby-doc.org/core-3.1.2/
+  tags: ruby language
+  px: https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Ruby_logo.svg/121px-Ruby_logo.svg.png
   source: ruby-doc
+  notes: 
+
+- title: Standard library v3.1.2
+  url: https://ruby-doc.org/stdlib-3.1.2/
+  tags: ruby language
+  px: https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Ruby_logo.svg/121px-Ruby_logo.svg.png
+  source: ruby-doc
+  notes:
+    - see <code>lib/</code> in Ruby source code, or<br>
+    - <code>lib/ruby/version/</code> of an installation.
 
 - title: metaprogramming
   url: https://akshaykhot.com/books/metaprogramming-ruby
   tags: metaprogramming
-  px:
+  px: https://akshaykhot.com/images/books/metaprogramming_ruby.jpeg
   source: akshaykhot
-
-- title: ruby Under the Microscope (pdf)
-  url: /pdfs/ruby/ruby-under-microscope.pdf
-  tags: books
-  px:
-  source: patshaughnessy
-  notes: <a href="http://patshaughnessy.net/ruby-under-a-microscope">original link</a>
-
-- title: Programming Ruby (pdf)
-  url: /pdfs/ruby/Programming-Ruby.pdf
-  tags: books
-  px:
-  source: ruby (pickaxe)
-
-- title: Clever Algorithms (pdf)
-  url: /pdfs/ruby/Clever-Algorithms.pdf
-  tags: books
-  px:
-  source: clever algorithms
-
-# v20210516
-
-- title: getting started (ch01)
-  url: https://github.com/bjpcjp/well-grounded-rubyist-book-notes/blob/master/ch01-bootstrap.ipynb
-  tags: books
-  px:
-  source: well grounded ruby
-
-- title: objects & methods (ch02) 
-  url: https://github.com/bjpcjp/well-grounded-rubyist-book-notes/blob/master/ch02-objs-meths-locals.ipynb
-  tags: books
-  px:
-  source: well grounded ruby
-
-- title: classes (ch03)
-  url: https://github.com/bjpcjp/well-grounded-rubyist-book-notes/blob/master/ch03-classes.ipynb
-  tags: books
-  px:
-  source: well grounded ruby
-
-- title: modules (ch04)
-  url: https://github.com/bjpcjp/well-grounded-rubyist-book-notes/blob/master/ch04-modules.ipynb
-  tags: books
-  px:
-  source: well grounded ruby
-
-- title: self (ch05)
-  url: https://github.com/bjpcjp/well-grounded-rubyist-book-notes/blob/master/ch05-self.ipynb
-  tags: books
-  px:
-  source: well grounded ruby
-
-- title: control structures (ch06)
-  url: https://github.com/bjpcjp/well-grounded-rubyist-book-notes/blob/master/ch06-control-flow.ipynb
-  tags: books
-  px:
-  source: well grounded ruby
-
-- title: essentials (ch07)
-  url: https://github.com/bjpcjp/well-grounded-rubyist-book-notes/blob/master/ch07-essentials.ipynb
-  tags: books
-  px:
-  source: well grounded ruby
-
-- title: scalars (ch08)
-  url: https://github.com/bjpcjp/well-grounded-rubyist-book-notes/blob/master/ch08-scalars.ipynb
-  tags: books
-  px:
-  source: well grounded ruby
-
-- title: collections (ch09)
-  url: https://github.com/bjpcjp/well-grounded-rubyist-book-notes/blob/master/ch09-collections-containers.ipynb
-  tags: books
-  px:
-  source: well grounded ruby
-
-- title: enumerables (ch10)
-  url: https://github.com/bjpcjp/well-grounded-rubyist-book-notes/blob/master/ch10-enumerables.ipynb
-  tags: books
-  px:
-  source: well grounded ruby
-
-- title: regexes (ch11)
-  url: https://github.com/bjpcjp/well-grounded-rubyist-book-notes/blob/master/ch11-regexes.ipynb
-  tags: books
-  px:
-  source: well grounded ruby
-
-- title: file i/o (ch12)
-  url: https://github.com/bjpcjp/well-grounded-rubyist-book-notes/blob/master/ch12-file-io.ipynb
-  tags: books
-  px:
-  source: well grounded ruby
-
-- title: object individualization (ch13)
-  url: https://github.com/bjpcjp/well-grounded-rubyist-book-notes/blob/master/ch13-object-individualization.ipynb
-  tags: books
-  px:
-  source: well grounded ruby
-
-- title: callables & runnables (ch14)
-  url: https://github.com/bjpcjp/well-grounded-rubyist-book-notes/blob/master/ch14-callables-runnables.ipynb
-  tags: books
-  px:
-  source: well grounded ruby
-
-- title: callbacks, hooks & introspection (ch15)
-  url: https://github.com/bjpcjp/well-grounded-rubyist-book-notes/blob/master/ch15-callbacks-hooks-introspection.ipynb
-  tags: books
-  px:
-  source: well grounded ruby
-
-- title: functional programming (ch16)
-  url: https://github.com/bjpcjp/well-grounded-rubyist-book-notes/blob/master/ch16-functional-programming.ipynb
-  tags: books
-  px:
-  source: well grounded ruby
-
-- title: how to build your own
-  url: https://blog.engineyard.com/how-to-build-your-own-gem-in-ruby
-  tags: rubygems
-  px:
-  source: engine yard
-
-- title: rubygems dot org 
-  url: https://rubygems.org/
-  tags: rubygems
-  px:
-  source: Rubygems.org 
-
-- title: ruby toolbox
-  url: https://www.ruby-toolbox.com/
-  tags: rubygems
-  px:
-  source: Ruby Toolbox
-  
-- title: Getting Started
-  url: https://guides.rubyonrails.org/getting_started.html
-  tags: tutorials & resources
-
-- title: Railscasts
-  url: http://railscasts.com/
-  tags: tutorials & resources
-
-- title: Hartl Rails Tutorial
-  url: https://www.railstutorial.org/book
-  tags: tutorials & resources
-
-- title: Awesome Ruby (GitHub)
-  url: https://github.com/markets/awesome-ruby
-  tags: tutorials & resources
-
-- title: Gems (Ruby Toolbox)
-  url: https://www.ruby-toolbox.com/categories
-  tags: tutorials & resources
-  source: Ruby Toolbox
-
-- title: Dev.to posts
-  url: https://dev.to/search?q=rails
-  tags: tutorials & resources
-
-
-- title: Attributes
-  url: https://guides.rubyonrails.org/active_model_basics.html#attribute-methods
-  tags: data models
-  source: RoR Guides
-
-- title: Callbacks
-  url: https://guides.rubyonrails.org/active_model_basics.html#callbacks
-  tags: data models
-  source: RoR Guides
-
-- title: Conversions
-  url: https://guides.rubyonrails.org/active_model_basics.html#conversion
-  tags: data models
-  source: RoR Guides
-
-- title: Dirty
-  url: https://guides.rubyonrails.org/active_model_basics.html#dirty
-  tags: data models
-  source: RoR Guides
-
-- title: Validations
-  url: https://guides.rubyonrails.org/active_model_basics.html#validations
-  tags: data models
-  source: RoR Guides
-
-- title: Naming & Routing
-  url: https://guides.rubyonrails.org/active_model_basics.html#naming
-  tags: data models
-  source: RoR Guides
-
-- title: Models
-  url: https://guides.rubyonrails.org/active_model_basics.html#model
-  tags: data models
-  source: RoR Guides
-
-- title: Serialization
-  url: https://guides.rubyonrails.org/active_model_basics.html#serialization
-  tags: data models
-  source: RoR Guides
-
-- title: Translation
-  url: https://guides.rubyonrails.org/active_model_basics.html#translation
-  tags: data models
-  source: RoR Guides
-
-- title: Lint Tests
-  url: https://guides.rubyonrails.org/active_model_basics.html#lint-tests
-  tags: data models
-  source: RoR Guides
-
-- title: Secure Password
-  url: https://guides.rubyonrails.org/active_model_basics.html#securepassword
-  tags: data models
-  source: RoR Guides
-
-
-
-
-- title: Naming
-  url: https://guides.rubyonrails.org/active_record_basics.html#naming-conventions
-  tags: active record
-  source: RoR Guides
-
-- title: Schemas
-  url: https://guides.rubyonrails.org/active_record_basics.html#schema-conventions
-  tags: active record
-  source: RoR Guides
-
-- title: Creating
-  url: https://guides.rubyonrails.org/active_record_basics.html#creating-active-record-models
-  tags: active record
-  source: RoR Guides
-
-- title: Naming Overrides
-  url: https://guides.rubyonrails.org/active_record_basics.html#overriding-the-naming-conventions
-  tags: active record
-  source: RoR Guides
-
-- title: Create
-  url: https://guides.rubyonrails.org/active_record_basics.html#create
-  tags: active record
-  source: RoR Guides
-
-- title: Read
-  url: https://guides.rubyonrails.org/active_record_basics.html#read
-  tags: active record
-  source: RoR Guides
-
-- title: Update
-  url: https://guides.rubyonrails.org/active_record_basics.html#update
-  tags: active record
-  source: RoR Guides
-
-- title: Delete
-  url: https://guides.rubyonrails.org/active_record_basics.html#delete
-  tags: active record
-  source: RoR Guides
-
-- title: Soft Delete
-  url: https://www.ruby-toolbox.com/categories/Active_Record_Soft_Delete
-  tags: active record
-  source: Ruby Toolbox
-
-- title: User Stamping
-  url: https://www.ruby-toolbox.com/categories/Active_Record_User_Stamping
-  tags: active record
-  source: Ruby Toolbox
-
-- title: Tagging
-  url: https://www.ruby-toolbox.com/categories/rails_tagging
-  tags: active record
-  source: Ruby Toolbox
-
-- title: Bit Masks
-  url: https://www.ruby-toolbox.com/categories/Active_Record_Bit_Fields
-  tags: active record
-  source: Ruby Toolbox
-
-- title: Default Values
-  url: https://www.ruby-toolbox.com/categories/Active_Record_Default_Values
-  tags: active record
-  source: Ruby Toolbox
-
-- title: Enumerations
-  url: https://www.ruby-toolbox.com/categories/Active_Record_Enumerations
-  tags: active record
-  source: Ruby Toolbox
-
-- title: Index Assistants
-  url: https://www.ruby-toolbox.com/categories/Active_Record_Index_Assistants
-  tags: active record
-  source: Ruby Toolbox
-
-- title: Named Scopes
-  url: https://www.ruby-toolbox.com/categories/Active_Record_Named_Scopes
-  tags: active record
-  source: Ruby Toolbox
-
-- title: Nested Records
-  url: https://www.ruby-toolbox.com/categories/Active_Record_Nesting
-  tags: active record
-  source: Ruby Toolbox
-
-- title: Sharding
-  url: https://www.ruby-toolbox.com/categories/Active_Record_Sharding
-  tags: active record
-  source: Ruby Toolbox
-
-- title: Lists/Sortables
-  url: https://www.ruby-toolbox.com/categories/Active_Record_Sortables
-  tags: active record
-  source: Ruby Toolbox
-
-- title: Value Cleanup
-  url: https://www.ruby-toolbox.com/categories/Active_Record_Value_Cleanup
-  tags: active record
-  source: Ruby Toolbox
-
-- title: Versioning
-  url: https://www.ruby-toolbox.com/categories/Active_Record_Versioning
-  tags: active record
-  source: Ruby Toolbox
-
-- title: Pagination
-  url: https://www.ruby-toolbox.com/categories/pagination
-  tags: active record
-  source: Ruby Toolbox
-
-
-
-- title: Overview
-  url: https://guides.rubyonrails.org/active_record_validations.html#validations-overview
-  tags: validations
-  source: RoR Guides
-
-- title: Helpers
-  url: https://guides.rubyonrails.org/active_record_validations.html#validation-helpers
-  tags: validations
-  source: RoR Guides
-
-- title: Options
-  url: https://guides.rubyonrails.org/active_record_validations.html#common-validation-options
-  tags: validations
-  source: RoR Guides
-
-- title: Strict Validation
-  url: https://guides.rubyonrails.org/active_record_validations.html#strict-validations
-  tags: validations
-  source: RoR Guides
-
-- title: Conditional
-  url: https://guides.rubyonrails.org/active_record_validations.html#conditional-validation
-  tags: validations
-  source: RoR Guides
-
-- title: Custom
-  url: https://guides.rubyonrails.org/active_record_validations.html#performing-custom-validations
-  tags: validations
-  source: RoR Guides
-
-- title: Errors
-  url: https://guides.rubyonrails.org/active_record_validations.html#working-with-validation-errors
-  tags: validations
-  source: RoR Guides
-
-- title: Errors in Views
-  url: https://guides.rubyonrails.org/active_record_validations.html#displaying-validation-errors-in-views
-  tags: validations
-  source: RoR Guides
-
-
-
-
-- title: Registration
-  url: https://guides.rubyonrails.org/active_record_callbacks.html#callback-registration
-  tags: callbacks
-  source: RoR Guides
-
-- title: Std Callbacks
-  url: https://guides.rubyonrails.org/active_record_callbacks.html#available-callbacks
-  tags: callbacks
-  source: RoR Guides
-
-- title: Running
-  url: https://guides.rubyonrails.org/active_record_callbacks.html#running-callbacks
-  tags: callbacks
-  source: RoR Guides
-
-- title: Skipping
-  url: https://guides.rubyonrails.org/active_record_callbacks.html#skipping-callbacks
-  tags: callbacks
-  source: RoR Guides
-
-- title: Halting
-  url: https://guides.rubyonrails.org/active_record_callbacks.html#halting-execution
-  tags: callbacks
-  source: RoR Guides
-
-- title: Relational
-  url: https://guides.rubyonrails.org/active_record_callbacks.html#relational-callbacks
-  tags: callbacks
-  source: RoR Guides
-
-- title: Conditional
-  url: https://guides.rubyonrails.org/active_record_callbacks.html#conditional-callbacks
-  tags: callbacks
-  source: RoR Guides
-
-- title: Callback Classes
-  url: https://guides.rubyonrails.org/active_record_callbacks.html#callback-classes
-  tags: callbacks
-  source: RoR Guides
-
-- title: Transaction Callbacks
-  url: https://guides.rubyonrails.org/active_record_callbacks.html#transaction-callbacks
-  tags: callbacks
-  source: RoR Guides
-
-
-
-
-- title: Purpose
-  url: https://guides.rubyonrails.org/association_basics.html#why-associations-questionmark
-  tags: associations
-  source: RoR Guides
-
-- title: belongs_to
-  url: https://guides.rubyonrails.org/association_basics.html#the-belongs-to-association
-  tags: associations
-  source: RoR Guides
-
-- title: has_one
-  url: https://guides.rubyonrails.org/association_basics.html#the-has-one-association
-  tags: associations
-  source: RoR Guides
-
-- title: has_many
-  url: https://guides.rubyonrails.org/association_basics.html#the-has-many-association
-  tags: associations
-  source: RoR Guides
-
-- title: has_many :through
-  url: https://guides.rubyonrails.org/association_basics.html#the-has-many-through-association
-  tags: associations
-  source: RoR Guides
-
-- title: has_one :through
-  url: https://guides.rubyonrails.org/association_basics.html#the-has-one-through-association
-  tags: associations
-  source: RoR Guides
-
-- title: HABTM
-  url: https://guides.rubyonrails.org/association_basics.html#the-has-and-belongs-to-many-association
-  tags: associations
-  source: RoR Guides
-
-- title: belongs_to vs has_one
-  url: https://guides.rubyonrails.org/association_basics.html#choosing-between-belongs-to-and-has-one
-  tags: associations
-  source: RoR Guides
-
-- title: polymorphics
-  url: https://guides.rubyonrails.org/association_basics.html#polymorphic-associations
-  tags: associations
-  source: RoR Guides
-
-- title: self-joins
-  url: https://guides.rubyonrails.org/association_basics.html#self-joins
-  tags: associations
-  source: RoR Guides
-
-- title: tips
-  url: https://guides.rubyonrails.org/association_basics.html#tips-tricks-and-warnings
-  tags: associations
-  source: RoR Guides
-
-- title: detailed reference
-  url: https://guides.rubyonrails.org/association_basics.html#detailed-association-reference
-  tags: associations
-  source: RoR Guides
-
-- title: single-table inheritance
-  url: https://guides.rubyonrails.org/association_basics.html#single-table-inheritance
-  tags: associations
-  source: RoR Guides
-
-
-
-- title: get (single object)
-  url: https://guides.rubyonrails.org/active_record_querying.html#retrieving-a-single-object
-  tags: db queries
-  source: RoR Guides
-
-- title: get (multiple objects)
-  url: https://guides.rubyonrails.org/active_record_querying.html#retrieving-multiple-objects-in-batches
-  tags: db queries
-  source: RoR Guides
-
-- title: conditions
-  url: https://guides.rubyonrails.org/active_record_querying.html#conditions
-  tags: db queries
-  source: RoR Guides
-
-- title: ordering
-  url: https://guides.rubyonrails.org/active_record_querying.html#ordering
-  tags: db queries
-  source: RoR Guides
-
-- title: specific fields
-  url: https://guides.rubyonrails.org/active_record_querying.html#selecting-specific-fields
-  tags: db queries
-  source: RoR Guides
-
-- title: limit, offset
-  url: https://guides.rubyonrails.org/active_record_querying.html#limit-and-offset
-  tags: db queries
-  source: RoR Guides
-
-- title: grouping
-  url: https://guides.rubyonrails.org/active_record_querying.html#group
-  tags: db queries
-  source: RoR Guides
-
-- title: having
-  url: https://guides.rubyonrails.org/active_record_querying.html#having
-  tags: db queries
-  source: RoR Guides
-
-- title: overriding conditions
-  url: https://guides.rubyonrails.org/active_record_querying.html#overriding-conditions
-  tags: db queries
-  source: RoR Guides
-
-- title: null relations
-  url: https://guides.rubyonrails.org/active_record_querying.html#null-relation
-  tags: db queries
-  source: RoR Guides
-
-- title: read-only records
-  url: https://guides.rubyonrails.org/active_record_querying.html#readonly-objects
-  tags: db queries
-  source: RoR Guides
-
-- title: record locking
-  url: https://guides.rubyonrails.org/active_record_querying.html#locking-records-for-update
-  tags: db queries
-  source: RoR Guides
-
-- title: join tables
-  url: https://guides.rubyonrails.org/active_record_querying.html#joining-tables
-  tags: db queries
-  source: RoR Guides
-
-- title: eager loading
-  url: https://guides.rubyonrails.org/active_record_querying.html#eager-loading-associations
-  tags: db queries
-  source: RoR Guides
-
-- title: scopes
-  url: https://guides.rubyonrails.org/active_record_querying.html#scopes
-  tags: db queries
-  source: RoR Guides
-
-- title: dynamic finders
-  url: https://guides.rubyonrails.org/active_record_querying.html#dynamic-finders
-  tags: db queries
-  source: RoR Guides
-
-- title: enums
-  url: https://guides.rubyonrails.org/active_record_querying.html#enums
-  tags: db queries
-  source: RoR Guides
-
-- title: method chains
-  url: https://guides.rubyonrails.org/active_record_querying.html#understanding-the-method-chaining
-  tags: db queries
-  source: RoR Guides
-
-- title: find-or-build
-  url: https://guides.rubyonrails.org/active_record_querying.html#find-or-build-a-new-object
-  tags: db queries
-  source: RoR Guides
-
-- title: find with sql
-  url: https://guides.rubyonrails.org/active_record_querying.html#finding-by-sql
-  tags: db queries
-  source: RoR Guides
-
-- title: existence
-  url: https://guides.rubyonrails.org/active_record_querying.html#existence-of-objects
-  tags: db queries
-  source: RoR Guides
-
-- title: calculations
-  url: https://guides.rubyonrails.org/active_record_querying.html#calculations
-  tags: db queries
-  source: RoR Guides
-
-- title: explain
-  url: https://guides.rubyonrails.org/active_record_querying.html#running-explain
-  tags: db queries
-  source: RoR Guides
-
-
-
-
-- title: Creating
-  url: https://guides.rubyonrails.org/active_record_migrations.html#creating-a-migration
-  tags: db schema migrations
-  source: RoR Guides
-
-- title: Formats
-  url: https://guides.rubyonrails.org/active_record_migrations.html#writing-a-migration
-  tags: db schema migrations
-  source: RoR Guides
-
-- title: Running
-  url: https://guides.rubyonrails.org/active_record_migrations.html#running-migrations
-  tags: db schema migrations
-  source: RoR Guides
-
-- title: Changing Existing Migrations
-  url: https://guides.rubyonrails.org/active_record_migrations.html#changing-existing-migrations
-  tags: db schema migrations
-  source: RoR Guides
-
-- title: Schema Dumps
-  url: https://guides.rubyonrails.org/active_record_migrations.html#schema-dumping-and-you
-  tags: db schema migrations
-  source: RoR Guides
-
-- title: Referential Integrity
-  url: https://guides.rubyonrails.org/active_record_migrations.html#active-record-and-referential-integrity
-  tags: db schema migrations
-  source: RoR Guides
-
-- title: Seed Data
-  url: https://guides.rubyonrails.org/active_record_migrations.html#migrations-and-seed-data
-  tags: db schema migrations
-  source: RoR Guides
-
-
-
-
-- title: DB Adapters
-  url: https://www.ruby-toolbox.com/categories/Active_Record_DB_Adapters
-  tags: db options
-  source: Ruby Toolbox
-
-- title: Standalone Migrations
-  url: https://www.ruby-toolbox.com/categories/ActiveRecord_without_Rails
-  tags: db options
-  source: Ruby Toolbox
-
-- title: Amazon Dynamo
-  url: https://www.ruby-toolbox.com/categories/Amazon_DynamoDB
-  tags: db options
-  source: Ruby Toolbox
-
-- title: Connection Pooling
-  url: https://www.ruby-toolbox.com/categories/Connection_Pooling
-  tags: db options
-  source: Ruby Toolbox
-
-- title: CouchDB
-  url: https://www.ruby-toolbox.com/categories/couchdb_clients
-  tags: db options
-  source: Ruby Toolbox
-
-- title: CSV Parsers
-  url: https://www.ruby-toolbox.com/categories/CSV_Parsers
-  tags: db options
-  source: Ruby Toolbox
-
-- title: Data Migrations
-  url: https://www.ruby-toolbox.com/categories/Data_Migration
-  tags: db options
-  source: Ruby Toolbox
-
-- title: MongoDB
-  url: https://www.ruby-toolbox.com/categories/mongodb_clients
-  tags: db options
-  source: Ruby Toolbox
-
-- title: Rails ActiveRecord
-  url: https://www.ruby-toolbox.com/categories/orm
-  tags: db options
-  source: Ruby Toolbox
-
-- title: Redis
-  url: https://www.ruby-toolbox.com/categories/Redis
-  tags: db options
-  source: Ruby Toolbox
-
-- title: Postgres
-  url: https://www.ruby-toolbox.com/projects/pg
-  tags: db options
-  source: Ruby Toolbox
-
-- title: Sqlite3
-  url: https://www.ruby-toolbox.com/projects/sqlite3
-  tags: db options
-  source: Ruby Toolbox
-
-- title: Mysql2
-  url: https://www.ruby-toolbox.com/projects/mysql2
-  tags: db options
-  source: Ruby Toolbox
-
-
-
-- title: Setup
-  url: https://guides.rubyonrails.org/active_storage_overview.html#setup
-  tags: active storage
-  source: RoR Guides
-
-- title: Attaching
-  url: https://guides.rubyonrails.org/active_storage_overview.html#attaching-files-to-records
-  tags: active storage
-  source: RoR Guides
-
-- title: Removing
-  url: https://guides.rubyonrails.org/active_storage_overview.html#removing-files
-  tags: active storage
-  source: RoR Guides
-
-- title: Linking
-  url: https://guides.rubyonrails.org/active_storage_overview.html#linking-to-files
-  tags: active storage
-  source: RoR Guides
-
-- title: Downloading
-  url: https://guides.rubyonrails.org/active_storage_overview.html#downloading-files
-  tags: active storage
-  source: RoR Guides
-
-- title: Transforming Images
-  url: https://guides.rubyonrails.org/active_storage_overview.html#transforming-images
-  tags: active storage
-  source: RoR Guides
-
-- title: Previewing
-  url: https://guides.rubyonrails.org/active_storage_overview.html#previewing-files
-  tags: active storage
-  source: RoR Guides
-
-- title: Direct Uploads
-  url: https://guides.rubyonrails.org/active_storage_overview.html#direct-uploads
-  tags: active storage
-  source: RoR Guides
-
-- title: System Tests
-  url: https://guides.rubyonrails.org/active_storage_overview.html#discarding-files-stored-during-system-tests
-  tags: active storage
-  source: RoR Guides
-
-- title: Other Cloud Svcs
-  url: https://guides.rubyonrails.org/active_storage_overview.html#implementing-support-for-other-cloud-services
-  tags: active storage
-  source: RoR Guides
-
-
-- title: Paperclip
-  url: https://www.ruby-toolbox.com/projects/paperclip
-  tags: active storage
-  source: Ruby Toolbox
-
-- title: CarrierWave
-  url: https://www.ruby-toolbox.com/projects/carrierwave
-  tags: active storage
-  source: Ruby Toolbox
-
-
-
-- title: Octokit (GitHub)
-  url: https://www.ruby-toolbox.com/projects/octokit
-  tags: api clients
-  source: Ruby Toolbox
-
-- title: Twitter
-  url: https://www.ruby-toolbox.com/projects/twitter
-  tags: api clients
-  source: Ruby Toolbox
-
-- title: Koala (Facebook)
-  url: https://www.ruby-toolbox.com/projects/koala
-  tags: api clients
-  source: Ruby Toolbox
-
-- title: Gibbon (Mailchimp)
-  url: https://www.ruby-toolbox.com/projects/gibbon
-  tags: api clients
-  source: Ruby Toolbox
-
-- title: LinkedIn
-  url: https://www.ruby-toolbox.com/projects/linkedin
-  tags: api clients
-  source: Ruby Toolbox
-
-- title: Tweetstream
-  url: https://www.ruby-toolbox.com/projects/tweetstream
-  tags: api clients
-  source: Ruby Toolbox
-
-- title: Bitly
-  url: https://www.ruby-toolbox.com/projects/bitly
-  tags: api clients
-  source: Ruby Toolbox
-
-- title: Vacuum (Amazon Product Advertising)
-  url: https://www.ruby-toolbox.com/projects/vacuum
-  tags: api clients
-  source: Ruby Toolbox
-
-
-
-
-- title: Templates
-  url: https://guides.rubyonrails.org/action_view_overview.html#templates
-  tags: views (HTML helpers)
-  source: RoR Guides
-
-- title: Partials
-  url: https://guides.rubyonrails.org/action_view_overview.html#partials
-  tags: views (HTML helpers)
-  source: RoR Guides
-
-- title: Layouts
-  url: https://guides.rubyonrails.org/action_view_overview.html#layouts
-  tags: views (HTML helpers)
-  source: RoR Guides
-
-- title: Partial Layouts
-  url: https://guides.rubyonrails.org/action_view_overview.html#partial-layouts
-  tags: views (HTML helpers)
-  source: RoR Guides
-
-- title: View Paths
-  url: https://guides.rubyonrails.org/action_view_overview.html#view-paths
-  tags: views (HTML helpers)
-  source: RoR Guides
-
-- title: Asset Tags
-  url: https://guides.rubyonrails.org/action_view_overview.html#assettaghelper
-  tags: views (HTML helpers)
-  source: RoR Guides
-
-- title: Atom Feeds
-  url: https://guides.rubyonrails.org/action_view_overview.html#atomfeedhelper
-  tags: views (HTML helpers)
-  source: RoR Guides
-
-- title: Benchmark Helper
-  url: https://guides.rubyonrails.org/action_view_overview.html#benchmarkhelper
-  tags: views (HTML helpers)
-  source: RoR Guides
-
-- title: Cache Helper
-  url: https://guides.rubyonrails.org/action_view_overview.html#cachehelper
-  tags: views (HTML helpers)
-  source: RoR Guides
-
-- title: Capture Helper
-  url: https://guides.rubyonrails.org/action_view_overview.html#capturehelper
-  tags: views (HTML helpers)
-  source: RoR Guides
-
-- title: Date Helpers
-  url: https://guides.rubyonrails.org/action_view_overview.html#datehelper
-  tags: views (HTML helpers)
-  source: RoR Guides
-
-- title: debug(content)
-  url: https://guides.rubyonrails.org/action_view_overview.html#debughelper
-  tags: views (HTML helpers)
-  source: RoR Guides
-
-
-
-
-- title: render
-  url: https://guides.rubyonrails.org/layouts_and_rendering.html#using-render
-  tags: views (layouts & rendering)
-  source: RoR Guides
-
-- title: redirect_to
-  url: https://guides.rubyonrails.org/layouts_and_rendering.html#using-redirect-to
-  tags: views (layouts & rendering)
-  source: RoR Guides
-
-- title: head
-  url: https://guides.rubyonrails.org/layouts_and_rendering.html#using-head-to-build-header-only-responses
-  tags: views (layouts & rendering)
-  source: RoR Guides
-
-- title: Asset Tags
-  url: https://guides.rubyonrails.org/layouts_and_rendering.html#asset-tag-helpers
-  tags: views (layouts & rendering)
-  source: RoR Guides
-
-- title: yield
-  url: https://guides.rubyonrails.org/layouts_and_rendering.html#understanding-yield
-  tags: views (layouts & rendering)
-  source: RoR Guides
-
-- title: content_for
-  url: https://guides.rubyonrails.org/layouts_and_rendering.html#using-the-content-for-method
-  tags: views (layouts & rendering)
-  source: RoR Guides
-
-- title: partials
-  url: https://guides.rubyonrails.org/layouts_and_rendering.html#using-partials
-  tags: views (layouts & rendering)
-  source: RoR Guides
-
-- title: nested layouts
-  url: https://guides.rubyonrails.org/layouts_and_rendering.html#using-nested-layouts
-  tags: views (layouts & rendering)
-  source: RoR Guides
-
-
-
-
-- title: Basics
-  url: https://guides.rubyonrails.org/form_helpers.html#dealing-with-basic-forms
-  tags: views (HTML forms)
-  source: RoR Guides
-
-- title: Model Objects
-  url: https://guides.rubyonrails.org/form_helpers.html#dealing-with-model-objects
-  tags: views (HTML forms)
-  source: RoR Guides
-
-- title: Option Selectors
-  url: https://guides.rubyonrails.org/form_helpers.html#making-select-boxes-with-ease
-  tags: views (HTML forms)
-  source: RoR Guides
-
-- title: Date & Time
-  url: https://guides.rubyonrails.org/form_helpers.html#using-date-and-time-form-helpers
-  tags: views (HTML forms)
-  source: RoR Guides
-
-- title: File Uploads
-  url: https://guides.rubyonrails.org/form_helpers.html#uploading-files
-  tags: views (HTML forms)
-  source: RoR Guides
-
-- title: Custom Forms
-  url: https://guides.rubyonrails.org/form_helpers.html#customizing-form-builders
-  tags: views (HTML forms)
-  source: RoR Guides
-
-- title: Parameter Names
-  url: https://guides.rubyonrails.org/form_helpers.html#understanding-parameter-naming-conventions
-  tags: views (HTML forms)
-  source: RoR Guides
-
-- title: External Resources
-  url: https://guides.rubyonrails.org/form_helpers.html#forms-to-external-resources
-  tags: views (HTML forms)
-  source: RoR Guides
-
-- title: Complex Forms
-  url: https://guides.rubyonrails.org/form_helpers.html#building-complex-forms
-  tags: views (HTML forms)
-  source: RoR Guides
-
-
-- title: Form Helpers
-  url: https://guides.rubyonrails.org/action_view_overview.html#formhelper
-  tags: views (HTML helpers)
-  source: RoR Guides
-
-- title: Form Options
-  url: https://guides.rubyonrails.org/action_view_overview.html#formoptionshelper
-  tags: views (HTML helpers)
-  source: RoR Guides
-
-- title: Form Tags
-  url: https://guides.rubyonrails.org/action_view_overview.html#formtaghelper
-  tags: views (HTML helpers)
-  source: RoR Guides
-
-- title: javascript_tag
-  url: https://guides.rubyonrails.org/action_view_overview.html#javascripthelper
-  tags: views (HTML helpers)
-  source: RoR Guides
-
-- title: Number Helpers
-  url: https://guides.rubyonrails.org/action_view_overview.html#numberhelper
-  tags: views (HTML helpers)
-  source: RoR Guides
-
-- title: HTML Sanitize Helpers
-  url: https://guides.rubyonrails.org/action_view_overview.html#sanitizehelper
-  tags: views (HTML helpers)
-  source: RoR Guides
-
-- title: CSRF Helper
-  url: https://guides.rubyonrails.org/action_view_overview.html#csrfhelper
-  tags: views (HTML helpers)
-  source: RoR Guides
-
-- title: Localized Views
-  url: https://guides.rubyonrails.org/action_view_overview.html#localized-views
-  tags: views (HTML helpers)
-  source: RoR Guides
-
-
-
-
-- title: Admin UIs
-  url: https://www.ruby-toolbox.com/categories/rails_admin_interfaces
-  tags: markup
-  source: Ruby Toolbox
-
-- title: Breadcrumbs
-  url: https://www.ruby-toolbox.com/categories/Breadcrumb_Builders
-  tags: markup
-  source: Ruby Toolbox
-
-- title: Processors (Redcarpet, Kramdown)
-  url: https://www.ruby-toolbox.com/categories/markup_processors
-  tags: markup
-  source: Ruby Toolbox
-
-- title: Microformats (Prism,..)
-  url: https://www.ruby-toolbox.com/categories/microformats
-  tags: markup
-  source: Ruby Toolbox
-
-- title: Syntax Highlighters
-  url: https://www.ruby-toolbox.com/categories/syntax_highlighting
-  tags: markup
-  source: Ruby Toolbox
-
-- title: Table Builders
-  url: https://www.ruby-toolbox.com/categories/Table_Builders
-  tags: markup
-  source: Ruby Toolbox
-
-- title: Template Engines
-  url: https://www.ruby-toolbox.com/categories/template_engines
-  tags: markup
-  source: Ruby Toolbox
-
-- title: Permalinks
-  url: https://www.ruby-toolbox.com/categories/rails_permalinks___slugs
-  tags: markup
-  source: Ruby Toolbox
-
-
-
-- title: Unobtrusive JS
-  url: https://guides.rubyonrails.org/working_with_javascript_in_rails.html#unobtrusive-javascript
-  tags: javascript
-  source: RoR Guides
-
-- title: Helpers
-  url: https://guides.rubyonrails.org/working_with_javascript_in_rails.html#built-in-helpers
-  tags: javascript
-  source: RoR Guides
-
-- title: Server-Side
-  url: https://guides.rubyonrails.org/working_with_javascript_in_rails.html#server-side-concerns
-  tags: javascript
-  source: RoR Guides
-
-- title: Turbolinks
-  url: https://guides.rubyonrails.org/working_with_javascript_in_rails.html#turbolinks
-  tags: javascript
-  source: RoR Guides
-
-- title: Runtimes
-  url: https://www.ruby-toolbox.com/categories/JavaScript_runtimes
-  tags: javascript
-  source: Ruby Toolbox
-
-- title: Testing
-  url: https://www.ruby-toolbox.com/categories/javascript_testing
-  tags: javascript
-  source: Ruby Toolbox
-
-- title: Packaging
-  url: https://www.ruby-toolbox.com/projects/sprockets
-  tags: javascript
-  source: Ruby Toolbox
-
-- title: Minifiers
-  url: https://www.ruby-toolbox.com/projects/uglifier
-  tags: javascript
-  source: Ruby Toolbox
-
-- title: Coffeescript
-  url: https://www.ruby-toolbox.com/projects/coffee-script
-  tags: javascript
-  source: Ruby Toolbox
-
-- title: Webpacker
-  url: https://www.ruby-toolbox.com/projects/webpacker
-  tags: javascript
-  source: Ruby Toolbox
-
-- title: React-Rails
-  url: https://www.ruby-toolbox.com/categories/react_tools
-  tags: javascript
-  source: Ruby Toolbox
-
-- title: Sass
-  url: https://www.ruby-toolbox.com/categories/css_with_ruby
-  tags: css
-  source: Ruby Toolbox
-
-- title: Font Face Servers
-  url: https://www.ruby-toolbox.com/categories/Font_Face_Servers
-  tags: css
-  source: Ruby Toolbox
-
-- title: Bootstrap, Semantic UI 
-  url: https://www.ruby-toolbox.com/categories/web_ui_frameworks
-  tags: css
-  source: Ruby Toolbox
-
-# SEARCH ---------------------------------------------------------------------------------------------
-
-- title: Spreadsheets
-  url: https://www.ruby-toolbox.com/categories/reporting
-  tags: graphics, pdfs, images
-  source: Ruby Toolbox
-
-# PDFs ---------------------------------------------------------------------------------------------
-
-- title: PDFs - Prawn, PDFkit, etc
-  url: https://www.ruby-toolbox.com/categories/pdf_generation
-  tags: pdfs
-  source: Ruby Toolbox
-
-- title: PDF Reader
-  url: https://www.ruby-toolbox.com/projects/pdf-reader
-  tags: pdfs
-  source: Ruby Toolbox
-
-# VISUALIZATION ---------------------------------------------------------------------------------
-
-- title: Charting
-  url: https://www.ruby-toolbox.com/projects/chartkick
-  tags: visualization
-  source: Ruby Toolbox
-
-- title: Images
-  url: https://www.ruby-toolbox.com/categories/image_processing
-  tags: visualization
-  source: Ruby Toolbox
-
-- title: QR Codes</a>
-  url: https://www.ruby-toolbox.com/categories/QR_Codes
-  tags: visualization
-  source: Ruby Toolbox
-
-- title: Various
-  url: https://www.ruby-toolbox.com/categories/visualizing_data
-  tags: visualization
-  source: Ruby Toolbox
-
-# IRC ---------------------------------------------------------------------------------
-
-#- title: IRC Bots
-#  url: https://www.ruby-toolbox.com/categories/irc_bots
-#  tags: graphics, pdfs, images
-#  source: Ruby Toolbox
-
-# OCR ---------------------------------------------------------------------------------
-
-- title: OCR Tools
-  url: https://www.ruby-toolbox.com/categories/Optical_Character_Recognition
-  tags: ocr
-  source: Ruby Toolbox
-
-# SEARCH ---------------------------------------------------------------------------------------------
-
-- title: ElasticSearch
-  url: https://www.ruby-toolbox.com/categories/rails_search
-  tags: search engines
-  source: Ruby Toolbox
-
-- title: Searchkick
-  url: https://www.ruby-toolbox.com/projects/searchkick
-  tags: search engines
-  source: Ruby Toolbox
-
-- title: Sunspot
-  url: https://www.ruby-toolbox.com/projects/sunspot
-  tags: search engines
-  source: Ruby Toolbox
-
-# ECOMMERCE & PAYMENTS ---------------------------------------------------------------------------------------------
-
-- title: Spree
-  url: https://www.ruby-toolbox.com/projects/spree
-  tags: ecommerce, payments
-  source: Ruby Toolbox
-
-- title: ActiveMerchant, Stripe
-  url: https://www.ruby-toolbox.com/categories/Payments
-  tags: ecommerce, payments
-  source: Ruby Toolbox
-
-# EMAIL ---------------------------------------------------------------------------------------------
-
-- title: Sending
-  url: https://guides.rubyonrails.org/action_mailer_basics.html#sending-emails
-  tags: email
-  source: RoR Guides
-
-- title: Receiving
-  url: https://guides.rubyonrails.org/action_mailer_basics.html#receiving-emails
-  tags: email
-  source: RoR Guides
-
-- title: Callbacks
-  url: https://guides.rubyonrails.org/action_mailer_basics.html#action-mailer-callbacks
-  tags: email
-  source: RoR Guides
-
-- title: Helpers
-  url: https://guides.rubyonrails.org/action_mailer_basics.html#using-action-mailer-helpers
-  tags: email
-  source: RoR Guides
-
-- title: Configuration
-  url: https://guides.rubyonrails.org/action_mailer_basics.html#action-mailer-configuration
-  tags: email
-  source: RoR Guides
-
-- title: Testing
-  url: https://guides.rubyonrails.org/action_mailer_basics.html#mailer-testing
-  tags: email
-  source: RoR Guides
-
-- title: Intercepting
-  url: https://guides.rubyonrails.org/action_mailer_basics.html#intercepting-emails
-  tags: email
-  source: RoR Guides
-
-- title: Async Email
-  url: https://www.ruby-toolbox.com/categories/Asynchronous_E-Mail
-  tags: email
-  source: Ruby Toolbox
-
-- title: Previews
-  url: https://www.ruby-toolbox.com/categories/EMail_Fake_Servers
-  tags: email
-  source: Ruby Toolbox
-
-- title: Processing
-  url: https://www.ruby-toolbox.com/categories/e_mail_processing
-  tags: email
-  source: Ruby Toolbox
-
-- title: MS Exchange Client
-  url: https://www.ruby-toolbox.com/categories/Exchange_Clients
-  tags: email
-  source: Ruby Toolbox
-
-- title: Forum Tools
-  url: https://www.ruby-toolbox.com/categories/forum_systems
-  tags: email
-  source: Ruby Toolbox
-
-- title: Inline CSS
-  url: https://www.ruby-toolbox.com/categories/Inline_CSS_for_E-Mail
-  tags: email
-  source: Ruby Toolbox
-
-# CONTROLLERS ---------------------------------------------------------------------------------------------
-
-- title: Overview
-  url: https://guides.rubyonrails.org/action_controller_overview.html#what-does-a-controller-do-questionmark
-  tags: controllers
-  source: RoR Guides
-
-- title: Naming
-  url: https://guides.rubyonrails.org/action_controller_overview.html#controller-naming-convention
-  tags: controllers
-  source: RoR Guides
-
-- title: Methods
-  url: https://guides.rubyonrails.org/action_controller_overview.html#methods-and-actions
-  tags: controllers
-  source: RoR Guides
-
-- title: Parameters
-  url: https://guides.rubyonrails.org/action_controller_overview.html#parameters
-  tags: controllers
-  source: RoR Guides
-
-- title: Sessions
-  url: https://guides.rubyonrails.org/action_controller_overview.html#session
-  tags: controllers
-  source: RoR Guides
-
-- title: Cookies
-  url: https://guides.rubyonrails.org/action_controller_overview.html#cookies
-  tags: controllers
-  source: RoR Guides
-
-- title: XML & JSON
-  url: https://guides.rubyonrails.org/action_controller_overview.html#rendering-xml-and-json-data
-  tags: controllers
-  source: RoR Guides
-
-- title: Filters
-  url: https://guides.rubyonrails.org/action_controller_overview.html#filters>Filters
-  tags: controllers
-  source: RoR Guides
-
-- title: Request Forgery Protection
-  url: https://guides.rubyonrails.org/action_controller_overview.html#request-forgery-protection
-  tags: controllers
-  source: RoR Guides
-
-- title: Requests & Responses
-  url: https://guides.rubyonrails.org/action_controller_overview.html#the-request-and-response-objects
-  tags: controllers
-  source: RoR Guides
-
-- title: HTTP Authentication
-  url: https://guides.rubyonrails.org/action_controller_overview.html#http-authentications
-  tags: controllers
-  source: RoR Guides
-
-- title: Streaming
-  url: https://guides.rubyonrails.org/action_controller_overview.html#streaming-and-file-downloads
-  tags: controllers
-  source: RoR Guides
-
-- title: Log Filters
-  url: https://guides.rubyonrails.org/action_controller_overview.html#log-filtering
-  tags: controllers
-  source: RoR Guides
-
-- title: Rescue (404,500)
-  url: https://guides.rubyonrails.org/action_controller_overview.html#rescue
-  tags: controllers
-  source: RoR Guides
-
-- title: Forcing HTTPS</a>
-  url: https://guides.rubyonrails.org/action_controller_overview.html#force-https-protocol
-  tags: controllers
-  source: RoR Guides
-
-
-
-
-- title: Overview
-  url: https://guides.rubyonrails.org/routing.html#the-purpose-of-the-rails-router
-  tags: configuration - routing
-  source: RoR Guides
-
-- title: Resource Routing
-  url: https://guides.rubyonrails.org/routing.html#resource-routing-the-rails-default
-  tags: configuration - routing
-  source: RoR Guides
-
-- title: Resourceful Routes
-  url: https://guides.rubyonrails.org/routing.html#non-resourceful-routes
-  tags: configuration - routing
-  source: RoR Guides
-
-- title: Custom Resource Routes
-  url: https://guides.rubyonrails.org/routing.html#customizing-resourceful-routes
-  tags: configuration - routing
-  source: RoR Guides
-
-- title: Listing & Testing
-  url: https://guides.rubyonrails.org/routing.html#inspecting-and-testing-routes
-  tags: configuration - routing
-  source: RoR Guides
-
-- title: Subdomains
-  url: https://www.ruby-toolbox.com/categories/rails_subdomains
-  tags: configuration - routing
-  source: Ruby Toolbox
-
-
-
-- title: How to Load
-  url: https://guides.rubyonrails.org/active_support_core_extensions.html#how-to-load-core-extensions
-  tags: ruby language extensions
-  source: RoR Guides
-
-- title: All Objects
-  url: https://guides.rubyonrails.org/active_support_core_extensions.html#extensions-to-all-objects
-  tags: ruby language extensions
-  source: RoR Guides
-
-- title: Modules
-  url: https://guides.rubyonrails.org/active_support_core_extensions.html#extensions-to-module
-  tags: ruby language extensions
-  source: RoR Guides
-
-- title: Classes
-  url: https://guides.rubyonrails.org/active_support_core_extensions.html#extensions-to-class
-  tags: ruby language extensions
-  source: RoR Guides
-
-- title: Strings
-  url: https://guides.rubyonrails.org/active_support_core_extensions.html#extensions-to-string
-  tags: ruby language extensions
-  source: RoR Guides
-
-- title: Numerics
-  url: https://guides.rubyonrails.org/active_support_core_extensions.html#extensions-to-numeric
-  tags: ruby language extensions
-  source: RoR Guides
-
-- title: Integers
-  url: https://guides.rubyonrails.org/active_support_core_extensions.html#extensions-to-integer
-  tags: ruby language extensions
-  source: RoR Guides
-
-- title: Big Decimals
-  url: https://guides.rubyonrails.org/active_support_core_extensions.html#extensions-to-bigdecimal
-  tags: ruby language extensions
-  source: RoR Guides
-
-- title: Enumerables
-  url: https://guides.rubyonrails.org/active_support_core_extensions.html#extensions-to-enumerable
-  tags: ruby language extensions
-  source: RoR Guides
-
-- title: Arrays
-  url: https://guides.rubyonrails.org/active_support_core_extensions.html#extensions-to-array
-  tags: ruby language extensions
-  source: RoR Guides
-
-- title: Hashes
-  url: https://guides.rubyonrails.org/active_support_core_extensions.html#extensions-to-hash
-  tags: ruby language extensions
-  source: RoR Guides
-
-- title: Regexes
-  url: https://guides.rubyonrails.org/active_support_core_extensions.html#extensions-to-regexp
-  tags: ruby language extensions
-  source: RoR Guides
-
-- title: Ranges
-  url: https://guides.rubyonrails.org/active_support_core_extensions.html#extensions-to-range
-  tags: ruby language extensions
-  source: RoR Guides
-
-- title: Dates
-  url: https://guides.rubyonrails.org/active_support_core_extensions.html#extensions-to-date
-  tags: ruby language extensions
-  source: RoR Guides
-
-- title: Date/Times
-  url: https://guides.rubyonrails.org/active_support_core_extensions.html#extensions-to-datetime
-  tags: ruby language extensions
-  source: RoR Guides
-
-- title: Times
-  url: https://guides.rubyonrails.org/active_support_core_extensions.html#extensions-to-time
-  tags: ruby language extensions
-  source: RoR Guides
-
-- title: Files
-  url: https://guides.rubyonrails.org/active_support_core_extensions.html#extensions-to-file
-  tags: ruby language extensions
-  source: RoR Guides
-
-- title: Marshals
-  url: https://guides.rubyonrails.org/active_support_core_extensions.html#extensions-to-marshal
-  tags: ruby language extensions
-  source: RoR Guides
-
-- title: Name Errors
-  url: https://guides.rubyonrails.org/active_support_core_extensions.html#extensions-to-nameerror
-  tags: ruby language extensions
-  source: RoR Guides
-
-- title: Load Errors
-  url: https://guides.rubyonrails.org/active_support_core_extensions.html#extensions-to-loaderror
-  tags: ruby language extensions
-  source: RoR Guides
-
-
-- title: Creating
-  url: https://guides.rubyonrails.org/active_job_basics.html#creating-a-job
-  tags: background jobs
-  source: RoR Guides
-
-- title: Running
-  url: https://guides.rubyonrails.org/active_job_basics.html#job-execution
-  tags: background jobs
-  source: RoR Guides
-
-- title: Queues
-  url: https://guides.rubyonrails.org/active_job_basics.html#queues
-  tags: background jobs
-  source: RoR Guides
-
-- title: Callbacks
-  url: https://guides.rubyonrails.org/active_job_basics.html#callbacks
-  tags: background jobs
-  source: RoR Guides
-
-- title: Action Mailer
-  url: https://guides.rubyonrails.org/active_job_basics.html#action-mailer
-  tags: background jobs
-  source: RoR Guides
-
-- title: Internationalization
-  url: https://guides.rubyonrails.org/active_job_basics.html#internationalization
-  tags: background jobs
-  source: RoR Guides
-
-- title: Global ID
-  url: https://guides.rubyonrails.org/active_job_basics.html#globalid
-  tags: background jobs
-  source: RoR Guides
-
-- title: Exceptions
-  url: https://guides.rubyonrails.org/active_job_basics.html#exceptions
-  tags: background jobs
-  source: RoR Guides
-
-- title: Testing
-  url: https://guides.rubyonrails.org/active_job_basics.html#job-testing
-  tags: background jobs
-  source: RoR Guides
-
-- title: Sidekiq, Resque, etc
-  url: https://www.ruby-toolbox.com/categories/Background_Jobs
-  tags: background jobs
-  source: Ruby Toolbox
-
-- title: Daemons
-  url: https://www.ruby-toolbox.com/categories/daemonizing
-  tags: background jobs
-  source: Ruby Toolbox
-
-- title: Foreman
-  url: https://www.ruby-toolbox.com/categories/daemon_management
-  tags: background jobs
-  source: Ruby Toolbox
-
-- title: Scheduling
-  url: https://www.ruby-toolbox.com/categories/scheduling
-  tags: background jobs
-  source: Ruby Toolbox
-
-
-
-- title: Concurrent-Ruby, EventMachine
-  url: https://www.ruby-toolbox.com/categories/Concurrent_Processing
-  tags: concurrency, parallelism
-  source: Ruby Toolbox
-
-
-- title: Page
-  url: https://guides.rubyonrails.org/caching_with_rails.html#page-caching
-  tags: caching
-  source: RoR Guides
-
-- title: Action
-  url: https://guides.rubyonrails.org/caching_with_rails.html#action-caching
-  tags: caching
-  source: RoR Guides
-
-- title: Fragment
-  url: https://guides.rubyonrails.org/caching_with_rails.html#fragment-caching
-  tags: caching
-  source: RoR Guides
-
-- title: Russian Doll
-  url: https://guides.rubyonrails.org/caching_with_rails.html#russian-doll-caching
-  tags: caching
-  source: RoR Guides
-
-- title: Shared Partial
-  url: https://guides.rubyonrails.org/caching_with_rails.html#shared-partial-caching
-  tags: caching
-  source: RoR Guides
-
-- title: Dependencies
-  url: https://guides.rubyonrails.org/caching_with_rails.html#managing-dependencies
-  tags: caching
-  source: RoR Guides
-
-- title: Low Level
-  url: https://guides.rubyonrails.org/caching_with_rails.html#low-level-caching
-  tags: caching
-  source: RoR Guides
-
-- title: SQL Caching
-  url: https://guides.rubyonrails.org/caching_with_rails.html#sql-caching
-  tags: caching
-  source: RoR Guides
-
-- title: Storage Configuration
-  url: https://guides.rubyonrails.org/caching_with_rails.html#configuration
-  tags: caching
-  source: RoR Guides
-
-- title: Keys
-  url: https://guides.rubyonrails.org/caching_with_rails.html#cache-keys
-  tags: caching
-  source: RoR Guides
-
-- title: Conditional GET
-  url: https://guides.rubyonrails.org/caching_with_rails.html#conditional-get-support
-  tags: caching
-  source: RoR Guides
-
-- title: Caching in Devt
-  url: https://guides.rubyonrails.org/caching_with_rails.html#caching-in-development
-  tags: caching
-  source: RoR Guides
-
-
-- title: Pub/Sub
-  url: https://guides.rubyonrails.org/action_cable_overview.html#what-is-pub-sub
-  tags: rails websockets (active cable)
-  source: RoR Guides
-
-- title: Server-Side
-  url: https://guides.rubyonrails.org/action_cable_overview.html#server-side-components
-  tags: rails websockets (active cable)
-  source: RoR Guides
-
-- title: Client-Side
-  url: https://guides.rubyonrails.org/action_cable_overview.html#client-side-components
-  tags: rails websockets (active cable)
-  source: RoR Guides
-
-- title: Streams
-  url: https://guides.rubyonrails.org/action_cable_overview.html#streams
-  tags: rails websockets (active cable)
-  source: RoR Guides
-
-- title: Broadcasting
-  url: https://guides.rubyonrails.org/action_cable_overview.html#broadcasting
-  tags: rails websockets (active cable)
-  source: RoR Guides
-
-- title: Subscriptions
-  url: https://guides.rubyonrails.org/action_cable_overview.html#client-server-interactions-subscriptions
-  tags: rails websockets (active cable)
-  source: RoR Guides
-
-- title: Parameters
-  url: https://guides.rubyonrails.org/action_cable_overview.html#passing-parameters-to-channels
-  tags: rails websockets (active cable)
-  source: RoR Guides
-
-- title: Re-broadcasting
-  url: https://guides.rubyonrails.org/action_cable_overview.html#rebroadcasting-a-message
-  tags: rails websockets (active cable)
-  source: RoR Guides
-
-- title: Full Stack Examples
-  url: https://guides.rubyonrails.org/action_cable_overview.html#full-stack-examples
-  tags: rails websockets (active cable)
-  source: RoR Guides
-
-- title: Configuration
-  url: https://guides.rubyonrails.org/action_cable_overview.html#configuration
-  tags: rails websockets (active cable)
-  source: RoR Guides
-
-- title: Standalone Servers
-  url: https://guides.rubyonrails.org/action_cable_overview.html#running-standalone-cable-servers
-  tags: rails websockets (active cable)
-  source: RoR Guides
-
-
-
-- title: Rails on Rack
-  url: https://guides.rubyonrails.org/rails_on_rack.html#rails-on-rack
-  tags: rack middleware
-  source: RoR Guides
-
-- title: Middleware Stack
-  url: https://guides.rubyonrails.org/rails_on_rack.html#action-dispatcher-middleware-stack
-  tags: rack middleware
-  source: RoR Guides
-
-- title: Rack Website
-  url: https://rack.github.io/
-  tags: rack middleware
-
-- title: Intro to Rack
-  url: http://chneukirchen.org/blog/archive/2007/02/introducing-rack.html
-  tags: rack middleware
-
-- title: Constants
-  url: https://guides.rubyonrails.org/autoloading_and_reloading_constants.html#constants-refresher
-  tags: autoloading & constants
-  source: RoR Guides
-
-- title: Vocabulary
-  url: https://guides.rubyonrails.org/autoloading_and_reloading_constants.html#vocabulary
-  tags: autoloading & constants
-  source: RoR Guides
-
-- title: Autoloading Availability
-  url: https://guides.rubyonrails.org/autoloading_and_reloading_constants.html#autoloading-availability
-  tags: autoloading & constants
-  source: RoR Guides
-
-- title: Load Paths
-  url: https://guides.rubyonrails.org/autoloading_and_reloading_constants.html#autoload-paths-and-eager-load-paths
-  tags: autoloading & constants
-  source: RoR Guides
-
-- title: Autoload Algorithms
-  url: https://guides.rubyonrails.org/autoloading_and_reloading_constants.html#autoloading-algorithms
-  tags: autoloading & constants
-
-- title: require_dependency
-  url: https://guides.rubyonrails.org/autoloading_and_reloading_constants.html#require-dependency
-  tags: autoloading & constants
-  source: RoR Guides
-
-- title: Constant Reloading
-  url: https://guides.rubyonrails.org/autoloading_and_reloading_constants.html#constant-reloading
-  tags: autoloading & constants
-  source: RoR Guides
-
-- title: Module#autoload
-  url: https://guides.rubyonrails.org/autoloading_and_reloading_constants.html#module-autoload-isn-t-involved
-  tags: autoloading & constants
-  source: RoR Guides
-
-- title: Gotchas</a>
-  url: https://guides.rubyonrails.org/autoloading_and_reloading_constants.html#common-gotchas
-  tags: autoloading & constants
-  source: RoR Guides
-
-
-- title: Overview
-  url: https://guides.rubyonrails.org/i18n.html#how-i18n-in-ruby-on-rails-works
-  tags: internationalization
-  source: RoR Guides
-
-- title: Setup
-  url: https://guides.rubyonrails.org/i18n.html#setup-the-rails-application-for-internationalization
-  tags: internationalization
-  source: RoR Guides
-
-- title: Localization
-  url: https://guides.rubyonrails.org/i18n.html#internationalization-and-localization
-  tags: internationalization
-  source: RoR Guides
-
-- title: API
-  url: https://guides.rubyonrails.org/i18n.html#overview-of-the-i18n-api-features
-  tags: internationalization
-  source: RoR Guides
-
-- title: Custom Translations
-  url: https://guides.rubyonrails.org/i18n.html#how-to-store-your-custom-translations
-  tags: internationalization
-  source: RoR Guides
-
-- title: Custom Setups
-  url: https://guides.rubyonrails.org/i18n.html#customize-your-i18n-setup
-  tags: internationalization
-  source: RoR Guides
-
-- title: Model Content
-  url: https://guides.rubyonrails.org/i18n.html#translating-model-content
-  tags: internationalization
-  source: RoR Guides
-
-
-- title: 40 tools (hixonrails)
-  url: https://app.getpocket.com/read/2928780813
-  tags: monitoring
-  source: RoR Guides
-
-- title: New Relic
-  url: https://www.ruby-toolbox.com/projects/newrelic_rpm
-  tags: monitoring
-  source: RoR Guides
-
-- title: Better Errors
-  url: https://www.ruby-toolbox.com/projects/better_errors
-  tags: monitoring
-  source: RoR Guides
-
-- title: Bullet
-  url: https://www.ruby-toolbox.com/projects/bullet
-  tags: monitoring
-  source: RoR Guides
-
-- title: Errbit
-  url: https://www.ruby-toolbox.com/projects/errbit/errbit
-  tags: monitoring
-  source: RoR Guides
-
-- title: Airbrake
-  url: https://www.ruby-toolbox.com/projects/airbrake
-  tags: monitoring
-  source: RoR Guides
-
-
-
-
-- title: Logstash
-  url: https://www.ruby-toolbox.com/projects/logstash/logstash
-  tags: logging
-  source: Ruby Toolbox
-
-- title: Fluentd, etc
-  url: https://www.ruby-toolbox.com/projects/fluentd
-  tags: logging
-  source: Ruby Toolbox
-
-
-
-- title: Intro
-  url: https://guides.rubyonrails.org/testing.html#introduction-to-testing
-  tags: testing
-  source: RoR Guides
-
-- title: Test DB
-  url: https://guides.rubyonrails.org/testing.html#the-test-database
-  tags: testing
-  source: RoR Guides
-
-- title: Model Testing
-  url: https://guides.rubyonrails.org/testing.html#model-testing
-  tags: testing
-  source: RoR Guides
-
-- title: System Testing
-  url: https://guides.rubyonrails.org/testing.html#system-testing
-  tags: testing
-  source: RoR Guides
-
-- title: Function Testing
-  url: https://guides.rubyonrails.org/testing.html#functional-tests-for-your-controllers
-  tags: testing
-  source: RoR Guides
-
-- title: Route Testing
-  url: https://guides.rubyonrails.org/testing.html#testing-routes
-  tags: testing
-  source: RoR Guides
-
-- title: View Testing
-  url: https://guides.rubyonrails.org/testing.html#testing-views
-  tags: testing
-  source: RoR Guides
-
-- title: Helper Testing
-  url: https://guides.rubyonrails.org/testing.html#testing-helpers
-  tags: testing
-  source: RoR Guides
-
-- title: Email Testing
-  url: https://guides.rubyonrails.org/testing.html#testing-your-mailers
-  tags: testing
-  source: RoR Guides
-
-- title: Background Job Testing
-  url: https://guides.rubyonrails.org/testing.html#testing-jobs
-  tags: testing
-  source: RoR Guides
-
-- title: Integration Testing
-  url: https://guides.rubyonrails.org/testing.html#integration-testing
-  tags: testing
-  source: RoR Guides
-
-- title: Resources
-  url: https://guides.rubyonrails.org/testing.html#additional-testing-resources
-  tags: testing
-  source: RoR Guides
-
-- title: Split
-  url: https://www.ruby-toolbox.com/projects/split
-  tags: testing
-  source: Ruby Toolbox
-
-- title: Selenium
-  url: https://www.ruby-toolbox.com/projects/selenium-webdriver
-  tags: testing
-  source: Ruby Toolbox
-
-- title: Guard
-  url: https://www.ruby-toolbox.com/projects/guard
-  tags: testing
-  source: Ruby Toolbox
-
-- title: Guard-rspec
-  url: https://www.ruby-toolbox.com/projects/guard-rspec
-  tags: testing
-  source: Ruby Toolbox
-
-- title: ruby toolbox
-  url: https://www.ruby-toolbox.com/categories/code_coverage
-  tags: testing
-  source: Ruby Toolbox
-
-- title: simplecov
-  url: https://github.com/colszowka/simplecov
-  tags: testing
-  source: Ruby Toolbox
-
-- title: Metrics
-  url: https://www.ruby-toolbox.com/categories/code_metrics
-  tags: testing
-  source: Ruby Toolbox
-
-- title: Review Tools
-  url: https://www.ruby-toolbox.com/categories/code_review_tools
-  tags: testing
-  source: Ruby Toolbox
-
-- title: Faker
-  url: https://www.ruby-toolbox.com/projects/faker
-  tags: testing
-  source: Ruby Toolbox
-
-- title: Factory Bot
-  url: https://www.ruby-toolbox.com/projects/factory_bot
-  tags: testing
-  source: Ruby Toolbox
-
-- title: Minitest
-  url: https://www.ruby-toolbox.com/projects/minitest
-  tags: testing
-  source: Ruby Toolbox
-
-- title: Cucumber
-  url: https://www.ruby-toolbox.com/projects/cucumber
-  tags: testing
-  source: Ruby Toolbox
-
-- title: Webmock
-  url: https://www.ruby-toolbox.com/categories/mocking_web_requests
-  tags: testing
-  source: Ruby Toolbox
-
-- title: Spring
-  url: https://www.ruby-toolbox.com/projects/spring
-  tags: testing
-  source: Ruby Toolbox
-
-- title: Timecop
-  url: https://www.ruby-toolbox.com/projects/timecop
-  tags: testing
-  source: Ruby Toolbox
-
-- title: rspec tutorial (Hix on Rails)
-  url: https://hixonrails.com/ruby-on-rails-tutorials/ruby-on-rails-testing-rspec-configuration/
-  tags: testing
-
-- title: Relish
-  url: https://relishapp.com/rspec
-  tags: testing
-
-- title: rspec-matchers
-  url: https://www.ruby-toolbox.com/categories/RSpec_Matchers
-  tags: testing
-  source: Ruby Toolbox
-
-- title: rspec-mocks
-  url: https://www.ruby-toolbox.com/projects/rspec-mocks
-  tags: testing
-  source: Ruby Toolbox
-
-
-
-- title: Best Practices
-  url: https://hixonrails.com/ruby-on-rails-tutorials/ruby-on-rails-security-best-practices/
-  tags: security
-  source: hixonrails
-
-- title: Sessions
-  url: https://guides.rubyonrails.org/security.html#sessions
-  tags: security
-  source: RoR Guides
-
-- title: CSRF
-  url: https://guides.rubyonrails.org/security.html#cross-site-request-forgery-csrf
-  tags: security
-  source: RoR Guides
-
-- title: Redirection & Files
-  url: https://guides.rubyonrails.org/security.html#redirection-and-files
-  tags: security
-  source: RoR Guides
-
-- title: Admin Security
-  url: https://guides.rubyonrails.org/security.html#intranet-and-admin-security
-  tags: security
-  source: RoR Guides
-
-- title: User Mgmt
-  url: https://guides.rubyonrails.org/security.html#user-management
-  tags: security
-  source: RoR Guides
-
-- title: Injection
-  url: https://guides.rubyonrails.org/security.html#injection
-  tags: security
-  source: RoR Guides
-
-- title: Unsafe Queries
-  url: https://guides.rubyonrails.org/security.html#unsafe-query-generation
-  tags: security
-  source: RoR Guides
-
-- title: Headers
-  url: https://guides.rubyonrails.org/security.html#default-headers
-  tags: security
-  source: RoR Guides
-
-- title: Environmental Security
-  url: https://guides.rubyonrails.org/security.html#environmental-security
-  tags: security
-  source: RoR Guides
-
-- title: Loofah
-  url: https://www.ruby-toolbox.com/projects/loofah
-  tags: security
-  source: Ruby Toolbox
-
-- title: Brakeman
-  url: https://www.ruby-toolbox.com/projects/brakeman
-  tags: security
-  source: Ruby Toolbox
-
-- title: Spam Detection
-  url: https://www.ruby-toolbox.com/categories/spam_detection
-  tags: security
-  source: Ruby Toolbox
-
-- title: Authorization (Cancan, ...)
-  url: https://www.ruby-toolbox.com/categories/rails_authorization
-  tags: security
-  source: Ruby Toolbox
-
-- title: Authentication (Devise, ...)
-  url: https://www.ruby-toolbox.com/categories/rails_authentication
-  tags: security
-  source: Ruby Toolbox
-
-
-
-
-- title: Gems (Bundler)
-  url: https://www.ruby-toolbox.com/categories/gem_creation
-  tags: configuration
-  source: Ruby Toolbox
-
-- title: Locations
-  url: https://guides.rubyonrails.org/configuring.html#locations-for-initialization-code
-  tags: configuration
-  source: RoR Guides
-
-- title: Code Before Rails
-  url: https://guides.rubyonrails.org/configuring.html#running-code-before-rails
-  tags: configuration
-  source: RoR Guides
-
-- title: Component Configs
-  url: https://guides.rubyonrails.org/configuring.html#configuring-rails-components
-  tags: configuration
-  source: RoR Guides
-
-- title: Environment Settings
-  url: https://guides.rubyonrails.org/configuring.html#rails-environment-settings
-  tags: configuration
-  source: RoR Guides
-
-- title: Initializer Files
-  url: https://guides.rubyonrails.org/configuring.html#using-initializer-files
-  tags: configuration
-  source: RoR Guides
-
-- title: Initialization Events
-  url: https://guides.rubyonrails.org/configuring.html#initialization-events
-  tags: configuration
-  source: RoR Guides
-
-- title: Database Pooling
-  url: https://guides.rubyonrails.org/configuring.html#database-pooling
-  tags: configuration
-  source: RoR Guides
-
-- title: Customization
-  url: https://guides.rubyonrails.org/configuring.html#custom-configuration
-  tags: configuration
-  source: RoR Guides
-
-- title: SEO Indexing
-  url: https://guides.rubyonrails.org/configuring.html#search-engines-indexing
-  tags: configuration
-  source: RoR Guides
-
-- title: Evented File System Monitor
-  url: https://guides.rubyonrails.org/configuring.html#evented-file-system-monitor
-  tags: configuration
-  source: RoR Guides
-
-
-- title: Config Mgmt (Dotenv)
-  url: https://www.ruby-toolbox.com/categories/Configuration_Management
-  tags: configuration
-  source: Ruby Toolbox
-
-
-
-- title: Fingerprinting
-  url: https://guides.rubyonrails.org/asset_pipeline.html#what-is-fingerprinting-and-why-should-i-care-questionmark
-  tags: assets (JS, images, CSS)
-  source: RoR Guides
-
-- title: Pipeline Usage
-  url: https://guides.rubyonrails.org/asset_pipeline.html#how-to-use-the-asset-pipeline
-  tags: assets (JS, images, CSS)
-  source: RoR Guides
-
-- title: While in Development
-  url: https://guides.rubyonrails.org/asset_pipeline.html#in-development
-  tags: assets (JS, images, CSS)
-  source: RoR Guides
-
-- title: While in Production
-  url: https://guides.rubyonrails.org/asset_pipeline.html#in-production
-  tags: assets (JS, images, CSS)
-  source: RoR Guides
-
-- title: Customization
-  url: https://guides.rubyonrails.org/asset_pipeline.html#customizing-the-pipeline
-  tags: assets (JS, images, CSS)
-  source: RoR Guides
-
-- title: Cache Storage
-  url: https://guides.rubyonrails.org/asset_pipeline.html#assets-cache-store
-  tags: assets (JS, images, CSS)
-  source: RoR Guides
-
-- title: Adding Assets to Gems
-  url: https://guides.rubyonrails.org/asset_pipeline.html#adding-assets-to-your-gems
-  tags: assets (JS, images, CSS)
-  source: RoR Guides
-
-- title: PreProcessing Gems
-  url: https://guides.rubyonrails.org/asset_pipeline.html#making-your-library-or-gem-a-pre-processor
-  tags: assets (JS, images, CSS)
-  source: RoR Guides
-
-
-
-- title: View Helpers
-  url: https://guides.rubyonrails.org/debugging_rails_applications.html#view-helpers-for-debugging
-  tags: debugging
-  source: RoR Guides
-
-- title: Logging
-  url: https://guides.rubyonrails.org/debugging_rails_applications.html#the-logger
-  tags: debugging
-  source: RoR Guides
-
-- title: Byebug
-  url: https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-byebug-gem
-  tags: debugging
-  source: RoR Guides
-
-- title: web-console
-  url: https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-web-console-gem
-  tags: debugging
-  source: RoR Guides
-
-- title: Memory Leaks
-  url: https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-memory-leaks
-  tags: debugging
-  source: RoR Guides
-
-- title: Plugins</a>
-  url: https://guides.rubyonrails.org/debugging_rails_applications.html#plugins-for-debugging
-  tags: debugging
-  source: RoR Guides
-
-
-- title: Rdoc
-  url: https://www.ruby-toolbox.com/projects/rdoc
-  tags: documentation
-  source: Ruby Toolbox
-
-
-- title: rails CLI Basics
-  url: https://guides.rubyonrails.org/command_line.html#command-line-basics
-  tags: rails CLI
-  source: RoR Guides
-
-
-- title: bin/rails
-  url: https://guides.rubyonrails.org/command_line.html#bin-rails
-  tags: rails CLI
-  source: RoR Guides
-
-- title: Rake
-  url: https://www.ruby-toolbox.com/projects/rake
-  tags: rails CLI
-  source: Ruby Toolbox
-
-- title: Custom Rake Tasks
-  url: https://guides.rubyonrails.org/command_line.html#custom-rake-tasks
-  tags: rails CLI
-  source: RoR Guides
-
-- title: Adv Rails Cmnds
-  url: https://guides.rubyonrails.org/command_line.html#the-rails-advanced-command-line
-  tags: rails CLI
-  source: RoR Guides
-
-- title: Pry (IRB alternative)
-  url: https://www.ruby-toolbox.com/projects/pry
-  tags: rails CLI
-  source: Ruby Toolbox
-
-- title: Thor
-  url: https://www.ruby-toolbox.com/projects/thor
-  tags: rails CLI
-  source: Ruby Toolbox
-
-- title: Rexe
-  url: https://www.ruby-toolbox.com/categories/CommandLineUtilities
-  tags: rails CLI
-  source: Ruby Toolbox
-
-- title: CLI Option Parsers
-  url: https://www.ruby-toolbox.com/categories/CLI_Option_Parsers
-  tags: rails CLI
-  source: Ruby Toolbox
-
-- title: CLI Progress Bars
-  url: https://www.ruby-toolbox.com/categories/CLI_Progress_Bars
-  tags: rails CLI
-  source: Ruby Toolbox
-
-
-
-- title: AWS
-  url: https://www.ruby-toolbox.com/categories/Amazon_Web_Services
-  tags: deployment - devops
-  source: Ruby Toolbox
-
-- title: Backup
-  url: https://www.ruby-toolbox.com/projects/backup
-  tags: deployment - devops
-  source: Ruby Toolbox
-
-
-- title: Travis CI
-  url: https://www.ruby-toolbox.com/projects/travis-ci/travis-ci
-  tags: deployment - devops
-  source: Ruby Toolbox
-
-
-- title: Capistrano
-  url: https://www.ruby-toolbox.com/projects/capistrano
-  tags: deployment - devops
-  source: Ruby Toolbox
-
-- title: Heroku
-  url: https://www.ruby-toolbox.com/projects/heroku
-  tags: deployment - devops
-  source: Ruby Toolbox
-
-- title: Fog
-  url: https://www.ruby-toolbox.com/projects/fog
-  tags: deployment - devops
-  source: Ruby Toolbox
-
-
-- title: Vagrant
-  url: https://www.ruby-toolbox.com/projects/vagrant
-  tags: deployment - devops
-  source: Ruby Toolbox
-
-- title: Chef
-  url: https://www.ruby-toolbox.com/projects/chef
-  tags: deployment - devops
-  source: Ruby Toolbox
-
-- title: Puppet
-  url: https://www.ruby-toolbox.com/projects/puppet
-  tags: deployment - devops
-  source: Ruby Toolbox
-
-
-- title: Puma
-  url: https://www.ruby-toolbox.com/projects/puma
-  tags: web servers
-  source: Ruby Toolbox
-
-- title: Unicorn
-  url: https://www.ruby-toolbox.com/projects/unicorn
-  tags: web servers
-  source: Ruby Toolbox
-
-- title: Thin
-  url: https://www.ruby-toolbox.com/projects/thin
-  tags: web servers
-  source: Ruby Toolbox
-
-- title: Passenger
-  url: https://www.ruby-toolbox.com/projects/passenger
-  tags: web servers
-  source: Ruby Toolbox
-
-
-- title: Git Tools
-  url: https://www.ruby-toolbox.com/categories/git_Tools
-  tags: revision control
-  source: Ruby Toolbox
-
-- title: GitlabHQ
-  url: https://www.ruby-toolbox.com/categories/project_management
-  tags: revision control
-  source: Ruby Toolbox
-
-
-- title: Gtk2, glib2
-  url: https://www.ruby-toolbox.com/categories/Gnome
-  tags: deployment - devops
-  source: Ruby Toolbox
-
-- title: Railyard
-  url: https://www.ruby-toolbox.com/projects/brandonweiss/railyard
-  tags: deployment - devops
-  source: Ruby Toolbox
-
-
-- title: Octopress, etc
-  url: https://www.ruby-toolbox.com/categories/Blog_Engines
-  tags: publishing
-  source: Ruby Toolbox
-
-
-- title: Refinery, etc
-  url: https://www.ruby-toolbox.com/categories/content_management_systems
-  tags: publishing
-  source: Ruby Toolbox
-
-
-- title: Gollum
-  url: https://www.ruby-toolbox.com/categories/wiki_apps
-  tags: publishing
-  source: Ruby Toolbox
-
-
-- title: Jekyll, etc
-  url: https://www.ruby-toolbox.com/categories/static_website_generation
-  tags: publishing
-  source: Ruby Toolbox
-
-
-- title: Rails for JSON APIs
-  url: https://guides.rubyonrails.org/api_app.html#why-use-rails-for-json-apis-questionmark
-  tags: api-only apps
-  source: RoR Guides
-
-- title: New
-  url: https://guides.rubyonrails.org/api_app.html#creating-a-new-application
-  tags: api-only apps
-  source: RoR Guides
-
-- title: Change
-  url: https://guides.rubyonrails.org/api_app.html#changing-an-existing-application
-  tags: api-only apps
-  source: RoR Guides
-
-- title: Middleware
-  url: https://guides.rubyonrails.org/api_app.html#choosing-middleware
-  tags: api-only apps
-  source: RoR Guides
-
-- title: Controller Modules
-  url: https://guides.rubyonrails.org/api_app.html#choosing-controller-modules
-  tags: api-only apps
-  source: RoR Guides
-
-
-- title: 1st Contact
-  url: https://guides.rubyonrails.org/generators.html#first-contact
-  tags: generators & templates
-  source: RoR Guides
-
-- title: Creating
-  url: https://guides.rubyonrails.org/generators.html#creating-your-first-generator
-  tags: generators & templates
-  source: RoR Guides
-
-- title: Generators w/ Generators
-  url: https://guides.rubyonrails.org/generators.html#creating-generators-with-generators
-  tags: generators & templates
-  source: RoR Guides
-
-- title: Lookups
-  url: https://guides.rubyonrails.org/generators.html#generators-lookup
-  tags: generators & templates
-  source: RoR Guides
-
-- title: Custom Workflows
-  url: https://guides.rubyonrails.org/generators.html#customizing-your-workflow
-  tags: generators & templates
-  source: RoR Guides
-
-- title: Custom Templates
-  url: https://guides.rubyonrails.org/generators.html#customizing-your-workflow-by-changing-generators-templates
-  tags: generators & templates
-  source: RoR Guides
-
-- title: Fallbacks
-  url: https://guides.rubyonrails.org/generators.html#adding-generators-fallbacks
-  tags: generators & templates
-  source: RoR Guides
-
-- title: App Templates
-  url: https://guides.rubyonrails.org/generators.html#application-templates
-  tags: generators & templates
-  source: RoR Guides
-
-- title: Cmnd Line Args
-  url: https://guides.rubyonrails.org/generators.html#adding-command-line-arguments
-  tags: generators & templates
-  source: RoR Guides
-
-- title: Generators
-  url: https://guides.rubyonrails.org/generators.html#generator-methods
-  tags: generators & templates
-  source: RoR Guides
-
-- title: Eager Loading & N+1 Queries
-  url: https://news.learnenough.com/eager-loading
-  tags: associations
-
-- title: Active Record without Models 
-  url: https://twitter.com/websebdev/status/1360647965765951497?s=12
-  tags: active record
-
-- title: text excerpts
-  url: https://boringrails.com/tips/rails-excerpt-helper
-  tags: views (HTML helpers) 
-  source: boringrails
-
-- title: Bcrypt hashing 
-  url: https://rubyweekly.com/link/102532/ad5e785e3b
-  tags: security
-  source: rubyweekly
-
-- title: MongoDB installation 
-  url: https://www.botreetechnologies.com/blog/how-to-install-and-use-mongodb-with-rails6/
-  tags: db options
-  source: botreetechnologies
-
-- title: Heroku alternatives?
-  url: https://www.reddit.com/r/rails/comments/l59eti/best_alternatives_to_hosting_on_heroku/
-  tags: deployment - devops
-  source: reddit
-
-- title: custom seed files 
-  url: https://stackoverflow.com/questions/19872271/adding-a-custom-seed-file#19872375
-  tags: db seeds 
-  source: stackoverflow
-
-- title: Webpacker in Rails 6
-  url: https://prathamesh.tech/2019/08/26/understanding-webpacker-in-rails-6/
-  tags: javascript
-  source: prathamesh
-
-- title: Rendering with render_async
-  url: https://semaphoreci.com/blog/2017/06/08/speeding-up-rails-pages-with-render-async.html
-  tags: views (layouts & rendering)
-  source: semaphoreci
-
-- title: Active Record query tricks 
-  url: https://medium.com/@apneadiving/active-records-queries-tricks-2546181a98dd
-  tags: active record
-  source: medium
-
-- title: Devise in Depth 
-  url: https://www.sitepoint.com/devise-authentication-in-depth/
-  tags: security
-  source: sitepoint
-
-- title: acts_as_tree 
-  url: https://github.com/amerine/acts_as_tree
-  tags: active record
-  source: github
-
-- title: Polymorphic Associations
-  url: https://launchschool.com/blog/understanding-polymorphic-associations-in-rails
-  tags: associations
-  source: launchschool
-
-- title: Custom Rake tasks 
-  url: https://dev.to/vinistock/customizing-rails-rake-tasks-3bg5
-  tags: rails CLI
-  source: dev.to
-
-- title: 42 Performance Tips 
-  url: https://dev.to/mskog/42-performance-tips-for-ruby-on-rails-4aik
-  tags: optimization 
-  source: dev.to
-
-# RAILS 6 -----------------------------------------------------------------------------------------
-
-- title: Rails 6 features 
-  url: https://evilmartians.com/chronicles/rails-6-b-sides-and-rarities
-  tags: rails v6
-  source: evilmartians
-
-# RAILS 7 -----------------------------------------------------------------------------------------
-
-- title: Rails 7 release notes
-  url: https://guides.rubyonrails.org/7_0_release_notes.html
-  tags: rails v7
-  source: rails guides
-
-- title: Rails with Svelte 
-  url: https://medium.com/@nikolalsvk/getting-started-with-svelte-and-rails-6-d8384c80ad6c
-  tags: javascript
-  source: medium
-
-- title: Custom Scaffolds 
-  url: https://www.nopio.com/blog/creating-scaffold-generator-rails/
-  tags: scaffolds
-  source: nopio
-
-- title: Continuous Integration with CircleCI 
-  url: https://hixonrails.com/ruby-on-rails-tutorials/ruby-on-rails-set-up-on-github-with-circleci/
-  tags: deployment - devops 
-  source: hixonrails
-
-- title: Intro to secrets & credentials 
-  url: https://rubyweekly.com/link/83853/ad5e785e3b
-  tags: security
-  source: rubyweekly
-
-- title: Rspec configuration 
-  url: https://hixonrails.com/ruby-on-rails-tutorials/ruby-on-rails-testing-rspec-configuration/
-  tags: testing 
-  source: hixonrails
-
-- title: Fake data generator 
-  url: https://towardsdatascience.com/how-to-create-fake-data-with-faker-a835e5b7a9d9?source=rss----7f60cf5620c9---4
-  tags: datasets
-  source: towardsdatascience
-
-- title: Security best practices 
-  url: https://hixonrails.com/ruby-on-rails-tutorials/ruby-on-rails-security-best-practices/
-  tags: security
-  source: hixonrails
-
-- title: Postgres search 
-  url: https://pganalyze.com/blog/full-text-search-ruby-rails-postgres
-  tags: search engines
-  source: pganalyze
-
-- title: 40 Monitoring Tools 
-  url: https://hixonrails.com/ruby-on-rails-tutorials/ruby-on-rails-application-monitoring/
-  tags: monitoring
-  source: hixonrails
-
-- title: ActionMailer configuration
-  url: https://hixonrails.com/ruby-on-rails-tutorials/ruby-on-rails-action-mailer-configuration/
-  tags: email
-  source: hixonrails
-
-- title: Metaprogramming in Ruby
-  url: https://www.halcyon.hr/posts/exploring-metaprogramming-in-ruby/
-  tags: code design
-  source: halcyon
-
-- title: Rails 6 setup 
-  url: https://dev.to/vvo/a-rails-6-setup-guide-for-2019-and-2020-hf5
-  tags: rails v6
-  source: dev.to
-
-- title: Rails Patterns & Antipatterns 
-  url: https://dev.to/appsignal/introduction-to-ruby-on-rails-patterns-and-anti-patterns-2mhc
-  tags: code design
-  source: dev.to
-
-- title: Memoization
-  url: https://www.honeybadger.io/blog/ruby-rails-memoization/?utm_source=rubyweekly&utm_medium=email&utm_campaign=ruby
-  tags: optimization
-  source: honeybadger
-
-- title: Intro to Concerns 
-  url: https://blog.appsignal.com/2020/09/16/rails-concers-to-concern-or-not-to-concern.html
-  tags: modules
-  source: appsignal
-
-- title: Concerns example 
-  url: https://riptutorial.com/ruby-on-rails/example/3865/concerns
-  tags: modules 
-  source: riptutorial
-
-- title: Testing for beginners with rspec
-  url: /pdfs/rails/rails_testing_beginners.pdf 
-  tags: testing 
-  source: (pdf)
+  notes: 
+    - the object model<br>
+    - open classes & monkeypatching<br>
+    - instance variables vs instance methods<br>
+    - classes are objects<br>
+    - method calls<br>
+    - <strong>kernel</strong> module<br>
+    - <strong>self</strong> keyword<br>
+    - dynamic definitions<br>
+    - dynamic method calls<br>
+    - <strong>method_missing</strong><br>
+    - <strong>instance_eval</strong><br>
+    - <strong>class_eval</strong><br>
+    - singleton methods & classes<br>
