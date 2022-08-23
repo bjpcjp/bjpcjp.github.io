@@ -1,7 +1,7 @@
 ---
-title: Ruby, RubyGems & Rails help
+title: Rails & Rubygems
 layout: default-foundation-20210515
-tags: ruby rubyonrails rubygems
+tags: rubyonrails rubygems
 date: 2022-08-17 21:00
 ---
 
@@ -10,10 +10,10 @@ NOTE - data layout is not controlled via _include file.
 -->
 
 <div class="callout">
-<h2>Ruby, Rails & RubyGems resources</h2>
+<h2>Rails & RubyGems resources</h2>
 </div>
 
-{%- assign sorted_records = site.data.code.ruby.v20220817 | sort: "tags" -%}
+{%- assign sorted_records = site.data.code.ruby.v20220822_rails | sort: "tags" -%}
 {%- assign grouped_sorted_records = sorted_records | group_by: "tags" -%}
 
 <div class="callout">
