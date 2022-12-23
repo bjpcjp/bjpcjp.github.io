@@ -1,0 +1,617 @@
+---
+title: Compiler Theory - book notes
+layout: default-foundation-20210515
+tags: compilers algorithms 
+date: 2022-12-21
+---
+
+<div class="callout">
+    <h2>Compiler Theory - book notes</h2>
+</div>
+
+{% assign book1 = "/pdfs/compiler-theory/basics_lulu2.pdf#page=" %}
+{% assign book2 = "/pdfs/compiler-theory/Compilers-Principles-Techniques-Tools-2nd.pdf#page=" %}
+{% assign book3 = "/pdfs/compiler-theory/intro-to-compilers/" %}
+
+<div style="columns:2;">
+
+    <div class="card">
+        <div class="card-image">
+            <a href="#">
+                <img src="/px/compilers/basics-of-compiler-design-bookcover.jpg">
+            </a>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-section">
+            <ul><strong><a href="{{book1}}13">Chap 1: Intro</a></strong>
+                <li>Definition</li>
+                <li>Phases</li>
+                <li>Interpreters</li>
+                <li>Why learn about compilers?</li>
+                <li>Book structure</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-section">
+            <ul><strong><a href="{{book1}}21">Chap 2: Lexical analysis</a></strong>
+                <li>Regexes</li>
+                <li>Non-deterministic finite automata (NFAs)</li>
+                <li>Regexes to NFAs</li>
+                <li>Deterministic FAs</li>
+                <li>NFAs to DFAs</li>
+                <li>Size vs speed</li>
+                <li>DFA minimization</li>
+                <li>Lexers & generators</li>
+                <li>Regular lanaguage properties</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-section">
+            <ul><strong><a href="{{book1}}65">Chap 3: Syntax analysis</a></strong>
+                <li>Context-free grammars</li>
+                <li>Derivation</li>
+                <li>Operator precedence</li>
+                <li>Other ambiguity sources</li>
+                <li>Syntax analysis</li>
+                <li>Predictive parsing</li>
+                <li>Nullable and FIRST</li>
+                <li>Predictive parsing (again)</li>
+                <li>FOLLOW</li>
+                <li>A larger example</li>
+                <li>LL(1) parsing</li>
+                <li>LL(1) parsing & grammar rewriting</li>
+                <li>SLR parsing</li>
+                <li>Building SLR parse tables</li>
+                <li>Precedence rules</li>
+                <li>LR-parser generators</li>
+                <li>Context-free language properties</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-section">
+            <ul><strong><a href="{{book1}}125">Chap 4: Scopes & symbol tables</a></strong>
+                <li>Symbol tables</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-section">
+            <ul><strong><a href="{{book1}}133">Chap 5: Interpretation</a></strong>
+                <li>Structure</li>
+                <li>Small example</li>
+                <li>Advantages & disadvantages</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-section">
+            <ul><strong><a href="{{book1}}145">Chap 6: Type checking</a></strong>
+                <li>Design space</li>
+                <li>Attributes</li>
+                <li>Environments</li>
+                <li>Type-checking Expressions</li>
+                <li>Type-checking Function declarations</li>
+                <li>Type-checking a program</li>
+                <li>Type-checking: advanced</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-section">
+            <ul><strong><a href="{{book1}}159">Chap 7: Intermediate code generation</a></strong>
+                <li>Intermediate language choices</li>
+                <li>The intermediate language</li>
+                <li>Syntax-directed translation</li>
+                <li>Code from expressions</li>
+                <li>Translating statements</li>
+                <li>Logical operators</li>
+                <li>Advanced control statements</li>
+                <li>Translating structured data</li>
+                <li>Translating declarations</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-section">
+            <ul><strong><a href="{{book1}}191">Chap 8: Machine code generation</a></strong>
+                <li>Conditional jumps</li>
+                <li>Constants</li>
+                <li>Complex instructions</li>
+                <li>Optimizations</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-section">
+            <ul><strong><a href="{{book1}}203">Chap 9: Register allocation</a></strong>
+                <li>Liveness</li>
+                <li>Liveness analysis</li>
+                <li>Interference</li>
+                <li>Using graph coloring</li>
+                <li>Spilling</li>
+                <li>Heuristics</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-section">
+            <ul><strong><a href="{{book1}}221">Chap 10: Function calls</a></strong>
+                <li>Activation records</li>
+                <li>Prologues, epilogies & call sequences</li>
+                <li>Caller-saves vs Callee-saves</li>
+                <li>Registers & parameter passing</li>
+                <li>Register allocator</li>
+                <li>Non-local variables</li>
+                <li>Variants</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-section">
+            <ul><strong><a href="{{book1}}243">Chap 11: Analysis & optimization</a></strong>
+                <li>Data flow analysis</li>
+                <li>Common sub-expression elimination</li>
+                <li>Jump-to-jump elimination</li>
+                <li>Index-check elimination</li>
+                <li>Data flow analysis - limitations</li>
+                <li>Loops</li>
+                <li>Function call</li>
+                <li>Specialization</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-section">
+            <ul><strong><a href="{{book1}}269">Chap 12: Memory management</a></strong>
+                <li>Static allocation</li>
+                <li>Stacks</li>
+                <li>Heaps</li>
+                <li>Manual allocation</li>
+                <li>Auto memory mgmt</li>
+                <li>Reference counts</li>
+                <li>Tracing garbage collectors</li>
+                <li>Summary</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-section">
+            <ul><strong><a href="{{book1}}293">Chap 13: Bootstrapping a compiler</a></strong>
+                <li>Notation</li>
+                <li>Compiling compilers</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-section">
+            <ul><strong><a href="{{book1}}303">Appendix: set notation</a></strong>
+                <li>Concepts & notation</li>
+                <li>Set-builder notation</li>
+                <li>Sets of sets</li>
+                <li>Set equations</li>
+            </ul>
+        </div>
+    </div>
+
+<!------------------------------- book 2 -------------------------------->
+
+    <div class="card">
+        <div class="card-image">
+            <a href="#">
+                <img src="/px/compilers/compilers-principles-bookcover.png"></a>
+    </div>
+    </div>
+
+    <div class="card">
+    <div class="card-section">
+        <ul><strong><a href="{{book2}}24">Chapter 1: Intro</a></strong>
+            <li>Language processors</li>
+            <li>Compiler structure</li>
+            <li>Evolution</li>
+            <li>Building</li>
+            <li>Applications</li>
+            <li>Programming language basics</li>
+        </ul>
+    </div>
+    </div>
+
+    <div class="card">
+    <div class="card-section">
+        <ul><strong><a href="{{book2}}62">Chapter 2: A simple syntax-directed translator</a></strong>
+            <li>Syntax</li>
+            <li>Translation</li>
+            <li>Parsing</li>
+            <li>Simple expression translator</li>
+            <li>Lexical analysis</li>
+            <li>symbol tables</li>
+            <li>Intermediate code generation</li>
+        </ul>
+    </div>
+    </div>
+    
+    <div class="card">
+    <div class="card-section">
+        <ul><strong><a href="{{book2}}132">Chapter 3: Lexical analysis</a></strong>
+            <li>Role</li>
+            <li>Input buffering</li>
+            <li>Tokens</li>
+            <li>Token recognition</li>
+            <li>Lex</li>
+            <li>Finite automata</li>
+            <li>Regexes to automata</li>
+            <li>Lexical-analyzer generator design</li>
+            <li>DFA-based pattern match optimization</li>
+        </ul>
+    </div>
+    </div>
+    
+    <div class="card">
+    <div class="card-section">
+        <ul><strong><a href="{{book2}}214">Chapter 4: Syntax analysis</a></strong>
+            <li>Intro</li>
+            <li>Context-free grammars</li>
+            <li>Writing a grammar</li>
+            <li>Top-down parsing</li>
+            <li>Bottom-up parsing</li>
+            <li>LR parsing</li>
+            <li>Advanced LR parsing</li>
+            <li>Ambiguous grammars</li>
+            <li>Parser generators</li>
+        </ul>
+    </div>
+    </div>
+
+    <div class="card">
+    <div class="card-section">
+        <ul><strong><a href="{{book2}}326">Chapter 5: Syntax-directed translation</a></strong>
+            <li>Syntax directed definitions (SDDs)</li>
+            <li>Evaluation order</li>
+            <li>Applications</li>
+            <li>Translation schemes</li>
+            <li>L-attributed SDD</li>
+        </ul>
+    </div>
+    </div>
+
+    <div class="card">
+    <div class="card-section">
+        <ul><strong><a href="{{book2}}380">Chapter 6: Intermediate code generation</a></strong>
+            <li>Syntax tree variants</li>
+            <li>Three-address code</li>
+            <li>Types & declarations</li>
+            <li>Expression translation</li>
+            <li>Type checking</li>
+            <li>Control flow</li>
+            <li>Backpatching</li>
+            <li>Switch statements</li>
+            <li>Intermediate code for procedures</li>
+        </ul>
+    </div>
+    </div>
+            
+
+    <div class="card">
+    <div class="card-section">
+        <ul><strong><a href="{{book2}}450">Chapter 7: Runtime environments</a></strong>
+            <li>Storage</li>
+            <li>Stack allocation</li>
+            <li>Access to nonlocal data on the stack</li>
+            <li>Heaps</li>
+            <li>Garbage collection</li>
+            <li>Trace-based collection</li>
+            <li>Short-pause garbage collection</li>
+            <li>Advanced topics</li>
+        </ul>
+    </div>
+    </div>
+         
+
+    <div class="card">
+    <div class="card-section">
+        <ul><strong><a href="{{book2}}528">Chapter 8: Code generation</a></strong>
+            <li>Design issues</li>
+            <li>Target language</li>
+            <li>Target addresses</li>
+            <li>Basic blocks & flow graphs</li>
+            <li>Block optimization</li>
+            <li>Simple code generation</li>
+            <li>Peephole optimization</li>
+            <li>Register allocation</li>
+            <li>Instruction selection by tree rewriting</li>
+            <li>Optimal code generation for expressions</li>
+            <li>Dynamic programming code generations</li>
+        </ul>
+    </div>
+    </div>
+                
+
+    <div class="card">
+    <div class="card-section">
+        <ul><strong><a href="{{book2}}606">Chapter 9: Machine-independent optimizations</a></strong>
+            <li>Principal sources</li>
+            <li>Data flow analysis (DFA)</li>
+            <li>DFA foundations</li>
+            <li>Constant propagation</li>
+            <li>Partial-redundancy elimination</li>
+            <li>Loops in flow graphs</li>
+            <li>Region-based analysis</li>
+            <li>Symbolic analysis</li>
+        </ul>
+    </div>
+    </div>
+                
+
+    <div class="card">
+    <div class="card-section">
+        <ul><strong><a href="{{book2}}730">Chapter 10: Instruction-level parallelism</a></strong>
+            <li>CPU architectures</li>
+            <li>Code schedule constraints</li>
+            <li>Basic block scheduling</li>
+            <li>Global code scheduling</li>
+            <li>Pipelining</li>
+        </ul>
+    </div>
+    </div>
+                
+
+    <div class="card">
+    <div class="card-section">
+        <ul><strong><a href="{{book2}}792">Chapter 11: Optimizing for parallelism & locality</a></strong>
+            <li>Concepts</li>
+            <li>Matrix Multiplication</li>
+            <li>Iteration spaces</li>
+            <li>Affine array indexes</li>
+            <li>Data reuse</li>
+            <li>Array data-dependence analysis</li>
+            <li>Sync-free parallelism</li>
+            <li>Parallel loop synchronization</li>
+            <li>Pipelining</li>
+            <li>Locality</li>
+            <li>Affine transforms - other uses</li>
+        </ul>
+    </div>
+    </div>
+                
+
+    <div class="card">
+    <div class="card-section">
+        <ul><strong><a href="{{book2}}926">Chapter 12: Inter-procedural analysis</a></strong>
+            <li>Concepts</li>
+            <li>Why?</li>
+            <li>Local representation</li>
+            <li>Simple pointer-analysis algorithm</li>
+            <li>Context-insensitive analysis</li>
+            <li>Context-sensitive pointer analysis</li>
+            <li>Datalog implementation by binary decision diagrams</li>
+        </ul>
+    </div>
+    </div>
+                
+
+    <div class="card">
+    <div class="card-section">
+        <ul><strong><a href="{{book2}}988">Appendix A: A complete front end</a></strong>
+            <li>Source language</li>
+            <li>Main</li>
+            <li>Lexical analyzer</li>
+            <li>Symbol tables & types</li>
+            <li>Intermediate code</li>
+            <li>Jumping code for booleans</li>
+            <li>Intermediate code for statements</li>
+            <li>Parser</li>
+            <li>Creating the front end</li>
+        </ul>
+    </div>
+    </div>
+                
+
+    <div class="card">
+    <div class="card-section">
+        <ul><strong><a href="{{book2}}1012">Chapter B: Linearly indepedent solutions</a></strong>
+        </ul>
+    </div>
+    </div>
+            
+                            
+    <!--- Intro to Compilers -->
+
+    <div class="card">
+        <div class="card-image">
+            <a href="https://www3.nd.edu/~dthain/compilerbook/">
+                <img src="/px/compilers/intro-to-compilers-thain-book-cover.jpg"></a>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-section">
+            <ul><strong><a href="{{book3}}chapter1-intro.pdf#page=2">Intro</a></strong>
+            </ul>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-section">
+            <ul><strong><a href="{{book3}}chapter2-quick-tour.pdf#page=2">Quick Tour</a></strong>
+                <li>Toolchain</li>
+                <li>Stages</li>
+                <li>Example compilation</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-section">
+            <ul><strong><a href="{{book3}}chapter3-scanning.pdf#page=2">Scanning</a></strong>
+                <li>Kinds of tokens</li>
+                <li>A hand-made scanner</li>
+                <li>Regexes</li>
+                <li>Conversion algorithms</li>
+                <li>Finite automata limitations</li>
+                <li>Practical considerations</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-section">
+            <ul><strong><a href="{{book3}}chapter4-parsing.pdf#page=2">Parsing</a></strong>
+                <li>Overview</li>
+                <li>Context-free grammars</li>
+                <li>LL grammars</li>
+                <li>LR grammars</li>
+                <li>Chomsky hierarchy</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-section">
+            <ul><strong><a href="{{book3}}chapter5-practical-parsing.pdf#page=2">Practical Parsing</a></strong>
+                <li>Bison</li>
+                <li>Validator</li>
+                <li>Interpreter</li>
+                <li>Expression trees</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-section">
+            <ul><strong><a href="{{book3}}chapter6-syntax-tree.pdf#page=2">Abstract Syntax Trees (ASTs)</a></strong>
+                <li>Abstract syntax tree (AST) overview</li>
+                <li>Declarations</li>
+                <li>Statements</li>
+                <li>Expressions</li>
+                <li>Datatypes</li>
+                <li>Putting it all together</li>
+                <li>Building an AST</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-section">
+            <ul><strong><a href="{{book3}}chapter7-semantic-analysis.pdf#page=2">Semantic Analysis</a></strong>
+                <li>Type systems</li>
+                <li>Design</li>
+                <li>C-Minor type system</li>
+                <li>Symbol tables</li>
+                <li>Name resolution</li>
+                <li>Type checking - implementation</li>
+                <li>Error messages</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-section">
+            <ul><strong><a href="{{book3}}chapter8-intermediate-representations.pdf#page=2">Intermediate Representations</a></strong>
+                <li>Abstract syntax trees (ASTs)</li>
+                <li>Directed acyclic graphs (DAGs)</li>
+                <li>Control flow graphs</li>
+                <li>Static single assignment (SSA) form</li>
+                <li>Linear IR</li>
+                <li>Stack machine IR</li>
+                <li>Examples: GNU, LLVM, JVM</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-section">
+            <ul><strong><a href="{{book3}}chapter9-memory.pdf#page=2">Memory</a></strong>
+                <li>Logical segments</li>
+                <li>Heaps</li>
+                <li>Stacks</li>
+                <li>Locating data</li>
+                <li>Program loading</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-section">
+            <ul><strong><a href="{{book3}}chapter10-assembly-language.pdf#page=2">Assembly Language</a></strong>
+                <li>Intro</li>
+                <li>Open-source assembler tools</li>
+                <li>x86</li>
+                <li>ARM</li>
+                <li>Resources</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-section">
+            <ul><strong><a href="{{book3}}chapter11-code-generation.pdf#page=2">Code Generation</a></strong>
+                <li>Intro</li>
+                <li>Supporting functions</li>
+                <li>Generating expressions</li>
+                <li>Generating statments</li>
+                <li>Conditional expressions</li>
+                <li>Generating declarations</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-section">
+            <ul><strong><a href="{{book3}}chapter12-optimization.pdf#page=2">Optimization</a></strong>
+                <li>Overview</li>
+                <li>Perspective</li>
+                <li>High-level optimizations</li>
+                <li>Low-level optimizations</li>
+                <li>Register allocation</li>
+                <li>Pitfalls</li>
+                <li>Interactions</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-section">
+            <ul><strong><a href="{{book3}}chapterA-sample-project.pdf#page=2">Sample Project</a></strong>
+            </ul>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-section">
+            <ul><strong><a href="{{book3}}chapterB-cminor-language.pdf#page=2">C-minor Language</a></strong>
+                <li>Overview</li>
+                <li>Tokens</li>
+                <li>Types</li>
+                <li>Expressions</li>
+                <li>Declarations & statements</li>
+                <li>Functions</li>
+                <li>Optional elements</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-section">
+            <ul><strong><a href="{{book3}}chapterC-conventions.pdf#page=2">Coding Conventions</a></strong>
+            </ul>
+        </div>
+    </div>
+
+</div>
