@@ -1,12 +1,13 @@
 ---
 layout: default-foundation-20210515
 title: Python resources
-tags: python numpy pandas scipy machine-learning scikit-learn scikit-image tensorflow pytorch matplotlib seaborn sympy numba cython pycaret prophet
-date: 2022-07-03
+tags: python numpy pandas scipy machine-learning scikit-learn scikit-image tensorflow pytorch matplotlib seaborn sympy numba cython pycaret prophet feature-engineering
+date: 2022-12-26
 ---
 
 <div class="callout">
-    <h2>Python Resources:</h2>
+    <h2>Python Resources</h2>
+    <p>New: links to Feature Engineering Cookbook lessons (Jupyter notebooks)</p>
 </div>
 
 <div class="callout">
@@ -34,69 +35,71 @@ date: 2022-07-03
 
 <h2 id="numpy">NumPy:</h2>
 {%- assign records = site.data.code.numpy | sort: "title" -%}
-{%- include 2col-cards.html -%}
+{%- include 2col-cards-20221226.html -%}
 
 
 <h2 id="pandas">Pandas:</h2>
 {%- assign records = site.data.code.pandas | sort: "title" -%}
-{%- include 2col-cards.html -%}
+{%- include 2col-cards-20221226.html -%}
 
 
 <h2 id="stats">Statistics:</h2>
 {%- assign records = site.data.code.stats | sort: "title" -%}
-{%- include 2col-cards.html -%}
+{%- include 2col-cards-20221226.html -%}
 
 
 <h2 id="scipy">Scientific Computation with SciPy:</h2>
 {%- assign records = site.data.code.scipy | sort: "title" -%}
-{%- include 2col-cards.html -%}
+{%- include 2col-cards-20221226.html -%}
 
 
 <h2 id="features">Feature Engineering:</h2>
-{%- assign records = site.data.code.feature-engineering | sort: "title" -%}
-{%- include 2col-cards.html -%}
+{%- assign records = site.data.code.feature-engineering-20221226 | sort: "title" -%}
+{%- assign fe-cookbook-github = "https://github.com/bjpcjp/Python-Feature-Engineering-Cookbook-Second-Edition" -%}
+{%- assign fe-cookbook-github-ch01 = fe-cookbook-github | append: "/ch01-missing-data-imputation/" -%}
+{%- include 2col-cards-20221226.html -%}
 
 
 <h2 id="ml">Machine Learning:</h2>
 {%- assign records = site.data.code.machine-learning-20210501 | sort: "title" -%}
-{%- include 2col-cards.html -%}
+{%- include 2col-cards-20221226.html -%}
 
 
 <h2 id="images">Image Processing:</h2>
 {%- assign records = site.data.code.scikit-image | sort: "title" -%}
-{%- include 2col-cards.html -%}
+{%- include 2col-cards-20221226.html -%}
 
 
 <h2 id="nlp">Natural Language Processing (NLP):</h2>
 {%- assign records = site.data.code.nlp | sort: "title" -%}
-{%- include 2col-cards.html -%}
+{%- include 2col-cards-20221226.html -%}
 
 
 <h2 id="tensorflow">Deep Learning with Tensorflow:</h2>
 {%- assign records = site.data.code.tensorflow | sort: "title" -%}
-{%- include 2col-cards.html -%}
+{%- include 2col-cards-20221226.html -%}
 
 
 <h2 id="pytorch">Deep Learning with PyTorch:</h2>
 {%- assign records = site.data.code.pytorch | sort: "title" -%}
-{%- include 2col-cards.html -%}
+{%- include 2col-cards-20221226.html -%}
 
 
 <h2 id="viz">Visualization Tools:</h2>
 {%- assign records = site.data.code.viz | sort: "title" -%}
-{%- include 2col-cards.html -%}
+{%- include 2col-cards-20221226.html -%}
 
 
 <h2 id="sympy">Symbolic Computation:</h2>
 {%- assign records = site.data.code.sympy | sort: "title" -%}
-{%- include 2col-cards.html -%}
+{%- include 2col-cards-20221226.html -%}
 
 
 <h2 id="opts">Optimization:</h2>
 {%- assign records = site.data.code.numba-cython | sort: "title" -%}
-{%- include 2col-cards.html -%}
+{%- include 2col-cards-20221226.html -%}
 
 
 <h2 id="utils">Various Utilities:</h2>
 {%- assign records = site.data.code.utils-20210717 | sort: "title" -%}
-{%- include 2col-cards.html -%}
+{%- include 2col-cards-20221226.html -%}

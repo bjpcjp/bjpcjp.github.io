@@ -1,0 +1,214 @@
+- language: python
+  library: placeholder
+  title: data imputation
+  url: https://github.com/bjpcjp/Python-Feature-Engineering-Cookbook-Second-Edition/blob/main/ch01-missing-data-imputation/Remove-missing-data.ipynb
+  pic:
+  tags:
+  source: FE cookbook, 2nd ed (Packt)
+  note: <a href="https://github.com/bjpcjp/Python-Feature-Engineering-Cookbook-Second-Edition/blob/main/ch01-missing-data-imputation/donwload-prepare-store-credit-approval-dataset.ipynb">
+        store credit approval dataset</a><br>
+        <a href="https://github.com/bjpcjp/Python-Feature-Engineering-Cookbook-Second-Edition/blob/main/ch01-missing-data-imputation/Remove-missing-data.ipynb">
+        missing data -> removal</a><br>
+        <a href="https://github.com/bjpcjp/Python-Feature-Engineering-Cookbook-Second-Edition/blob/main/ch01-missing-data-imputation/Recipe-02-Performing-mean-or-median-imputation.ipynb">
+        missing data -> means or medians</a><br>
+        <a href="https://github.com/bjpcjp/Python-Feature-Engineering-Cookbook-Second-Edition/blob/main/ch01-missing-data-imputation/Recipe-03-Imputing-categorical-variables.ipynb">
+        categorical data</a><br>
+        <a href="https://github.com/bjpcjp/Python-Feature-Engineering-Cookbook-Second-Edition/blob/main/ch01-missing-data-imputation/Recipe-04-Replacing-missing-values-with-an-arbitrary-number.ipynb">
+        missing data -> arbitrary values</a><br>
+        <a href='https://github.com/bjpcjp/Python-Feature-Engineering-Cookbook-Second-Edition/blob/main/ch01-missing-data-imputation/Recipe-05-Finding-extreme-values-for-imputation.ipynb'>
+        finding extreme values</a><br>
+        <a href="https://github.com/bjpcjp/Python-Feature-Engineering-Cookbook-Second-Edition/blob/main/ch01-missing-data-imputation/Recipe-06-Marking-imputed-values.ipynb">
+        marking imputed values</a><br>
+        <a href="https://github.com/bjpcjp/Python-Feature-Engineering-Cookbook-Second-Edition/blob/main/ch01-missing-data-imputation/Recipe-07-Performing-multivariate-imputation-by-chained-equations.ipynb">
+        multivariate (chained) imputation</a><br>
+        <a href="https://github.com/bjpcjp/Python-Feature-Engineering-Cookbook-Second-Edition/blob/main/ch01-missing-data-imputation/Recipe-08-Estimating-missing-data-with-K-nearest-neighbours.ipynb">
+        estimated imputation - K nearest neighbors</a><br>
+
+- language: python
+  title: category coding
+  url: https://github.com/bjpcjp/Python-Feature-Engineering-Cookbook-Second-Edition/tree/main/ch02-categorical-encoding
+  pic:
+  tags:
+  source: FE cookbook, 2nd ed (Packt)
+  note: 
+    <a href="https://github.com/bjpcjp/Python-Feature-Engineering-Cookbook-Second-Edition/blob/main/ch02-categorical-encoding/Recipe-01-One-hot-encoding.ipynb">  One-hot encoding</a><br>
+    <a href="https://github.com/bjpcjp/Python-Feature-Engineering-Cookbook-Second-Edition/blob/main/ch02-categorical-encoding/Recipe-02-One-hot-encoding-frequent-categories.ipynb"> OHE - frequent categories</a><br>
+    <a href="https://github.com/bjpcjp/Python-Feature-Engineering-Cookbook-Second-Edition/blob/main/ch02-categorical-encoding/Recipe-03-Replacing-categories-by-counts-frequency.ipynb">Categories -> frequency counts</a><br>
+    <a href="https://github.com/bjpcjp/Python-Feature-Engineering-Cookbook-Second-Edition/blob/main/ch02-categorical-encoding/Recipe-04-Ordinal-encoding.ipynb">  ordinals</a><br>
+    <a href="https://github.com/bjpcjp/Python-Feature-Engineering-Cookbook-Second-Edition/blob/main/ch02-categorical-encoding/Recipe-05-Ordered-ordinal-encoding.ipynb">  ordinals (ordered)</a><br>
+    <a href="https://github.com/bjpcjp/Python-Feature-Engineering-Cookbook-Second-Edition/blob/main/ch02-categorical-encoding/Recipe-06-Target-mean-encoding.ipynb">      target mean encoding</a><br>
+    <a href="https://github.com/bjpcjp/Python-Feature-Engineering-Cookbook-Second-Edition/blob/main/ch02-categorical-encoding/Recipe-07-Weight-of-evidence.ipynb">        weight of evidence encoding</a><br>
+    <a href="https://github.com/bjpcjp/Python-Feature-Engineering-Cookbook-Second-Edition/blob/main/ch02-categorical-encoding/Recipe-08-Grouping-rare-categories.ipynb">  grouping rare categories</a><br>
+    <a href="https://github.com/bjpcjp/Python-Feature-Engineering-Cookbook-Second-Edition/blob/main/ch02-categorical-encoding/Recipe-09-Binary-Encoding.ipynb">           binary encoding</a><br>
+
+- language: python
+  title: data transforms
+  url: https://github.com/bjpcjp/Python-Feature-Engineering-Cookbook-Second-Edition/tree/main/ch03-variable-transformation
+  source: FE cookbook, 2nd ed (Packt)
+  note:
+    <a href="https://github.com/bjpcjp/Python-Feature-Engineering-Cookbook-Second-Edition/blob/main/ch03-variable-transformation/Recipe-1-logarithmic-transformation.ipynb">  logarithmic</a><br>
+    <a href="https://github.com/bjpcjp/Python-Feature-Engineering-Cookbook-Second-Edition/blob/main/ch03-variable-transformation/Recipe-2-reciprocal-transformation.ipynb">   reciprocal</a><br>
+    <a href="https://github.com/bjpcjp/Python-Feature-Engineering-Cookbook-Second-Edition/blob/main/ch03-variable-transformation/Recipe-3-square-root-transformation.ipynb">  square root</a><br>
+    <a href="https://github.com/bjpcjp/Python-Feature-Engineering-Cookbook-Second-Edition/blob/main/ch03-variable-transformation/Recipe-4-power-transformation.ipynb">        power</a><br>
+    <a href="https://github.com/bjpcjp/Python-Feature-Engineering-Cookbook-Second-Edition/blob/main/ch03-variable-transformation/Recipe-5-Box-Cox-transformation.ipynb">      box-cox</a><br>
+    <a href="https://github.com/bjpcjp/Python-Feature-Engineering-Cookbook-Second-Edition/blob/main/ch03-variable-transformation/Recipe-6-Yeo-Johnson-transformation.ipynb">  yeo-johnson</a><br>
+
+- language: python
+  title: discretization (binning)
+  url: https://github.com/bjpcjp/Python-Feature-Engineering-Cookbook-Second-Edition/tree/main/ch04-discretization
+  source: FE cookbook, 2nd ed (Packt)
+  note:
+    <a href="https://github.com/bjpcjp/Python-Feature-Engineering-Cookbook-Second-Edition/blob/main/ch04-discretization/Recipe-1-Equal-width-discretization.ipynb">   equal-width</a><br>
+    <a href="https://github.com/bjpcjp/Python-Feature-Engineering-Cookbook-Second-Edition/blob/main/ch04-discretization/Recipe-2-Equal-frequency-discretisation.ipynb"> equal-frequency</a><br>
+    <a href="https://github.com/bjpcjp/Python-Feature-Engineering-Cookbook-Second-Edition/blob/main/ch04-discretization/Recipe-3-User-defined-interval-discretization.ipynb"> user-defined widths</a><br>
+    <a href="https://github.com/bjpcjp/Python-Feature-Engineering-Cookbook-Second-Edition/blob/main/ch04-discretization/Recipe-4-Discretization-k-means.ipynb">       discretization with k-means</a><br>
+    <a href="https://github.com/bjpcjp/Python-Feature-Engineering-Cookbook-Second-Edition/blob/main/ch04-discretization/Recipe-5-Binarization.ipynb">                 binarization</a><br>
+    <a href="https://github.com/bjpcjp/Python-Feature-Engineering-Cookbook-Second-Edition/blob/main/ch04-discretization/Recipe-6-Discretization-with-decision-trees.ipynb"> using decision trees</a><br>
+
+- language: python
+  title: outlier management
+  url: https://github.com/bjpcjp/Python-Feature-Engineering-Cookbook-Second-Edition/tree/main/ch05-outliers
+  source: FE cookbook, 2nd ed (Packt)
+  note:
+    <a href="https://github.com/bjpcjp/Python-Feature-Engineering-Cookbook-Second-Edition/blob/main/ch05-outliers/Recipe-1-Visualizing-outliers-with-boxplots.ipynb"> visualization with boxplots</a><br>
+    <a href="https://github.com/bjpcjp/Python-Feature-Engineering-Cookbook-Second-Edition/blob/main/ch05-outliers/Recipe-2-Finding-outliers-with-mean-and-std.ipynb">   finding with mean & stdev</a><br>
+    <a href="https://github.com/bjpcjp/Python-Feature-Engineering-Cookbook-Second-Edition/blob/main/ch05-outliers/Recipe-3-Finding-outliers-with-the-IQR.ipynb">        finding with IQR</a><br>
+    <a href="https://github.com/bjpcjp/Python-Feature-Engineering-Cookbook-Second-Edition/blob/main/ch05-outliers/Recipe-4-Removing-outliers.ipynb">                    removal</a><br>
+    <a href="https://github.com/bjpcjp/Python-Feature-Engineering-Cookbook-Second-Edition/blob/main/ch05-outliers/Recipe-5-Capping-outliers.ipynb">                     capping</a><br>
+    <a href="https://github.com/bjpcjp/Python-Feature-Engineering-Cookbook-Second-Edition/blob/main/ch05-outliers/Recipe-6-Capping-outliers-with-quantiles.ipynb">      capping with quantiles</a><br>
+
+- language: python
+  title: date/time handling
+  url: https://github.com/bjpcjp/Python-Feature-Engineering-Cookbook-Second-Edition/tree/main/ch06-datetime
+  source: FE cookbook, 2nd ed (Packt)
+  note:
+    <a href="https://github.com/bjpcjp/Python-Feature-Engineering-Cookbook-Second-Edition/blob/main/ch06-datetime/Recipe-1-Extracting-features-from-dates-with-pandas.ipynb"> date feature extraction</a><br>
+    <a href="https://github.com/bjpcjp/Python-Feature-Engineering-Cookbook-Second-Edition/blob/main/ch06-datetime/Recipe-2-Extracting-features-from-time-with-pandas.ipynb">  time feature extraction</a><br>    
+    <a href="https://github.com/bjpcjp/Python-Feature-Engineering-Cookbook-Second-Edition/blob/main/ch06-datetime/Recipe-3-Capturing-elapsed-time-between-2-variables.ipynb"> capturing elapsed time</a><br>
+    <a href="https://github.com/bjpcjp/Python-Feature-Engineering-Cookbook-Second-Edition/blob/main/ch06-datetime/Recipe-4-Working-with-different-time-zones.ipynb">          time zones</a><br>
+    <a href="https://github.com/bjpcjp/Python-Feature-Engineering-Cookbook-Second-Edition/blob/main/ch06-datetime/Recipe-5-Automating-datetime-features-with-Feature-engine.ipynb"> automation with feature engine</a><br>
+
+- language: python
+  title: scaling
+  url: https://github.com/bjpcjp/Python-Feature-Engineering-Cookbook-Second-Edition/tree/main/ch07-scaling
+  source: FE cookbook, 2nd ed (Packt)
+  note:
+    <a href="https://github.com/bjpcjp/Python-Feature-Engineering-Cookbook-Second-Edition/blob/main/ch07-scaling/Recipe-1-standardization.ipynb">   standardization</a><br>
+    <a href="https://github.com/bjpcjp/Python-Feature-Engineering-Cookbook-Second-Edition/blob/main/ch07-scaling/Recipe-2-min-max-scaling.ipynb">   min-max scaling</a><br>
+    <a href="https://github.com/bjpcjp/Python-Feature-Engineering-Cookbook-Second-Edition/blob/main/ch07-scaling/Recipe-3-robust-scaling.ipynb">    robust scaling</a><br>
+    <a href="https://github.com/bjpcjp/Python-Feature-Engineering-Cookbook-Second-Edition/blob/main/ch07-scaling/Recipe-4-mean-normalization.ipynb">  mean normalization</a><br>
+    <a href="https://github.com/bjpcjp/Python-Feature-Engineering-Cookbook-Second-Edition/blob/main/ch07-scaling/Recipe-5-maximum-absolute-scaling.ipynb">  max absolute scaling</a><br>
+    <a href="https://github.com/bjpcjp/Python-Feature-Engineering-Cookbook-Second-Edition/blob/main/ch07-scaling/Recipe-6-scaling-to-unit-length.ipynb">    unit-length scaling</a><br>
+
+- language: python
+  title: creation
+  url: https://github.com/bjpcjp/Python-Feature-Engineering-Cookbook-Second-Edition/tree/main/ch08-creation
+  source: FE cookbook, 2nd ed (Packt)
+  note:
+    <a href="https://github.com/bjpcjp/Python-Feature-Engineering-Cookbook-Second-Edition/blob/main/ch08-creation/Recipe1-Combine-features-with-functions.ipynb"> combining features</a><br>
+    <a href="https://github.com/bjpcjp/Python-Feature-Engineering-Cookbook-Second-Edition/blob/main/ch08-creation/Recipe2-Comparing-features-to-reference-variable.ipynb">  comparing features to reference values</a><br>
+    <a href="https://github.com/bjpcjp/Python-Feature-Engineering-Cookbook-Second-Edition/blob/main/ch08-creation/Recipe3-PolynomialExpansion.ipynb">             polynomial expansion</a><br>
+    <a href="https://github.com/bjpcjp/Python-Feature-Engineering-Cookbook-Second-Edition/blob/main/ch08-creation/Recipe4-Combining-features-with-trees.ipynb">   combining features with trees</a><br>
+    <a href="https://github.com/bjpcjp/Python-Feature-Engineering-Cookbook-Second-Edition/blob/main/ch08-creation/Recipe5-Periodic-features.ipynb">               periodic data</a><br>
+    <a href="https://github.com/bjpcjp/Python-Feature-Engineering-Cookbook-Second-Edition/blob/main/ch08-creation/Recipe6-Spline-features.ipynb">                 splines</a><br>
+    <a href="https://github.com/bjpcjp/Python-Feature-Engineering-Cookbook-Second-Edition/blob/main/ch08-creation/Spline-features-figures.ipynb">       features|figures (splines)</a><br>
+    <a href="https://github.com/bjpcjp/Python-Feature-Engineering-Cookbook-Second-Edition/blob/main/ch08-creation/Cyclical-features-figures.ipynb">     features|figures (cyclical)</a><br>
+    <a href="https://github.com/bjpcjp/Python-Feature-Engineering-Cookbook-Second-Edition/blob/main/ch08-creation/polynomial_features_figures.ipynb">   features|figures (polynomial)</a><br>
+
+- language: python
+  title: tools (featuretools)
+  url: https://github.com/bjpcjp/Python-Feature-Engineering-Cookbook-Second-Edition/tree/main/ch09-featuretools
+  source: FE cookbook, 2nd ed (Packt)
+  note:
+    <a href="https://github.com/bjpcjp/Python-Feature-Engineering-Cookbook-Second-Edition/blob/main/ch09-featuretools/Recipe1-Setting-up-an-entitity-set.ipynb">  entity set setup</a><br>
+    <a href="https://github.com/bjpcjp/Python-Feature-Engineering-Cookbook-Second-Edition/blob/main/ch09-featuretools/Recipe2-Creating-features-with-cumulative-primitives.ipynb">  creating features - cumulative primitives</a><br>
+    <a href="https://github.com/bjpcjp/Python-Feature-Engineering-Cookbook-Second-Edition/blob/main/ch09-featuretools/Recipe3-Combining-numerical-features.ipynb">  combining numeric features</a><br>
+    <a href="https://github.com/bjpcjp/Python-Feature-Engineering-Cookbook-Second-Edition/blob/main/ch09-featuretools/Recipe4-Creating-features-from-datetime.ipynb"> creating features - datetimes</a><br>
+    <a href="https://github.com/bjpcjp/Python-Feature-Engineering-Cookbook-Second-Edition/blob/main/ch09-featuretools/Recipe6-Creating-features-with-aggregation-primitives.ipynb"> creating features - aggregations</a><br>
+    <a href="https://github.com/bjpcjp/Python-Feature-Engineering-Cookbook-Second-Edition/blob/main/ch09-featuretools/prepare-retail-dataset.ipynb">   retail dataset</a><br>
+
+- language: python
+  title: tools (tsfresh)
+  url: https://github.com/bjpcjp/Python-Feature-Engineering-Cookbook-Second-Edition/tree/main/ch10-tsfresh
+  source: FE cookbook, 2nd ed (Packt)
+  note:
+    <a href="https://github.com/bjpcjp/Python-Feature-Engineering-Cookbook-Second-Edition/blob/main/ch10-tsfresh/Recipe1-extract-features-automatically-with-tsfresh.ipynb">  auto extraction</a><br>
+    <a href="https://github.com/bjpcjp/Python-Feature-Engineering-Cookbook-Second-Edition/blob/main/ch10-tsfresh/Recipe2-extract-relevant-features-with-tsfresh.ipynb">   relevant feature extraction</a><br>
+    <a href="https://github.com/bjpcjp/Python-Feature-Engineering-Cookbook-Second-Edition/blob/main/ch10-tsfresh/Recipe3-extract-specific-features-with-tsfresh.ipynb">   specific feature extraction</a><br>
+    <a href="https://github.com/bjpcjp/Python-Feature-Engineering-Cookbook-Second-Edition/blob/main/ch10-tsfresh/Recipe4-extract-features-after-feature-selection.ipynb"> post-selection feature extraction</a><br>
+    <a href="https://github.com/bjpcjp/Python-Feature-Engineering-Cookbook-Second-Edition/blob/main/ch10-tsfresh/prepare-occupancy-dataset.ipynb">  occupancy dataset</a><br>
+
+# -----------------------------------------------------------------------------------------------------------------------
+
+- language: python
+  library: scikit-learn 
+  title: feature engineering intro 
+  url: https://github.com/bjpcjp/python-data-science-handbook/blob/master/scikit/SciKit-Feature-Engineering.ipynb
+  pic:
+  tags:
+  note: one-hot encoding, word counts, tf-idf, linear-to-polynomial,
+        missing data, pipelines
+  source: python DS handbook 
+
+- language: python
+  library: scikit-learn 
+  title: datasets - simple examples
+  url: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/71_example_datasets.ipynb  
+  pic:
+  tags:
+  note: iris, digits, cal housing, labeled faces, 20 newsgroups, (more)
+  source: scikit-learn 0.24
+    
+- language: python
+  library: scikit-learn 
+  title: feature extraction (text)
+  url: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/62a_text_feature_extraction.ipynb
+  pic:
+  tags:
+  note: bag of words, sparsity, vectorizers, stop words, tf-idf, decoding,
+        applications, limits, the hashing trick, out-of-core ops
+  source: scikit-learn 0.24
+    
+- language: python
+  library: scikit-learn 
+  title: data imputation basics
+  url: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/64_imputation.ipynb
+  pic:
+  tags:
+  note: univariate, multivariate, nearest-neighbor, marking imputed values 
+  source: scikit-learn 0.24 
+
+- language: python
+  library: 
+  title: file i/o
+  url: https://github.com/bjpcjp/Numeric-Python/blob/master/ch18-data-input-output.ipynb
+  pic:
+  tags:
+  note: CSV, HDF5, h5py, pytables, hdfstore, JSON, serialization, pickle issues
+  source: numeric python
+    
+- language: python
+  library: scikit-learn 
+  title: composite estimators (transformers)
+  url: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/61_composite_transformers.ipynb
+  pic:
+  tags:
+  note: setup, tips, caching, regression target transforms
+  source: scikit-learn 0.24 
+
+- language: python
+  library: scikit-learn 
+  title: preprocessing basics
+  url: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/63_preprocessing.ipynb
+  pic:
+  tags:
+  note: mean removal, variance scaling, sparse scaling, outlier scaling, distribution maps,
+        normalization, category coding, binning, binarization, polynomial features.
+  source: scikit-learn 0.24
+
+- language: python
+  title: random projections 
+  url: https://github.com/bjpcjp/scikit-learn-0.24/blob/master/66_random_projections.ipynb
+  note:
+  source: scikit-learn 0.24
+
