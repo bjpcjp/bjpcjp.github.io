@@ -14,16 +14,16 @@ layout: default-foundation-20210515
   {%- endfor -%}
 </div>
 
-{%- for tag in sorted -%}
-
-  <div class="card" id="{{tag[0]}}">
-    <div class='card-section'>
-      <strong>{{ tag[0] }}</strong><br>
-      {% assign posts = tag[1] %}
-      {% for post in posts %}
-        <a href="{{post.url}}">{{post.title}}</a><br>
-      {% endfor %}
+<div style="columns: 2;">
+  {%- for tag in sorted -%}
+    <div class="card" id="{{tag[0]}}">
+      <div class='card-section'>
+        <strong>{{ tag[0] }}</strong><br>
+        {% assign posts = tag[1] %}
+        {% for post in posts %}
+          <a href="{{post.url}}">{{post.title}}</a><br>
+        {% endfor %}
+      </div>
     </div>
-  </div>
-  
-{% endfor %}
+  {% endfor %}
+</div>
