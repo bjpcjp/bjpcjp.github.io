@@ -24,7 +24,7 @@
   note:
   pic:
 
-- title: advanced SQL operations
+- title: Advanced SQL operations
   url: https://towardsdatascience.com/advanced-sql-operations-8856084a95a8
   source: towards data science
   note:
@@ -35,7 +35,7 @@
     WINDOW<br>
   pic:
 
-- title: inserting one billion records into SQlite in under a minute
+- title: Inserting one billion records into SQlite in under a minute
   url: https://avi.im/blag/2021/fast-sqlite-inserts
   source: avi.im
   note:
@@ -47,7 +47,7 @@
   note:
   pic:
 
-- title: conditional statements
+- title: Conditional statements
   url: https://towardsdatascience.com/creating-conditional-statements-in-sql-queries-a25339c4f44d
   source: towards data science
   note:
@@ -74,13 +74,13 @@
     3. Scalar functions<br>
   pic:
 
-- title: python and sql practice database creation
+- title: Practice databases & Python
   url: https://towardsdatascience.com/how-to-create-a-sql-practice-database-with-python-d320908e1faf
   source: towards data science
   note:
   pic:
 
-- title: sqlite-utils (importing data into sqlite)
+- title: Sqlite-utils (importing data into sqlite)
   url: https://jvns.ca/blog/2022/05/12/sqlite-utils--a-nice-way-to-import-data-into-sqlite/
   source: Julia Evans
   note:
