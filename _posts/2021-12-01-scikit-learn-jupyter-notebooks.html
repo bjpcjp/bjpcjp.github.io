@@ -1,13 +1,13 @@
 ---
 layout: default-foundation-20210515
 title: Scikit-Learn Guide notes
-date:   2020-03-10 18:00
+date:   2023-01-16
 tags: scikit-learn python jupyter machine-learning
 ---
 
 <div class="callout">
     <h2>Scikit-Learn Guides - Jupyter Notebooks</h2>
-    (these are HTML pages, converted using <code>nbconvert</code>. As such, they do not support Jekyll markup schemes.)<br>
+    (these are HTML pages, converted using nbconvert. As such, they do not support Jekyll markup schemes.)<br>
     (Edits in progress. Not final.)<br>
 </div>
 
@@ -15,19 +15,18 @@ tags: scikit-learn python jupyter machine-learning
 
 <div class="card">
     <div class="card-section">
-        <a href="/math/toc.html" target="_blank">
+        <a href="/htmls/scikit-learn/toc.html" target="_blank">
         Contents</a>
     </div>
 </div>
 
-
 <div class="card">
     <div class="card-section">
-        <a href="/math/00_getting_started.html" target="_blank">
-        Getting Started</a><br>
-        <details>
-            <summary></summary>
-            
+        <details>            
+            <summary>
+            <a href="/htmls/scikit-learn/00_getting_started.html" target="_blank">
+            Getting Started</a></summary>
+
             Estimator basics<br>
             Transformers & preprocessors<br>
             Model evaluation<br>
@@ -38,48 +37,60 @@ tags: scikit-learn python jupyter machine-learning
 
 <div class="card">
     <div class="card-section">
-        <a href="/math/01_linear_models.html" target="_blank">
-        Linear Models</a>
-        <details><summary>Details</summary>
-        <code>Ordinary Least Squares (OLS)</code><br>
-        <code>Ridge</code> regression<br>
-        <code>Lasso</code> regression<br>
-        <code>Akeike</code> & <code>Bayes</code> info criteria<br>
-        <code>Elastic Net</code> regression<br>
-        <code>Least Angle (LARS)</code> regression<br>
-        <code>OrthogonalMatchingPursuit</code> (OMP)<br>
-        <code>BayesianRidge</code> regression<br>
+        <details>            
+            <summary>
+                <a href="/htmls/scikit-learn/01_linear_models.html" target="_blank">
+        Linear Models</a></summary>
+        
+        Ordinary Least Squares (OLS)<br>
+        <div class="card-image">
+            <img src="https://scikit-learn.org/stable/_images/sphx_glr_plot_ols_001.png">
+        </div>
+
+        Ridge regression<br>
+        <div class="card-image">
+            <img src="https://scikit-learn.org/stable/_images/sphx_glr_plot_ridge_path_001.png">
+        </div>
+
+        Lasso regression<br>
+        Akeike & Bayes info criteria<br>
+        Elastic Net regression<br>
+        Least Angle (LARS) regression<br>
+        OrthogonalMatchingPursuit (OMP)<br>
+        BayesianRidge regression<br>
         General Linear Regression (GLR)<br>
-        GLR with <code>Tweedie</code><br>
-        <code>Stochastic Gradient Descent (SGD)</code> regressor & classifier<br>
-        <code>Passive Aggressive</code> algos<br>
-        <code>RANSAC, Huber, Theil-Sen</code> robustness algos<br>
-        <code>Polynomial</code> regression<br>
+        GLR with Tweedie<br>
+        Stochastic Gradient Descent (SGD) regressor & classifier<br>
+        Passive Aggressive algos<br>
+        RANSAC, Huber, Theil-Sen robustness algos<br>
+        Polynomial regression<br>
     </details></div>
 </div>
 
 <div class="card">
     <div class="card-section">
-        <a href="/math/01a_logistic_regression.html" target="_blank">
-        Logistic Regression (LR)</a>
-        <details><summary>Details</summary>
-        <a href="https://en.wikipedia.org/wiki/Logistic_function">logistic function</a> (wikipedia)<br>
+        <details>            
+            <summary>
+                <a href="/htmls/scikit-learn/01a_logistic_regression.html" target="_blank">
+        Logistic Regression (LR)</a></summary>
+        <a href="https://en.wikipedia.org/wiki/Logistic_function">Logistic function</a> (wikipedia)<br>
         Binary, One-vs-Rest, Multinomial options<br>
         Solvers:<br>
-        <code>liblinear</code><br>
-        <code>lbfgs, sag, newton-cg</code>: l2 penalty support<br>
-        <code>sag</code>: uses SGD<br>
-        <code>saga</code>: l1 penalty support<br>
+        liblinear<br>
+        lbfgs, sag, newton-cg: l2 penalty support<br>
+        sag: uses SGD<br>
+        saga: l1 penalty support<br>
     </details></div>
 </div>
 
 <div class="card">
     <div class="card-section">
-        <a href="/math/02_discriminant_analysis.html" target="_blank">
-        Discriminant Analysis (LDA, QDA)</a>
-        <details><summary>Details</summary>
-        <code>Linear</code> DA<br>
-        <code>Quadratic</code> DA<br>
+        <details>            
+            <summary>
+                <a href="/htmls/scikit-learn/02_discriminant_analysis.html" target="_blank">
+        Discriminant Analysis (LDA, QDA)</a></summary>
+        Linear DA<br>
+        Quadratic DA<br>
         Shrinkage<br>
         Estimators
     </details></div>
@@ -87,9 +98,10 @@ tags: scikit-learn python jupyter machine-learning
 
 <div class="card">
     <div class="card-section">
-        <a href="/math/03_kernel_ridge_regression.html" target="_blank">
-        Kernel Ridge Regression (KRR)</a>
-        <details><summary>Details</summary>
+        <details>            
+            <summary>
+                <a href="/htmls/scikit-learn/03_kernel_ridge_regression.html" target="_blank">
+        Kernel Ridge Regression (KRR)</a></summary>
             example: KRR vs SVR<br>
             example: execution time<br>
         </details>
@@ -98,9 +110,10 @@ tags: scikit-learn python jupyter machine-learning
 
 <div class="card">
     <div class="card-section">
-        <a href="/math/04_support_vector_machines.html" target="_blank">
-        Support Vector Machines (SVMs)</a>
-        <details><summary>Details</summary>
+        <details>            
+            <summary>
+                <a href="/htmls/scikit-learn/04_support_vector_machines.html" target="_blank">
+        Support Vector Machines (SVMs)</a></summary>
         Classification<br>
         Classification (multiclass)<br>
         Scoring<br>
@@ -114,9 +127,10 @@ tags: scikit-learn python jupyter machine-learning
 
 <div class="card">
     <div class="card-section">
-        <a href="/math/05_stochastic_gradient_descent.html" target="_blank">
-        Stochastic Gradient Descent (SGD)</a>
-        <details><summary>Details</summary>
+        <details>            
+            <summary>
+                <a href="/htmls/scikit-learn/05_stochastic_gradient_descent.html" target="_blank">
+        Stochastic Gradient Descent (SGD)</a></summary>
         Classification (std, multiclass, weighted, averaged)<br>
         Regression (std, sparse data)<br>
         Tips<br>
@@ -126,63 +140,68 @@ tags: scikit-learn python jupyter machine-learning
 
 <div class="card">
     <div class="card-section">
-        <a href="/math/06_nearest_neighbors.html" target="_blank">
-        Nearest Neighbors (NNs)</a>
-        <details><summary>Details</summary>
+        <details>            
+            <summary>
+                <a href="/htmls/scikit-learn/06_nearest_neighbors.html" target="_blank">
+        Nearest Neighbors (NNs)</a></summary>
         Options<br>
-        <code>KNN</code> vs <code>Radius</code>-based<br>
+        KNN vs Radius-based<br>
         Ball tree vs KD tree vs Brute Force<br>
-        <code>NearestCentroid</code><br>
-        <code>NeighborhoodComponentsAnalysis</code> (NCA)<br></details>
+        NearestCentroid<br>
+        NeighborhoodComponentsAnalysis (NCA)<br></details>
     </div>
 </div>
 
 <div class="card">
     <div class="card-section">
-        <a href="/math/07_gaussians.html" target="_blank">
-        Gaussian Processes</a>
-        <details><summary>Details</summary>
-        <code>GaussianRegression</code> (GPRs)<br>
+        <details>            
+            <summary>
+                <a href="/htmls/scikit-learn/07_gaussians.html" target="_blank">
+        Gaussian Processes</a></summary>
+        GaussianRegression (GPRs)<br>
         Gaussian vs Kernel Ridge<br></details>
     </div>
 </div>
 
 <div class="card">
     <div class="card-section">
-        <a href="/math/08_cross_decomposition.html" target="_blank">
-        Cross Decomposition / Partial Least Squares (PLS)</a>
-        <details><summary>Details</summary>
-        <code>Canonical PLS</code><br>
-        <code>SVD PLS</code><br>
-        <code>PLS regression</code><br>
-        <code>Canonical Correlation Analysis</code> (CCA)<br></details>
+        <details>            
+            <summary>
+                <a href="/htmls/scikit-learn/08_cross_decomposition.html" target="_blank">
+        Cross Decomposition / Partial Least Squares (PLS)</a></summary>
+        Canonical PLS<br>
+        SVD PLS<br>
+        PLS regression<br>
+        Canonical Correlation Analysis (CCA)<br></details>
     </div>
 </div>
 
 <div class="card">
     <div class="card-section">
-        <a href="/math/09_naive_bayes.html" target="_blank">
-        Naive Bayes (NB) classifiers</a>
-        <details><summary>Details</summary>
-        <code>Gaussian NB</code><br>
-        <code>Multinomial NB</code><br>
-        <code>Complement NB</code><br>
-        <code>Bernoulli NB</code><br>
-        <code>Categorical NB</code><br></details>
+        <details>            
+            <summary>
+                <a href="/htmls/scikit-learn/09_naive_bayes.html" target="_blank">
+        Naive Bayes (NB) classifiers</a></summary>
+        Gaussian NB<br>
+        Multinomial NB<br>
+        Complement NB<br>
+        Bernoulli NB<br>
+        Categorical NB<br></details>
     </div>
 </div>
 
 <div class="card">
     <div class="card-section">
-        <a href="/math/10_decision_trees.html" target="_blank">
-        Decision Trees (DTs)</a>
-        <details><summary>Details</summary>
-        <code>DT classifier</code><br>
-        <code><a href="https://www.graphviz.org/">Graphviz</a></code><br>
-        <code>DT regressor</code><br>
+        <details>            
+            <summary>
+                <a href="/htmls/scikit-learn/10_decision_trees.html" target="_blank">
+        Decision Trees (DTs)</a></summary>
+        DT classifier<br>
+        <a href="https://www.graphviz.org/">Graphviz</a><br>
+        DT regressor<br>
         Multiple outputs<br>
         Complexity<br>
-        <code>ID3</code>, <code>C5.0</code>, <code>CART</code><br>
+        ID3, C5.0, CART<br>
         Impurity functions (Gini, Entropy, Misclassification, MSE, MAE)<br>
         Minimal cost-complexity pruning<br></details>
     </div>
@@ -190,36 +209,39 @@ tags: scikit-learn python jupyter machine-learning
 
 <div class="card">
     <div class="card-section">
-        <a href="/math/11a_bagging_trees.html" target="_blank">
-        Decision Trees / Bagging</a>
-        <details><summary>Details</summary>
+        <details>            
+            <summary>
+                <a href="/htmls/scikit-learn/11a_bagging_trees.html" target="_blank">
+        Decision Trees / Bagging</a></summary>
         Methods<br>
-        <code>Random Forest</code><br>
-        <code>Extra Trees</code><br>
+        Random Forest<br>
+        Extra Trees<br>
         Feature importance<br>
-        <code>Random Tree Embedding</code><br></details>
+        Random Tree Embedding<br></details>
     </div>
 </div>
 
 <div class="card">
     <div class="card-section">
-        <a href="/math/11b_boosting.html" target="_blank">
-        Decision Trees / Boosting</a>
-        <details><summary>Details</summary>
-        <code>AdaBoost</code><br>
-        <code>Gradient Boosted</code> DTs<br>
+        <details>            
+            <summary>
+                <a href="/htmls/scikit-learn/11b_boosting.html" target="_blank">
+        Decision Trees / Boosting</a></summary>
+        AdaBoost<br>
+        Gradient Boosted DTs<br>
         Shrinkage vs Learning Rate<br>
         Subsampling<br>
-        <code>Histogram-based Gradient Boosting</code><br>
-        <code>Stacked Generalization</code><br></details>
+        Histogram-based Gradient Boosting<br>
+        Stacked Generalization<br></details>
     </div>
 </div>
 
 <div class="card">
     <div class="card-section">
-        <a href="/math/11c_voting.html" target="_blank">
-        Voting Classifiers</a>
-        <details><summary>Details</summary>
+        <details>            
+            <summary>
+                <a href="/htmls/scikit-learn/11c_voting.html" target="_blank">
+        Voting Classifiers</a></summary>
         Hard & soft voting classifiers<br>
         Voting regressor<br></details>
     </div>
@@ -227,66 +249,74 @@ tags: scikit-learn python jupyter machine-learning
 
 <div class="card">
     <div class="card-section">
-        <a href="/math/11d_general_stacking.html" target="_blank">
-        General Stacking Classifiers & Regressors</a>
+        <details>            
+            <summary>
+                <a href="/htmls/scikit-learn/11d_general_stacking.html" target="_blank">
+        General Stacking Classifiers & Regressors</a></summary>
     </div>
 </div>
 
 <div class="card">
     <div class="card-section">
-        <a href="/math/12_multiclass_multioutput.html" target="_blank">
-        Multiclass & Multioutput Algorithms</a>
-        <details><summary>Details</summary>
-        <code>Label Binarizer</code><br>
-        <code>One-vs-Rest</code> classifier<br>
-        <code>Multilabel</code> classifier<br>
-        <code>One-vs-One</code> classifier<br>
-        <code>Output Code</code> classifier<br>
-        <code>Multioutput</code> classifier<br>
-        <code>Classifier Chains</code><br>
-        <code>Multi Output</code> regressor<br>
-        <code>Regressor Chains</code><br></details>
+        <details>            
+            <summary>
+                <a href="/htmls/scikit-learn/12_multiclass_multioutput.html" target="_blank">
+        Multiclass & Multioutput Algorithms</a></summary>
+        Label Binarizer<br>
+        One-vs-Rest classifier<br>
+        Multilabel classifier<br>
+        One-vs-One classifier<br>
+        Output Code classifier<br>
+        Multioutput classifier<br>
+        Classifier Chains<br>
+        Multi Output regressor<br>
+        Regressor Chains<br></details>
     </div>
 </div>
 
 <div class="card">
     <div class="card-section">
-        <a href="/math/13_feature_selection.html" target="_blank">
-        Feature Selection (FS)</a>
-        <details><summary>Details</summary>
-        <code>Variance-based</code><br>
-        <code>Univariate </code><br>
-        <code>Recursive </code><br>
-        <code>Model-based </code><br>
-        <code>Impurity-based </code><br>
-        <code>Sequential </code><br>
-        <code>FS & pipelines</code><br></details>
+        <details>            
+            <summary>
+                <a href="/htmls/scikit-learn/13_feature_selection.html" target="_blank">
+        Feature Selection (FS)</a></summary>
+        Variance-based<br>
+        Univariate <br>
+        Recursive <br>
+        Model-based <br>
+        Impurity-based <br>
+        Sequential <br>
+        FS & pipelines<br></details>
     </div>
 </div>
 
 <div class="card">
     <div class="card-section">
-        <a href="/math/14_unsupervised.html" target="_blank">
-        Unsupervised Algorithms</a>
-        <details><summary>Details</summary>
-        <code>SelfTrainingClassifier</code><br>
-        <code>LabelSpreading</code><br>
-        <code>LabelPropogation</code><br></details>
+        <details>            
+            <summary>
+                <a href="/htmls/scikit-learn/14_unsupervised.html" target="_blank">
+        Unsupervised Algorithms</a></summary>
+        SelfTrainingClassifier<br>
+        LabelSpreading<br>
+        LabelPropogation<br></details>
     </div>
 </div>
 
 <div class="card">
     <div class="card-section">
-        <a href="/math/15_isotonic_regression.html" target="_blank">
-        Isotonic Regression</a>
+        <details>            
+            <summary>
+                <a href="/htmls/scikit-learn/15_isotonic_regression.html" target="_blank">
+        Isotonic Regression</a></summary>
     </div>
 </div>
 
 <div class="card">
     <div class="card-section">
-        <a href="/math/16_calibration_curves.html" target="_blank">
-        Calibration Curves</a>
-        <details><summary>Details</summary>
+        <details>            
+            <summary>
+                <a href="/htmls/scikit-learn/16_calibration_curves.html" target="_blank">
+        Calibration Curves</a></summary>
         Using cross validation<br>
         Performance scores<br>
         Regressors<br>
@@ -296,12 +326,13 @@ tags: scikit-learn python jupyter machine-learning
 
 <div class="card">
     <div class="card-section">
-        <a href="/math/17_perceptron.html" target="_blank">
-        Multilayer Perceptrons (MLPs)</a>
-        <details><summary>Details</summary>
-        <code>MLP classifier</code><br>
+        <details>            
+            <summary>
+                <a href="/htmls/scikit-learn/17_perceptron.html" target="_blank">
+        Multilayer Perceptrons (MLPs)</a></summary>
+        MLP classifier<br>
         Multilabel & Multiclass classification<br>
-        <code>MLP regressor</code><br>
+        MLP regressor<br>
         Regularization<br>
         Tips<br></details>
     </div>
@@ -309,9 +340,10 @@ tags: scikit-learn python jupyter machine-learning
 
 <div class="card">
     <div class="card-section">
-        <a href="/math/21_gaussian_mixtures.html" target="_blank">
-        Gaussian Mixtures</a>
-        <details><summary>Details</summary>
+        <details>            
+            <summary>
+                <a href="/htmls/scikit-learn/21_gaussian_mixtures.html" target="_blank">
+        Gaussian Mixtures</a></summary>
         Expectation Maximization (EM)<br>
         Variational Bayes GM<br></details>
     </div>
@@ -319,91 +351,102 @@ tags: scikit-learn python jupyter machine-learning
 
 <div class="card">
     <div class="card-section">
-        <a href="/math/22_manifolds.html" target="_blank">
-        Manifolds</a>
-        <details><summary>Details</summary>
-        <code>Isomap</code><br>
-        <code>Locally Linear Embedding</code> (LLE)<br>
-        <code>Modified LLE</code><br>
-        <code>Hessian LLE</code><br>
-        <code>Local Tangent Space Alignment</code> (LTSA)<br>
-        <code>Multi Dimensional Scaling</code> (MDS)<br>
-        <code>Random Tree Embedding</code><br>
-        <code>Spectral Embedding</code><br>
-        <code>t-distributed Stochastic Neighbor Embedding</code> (t-SNE)<br>
-        <code>Neighborhood Components Analysis</code> (NCA)<br></details>
+        <details>            
+            <summary>
+                <a href="/htmls/scikit-learn/22_manifolds.html" target="_blank">
+        Manifolds</a></summary>
+        Isomap<br>
+        Locally Linear Embedding (LLE)<br>
+        Modified LLE<br>
+        Hessian LLE<br>
+        Local Tangent Space Alignment (LTSA)<br>
+        Multi Dimensional Scaling (MDS)<br>
+        Random Tree Embedding<br>
+        Spectral Embedding<br>
+        t-distributed Stochastic Neighbor Embedding (t-SNE)<br>
+        Neighborhood Components Analysis (NCA)<br></details>
     </div>
 </div>
 
 <div class="card">
     <div class="card-section">
-        <a href="/math/23_clustering.html" target="_blank">
-        Clustering</a>
-        <details><summary>Details</summary>
-        <code>K-Means</code><br>
-        <code>Affinity Propagation</code><br>
-        <code>Mean Shift</code><br>
-        <code>Spectral</code><br>
-        <code>Agglomerative</code><br>
-        <code>Dendrograms</code><br>
-        <code>DBSCAN</code><br>
-        <code>OPTICS</code><br>
-        <code>Birch</code><br></details>
+        <details>            
+            <summary>
+                <a href="/htmls/scikit-learn/23_clustering.html" target="_blank">
+        Clustering</a></summary>
+        
+        K-Means<br>
+        Affinity Propagation<br>
+        Mean Shift<br>
+        Spectral<br>
+        Agglomerative<br>
+        Dendrograms<br>
+        DBSCAN<br>
+        OPTICS<br>
+        Birch<br></details>
     </div>    
 </div>
 
 <div class="card">
     <div class="card-section">
-        <a href="/math/23a_clustering_metrics.html" target="_blank">
-        Clustering Metrics</a>
-        <details><summary>Details</summary>
-        <code>rand_score</code><br>
-        <code>mutual_info_score</code><br>
-        <code>Homogeneity, completeness & v-measure</code><br>
-        <code>Fowlkes-Mallows score</code><br>
-        <code>Silhouette coefficient</code><br>
-        <code>Calinski-Harabasz index</code><br>
-        <code>Davies-Bouldin index</code><br>
-        <code>Contingency matrix</code><br>
-        <code>Pair confusion matrix</code><br></details>
+        <details>            
+            <summary>
+                <a href="/htmls/scikit-learn/23a_clustering_metrics.html" target="_blank">
+        Clustering Metrics</a></summary>
+        
+        rand_score<br>
+        mutual_info_score<br>
+        Homogeneity, completeness & v-measure<br>
+        Fowlkes-Mallows score<br>
+        Silhouette coefficient<br>
+        Calinski-Harabasz index<br>
+        Davies-Bouldin index<br>
+        Contingency matrix<br>
+        Pair confusion matrix<br></details>
     </div>
 </div>
 
 <div class="card">
     <div class="card-section">
-        <a href="/math/24_biclustering.html" target="_blank">
-        Biclustering</a>
-        <details><summary>Details</summary>
-        <code>Spectral co-clustering</code><br>
-        <code>Spectral bi-clustering</code><br>
+        <details>            
+            <summary>
+                <a href="/htmls/scikit-learn/24_biclustering.html" target="_blank">
+        Biclustering</a></summary>
+        
+        Spectral co-clustering<br>
+        Spectral bi-clustering<br>
         metrics<br></details>
     </div>
 </div>
 
 <div class="card">
     <div class="card-section">
-        <a href="/math/25_component_analysis_matrix_factorization.html" target="_blank">
-        Component Analysis / Matrix Factorization</a>
-        <details><summary>Details</summary>
-        <code>Principal Component Analysis</code> (PCA)<br>
-        <code>Incremental PCA</code><br>
+        <details>            
+            <summary>
+                <a href="/htmls/scikit-learn/25_component_analysis_matrix_factorization.html" target="_blank">
+        Component Analysis / Matrix Factorization</a></summary>
+        
+        Principal Component Analysis (PCA)<br>
+        Incremental PCA<br>
         PCA with random SVD<br>
         PCA & sparse data<br>
-        <code>Kernel PCA</code><br>
-        Truncated SVD (aka <code>Latent Semantic Analysis</code>, LSA)<br>
+        Kernel PCA<br>
+        Truncated SVD (aka Latent Semantic Analysis, LSA)<br>
         Dictionary Learning<br>
-        <code>Factor Analysis</code> (FA)<br>
-        <code>Independent Component Analysis</code> (ICA)<br>
-        <code>Non-Negative Matrix Factorization</code> (NNMF)<br>
-        <code>Latent Dirichlet Allocation</code> (LDA)<br></details>
+        Factor Analysis (FA)<br>
+        Independent Component Analysis (ICA)<br>
+        Non-Negative Matrix Factorization (NNMF)<br>
+        Latent Dirichlet Allocation (LDA)<br></details>
     </div>
 </div>
 
 <div class="card">
     <div class="card-section">
-        <a href="/math/26_covariance.html" target="_blank">
-        Covariance</a>
-        <details><summary>Details</summary>
+        <details>            
+            <summary>
+                <a href="/htmls/scikit-learn/26_covariance.html" target="_blank">
+        Covariance</a></summary>
+        
         Empirical (observed) covariance<br>
         Shrunk covariance<br>
         Ledoit-Wolf (LW) shrinkage<br>
@@ -416,11 +459,13 @@ tags: scikit-learn python jupyter machine-learning
 
 <div class="card">
     <div class="card-section">
-        <a href="/math/27_novelties_outliers.html" target="_blank">
-        Novelty & Outlier Detection</a>
-        <details><summary>Details</summary>
+        <details>            
+            <summary>
+                <a href="/htmls/scikit-learn/27_novelties_outliers.html" target="_blank">
+        Novelty & Outlier Detection</a></summary>
+        
         Intro<br>section
-        <code>One-class SVM</code> vs <code>Elliptic Envelope</code> vs <code>Isolation Forest</code> vs <code>Local Outlier Factor</code><br>
+        One-class SVM vs Elliptic Envelope vs Isolation Forest vs Local Outlier Factor<br>
         Novelties<br>
         Outliers<br></details>
     </div>
@@ -428,9 +473,11 @@ tags: scikit-learn python jupyter machine-learning
 
 <div class="card">
     <div class="card-section">
-        <a href="/math/28_density_estimation.html" target="_blank">
-        Density Analysis</a>
-        <details><summary>Details</summary>
+        <details>            
+            <summary>
+                <a href="/htmls/scikit-learn/28_density_estimation.html" target="_blank">
+        Density Analysis</a></summary>
+        
         Histograms<br>
         Kernel density estimation (KDE)<br></details>
     </div>
@@ -438,25 +485,29 @@ tags: scikit-learn python jupyter machine-learning
 
 <div class="card">
     <div class="card-section">
-        <a href="/math/29_restricted_boltzmann_machines.html" target="_blank">
-        Restricted Boltzmann Machines (RBMs)</a>
-        <details><summary>Details</summary>
+        <details>            
+            <summary>
+                <a href="/htmls/scikit-learn/29_restricted_boltzmann_machines.html" target="_blank">
+        Restricted Boltzmann Machines (RBMs)</a></summary>
+        
         Learning methods<br></details>
     </div>
 </div>
 
 <div class="card">
     <div class="card-section">
-        <a href="/math/31_cross_validation.html" target="_blank">
-        Cross Validation (CV)</a>
-        <details><summary>Details</summary>
+        <details>            
+            <summary>
+                <a href="/htmls/scikit-learn/31_cross_validation.html" target="_blank">
+        Cross Validation (CV)</a></summary>
+        
         Intro<br>
-        <code>cross_val_score</code><br>
-        <code>cross_validate</code><br>
-        <code>cross_val_predict</code><br>
-        <code>Kfold</code>, <code>stratified Kfold</code><br>
-        <code>Leave One Out</code> (LOO)<br>
-        <code>Leave P Out</code> (LPO)<br>
+        cross_val_score<br>
+        cross_validate<br>
+        cross_val_predict<br>
+        Kfold, stratified Kfold<br>
+        Leave One Out (LOO)<br>
+        Leave P Out (LPO)<br>
         CV on grouped data<br>
         Time series splits<br>
         Permutation testing<br>
@@ -466,9 +517,11 @@ tags: scikit-learn python jupyter machine-learning
 
 <div class="card">
     <div class="card-section">
-        <a href="/math/32_hyperparameters.html" target="_blank">
-        Hyperparameter Settings</a>
-        <details><summary>Details</summary>
+        <details>            
+            <summary>
+                <a href="/htmls/scikit-learn/32_hyperparameters.html" target="_blank">
+        Hyperparameter Settings</a></summary>
+        
         Grid search<br>
         Randomized search<br>
         Successive Halving (SH)<br>
@@ -479,92 +532,106 @@ tags: scikit-learn python jupyter machine-learning
 
 <div class="card">
     <div class="card-section">
-        <a href="/math/33a_classification_metrics.html" target="_blank">
-        Classifier Metrics</a>
-        <details><summary>Details</summary>
-        <code>Accuracy</code><br>
-        <code>Top K accuracy</code><br>
-        <code>Balanced accuracy</code><br>
-        <code>Cohen's kappa</code><br>
-        <code>Confusion matrix</code><br>
-        <code>Classification report</code><br>
-        <code>Hamming loss</code><br>
-        <code>Precision, recall, F-measure</code><br>
-        <code>Precision-recall curve</code><br>
-        <code>Average precision</code><br>
-        <code>Jaccard similarity</code><br>
-        <code>Hinge loss</code><br>
-        <code>Log loss</code><br>
-        <code>Matthews correlation coefficient</code><br>
-        <code>Receiver operating characteristic</code> (ROC)<br>
-        <code>Detection error tradeoff</code> (DET)<br>
-        <code>Zero-one loss</code><br>
-        <code>Brier score</code><br></details>
+        <details>            
+            <summary>
+                <a href="/htmls/scikit-learn/33a_classification_metrics.html" target="_blank">
+        Classifier Metrics</a></summary>
+        
+        Accuracy<br>
+        Top K accuracy<br>
+        Balanced accuracy<br>
+        Cohen's kappa<br>
+        Confusion matrix<br>
+        Classification report<br>
+        Hamming loss<br>
+        Precision, recall, F-measure<br>
+        Precision-recall curve<br>
+        Average precision<br>
+        Jaccard similarity<br>
+        Hinge loss<br>
+        Log loss<br>
+        Matthews correlation coefficient<br>
+        Receiver operating characteristic (ROC)<br>
+        Detection error tradeoff (DET)<br>
+        Zero-one loss<br>
+        Brier score<br></details>
     </div>
 </div>
 
 <div class="card">
     <div class="card-section">
-        <a href="/math/33b_multilabel_ranking_metrics.html" target="_blank">
-        Multi-label Ranking Metrics</a>
-        <details><summary>Details</summary>
-        <code>Coverage error</code><br>
-        <code>Label ranking avg precision</code> (LRAP)<br>
-        <code>Label ranking loss</code><br>
-        <code>Discounted cume gain</code> (DCG)<br></details>
+        <details>            
+            <summary>
+                <a href="/htmls/scikit-learn/33b_multilabel_ranking_metrics.html" target="_blank">
+        Multi-label Ranking Metrics</a></summary>
+        
+        Coverage error<br>
+        Label ranking avg precision (LRAP)<br>
+        Label ranking loss<br>
+        Discounted cume gain (DCG)<br></details>
     </div>  
 </div>
 
 <div class="card">
     <div class="card-section">
-        <a href="/math/33c_regression_metrics.html" target="_blank">
-        Regression Metrics</a>
-        <details><summary>Details</summary>
-        <code>Explained variance</code><br>
-        <code>Max error</code><br>
-        <code>Mean absolute error</code> (MAE)<br>
-        <code>Mean squared error</code> (MSE)<br>
-        <code>Mean squared log error</code> (MSLE)<br>
-        <code>Mean absolute pct error</code> (MAPE)<br>
-        <code>R2</code> (coefficient of determination)<br>
-        <code>Tweedie deviance error</code><br></details>
+        <details>            
+            <summary>
+                <a href="/htmls/scikit-learn/33c_regression_metrics.html" target="_blank">
+        Regression Metrics</a></summary>
+        
+        Explained variance<br>
+        Max error<br>
+        Mean absolute error (MAE)<br>
+        Mean squared error (MSE)<br>
+        Mean squared log error (MSLE)<br>
+        Mean absolute pct error (MAPE)<br>
+        R2 (coefficient of determination)<br>
+        Tweedie deviance error<br></details>
     </div>
 </div>
 
 <div class="card">
     <div class="card-section">
-        <a href="/math/33d_dummy_metrics.html" target="_blank">
-        "Dummy" Metrics</a>
-        <details><summary>Details</summary>
-        <code>Dummy classifier</code><br>
-        <code>Dummy regressor</code><br></details>
+        <details>            
+            <summary>
+                <a href="/htmls/scikit-learn/33d_dummy_metrics.html" target="_blank">
+        "Dummy" Metrics</a></summary>
+        
+        Dummy classifier<br>
+        Dummy regressor<br></details>
     </div>
 </div>
 
 <div class="card">
     <div class="card-section">
-        <a href="/math/33_metrics.html" target="_blank">
-        Metrics Overview</a>
-        <details><summary>Details</summary>
-        <code>make_scorer</code><br></details>
+        <details>            
+            <summary>
+                <a href="/htmls/scikit-learn/33_metrics.html" target="_blank">
+        Metrics Overview</a></summary>
+        
+        make_scorer<br></details>
     </div>
 </div>
 
 <div class="card">
     <div class="card-section">
-        <a href="/math/34_validation_learning_curves.html" target="_blank">
-        Learning Curves</a>
-        <details><summary>Details</summary>
-        <code>validation_curve</code><br>
-        <code>learning_curve</code><br></details>
+        <details>            
+            <summary>
+                <a href="/htmls/scikit-learn/34_validation_learning_curves.html" target="_blank">
+        Learning Curves</a></summary>
+        
+        validation_curve<br>
+        learning_curve<br></details>
     </div>
 </div>
 
 <div class="card">
     <div class="card-section">
-        <a href="/math/41_inspection_plots.html" target="_blank">
-        Partial Dependence Plots (PDPs)</a>
-        <details><summary>Details</summary>
+        <details>            
+            <summary>
+                <a href="/htmls/scikit-learn/41_inspection_plots.html" target="_blank">
+        Partial Dependence Plots (PDPs)</a></summary>
+        
         PDP - 2D example<br>
         PDP - 3D example<br>
         Individual conditional expectation (ICE) plot example<br></details>
@@ -573,146 +640,170 @@ tags: scikit-learn python jupyter machine-learning
 
 <div class="card">
     <div class="card-section">
-        <a href="/math/42_permutation_feature_importance.html" target="_blank">
-        Permutation Feature Importance (PFI) plots</a>
-        <details><summary>Details</summary>
+        <details>            
+            <summary>
+                <a href="/htmls/scikit-learn/42_permutation_feature_importance.html" target="_blank">
+        Permutation Feature Importance (PFI) plots</a></summary>
+        
         Tree-based models: impurity vs permutation<br></details>
     </div>
 </div>
 
 <div class="card">
     <div class="card-section">
-        <a href="/math/50a_ROC_curve_viz.html" target="_blank">
-        Visualization: ROC curves</a>
-        <details><summary>Details</summary>
-        Example using <code>svc_disp</code><br></details>
+        <details>            
+            <summary>
+                <a href="/htmls/scikit-learn/50a_ROC_curve_viz.html" target="_blank">
+        Visualization: ROC curves</a></summary>
+        
+        Example using svc_disp<br></details>
     </div>
 </div>
 
 <div class="card">
     <div class="card-section">
-        <a href="/math/50b_partial_dependence_viz.html" target="_blank">
-        Customized Partial Dependence plots</a>
-        <details><summary>Details</summary>
+        <details>            
+            <summary>
+                <a href="/htmls/scikit-learn/50b_partial_dependence_viz.html" target="_blank">
+        Customized Partial Dependence plots</a></summary>
+        
         Multiple examples<br></details>
     </div>
 </div>
 
 <div class="card">
     <div class="card-section">
-        <a href="/math/50c_display_objects.html" target="_blank">
-        Visualization Examples</a>
-        <details><summary>Details</summary>
-        <code>Confusion matrix display</code><br>
-        <code>ROC curve display</code><br>
-        <code>Precision recall display</code><br></details>
+        <details>            
+            <summary>
+                <a href="/htmls/scikit-learn/50c_display_objects.html" target="_blank">
+        Visualization Examples</a></summary>
+        
+        Confusion matrix display<br>
+        ROC curve display<br>
+        Precision recall display<br></details>
     </div>
 </div>
 
 <div class="card">
     <div class="card-section">
-        <a href="/math/61_composite_transformers.html" target="_blank">
-        Composite Transformers</a>
-        <details><summary>Details</summary>
-        <code>Pipelines</code><br>
-        <code>Regression target transformers</code><br>
-        <code>Feature unions</code><br>
-        <code>Column transformers</code><br></details>
+        <details>            
+            <summary>
+                <a href="/htmls/scikit-learn/61_composite_transformers.html" target="_blank">
+        Composite Transformers</a></summary>
+        
+        Pipelines<br>
+        Regression target transformers<br>
+        Feature unions<br>
+        Column transformers<br></details>
     </div>
 </div>
 
 <div class="card">
     <div class="card-section">
-        <a href="/math/62a_text_feature_extraction.html" target="_blank">
-        Feature Extraction (Text)</a>
-        <details><summary>Details</summary>
+        <details>            
+            <summary>
+                <a href="/htmls/scikit-learn/62a_text_feature_extraction.html" target="_blank">
+        Feature Extraction (Text)</a></summary>
+        
         Bag of Words (BoW)<br>
-        <code>Count Vectorizer</code><br>
-        <code>TfIdf Transformer</code><br>
-        <code>TfIdf Vectorizer</code><br>
+        Count Vectorizer<br>
+        TfIdf Transformer<br>
+        TfIdf Vectorizer<br>
         Decoding text files<br>
         The Hashing Trick<br>
-        <code>Hashing Vectorizer</code><br>
+        Hashing Vectorizer<br>
         Custom vectorizers<br></details>
     </div>
 </div>
 
 <div class="card">
     <div class="card-section">
-        <a href="/math/62b_image_patch_extraction.html" target="_blank">
-        Feature Extraction (Image Patches)</a>
-        <details><summary>Details</summary>
-        <code>extract_patches_2d</code><br>
-        <code>reconstruct_from_patches_3d</code><br>
+        <details>            
+            <summary>
+                <a href="/htmls/scikit-learn/62b_image_patch_extraction.html" target="_blank">
+        Feature Extraction (Image Patches)</a></summary>
+        
+        extract_patches_2d<br>
+        reconstruct_from_patches_3d<br>
         Connecitivity graphs<br></details>
     </div>
 </div>
 
 <div class="card">
     <div class="card-section">
-        <a href="/math/63_preprocessing.html" target="_blank">
-        Preprocessing Techniques</a>
-        <details><summary>Details</summary>
-        <code>Standard scaler</code><br>
-        <code>MinMax scaler</code><br>
-        <code>MaxAbs scaler</code><br>
-        <code>Robust scaler</code><br>
-        <code>Kernel centerer</code><br>
-        <code>Quantile transform</code><br>
-        <code>Power Map</code><br>
+        <details>            
+            <summary>
+                <a href="/htmls/scikit-learn/63_preprocessing.html" target="_blank">
+        Preprocessing Techniques</a></summary>
+        
+        Standard scaler<br>
+        MinMax scaler<br>
+        MaxAbs scaler<br>
+        Robust scaler<br>
+        Kernel centerer<br>
+        Quantile transform<br>
+        Power Map<br>
         <br>
-        <code>Normalizer</code><br>
-        <code>Ordinal encoder</code><br>
-        <code>One Hot encoder</code><br>
-        <code>K Bins discretizer</code> (aka binning)<br>
-        <code>Polynomial feature generation</code><br></details>
+        Normalizer<br>
+        Ordinal encoder<br>
+        One Hot encoder<br>
+        K Bins discretizer (aka binning)<br>
+        Polynomial feature generation<br></details>
     </div>
 </div>
 
 <div class="card">
     <div class="card-section">
-        <a href="/math/64_imputation.html" target="_blank">
-        Imputation Techniques</a>
-        <details><summary>Details</summary>
-        <code>Simple</code>  (univariate)<br>
-        <code>Iterative</code>  (multivariate)<br>
-        <code>Nearest Neighbors</code><br>
-        <code>Missing Indicator</code><br></details>
+        <details>            
+            <summary>
+                <a href="/htmls/scikit-learn/64_imputation.html" target="_blank">
+        Imputation Techniques</a></summary>
+        
+        Simple  (univariate)<br>
+        Iterative  (multivariate)<br>
+        Nearest Neighbors<br>
+        Missing Indicator<br></details>
     </div>
 </div>
 
 <div class="card">
     <div class="card-section">
-        <a href="/math/66_random_projections.html" target="_blank">
-        Dimensionality Reduction: Random Projections (RP)</a>
-        <details><summary>Details</summary>
-        <code>random_projection</code><br>
-        <code>Johnson-Lindenstrauss lemma</code><br>
-        <code>Gaussian RP</code><br>
-        <code>Sparse data RP</code><br></details>
+        <details>            
+            <summary>
+                <a href="/htmls/scikit-learn/66_random_projections.html" target="_blank">
+        Dimensionality Reduction: Random Projections (RP)</a></summary>
+        
+        random_projection<br>
+        Johnson-Lindenstrauss lemma<br>
+        Gaussian RP<br>
+        Sparse data RP<br></details>
     </div>
 </div>
 
 <div class="card">
     <div class="card-section">
-        <a href="/math/67_kernel_approximation.html" target="_blank">
-        Kernel Approximations</a>
-        <details><summary>Details</summary>
+        <details>            
+            <summary>
+                <a href="/htmls/scikit-learn/67_kernel_approximation.html" target="_blank">
+        Kernel Approximations</a></summary>
+        
         Nystroem approximation<br>
-        <code>RBF sampler</code><br>
-        <code>Additive Chi-squared sampler</code><br>
-        <code>Skewed Chi-squared sampler</code><br>
-        <code>Polynomial sampler</code><br></details>
+        RBF sampler<br>
+        Additive Chi-squared sampler<br>
+        Skewed Chi-squared sampler<br>
+        Polynomial sampler<br></details>
     </div>
 </div>
 
 <div class="card">
     <div class="card-section">
-        <a href="/math/68_pairwise_ops.html" target="_blank">
-        Pairwise Operations</a>
-        <details><summary>Details</summary>
-        <code>pairwise_distances</code><br>
-        <code>pairwise_kernels</code><br>
+        <details>            
+            <summary>
+                <a href="/htmls/scikit-learn/68_pairwise_ops.html" target="_blank">
+        Pairwise Operations</a></summary>
+        
+        pairwise_distances<br>
+        pairwise_kernels<br>
         Cosine similarity<br>
         Kernels: linear, polynomial, sigmoid, RBF, laplacian, chi-squared<br></details>
     </div>
@@ -720,20 +811,24 @@ tags: scikit-learn python jupyter machine-learning
 
 <div class="card">
     <div class="card-section">
-        <a href="/math/69_transform_prediction_targets.html" target="_blank">
-        Transforming Prediction Targets</a>
-        <details><summary>Details</summary>
-        <code>Label binarizer</code><br>
-        <code>Multi-label binarizer</code><br>
-        <code>Label encoding</code><br></details>
+        <details>            
+            <summary>
+                <a href="/htmls/scikit-learn/69_transform_prediction_targets.html" target="_blank">
+        Transforming Prediction Targets</a></summary>
+        
+        Label binarizer<br>
+        Multi-label binarizer<br>
+        Label encoding<br></details>
     </div>
 </div>
 
 <div class="card">
     <div class="card-section">
-        <a href="/math/71_example_datasets.html" target="_blank">
-        Simple Datasets</a>
-        <details><summary>Details</summary>
+        <details>            
+            <summary>
+                <a href="/htmls/scikit-learn/71_example_datasets.html" target="_blank">
+        Simple Datasets</a></summary>
+        
         Boston house prices (classification)<br>
         Iris (classification)<br>
         Diabetes (regression)<br>
@@ -742,71 +837,79 @@ tags: scikit-learn python jupyter machine-learning
         Wine (classification)<br>
         Breast cancer (classification)<br>
         <br>
-        <code>fetch_olivetti_faces</code><br>
-        <code>fetch_20newsgroups</code><br>
-        <code>fetch_lfw_people</code> (Labeled faces in the wild)<br>
-        <code>fetch_covtype</code> (Forest covertype)<br>
-        <code>fetch_rcv1</code> (Reuters Newswire corpus)<br>
-        <code>fetch_kddcup99</code> (KDD CUP - intrusion detection)<br>
-        <code>fetch_california_housing</code><br></details>
+        fetch_olivetti_faces<br>
+        fetch_20newsgroups<br>
+        fetch_lfw_people (Labeled faces in the wild)<br>
+        fetch_covtype (Forest covertype)<br>
+        fetch_rcv1 (Reuters Newswire corpus)<br>
+        fetch_kddcup99 (KDD CUP - intrusion detection)<br>
+        fetch_california_housing<br></details>
     </div> 
 </div>
 
 <div class="card">
     <div class="card-section">
-        <a href="/math/73_artificial_data_generators.html" target="_blank">
-        Artificial Data Generators</a>
-        <details><summary>Details</summary>
+        <details>            
+            <summary>
+                <a href="/htmls/scikit-learn/73_artificial_data_generators.html" target="_blank">
+        Artificial Data Generators</a></summary>
+        
         (classifications)<br>
-        <code>make_blobs</code><br>
-        <code>make_classification</code><br>
-        <code>make_gaussian_quantiles</code><br>
-        <code>make_circles</code><br>
-        <code>make_moons</code><br>
+        make_blobs<br>
+        make_classification<br>
+        make_gaussian_quantiles<br>
+        make_circles<br>
+        make_moons<br>
         (multilabel classifications)<br>
-        <code>make_multilabel</code><br>
-        <code>make_hastie</code><br>
-        <code>make_biclusters</code><br>
-        <code>make_checkerboard</code><br>
+        make_multilabel<br>
+        make_hastie<br>
+        make_biclusters<br>
+        make_checkerboard<br>
         (regression)<br>
-        <code>make_regression</code><br>
-        <code>make_sparse_uncorrelated</code><br>
-        <code>make_friedman(1,2,3)</code><br>
+        make_regression<br>
+        make_sparse_uncorrelated<br>
+        make_friedman(1,2,3)<br>
         (manifolds)<br>
-        <code>make_s_curve</code><br>
-        <code>make_swiss_roll</code><br>
+        make_s_curve<br>
+        make_swiss_roll<br>
         (decompositions)<br>
-        <code>make_low_rank_matrix</code><br>
-        <code>make_sparse_coded_signal</code><br>
-        <code>make_spd_matrix</code> (symmetric positive definite)<br></details>
+        make_low_rank_matrix<br>
+        make_sparse_coded_signal<br>
+        make_spd_matrix (symmetric positive definite)<br></details>
     </div>
 </div>
 
 <div class="card">
     <div class="card-section">
-        <a href="/math/74_other_datasets.html" target="_blank">
-        Other Example Datasets</a>
-        <details><summary>Details</summary>
-        <code>load_sample_images</code><br>
-        <code>fetch_openml</code><br>
+        <details>            
+            <summary>
+                <a href="/htmls/scikit-learn/74_other_datasets.html" target="_blank">
+        Other Example Datasets</a></summary>
+        
+        load_sample_images<br>
+        fetch_openml<br>
         Other API tools - pandas, scipy, numpy, scikit-image, imageio<br></details>
     </div>
 </div>
 
 <div class="card">
     <div class="card-section">
-        <a href="/math/81_scaling.html" target="_blank">
-        Performance / Scaling</a>
-        <details><summary>Details</summary>
+        <details>            
+            <summary>
+                <a href="/htmls/scikit-learn/81_scaling.html" target="_blank">
+        Performance / Scaling</a></summary>
+        
         Out-of-core operations example<br></details>
     </div>
 </div>
 
 <div class="card">
     <div class="card-section">
-        <a href="/math/82_performance.html" target="_blank">
-        Performance / Latency</a>
-        <details><summary>Details</summary>
+        <details>            
+            <summary>
+                <a href="/htmls/scikit-learn/82_performance.html" target="_blank">
+        Performance / Latency</a></summary>
+        Details
         Bulk vs Atomic mode<br>
         Validation overhead<br>
         #Features<br>
@@ -820,23 +923,27 @@ tags: scikit-learn python jupyter machine-learning
 
 <div class="card">
     <div class="card-section">
-        <a href="/math/83_parallelism.html" target="_blank">
-        Performance / Parallel Ops Tools</a>
-        <details><summary>Details</summary>
+        <details>            
+            <summary>
+                <a href="/htmls/scikit-learn/83_parallelism.html" target="_blank">
+        Performance / Parallel Ops Tools</a></summary>
+        Details
         Joblib<br>
         OpenMP<br>
         NumPy/SciPy<br>
-        <code>sklearn.set_config</code><br></details>
+        sklearn.set_config<br></details>
     </div>
 </div>
 
 <div class="card">
     <div class="card-section">
-        <a href="/math/90_persistence.html" target="_blank">
-        Persistence (File I/O)</a>
-        <details><summary>Details</summary>
+        <details>            
+            <summary>
+                <a href="/htmls/scikit-learn/90_persistence.html" target="_blank">
+        Persistence (File I/O)</a></summary>
+        Details
         Pickle<br>
-        Joblib <code>dump</code>, <code>load</code><br></details>
+        Joblib dump, load<br></details>
     </div>
 </div>
 
