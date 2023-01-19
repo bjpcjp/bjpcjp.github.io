@@ -1,0 +1,45 @@
+<h1>{{page.title}}</h1>
+
+<img src="{{title_pic_url}}">
+
+{%- assign records = {{sourcedata}} | sort: "tags" | group_by: "tags" -%}
+
+<div class="callout primary">
+    <big>Tags:</big><br>
+    {%- for tag in records -%}
+        <a href="#{{tag.name}}">{{tag.name}}</a> &nbsp; &nbsp;
+    {%- endfor -%}
+</div>
+
+<div style="columns: 2;">
+
+{%- for tag in records -%}
+    {%- if tag.name != "" -%}
+        <div class="card">
+        	<div class="card-divider" id="{{tag.name}}">
+        		{{ tag.name }}
+        	</div>
+
+        	<div class="card-section">
+                {%- assign sorted_tag_items = tag.items | sort: "title" -%}
+                {%- for item in sorted_tag_items -%}
+
+                    <a href="{{item.url}}" target="_blank">
+                        {{item.title}} ({{item.source}})</a>
+
+                    {%- if item.notes -%} 
+                            {%- if item.favorite -%}
+                                <div class="callout success">{{item.notes}}</div>
+                            {%- else -%}
+                                <div class="callout">{{item.notes}}</div>
+                            {%- endif -%}
+                    {%- endif -%}
+                    <br>
+
+                {%- endfor -%}
+    		</div>
+    	</div>
+    {%- endif -%}
+{%- endfor -%}
+
+</div>
