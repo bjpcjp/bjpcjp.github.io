@@ -17,6 +17,7 @@ plugins:
   - jekyll_social_icons
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-seo-tag
 
 social_links:
   twitter: https://twitter.com/brianpiercy
