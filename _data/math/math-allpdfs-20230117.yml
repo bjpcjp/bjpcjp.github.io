@@ -12,12 +12,37 @@
   tags: vision
   source: scikit-image
   notes:
+    contour finding<br>
+    convex hulls (binary images)<br>
+    canny filters<br>
+    marching cubes<br>
+    ridge operators<br>
+    active contour model<br>
+    drawing std shapes<br>
+    random shapes<br>
+    hough transforms (straight line)<br>
+    approximating & subdividing polygons<br>
+    hough transforms (circular, elliptical)<br>
+    skeletonizing<br>
+    morphological thinning<br>
+    edge operations (multiple)<br>
+
 
 - url: https://github.com/bjpcjp/scikit-image-tutorial/blob/master/gallery/exposure-colors.ipynb
   title: exposures & colors
   tags: vision
   source: scikit-image
   notes:
+    RGB-grayscale conversions<br>
+    RGB-HSV conversions<br>
+    histogram matching<br>
+    (ex) immunohistochemical (IHC) staining<br>
+    adapting grayscale filters to RGB images<br>
+    regional maxima filtering (bright features)<br>
+    local histogram equalization (LHE)<br>
+    gamma & log-contrast adjustments<br>
+    histogram equalization<br>
+    tinting grayscale images<br>
   
 - url: https://github.com/bjpcjp/scikit-image-tutorial/blob/master/gallery/feature-object-detection.ipynb
   title: object detection
