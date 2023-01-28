@@ -33,19 +33,7 @@ header_pages:
   - posts-by-tag.html # all posts by tag
   - all-posts.html # all posts by title
   - about.html
-#  - behaviors.html # moved to standalone post
-#  - math.html # moved to standalone post
-#  - devops.html # was linux.html # moved to standalone post
-#  - gametheory.html # moved to standalone post
-#  - golang.html # moved to standalone post
-#  - ideas.html # moved to standalone post (as creativity)
-#  - language.html # moved to standalone post
-#  - prodmgmt.html # moved to standalone post
-#  - python.html # moved to standalone post 
-#  - ruby.html # moved to standalone post
-#  - semiconductors.html # moved to standalone post
-#  - uiux.html # moved to standalone post
-#  - webdev.html # moved to standalone post
+
 # pagination
 paginate: 20
 
