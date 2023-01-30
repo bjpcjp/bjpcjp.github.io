@@ -1,0 +1,21 @@
+---
+layout: default-foundation-20210515
+title: Fluent Python - booknotes
+tags: python booknotes
+date: 2023-01-30 10:25
+---
+
+<div class="callout">
+    <h2>Fluent Python</h2>
+    <p>Click on book cover image to access github</p>
+
+    <div class="card">
+        <div class="card-image">
+            <a href="https://github.com/fluentpython/example-code">
+            <img src="/px/python/python-fluent-book-cover.png"></a>
+        </div>
+    </div>
+</div>
+
+{%- assign records = site.data.python-fluent-20230130 | sort: "title" -%}
+{%- include 2col-cards-20221226.html -%}

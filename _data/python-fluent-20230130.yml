@@ -1,0 +1,306 @@
+# fluent python
+
+- url: /pdfs/python/fluent-python-ch01.pdf
+  title: 01. data model
+  px:
+  tags:
+  page:
+  note:
+    - pythonic card deck<br>
+    - special methods<br>
+    - why "len" is not a method<br>
+
+- url: /pdfs/python/fluent-python-ch02.pdf
+  title: 02. arrays of sequences
+  px:
+  tags: data structures
+  page:
+  note:
+    - overview<br>
+    - list comprehensions / generator expressions<br>
+    - tuples - not just immutable lists<br>
+    - slices<br>
+    - using + and * with sequences<br>
+    - augmented assignments<br>
+    - list.sort & sort built-in function<br>
+    - bisect<br>
+    - when lists aren't the answer<br>
+
+- url: /pdfs/python/fluent-python-ch03.pdf
+  title: 03. dictionaries & sets
+  px:
+  tags: data structures
+  page:
+  note:
+    - mapping types<br>
+    - dict comprehensions<br>
+    - mapping<br>
+    - dict variations<br>
+    - subclassing UserDict<br>
+    - immutable maps<br>
+    - sets<br>
+    - dict & set internals<br>
+
+- url: /pdfs/python/fluent-python-ch04.pdf
+  title: 04. text vs bytes
+  px:
+  tags: data structures
+  page:
+  note:
+    - character issues<br>
+    - bytes<br>
+    - encoders/decoders<br>
+    - text files<br>
+    - unicode<br>
+    - sorting unicode text<br>
+    - unicode database<br>
+    - dual-mode str & byte APIs<br>
+
+- url: /pdfs/python/fluent-python-ch05.pdf
+  title: 05. first-class functions
+  px:
+  tags: functions as objects
+  page:
+  note:
+    - treating a function like an object<br>
+    - higher-order functions<br>
+    - anon functions<br>
+    - seven flavors of callable objects<br>
+    - user-defined callables<br>
+    - introspection<br>
+    - positional vs keyword-only args<br>
+    - param information<br>
+    - function annotations<br>
+    - packages for functional programming<br>
+
+- url: /pdfs/python/fluent-python-ch06.pdf
+  title: 06. design patterns
+  px:
+  tags: functions as objects
+  page:
+  note:
+    - case study<br>
+    - command<br>
+
+- url: /pdfs/python/fluent-python-ch07.pdf
+  title: 07. function decorators & closures
+  px:
+  tags:
+  page:
+  note:
+    - intro<br>
+    - python decorator execution<br>
+    - decorator-enhanced strategy pattern<br>
+    - variable scope rules<br>
+    - closures<br>
+    - nonlocal<br>
+    - implementation<br>
+    - decorators in stdlib<br>
+    - stacked decorators<br>
+    - parameterized decorators<br>
+
+- url: /pdfs/python/fluent-python-ch08.pdf
+  title: 08. references, mutability & recycling
+  px:
+  tags: object idioms
+  page:
+  note:
+    - variables are NOT boxes<br>
+    - identity, equality, aliases<br>
+    - copies are shallow by default<br>
+    - function params as references<br>
+    - del & garbage collection<br>
+    - weak refs<br>
+    - immutables tricks<br>
+
+- url: /pdfs/python/fluent-python-ch09.pdf
+  title: 09. pythonic objects
+  px:
+  tags: object idioms
+  page:
+  note:
+    - object representations<br>
+    - vector class, redux<br>
+    - alternate constructors<br>
+    - classmethod vs staticmethod<br>
+    - formatted displays<br>
+    - hashable Vector2D<br>
+    - private vs protected attributes<br>
+    - __slots__<br>
+    - overriding class attributes<br>
+
+- url: /pdfs/python/fluent-python-ch10.pdf
+  title: 10. sequence hacking, hashing, slicing
+  px:
+  tags: object idioms
+  page:
+  note:
+    - vectors<br>
+    - vector2D<br>
+    - protocols & duck typing<br>
+    - sliceable sequences<br>
+    - dynamic attribute access<br>
+    - hashing and a faster "=="<br>
+    - formatting<br>
+
+- url: /pdfs/python/fluent-python-ch11.pdf
+  title: 11. interfaces
+  px:
+  tags: object idioms
+  page:
+  note:
+    - python culture<br>
+    - python loves sequences<br>
+    - monkey-patching<br>
+    - alex martellis waterfowl<br>
+    - subclassing an ABC<br>
+    - ABCs in stdlib<br>
+    - ABC definition & use<br>
+    - Tombola subclass testing<br>
+    - register<br>
+    - geese can behave as ducks<br>
+
+- url: /pdfs/python/fluent-python-ch12.pdf
+  title: 12. inheritance
+  px:
+  tags: object idioms
+  page:
+  note:
+    - subclassing gotchas<br>
+    - multiple inheritance - method resolution<br>
+    - real-world multi inheritance<br>
+    - coping strategies<br>
+    - example - Django view mixins<br>
+
+- url: /pdfs/python/fluent-python-ch13.pdf
+  title: 13. operator overloading
+  px:
+  tags: object idioms
+  page:
+  note:
+    - basics<br>
+    - unary operators<br>
+    - vector addition<br>
+    - scalar multiplication<br>
+    - rich comparisons<br>
+    - augmented assignments<br>
+
+- url: /pdfs/python/fluent-python-ch14.pdf
+  title: 14. iterables, iterators, generators
+  px:
+  tags: control flow
+  page:
+  note:
+    - a sequence of words<br>
+    - iterables vs iterators<br>
+    - classic iterator<br>
+    - generator function<br>
+    - lazy implementation<br>
+    - generator expression<br>
+    - when to use expressions<br>
+    - example - arithmetic progression generator<br>
+    - generator functions in std library<br>
+    - python 3.3 new syntax<br>
+    - iterable reducing functions<br>
+    - iter<br>
+    - case study - db conversion utility<br>
+    - generators as coroutines<br>
+
+- url: /pdfs/python/fluent-python-ch15.pdf
+  title: 15. context managers & else blocks
+  px:
+  tags: control flow
+  page:
+  note:
+    - do this, then that<br>
+    - context managers & with blocks<br>
+    - contextlib<br>
+    - contextmanager<br>
+
+- url: /pdfs/python/fluent-python-ch16.pdf
+  title: 16. coroutines
+  px:
+  tags: control flow
+  page:
+  note:
+    - how coroutines came from generators<br>
+    - basic behavior<br>
+    - example - running average coroutine<br>
+    - decorators for coroutine priming<br>
+    - termination & exceptions<br>
+    - return values<br>
+    - yield<br>
+    - yield meaning<br>
+    - use case - discrete event simulation<br>
+
+- url: /pdfs/python/fluent-python-ch17.pdf
+  title: 17. concurrency with futures
+  px:
+  tags: control flow
+  page:
+  note:
+    - examples - 3 styles of web downloads<br>
+    - blocking I/O and the GIL<br>
+    - launching processes<br>
+    - experiments & Executor.map<br>
+    - downloads & Progress Display, error handling<br>
+
+- url: /pdfs/python/fluent-python-ch18.pdf
+  title: 18. concurrency with asyncio
+  px:
+  tags: control flow
+  page:
+  note:
+    - threads vs coroutines<br>
+    - downloading<br>
+    - blocking calls<br>
+    - enhancing asyncio downloader script<br>
+    - callbacks vs futures & coroutines<br>
+    - asyncio servers<br>
+
+- url: /pdfs/python/fluent-python-ch19.pdf
+  title: 19. dynamic attributes & properties
+  px:
+  tags: metaprogramming
+  page:
+  note:
+    - data wrangling<br>
+    - using a property for validation<br>
+    - properties<br>
+    - property factories<br>
+    - attribute deletion<br>
+    - essential attributes & handlers<br>
+
+- url: /pdfs/python/fluent-python-ch20.pdf
+  title: 20. attribute descriptors
+  px:
+  tags: metaprogramming
+  page:
+  note:
+    - example - attribute validation<br>
+    - overriding vs non-overriding descriptors<br>
+    - methods ARE descriptors<br>
+    - tips<br>
+    - docstrings & overriding deletion<br>
+
+- url: /pdfs/python/fluent-python-ch21.pdf
+  title: 21. class metaprogramming
+  px:
+  tags: metaprogramming
+  page:
+  note:
+    - class factory<br>
+    - class decorator - custom descriptors<br>
+    - what happens when - import time vs runtime<br>
+    - metaclasses 101<br>
+    - metaclass for custom descriptors<br>
+    - __prepare__<br>
+    - classes as objects<br>
+
+- url: /pdfs/python/fluent-python-ch22-apxa.pdf
+  title: 22. support scripts
+  px:
+  tags: other
+  page:
+  note:
+
