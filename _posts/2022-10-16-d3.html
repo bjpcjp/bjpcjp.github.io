@@ -1,11 +1,12 @@
 ---
-title: D3 tips & tricks (PDF)
+title: D3 tips & tricks
 layout: default-foundation-20210515
 tags: d3 visualization javascript
-date: 2022-10-16
+date: 2023-01-31 20:28
 ---
 
 {% assign title = "D3 tips & tricks" %}
+{% assign doc   = "/pdfs/tools/D3-Tips-Tricks.pdf" %}
 
 <div class="callout">
 	<h2>{{page.title}}</h2>
@@ -15,7 +16,7 @@ date: 2022-10-16
 
 <div class="card">
     <div class="card-divider">
-        <a href="/pdfs/tools/D3-Tips-Tricks.pdf">Original (PDF)</a>
+        <a href="{{doc}}">Original (PDF)</a>
     </div>
     <div class="card-image">
         <img src="/px/js/d3/cover.png">
@@ -24,44 +25,31 @@ date: 2022-10-16
 
 <div class="card">
     <div class="card-divider">
-    Intro
-    </div>
-    <div class="card-section">
+        <a href="{{doc}}#page=15">Intro</a>
     </div>
 </div>
 
 <div class="card">
     <div class="card-divider">
-    Prerequisites
+        <a href="{{doc}}#page=16">Prerequisites</a>
     </div>
     <div class="card-section">
-        HTML<br>
-        Javascript<br>
-        CSS<br>
-        Web servers<br>
-        PHP<br>
-        other<br>
+        HTML, Javascript, CSS, Web Servers, ...
     </div>
 </div>
 
 <div class="card">
     <div class="card-divider">
-    Starters - a basic graph
+        <a href="{{doc}}#page=24">Starters - a basic graph</a>
     </div>
     <div class="card-image">
         <img src="/px/js/d3/basic-graph.png">
     </div>
-    <div class="card-section">
-        HTML<br>
-        CSS<br>
-        D3 javascript<br>
-        wrapup<br>
-    </div>
 </div>
 
 <div class="card">
     <div class="card-divider">
-    Basic graph features
+        <a href="{{doc}}#page=54">Basic graph features</a>
     </div>
     <div class="card-image">
         <img src="/px/js/d3/voronoi.png">
@@ -85,7 +73,7 @@ date: 2022-10-16
 
 <div class="card">
     <div class="card-divider">
-    Elements, attributes, styles
+        <a href="{{doc}}#page=111">Elements, attributes, styles</a>
     </div>
     <div class="card-image">
         <img src="/px/js/d3/attributes.png">
@@ -138,7 +126,7 @@ date: 2022-10-16
 
 <div class="card">
     <div class="card-divider">
-    Assorted tips & tricks
+        <a href="{{doc}}#page=169">Assorted tips & tricks</a>
     </div>
     <div class="card-section">
         Line chart -> scatter plot<br>
@@ -161,7 +149,7 @@ date: 2022-10-16
 
 <div class="card">
     <div class="card-divider">
-    Bar charts
+        <a href="{{doc}}#page=252">Bar charts</a>
     </div>
     <div class="card-image">
         <img src="/px/js/d3/bar-chart.png">
@@ -175,7 +163,7 @@ date: 2022-10-16
 
 <div class="card">
     <div class="card-divider">
-    Tree diagrams
+        <a href="{{doc}}#page=260">Tree diagrams</a>
     </div>
     <div class="card-image">
         <img src="/px/js/d3/tree.png">
@@ -194,7 +182,7 @@ date: 2022-10-16
 
 <div class="card">
     <div class="card-divider">
-    Force layout diagrams
+        <a href="{{doc}}#page=287">Force layout diagrams</a>
     </div>
     <div class="card-image">
         <img src="/px/js/d3/force-layout.png">
@@ -207,7 +195,7 @@ date: 2022-10-16
 
 <div class="card">
     <div class="card-divider">
-    Bullet charts
+        <a href="{{doc}}#page=309">Bullet charts</a>
     </div>
     <div class="card-image">
         <img src="/px/js/d3/bullet-chart.png">
@@ -221,7 +209,7 @@ date: 2022-10-16
 
 <div class="card">
     <div class="card-divider">
-    Mapping
+        <a href="{{doc}}#page=323">Mapping</a>
     </div>
     <div class="card-image">
         <img src="/px/js/d3/mapping.png">
@@ -238,7 +226,7 @@ date: 2022-10-16
 
 <div class="card">
     <div class="card-divider">
-    Examples, explained
+        <a href="{{doc}}#page=358">Examples, explained</a>
     </div>
     <div class="card-section">
         Historical stock records<br>
@@ -252,7 +240,7 @@ date: 2022-10-16
 
 <div class="card">
     <div class="card-divider">
-    Data discovery
+        <a href="{{doc}}#page=428">Crossfilter, dc.js & d3.js for data discovery</a>
     </div>
     <div class="card-image">
         <img src="/px/js/d3/crossfilter.png">
@@ -273,7 +261,7 @@ date: 2022-10-16
 
 <div class="card">
     <div class="card-divider">
-    Bootstrap and d3.js
+        <a href="{{doc}}#page=483">Bootstrap and d3.js</a>
     </div>
     <div class="card-image">
         <img src="/px/js/d3/bootstrap.png">
@@ -288,7 +276,7 @@ date: 2022-10-16
 
 <div class="card">
     <div class="card-divider">
-    Working with Github, Gist, bl.ocks.org
+        <a href="{{doc}}#page=506">Working with Github, Gist, bl.ocks.org</a>
     </div>
     <div class="card-image">
         <img src="/px/js/d3/gist.png">
@@ -300,28 +288,25 @@ date: 2022-10-16
     </div>
 </div>
 
-<!--
 <div class="card">
     <div class="card-divider">
-    Appendices
+        Example code listings:
     </div>
     <div class="card-section">
+        <a href="{{doc}}#page=514">Simple Line Graph</a><br>
+        <a href="{{doc}}#page=517">Many-featured Graph</a><br>
+        <a href="{{doc}}#page=522">Graph with Area Gradient</a><br>
+        <a href="{{doc}}#page=525">Bar Chart</a><br>
+        <a href="{{doc}}#page=528">Linking Objects</a><br>
+        <a href="{{doc}}#page=530">PHP & MySQL</a><br>
+        <a href="{{doc}}#page=531">Simple Sankey Graph</a><br>
+        <a href="{{doc}}#page=534">Simple Tree Diagram</a><br>
+        <a href="{{doc}}#page=537">Interactive Tree Diagram</a><br>
+        <a href="{{doc}}#page=542">Force Layout Diagram</a><br>
+        <a href="{{doc}}#page=547">Bullet Diagram</a><br>
+        <a href="{{doc}}#page=550">Map with zoom/pan & cities</a><br>
     </div>
 </div>
 
-<div class="card">
-    <div class="card-divider">
-    </div>
-    <div class="card-section">
-    </div>
-</div>
-
-<div class="card">
-    <div class="card-divider">
-    </div>
-    <div class="card-section">
-    </div>
-</div>
--->
 
 </div>
