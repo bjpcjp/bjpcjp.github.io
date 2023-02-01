@@ -1,18 +1,20 @@
 ---
-title: Database resources
+title: SQL techniques - booknotes
 layout: default-foundation-20210515
-tags: databases
-date: 2022-12-09
+tags: databases booknotes sql
+date: 2023-01-31 17:15
 ---
 
 <div class="callout">
     <h2>Database Techniques - book notes</h2>
 </div>
 
+{%- assign book = "/pdfs/tools/database-techniques.pdf" -%}
+
 <div style="columns:2;">
     <div class="card">
         <div class="card-image">
-            <a href="/pdfs/tools/database-techniques.pdf">
+            <a href="{{book}}">
                 <img src="/px/databases/adv-db-techniques-bookcover.png"/>
             </a>
         </div>
@@ -21,11 +23,11 @@ date: 2022-12-09
     <div class="card">
         <div class="card-section">
             <ul><strong>Data Manipulation:</strong>
-                <li>Preventing lock contention</li>
-                <li>Updates based on a select query</li>
-                <li>Return modified row values</li>
-                <li>Delete duplicate rows</li>
-                <li>Table cleanup after bulk updates</li>
+                <li><a href="{{book}}#page=6">Preventing lock contention (for updates on hot rows)</a></li>
+                <li><a href="{{book}}#page=7">Updates based on a select query</li>
+                <li><a href="{{book}}#page=8">Return modified row values</a></li>
+                <li><a href="{{book}}#page=9">Delete duplicate rows</a></li>
+                <li><a href="{{book}}#page=10">Table cleanup after bulk updates</a></li>
             </ul>
         </div>
     </div>
@@ -33,21 +35,21 @@ date: 2022-12-09
     <div class="card">
         <div class="card-section">
             <ul><strong>Queries:</strong>
-                <li>Reduce amount of group-by columns</li>
-                <li>Fill table with test data</li>
-                <li>Nullable columns</li>
-                <li>Prevent division by zero</li>
-                <li>Sort order with nullable columns</li>
-                <li>Ordering & pagination</li>
-                <li>Efficient pagination</li>
-                <li>Database locks</li>
-                <li>Common table expressions</li>
-                <li>First of many similar rows</li>
-                <li>Multiple aggregates</li>
-                <li>Row limits and ties</li>
-                <li>Fast row count estimates</li>
-                <li>Date-based statistical queries</li>
-                <li>Table joins - for-each loops</li>
+                <li><a href="{{book}}#page=12">Reduce amount of group-by columns</a></li>
+                <li><a href="{{book}}#page=13">Fill table with test data</a></li>
+                <li><a href="{{book}}#page=14">Nullable columns</a></li>
+                <li><a href="{{book}}#page=15">Prevent division by zero</a></li>
+                <li><a href="{{book}}#page=16">Sort order with nullable columns</a></li>
+                <li><a href="{{book}}#page=17">Ordering & pagination</a></li>
+                <li><a href="{{book}}#page=18">Efficient pagination</a></li>
+                <li><a href="{{book}}#page=19">Database locks</a></li>
+                <li><a href="{{book}}#page=20">Common table expressions</a></li>
+                <li><a href="{{book}}#page=21">First of many similar rows</a></li>
+                <li><a href="{{book}}#page=22">Multiple aggregates</a></li>
+                <li><a href="{{book}}#page=23">Row limits and ties</a></li>
+                <li><a href="{{book}}#page=24">Fast row count estimates</a></li>
+                <li><a href="{{book}}#page=25">Date-based statistical queries</a></li>
+                <li><a href="{{book}}#page=26">Table joins - for-each loops</a></li>
             </ul>
         </div>
     </div>
@@ -55,16 +57,16 @@ date: 2022-12-09
     <div class="card">
         <div class="card-section">
             <ul><strong>Schemas:</strong>
-                <li>Rows & overlapping dates</li>
-                <li>Trees</li>
-                <li>JSON columns</li>
-                <li>Tag storage - JSON arrays</li>
-                <li>Data strictness</li>
-                <li>JSON validation</li>
-                <li>UUID keys</li>
-                <li>Fast delete of big data - partitions</li>
-                <li>Presorted tables</li>
-                <li>Pre-aggregated tables</li>
+                <li><a href="{{book}}#page=28">Rows & overlapping dates</a></li>
+                <li><a href="{{book}}#page=29">Trees</a></li>
+                <li><a href="{{book}}#page=30">JSON columns</a></li>
+                <li><a href="{{book}}#page=31">Tag storage - JSON arrays</a></li>
+                <li><a href="{{book}}#page=32">Data strictness</a></li>
+                <li><a href="{{book}}#page=33">JSON validation</a></li>
+                <li><a href="{{book}}#page=35">UUID keys</a></li>
+                <li><a href="{{book}}#page=36">Fast delete of big data - partitions</a></li>
+                <li><a href="{{book}}#page=37">Presorted tables</a></li>
+                <li><a href="{{book}}#page=38">Pre-aggregated tables</a></li>
             </ul>
         </div>
     </div>
@@ -72,17 +74,17 @@ date: 2022-12-09
     <div class="card">
         <div class="card-section">
             <ul><strong>Indexes:</strong>
-                <li>Functions & expressions</li>
-                <li>Finding unused indexes</li>
-                <li>Deleting unused indexes</li>
-                <li>Index-only ops - including more columns</li>
-                <li>Partial indexes - reducing index sizes</li>
-                <li>Partial indexes - uniqueness constraints</li>
-                <li>Wildcard searches</li>
-                <li>Multi-column indexes</li>
-                <li>Hash indexes</li>
-                <li>Descending indexes - order by</li>
-                <li>Ghost conditions</li>
+                <li><a href="{{book}}#page=40">Functions & expressions</a></li>
+                <li><a href="{{book}}#page=41">Finding unused indexes</a></li>
+                <li><a href="{{book}}#page=42">Deleting unused indexes</a></li>
+                <li><a href="{{book}}#page=43">Index-only ops - including more columns</a></li>
+                <li><a href="{{book}}#page=44">Partial indexes - reducing index sizes</a></li>
+                <li><a href="{{book}}#page=45">Partial indexes - uniqueness constraints</a></li>
+                <li><a href="{{book}}#page=46">Wildcard searches</a></li>
+                <li><a href="{{book}}#page=47">Multi-column indexes</a></li>
+                <li><a href="{{book}}#page=48">Hash indexes</a></li>
+                <li><a href="{{book}}#page=49">Descending indexes - order by</a></li>
+                <li><a href="{{book}}#page=50">Ghost conditions</a></li>
             </ul>
         </div>
     </div>
