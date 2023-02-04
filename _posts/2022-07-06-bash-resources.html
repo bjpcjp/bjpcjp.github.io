@@ -2,7 +2,7 @@
 title: Bash resources
 layout: default-foundation-20210515
 tags: devops linux bash
-date: 2022-12-24 11:00
+date: 2023-01-29 19:26
 ---
 
 {%- assign title = "Bash resources" -%}
@@ -16,7 +16,7 @@ date: 2022-12-24 11:00
 {%- for item in records -%}
 
     <div class="card">
-        <div class="card-section">
+        <div class="card-divider">
             <a href="{{item.url}}" target="_blank">
             {{item.title}}</a>
 
@@ -24,6 +24,18 @@ date: 2022-12-24 11:00
                 &nbsp; <em>({{item.source}})</em>
             {%- endif -%}
         </div>
+
+        {%- if item.pic -%} 
+            <div class="card-image">
+                <img src="{{item.pic}}"/>
+            </div>
+        {%- endif -%}
+
+        {%- if item.notes -%} 
+            <div class="card-section">
+                {{item.notes}}
+            </div>
+        {%- endif -%}
     </div>
 
 {%- endfor -%}
