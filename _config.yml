@@ -29,8 +29,8 @@ show_excerpts: true
 
 # navigation links
 header_pages:
-  - index.html # last 50 posts by date
-  - posts-by-tag.html # all posts by tag
+  - index.html # all posts by tag
+  - index-by-date.html # last 50 posts by date
   - all-posts.html # all posts by title
   - about.html
 

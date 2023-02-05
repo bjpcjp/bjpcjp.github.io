@@ -1,31 +1,22 @@
 ---
 layout: default-foundation-20210515
-title: Stuff I'm Reading
+title: Posts by Date
 ---
 
 {% if site.posts.size > 0 -%}
 
   {%- assign posts = site.posts | sort: 'title' -%}
   {%- assign lastpost  = posts.last -%}
-  {%- assign last20posts = site.posts | sort: 'date' | reverse | slice: 1, 20 -%}
+  {%- assign last50posts = site.posts | sort: 'date' | reverse | slice: 0, 50 -%}
   {%- assign showindex = True -%}
 
-<h1>Last 20 Posts</h1>
+  <div class="callout">
+    <h2>Last 50 Posts - by Date</h2>
+  </div>
+  
 
 <div style="column-count: 2;">
-  {%- for post in last20posts -%}
-
-    <a href="{{post.url}}">{{post.title}}</a> &nbsp;
-    <small>({{post.date | date: "%Y/%m/%d"}})</small><br>
-
-  {%- endfor -%}
-
-</div>
-
-<h1>Index</h1>
-
-<div style="column-count: 2;">
-  {%- for post in posts -%}
+  {%- for post in last50posts -%}
 
     <a href="{{post.url}}">{{post.title}}</a> &nbsp;
     <small>({{post.date | date: "%Y/%m/%d"}})</small><br>

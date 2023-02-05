@@ -1,30 +1,29 @@
 ---
+title: Posts by Topic
 layout: default-foundation-20210515
-title: Posts by Date
 ---
 
-{% if site.posts.size > 0 -%}
-
-  {%- assign posts = site.posts | sort: 'title' -%}
-  {%- assign lastpost  = posts.last -%}
-  {%- assign last50posts = site.posts | sort: 'date' | reverse | slice: 0, 50 -%}
-  {%- assign showindex = True -%}
-
-  <div class="callout">
-    <h2>Last 50 Posts - by Date</h2>
-  </div>
-  
-
-<div style="column-count: 2;">
-  {%- for post in last50posts -%}
-
-    <a href="{{post.url}}">{{post.title}}</a> &nbsp;
-    <small>({{post.date | date: "%Y/%m/%d"}})</small><br>
-
-  {%- endfor -%}
-
+<div class="callout">
+  <h2>Posts by topic</h2>
 </div>
 
-{% endif %}
+{% assign sorted = site.tags | sort %}
+<div class="callout">
+  {%- for tag in sorted -%}
+      <a href="#{{tag[0]}}">{{tag[0]}}</a> &nbsp; &nbsp;
+  {%- endfor -%}
+</div>
 
-
+<div style="columns: 2;">
+  {%- for tag in sorted -%}
+    <div class="card" id="{{tag[0]}}">
+      <div class='card-section'>
+        <strong>{{ tag[0] }}</strong><br>
+        {% assign posts = tag[1] %}
+        {% for post in posts %}
+          <a href="{{post.url}}">{{post.title}}</a><br>
+        {% endfor %}
+      </div>
+    </div>
+  {% endfor %}
+</div>
