@@ -9,6 +9,37 @@
 
 # v20230205 ----------------------------------------------------------------------
 
+- url: https://towardsdatascience.com/25-a-b-testing-concepts-interview-cheat-sheet-c998a501f911
+  time_added: 1674758730
+  tags: ab testing 
+  title: 25 A/B Testing Concepts - Interview Cheat Sheet (Towards Data Science)
+  notes:
+
+- url: https://review.firstround.com/retools-path-to-product-market-fit-lessons-for-getting-to-100-happy-customers-faster
+  time_added: 1674759156
+  tags: product-market fit 
+  title: Retool’s Path to Product-Market Fit (FirstRound)
+  notes:
+
+- url: https://www.grubstreet.com/2023/01/why-every-shoppy-shop-looks-exactly-the-same.html
+  time_added: 1675043398
+  tags: ecommerce
+  title: Why Every Shoppy Shop Looks Exactly the Same (GrubStreet)
+  notes:
+  
+- url: https://retailtechinnovationhub.com/home/2023/1/30/how-to-create-a-product-roadmap-using-the-prix-method (Retail Tech Innovation Hub)
+  time_added: 1675160091
+  tags: roadmaps
+  title: How to create a product roadmap using the PriX method
+  notes:
+  
+
+- title: AMD is Undershipping Chips To Keep CPU, GPU Prices Elevated (Slashdot)
+  url: https://hardware.slashdot.org/story/23/02/01/1749236/amd-is-undershipping-chips-to-keep-cpu-gpu-prices-elevated?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed
+  time_added: 1675339919
+  tags: pricing
+  notes:
+
 - title: What is the Alchian-Allen effect? (Capital Gains - The Diff)
   url: https://capitalgains.thediff.co/p/alchianallen-effect?ref=the-diff
   tags: pricing/value 
