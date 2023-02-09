@@ -10,9 +10,7 @@ date: 2023-02-05 11:55
     (Updated 2/5/2023)
     </div>
 
-<!-- prev datafile: site.data.prodmgmt-20220319 -->
-
-{%- assign sorted = site.data.prodmgmt.prodmgmt-20230205 | sort: "tags" | group_by: "tags" -%}
+{%- assign sorted = site.data.prodmgmt.prodmgmt-20230209 | sort: "tags" | group_by: "tags" -%}
 
 <div class="callout callout-primary">
     {%- for tag in sorted -%}
