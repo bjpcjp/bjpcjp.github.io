@@ -1,11 +1,43 @@
 ---
 title: CPU Quant Architecture Book Notes
 layout: default-foundation-20210515
-tags: circuit-design cpus booknotes
-date: 2021-05-24 21:13
+tags: circuit-design cpus booknotes semiconductors
+date: 2023-02-20 11:30
 ---
 
-{%- assign sourcedata    = site.data.chips.cpu-arch-quant-approach-20210524 -%}
-{%- assign title = "CPU Architecture: A Quantitative Approach - book chapters" %}
+<div class="callout">
+	<h2>CPU Architecture: A Quantitative Approach - book chapters</h2>
+</div>
 
-{%- include booknotes-002.html -%}
+{%- assign records = site.data.chips.cpu-arch-quant-approach-20210524 | sort: "url" -%}
+
+<div style="columns: 2;">
+
+{%- for record in records -%}
+	{%- if record.title != "" -%}
+
+		<div class="card">
+
+			<div class="card-divider">
+				<a href="{{parent_url}}{{record.url}}" target="_blank">
+					{{record.title}}</a>
+			</div>
+
+			{%- if record.px -%}
+				<div class="card-image">
+					<img src="{{record.px}}">
+				</div>
+			{%- endif -%}
+
+			{%- if record.notes -%}
+				<div class="card-section">
+					{{record.notes}}
+				</div>
+			{%- endif -%}
+
+		</div>
+
+	{%- endif -%}
+{%- endfor -%}
+
+</div>

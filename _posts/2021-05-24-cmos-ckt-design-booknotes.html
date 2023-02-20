@@ -1,24 +1,74 @@
 ---
 title: CMOS Circuit Design Book Notes
 layout: default-foundation-20210515
-tags: cmos circuit-design
-date: 2021-05-24 20:44
+tags: cmos circuit-design semiconductors
+date: 2023-02-20 11:48
 ---
 
 <div class="callout">
 	<h2>CMOS Circuit Design - Booknotes</h2>
 </div>
 
-{%- assign sourcedata    = site.data.chips.cmos-ckt-design-20210524 -%}
 {%- assign parent_url    = "" -%}
-{%- assign title_pic_url = "/px/chips/cmos-ckt-design-sim-3rd.png" -%}
+
+{%- assign title = "CMOS Circuit Design, Layout, and Simulation - book notes" -%}
+
+<!--
+Expected data file (.yaml, .yml) record contents:
+	- title: (primary index)
+	  url:
+	  tags:
+	  pic:
+	  notes:
+	  parent:
+	  more:
+-->
+
+{%- assign sourcedata = site.data.cmos-ckt-design-20210711 -%}
+{%- assign records = {{sourcedata}} | sort: "title" -%}
+{%- assign groups = records | group_by: "tags" -%}
+
+<!--
+<div class="callout">
+    <big>Tags:</big><br>
+    {%- for tag in groups -%}
+        <a href="#{{tag.name}}">{{tag.name}}</a> &nbsp; &nbsp;
+    {%- endfor -%}
+</div>
+-->
+
+<div style="columns: 2;">
 
 <div class="card">
 	<div class="card-image">
-		<img src="{{title_pic_url}}">
+		<img src="/px/chips/cmos-ckt-design-sim-3rd.png">
 	</div>
 </div>
 
-{%- assign title = "CMOS Circuit Design, Layout, and Simulation - book notes" -%}
-{%- assign sourcedata = site.data.cmos-ckt-design-20210711 -%}
-{%- include datafile-grouped-1col-20210711.html -%}
+{%- for tag in groups -%}
+    {%- if tag.name != "" -%}
+        <div class="card">
+            <div class="card-divider" id="{{tag.name}}">
+                {{ tag.name }}
+            </div>
+
+            <div class="card-section">
+                {%- assign items = tag.items | sort: "title" -%}
+                {%- for item in items -%}
+
+                    <a href="{{item.url}}" target="_blank">
+                        {{item.title}}
+                    </a>
+
+                    {%- if item.source -%}
+                    	<em>({{item.source}})</em>
+                    {%- endif -%}
+                    <br>
+
+                {%- endfor -%}
+            </div>
+        </div>
+    {%- endif -%}
+{%- endfor -%}
+
+</div>

@@ -2,18 +2,53 @@
 title: Algorithms for Decision Making - book notes
 layout: default-foundation-20210515
 tags: decisions algorithms math booknotes
-date: 2021/05/29 18:01
+date: 2023-02-20 11:34
 ---
 
 {%- assign parent_url    = "/pdfs/algos-decision-making/" -%}
-{%- assign title_pic_url = "/px/math/algos-for-decision-making-book-cover.png" -%}
 
 <div class="callout">
 	<a href="https://mitpress.mit.edu/books/algorithms-decision-making">
-		<img src="{{title_pic_url}}"></a>
+		<img src="/px/math/algos-for-decision-making-book-cover.png"></a>
 </div>
 
-<!-- was 20210523 -->
-{%- assign sourcedata    = site.data.algos-decision-making-book-20220706 -%}
+<h2>{{post_title}}</h2>
 
-{%- include booknotes-2cols-20210529.html -%}
+{%- assign records = site.data.algos-decision-making-book-20220706 | sort: "url" -%}
+
+<div style="column-count: 2;">
+
+	{%- for record in records -%}
+		{%- if record.title != "" -%}
+
+			<div class="card">
+
+				<div class="card-divider">
+					<a href="{{parent_url}}{{record.url}}" target="_blank">
+						{{record.title}}</a>
+				</div>
+
+				{%- if record.img -%}
+					<div class="card-image">
+						<img src="{{record.img}}"/>
+					</div>
+				{%- endif -%}
+
+				{%- if record.notes -%}
+					<div class="card-section">
+						{{record.notes}}
+					</div>
+				{%- endif -%}
+
+				{%- if record.more -%}
+					<div class="card-section">
+						{{record.more}}
+					</div>
+				{%- endif -%}
+
+			</div>
+
+		{%- endif -%}
+	{%- endfor -%}
+
+</div>
