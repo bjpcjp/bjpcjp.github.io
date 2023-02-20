@@ -5,8 +5,60 @@ tags: behavior influence warfare booknotes
 date: 2023-02-04 13:52
 ---
 
+<h1>{{page.title}}</h1>
+
+{%- assign records = site.data.behaviors.war-33-laws | sort: "tags" | group_by: "tags" -%}
+
 <!--
-    use | where: "tags", "graphs" to filter a single tag..
+<div class="callout primary">
+    <big>Tags:</big><br>
+    {%- for tag in records -%}
+        <a href="#{{tag.name}}">{{tag.name}}</a> &nbsp; &nbsp;
+    {%- endfor -%}
+</div>
 -->
-{%- assign sourcedata = site.data.behaviors.war-33-laws -%}
-{% include datafile-grouped-1col-20220730.html %}
+
+<div style="columns: 2;">
+
+{%- for tag in records -%}
+    {%- if tag.name != "" -%}
+        <div class="card">
+            <div class="card-divider" id="{{tag.name}}">{{ tag.name }}</div>
+
+            <div class="card-section">
+                <ul>
+                    {%- assign sorted_tag_items = tag.items | sort: "title" -%}
+                    {%- for item in sorted_tag_items -%}
+
+                        <li style="list-style: none;">
+                            <a href="{{item.url}}" target="_blank">
+                            {{item.title}}
+
+                            {%- if item.source %}
+                                ({{item.source}})</a>
+                            {% endif %}
+
+                            {%- if item.repo -%}
+                                <span style="float:right;">
+                                <small><a href="{{item.repo}}"/>
+                                            (GitHub|Bitbucket|Other)</a>
+                                </small>
+                                </span>
+                            {%- endif -%}
+
+                        {%- if item.notes -%} 
+                                {%- if item.favorite -%}
+                                    <div class="callout success">{{item.notes}}</div>
+                                {%- else -%}
+                                    <div class="callout">{{item.notes}}</div>
+                                {%- endif -%}
+                            {%- endif -%}
+                        </li>
+                    {%- endfor -%}
+                </ul>
+            </div>
+        </div>
+    {%- endif -%}
+{%- endfor -%}
+
+</div>
