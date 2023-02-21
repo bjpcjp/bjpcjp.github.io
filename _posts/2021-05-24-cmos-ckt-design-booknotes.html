@@ -12,30 +12,8 @@ date: 2023-02-20 11:48
 {%- assign parent_url    = "" -%}
 
 {%- assign title = "CMOS Circuit Design, Layout, and Simulation - book notes" -%}
-
-<!--
-Expected data file (.yaml, .yml) record contents:
-	- title: (primary index)
-	  url:
-	  tags:
-	  pic:
-	  notes:
-	  parent:
-	  more:
--->
-
-{%- assign sourcedata = site.data.cmos-ckt-design-20210711 -%}
-{%- assign records = {{sourcedata}} | sort: "title" -%}
+{%- assign records = site.data.cmos-ckt-design-20210711 | sort: "title" -%}
 {%- assign groups = records | group_by: "tags" -%}
-
-<!--
-<div class="callout">
-    <big>Tags:</big><br>
-    {%- for tag in groups -%}
-        <a href="#{{tag.name}}">{{tag.name}}</a> &nbsp; &nbsp;
-    {%- endfor -%}
-</div>
--->
 
 <div style="columns: 2;">
 
