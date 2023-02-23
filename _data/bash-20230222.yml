@@ -1,0 +1,181 @@
+# _data/bash-20230222.yml
+# formerly: _data/bash-20221221.yml
+# formerly: _data/bash-20220727.yml
+# formerly: _data/bash-20220706.yml
+#
+
+- title: notes for pros (pdf)
+  url: /pdfs/bash/Bash-notes-for-pros.pdf
+  tags: bash
+  source: goalkicker.com
+  notes:
+    1. getting started<br>
+    2. shebang<br>
+    3. directory navigation<br>
+    4. listing files<br>
+    5. cat<br>
+    6. grep<br>
+    7. aliasing<br>
+    8. jobs & processes<br>
+    9. redirects<br>
+    10. control structures<br>
+
+- title: scripting for devs (pdf)
+  url: /pdfs/bash/bash-scripting.pdf
+  tags: bash
+  source: bobby iliev
+  pic: /px/bash/intro-to-bash-scripting-bookcover.png
+
+- title: reference manual (pdf)
+  url: https://www.gnu.org/software/bash/manual/bash.pdf
+  tags: bash
+  source: gnu
+
+- title: cookbook (pdf)
+  url: /pdfs/bash/bash-cookbook.pdf
+  tags: bash
+  source: oreilly
+
+# -----------------------------------------------------------------------------------
+
+- title: hyperfine
+  url: https://github.com/sharkdp/hyperfine
+  tags: bash
+  source: github
+
+#- title: SSH tricks
+#  url: https://serversforhackers.com/ssh-tricks
+#  tags: bash
+#  source: servers for hackers
+
+- title: onceopen (tools)
+  url: https://github.com/onceupon/Bash-Oneliner
+  tags: bash
+  source: github
+
+# -----------------------------------------------------------------------------------
+- title: bash academy
+  url:  http://guide.bash.academy/ 
+  tags: bash
+  source: bash academy
+
+- title: scripts cheatsheet 
+  url:  https://devhints.io/bash 
+  tags: bash
+  source: devhints
+
+- title: 101 commnds & tips 
+  url:  https://dev.to/awwsmm/101-bash-commands-and-tips-for-beginners-to-experts-30je 
+  tags: bash
+  source: dev.to
+  pic: https://res.cloudinary.com/practicaldev/image/fetch/s--JAP2XejS--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://thepracticaldev.s3.amazonaws.com/i/mhlzt5ctquamg3z9i2r7.jpg
+  notes:
+    1. filesystem navigation<br>
+    2. help<br>
+    3. view/edit files<br>
+    4. create/delete files & directories<br>
+    5. move/copy files, making links, command history<br>
+    6. directory trees, disk usage, processes<br>
+    7. misc<br>
+    8. disk, memory, cpu usage<br>
+    9. REPLs & versions<br>
+    10. environment vars<br>
+    11. basic scripting<br>
+    12. config files<br>
+    13. find<br>
+    14. download<br>
+    15. redirect<br>
+    16. superuser<br>
+    17. file permissions<br>
+    18. users & groups<br>
+    19. text ops<br>
+    20. pattern matches<br>
+    21. copy files over SSH<br>
+    22. long-running processes<br>
+    23. more<br>
+
+- title: bash aliases
+  url: https://opensource.com/article/18/9/handy-bash-aliases 
+  tags: bash
+  source: opensource
+  notes:
+    1. Unpack a .tar file<br>
+    2. Download something - be able to resume if something goes wrong<br>
+    3. Generate a random, 20-character password for a new online account<br>
+    4. Downloaded a file - test the checksum<br>
+    5. Limit ping to five attempts<br>
+    6. Start a web server in any folder<br>
+    7. See how fast your network is with Speedtest-cli<br>
+    8. See your external IP address<br>
+    9. See your local IP address?<br>
+    10. Clear the screen.<br>
+
+- title: beginners guide
+  url:  http://tldp.org/LDP/Bash-Beginners-Guide/html/index.html 
+  tags: bash
+  source: Machtelt Garrels
+  notes: intro, scripts, envt, regexes, sed, awk, conditionals,
+          interactive, repetition, vars, functions, signals
+
+- title: art of the cmnd line 
+  url:  https://github.com/jlevy/the-art-of-command-line 
+  tags: bash
+  notes: meta, basics, everyday usage, files & data, debugging,
+         one-liners, obscure, macOS, windows, resources
+  source: github (jlevy)
+  pic: https://github.com/jlevy/the-art-of-command-line/raw/master/cowsay.png
+
+- title: quirks 
+  url:  https://jvns.ca/blog/2017/03/26/bash-quirks/ 
+  tags: bash
+  source: jvns.ca
+  notes:
+    variables<br>
+    quoting variables<br>
+    global, local, environment variables<br>
+    for loops<br>
+    if statements<br>
+    functions<br>
+    always quote your vars<br>
+    return quotes<br>
+    background processes,br>
+    set -e, set -x, set -u<br>
+    linting<br>
+
+- title: 10 things i wish had known 
+  url:  https://zwischenzugs.com/2018/01/06/ten-things-i-wish-id-known-about-bash/ 
+  tags: bash
+  source: zwischenzugs
+  pic: https://d2sofvawe08yqg.cloudfront.net/learnbashthehardway/s_hero?1620562805
+  notes:
+    $()<br>
+    globs vs regexes<br>
+    exit codes<br>
+    if, [, [[<br>
+    set<br>
+    <()<br>
+    quoting<br>
+    top shortcuts<br>
+    startup order<br>
+    getopts<br>
+
+- title: bash bible (ebook)
+  url:  https://github.com/dylanaraps/pure-bash-bible/blob/master/README.md 
+  tags: bash
+  pic: https://d2sofvawe08yqg.cloudfront.net/bash/s_hero?1620569923
+  source: dylanaraps
+  notes: strings, arrays, loops, files, vars, escape seqs, param expansion,
+          brace expansion, conditionals, math ops, traps, speed, internals, more
+
+- title: shells for dummies
+  url:  https://dev.to/maxwell_dev/the-shell-introduction-i-wish-i-had-551k 
+  tags: bash
+  source: dev.to/maxwell_dev
+  notes:
+    1. intro<br>
+    2. actions<br>
+    3. package managers<br>
+    4. dot files<br>
+    5. VIM<br>
+    6. aliases<br>
+    7. scripts<br>
