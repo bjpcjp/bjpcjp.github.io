@@ -1,112 +1,176 @@
 ---
 title: Gallium Arsenide book notes
 layout: default-foundation-20210515
-date: 2021-10-16
-tags: circuit-design booknotes
+date: 2023-02-21 10:10
+tags: circuit-design booknotes semiconductors
 ---
 
 <h2>{{page.title}}</h2>
 
-<div class="card" width="50%">
+{% assign book = "/pdfs/chips/GaN-transistors-power-conversion.pdf" %}
+
+<div style="columns: 2;">
+
+<div class="card">
 	<div class="card-image">
-		<img src="/px/chips/gallium-arsenide-book-cover.png"/> 
+		<a href="{{book}}">
+			<img src="/px/chips/gallium-arsenide-book-cover.png"/></a> 
 	</div>
 </div>
 
-{% assign book = "/pdfs/chips/GaN-transistors-power-conversion.pdf" %}
+<div class="card">
+	<div class="card-divider">
+		<a href="{{book}}#page=9">contents</a></div>
+</div>
 
-- [contents]({{book}}#page=9)
-- [GaN technology overview]({{book}}#page=19)
-	- History
-	- Benefits
-	- Transistor structure
-	- Manufacturing
+<div class="card">
+	<div class="card-divider">
+		<a href="{{book}}#page=19">technology overview</a></div>
+	<div class="card-section">
+		- History<br>
+		- Benefits<br>
+		- Transistor structure<br>
+		- Manufacturing<br>
+	</div>
+</div>
 
-- [Transistor characteristics]({{book}}#page=37)
-	- Intro
-	- Device parameters
-	- Capacitance & charge
-	- Reverse conduction
-	- Thermal resistance
-	- Transient thermal impedance
-	- summary
+<div class="card">
+	<div class="card-divider">
+		<a href="{{book}}#page=37">transistor characteristics</a></div>
+	<div class="card-section">
+		- Intro<br>
+		- Device parameters<br>
+		- Capacitance & charge<br>
+		- Reverse conduction<br>
+		- Thermal resistance<br>
+		- Transient thermal impedance<br>
+		- summary<br>
+	</div>
+</div>
 
-- [Drivers]({{book}}#page=57)
-	- Intro
-	- Gate drive voltage
-	- Bootstrapping & floating supplies
-	- dv/dt immunity
-	- di/dt immunity
-	- Ground bounce
-	- Common mode current
-	- Gate driver edge rate
-	- Driving cascode GaN devices
-	- summary
+<div class="card">
+	<div class="card-divider">
+		<a href="{{book}}#page=57">drivers</a></div>
+	<div class="card-section">
+		- Intro<br>
+		- Gate drive voltage<br>
+		- Bootstrapping & floating supplies<br>
+		- dv/dt immunity<br>
+		- di/dt immunity<br>
+		- Ground bounce<br>
+		- Common mode current<br>
+		- Gate driver edge rate<br>
+		- Driving cascode GaN devices<br>
+		- summary<br>
+	</div>
+</div>
 
-- [Layout]({{book}}#page=73)
-	- Intro
-	- Minimizing parasitic inductance
-	- Conventional power loop designs
-	- Power loop optimization
-	- Paralleling GaN transistors
-	- summary
+-<div class="card">
+	<div class="card-divider">
+		<a href="{{book}}#page=73">physical layout</a></div>
+	<div class="card-section">
+		- Intro<br>
+		- Minimizing parasitic inductance<br>
+		- Conventional power loop designs<br>
+		- Power loop optimization<br>
+		- Paralleling GaN transistors<br>
+		- summary<br>
+	</div>
+</div>
 
-- [Modeling & Measurement]({{book}}#page=88)
-	- Intro
-	- Electrical modeling
-	- Thermal modeling
-	- Performance measurement
-	- summary
+<div class="card">
+	<div class="card-divider">
+		<a href="{{book}}#page=88">modeling / measurement</a></div>
+	<div class="card-section">
+		- Intro<br>
+		- Electrical modeling<br>
+		- Thermal modeling<br>
+		- Performance measurement<br>
+		- summary<br>
+	</div>
+</div>
 
-- [Hard-Switch Topologies]({{book}}#page=107)
-	- Intro
-	- Loss analysis
-	- External factors
-	- Reducing body diode conduction losses
-	- Frequency impact on magnetics
-	- Buck converter example
-	- summary
+<div class="card">
+	<div class="card-divider">
+		<a href="{{book}}#page=107">hard-switch topologies</a></div>
+	<div class="card-section">
+		- Intro<br>
+		- Loss analysis<br>
+		- External factors<br>
+		- Reducing body diode conduction losses<br>
+		- Frequency impact on magnetics<br>
+		- Buck converter example<br>
+		- summary<br>
+	</div>
+</div>
 
-- [Resonant & Soft-Switch Topologies]({{book}}#page=146)
-	- Intro
-	- Techniques
-	- Device parameters
-	- Example: high-frequency resonant bus converter
+<div class="card">
+	<div class="card-divider">
+		<a href="{{book}}#page=146">resonant & soft-switch topologies</a></div>
+	<div class="card-section">
+		- Intro<br>
+		- Techniques<br>
+		- Device parameters<br>
+		- Example: high-frequency resonant bus converter<br>
+	</div>
+</div>
 
-- [RF performance]({{book}}#page=168)
-	- Intro
-	- RF vs switching transistors
-	- RF basics
-	- RF transistor metrics
-	- Amplifier design with small-signal S-parameters
-	- Amplifier design example
+<div class="card">
+	<div class="card-divider">
+		<a href="{{book}}#page=168">RF performance</a></div>
+	<div class="card-section">
+		- Intro<br>
+		- RF vs switching transistors<br>
+		- RF basics<br>
+		- RF transistor metrics<br>
+		- Amplifier design with small-signal S-parameters<br>
+		- Amplifier design example<br>
+	</div>
+</div>
 
-- [Space applications]({{book}}#page=190)
-	- Intro
-	- Failure mechanisms
-	- Radiation exposure & tolerance stds
-	- Gamma radiation tolerance
-	- Single-event effects (SEE) testing
-	- Performance vs rad-hard silicon MOSFETs
-	- summary
+<div class="card">
+	<div class="card-divider">
+		<a href="{{book}}#page=190">space applications</a></div>
+	<div class="card-section">
+		- Intro<br>
+		- Failure mechanisms<br>
+		- Radiation exposure & tolerance stds<br>
+		- Gamma radiation tolerance<br>
+		- Single-event effects (SEE) testing<br>
+		- Performance vs rad-hard silicon MOSFETs<br>
+		- summary
+	</div>
+</div>
 
-- [Application examples]({{book}}#page=197)
-	- Intro
-	- DC-DC converters (non-isolated)
-	- DC-DC converters (isolated)
-	- Class-D audio
-	- Envelope tracking
-	- Highly resonant wireless energy transfer
-	- LIDAR & pulsed lasers
-	- Power correction factor
-	- Motor drive & photovoltaic inverters
-	- summary
+<div class="card">
+	<div class="card-divider">
+		<a href="{{book}}#page=197">more applications</a></div>
+	<div class="card-section">
+		- Intro<br>
+		- DC-DC converters (non-isolated)<br>
+		- DC-DC converters (isolated)<br>
+		- Class-D audio<br>
+		- Envelope tracking<br>
+		- Highly resonant wireless energy transfer<br>
+		- LIDAR & pulsed lasers<br>
+		- Power correction factor<br>
+		- Motor drive & photovoltaic inverters<br>
+		- summary<br>
+	</div>
+</div>
 
-- [Replacing silicon power MOSFETs]({{book}}#page=250)
-	- Rate of adoption
-	- GaN capabilities
-	- Ease of use
-	- Cost vs time
-	- Reliability
-	- Trends
-	- Conclusion
+<div class="card">
+	<div class="card-divider">
+		<a href="{{book}}#page=250">replace silicon power mosfets</a></div>
+	<div class="card-section">
+		- Rate of adoption<br>
+		- GaN capabilities<br>
+		- Ease of use<br>
+		- Cost vs time<br>
+		- Reliability<br>
+		- Trends<br>
+		- Conclusion<br>
+	</div>
+</div>
+
+</div>
