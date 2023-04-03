@@ -4,16 +4,15 @@ layout: default-foundation-20210515
 ---
 
 <div class="callout">
-  <h2>Posts by topic</h2>
-</div>
-
-{% assign sorted = site.tags | sort %}
-<div class="callout">
-  {%- for tag in sorted -%}
-    <button type="button" class="hollow button">
-      <strong><a href="#{{tag[0]}}">{{tag[0]}}</a></strong>
-    </button> &nbsp;
-  {%- endfor -%}
+<details>
+  <summary style="font-size: 1.8em;">topics</summary>
+  {% assign sorted = site.tags | sort %}
+    {%- for tag in sorted -%}
+      <button type="button" class="hollow button">
+        <strong><a href="#{{tag[0]}}">{{tag[0]}}</a></strong>
+      </button> &nbsp;
+    {%- endfor -%}
+</details>
 </div>
 
 <div style="columns: 2;">
