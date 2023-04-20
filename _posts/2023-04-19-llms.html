@@ -1,0 +1,263 @@
+---
+title: LLM - large language model) survey - ArXiV
+layout: default-foundation-20210515
+tags: llm nlp deep-learning arxiv
+date: 2023-04-19
+---
+
+<div class="callout">
+    <h2>{{ page.title }}</h2>
+
+    <div class="card">
+        <div class="card-image">
+            <a href="/pdfs/math/2303.18223-LLM-survey.pdf">
+                <img src="/px/math/llm-survey-arxiv-2023.png"/>
+            </a>
+        </div>
+    </div>
+
+</div>
+
+<div style="columns: 2;">
+
+    <div class="card">
+        <div class="card-section">
+            <h4>Intro - 4 development stages (thus far)</h4>
+            - statistical LMs<br>
+            - neural LMs<br>
+            - pre-trained LMs<br>
+            - large LMs (LLMs)<br>
+            <h4><a href="https://github.com/RUCAIBox/LLMSurvey">project website</a></h4>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-section">
+            <h4>LLM Overview</h4>
+            - background<br>
+            - emergent abilities<br>
+            - key techniques (scaling, training, abilities, alignment tuning, tool manipulation)<br>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-section">
+            <h4>Resources - Public Model checkpoints/APIs</h4>
+            - models with tens of billions of params<br>
+            - models with hundreds of billions of params<br>
+            - public APIs<br>
+            - <a href="https://platform.openai.com/docs/api-reference/introduction">OpenAI: 7 GPT3 interfaces (ada, babbage, curie, davinci, text-ada-001, text-baggage-001, text-curie-001)</a><br>
+            - <a href="https://platform.openai.com/docs/models/overview">
+            OpenAI model overview</a><br>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-section">
+            <h4>Common Corpora</h4>
+            - BookCorpus, Project Gutenberg<br>
+            - Common Crawl - multiple filtered datasets<br>
+            - Reddit, OpenWebText, PushShift.io<br>
+            - Wikipedia<br>
+            - Code (GitHub, BigQuery, StackOverflow)
+            - Others (ThePile, etc)<br>
+            <h4>Examples</h4>
+            - GPT3 (175B weights, 300B tokens)<br>
+            - PaLM (540B weights, 780B tokens)<br>
+            - LLaMA (6/13/32/65B weights, 1.0/1.4T tokens)<br>
+        </div>
+        <div class="card-image">
+            <img src="/px/math/llm-survey-arxiv-datasets.png">
+        </div>
+        <div class="card-image">
+            <img src="/px/math/llm-survey-arxiv-datasets-stats.png">
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-section">
+            <h4>Code Libraries</h4>
+            - transformers (Python, Hugging Face)<br>
+            - deepspeed (PyTorch, Microsoft)<br>
+            - megatron-LM (PyTorch, nVidia)<br>
+            - jax (Python, Google Brain)<br>
+            - colossal-AI (jax-based, EleutherAI)<br>
+            - BMtrain (OpenBMB)<br>
+            - fastMoE (Pytorch, mixture of experts models)<br>
+        </div>
+    </div>
+
+    <div class="card">
+        
+        <div class="card-section">
+            <h4>Pretraining Techniques</h4>
+            - general data (webpages, conversation text, books)<br>
+            - specialized data (multilingual, scientific, code)<br>
+        </div>
+        
+        <div class="card-image">
+            <img src="/px/math/llms-survey-arxiv-datasource-ratios.png">
+        </div>
+
+        <div class="card-section">
+            <h4>Preprocessing Techniques</h4>
+            - quality filtering (classifier-based, heuristic-based, keyword-based)<br>
+            - reducing duplication<br>
+            - privacy redaction<br>
+            - tokenization<br>
+        </div>
+
+        <div class="card-image">
+            <img src="/px/math/llm-survey-arxiv-preprocess-pipeline.png">
+        </div>
+
+        <div class="card-section">
+            <h4>Effects of pretraining data</h4>
+            - source mixtures<br>
+            - amount of data<br>
+            - quality of data<br>
+        </div>
+
+        <div class="card-section">
+            <h4>Architectures</h4>
+            - mainstream (encoder-decoders, casual decoders, prefix decoders)<br>
+        </div>
+
+        <div class="card-section">
+            <h4>Detailed configurations</h4>
+            - normalization (for training stability)<br>
+            - activation functions<br>
+            - position embeddings<br>
+            - attention & bias<br>
+        </div>
+
+        <div class="card-image">
+            <img src="/px/math/llm-survey-arxiv-model-cards.png">
+        </div>
+
+        <div class="card-section">
+            <h4>Pretraining tasks</h4>
+            - language modeling (LM)<br>
+            - denoising autoencoding (DAE)<br>
+        </div>
+
+        <div class="card-section">
+            <h4>Model training</h4>
+            - optimization settings (batches, learning rates, Adam/AdamW optimizers, stabilization via weight decay & gradient clipping)<br>
+        </div>
+
+        <div class="card-image">
+            <img src="/px/math/llm-survey-arxiv-optim-settings.png">
+        </div>
+
+        <div class="card-section">
+            <h4>Scalable Training</h4>
+            - 3D parallelism (data, pipelines, tensors)<br>
+            - ZeRO (memory redundancy improvement)<br>
+            - Mixed-precision training<br>
+            - Summary<br>
+        </div>
+
+    </div>
+
+    <div class="card">
+        <div class="card-section">
+            <h4>Adaptive Tuning</h4>
+        </div>
+
+        <div class="card-image">
+            <img src="/px/math/llm-survey-arxiv-task-collections.png">
+        </div>
+
+        <div class="card-section">
+            <h4>Instruction Tuning</h4>
+            - formatted instance construction<br>
+            - instruction tuning techniques<br>
+            - combined instruction tuning & pretraining<br>
+            - effects<br>
+        </div>
+
+        <div class="card-section">
+            <h4>Alignment Tuning</h4>
+            - background & criteria<br>
+            - collecting feedback (rankings, question-based, rule-based)<br>
+        </div>
+
+        <div class="card-section">
+            <h4>Reinforcement learning from human feedback (RHLF)</h4>
+            - system blocks (pretrained LM, reward model, RL trainer)<br>
+            - key steps<br>
+        </div>
+
+        <div class="card-image">
+            <img src="/px/math/llm-survey-arxiv-RLHF.png">
+        </div>
+
+        <div class="card-image">
+            <img src="/px/math/llm-survey-arxiv-format-methods.png">
+        </div>
+
+    </div>
+
+    <div class="card">
+        <div class="card-section">
+            <h4>Utilization & Prompting - in-context Learning (ICL)</h4>
+            - prompting formulation<br>
+            - demo design<br>
+            - demo selection<br>
+            - demo format<br>
+            - demo ordering<br>
+            - underlying mechanism<br>
+        </div>
+
+        <div class="card-section">
+            <h4>Chain-of-Thought (CoT) Prompting</h4>
+            - ICL with CoT (few-shot, zero-shot)<br>
+            - further discussion<br>
+        </div>
+
+        <div class="card-image">
+            <img src="/px/math/llm-survey-arxiv-in-context-vs-chain-of-thought.png">
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-section">
+            <h4>Capacity - basic evaluation tasks</h4>
+            - language generation (modeling, conditional text, code synthesis; major issues)<br>
+            - knowledge utilization (closed/open-book QA, knowledge completion; major issues)<br>
+            - complex reasoning (knowledge, symbolics, mathmatical; major issues)<br>
+        </div>
+
+        <div class="card-image">
+            <img src="/px/math/llm-survey-arxiv-hallucinations.png">
+        </div>
+
+        <div class="card-section">
+            <h4>Capacity - advanced ability evaluation</h4>
+            - human value alignment<br>
+            - external environment interactions<br>
+            - tool manipulation<br>      
+        </div>
+
+        <div class="card-section">
+            <h4>Benchmarks</h4>
+            - MMLU, BIG-bench, HELM<br>
+        </div>
+
+    </div>
+
+    <div class="card">
+        <div class="card-section">
+            <h4>Conclusion/Directions</h4>
+            theory & principle<br>
+            model training<br>
+            model utilization<br>
+            safety & alignment
+            application & ecosystem<br>
+
+        </div>
+    </div>
+
+
+</div>
