@@ -31,8 +31,9 @@ show_excerpts: true
 header_pages:
   - index.html # all posts by tag
   - index-by-date.html # last 50 posts by date
-  - all-posts.html # all posts by title
+  - posts-by-title.html # all posts by title
   - about.html
+  #- posts-by-tag-last-update.html # sorted by most recently updated post with a given tag
 
 # pagination
 paginate: 20
