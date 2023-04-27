@@ -5,18 +5,19 @@ title: Posts by Date
 
 {% if site.posts.size > 0 -%}
 
-  {%- assign posts = site.posts | sort: 'title' -%}
-  {%- assign lastpost  = posts.last -%}
+  {%- assign posts       = site.posts | sort: 'title' -%}
+  {%- assign lastpost    = posts.last -%}
   {%- assign last50posts = site.posts | sort: 'date' | reverse | slice: 0, 50 -%}
-  {%- assign showindex = True -%}
+  {%- assign sorted      = site.posts | sort: 'date' | reverse                -%}
+  {%- assign showindex   = True -%}
 
   <div class="callout">
-    <h2>Last 50 Posts - by Date</h2>
+    <h2>Posts Index - by Date</h2>
   </div>
   
 
 <div style="column-count: 2;">
-  {%- for post in last50posts -%}
+  {%- for post in sorted -%}
 
     <a href="{{post.url}}">{{post.title}}</a> &nbsp;
     <small>({{post.date | date: "%Y/%m/%d"}})</small><br>
