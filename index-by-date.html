@@ -18,9 +18,19 @@ title: Posts by Date
 
 <div style="column-count: 2;">
   {%- for post in sorted -%}
+  {%- assign draft = post.path | slice: 0,6 %}
+
+    {%- if draft == "_draft" %}
+      <span style="background-color: cornsilk;">
+    {% endif %}
 
     <a href="{{post.url}}">{{post.title}}</a> &nbsp;
-    <small>({{post.date | date: "%Y/%m/%d"}})</small><br>
+    <small>({{post.date | date: "%Y/%m/%d"}})</small> &nbsp;
+
+    {%- if draft == "_draft" %}
+      <small><strong>**DRAFT**</strong></small></span>
+    {% endif %}
+    <br>
 
   {%- endfor -%}
 
