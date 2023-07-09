@@ -1,15 +1,15 @@
 ---
-title: Ruby resources
+title: Ruby | Rails | Jekyll | Sinatra | RubyGems resources
 layout: default-foundation-20210515
-tags: ruby rubyonrails jekyll sinatra
-date: 2022-07-03
+tags: ruby rubyonrails jekyll sinatra rubygems
+date: 2023-07-09
 ---
 
 <div class="callout">
 <h2>Ruby, Rails, Jekyll, Sinatra, RubyGems resources</h2>
 </div>
 
-{%- assign sorted_records = site.data.code.ruby.v20220817 | sort: "tags" -%}
+{%- assign sorted_records = site.data.code.ruby.v20230709 | sort: "tags" -%}
 {%- assign grouped_sorted_records = sorted_records | group_by: "tags" -%}
 
 <div class="callout">
@@ -18,13 +18,15 @@ date: 2022-07-03
     {%- endfor -%}
 </div>
 
+<!--
 <div style="column-count: 2;">
+-->
 
 {%- for tag in grouped_sorted_records -%}
     {%- if tag.name != "" -%}
         <div class="card">
-            <div class="card-section" id="{{tag.name}}">
-                {{ tag.name }}
+            <div class="card-divider" id="{{tag.name}}">
+                <strong>{{ tag.name }}</strong>
             </div>
 
             <div class="card-section">
@@ -46,4 +48,6 @@ date: 2022-07-03
     {%- endif -%}
 {%- endfor -%}
 
+<!--
 </div>
+-->
