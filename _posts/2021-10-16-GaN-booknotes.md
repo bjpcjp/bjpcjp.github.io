@@ -2,7 +2,7 @@
 title: Gallium Arsenide book notes
 layout: default-foundation-20210515
 date: 2023-02-21 10:10
-tags: circuit-design booknotes semiconductors
+tags: booknotes semiconductors
 ---
 
 <h2>{{page.title}}</h2>

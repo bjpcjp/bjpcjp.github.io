@@ -1,0 +1,110 @@
+---
+title: Transformer models - intro and catalog
+layout: default-foundation-20210515
+tags: deep-learning llms transformers arxiv
+date: 2023-06-08 16:15
+models:
+  - ALBERT
+  - Al
+  - ChatGPT
+  - Chinchilla
+  - CLIP
+  - CM3
+  - CTRL
+  - DALL-E
+  - DALL-E2
+  - Decision Transformers
+  - DialoGPT
+  - DistilBERT
+  - DQ-BART
+  - ELECTRA
+  - ERNIE
+  - Flamingo
+  - Gato19
+  - GLaM
+  - GLIDE
+  - Global Context ViT
+  - Gopher
+  - GopherCite
+  - GPT21
+  - GPT-2
+  - GPT-3
+  - GPT-3.5
+  - InstructGPT
+  - GPT-Neo
+  - GPT-NeoX-20B
+  - HTML
+  - Imagen
+  - Jurassic-1
+  - LAMDA
+  - mBART
+  - Megatron
+  - Minerva
+  - MT-NLG (Megatron TouringNLG)
+  - OPT
+  - PalM
+  - Pegasus
+  - RoBERTa
+  - SeeKer
+  - Sparrow
+  - StableDiffusion
+  - Swin Transformer
+  - Switch
+  - T5
+  - Trajectory Transformers
+  - Transformer XL
+  - Turing-NLG
+  - ViT30
+  - Wu Dao 2.0
+  - XLM-RoBERTa
+  - XLNet
+---
+
+<div class="callout">
+    <a href="/pdfs/math/TRANSFORMER_MODELS.pdf">
+    <img src="/px/math/transformers-paper-title.png"></a>
+</div>
+
+<div style="columns: 2;">
+
+<div class="card">
+    <div class="card-divider">
+        <h4>Intro</h4>
+    </div>
+    <div class="card-section">
+        Encoders & decoders<br>
+        Attention modules<br>
+        Transformer overview<br>
+        RLHF<br>
+        Diffusion<br>
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-divider">
+        <h4>Catalog</h4>
+    </div>
+    <div class="card-section">
+        Features<br>
+        The table<br>
+        Family tree<br>
+        Chronology<br>
+        The list<br>
+    </div>
+</div>
+
+{% for model in page.models %}
+    <div class="card">
+        <div class="card-divider">
+            <h4>
+                <a href="https://www.google.com/search?q={{model}}">
+                    {{ model }}
+            </h4>
+        </div>
+        <div class="card-section">
+            <a href="#">test</a>
+        </div>
+    </div>
+{% endfor %}
+
+</div>
