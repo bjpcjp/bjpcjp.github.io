@@ -1,0 +1,232 @@
+---
+name: transformers cheat sheet (ArXiV)
+date: 2023-09-27
+layout: default-foundation-20210515
+tags: transformers llms arxiv pdf
+---
+
+<div class="callout">
+	<h2>Transformers cheat sheet - <a href="https://arxiv.org/abs/2302.07730">original on ArXiV</a></h2>
+    <a href="/pdfs/math/TRANSFORMER_MODELS.pdf">
+			<img src="/px/math/transformers/arxiv-paper-title.png"/></a>
+</div>
+
+<div style="columns: 2;">
+
+    <div class="card">
+      <div class="card-divider">
+        <strong><a href="#">Intro</a></strong> &nbsp;
+      </div>
+      <div class="card-image">
+      	<h3>Typical Architecture</h3>
+      	<img src="/px/math/transformers/transformer-architecture.png/">
+      </div>
+
+      <div class="card-section">
+      	<a href="https://jalammar.github.io/illustrated-transformer/">
+      	The Illustrated Tranformer</a><br>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-divider">
+        <strong><a href="#">Encoders/Decoders</a></strong> &nbsp;
+      </div>
+      <div class="card-section">
+      	<a href="/htmls/encoder-decoder-descript.txt">
+      	Description from paper</a>
+      </div>
+    </div>
+    
+    <div class="card">
+      <div class="card-divider">
+        <strong><a href="/htmls/attention.txt">Attention</a></strong> &nbsp;
+      </div>
+      <div class="card-section">
+      	
+      	<a href="https://ai.googleblog.com/2017/08/transformer-novel-neural-network.html">Attention is all you need</a><br>
+      	
+      	<a href="https://machinelearningmastery.com/encoder-decoder-long-short-term-memory-networks/">LSTMs</a><br>
+
+      </div>
+    </div>
+    
+    <div class="card">
+      <div class="card-divider">
+        <strong><a href="#">Use Cases</a></strong> &nbsp;
+      </div>
+      <div class="card-section">
+      	<a href="/htmls/transformers-and-xfer-learning.txt">transfer learning = key reason for adoption</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-divider">
+        <strong>RLHF (Reinforcement Learning - Human Feedback</strong>
+      </div>
+
+      <div class="card-image">
+      	<img src="/px/math/transformers/RLHF-huggingface.png">
+      </div>
+
+      <div class="card-section">
+      	<a href="https://huggingface.co/blog/rlhf">HF blog post</a><br>
+      	<a href="https://wandb.ai/ayush-thakur/RLHF/reports/Understanding-Reinforcement-Learning-from-Human-Feedback-RLHF-Part-1">Weights/Bias blog post</a><br>
+
+      </div>
+    </div>
+    
+    <div class="card">
+      <div class="card-divider">
+        <strong>Diffusion</a></strong>
+      </div>
+      <div class="card-image">
+      	<img src="/px/math/transformers/diffusion.png"/>
+      </div>
+      <div class="card-section">
+      	<a href="https://huggingface.co/docs/transformers/training">GANs? (HF)</a><br>
+      	<a href="https://benanne.github.io/2022/01/31/diffusion.html">benanne.github.io</a><br>
+      </div>
+    </div>
+    
+    <div class="card">
+      <div class="card-divider">
+        <strong>Pretraining</strong>
+      </div>
+      <div class="card-section">
+        <p><strong>Architectures</strong><br>
+        The original Transformer architecture included an Encoder and Decoder. Sometimes it is beneficial to use only the encoder, only the decoder, or both.<br>
+        <br>
+        <strong>Encoder Pretraining</strong><br>
+        - a.k.a. bi-directional or auto-encoding, only use the encoder<br>
+        - pretraining: usually accomplished by masking words in the input sentence and training the model to reconstruct.<br> 
+        - At each stage attention layers can access all the input words.<br>
+        - Most useful for tasks that require understanding complete sentences such as sentence classification or extractive question answering.<br>
+        <br>
+        <strong>Decoder Pretraining</strong><br>
+        - a.k.a. auto-regressive. use only the decoder<br>
+        - usually designed so the model is forced to predict the next word.<br>
+        - attention layers can only access the words positioned before a given word in the sentence.<br>
+        - best suited for tasks involving text generation.<br>
+        <br>
+        <strong>Transformer (Encoder-Decoder)</strong><br>
+        - Encoder-decoder models, a.k.a. sequence-to-sequence, use both parts of the Transformer architecture.<br> 
+        - Attention layers of the encoder can access all the words in the input.<br>
+        - decoder attention layers can only access the words positioned before a given word in the input.<br>
+        - pretraining can be done using the objectives of encoder or decoder models, but usually involves something a bit more complex.<br>
+        - best suited for generating new sentences depending on a given input, such as summarization, translation, or generative question answering.<br>
+        </p>
+
+        <p><strong>Tasks</strong><br>
+        When training a model we need to define a task for the model to learn on.<br>
+        “Pre-trained Models for Natural Language Processing: A Survey”[ 10 ] includes a taxonomy of pretraining tasks, all of which can be considered self-supervised.<br>
+        <br>
+        1. <strong>Language Modeling (LM):</strong><br>
+        - Predict next token (in the case of unidirectional LM) or previous and next token (bidirectional LM)<br><br>
+
+        2. <strong>Masked Language Modeling (MLM):</strong><br>
+        - mask out some tokens from input sentences then train model to predict masked tokens by the rest of the tokens<br><br> 
+
+        3. <strong>Permuted Language Modeling (PLM):</strong><br>
+        - same as LM but on a random permutation of input sequences.<br>
+        - Then some tokens are chosen as the target - model is trained to predict these targets.<br><br>
+
+        4. <strong>Denoising Autoencoder (DAE):</strong><br>
+        - take a partially corrupted input (e.g. Randomly sampling tokens from the input and replacing them with "[MASK]" elements.<br>
+        - randomly delete tokens from the input or shuffle sentences in random order<br>
+        - recover the original undistorted input.<br><br>
+
+        5. <strong>Contrastive Learning (CTL):</strong><br>
+        - A score function for text pairs is learned by assuming some observed pairs are more semantically similar than randomly samples.<br>
+        - Variants:<br><br>
+
+          • Deep InfoMax (DIM): maximize mutual information between an image representation and local regions of the image;<br>
+          • Replaced Token Detection (RTD): predict whether a token is replaced given its surroundings;<br>
+          • Next Sentence Prediction (NSP): train the model to distinguish whether two input sentences are continuous segments from the training corpus; and<br>
+          • Sentence Order Prediction (SOP): Similar to NSP, but uses two consecutive segments as positive examples, and the same segments but with their order swapped as negative examples
+        </p>
+      </div>
+    </div>
+    
+    <div class="card">
+      <div class="card-divider">
+        <strong><a href="https://docs.google.com/spreadsheets/d/1ltyrAB6BL29cOv2fSpNQnnq2vbX8UrHl47d7FkIf6t4">
+        Model dataset (Gsheet)</a></strong> &nbsp;
+      </div>
+    </div>
+    
+    <div class="card">
+      <div class="card-divider">
+        <strong><a href="#">Chronology</a></strong> &nbsp;
+      </div>
+      <div class="card-image">
+      	<img src="/px/math/transformers/chronology-family-paramcount.png"/>
+      </div>
+      <div class="card-section">
+      </div>
+    </div>
+    
+    <div class="card">
+      <div class="card-divider">
+        <strong><a href="#">Metadata</a></strong> &nbsp;
+      </div>
+      <div class="card-section">
+      	Reference (URL)<br>
+      	Family<br>
+      	Pretrainer<br>
+      	Extension<br>
+      	Apps<br>
+      	Pub Date<br>
+      	#Parameters<br>
+      	Data corpus<br>
+      	Developer<br>
+      </div>
+    </div>
+    
+    {% assign catalog = 
+    	"ALBERT,AlphaFold,Anthropic,BART,BERT,BigBird,
+    	BlenderBot3,BLOOM,ChatGPT,Chinchilla,CLIP,CM3,CTRL,
+    	DALL-E,DALL-E 2,Decision transformers,DialoGPT,
+    	DistilBERT,DQ-BART,ELECTRA,ERNIE,Flamingo,Gato,
+    	GLaM,GLIDE,Global Context ViT,Gopher,GopherCite,
+    	GPT,GPT-2,GPT-3,GPT-3.5,InstructGPT,GPT-Neo,GPT-NeoX-20B,
+    	HTML,Imagen,Jurassic-1,LAMDA,mBART,Megatron,Minerva,
+    	MT-NLG,OPT,PalM,Pegasus,RoBERTa,SeeKer,Sparrow,
+    	StableDiffusion,Swin,Switch,T5,Trajectory transformers,
+    	Transformer XL,Turing-NLG,ViT,Wu Dao 2.0,
+    	XLM-RoBERTa,XLNet" | split: ","
+    %}
+
+    <div class="card">
+      <div class="card-divider">
+        <strong>Catalog List - see <a href="https://huggingface.co/models">HF model list for latest</a></strong>
+      </div>
+      <div class="card-section">
+      	{% for i in catalog %}
+          <!--
+      		<a href="https://duckduckgo.com/?q=huggingface+{{i}}/">{{i}}</a><br>
+          -->
+          {{i}}<br>
+      	{% endfor %}
+      </div>
+    </div>
+    
+    <div class="card">
+      <div class="card-divider">
+        <strong><a href="#">More</a></strong> &nbsp;
+      </div>
+      <div class="card-section">
+      	<a href="https://huggingface.co/course/chapter1/1?fw=pt">Hugging Face docs</a><br>
+      	<a href="https://arxiv.org/abs/2106.04554">Transformers Survey (ArXiv 2106.04554)</a><br>
+      	<a href="https://arxiv.org/abs/2003.08271">Pretrained Models Survey (ArXiV 2003.08271)</a><br>
+      	<a href="https://arxiv.org/abs/1409.1259">Encoder-Decoder Approaches (ArXiV 1409.1259)</a><br>
+        <a href="https://huggingface.co/models">Hugging Face models</a><br>
+        <a href="https://docs.google.com/spreadsheets/d/1ltyrAB6BL29cOv2fSpNQnnq2vbX8UrHl47d7FkIf6t4/edit#gid=0">arxiv model dataset, Gsheet</a><br>
+
+
+
+      </div>
+    </div>
+    
+
+</div>
