@@ -58,11 +58,50 @@ models:
   - Wu Dao 2.0
   - XLM-RoBERTa
   - XLNet
+resources:
+  - url: https://ai.googleblog.com/2017/08/transformer-novel-neural-network.html
+    name: transformers
+  - url: https://machinelearningmastery.com/encoder-decoder-long-short-term-memory-networks/
+    name: encoder-decoder LSTMs
+  - url: https://jalammar.github.io/illustrated-transformer/
+    name: 
+  - url: https://huggingface.co/docs/transformers/training
+    name: Transformers/training (HF)
+  - url: https://magenta.tensorflow.org/music-transformer
+    name: Transformers/music (HF/Magenta)
+  - url: https://pytorch.org/tutorials/beginner/transformer_tutorial.html
+    name: Transformers/tut (PyTorch)
+  - url: https://www.tensorflow.org/text/tutorials/transformer
+    name: Transformers (TF)
+  - url: https://huggingface.co/docs
+    name: Huffing Face docs (HF)
+  - url: https://github.com/huggingface/transformers
+    name: Transformers (HF)
+  - url: https://openai.com/blog/openai-licenses-gpt-3-technology-to-microsoft/
+    name: GPT3toMSFT (OAI)
+  - url: https://openai.com/blog/gpt-3-apps/
+    name: GPT3 (OAI)
+  - url: https://huggingface.co/blog/rlhf
+    name: RLHF (HF)
+  - url: https://wandb.ai/ayush-thakur/RLHF/reports/Understanding-Reinforcement-Learning-from-Human-Feedback-RLHF-Part-1
+    name: RLHF (Wiki)
+  - url: https://en.wikipedia.org/wiki/Generative_adversarial_network
+    name: GANs (Wiki)
+  - url: https://benanne.github.io/2022/01/31/diffusion.html
+    name: Diffusion (bananne.github)
+
 ---
 
 <div class="callout">
     <a href="/pdfs/math/TRANSFORMER_MODELS.pdf">
     <img src="/px/math/transformers-paper-title.png"></a>
+</div>
+
+<div class="callout">
+    <h2>links:</h2>
+    {% for r in page.resources %}
+        <a href="{{r.url}}">{{r.name}}</a> &nbsp;&nbsp;
+    {% endfor %}
 </div>
 
 <div style="columns: 2;">
