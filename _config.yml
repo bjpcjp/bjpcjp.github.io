@@ -20,7 +20,7 @@ plugins:
   - jekyll-seo-tag
 
 social_links:
-  twitter: https://twitter.com/brianpiercy
+  #twitter: https://twitter.com/brianpiercy
   github: https://github.com/bjpcjp
   linkedin: https://linkedin.com/in/brianpiercy
 
@@ -29,8 +29,8 @@ show_excerpts: true
 
 # navigation links
 header_pages:
-  - index.html # all posts by tag
-  - index-by-date.html # last 50 posts by date
+  - index.html # all posts by date
+  - posts-by-tag.html # all posts grouped by tag
   - posts-by-title.html # all posts by title
   - about.html
   #- posts-by-tag-last-update.html # sorted by most recently updated post with a given tag
