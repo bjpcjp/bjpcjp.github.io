@@ -7,51 +7,46 @@ date: 2023-11-10
 
 <div class="callout">
     <h2>Python Resources</h2>
-    <p>New: links to Feature Engineering Cookbook lessons (Jupyter notebooks)</p>
+    <p>mostly Jupyter notebooks - hosted on GitHub</p>
 </div>
+
+{% assign hacker_guide_post = '2023-06-08-python-hackerguide-ebook.html' %}
 
 <div class="callout">
-        <a href="#stdlib">StdLib</a> &nbsp; &nbsp;
-        <a href="#numpy">NumPy</a> &nbsp; &nbsp;
-        <a href="#pandas">Pandas</a> &nbsp; &nbsp;
-        <a href="#stats">Statistics</a> &nbsp; &nbsp;
-        <a href="#scipy">SciPy</a> &nbsp; &nbsp;
+        <a href="#pytorch">DL-PyTorch</a> &nbsp; &nbsp;
+        <a href="#tensorflow">DL-TensorFlow</a> &nbsp; &nbsp;
         <a href="#features">Feature Engineering</a> &nbsp; &nbsp;
+        <a href="/pdfs/python/Hacker_Guide_to_Python.pdf">"Hacks"</a> &nbsp; &nbsp;
+        <a href="{% post_url 2023-06-08-python-hackerguide-ebook %}">TestMe</a> &nbsp; &nbsp;
         <a href="#ml">Machine Learning</a> &nbsp; &nbsp;
-        <a href="#image">Scikit-Image</a> &nbsp; &nbsp;
-        <a href="#nlp">Natural Language Processing</a> &nbsp; &nbsp;
-        <a href="#tensorflow">TensorFlow</a> &nbsp; &nbsp;
-        <a href="#pytorch">PyTorch</a> &nbsp; &nbsp;
-        <a href="#viz">Visualization (Matplotlib, Seaborn, ...)</a> &nbsp; &nbsp;
-        <a href="#sympy">Symbolics (SymPy)</a> &nbsp; &nbsp;
+        <a href="#nlp">NLP</a> &nbsp; &nbsp;
+        <a href="#numpy">NumPy</a> &nbsp; &nbsp;
         <a href="#opts">Optimization (Numba, Cython)</a> &nbsp; &nbsp;
+        <a href="#pandas">Pandas</a> &nbsp; &nbsp;
+        <a href="#image">Scikit-Image</a> &nbsp; &nbsp;
+        <a href="#scipy">SciPy</a> &nbsp; &nbsp;
+        <a href="#stats">Statistics</a> &nbsp; &nbsp;
+        <a href="#stdlib">StdLib</a> &nbsp; &nbsp;
+        <a href="#sympy">Symbolics (SymPy)</a> &nbsp; &nbsp;
         <a href="#utils">Utilities</a> &nbsp; &nbsp;
+        <a href="#viz">Viz (Matplotlib, Seaborn, ...)</a> &nbsp; &nbsp;
 </div>
-
-<h2 id="stdlib">Standard Library:</h2>
-{%- assign records = site.data.code.stdlib38 | sort: "title" -%}
-{%- include 2col-cards.html -%}
-
 
 <h2 id="numpy">NumPy:</h2>
 {%- assign records = site.data.code.numpy | sort: "title" -%}
 {%- include 2col-cards-20221226.html -%}
 
-
 <h2 id="pandas">Pandas:</h2>
 {%- assign records = site.data.code.pandas | sort: "title" -%}
 {%- include 2col-cards-20221226.html -%}
-
 
 <h2 id="stats">Statistics:</h2>
 {%- assign records = site.data.code.stats | sort: "title" -%}
 {%- include 2col-cards-20221226.html -%}
 
-
 <h2 id="scipy">Scientific Computation with SciPy:</h2>
 {%- assign records = site.data.code.scipy | sort: "title" -%}
 {%- include 2col-cards-20221226.html -%}
-
 
 <h2 id="features">Feature Engineering:</h2>
 {%- assign records = site.data.code.feature-engineering-20221226 | sort: "title" -%}
@@ -59,47 +54,42 @@ date: 2023-11-10
 {%- assign fe-cookbook-github-ch01 = fe-cookbook-github | append: "/ch01-missing-data-imputation/" -%}
 {%- include 2col-cards-20221226.html -%}
 
-
 <h2 id="ml">Machine Learning:</h2>
 {%- assign records = site.data.code.machine-learning-20210501 | sort: "title" -%}
 {%- include 2col-cards-20221226.html -%}
-
 
 <h2 id="images">Image Processing:</h2>
 {%- assign records = site.data.code.scikit-image | sort: "title" -%}
 {%- include 2col-cards-20221226.html -%}
 
-
 <h2 id="nlp">Natural Language Processing (NLP):</h2>
 {%- assign records = site.data.code.nlp | sort: "title" -%}
 {%- include 2col-cards-20221226.html -%}
-
 
 <h2 id="tensorflow">Deep Learning with Tensorflow:</h2>
 {%- assign records = site.data.code.tensorflow | sort: "title" -%}
 {%- include 2col-cards-20221226.html -%}
 
-
 <h2 id="pytorch">Deep Learning with PyTorch:</h2>
 {%- assign records = site.data.code.pytorch | sort: "title" -%}
 {%- include 2col-cards-20221226.html -%}
-
 
 <h2 id="viz">Visualization Tools:</h2>
 {%- assign records = site.data.code.viz | sort: "title" -%}
 {%- include 2col-cards-20221226.html -%}
 
-
-<h2 id="sympy">Symbolic Computation:</h2>
+<h2 id="sympy">Symbolic Computation (SymPy):</h2>
 {%- assign records = site.data.code.sympy | sort: "title" -%}
 {%- include 2col-cards-20221226.html -%}
-
 
 <h2 id="opts">Optimization:</h2>
 {%- assign records = site.data.code.numba-cython | sort: "title" -%}
 {%- include 2col-cards-20221226.html -%}
 
-
 <h2 id="utils">Various Utilities:</h2>
 {%- assign records = site.data.code.utils-20210717 | sort: "title" -%}
 {%- include 2col-cards-20221226.html -%}
+
+<h2 id="stdlib">Python Standard Library: (v3.8)</h2>
+{%- assign records = site.data.code.stdlib38 | sort: "title" -%}
+{%- include 2col-cards.html -%}

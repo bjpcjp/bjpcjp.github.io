@@ -4,186 +4,202 @@ layout: default-foundation-20210515
 tags: python
 date: 2023-07-01
 contents:
-    - name: setup
-      topics:
-      - name: python versions
-      - name: project directory
-      - name: version numbering
-      - name: coding styles
+  - name: setup
+    file: /pdfs/python/hacker-guide-ch01.pdf
+    topics:
+    - name: python versions
+    - name: project directory
+    - name: version numbering
+    - name: coding styles
 
-    - name: modules & libraries
-      topics:
-      - name: intro
-      - name: import system
-      - name: standard libraries - essential modules
-                <blockquote>
-                    <em>atexit, argparse, bisect, calendar, codecs, collections, copy, csv, datetime, fnmatch, glob, io, json, logging, multiprocessing, operator, os, random, re, select, shutil, signal, threading, tempfile, urllib, uuid</em>  
-                </blockquote>
+  - name: modules & libraries
+    file: /pdfs/python/hacker-guide-ch02.pdf
+    topics:
+    - name: intro
+    - name: import system
+    - name: standard libraries - essential modules
+              <blockquote>
+                  <em>atexit, argparse, bisect, calendar, codecs, collections, copy, csv, datetime, fnmatch, glob, io, json, logging, multiprocessing, operator, os, random, re, select, shutil, signal, threading, tempfile, urllib, uuid</em>  
+              </blockquote>
 
-      - name: external libraries - basics
-      - name: frameworks
-      - name: Doug Hellmann
-                <blockquote>
-                    how to write a Python app from scratch?<br>
-                    getting a module into Python StdLib?<br>
-                    3 overlooked StdLib modules<br>
-                    (more)...<br>
-                </blockquote>
-      - name: API changes
-      - name: Christophe de Vienne
-                <blockquote>
-                    API design mistakes?<br>
-                    WSME & framework API support?<br>
-                    pros & cons?<br>
-                    python API design pros, cons?<br>
-                    best practices - changes, EOLs, removals<br>
-                    (more)<br>
-                </blockquote>
+  - name: docs
+    file: /pdfs/python/hacker-guide-ch03.pdf
+    topics:
+    - name: intro
+    - name: <em>Sphinx</em> and reST
+    - name: <em>Sphinx</em> modules
+    - name: <em>Sphinx</em> extensions
 
-    - name: docs
-      topics:
-      - name: intro
-      - name: <em>Sphinx</em> and reST
-      - name: <em>Sphinx</em> modules
-      - name: <em>Sphinx</em> extensions
+#  - name: external libraries - basics
+#    file: /pdfs/python/hacker-guide-ch03.pdf
+#    topics:
+#    - name: frameworks
+#    - name: Doug Hellmann
+#              <blockquote>
+#                  how to write a Python app from scratch?<br>
+#                  getting a module into Python StdLib?<br>
+#                  3 overlooked StdLib modules<br>
+#                  (more)...<br>
+#              </blockquote>
+#    - name: API changes
+#    - name: Christophe de Vienne
+#              <blockquote>
+#                  API design mistakes?<br>
+#                  WSME & framework API support?<br>
+#                  pros & cons?<br>
+#                  python API design pros, cons?<br>
+#                  best practices - changes, EOLs, removals<br>
+#                  (more)<br>
+#              </blockquote>
 
-    - name: distribution
-      topics:
-      - name: history
-      - name: packaging with <em>pbr</em>
-      - name: wheel format
-      - name: package installation
-      - name: sharing your work
-      - name: Nick Coghlan
-                <blockquote>
-                    why fragmented package ecosystem?<br>
-                    setuptools tips & hints<br>
-                    PEP 426<br>
-                    wheels & standard library<br>
-                </blockquote>
-      - name: entry points
+  - name: distribution
+    file: /pdfs/python/hacker-guide-ch04.pdf
+    topics:
+    - name: history
+    - name: packaging with <em>pbr</em>
+    - name: wheel format
+    - name: package installation
+    - name: sharing your work
+    - name: Nick Coghlan
+              <blockquote>
+                  why fragmented package ecosystem?<br>
+                  setuptools tips & hints<br>
+                  PEP 426<br>
+                  wheels & standard library<br>
+              </blockquote>
+    - name: entry points
 
-    - name: virtual environments
-      topics:
-      - name: virtualenv
+  - name: virtual environments
+    file: /pdfs/python/hacker-guide-ch05.pdf
+    topics:
+    - name: virtualenv
 
-    - name: unit testing
-      topics:
-      - name: basics
-      - name: fixtures
-      - name: mocking
-      - name: scenario data
-      - name: test streaming & parallelism
-      - name: coverage
-      - name: virtualenv setups with <em>tox</em>
-      - name: policy aka best practices 
-      - name: Robert Collins
-                <blockquote>
-                    preferred testing policy?<br>
-                    python code for testability?<br>
-                    unit test organization?<br>
-                    tools<br>
-                    future trends<br>
-                </blockquote>
+  - name: unit testing
+    file: /pdfs/python/hacker-guide-ch06.pdf
+    topics:
+    - name: basics
+    - name: fixtures
+    - name: mocking
+    - name: scenario data
+    - name: test streaming & parallelism
+    - name: coverage
+    - name: virtualenv setups with <em>tox</em>
+    - name: policy aka best practices 
+    - name: Robert Collins
+              <blockquote>
+                  preferred testing policy?<br>
+                  python code for testability?<br>
+                  unit test organization?<br>
+                  tools<br>
+                  future trends<br>
+              </blockquote>
 
-    - name: methods & decorators
-      topics:
-      - name: creating decorators
-      - name: how methods work
-      - name: static methods
-      - name: class methods
-      - name: abstract methods
-      - name: mixing static, class & abstract methods
-      - name: super
+  - name: methods & decorators
+    file: /pdfs/python/hacker-guide-ch07.pdf
+    topics:
+    - name: creating decorators
+    - name: how methods work
+    - name: static methods
+    - name: class methods
+    - name: abstract methods
+    - name: mixing static, class & abstract methods
+    - name: super
 
-    - name: functional programming
-      topics:
-      - name: intro
-      - name: generators
-      - name: list comprehensions
-      - name: functions
-                <blockquote>
-                    map(func,iterable)<br>
-                    filter(func|none,iterable)<br>
-                    enumerate(iterable,start)<br>
-                    sorted,all,any(iterable)<br>
-                    zip(iterable...)<br>
-                    first<br>
-                    functools.partial<br>
-                    itertools module<br>
-                    <blockquote>
-                        chain()<br>
-                        combinations()<br>
-                        compress()<br>
-                        count()<br>
-                        cycle()<br>
-                        dropwhile()<br>
-                        groupby()<br>
-                        permutations()<br>
-                        product()<br>
-                        takewhile()<br>
-                    </blockquote>
-                </blockquote>
+  - name: functional programming
+    file: /pdfs/python/hacker-guide-ch08.pdf
+    topics:
+    - name: intro
+    - name: generators
+    - name: list comprehensions
+    - name: functions
+              <blockquote>
+                  map(func,iterable)<br>
+                  filter(func|none,iterable)<br>
+                  enumerate(iterable,start)<br>
+                  sorted,all,any(iterable)<br>
+                  zip(iterable...)<br>
+                  first<br>
+                  functools.partial<br>
+                  itertools module<br>
+                  <blockquote>
+                      chain()<br>
+                      combinations()<br>
+                      compress()<br>
+                      count()<br>
+                      cycle()<br>
+                      dropwhile()<br>
+                      groupby()<br>
+                      permutations()<br>
+                      product()<br>
+                      takewhile()<br>
+                  </blockquote>
+              </blockquote>
 
-    - name: AST ("abstract syntax tree")
-      topics:
-      - name: Hy programming language
-      - name: Paul Tagliamonte<br>
-                <blockquote>
-                why create Hy?<br>
-                tips & tricks<br>
-                status & goals<br>
-                Python interoperability? packaging?<br>
-                pros & cons<br>
-                </blockquote>
+  - name: AST ("abstract syntax tree")
+    file: /pdfs/python/hacker-guide-ch09.pdf
+    topics:
+    - name: Hy programming language
+    - name: Paul Tagliamonte<br>
+              <blockquote>
+              why create Hy?<br>
+              tips & tricks<br>
+              status & goals<br>
+              Python interoperability? packaging?<br>
+              pros & cons<br>
+              </blockquote>
 
-    - name: performance & optimization
-      topics:
-      - name: data structures
-      - name: profiling
-      - name: ordered lists & bisecting
-      - name: namedtuples & slots
-      - name: memoization (caching results)
-      - name: PyPy 
-      - name: achieving zero copy with the buffer protocol
-      - name: Victor Skinner<br>
-                <blockquote>
-                optimization starting points<br>
-                preferred tools<br>
-                performance tricks<br>
-                poor performance area<br>
-                common mistakes<br>
-                </blockquote>
+  - name: performance & optimization
+    file: /pdfs/python/hacker-guide-ch10.pdf
+    topics:
+    - name: data structures
+    - name: profiling
+    - name: ordered lists & bisecting
+    - name: namedtuples & slots
+    - name: memoization (caching results)
+    - name: PyPy 
+    - name: achieving zero copy with the buffer protocol
+    - name: Victor Skinner<br>
+              <blockquote>
+              optimization starting points<br>
+              preferred tools<br>
+              performance tricks<br>
+              poor performance area<br>
+              common mistakes<br>
+              </blockquote>
 
-    - name: scaling & architecture
-      topics:
-      - name: multithreading & Global Interpreter Lock (GIL)
-      - name: multiprocessing vs multithreading
-      - name: async & event-driven architectures
-      - name: service-style architectures
+  - name: scaling & architecture
+    file: /pdfs/python/hacker-guide-ch11.pdf
+    topics:
+    - name: multithreading & Global Interpreter Lock (GIL)
+    - name: multiprocessing vs multithreading
+    - name: async & event-driven architectures
+    - name: service-style architectures
 
-    - name: RDBMs & ORM
-      topics:
-      - name: SQL vs RDBMS - the object-relational impedance mismatch
-      - name: streaming - Flask & PostgresQL
-      - name: RDBMS concepts
-      - name: PostgresQL pros & cons
+  - name: RDBMs & ORM
+    file: /pdfs/python/hacker-guide-ch12.pdf
+    topics:
+    - name: SQL vs RDBMS - the object-relational impedance mismatch
+    - name: streaming - Flask & PostgresQL
+    - name: RDBMS concepts
+    - name: PostgresQL pros & cons
 
-    - name: Python 3 support
-      topics:
-      - name: standard library 
-      - name: external libraries
-      - name: using six
-      - name: 
+  - name: Python 3 support
+    file: /pdfs/python/hacker-guide-ch13.pdf
+    topics:
+    - name: standard library 
+    - name: external libraries
+    - name: using six
+    - name: 
 
-    - name: write less - code more
-      topics:
-      - name: single dispatcher
-      - name: context managers
+  - name: write less - code more
+    file: /pdfs/python/hacker-guide-ch14.pdf
+    topics:
+    - name: single dispatcher
+    - name: context managers
 ---
 
 <div class="callout">
-    <a href="/pdfs/python/Hacker_Guide_to_Python.pdf">
+    <a href="/pdfs/python/hacker-guide-to_Python.pdf">
     <img src="/px/python/hacker-guide-to-python-ebook-cover.png">
     </a>
     <p>First release. Edits to follow.</p>
@@ -194,7 +210,8 @@ contents:
 {% for chapter in page.contents %}
     <div class="card">
         <div class="card-divider">
-            {{chapter.name}}
+            <a href="{{chapter.file}}">
+            {{chapter.name}}</a>
         </div>
         {% if chapter.topics %}
             <div class="card-section">
