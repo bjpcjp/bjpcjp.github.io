@@ -1,0 +1,154 @@
+# _data/probability_stats_for_DS_20230405.yml
+# intro-PSDS-ch01.pdf              stats-frequentist-PSDS-ch09.pdf        stats-rand-procs-PSDS-ch05.pdf
+#stats-bayes-PSDS-ch10.pdf        stats-hypothesis-tests-PSDS-ch11.pdf   stats-randvars-multivar-PSDS-ch03.pdf
+#stats-convergence-PSDS-ch06.pdf  stats-linear-algebra-PSDS-apxB.pdf     stats-randvars-PSDS-ch02.pdf
+#stats-descriptive-PSDS-ch08.pdf  stats-linear-regression-PSDS-ch12.pdf  stats-set-theory-PSDS-apxA.pdf
+#stats-expectation-PSDS-ch04.pdf  stats-markov-chains-PSDS-ch07.pdf
+
+
+#- name: 00 - contents (TOC)
+#  pic:
+#  note:
+
+- name: 01 - basics
+  url: /pdfs/math/intro-PSDS-ch01.pdf
+  pic:
+  note:
+    probability spaces<br>
+    conditional probability<br>
+    independence<br>
+
+- name: 02 - random variables
+  url: /pdfs/math/stats-randvars-PSDS-ch02.pdf
+  pic:
+  note:
+    definitions<br>
+    discrete<br>
+    continuous<br>
+    conditional<br>
+    functions<br>
+    generation<br>
+    proofs<br>
+
+- name: 03 - random variables (multivariate)
+  url: /pdfs/math/stats-randvars-multivar-PSDS-ch03.pdf
+  pic:
+  note:
+    discrete<br>
+    continuous<br>
+    joint distributions<br>
+    independence<br>
+    functions<br>
+    generation<br>
+    rejection sampling<br>
+
+- name: 04 - expectation
+  url: /pdfs/math/stats-expectation-PSDS-ch04.pdf
+  pic:
+  note:
+    operators<br>
+    mean & variance<br>
+    covariance<br>
+    conditional<br>
+    proofs<br>
+
+- name: 05 - random processes
+  url: /pdfs/math/stats-rand-procs-PSDS-ch05.pdf
+  pic:
+  note:
+    definitions<br>
+    mean & autocovariance<br>
+    independent indentically-distributed sequences<br>
+    gaussians<br>
+    poissons<br>
+    random walks<br>
+    proofs<br>
+
+- name: 06 - convergence
+  url: /pdfs/math/stats-convergence-PSDS-ch06.pdf
+  pic:
+  note:
+    types<br>
+    law of large numbers<br>
+    central limit theorem<br>
+    monte carlo<br>
+
+- name: 07 - markov chains
+  url: /pdfs/math/stats-markov-chains-PSDS-ch07.pdf
+  pic:
+  note:
+    time-homogeneous, discrete-time<br>
+    recurrences<br>
+    periodicity<br>
+    convergence<br>
+    markov-chain monte carlo<br>
+
+- name: 08 - stats (descriptive)
+  url: /pdfs/math/stats-descriptive-PSDS-ch08.pdf
+  pic:
+  note:
+    histograms<br>
+    sample mean & variance<br>
+    sample order<br>
+    sample covariance<br>
+    sample covariance matrix<br>
+
+- name: 09 - stats (frequentist)
+  url: /pdfs/math/stats-frequentist-PSDS-ch09.pdf
+  pic:
+  note:
+    IID (independent, identically-distributed) sampling<br>
+    MSE (mean square error)<br>
+    consistency<br>
+    confidence intervals<br>
+    model estimation (non-parametric)<br>
+    model estimation (parametric)<br>
+    proofs<br>
+
+- name: 10 - stats (bayesian)
+  url: /pdfs/math/stats-bayes-PSDS-ch10.pdf
+  pic:
+  note:
+    parametric models<br>
+    conjugate priors<br>
+    estimators<br>
+
+- name: 11 - hypothesis testing
+  url: /pdfs/math/stats-hypothesis-tests-PSDS-ch11.pdf
+  pic:
+  note:
+    framework<br>
+    parametric testing<br>
+    non-parametric (permutations) testing<br>
+    multiple testing<br>
+
+- name: 12 - linear regression
+  url: /pdfs/math/stats-linear-regression-PSDS-ch12.pdf
+  pic:
+  note:
+    linear models<br>
+    least squares estimation<br>
+    overfit<br>
+    global warming<br>
+    proofs<br>
+
+- name: 13 - set theory
+  url: /pdfs/math/stats-set-theory-PSDS-apxA.pdf
+  pic:
+  note:
+    definitions<br>
+    operations<br>
+
+- name: 14 - linear algebra
+  url: /pdfs/math/stats-linear-algebra-PSDS-apxB.pdf
+  pic:
+  note:
+    vector spaces<br>
+    inner products & norms<br>
+    orthogonality<br>
+    projections<br>
+    matrices<br>
+    eigendecomposition<br>
+    eigendecomposition - symmetric matrices<br>
+    proofs<br>
+
