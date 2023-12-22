@@ -1,0 +1,734 @@
+# _data/gametheory/boardgamemechs-20231221.html
+
+- href: https://boardgamegeek.com/boardgamemechanic/2073/acting
+  title: Acting
+  description: 
+  #image: https://cf.geekdo-images.com/27zhFlN5fCJOyYzr2HK2cA__itemrep/img/VBBE7pM8Wlz0OrhtziQm3fbwYaA=/fit-in/246x300/filters:strip_icc()/pic3898879.png
+
+- href: https://boardgamegeek.com/boardgamemechanic/2689/action-queue
+  title: Action Queue
+  description:  
+
+- href: https://boardgamegeek.com/boardgamemechanic/2847/advantage-token
+  title: Advantage Token
+  description:  
+
+- href: https://boardgamegeek.com/boardgamemechanic/2021/area-impulse
+  title: Area-Impulse
+  description: 
+
+- href: https://boardgamegeek.com/boardgamemechanic/2931/auction-fixed-placement
+  title: Auctions (Dutch)
+  description: 
+
+- href: https://boardgamegeek.com/boardgamemechanic/2920/auction-sealed-bid
+  title: Auctions (Sealed Bid)
+  description: 
+
+- href: https://boardgamegeek.com/boardgamemechanic/2838/action-drafting
+  title: Action Drafting
+  description: 
+
+- href: https://boardgamegeek.com/boardgamemechanic/2839/action-retrieval
+  title: Action Retrieval
+  description:  
+
+- href: https://boardgamegeek.com/boardgamemechanic/2916/alliances
+  title: Alliances
+  description: 
+
+- href: https://boardgamegeek.com/boardgamemechanic/2012/auctionbidding
+  title: Auction/Bidding
+  description: 
+
+- href: https://boardgamegeek.com/boardgamemechanic/2918/auction-english
+  title: Auctions (English)
+  description:  
+
+- href: https://boardgamegeek.com/boardgamemechanic/2919/auction-turn-order-until-pass
+  title: Auctions (Turn Order Until Pass)
+  description: 
+
+- href: https://boardgamegeek.com/boardgamemechanic/2001/action-points
+  title: Action Points
+  description:  
+
+- href: https://boardgamegeek.com/boardgamemechanic/2834/action-timer
+  title: Action Timer
+  description: 
+
+- href: https://boardgamegeek.com/boardgamemechanic/2080/area-majority-influence
+  title: Area Majority / Influence
+  description:
+
+- href: https://boardgamegeek.com/boardgamemechanic/2930/auction-dexterity
+  title: Auctions (Dexterity)
+  description: 
+
+- href: https://boardgamegeek.com/boardgamemechanic/2930/auction-dexterity
+  title: Auctions (Fixed Placement) 
+  description: 
+
+- href: https://boardgamegeek.com/boardgamemechanic/2903/automatic-resource-growth
+  title: Automatic Resource Growth
+  description:  						
+
+- href: https://boardgamegeek.com/boardgamemechanic/2840/actionevent
+  title: Action/Event
+  description:    
+
+- href: https://boardgamegeek.com/boardgamemechanic/2046/area-movement
+  title: Area Movement
+  description: 
+
+- href: https://boardgamegeek.com/boardgamemechanic/2924/auction-dutch
+  title: Auctions (Dutch)
+  description:  
+
+#- href: http://Auction: Once Around | Board Game Mechanic
+#  title: Auctions (Once Around)
+#  description: 				
+
+- href: https://boardgamegeek.com/boardgamemechanic/2014/betting-and-bluffing
+  title: Betting and Bluffing
+  description: 
+
+- href: https://boardgamegeek.com/boardgamemechanic/2957/bias
+  title: Bias
+  description:  						
+
+- href: https://boardgamegeek.com/boardgamemechanic/2999/bingo
+  title: Bingo
+  description:  						
+
+- href: https://boardgamegeek.com/boardgamemechanic/2913/bribery
+  title: Bribery
+  description:  						
+
+- href: https://boardgamegeek.com/boardgamemechanic/2018/campaign-battle-card-driven
+  title: Campaign / Battle Card Driven
+  description: 
+
+- href: https://boardgamegeek.com/boardgamemechanic/2956/chaining
+  title: Chaining
+  description:  
+
+- href: https://boardgamegeek.com/boardgamemechanic/2013/commodity-speculation
+  title: Commodity Speculation
+  description: 
+
+- href: https://boardgamegeek.com/boardgamemechanic/2912/contracts
+  title: Contracts
+  description:  
+
+- href: https://boardgamegeek.com/boardgamemechanic/2854/critical-hits-and-failures
+  title: Critical Hits and Failures
+  description:  						
+
+- href: https://boardgamegeek.com/boardgamemechanic/2041/card-drafting
+  title: Card Drafting
+  description: 
+
+- href: https://boardgamegeek.com/boardgamemechanic/2041/card-drafting
+  title: Chit-Pull System
+  description: 
+
+- href: https://boardgamegeek.com/boardgamemechanic/2041/card-drafting
+  title: Communication Limits
+  description: 
+
+- href: https://boardgamegeek.com/boardgamemechanic/2912/contracts
+  title: Contracts
+  description: 
+
+- href: https://boardgamegeek.com/boardgamemechanic/2990/cube-tower
+  title: Cube Tower
+  description:  						
+
+- href: https://boardgamegeek.com/boardgamemechanic/2857/card-play-conflict-resolution
+  title: Card Play Conflict Resolution
+  description: 
+
+- href: http://Closed Economy Auction | Board Game Mechanic
+  title: Closed Economy Auction 
+  description: 
+
+- href: https://boardgamegeek.com/boardgamemechanic/2023/cooperative-game
+  title: Cooperative Game
+  description: 
+
+- href: https://boardgamegeek.com/boardgamemechanic/2887/catch-leader
+  title: Catch the Leader
+  description: 
+
+- href: https://boardgamegeek.com/boardgamemechanic/2841/command-cards
+  title: Command Cards
+  description: 
+
+- href: https://boardgamegeek.com/boardgamemechanic/2922/constrained-bidding
+  title: Constrained Bidding
+  description:  
+
+- href: https://boardgamegeek.com/boardgamemechanic/2010/crayon-rail-system
+  title: Crayon Rail System
+  description: 						
+
+- href: https://boardgamegeek.com/boardgamemechanic/3004/deck-construction
+  title: Deck Construction
+  description: 
+
+- href: https://boardgamegeek.com/boardgamemechanic/2072/dice-rolling
+  title: Dice Rolling
+  description:  						
+
+- href: https://boardgamegeek.com/boardgamemechanic/2664/deck-bag-and-pool-building
+  title: Deck, Bag, and Pool Building
+  description: 
+
+- href: https://boardgamegeek.com/boardgamemechanic/2856/die-icon-resolution
+  title: Die Icon Resolution
+  description:  						
+
+- href: https://boardgamegeek.com/boardgamemechanic/3002/deduction
+  title: Deduction
+  description: 
+
+- href: https://boardgamegeek.com/boardgamemechanic/2950/different-dice-movement
+  title: Different Dice Movement
+  description: 
+
+- href: https://boardgamegeek.com/boardgamemechanic/2901/delayed-purchase
+  title: Delayed Purchase
+  description: 
+
+- href: https://boardgamegeek.com/boardgamemechanic/2984/drafting
+  title: Drafting
+  description:  						
+
+- href: https://boardgamegeek.com/boardgamemechanic/2882/elapsed-real-time-ending
+  title: Elapsed Real Time Ending
+  description:  						
+
+- href: https://boardgamegeek.com/boardgamemechanic/2043/enclosure
+  title: Enclosure
+  description:  						
+
+- href: https://boardgamegeek.com/boardgamemechanic/2875/end-game-bonuses
+  title: End Game Bonuses
+  description: 	
+
+- href: https://boardgamegeek.com/boardgamemechanic/2850/events
+  title: Events
+  description:  						
+
+- href: https://boardgamegeek.com/boardgamemechanic/2885/finale-ending
+  title: Finale Ending
+  description:  						
+
+- href: https://boardgamegeek.com/boardgamemechanic/2860/flicking
+  title: Flicking
+  description:  						
+
+- href: https://boardgamegeek.com/boardgamemechanic/2843/follow
+  title: Follow
+  description:  						
+
+- href: https://boardgamegeek.com/boardgamemechanic/2864/force-commitment
+  title: Force Commitment
+  description: 
+
+- href: https://boardgamegeek.com/boardgamemechanic/2978/grid-coverage
+  title: Grid Coverage
+  description: 
+
+- href: https://boardgamegeek.com/boardgamemechanic/2676/grid-movement
+  title: Grid Movement
+  description:  						
+
+- href: https://boardgamegeek.com/boardgamemechanic/2040/hand-management
+  title: Hand Management
+  description: 
+
+- href: https://boardgamegeek.com/boardgamemechanic/2987/hidden-victory-points
+  title: Hidden Victory Points
+  description: 
+
+- href: https://boardgamegeek.com/boardgamemechanic/2026/hexagon-grid
+  title: Hexagon Grid
+  description: 
+
+- href: https://boardgamegeek.com/boardgamemechanic/2889/highest-lowest-scoring
+  title: Highest-Lowest Scoring
+  description: 
+
+- href: https://boardgamegeek.com/boardgamemechanic/2967/hidden-movement
+  title: Hidden Movement
+  description: 
+
+- href: https://boardgamegeek.com/boardgamemechanic/3000/hot-potato
+  title: Hot Potato
+  description:  						
+
+- href: https://boardgamegeek.com/boardgamemechanic/2891/hidden-roles
+  title: Hidden Roles
+  description:  						
+
+- href: https://boardgamegeek.com/boardgamemechanic/2906/i-cut-you-choose
+  title: I Cut, You Choose
+  description: 
+
+- href: https://boardgamegeek.com/boardgamemechanic/3003/induction
+  title: Induction
+  description:  						
+
+- href: https://boardgamegeek.com/boardgamemechanic/2952/impulse-movement
+  title: Impulse Movement
+  description: 
+
+- href: https://boardgamegeek.com/boardgamemechanic/2837/interrupts
+  title: Interrupts
+  description:  						
+
+- href: https://boardgamegeek.com/boardgamemechanic/2902/income
+  title: Income
+  description: 
+
+- href: https://boardgamegeek.com/boardgamemechanic/2910/investment
+  title: Investment
+  description:  						
+
+- href: https://boardgamegeek.com/boardgamemechanic/2914/increase-value-unchosen-resources
+  title: Increase Value of Unchosen Resources
+  description:  						
+
+- href: https://boardgamegeek.com/boardgamemechanic/2871/kill-steal
+  title: Kill Steal
+  description:  						
+
+- href: https://boardgamegeek.com/boardgamemechanic/2886/king-hill
+  title: King of the Hill
+  description:  						
+
+- href: https://boardgamegeek.com/boardgamemechanic/2980/ladder-climbing
+  title: Ladder Climbing
+  description: 
+
+- href: https://boardgamegeek.com/boardgamemechanic/2975/line-sight
+  title: Line of Sight
+  description:  						
+
+- href: https://boardgamegeek.com/boardgamemechanic/3001/layering
+  title: Layering
+  description: 
+
+- href: https://boardgamegeek.com/boardgamemechanic/2904/loans
+  title: Loans
+  description:  						
+
+- href: https://boardgamegeek.com/boardgamemechanic/2824/legacy-game
+  title: Legacy Game
+  description: 
+
+- href: https://boardgamegeek.com/boardgamemechanic/2836/lose-turn
+  title: Lose a Turn
+  description:  						
+
+- href: https://boardgamegeek.com/boardgamemechanic/2039/line-drawing
+  title: Line Drawing
+  description:  						
+
+- href: https://boardgamegeek.com/boardgamemechanic/2955/mancala
+  title: Mancala
+  description: 
+
+- href: https://boardgamegeek.com/boardgamemechanic/2900/market
+  title: Market
+  description:  
+
+- href: https://boardgamegeek.com/boardgamemechanic/2047/memory
+  title: Memory
+  description: 
+
+- href: https://boardgamegeek.com/boardgamemechanic/2962/move-through-deck
+  title: Move Through Deck
+  description:  
+
+- href: https://boardgamegeek.com/boardgamemechanic/2965/multiple-maps
+  title: Multiple Maps
+  description:  						
+
+- href: https://boardgamegeek.com/boardgamemechanic/2959/map-addition
+  title: Map Addition
+  description: 
+
+- href: https://boardgamegeek.com/boardgamemechanic/3007/matching
+  title: Matching
+  description:  
+
+- href: https://boardgamegeek.com/boardgamemechanic/2863/minimap-resolution
+  title: Minimap Resolution
+  description: 
+
+- href: https://boardgamegeek.com/boardgamemechanic/2947/movement-points
+  title: Movement Points
+  description: 
+
+- href: https://boardgamegeek.com/boardgamemechanic/2927/multiple-lot-auction
+  title: Multiple-Lot Auction
+  description:  						
+
+- href: https://boardgamegeek.com/boardgamemechanic/2961/map-deformation
+  title: Map Deformation
+  description: 
+
+- href: https://boardgamegeek.com/boardgamemechanic/2949/measurement-movement
+  title: Measurement Movement 
+  description: 
+
+- href: https://boardgamegeek.com/boardgamemechanic/2011/modular-board
+  title: Modular Board
+  description: 
+
+- href: https://boardgamegeek.com/boardgamemechanic/2963/movement-template
+  title: Movement Template
+  description:  						
+
+- href: https://boardgamegeek.com/boardgamemechanic/2960/map-reduction
+  title: Map Reduction
+  description: 
+
+- href: https://boardgamegeek.com/boardgamemechanic/2981/melding-and-splaying
+  title: Melding and Splaying
+  description: 
+
+- href: https://boardgamegeek.com/boardgamemechanic/2011/modular-board
+  title: Modular Board
+  description: 
+
+- href: https://boardgamegeek.com/boardgamemechanic/2958/moving-multiple-units
+  title: Moving Multiple Units
+  description: 						
+
+- href: https://boardgamegeek.com/boardgamemechanic/2851/narrative-choice-paragraph
+  title: Narrative Choice / Paragraph
+  description:  						
+
+- href: https://boardgamegeek.com/boardgamemechanic/2915/negotiation
+  title: Negotiation
+  description:  						
+
+- href: https://boardgamegeek.com/boardgamemechanic/2081/network-and-route-building
+  title: Network and Route Building
+  description:  						
+
+- href: https://boardgamegeek.com/boardgamemechanic/2846/once-game-abilities
+  title: Once-Per-Game Abilities
+  description: 						
+
+- href: https://boardgamegeek.com/boardgamemechanic/2844/order-counters
+  title: Order Counters
+  description:  						
+
+- href: https://boardgamegeek.com/boardgamemechanic/2911/ownership
+  title: Ownership
+  description:  						
+
+- href: https://boardgamegeek.com/boardgamemechanic/2055/paper-and-pencil
+  title: Paper-and-Pencil
+  description: 
+
+- href: https://boardgamegeek.com/boardgamemechanic/2060/pattern-recognition
+  title: Pattern Recognition
+  description:  
+
+- href: https://boardgamegeek.com/boardgamemechanic/2685/player-elimination
+  title: Player Elimination
+  description: 
+
+- href: https://boardgamegeek.com/boardgamemechanic/2858/prisoners-dilemma
+  title: Prisoner&#8217;s Dilemma
+  description:  						
+
+- href: https://boardgamegeek.com/boardgamemechanic/2835/passed-action-token
+  title: Passed Action Token
+  description: 
+
+- href: https://boardgamegeek.com/boardgamemechanic/2989/physical-removal
+  title: Physical Removal
+  description:  
+
+- href: https://boardgamegeek.com/boardgamemechanic/2865/player-judge
+  title: Player Judge
+  description: 
+
+- href: https://boardgamegeek.com/boardgamemechanic/2953/programmed-movement
+  title: Programmed Movement
+  description: 
+
+- href: https://boardgamegeek.com/boardgamemechanic/2048/pattern-building
+  title: Pattern Building
+  description: 
+
+- href: https://boardgamegeek.com/boardgamemechanic/2007/pick-and-deliver
+  title: Pick-up and Deliver
+  description:  
+
+- href: https://boardgamegeek.com/boardgamemechanic/2078/point-point-movement
+  title: Point to Point Movement
+  description: 
+
+- href: https://boardgamegeek.com/boardgamemechanic/2661/push-your-luck
+  title: Push Your Luck
+  description:  						
+
+- href: https://boardgamegeek.com/boardgamemechanic/2946/pattern-movement
+  title: Pattern Movement
+  description: 
+
+- href: https://boardgamegeek.com/boardgamemechanic/2964/pieces-map
+  title: Pieces as Map
+  description:  
+
+- href: https://boardgamegeek.com/boardgamemechanic/3006/predictive-bid
+  title: Predictive Bid
+  description:  						
+
+- href: https://boardgamegeek.com/boardgamemechanic/2876/race
+  title: Race
+  description: 
+
+- href: https://boardgamegeek.com/boardgamemechanic/2831/real-time
+  title: Real-Time
+  description:  
+
+- href: https://boardgamegeek.com/boardgamemechanic/2028/role-playing
+  title: Role Playing
+  description:  						
+
+- href: https://boardgamegeek.com/boardgamemechanic/2909/random-production
+  title: Random Production
+  description: 
+
+- href: https://boardgamegeek.com/boardgamemechanic/2954/relative-movement
+  title: Relative Movement
+  description: 
+
+- href: https://boardgamegeek.com/boardgamemechanic/2892/roles-asymmetric-information
+  title: Roles with Asymmetric Information
+  description:  					
+
+- href: https://boardgamegeek.com/boardgamemechanic/2855/ratio-combat-results-table
+  title: Ratio / Combat Results Table
+  description:  
+
+- href: https://boardgamegeek.com/boardgamemechanic/2948/resource-move
+  title: Resource to Move
+  description: 
+
+- href: https://boardgamegeek.com/boardgamemechanic/2035/roll-spin-and-move
+  title: Roll / Spin and Move
+  description:  						
+
+- href: https://boardgamegeek.com/boardgamemechanic/2870/re-rolling-and-locking
+  title: Re-rolling and Locking
+  description:  
+
+- href: https://boardgamegeek.com/boardgamemechanic/2003/rock-paper-scissors
+  title: Rock-Paper-Scissors
+  description: 
+
+- href: https://boardgamegeek.com/boardgamemechanic/2813/rondel
+  title: Rondel
+  description:  						
+
+- href: https://boardgamegeek.com/boardgamemechanic/2822/scenario-mission-campaign-game
+  title: Scenario / Mission / Campaign Game
+  description: 
+
+- href: https://boardgamegeek.com/boardgamemechanic/2820/semi-cooperative-game
+  title: Semi-Cooperative Game
+  description:  
+
+- href: https://boardgamegeek.com/boardgamemechanic/2038/singing
+  title: Singing
+  description: 
+
+- href: https://boardgamegeek.com/boardgamemechanic/2991/speed-matching
+  title: Speed Matching
+  description:  
+
+- href: https://boardgamegeek.com/boardgamemechanic/2861/static-capture
+  title: Static Capture
+  description:  						
+
+- href: https://boardgamegeek.com/boardgamemechanic/2823/score-and-reset-game
+  title: Score-and-Reset Game
+  description: 
+
+- href: https://boardgamegeek.com/boardgamemechanic/2004/set-collection
+  title: Set Collection
+  description: 
+
+- href: https://boardgamegeek.com/boardgamemechanic/2821/single-loser-game
+  title: Single Loser Game
+  description: 
+
+- href: https://boardgamegeek.com/boardgamemechanic/2940/square-grid
+  title: Square Grid
+  description:  
+
+- href: https://boardgamegeek.com/boardgamemechanic/2005/stock-holding
+  title: Stock Holding
+  description:  						
+
+- href: https://boardgamegeek.com/boardgamemechanic/2016/secret-unit-deployment
+  title: Secret Unit Deployment
+  description: 
+
+- href: https://boardgamegeek.com/boardgamemechanic/2070/simulation
+  title: Simulation
+  description:  
+
+- href: https://boardgamegeek.com/boardgamemechanic/3005/slidepush
+  title: Slide/Push
+  description: 
+
+- href: https://boardgamegeek.com/boardgamemechanic/2988/stacking-and-balancing
+  title: Stacking and Balancing
+  description: 
+
+- href: https://boardgamegeek.com/boardgamemechanic/2027/storytelling
+  title: Storytelling
+  description:  						
+
+- href: https://boardgamegeek.com/boardgamemechanic/2926/selection-order-bid
+  title: Selection Order Bid
+  description: 
+
+- href: https://boardgamegeek.com/boardgamemechanic/2020/simultaneous-action-selection
+  title: Simultaneous Action Selection
+  description:  
+
+- href: https://boardgamegeek.com/boardgamemechanic/2819/solo-solitaire-game
+  title: Solo / Solitaire Game
+  description: 
+
+- href: https://boardgamegeek.com/boardgamemechanic/2853/stat-check-resolution
+  title: Stat Check Resolution
+  description: 
+
+- href: https://boardgamegeek.com/boardgamemechanic/2853/stat-check-resolution
+  title: Sudden Death Ending
+  description: </span></span> 						
+
+- href: https://boardgamegeek.com/boardgamemechanic/2686/take
+  title: Take That
+  description: 
+
+- href: https://boardgamegeek.com/boardgamemechanic/2944/three-dimensional-movement
+  title: Three Dimensional Movement
+  description:  
+
+- href: https://boardgamegeek.com/boardgamemechanic/2008/trading
+  title: Trading
+  description: 
+
+- href: https://boardgamegeek.com/boardgamemechanic/2827/turn-order-auction
+  title: Turn Orders / Auction
+  description: 
+
+- href: https://boardgamegeek.com/boardgamemechanic/2985/turn-order-random
+  title: Turn Orders / Random
+  description: 
+
+- href: https://boardgamegeek.com/boardgamemechanic/2866/targeted-clues
+  title: Targeted Clues
+  description: 
+
+- href: https://boardgamegeek.com/boardgamemechanic/2002/tile-placement
+  title: Tile Placement
+  description:  
+
+- href: https://boardgamegeek.com/boardgamemechanic/2814/traitor-game
+  title: Traitor Game
+  description: 
+
+- href: https://boardgamegeek.com/boardgamemechanic/2829/turn-order-claim-action
+  title: Turn Orders / Claim Action
+  description: 
+
+- href: https://boardgamegeek.com/boardgamemechanic/2829/turn-order-claim-action
+  title: Turn Orders / Role Order
+  description: </span></span> 						
+
+- href: https://boardgamegeek.com/boardgamemechanic/2019/team-based-game
+  title: Team-Based Game
+  description: 
+
+- href: https://boardgamegeek.com/boardgamemechanic/2663/time-track
+  title: Time Track
+  description:  
+
+- href: https://boardgamegeek.com/boardgamemechanic/2009/trick-taking
+  title: Trick-taking
+  description: 
+
+- href: https://boardgamegeek.com/boardgamemechanic/2830/turn-order-pass-order
+  title: Turn Orders / Pass Order
+  description: 
+
+- href: https://boardgamegeek.com/boardgamemechanic/2826/turn-order-stat-based
+  title: Turn Orders / Stat-Based
+  description: 						
+
+- href: https://boardgamegeek.com/boardgamemechanic/2849/tech-trees-tech-tracks
+  title: Tech Trees / Tech Tracks
+  description: 
+
+- href: https://boardgamegeek.com/boardgamemechanic/2939/track-movement
+  title: Track Movement
+  description: 
+
+- href: https://boardgamegeek.com/boardgamemechanic/2888/tug-war
+  title: Tug of War
+  description: 
+
+- href: https://boardgamegeek.com/boardgamemechanic/2828/turn-order-progressive
+  title: Turn Orders / Progressive
+  description: 
+
+- href: https://boardgamegeek.com/boardgamemechanic/2079/variable-phase-order
+  title: Variable Phase 
+  description: 
+
+- href: https://boardgamegeek.com/boardgamemechanic/2079/variable-phase-order
+  title: Order
+  description: 
+
+- href: https://boardgamegeek.com/boardgamemechanic/2017/voting
+  title: Voting
+  description:  						
+
+- href: https://boardgamegeek.com/boardgamemechanic/2015/variable-player-powers
+  title: Variable Player Powers
+  description: 						
+
+- href: https://boardgamegeek.com/boardgamemechanic/2897/variable-setup
+  title: Variable Setup
+  description: 
+
+- href: https://boardgamegeek.com/boardgamemechanic/2874/victory-points-resource
+  title: Victory Points as a Resource
+  description: 						
+
+- href: https://boardgamegeek.com/boardgamemechanic/2082/worker-placement
+  title: Worker Placement
+  description:  						
+
+- href: https://boardgamegeek.com/boardgamemechanic/2935/worker-placement-dice-workers
+  title: Worker Placement with Dice Workers
+  description:
+
+- href: https://boardgamegeek.com/boardgamemechanic/2933/worker-placement-different-worker-types
+  title: Worker Placement, Different Worker Types
+  description:
