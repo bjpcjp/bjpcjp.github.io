@@ -129,6 +129,7 @@
 - href: https://boardgamegeek.com/boardgamemechanic/2080/area-majority-influence
   title: Area Majority / Influence
   description:
+    Multiple players may occupy a space and gain benefits based on their proportional presence in the space.
 
 - href: https://boardgamegeek.com/boardgamemechanic/2930/auction-dexterity
   title: Auctions (Dexterity)
@@ -173,53 +174,107 @@
 #  title: Auctions (Once Around)
 #  description: 				
 
-- href: https://boardgamegeek.com/boardgamemechanic/2014/betting-and-bluffing
+- href: https://www.boardgamefinds.com/mechanic/bettingandbluffing
   title: Betting and Bluffing
   description: 
+    Players are given the opportunity to place bets on certain outcomes. 
+    These bets can range from predicting the winner of a race to guessing the outcome of a dice roll. 
+    The amount of risk is usually determined by the player, allowing for a variety of strategies to be employed.
+    Bluffing involves deceiving opponents by making false claims or hiding information. 
+    Players may bluff about the strength of their hand, their intentions, or their knowledge of the game's mechanics. 
+    Bluffing can be a powerful tool to manipulate opponents and gain an advantage, but it also carries the risk of being exposed and losing credibility.
+    Both betting and bluffing mechanics rely heavily on player interaction and observation. 
+    Reading opponents' behavior and making calculated decisions based on limited information are key skills in games that utilize this mechanic.
 
-- href: https://boardgamegeek.com/boardgamemechanic/2957/bias
+- href: https://www.boardgamefinds.com/mechanic/bias
   title: Bias
-  description:  						
+  description:  	
+    Bias can manifest in various ways within a game.
+    It can be implemented through randomized events, variable player powers, or asymmetric player roles. 
+    They can affect resource allocation, movement options, or even victory conditions. 
+    The presence of bias creates a dynamic and ever-changing game environment, challenging players to think on their feet and adjust their plans accordingly.
+
 
 - href: https://boardgamegeek.com/boardgamemechanic/2999/bingo
   title: Bingo
-  description:  						
+  description: 
+    Items are selected at random, and each player needs to use the items for their own player boards. 						
 
-- href: https://boardgamegeek.com/boardgamemechanic/2913/bribery
+- href: https://www.boardgamefinds.com/mechanic/bribery
   title: Bribery
-  description:  						
+  description:
+    Players are presented with situations where they can gain an advantage by persuading or bribing other players. 
+    This can be done through the exchange of resources, promises of future assistance, or even leveraging personal relationships within the game's narrative.
+    Bribery can impact gameplay in various ways. 
+    It can create alliances and rivalries among players, as they seek to gain the upper hand by forming temporary partnerships 
+    or by exploiting the weaknesses of others. 
+    It also introduces a level of uncertainty, as players must navigate the delicate balance between offering enticing bribes 
+    and avoiding potential backlash from their opponents.
+
 
 - href: https://boardgamegeek.com/boardgamemechanic/2018/campaign-battle-card-driven
   title: Campaign / Battle Card Driven
   description: 
+    A relatively recent development in wargames that focuses the players' actions on cards they have in their hand. 
+    Performing a single action uses a single card; cards will often be multi-purpose.
+    Action/Event is a similar but more distinctive mechanic. 
+    Games where the cards are used to deploy specific units are considered to be using Command Cards. 
+    Games where cards are used to affect the outcome of battles are considered to be using Card Play Conflict Resolution.
+
 
 - href: https://boardgamegeek.com/boardgamemechanic/2956/chaining
   title: Chaining
   description:  
+    Pieces are stationary but are built out in chains. This can give a dynamic sense of motion to the game, even though the pieces do not move.
 
 - href: https://boardgamegeek.com/boardgamemechanic/2013/commodity-speculation
   title: Commodity Speculation
   description: 
+    A subcategory of Investment. Players buy and sell commodities as they change value throughout the game.
+    Commodity Speculation includes both Investment games in which players have some indirect control over asset values, 
+    but have a hard time hurting others without hurting themselves; and Collusion games, 
+    in which players have huge direct control in manipulating asset values, forcing players to help others and manage shifting alliances.
 
 - href: https://boardgamegeek.com/boardgamemechanic/2912/contracts
   title: Contracts
   description:  
+    Players fulfill Contracts to earn rewards. 
+    They take the form of special goals requiring coordination and planning beyond simply being "first past the post". 
+    They can be public, where all players compete to be the first to complete them, or private, where only the owning player may fulfill them.
+
 
 - href: https://boardgamegeek.com/boardgamemechanic/2854/critical-hits-and-failures
   title: Critical Hits and Failures
-  description:  						
+  description:  	
+    Dice are rolled. Those exceeding a target number generate a success. 
+    Certain rolls (typically the highest and/or lowest on the die) generate additional success or extreme failure.
+
 
 - href: https://boardgamegeek.com/boardgamemechanic/2041/card-drafting
   title: Card Drafting
   description: 
+    Players pick cards from a limited subset, such as a common pool, to gain an advantage or to assemble hands of cards to meet objectives within the game. 
+
 
 - href: https://boardgamegeek.com/boardgamemechanic/2041/card-drafting
   title: Chit-Pull System
   description: 
+    Used in wargames to simulate simultaneous action on the battlefield. 
+    In such a system the current player randomly draws a chit or counter identifying a group of units which may now be moved. 
+    Schemes include moving any units commanded by a particular leader, 
+    moving units of a particular quality or activating units not for movement but for fighting.
+
 
 - href: https://boardgamegeek.com/boardgamemechanic/2041/card-drafting
   title: Communication Limits
   description: 
+    Players are given roles or objectives that they must fulfill. However, they are not allowed to freely discuss their actions or plans with other players. 
+    Instead, they must rely on limited forms of communication, such as non-verbal cues, gestures, or predetermined signals, 
+    to convey their intentions or coordinate their moves.
+    This introduces a level of uncertainty and tension as players must interpret their teammates' actions 
+    and make decisions based on incomplete information. 
+    It requires players to carefully observe and analyze the game state, as well as anticipate their teammates' needs and intentions.
+
 
 - href: https://boardgamegeek.com/boardgamemechanic/2912/contracts
   title: Contracts
@@ -227,15 +282,27 @@
 
 - href: https://boardgamegeek.com/boardgamemechanic/2990/cube-tower
   title: Cube Tower
-  description:  						
+  description:
+    Actions are resolved by dropping cubes of various colors into a tower and seeing which emerge at the bottom.
+    Cubes that do not emerge may come out in future actions. This is a form of a shared Deck, Bag, and Pool Building as implemented by a Drop Tower.
 
 - href: https://boardgamegeek.com/boardgamemechanic/2857/card-play-conflict-resolution
   title: Card Play Conflict Resolution
   description: 
+    Each player simultaneously or sequentially plays one or more cards. 
+    These modify the base outcome of a conflict and allow various special abilities to apply.
+    This can function similarly to Area Majority / Influence, but with a discrete resolution or award of the conflict target, 
+    rather than by dynamic/shifting control of a fixed asset. 
+    It is similar to Force Commitment, but that mechanic presupposes a more liquid resource where the quantity can be chosen.
+
 
 - href: http://Closed Economy Auction | Board Game Mechanic
-  title: Closed Economy Auction 
+  title: Auction (Closed Economy) 
   description: 
+    This involves players bidding on items or resources using a limited pool of currency within the game. 
+    Unlike open economy auctions where players can introduce external currency, closed economy auctions restrict bidding 
+    to the resources provided within the game.
+
 
 - href: https://boardgamegeek.com/boardgamemechanic/2023/cooperative-game
   title: Cooperative Game
@@ -244,22 +311,40 @@
 - href: https://boardgamegeek.com/boardgamemechanic/2887/catch-leader
   title: Catch the Leader
   description: 
+    Players are motivated to monitor the progress of their opponents and make strategic decisions accordingly. 
+    The mechanic incorporates elements such as variable turn order, resource management, or player interaction to create opportunities 
+    for players to catch up or maintain their lead.
+
 
 - href: https://boardgamegeek.com/boardgamemechanic/2841/command-cards
   title: Command Cards
   description: 
+    Players typically start with a hand of these cards, which they can use throughout the game to influence the outcome. 
+    Each card usually has a specific effect or ability that can be used to manipulate the game state, 
+    such as moving units, attacking enemies, or activating special abilities.
+
 
 - href: https://boardgamegeek.com/boardgamemechanic/2922/constrained-bidding
   title: Constrained Bidding
   description:  
+    Players are given a limited number of tokens or resources. They represent currency, influence, or other valuable assets. 
+    Players must allocate their tokens to bid on various actions, resources, or opportunities presented during the game.
+
 
 - href: https://boardgamegeek.com/boardgamemechanic/2010/crayon-rail-system
   title: Crayon Rail System
-  description: 						
+  description: 	
+    The Crayon Rail System is a subcategory of Route/Network Building. 
+    Types of these games use crayon or other non-permanent methods of making connecting lines on a board, often eraseable. 
+    This appears to be a mechanism used mostly in the 70's, 80's, and 90's, and not quite as popular today. 
 
 - href: https://boardgamegeek.com/boardgamemechanic/3004/deck-construction
   title: Deck Construction
   description: 
+    Most people are familiar with games that use decks of cards. 
+    A deck building game builds upon this idea, but instead of having 108 shared cards (Uno), 
+    you have your own deck. And when you start the game everyone’s decks are the same. 
+    But as the game goes on, you purchase cards from a pool "face up" cards. 
 
 - href: https://boardgamegeek.com/boardgamemechanic/2072/dice-rolling
   title: Dice Rolling
@@ -268,6 +353,10 @@
 - href: https://boardgamegeek.com/boardgamemechanic/2664/deck-bag-and-pool-building
   title: Deck, Bag, and Pool Building
   description: 
+    Players play cards out of individual decks, seeking to acquire new cards and to play through their decks iteratively, 
+    improving them over time through card acquisition or card elimination.
+    It may include a "random-draw" to form a hand from the deck for the current round.
+    The deck can be reset once the draw pile is exhausted, or it may allow access to all available cards at once until the discards are retrieved. 
 
 - href: https://boardgamegeek.com/boardgamemechanic/2856/die-icon-resolution
   title: Die Icon Resolution
@@ -276,6 +365,7 @@
 - href: https://boardgamegeek.com/boardgamemechanic/3002/deduction
   title: Deduction
   description: 
+    Players are trying to determine the identity of hidden information based on clues.
 
 - href: https://boardgamegeek.com/boardgamemechanic/2950/different-dice-movement
   title: Different Dice Movement
@@ -284,6 +374,10 @@
 - href: https://boardgamegeek.com/boardgamemechanic/2901/delayed-purchase
   title: Delayed Purchase
   description: 
+    Delayed Purchase introduces a twist to the traditional purchasing aspect of gameplay. 
+    Unlike the typical approach where players can immediately acquire items or resources, 
+    Delayed Purchase requires players to plan ahead and strategically decide when to make their purchases. 
+
 
 - href: https://boardgamegeek.com/boardgamemechanic/2984/drafting
   title: Drafting
@@ -295,7 +389,11 @@
 
 - href: https://boardgamegeek.com/boardgamemechanic/2043/enclosure
   title: Enclosure
-  description:  						
+  description:
+    Players place or move pieces in order to surround areas contiguously with their pieces. 
+    The oldest and most famous Area Enclosure game is of course Go, but many newer examples also exist.
+    Area Enclosure is different than Area Majority / Influence because players actually create the areas on a gridded board during the course of play, 
+    whereas in Area Majority/Influence the actual areas are pre-existing and players are merely competing control over them.				
 
 - href: https://boardgamegeek.com/boardgamemechanic/2875/end-game-bonuses
   title: End Game Bonuses
@@ -387,27 +485,37 @@
 
 - href: https://boardgamegeek.com/boardgamemechanic/2871/kill-steal
   title: Kill Steal
-  description:  						
+  description:  
+    Players contribute towards completing a task, but only the player who finally completes it gets a particular benefit or bonus reward (even if others share in the base level benefit).						
 
 - href: https://boardgamegeek.com/boardgamemechanic/2886/king-hill
   title: King of the Hill
-  description:  						
+  description:
+    This mechanism rewards players with points or other advantages for occupying a special position on the board.
 
 - href: https://boardgamegeek.com/boardgamemechanic/2980/ladder-climbing
   title: Ladder Climbing
   description: 
+    Players play one card or a set of related cards. 
+    Subsequent players must play cards of an equal or higher value. 
+    The last player to successfully play wins the right to start a new round of Climbing.
+
 
 - href: https://boardgamegeek.com/boardgamemechanic/2975/line-sight
   title: Line of Sight
-  description:  						
+  description:  
+    Units may only see certain areas.
+
 
 - href: https://boardgamegeek.com/boardgamemechanic/3001/layering
   title: Layering
   description: 
+    Components are placed above other components, partially covering the ones below, or overlapping in various ways. Only the topmost visible icons/areas are active.
 
 - href: https://boardgamegeek.com/boardgamemechanic/2904/loans
   title: Loans
-  description:  						
+  description:
+    Players may take a Loan from the bank to get more money.					
 
 - href: https://boardgamegeek.com/boardgamemechanic/2824/legacy-game
   title: Legacy Game
@@ -419,7 +527,9 @@
 
 - href: https://boardgamegeek.com/boardgamemechanic/2039/line-drawing
   title: Line Drawing
-  description:  						
+  description: 
+    Lines are used to connect objects, to isolate objects, or to create areas.
+
 
 - href: https://boardgamegeek.com/boardgamemechanic/2955/mancala
   title: Mancala
@@ -458,8 +568,13 @@
   description: 
 
 - href: https://boardgamegeek.com/boardgamemechanic/2927/multiple-lot-auction
-  title: Multiple-Lot Auction
-  description:  						
+  title: Auction (Multiple-Lot)
+  description:  	
+    A type of auction where several items or lots are auctioned off at the same time. 
+    Players bid on one or multiple lots, and the highest bidder(s) win the right to purchase the item(s). 
+    The items being auctioned may be of different values or have different benefits, 
+    and players must decide which items they want to bid on and how much they are willing to spend. 
+
 
 - href: https://boardgamegeek.com/boardgamemechanic/2961/map-deformation
   title: Map Deformation
@@ -587,7 +702,9 @@
 
 - href: https://boardgamegeek.com/boardgamemechanic/2028/role-playing
   title: Role Playing
-  description:  						
+  description: 
+    Players control a character that improves over time. It can encourage storytelling.
+
 
 - href: https://boardgamegeek.com/boardgamemechanic/2909/random-production
   title: Random Production
@@ -623,7 +740,11 @@
 
 - href: https://boardgamegeek.com/boardgamemechanic/2813/rondel
   title: Rondel
-  description:  						
+  description:
+    Available are represented as pie wedges in a circle.
+    Each player has one or more tokens on the wedges.
+    On their turn, they may move their token around the Rondel and perform the Action indicated by the wedge where they stop. 
+    It is typically more costly to move further around the Rondel.
 
 - href: https://boardgamegeek.com/boardgamemechanic/2822/scenario-mission-campaign-game
   title: Scenario / Mission / Campaign Game
@@ -632,6 +753,7 @@
 - href: https://boardgamegeek.com/boardgamemechanic/2820/semi-cooperative-game
   title: Semi-Cooperative Game
   description:  
+    Players coordinate their actions to achieve a common win condition or conditions. Players all win or lose the game together.
 
 - href: https://boardgamegeek.com/boardgamemechanic/2038/singing
   title: Singing
@@ -791,7 +913,15 @@
 
 - href: https://boardgamegeek.com/boardgamemechanic/2017/voting
   title: Voting
-  description:  						
+  description:  
+    Players are presented with a decision or set of options that require a group consensus. 
+    Each player can voice their opinion and cast their vote, which can influence the outcome. 
+    The voting process may involve open discussion, secret ballots, or a combination of both.
+    The functionality varies depending on the game. Some may require a simple majority vote; 
+    others may require a unanimous decision or a specific threshold. 
+    The results of the vote can have a wide range of effects
+    such as determining the next course of action, allocating resources, or even eliminating players from the game.
+
 
 - href: https://boardgamegeek.com/boardgamemechanic/2015/variable-player-powers
   title: Variable Player Powers

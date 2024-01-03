@@ -2,7 +2,7 @@
 name: board game design mechanisms
 date: 2023-12-21
 layout: default-foundation-20210515
-tags: game-design
+tags: game-theory
 ---
 
 {% assign dataset = site.data.gametheory.boardgamemechs-20231221 | sort: "title" %}
@@ -16,11 +16,6 @@ tags: game-design
 {% for link in dataset %}
 
 <div class="card">
-	<!--
-	<div class="card-divider">
-		<bold><a href="{{link.href}}">{{link.title}}</a></bold><br>
-	</div>
-	-->
 
 	<div class="card-divider">
 	  <a href="https://duckduckgo.com/?q=board+game+mechanics+list+{{link.title}}">{{link.title}}</a>
