@@ -5,7 +5,7 @@ layout: default-foundation-20210515
 tags: game-design
 ---
 
-{% assign dataset = site.data.gametheory.boardgamemechs-20231221 %}
+{% assign dataset = site.data.gametheory.boardgamemechs-20231221 | sort: "title" %}
 
 <div class="callout">
 	<h2>{{page.name}}</h2>
@@ -31,6 +31,13 @@ tags: game-design
 		<img src="{{link.image}}">
 	</div>
 	{% endif %}
+
+	{% if link.description %}
+	<div class="card-divider">
+		<p>{{link.description}}</p>
+	</div>
+	{% endif %}
+
 </div>
 
 {% endfor %}
