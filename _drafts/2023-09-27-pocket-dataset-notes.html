@@ -1,0 +1,46 @@
+---
+name: Pocket dataset notes
+date: 2023-09-27
+layout: default-foundation-20210515
+tags: pocket datasets
+---
+{% assign show_images = true %}
+{% assign pocket_archive = site.data.pocket.pocket_prodmgmt_20230926 %}
+{% assign articles = pocket_archive.list | limit: 20 %}
+
+<div class="callout">
+	<h2>Pocket archive notes - Product Management</h2>
+  {{articles.size}}
+</div>
+
+<div style="columns: 2;">
+
+{% for article in articles %}
+  {% if article[1].resolved_title != "" %}
+    <div class="card">
+      <div class="card-divider">
+        <strong><a href="{{article[1].given_url}}">{{article[1].resolved_title}}</a></strong> &nbsp;
+        (Added: {{article[1].time_added | date: "%-d %b %y"}})
+      </div>
+      
+      {% if show_images==true %}
+        <div class="card-image">
+          <img src="{{article[1].top_image_url}}">
+        </div>
+      {% endif %}
+
+      <div class="card-section">
+        <p>{{article[1].excerpt}}</p>
+      </div>
+
+      <div class="card-section">
+        tags: {% for tag in article[1].tags %}
+          {{tag[0]}} &nbsp;
+        {% endfor %}
+      </div>
+
+    </div>
+  {% endif %}
+{% endfor %}
+
+</div>

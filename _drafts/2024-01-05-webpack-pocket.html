@@ -1,0 +1,37 @@
+---
+layout: default-foundation-20210515
+title: Webpack articles
+permalink: /cartoons
+date: 2024-01-05
+tags: webpack
+---
+
+<div class="callout">
+  <h2>Webpack articles - from my Pocket</h2>
+</div>
+
+{% assign datafile = site.data.pocket.webpack-20240105 %}
+{% assign data     = datafile["list"] %}
+
+{% for article in data %}
+
+  {% assign url = article[1]['resolved_url'] %}
+  {% assign main_image   = article[1]['image']['src'] %}
+  {% assign backup_image = article[1]['top_image_url'] %}
+
+  <div class="card">
+    <div class="card-divider">
+      <a href="{{url}}">
+        {% if article[1]['resolved_title'] == "" %}
+          {{url}}
+        {% else %}
+          {{article[1]['resolved_title']}}
+        {% endif %}
+      </a>
+    </div>
+    <div class="card-section">
+      {{article[1]['excerpt']}}
+    </div>
+  </div>
+
+{% endfor %}

@@ -1,0 +1,409 @@
+{
+  "status": 1,
+  "complete": 1,
+  "list": {
+    "573055104": {
+      "item_id": "573055104",
+      "resolved_id": "573055104",
+      "given_url": "http://webpack.github.io/docs/tutorials/getting-started/",
+      "given_title": "",
+      "favorite": "0",
+      "status": "1",
+      "time_added": "1638240363",
+      "time_updated": "1642373131",
+      "time_read": "1642373130",
+      "time_favorited": "0",
+      "sort_id": 0,
+      "resolved_title": "",
+      "resolved_url": "https://webpack.github.io/docs/tutorials/getting-started/",
+      "excerpt": "",
+      "is_article": "0",
+      "is_index": "0",
+      "has_video": "0",
+      "has_image": "0",
+      "word_count": "0",
+      "lang": "",
+      "tags": {
+        "webpack": {
+          "item_id": "573055104",
+          "tag": "webpack"
+        }
+      },
+      "listen_duration_estimate": 0
+    },
+    "1422797471": {
+      "item_id": "1422797471",
+      "resolved_id": "1422797471",
+      "given_url": "https://webpack.js.org/",
+      "given_title": "",
+      "favorite": "0",
+      "status": "1",
+      "time_added": "1638240363",
+      "time_updated": "1642373047",
+      "time_read": "1642373047",
+      "time_favorited": "0",
+      "sort_id": 4,
+      "resolved_title": "webpack",
+      "resolved_url": "https://webpack.js.org/",
+      "excerpt": "Then run webpack on the command-line to create bundle.js. Get Started quickly in our Guides section, or dig into the Concepts section for more high-level information on the core notions behind webpack.",
+      "is_article": "0",
+      "is_index": "1",
+      "has_video": "0",
+      "has_image": "0",
+      "word_count": "166",
+      "lang": "en",
+      "top_image_url": "https://webpack.js.org/icon-pwa-512x512.d3dae4189855b3a72ff9.png",
+      "tags": {
+        "javascript": {
+          "item_id": "1422797471",
+          "tag": "javascript"
+        },
+        "webpack": {
+          "item_id": "1422797471",
+          "tag": "webpack"
+        }
+      },
+      "listen_duration_estimate": 64
+    },
+    "3351083769": {
+      "item_id": "3351083769",
+      "resolved_id": "3351083769",
+      "given_url": "https://dev.to/pat_the99/the-four-core-concepts-of-webpack-49c5",
+      "given_title": "The Four Core Concepts of webpack",
+      "favorite": "0",
+      "status": "1",
+      "time_added": "1623100829",
+      "time_updated": "1623101514",
+      "time_read": "1623101515",
+      "time_favorited": "0",
+      "sort_id": 1,
+      "resolved_title": "The Four Core Concepts of webpack",
+      "resolved_url": "https://dev.to/pat_the99/the-four-core-concepts-of-webpack-49c5",
+      "excerpt": "webpack is a famous static module bundler. Module bundlers are used to bundle Javascript modules into a single file, which can then be executed by the browser. They help manage the dependencies in your code and load assets following the dependency order. These configurations are added in webpack.",
+      "is_article": "1",
+      "is_index": "0",
+      "has_video": "0",
+      "has_image": "1",
+      "word_count": "550",
+      "lang": "en",
+      "time_to_read": 3,
+      "top_image_url": "https://res.cloudinary.com/practicaldev/image/fetch/s--5cmA6Osx--/c_imagga_scale,f_auto,fl_progressive,h_500,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/oep6sp9qveq8wasm66sy.jpg",
+      "tags": {
+        "javascript": {
+          "item_id": "3351083769",
+          "tag": "javascript"
+        },
+        "webpack": {
+          "item_id": "3351083769",
+          "tag": "webpack"
+        }
+      },
+      "authors": {
+        "16123520": {
+          "item_id": "3351083769",
+          "author_id": "16123520",
+          "name": "Patricia Nicole",
+          "url": ""
+        },
+        "128735370": {
+          "item_id": "3351083769",
+          "author_id": "128735370",
+          "name": "jun ⁷",
+          "url": ""
+        },
+        "149339011": {
+          "item_id": "3351083769",
+          "author_id": "149339011",
+          "name": "・3 min read",
+          "url": ""
+        }
+      },
+      "image": {
+        "item_id": "3351083769",
+        "src": "https://res.cloudinary.com/practicaldev/image/fetch/s--vxTZstEI--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/oep6sp9qveq8wasm66sy.jpg",
+        "width": "1000",
+        "height": "420"
+      },
+      "images": {
+        "1": {
+          "item_id": "3351083769",
+          "image_id": "1",
+          "src": "https://res.cloudinary.com/practicaldev/image/fetch/s--vxTZstEI--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/oep6sp9qveq8wasm66sy.jpg",
+          "width": "1000",
+          "height": "420",
+          "credit": "",
+          "caption": ""
+        }
+      },
+      "domain_metadata": {
+        "name": "The Practical Dev",
+        "logo": "https://logo.clearbit.com/dev.to?size=800",
+        "greyscale_logo": "https://logo.clearbit.com/dev.to?size=800&greyscale=true"
+      },
+      "listen_duration_estimate": 213
+    },
+    "3375562624": {
+      "item_id": "3375562624",
+      "resolved_id": "3375562624",
+      "given_url": "https://dev.to/shahershamroukh/webpacker-in-rails-6-4j5k",
+      "given_title": "Webpacker in Rails 6",
+      "favorite": "0",
+      "status": "1",
+      "time_added": "1625663076",
+      "time_updated": "1625673533",
+      "time_read": "1625673533",
+      "time_favorited": "0",
+      "sort_id": 2,
+      "resolved_title": "Webpacker in Rails 6",
+      "resolved_url": "https://dev.to/shahershamroukh/webpacker-in-rails-6-4j5k",
+      "excerpt": "Webpacker is the default JavaScript compiler for Rails 6 applications. Which means that all the JavaScript code will be handled by Webpacker instead of the old assets pipeline aka Sprockets. Now Webpacker is different from asset pipeline in it's philosophy as well as it's implementation.",
+      "is_article": "1",
+      "is_index": "0",
+      "has_video": "0",
+      "has_image": "1",
+      "word_count": "653",
+      "lang": "en",
+      "time_to_read": 3,
+      "top_image_url": "https://res.cloudinary.com/practicaldev/image/fetch/s--Nl0Okdt8--/c_imagga_scale,f_auto,fl_progressive,h_500,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/mwzhpu5jvl6gobw1ip2j.png",
+      "tags": {
+        "bundler": {
+          "item_id": "3375562624",
+          "tag": "bundler"
+        },
+        "rubyonrails": {
+          "item_id": "3375562624",
+          "tag": "rubyonrails"
+        },
+        "webpack": {
+          "item_id": "3375562624",
+          "tag": "webpack"
+        },
+        "webpacker": {
+          "item_id": "3375562624",
+          "tag": "webpacker"
+        }
+      },
+      "authors": {
+        "2475840": {
+          "item_id": "3375562624",
+          "author_id": "2475840",
+          "name": "Email",
+          "url": ""
+        },
+        "2497141": {
+          "item_id": "3375562624",
+          "author_id": "2497141",
+          "name": "location",
+          "url": ""
+        },
+        "2638393": {
+          "item_id": "3375562624",
+          "author_id": "2638393",
+          "name": "work",
+          "url": ""
+        },
+        "2641203": {
+          "item_id": "3375562624",
+          "author_id": "2641203",
+          "name": "Egypt",
+          "url": ""
+        },
+        "3359946": {
+          "item_id": "3375562624",
+          "author_id": "3359946",
+          "name": "Education",
+          "url": ""
+        },
+        "7263894": {
+          "item_id": "3375562624",
+          "author_id": "7263894",
+          "name": "graduate",
+          "url": ""
+        },
+        "9646810": {
+          "item_id": "3375562624",
+          "author_id": "9646810",
+          "name": "Joined",
+          "url": ""
+        },
+        "52750713": {
+          "item_id": "3375562624",
+          "author_id": "52750713",
+          "name": "Full-Stack Developer",
+          "url": ""
+        },
+        "149339011": {
+          "item_id": "3375562624",
+          "author_id": "149339011",
+          "name": "・3 min read",
+          "url": ""
+        },
+        "149593696": {
+          "item_id": "3375562624",
+          "author_id": "149593696",
+          "name": "Shaher Shamroukh",
+          "url": ""
+        },
+        "150736477": {
+          "item_id": "3375562624",
+          "author_id": "150736477",
+          "name": "Nov 5, 2020",
+          "url": ""
+        },
+        "153292167": {
+          "item_id": "3375562624",
+          "author_id": "153292167",
+          "name": "Jul 7",
+          "url": ""
+        },
+        "153311190": {
+          "item_id": "3375562624",
+          "author_id": "153311190",
+          "name": "shahershamroukh@gmail.com",
+          "url": ""
+        },
+        "153311191": {
+          "item_id": "3375562624",
+          "author_id": "153311191",
+          "name": "Full-stack Developer Enthusiastic, with a love for clean code, and doing interesting things that mat",
+          "url": ""
+        }
+      },
+      "image": {
+        "item_id": "3375562624",
+        "src": "https://res.cloudinary.com/practicaldev/image/fetch/s--WKZXEfBQ--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/mwzhpu5jvl6gobw1ip2j.png",
+        "width": "1000",
+        "height": "420"
+      },
+      "images": {
+        "1": {
+          "item_id": "3375562624",
+          "image_id": "1",
+          "src": "https://res.cloudinary.com/practicaldev/image/fetch/s--WKZXEfBQ--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/mwzhpu5jvl6gobw1ip2j.png",
+          "width": "1000",
+          "height": "420",
+          "credit": "",
+          "caption": ""
+        },
+        "2": {
+          "item_id": "3375562624",
+          "image_id": "2",
+          "src": "https://res.cloudinary.com/practicaldev/image/fetch/s--EjEs8i79--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/1kp8ci6wytjcps0nwfky.png",
+          "width": "0",
+          "height": "0",
+          "credit": "",
+          "caption": ""
+        },
+        "3": {
+          "item_id": "3375562624",
+          "image_id": "3",
+          "src": "https://res.cloudinary.com/practicaldev/image/fetch/s--p_4yEt13--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/8idc6yhtjo17b7lcdgpz.png",
+          "width": "0",
+          "height": "0",
+          "credit": "",
+          "caption": ""
+        }
+      },
+      "domain_metadata": {
+        "name": "The Practical Dev",
+        "logo": "https://logo.clearbit.com/dev.to?size=800",
+        "greyscale_logo": "https://logo.clearbit.com/dev.to?size=800&greyscale=true"
+      },
+      "listen_duration_estimate": 253
+    },
+    "3405058213": {
+      "item_id": "3405058213",
+      "resolved_id": "3405058213",
+      "given_url": "https://world.hey.com/dhh/modern-web-apps-without-javascript-bundling-or-transpiling-a20f2755",
+      "given_title": "Modern web apps without JavaScript bundling or transpiling",
+      "favorite": "0",
+      "status": "1",
+      "time_added": "1629386935",
+      "time_updated": "1629418149",
+      "time_read": "1629418145",
+      "time_favorited": "0",
+      "sort_id": 5,
+      "resolved_title": "Modern web apps without JavaScript bundling or transpiling",
+      "resolved_url": "https://world.hey.com/dhh/modern-web-apps-without-javascript-bundling-or-transpiling-a20f2755",
+      "excerpt": "I didn't much care for vanilla JavaScript prior to ES6. Through all of the 2000s, I chased different approaches to avoid writing too much of it. First there was RJS (Ruby-to-JavaScript). Then there was CoffeeScript.",
+      "is_article": "1",
+      "is_index": "0",
+      "has_video": "0",
+      "has_image": "0",
+      "word_count": "1414",
+      "lang": "en",
+      "time_to_read": 6,
+      "top_image_url": "https://world.hey.com/dhh/avatar-20210222112907000000-293866624",
+      "tags": {
+        "javascript": {
+          "item_id": "3405058213",
+          "tag": "javascript"
+        },
+        "rubyonrails": {
+          "item_id": "3405058213",
+          "tag": "rubyonrails"
+        },
+        "webpack": {
+          "item_id": "3405058213",
+          "tag": "webpack"
+        }
+      },
+      "listen_duration_estimate": 547
+    },
+    "3731975703": {
+      "item_id": "3731975703",
+      "resolved_id": "3731975703",
+      "given_url": "https://vercel.com/blog/turbopack",
+      "given_title": "Introducing Turbopack: Rust-based successor to Webpack – Vercel",
+      "favorite": "0",
+      "status": "1",
+      "time_added": "1666748971",
+      "time_updated": "1666783542",
+      "time_read": "1666783541",
+      "time_favorited": "0",
+      "sort_id": 3,
+      "resolved_title": "Introducing Turbopack: Rust-based successor to Webpack",
+      "resolved_url": "https://vercel.com/blog/turbopack",
+      "excerpt": "Vercel's mission is to provide the speed and reliability innovators need to create at the moment of inspiration. Last year, we focused on speeding up the way Next.js bundles your apps. Each time we moved from a JavaScript-based tool to a Rust-based one, we saw enormous improvements.",
+      "is_article": "1",
+      "is_index": "1",
+      "has_video": "0",
+      "has_image": "0",
+      "word_count": "474",
+      "lang": "en",
+      "top_image_url": "https://assets.vercel.com/image/upload/contentful/image/e5382hct74si/7BttWlDN0aYE7Hmjdeu7yR/f7141661521c8c12b2fa5b0ac4dd7536/Turbopack.png",
+      "tags": {
+        "bundling": {
+          "item_id": "3731975703",
+          "tag": "bundling"
+        },
+        "tools": {
+          "item_id": "3731975703",
+          "tag": "tools"
+        },
+        "webdev": {
+          "item_id": "3731975703",
+          "tag": "webdev"
+        },
+        "webpack": {
+          "item_id": "3731975703",
+          "tag": "webpack"
+        }
+      },
+      "authors": {
+        "56244192": {
+          "item_id": "3731975703",
+          "author_id": "56244192",
+          "name": "Tobias Koppers",
+          "url": ""
+        }
+      },
+      "listen_duration_estimate": 183
+    }
+  },
+  "error": "nil",
+  "search_meta": {
+    "search_type": "normal"
+  },
+  "since": 1704470986
+}

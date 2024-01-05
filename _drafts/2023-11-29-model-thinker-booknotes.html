@@ -1,0 +1,269 @@
+---
+name: The Model Thinker book notes
+date: 2023-11-21
+layout: default-foundation-20210515
+tags: prodmgmt mental-models booknotes
+outline:
+  - chapter: 
+    title: 1) intro
+    pdf: MT-ch01-many-model-thinker.pdf
+    topics:
+      - name:
+        text: <p>This is a book about models. It describes dozens of models in
+              straightforward language and explains how to apply them. It promotes a many-model thinking approach - the application of ensembles of models to make sense of complex phenomena.</p> 
+
+              <p>The models we cover fall into three classes - simplifications of the world, mathematical analogies, and exploratory, artificial constructs.</p>
+
+  - chapter: 
+    title: 2) why models?
+    pdf: MT-ch02-why-model.pdf
+    topics:
+      - name:
+        text: <strong>Types of Models</strong><br>
+              <strong>REDCAPE (reason, explain, design, communicate, act, predict, explore)</strong>
+
+  - chapter:
+    title: 3) science of many models
+    pdf: MT-ch03-science.pdf
+    topics:
+      - name:
+        text: <strong>many models as "independent lies"</strong><br>
+              <strong>condorcet jury theorem</strong><br>
+
+  - chapter:
+    title: 4) human actors
+    pdf: MT-ch04-human-actors.pdf
+    topics:
+      - name:
+        text:  
+
+  - chapter:
+    title: 5) bell curves
+    pdf: MT-ch05-bell-curve.pdf
+    topics:
+      - name:
+        text:  
+
+  - chapter:
+    title: 6) long tail models
+    pdf: MT-ch06-long-tail.pdf
+    topics:
+      - name:
+        text:  
+
+  - chapter:
+    title: 7) linear models
+    pdf: MT-ch07-linear-models.pdf
+    topics:
+      - name:
+        text:  
+
+  - chapter:
+    title: 8) concave & convex models
+    pdf: MT-ch08-concave-convex.pdf
+    topics:
+      - name:
+        text:  
+
+  - chapter:
+    title: 9) value & power models
+    pdf: MT-ch09-value-power.pdf
+    topics:
+      - name:
+        text:  
+
+  - chapter:
+    title: 10) networks
+    pdf: MT-ch10-networks.pdf
+    topics:
+      - name:
+        text:  
+
+  - chapter:
+    title: 11) broadcasting, diffusion, contagion
+    pdf: MT-ch11-broad-diff-contag.pdf
+    topics:
+      - name:
+        text:  
+
+  - chapter:
+    title: 12) entropy
+    pdf: MT-ch12-entropy.pdf
+    topics:
+      - name:
+        text:  
+
+  - chapter:
+    title: 13) random walks
+    pdf: MT-ch13-random-walks.pdf
+    topics:
+      - name:
+        text:  
+
+  - chapter:
+    title: 14) path-dependent
+    pdf: MT-ch14-path-depend.pdf
+    topics:
+      - name:
+        text:  
+
+  - chapter:
+    title: 15) local interactions
+    pdf: MT-ch15-local-interacts.pdf
+    topics:
+      - name:
+        text:  
+
+  - chapter:
+    title: 16) lyapunov
+    pdf: MT-ch16-lyapunov.pdf
+    topics:
+      - name:
+        text: 
+
+  - chapter:
+    title: 17) markov models
+    pdf: MT-ch17-markov.pdf
+    topics:
+      - name:
+        text:  
+
+  - chapter:
+    title: 18) system dynamics
+    pdf: MT-ch18-system-dyn.pdf
+    topics:
+      - name:
+        text: 
+
+  - chapter:
+    title: 19) threshold
+    pdf: MT-ch19-threshold.pdf
+    topics:
+      - name:
+        text: 
+
+  - chapter:
+    title: 20) spatial & hedonic
+    pdf: MT-ch20-spatial-hedonic.pdf
+    topics:
+      - name:
+        text: 
+
+  - chapter:
+    title: 21) game theory
+    pdf: MT-ch21-game-theory.pdf
+    topics:
+      - name:
+        text: 
+
+  - chapter:
+    title: 22) cooperation
+    pdf: MT-ch22-cooperation.pdf
+    topics:
+      - name:
+        text: 
+
+  - chapter:
+    title: 23) collective actions
+    pdf: MT-ch23-collective.pdf
+    topics:
+      - name:
+        text:  
+
+  - chapter:
+    title: 24) mechanism design
+    pdf: MT-ch24-mech-design.pdf
+    topics:
+      - name:
+        text:  
+
+  - chapter:
+    title: 25) signaling
+    pdf: MT-ch25-signaling.pdf
+    topics:
+      - name:
+        text:  
+
+  - chapter:
+    title: 26) learning
+    pdf: MT-ch26-learning.pdf
+    topics:
+      - name:
+        text:  
+
+  - chapter:
+    title: 27) multi-armed bandits
+    pdf: MT-ch27-bandits.pdf
+    topics:
+      - name:
+        text:  
+
+  - chapter:
+    title: 28) rugged landscapes
+    pdf: MT-ch28-rugged-land.pdf
+    topics:
+      - name:
+        text:  
+
+  - chapter:
+    title: 29) inequality
+    pdf: MT-ch29-inequality.pdf
+    topics:
+      - name:
+        text:  
+
+  - chapter:
+    title: 30) more
+    pdf: MT-ch30-more.pdf
+    topics:
+      - name:
+        text:  
+
+---
+
+{% assign pixpath = nil %}
+{% assign pdfpath = "/pdfs/prodmgmt/model-thinker" %}
+{% assign showit  = true %}
+
+<div class="callout">
+	<h2>The Model Thinker - booknotes</h2>
+  <div class="callout warning">
+    Still in development.
+  </div>
+</div>
+
+{% for chapter in page.outline %}
+
+<div class="card">
+    <div class="card-divider">
+        <strong><a href="{{pdfpath}}/{{chapter.pdf}}">
+            {{chapter.title}}</a></strong>
+    </div>
+
+    {% if showit %}
+    {% if chapter.topics %}
+        {% for topic in chapter.topics %}
+            <div class="card-section">
+                <p><strong>{{topic.name}}</strong></p>
+
+                {% if topic.image %}
+                    <div class="card-image">
+                        <img src="{{pixpath}}/{{topic.image}}">
+                    </div>
+                {% endif %}
+
+                {% if topic.text %}
+                    <p>{{topic.text}}</p>
+                {% endif %}
+
+                {% if topic.code %}
+                    <p><code>{{topic.code}}</code></p>
+                {% endif %}
+
+            </div>
+        {% endfor %}
+    {% endif %}
+    {% endif %}
+
+</div>
+{% endfor %}

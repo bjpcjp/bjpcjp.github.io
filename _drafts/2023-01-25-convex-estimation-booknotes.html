@@ -1,0 +1,215 @@
+---
+title: Convex Optimization - book notes
+layout: default-foundation-20210515
+date: 2023-01-25 17:02
+tags: math booknotes
+---
+
+<div class="callout">
+	<h2>Convex Optimization booknotes</h2>
+	<p>This post is in progress. It will be fleshed out as time permits.</p>
+</div>
+
+{% assign CO = "/pdfs/math/convex-optimization.pdf" %}
+
+<div style="columns: 2;">
+
+	<a href="{{CO}}#page=7"  target="_blank"> [Contents]
+	<a href="{{CO}}#page=11" target="_blank"> [Preface]
+
+	<div class="card">
+		<div class="card-divider">
+		<a href="{{CO}}#page=15" target="_blank">Intro</a></div>
+
+		<div class="card-section">
+			Math optimization<br>
+			Linear programming / least squares<br>
+			Convex optimization;
+			Non-linear optimization<br>
+			Book outline<br>
+			Notation
+		</div>
+	</div>
+
+	<div class="card">
+		<div class="card-divider">
+			<a href="{{CO}}#page=35" target="_blank">Convex Sets</a></div>
+
+		<div class="card-section">
+			Affine & convex sets<br>
+			examples<br>
+			operations that preserve convexity<br>
+			inequalities<br>
+			separating & supporting hyperplanes<br>
+			dual cones
+		</div>
+	</div>
+
+	<div class="card">
+		<div class="card-divider">
+			<a href="{{CO}}#page=81" target="_blank">Convex Functions</a></div>
+
+		<div class="card-section">
+			Basic properties<br>
+			operations that preserve convexity<br>
+			conjugate functions; quasi-convex functions<br>
+			log-concave & log-convex functions<br>
+			convexity & generalized inequalities
+		</div>
+	</div>
+
+	<div class="card">
+		<div class="card-divider">
+		<a href="{{CO}}#page=141" target="_blank">Convex Optimization</a></div>
+
+		<div class="card-section">
+			Intro<br>
+			convex optimization<br>
+			linear optimization<br>
+			quadratic optimization;
+			geometric programming<br>
+			generalized inequality constraints<br>
+			vector optimization
+		</div>
+	</div>
+
+	<div class="card">
+		<div class="card-divider">
+		<a href="{{CO}}#page=229" target="_blank">Duality</a></div>
+
+		<div class="card-section">
+			Lagrange dual function<br>
+			Lagrange dual problem<br>
+			geometric interpretation;
+			saddle-point interpretation<br>
+			optimality conditions<br>
+			pertubation & sensitivity analysis<br>
+			examples<br>
+			theorems of alternatives<br>
+			generalized inequalities
+		</div>
+	</div>
+
+	<div class="card">
+		<div class="card-divider">
+		<a href="{{CO}}#page=305" target="_blank">Approximation & fitting</a></div>
+
+		<div class="card-section">
+			Norm approximation<br>
+			least-norm problems<br>
+			regularized approximation<br>
+			robust approximation<br>
+			function fitting & interpolation
+		</div>
+	</div>
+
+	<div class="card">
+			<div class="card-divider">
+		<a href="{{CO}}#page=365" target="_blank">Statistical estimation</a></div>
+
+		<div class="card-section">
+			Parametric distributions<br>
+			non-parametric distributions<br>
+			optimal detector design & hypothesis testing<br>
+			Chebyshev & Chernoff bounds<br>
+			experiment design
+		</div>
+	</div>
+
+	<div class="card">
+		<div class="card-divider">
+		<a href="{{CO}}#page=411" target="_blank">Geometric problems</a></div>
+
+		<div class="card-section">
+			Projection on a set<br>
+			distances between sets<br>
+			Euclidean distances & angle problems<br>
+			extremal volume ellipsoids<br>
+			centering<br>
+			classification<br>
+			placement & location<br>
+			floorplanning
+		</div>
+	</div>
+
+	<div class="card">
+		<div class="card-divider">
+		<a href="{{CO}}#page=471" target="_blank">Unconstrained optimization</a></div>
+
+		<div class="card-section">
+			Problems<br>
+			descent methods<br>
+			gradient descent<br>
+			steepest descent<br>
+			Newton's method; self-concordance<br>
+			implementation
+		</div>
+	</div>
+
+	<div class="card">
+		<div class="card-divider">
+		<a href="{{CO}}#page=535" target="_blank">Equality-constrained minimization</a></div>
+
+		<div class="card-section">
+			Problems<br>
+			Newton's method<br>
+			infeasible-start Newton's method<br>
+			implementation
+		</div>
+	</div>
+
+	<div class="card">
+		<div class="card-divider">
+			<a href="{{CO}}#page=575" target="_blank">Interior-point methods</a></div>
+
+		<div class="card-section">
+			Problems<br>
+			log-barrier function & central path<br>
+			barrier method<br>
+			feasibility & phase I methods<br>
+			complexity analysis<br>
+			general-inequality problems<br>
+			primal-dual methods<br>
+			implementation
+		</div>
+	</div>
+
+	<div class="card">
+		<div class="card-divider">
+			<a href="{{CO}}#page=647" target="_blank">Appendix: Math</a></div>
+
+		<div class="card-section">
+			Norms<br>
+			analysis<br>
+			functions<br>
+			derivatives<br>
+			linear algebra
+		</div>
+	</div>
+
+	<div class="card">
+		<div class="card-divider">
+			<a href="{{CO}}#page=667" target="_blank">Appendix: Two-quadratic-function problems</a></div>
+
+		<div class="card-section">
+			Single-constraint optimization<br>
+			S-procedure<br>
+			symmetric matrix values<br>
+			strong duality proofs
+		</div>
+	</div>
+
+	<div class="card">
+		<div class="card-divider">
+		<a href="{{CO}}#page=675" target="_blank">Appendix: Numerical linear algebra</a></div>
+
+		<div class="card-section">
+			Matrix structures & algorithm complexity<br>
+			solving linear equations with factored matrices<br>
+			LU, Cholesky & LDL factorization<br>
+			block elimination & Schur complements<br>
+			solving under-determined linear equations
+		</div>
+	</div>
+
+</div>

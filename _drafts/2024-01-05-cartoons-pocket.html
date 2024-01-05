@@ -1,0 +1,28 @@
+---
+layout: default-foundation-20210515
+title: Cartoon articles
+permalink: /cartoons
+date: 2024-01-05
+tags: cartoons
+---
+
+<div class="callout">
+  <h2>Cartoon articles - from my Pocket</h2>
+</div>
+
+{% assign datafile = site.data.pocket.cartoons-20240105 %}
+{% assign data     = datafile["list"] %}
+
+{% for article in data %}
+
+  {% assign title        = article[1]['resolved_title'] %}
+  {% assign url          = article[1]['resolved_url']   %}
+  {% assign main_image   = article[1]['image']['src'] %}
+  {% assign backup_image = article[1]['top_image_url'] %}
+
+  {% if title and url %}
+        <a href="{{url}}">{{title}}</a><br>
+        <blockquote>{{article[1]['excerpt']}}</blockquote><br>
+  {% endif %}
+
+{% endfor %}

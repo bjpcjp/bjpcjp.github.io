@@ -1,0 +1,559 @@
+---
+name: Rails v7 - Agile book notes
+date: 2023-11-21
+layout: default-foundation-20210515
+tags: ruby rubyonrails booknotes
+outline:
+  - chapter: 
+    title: 1) installation
+    pdf: agile7-ch01-install.pdf
+    topics:
+      - name:
+        text: <ul>
+          <li>Links<ul>
+            <li><a href="https://docs.docker.com/samples/rails/">docker</a></li>
+            <li><a href="http://rubyinstaller.org/downloads">Ruby Installer - downloads</a></li>
+            <li><a href="https://git-scm.com/book/en/v2">Git</a></li>
+            <li><a href="http://api.rubyonrails.org/">Rails API</a>
+          </ul>
+          
+          <li>Windows<ul>
+            <li><a href="https://docs.microsoft.com/en-us/windows/wsl/install">WSL</a></li>
+            <li><a href="https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701">Windows terminal</a></li>
+            <li><a href="https://code.visualstudio.com/">Visual Studio</a></li>
+            <li><code>gem update --system</code></li>
+            <li><code>gem install rails -v 7.0.4 --no-document</code></li>
+            </ul></li>
+          <br>
+          <li>MacOS (multiple install workflows</li>
+          <br>
+          <li>Linux<ul>
+            <li><a href="https://rvm.io/rvm/install">RVM install</a></li>
+            <li><a href="https://github.com/postmodern/chruby#readme">chruby</a></li>
+            <br>
+            <li>Virtual machines w/ Vagrant & Virtual Box<ul>
+            <li><a href="https://www.vagrantup.com/">Vagrant</a></li>
+            <li><a href="https://www.virtualbox.org/">VirtualBox</a></li>
+            <li><code>vagrant up</code>; <code>vagrant ssh</code></li></ul></li>
+            <br>
+            <li>System SW installs<ul>
+            <li><code>sudo apt-get update</code></li>
+            <li><code>sudo apt-get install -y build-essential git libsqlite3-dev 
+                  redis ruby-dev tzdata</code></li></ul></li>
+            <br>
+            <li>Ruby & Rails installs<ul>
+            <li><code>sudo apt install rbenv && rbenv init</code></li>
+            <li><code>rbenv install 3.1.3</code></li>
+            <li><code>rbenv global 3.1.3</code></li>
+            <li><code>gem install rails -v 7.0.4 --no-document</code></li></ul></li>
+            <br>
+            <li>Choosing a Rails version<ul>
+            <li><code>gem list --local rails</code></li></ul></li>
+            <br>
+            <li>Local dev tools - command line, Git, editors</li>
+            <li>Desktop tools</li>
+            <li>Databases<ul>
+              <li><a href="https://rubygems.org/gems/ibm_db/">DB2</a></li>
+              <li><a href="https://rubygems.org/gems/fireruby">Firebird</a></li>
+              <li><a href="https://rubygems.org/gems/mysql2">MySQL</a></li>
+              <li><a href="https://rubygems.org/gems/activerecord-oracle_enhanced-adapter">Oracle</a></li>
+              <li><a href="https://rubygems.org/gems/pg">Postgres</a></li>
+              <li><a href="https://github.com/rails-sqlserver">SQL server</a></li>
+              <li><a href="https://github.com/luislavena/sqlite3-ruby">SQlite3</a></li>
+              </ul>
+            </li>
+          </ul></li>
+          </ul>
+
+  - chapter: 
+    title: 2) instant gratification (quick start)
+    pdf: agile7-ch02-newapp.pdf
+    topics:
+      - name:
+        text: <ul>
+          <li>Creating a new app</li>
+          <li>Hello world<ul>
+            <li>request URLs</li>
+            <li>first action</li>
+            <li>first action (dynamic)</li>
+            <li>linking pages</li>
+            <li>debugging</li>
+            <li>playtime</li>
+          </ul></li>
+
+  - chapter:
+    title: 3) default architecture
+    pdf: agile7-ch03-arch.pdf
+    topics:
+      - name:
+        text: <ul>
+          <li>models, views, controllers</li>
+          <li>models (ORM, ActiveRecord)</li>
+          <li>views & controllers (ActionPack)</li></ul>
+
+  - chapter:
+    title: 4) intro to Ruby
+    pdf: agile7-ch04-ruby-intro.pdf
+    topics:
+      - name:
+        text: <ul>
+          <li>objects</li>
+          <li>names</li>
+          <li>methods</li>
+          <li><ul>data types
+            <li>strings</li>
+            <li>arrays & hashes</li>
+            <li>regexes</li></ul></li>
+          <li><ul>logic
+            <li>control structures</li>
+            <li>blocks</li>
+            <li>iterators</li>
+            <li>exceptions</li></ul></li>
+          <li><ul>organizing structures
+            <li>classes</li>
+            <li>modules</li>
+            <li>YAML</li></ul></li>
+          <li>marshaling</li>
+          <li>summary</li>
+          <li>idioms</li>
+          </ul>
+
+  - chapter:
+    title: 5) Depot (my first app)
+    pdf: agile7-ch05-depot.pdf
+    topics:
+      - name:
+        text: <ul>
+          <li>incremental development</li>
+          <li>use cases, workflow, data</li></ul>
+  - chapter:
+    title: 6) creation
+    pdf: agile7-ch06-depot-create.pdf
+    topics:
+      - name:
+        text: <ul>
+          <li>links<ul>
+            <li><a href="https://media.pragprog.com/titles/rails7/code/rails7/depot_a/db/seeds.rb">db seeds</a></li>
+            <li><a href="https://media.pragprog.com/titles/rails7/code/rails7/depot_a/app/assets/images/">image assets</a></li>
+          </ul></li>
+          <li>A1 - create app, db, scaffold, migrate db, view products list</li>
+          <li>A2 - prettier listing</li>
+          <li>playtime</li>
+          </ul>
+
+  - chapter:
+    title: 7) validation & unit testing
+    pdf: agile7-ch07-valdn-test.pdf
+    topics:
+      - name:
+        text: <ul>
+          <li>links<ul>
+            <li><a href="http://api.rubyonrails.org/classes/ActiveSupport/TestCase.html">test cases</a></li>
+            <li><a href="http://docs.seattlerb.org/minitest/">minitest</a></li>
+            </ul></li>
+          <li>B1 - validations</li>
+          <li>B2 - unit testing basics (<code>ls test/models</code>)</li>
+          <li>a real unit test (<code>bin/rails test:models</code>)</li>
+          <li>fixtures</li>
+          <li>playtime</li>
+          </ul>
+
+  - chapter:
+    title: 8) catalog display
+    pdf: agile7-ch08-catalog.pdf
+    topics:
+      - name:
+        text: <ul>
+          <li>links<ul>
+            <li><a href="https://owasp.org/www-community/attacks/xss/">XSS</a></li>
+            <li><a href="https://turbo.hotwired.dev/">hotwired</a></li>
+            <li><a href="https://github.com/rails/rails-dom-testing">Rails DOM testing</a></li>
+            <li><a href="http://37signals.com/svn/posts/3113-how-key-based-cache-expiration-works">cache expiration basics</a></li>
+            <li><a href="http://guides.rubyonrails.org/caching_with_rails.html">Rails caching</a></li>
+          </ul></li>
+          <li>C1 - catalog listing (<code>bin/rails generate controller Store index</code>)</li>
+          <li>C2 - page layout</li>
+          <li>C3 - price format helper</li>
+          <li>C4 - controller functional testing</li>
+          <li>C5 - caching partial results (<code>bin/rails dev:cache</code>)</li>
+          </ul>
+
+  - chapter:
+    title: 9) shopping cart
+    pdf: agile7-ch09-cart.pdf
+    topics:
+      - name:
+        text: <ul>
+          <li>links<ul>
+            <li><a href="https://signalvnoise.com/posts/3372-put-chubby-models-on-a-diet-with-concerns">concerns</a></li>
+          </ul></li>
+          <li>D1 - find a cart (<code>bin/rails generate scaffold Cart; bin/rails db:migrate</code>)</li>  
+          <li>D2 - connect products to carts   
+              (<code>bin/rails generate scaffold LineItem product:references cart:belongs_to</code>)</li>
+          <li>D3 - "Add to Cart" button</li>
+          <li>playtime</li>
+          </ul>
+
+  - chapter:
+    title: 10) cart creation, part 2
+    pdf: agile7-ch10-cartpt2.pdf
+    topics:
+      - name:
+        text: <ul>
+          <li>E1 - improvements (<code>bin/rails generate migration add_quantity_to_line_items quantity:integer</code>)</li>
+          <li><code>bin/rails generate migration combine_items_in_cart</code></li>
+          <li><code>bin/rails db:migrate:status</code></li>
+          <li>E2 - error handlers</li>
+          <li>E3 - finishing the cart</li>
+          <li>playtime</li>
+          </ul>
+
+  - chapter:
+    title: 11) hotwiring a storefront
+    pdf: agile7-ch11-hotwire.pdf
+    topics:
+      - name:
+        text: <ul>
+          <li>F1 - move cart to a partial template</li>    
+          <li>workflow changes</li>   
+          <li>F2 - Hotwire implementation</li>
+          <li>F3 - highlighting changes</li>  
+          <li>F4 - broadcasting updates with ActionCable</li> 
+          </ul>
+
+  - chapter:
+    title: 12) checkout
+    pdf: agile7-ch12-checkout.pdf
+    topics:
+      - name:
+        text: <ul>
+          <li>G1 - order capture</li>   
+          <li>G2 - dynamically adding fields to a form</li>   
+          <li>G3 - javascript testing<ul>
+            <li><a href="https://github.com/teamcapybara/capybara#readme">capybara</a></li></ul>
+          </ul>
+
+  - chapter:
+    title: 13) sending emails
+    pdf: agile7-ch13-email.pdf
+    topics:
+      - name:
+        text: <ul>
+          <li>H1 - sending confirmation emails<ul>
+            <li>configuration</li>
+            <li>templates, generate, multi content types, testing</li></ul></li>
+          <li>H2 - connecting to slow payment processor with ActiveJob<ul>
+            <li>moving logic to the model</li>
+            <li>ActiveJob class creation</li>
+            <li>queuing a background job</li>
+            <li>checkout flow - system checks</li></ul></li>        
+          </ul>
+
+#  - chapter:
+#    title: payments 
+#    pdf:
+#    topics:
+#      - name:
+#        text: <ul></ul>
+
+  - chapter:
+    title: 14) logging in
+    pdf: agile7-ch14-logging.pdf
+    topics:
+      - name:
+        text: <ul>
+          <li>I1 - adding users & user admin</li>            
+          <li>I2 - user authentication</li>
+          <li>I3 - limiting access with callbacks</li>
+          <li>I4 - adding a sidebar & more admin logic</li>
+          </ul>
+
+  - chapter:
+    title: 15) internationalization
+    pdf: agile7-ch15-i18n.pdf
+    topics:
+      - name:
+        text: <ul>
+          <li>J1 - setting the locale</li>
+          <li>J2 - storefront translation</li>
+          <li>J3 - checkout translation</li>
+          <li>J4 - locale switcher</li>
+          </ul>
+
+  - chapter:
+    title: 16) receive emails - respond with rich text
+    pdf: agile7-ch16-richtext.pdf
+    topics:
+      - name:
+        text: <ul>
+          <li>K1 - receiving emails w/ Action Mailbox<ul>
+            <li>mailbox setup</li>
+            <li>Active Storage setup</li>
+            <li>mailbox creation</li>
+            <li>sending local email with conductor</li></ul></li>
+          <li>K2 - storing requests from email<ul>
+            <li>model creation</li>  
+            <li>request creation</li> 
+            <li>mailbox testing</li></ul></li>
+          <li>K3 - rich text</li>
+          </ul>
+
+  - chapter:
+    title: 17) deployment & production
+    pdf: agile7-ch17-deploy.pdf
+    topics:
+      - name:
+        text: <ul>
+          <li><a href="https://www.nginx.com/">nginx web server</a></li>
+          <li>db configuration<ul>
+            <li><a href="http://www.sqlite.org/whentouse.html">sqlite - when to use</a></li>
+            <li><a href="https://hub.docker.com/_/postgres">docker | postgres</a></li>
+            <li><a href="https://hub.docker.com/">docker hub</a></li>
+            <li>pg adapter install (<code>bundle add pg --group production</code>)</li>
+          </ul></li>
+          <li>managing secrets<ul>
+            <li>editing credentials (<code>EDITOR='code --wait' rails credentials:edit</code>)</li>
+          </ul></li>
+          <li>building a docker image<ul>
+            <li><code>docker-compose.yml</code></li></ul></li>
+          <li>docker-based deployment</li>
+          <li>monitoring<ul>
+            <li>log files</li>
+            <li>console</li>
+            <li>log file handling</li>
+            <li>site launch - and beyond</li>
+          </ul>
+
+  - chapter:
+    title: 18) retrospective
+    pdf: agile7-ch18-retrospective.pdf
+    topics:
+      - name:
+        text: <ul>
+          <li>concepts<ul>
+            <li>models</li> 
+            <li>views</li>
+            <li>controllers</li>   
+            <li>configuration</li>
+            <li>testing</li>  
+            <li>deployment</li></ul></li>
+          <li>documenting</li>
+          </ul>
+
+# Part 3 - Rails in Depth
+
+  - chapter:
+    title: 19) navigating rails
+    pdf: agile7-ch19-railsnav.pdf
+    topics:
+      - name:
+        text: <ul>
+          <li>where things go (standard site structure)<ul>
+            <li>application (<code>/app</code>)</li>
+            <li>tests (<code>/test</code>)</li>
+            <li>supporting libraries (<code>/lib</code>)</li>
+            <li>rake tasks (<code>//lib/tasks</code>)</li>
+            <li>log files (<code>/log</code>)</li>
+            <li>static pages (<code>/public</code>)</li>
+            <li>script wrappers (<code>/bin</code>)</li>
+            <li>temp files (<code>/temp</code>)</li>
+            <li>3rd party code (<code>/vendor</code>)</li>
+            <li>configuration (<code>/config</code>)</li></ul></li>
+          <li>naming conventions<ul>
+            <li>mixed case, underscores, plurals</li>
+            <li>grouping controllers into modules</li></ul></li>        
+          </ul>
+
+  - chapter:
+    title: 20) active record
+    pdf: agile7-ch20-activerecord.pdf
+    topics:
+      - name:
+        text: <ul>
+          <li>data definitions<ul>
+            <li>tables & columns</li>  
+            <li>additional columns added by Active Record</li></ul></li>
+          <li>locating records<ul>
+            <li>individual rows</li>
+            <li>relations<ul>
+              <li>one-to-one</li>
+              <li>one-to-many</li>
+              <li>many-to-many</li></ul></li>
+            <li>create|read|update|delete (CRUD)<ul>
+              <li>creating new rows</li>
+              <li>reading exiting rows<ul>
+                <li>SQL & Active Record</li>
+                <li>"Like" clauses</li>
+                <li>record subsets</li>
+                <li>order, limit, offset, select, joins, readonly, group, lock, column statistics, scoping, custom SQL, reloading</li>
+                <li>updating existing rows<ul>
+                  <li>save, save!, create, create!</li></ul></li>
+                <li>deleting rows</li>
+              </ul></li>
+            <li>model object lifecycle monitoring with callbacks<ul>
+              <li>grouped callbacks</li></ul></li>
+            <li>transactions<ul>
+              <li>built-in transactions</li></ul></li>
+          </ul>
+
+  - chapter:
+    title: 21) action dispatch & action controller
+    pdf: agile7-ch21-dispatch.pdf
+    topics:
+      - name:
+        text: <ul>
+          <li>dispatching (requests to controllers)<ul>
+            <li>REST</li>
+            <li>adding actions</li>
+            <li>nested resources</li>
+            <li>routing concerns</li>
+            <li>shallow route nesting</li>
+            <li>data representations</li></ul></li>   
+          <li>request processing<ul>
+            <li>action methods<ul>
+              <li>controller environment variables<ul>
+                <li>action_name</li>
+                <li>cookies</li>
+                <li>headers</li>
+                <li>params</li>
+                <li>request</li><ul>
+                  <li>request_method</li>
+                  <li>method</li>
+                  <li>delete?, get?, head?, post?, put?</li>
+                  <li>xml_http_request?, xhr?</li>
+                  <li>url</li>
+                  <li>protocol, host, port, path, query_string</li>
+                  <li>domain</li>
+                  <li>host_with_port</li>
+                  <li>port_string</li>
+                  <li>ssl?</li>
+                  <li>remote_ip</li>
+                  <li>env</li>
+                  <li>accepts</li>
+                  <li>format</li>
+                  <li>content_type</li>
+                  <li>headers</li>
+                  <li>body</li>
+                  <li>content_length</li></ul></ul>
+                <li>response</li>
+                <li>session</li></li></ul></li>
+          <li>user responses<ul>
+            <li>rendering templates</li>
+            <li>sending files & other data</li>
+            <li>redirects</li></ul></li>
+          <li>cross-request objects & operations<ul>
+            <li>sessions<ul>
+              <li>storage options</li>
+              <li>expiration & cleanup</li></ul></li>
+            <li>flash communications</li>
+            <li>callbacks<ul>
+              <li>before & after callbacks</li>
+              <li>callback inheritance</li></ul></li>
+            </ul></li>
+          </ul>
+
+  - chapter:
+    title: 22) action view
+    pdf: agile7-ch22-views.pdf
+    topics:
+      - name:
+        text: <ul>
+          <li>templates with <code>render()</code><ul>
+            <li>environment variables</li>
+            <li>content - ERB, Jbuilder</li></ul>
+          <li>forms with <code>form_for(model)</code><ul>
+            <li><a href="http://guides.rubyonrails.org/form_helpers.html">form helpers</a></li>
+          <li>uploading files</li></ul>
+
+  - chapter:
+    title: 23) migrations
+    pdf: agile7-ch23-migrations.pdf
+    topics:
+      - name:
+        text: <ul>
+          <li>creating & running migrations
+          </li>
+          
+          <li>migration file anatomy<ul>
+            <li>column types (binary, boolean, date, datetime, decimal, float, integer, string, text, time, timestamp)</li>
+              <li>db types (db2, mysql, openbase, oracle, postgres, sqlite, sqlserver, sybase)</li>
+              <li><code>rename_column</code> options</li>
+              <li><code>change_column</code> options</li></ul>
+          </li>
+          
+          <li>table management<ul>
+            <li><code>create_table</code> options</li>
+            <li><code>rename_table</code> options</li>
+            <li><code>add_index</code>    options</li>
+            <li><code>primary_key</code>  options</li>
+            <li>no primary keys (usually for join tables)</li></ul>
+          </li>
+
+          <li>advanced migrations<ul>
+            <li>using native SQL with <code>execute</code> options</li>
+            <li>custom messages & benchmarks with <code>say_with_time</code> options</li></ul>
+          </li>
+          
+          <li>debugging</li>
+          <li>schema changes outside migrations</li>
+          </ul>
+
+  - chapter:
+    title: 24) customization & extentions
+    pdf: agile7-ch24-custom.pdf
+    topics:
+      - name:
+        text: <ul>
+          <li>Creating a Reusable Web Component</li>
+          <li>Testing with RSpec</li>
+          <li>HTML Templates with Slim</li>
+          <li>More customizations</li>
+
+---
+
+{% assign pixpath = "/px/prodmgmt/lean-analytics" %}
+{% assign pdfpath = "/pdfs/rails/agile7" %}
+{% assign showit  = true %}
+
+<div class="callout">
+	<h2>Rails v7 - Agile Web Devt booknotes</h2>
+  <div class="callout warning">
+    Still in development.
+  </div>
+</div>
+
+{% for chapter in page.outline %}
+
+<div class="card">
+    <div class="card-divider">
+        <strong><a href="{{pdfpath}}/{{chapter.pdf}}">
+            {{chapter.title}}</a></strong>
+    </div>
+
+    {% if showit %}
+    {% if chapter.topics %}
+        {% for topic in chapter.topics %}
+            <div class="card-section">
+                <p><strong>{{topic.name}}</strong></p>
+
+                {% if topic.image %}
+                    <div class="card-image">
+                        <img src="{{pixpath}}/{{topic.image}}">
+                    </div>
+                {% endif %}
+
+                {% if topic.text %}
+                    <p>{{topic.text}}</p>
+                {% endif %}
+
+                {% if topic.code %}
+                    <p><code>{{topic.code}}</code></p>
+                {% endif %}
+
+            </div>
+        {% endfor %}
+    {% endif %}
+    {% endif %}
+
+</div>
+{% endfor %}
