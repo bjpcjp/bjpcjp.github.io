@@ -1,0 +1,585 @@
+The Mission of Search Engines
+The Market Share of Search Engines
+The Human Goals of Searching
+Who Searches and What Do They Search For?
+Determining Searcher Intent: A Challenge for Search
+Marketers and Search Engines
+Navigational Queries
+Informational Queries
+Transactional Queries
+Adaptive Search
+Searcher Intent
+How People Search
+How Search Engines Drive Ecommerce
+The Mobile Shift
+The History of Eye Tracking: How Users Scan Results
+Click Tracking: How Users Click on Results (Organic Versus Paid)
+Distribution of Search Results and Traffic
+Conclusion
+
+Search Engine Basics
+Understanding Search Engine Results
+Understanding the Layout of Search Results Pages
+Understanding How Vertical Results Fit into the SERPs 72
+Google’s Knowledge Graph
+Algorithm-Based Ranking Systems: Crawling, Indexing,
+and Ranking
+Crawling and Indexing
+Retrieval and Ranking
+Evaluating Content on a Web Page
+Understanding What Content Search Engines Can
+“See” on a Web Page
+Determining Searcher Intent and Delivering Relevant,
+Fresh Content
+Document Analysis and Semantic Connectivity
+Content Quality and User Engagement
+Link Analysis
+Evaluating Social Media Signals
+Problem Words, Disambiguation, and Diversity
+Why These Algorithms Sometimes Fail
+The Knowledge Graph
+Analyzing Ranking Factors
+Negative Ranking Factors
+Other Ranking Factors
+Using Advanced Search Techniques
+Advanced Google Search Operators
+Bing Advanced Search Operators
+More Advanced Search Operator Techniques
+Vertical Search Engines
+Vertical Search from the Major Search Engines
+Universal Search/Blended Search
+Country-Specific Search Engines
+Optimizing for Specific Countries
+Conclusion
+
+SEO Planning: Customizing Your Strategy
+Strategic Goals SEO Practitioners Can Fulfill
+Visibility (Branding)
+Website Traffic
+High Return on Investment
+Every SEO Strategy Should Be Customized
+Understanding Search Engine Traffic and Visitor Intent
+Developing an SEO Plan Prior to Site Development
+Business Factors That Impact Your SEO Strategy135
+Understanding Your Audience and Finding Your Niche
+Mapping Your Products and Services
+Understanding That Content Is King
+Segmenting Your Site’s Audience
+Understanding Context: Market Competitiveness
+SEO for Raw Traffic
+SEO for Ecommerce Sales
+SEO for Mindshare and Branding
+SEO for Lead Generation and Direct Marketing
+SEO for Reputation Management
+SEO for Ideological Influence
+Advanced Methods for Planning and Evaluation
+SWOT Analysis
+SWOT Guidelines
+SMART Objectives
+Conclusion
+
+SEO Implementation: First Stages
+The Importance of Planning
+Identifying the Site Development Process and Players
+Development Platform and Information Architecture
+Technology Decisions
+Structural Decisions
+Mobile Sites and Mobile Apps
+Single-Page Applications
+Auditing an Existing Site to Identify SEO Problems
+Elements of an Audit
+The Importance of Keyword Reviews
+Keyword Cannibalization
+Example: Fixing an Internal Linking Problem
+Server and Hosting Issues
+Identifying Current Server Statistics Software and
+Gaining Access
+Web Analytics
+Log file Tracking
+Google Search Console and Bing Webmaster Tools
+Determining Top Competitors
+Identifying Spam
+Seeking the Best
+Uncovering Their Secrets
+Assessing Historical Progress
+Timeline of Site Changes
+Types of Site Changes That Can Affect SEO
+Previous SEO Work
+Benchmarking Current Indexing Status
+Benchmarking Organic Rankings
+Benchmarking Current Traffic Sources and Volume
+Leveraging Business Assets for SEO
+Other Domains You Own/Control
+Relationships On and Off the Web
+Content or Data You’ve Never Put Online
+Customers Who Have Had a Positive Experience
+Followers, Friends, and Fans
+Conclusion
+
+Keyword Research
+The Theory Behind Keyword Research
+Thinking Strategically
+Understanding the Long Tail of the Keyword Demand
+Curve
+Understanding the Impact of Google Hummingbird
+Understanding Keyword “Not Provided” and Co-
+Occurrence Analysis
+Traditional Approaches: Domain Expertise and Site
+Content Analysis
+Including Competitive Analysis
+Integrating Keyword Research, Co-Occurrence
+Analysis, and Knowledge of User Intent
+Keyword Research Options
+Keyword Research Data from Search Engines
+Keyword Research Data from Tools
+Keyword Research Data Analysis
+Ad Campaign Runs and Third-Party Search Data
+Landing Page Optimization
+Leveraging the Long Tail of Keyword Demand
+Extracting Terms from Relevant Web Pages
+Mining Keyword Research Tools193
+Identifying Long-Tail Patterns
+Applying Editorial Content Strategies for Long-Tail
+Targeting
+Applying User-Generated Content Strategies for Long-
+Tail Targeting
+Trending, Seasonality, and Seasonal Fluctuations in
+Keyword Demand
+Conclusion
+
+Developing an SEO-Friendly Website
+Making Your Site Accessible to Search Engines
+Indexable Content
+Spiderable Link Structures
+XML Sitemaps
+Creating an Optimal Information Architecture
+The Importance of a Logical, Category-Based Flow
+Site Architecture Design Principles
+Flat Versus Deep Architecture
+Search-Friendly Site Navigation
+Root Domains, Subdomains, and Microsites
+When to Use a Subfolder
+When to Use a Subdomain
+When to Use a Separate Root Domain
+Microsites
+When to Use a TLD Other Than .com
+Optimization of Domain Names/URLs
+Optimizing Domains
+Picking the Right URLs
+Mobile Friendliness
+Keyword Targeting
+HTML <title> Tags
+Meta Description Tags
+Heading Tags
+Document Text
+Image Filenames and alt Attributes
+Boldface Text
+Keyword Cannibalization
+Keyword Targeting in Content Management Systems
+and Automatically Generated Content
+
+Effective Keyword Targeting by Content Creators
+Long-Tail Keyword Targeting
+Content Optimization
+Content Structure
+CSS and Semantic Markup
+Content Uniqueness and Depth
+Content Themes
+Duplicate Content Issues
+Consequences of Duplicate Content
+How Search Engines Identify Duplicate Content
+Copyright Infringement
+How to Avoid Duplicate Content on Your Own Site
+Controlling Content with Cookies and Session IDs
+What’s a Cookie?
+What Are Session IDs?
+How Do Search Engines Interpret Cookies and Session
+IDs?
+Why Would You Want to Use Cookies or Session IDs to
+Control Search Engine Access?
+Content Delivery and Search Spider Control
+Cloaking and Segmenting Content Delivery
+Showing Different Content to Engines and Visitors
+Displaying Different Content to Search Engines Versus
+Visitors
+Redirects
+Why and When to Redirect
+Good and Bad Redirects
+Methods for URL Redirecting and Rewriting
+How to Redirect a Home Page Index File Without Looping
+Content Management System Issues
+CMS Selection
+Third-Party CMS Add-Ons
+Flash Coding Best Practices
+Best Practices for Multilanguage/Country Targeting
+How to Target a Specific Country
+Problems with Using Your Existing Domain
+The Two Major Approaches
+Multiple-Language Issues
+Semantic Search
+Google’s Hummingbird
+Semantic Search and SEO
+Entities and Semantic Search
+Structured Data
+Schema.org
+Overview
+How to Use Schema.org
+Summary
+Google Authorship and Author Authority
+A Brief History of Google Authorship
+Why Did Google End Support for rel=“author”?
+Is Author Authority Dead for Google?
+Google+ Authors in Personalized Search
+The Future of Author Authority at Google
+Author Authority
+Google’s Publisher Tag
+Google’s Knowledge Graph and the Knowledge Vault
+Overview of Changes in Search Complexity
+Fair Use?
+How the Knowledge Vault Works
+The Future of the Knowledge Vault
+Conclusion
+
+Content Marketing
+How Links Historically Influenced Search Engine
+Rankings
+The Original PageRank Algorithm
+Additional Factors That Influence Link Value
+How Search Engines Use Links
+Further Refining How Search Engines Judge Links
+Additional Link Evaluation Criteria
+How Search Engines Determine a Link’s Value
+Creating Content That Attracts Links
+How Are Links Earned?
+How Can Sites Approach Getting Links?
+Introduction to Content Marketing
+Using Content to Attract Links
+Understanding Content Marketing Basics
+Customizing Your Content Types to Your Audience
+Implementing Content Marketing Strategies
+Developing Content That Works
+Brainstorming Content Ideas and Being Creative
+Speedstorming
+Getting Creative Help
+Repurposing Content
+Understanding What Makes Content High Quality
+Integrating Emotional Triggers, Titles, and Images
+Leveraging the Power of Memes
+Measuring Engagement in Content Marketing
+Choosing the Right Content Marketing Strategy
+Identifying Types of Sites That Might Link to a Site Like
+Yours
+Placing a Value on the Sites
+Segmenting Your Audience, Identifying Personas, and
+Targeting Content
+Putting It All Together
+Types of Content Marketing Campaigns
+Guest Posting
+Content Syndication
+Link-Worthy or Viral Content
+User-Generated Content
+Building an Audience
+Get to Know Other People’s Audiences
+Leverage Influencers and Influencer Marketing
+Get Active in Social Media
+Build Offline Relationships
+Relationships and Outreach
+Building Relationships with Influencers
+Creating a Value Proposition for a Relationship
+Using Direct Email Pitches Effectively
+Other Ways to Earn Links
+Web Directories
+Manual Social Media Link Creation
+Gray Hat/Black Hat
+Awards and Badges
+Customer Discount/Incentives
+How Search Engines Fight Link Spam
+Google’s Penguin Algorithm
+Other Algorithmic Approaches to Fighting Link Spam
+Negative Link Building
+Unnatural Links Messages
+Other Search Engine Courses of Action
+Social Networking for Links
+Blogging for Links
+Leveraging Major Social Media Platforms
+Using Social Media Networking Effectively: Dos and
+Don’ts
+Using YouTube Successfully for Content Marketing
+Implementing Guest Posting Successfully
+Putting It All Together
+Conclusion
+How Social Media and User Data Play a Role in Search
+Results and Rankings
+Correlation Between Social Signals and Google Rankings 540
+What Is the Value of Social Signals?
+Bing’s Experiments with Social Signals
+Does Google Use Facebook as a Ranking Signal?
+Does Google Use Twitter as a Ranking Signal?
+Does Google Use Google+ as a Ranking Signal?
+Google+ Personalization
+Google+ Posts in the Search Results
+Google+ Brand Pages in the Search Results
+Google+ Impact on Nonpersonalized Rankings of
+Content
+Study on Google+ as a Ranking Factor
+How Might Google Use Google+ as a Ranking Factor?
+The Indirect Influence of Social Media Marketing
+Monitoring, Measuring, and Improving Social Media
+Marketing: Best Practices
+Claiming Key Profiles
+Deciding on a New Social Network
+Tracking Social Media
+User Engagement as a Measure of Search Quality
+How Google and Bing Collect Engagement Metrics
+Potential User Engagement Signals
+Voting Mechanisms
+Document Analysis
+Poor Editorial Quality
+Reading Level
+Keyword Stuffing/Lack of Synonyms
+Ad Density and Offensive Ads
+Sameness
+Page Speed
+Optimizing User Experience to Improve SEO
+Step 1: Build a Survey
+Step 2: Send It to Your Customers/Potential Customers
+Step 3: Record Responses and Leverage Them to Build
+What the People Want
+Additional Social Media Resources
+Conclusion
+
+Panda, Penguin, and Penalties
+Diagnosing the Cause of a Traffic Loss
+Summary of Major Google Algorithms
+Panda
+Target Areas of Panda
+Importance of Diversity in Rankings
+Role of Authority in Rankings
+Impact of Any Weak Content on Rankings
+Path to Recovery
+Penguin
+Target Areas of Penguin
+Path to Recovery
+Penalties
+Types of Manual Penalties
+Links Google Does Not Like
+Link Cleanup Process
+Sources of Data
+Using Tools
+The Link Removal Process
+Conclusion
+
+Mobile, Local, and Vertical SEO
+The Mobile Landscape
+SEO for Mobile
+App SEO: Deep Linking and Indexing for Mobile Search
+App Deep Linking
+App Indexing
+Optimizing for Vertical Search
+Universal Search = Blended Search
+The Opportunity Unleashed
+Optimizing for Local Search
+Local Listing Submissions
+Google My Business
+Google Knowledge Graph Carousel
+Bing Places for Business
+Yahoo! Local
+Business Website Optimization for Local Search
+Optimizing for Image Search
+Image Optimization Tips
+Optimizing for Google Shopping Search
+Submitting a Product Feed
+Optimizing a Product Feed
+Promoting Products in AdWords
+Reporting Results of Shopping Ads
+Optimizing for Blog Search
+Structural Blog Optimizations
+Optimizing Your Anchor Text
+Sticky Posts
+Author Profile Pages
+Links
+Optimizing for News Search: Google News
+Acceptance Criteria
+Application Process
+Paywalls and Subscription Sites
+Google News Publisher Center
+Technical Requirements
+Thumbnail Images in Google News
+Recrawling
+Google News Sitemaps
+Videos in Google News
+Editor’s Picks
+Optimizing for Video/Multimedia Search
+Video SEO for YouTube
+Video SEO for Google
+Conclusion
+
+Tracking Results and Measuring Success
+Why Measuring Success Is Essential to the SEO Process
+The Tracking Cycle: Produce, Launch, Measure, Refine
+Establishing a Proper Baseline
+Using Analytics as a Business Case for SEO
+Measuring Search Traffic
+Basic Overview
+Selecting the Right Analytics Package
+Extracting Valuable SEO Data in Web Analytics
+Number of pages getting search traffic
+Segmenting Search Traffic
+Referring Sites
+Using Custom Analytics Dashboards
+Taking a Deeper Look at Action Tracking
+Separating the Analytics Wheat from the Chaff
+Tying SEO to Conversion and ROI
+Managing Attribution
+Setting Up Analytics Software to Track Conversions
+Segmenting Campaigns and SEO Efforts by Conversion
+Rate
+Increasing Conversion
+Determining Project ROI
+Competitive and Diagnostic Search Metrics
+Search Engine and Competitive Metrics
+Site Indexing Data
+Link-Based Tracking of Content Marketing
+Ranking
+Shelf space
+SEO Platforms
+Crawl Errors
+Tracking the Blogosphere
+Tracking Your Blog(s)
+Search Engine Robot Traffic Analysis
+Web Traffic Comparison
+Temporal Link Growth Measurements
+Key Performance Indicators for Long-Tail SEO
+Duplicate Content
+Other Third-Party Tools
+MozBar
+SEO Quake
+SEO for Firefox
+SpyFu
+SEMrush
+Rio SEO Search Analytics
+Rio SEO Website Optimizer
+Searchmetrics Essentials
+Conclusion
+
+Domain Changes, Redesigns, and Troubleshooting
+The Basics of Moving Content
+Large-Scale Content Moves
+Mapping Content Moves
+Expectations for Content Moves
+Maintaining Search Engine Visibility During and After a
+Site Redesign
+Maintaining Search Engine Visibility During and After
+Domain Name Changes
+Unique Challenges of Domain Name Changes
+Pre-Move Preparations
+Changing Servers
+Monitoring After Your Server Move
+Hidden Content
+Identifying Content That Search Engines Don’t See
+Identifying the Cause of Non-Spidering
+Identifying Hidden Content That May Be Viewed as
+Spam
+Spam Filtering and Penalties
+Low-Quality Domains and Spam Sites
+Spam Reports
+Duplicate Content
+
+Basic Rules for Spam-Free SEO
+Search Engine Penalties and Reconsideration Requests
+Content Theft
+Changing SEO Vendors or Staff Members
+Potential Problems with SEO Staff Changes
+SEO Documentation for Actions and Progress
+SEO Documentation for Rapid Training
+Cleanup and Auditing
+Conclusion
+
+SEO Education and Research
+SEO Research and Search Performance Analysis
+SEO Resources
+SEO Testing
+Analysis of Top-Ranking Sites and Pages
+Analysis of Algorithmic Differentiation Across Engines
+and Search Types
+The Importance of Experience
+Competitive Analysis
+Content Analysis
+Internal Link Structure and Site Architecture
+External Link Attraction Analysis
+What Is Their SEO Strategy?
+Competitive Analysis Summary
+Using Competitive Link Analysis Tools
+Competitive Analysis for Those with a Big Budget
+Using Search Engine–Supplied SEO Tools
+Search Engine Tools for Webmasters
+The SEO Industry on the Web
+Blogs
+SEO News Outlets, Communities, and Forums
+Communities in Social Networks
+Participation in Conferences and Organizations
+Conclusion
+
+SEO Support: In-House, External, or Both?
+The Business of SEO
+Understand Your Market Opportunity
+
+Get Buy-In Across the Organization
+Lay the Groundwork
+Motivate Resources That Don’t Share Your Goals to
+Help You
+Progress Through the Stages of SEO Maturity
+Building an SEO team
+Using In-House SEO Talent Versus Outsourced Support:
+Dynamics and Challenges
+The Value of In-House SEO
+The Value of Outsourced SEO Support
+The Case for Working with an Outside Expert
+How to Best Leverage Outside Help
+How to Implement Your Expert’s Recommendations
+How to Integrate SEO Knowledge in the Organization
+The Impact of Site Complexity on SEO Workload
+Solutions for Small Organizations
+Developing the In-House SEO Specialist
+Making the Most of Limited Resources or Budgets
+Solutions for Large Organizations
+Contracting for Specialist Knowledge and Experience
+Applying SEO Recommendations Intelligently
+Hiring SEO Talent
+Selecting the Right SEO Person
+Pitching the Person
+Making the Offer
+Selecting an SEO Firm/Consultant
+Getting the Process Started
+Preparing a Request for Proposal
+Communicating with Candidate SEO Firms
+Making the Decision
+Mixing In-House SEO with Outside SEO Help
+Building a Culture of SEO into Your Organization
+Conclusion
+
+An Evolving Art Form: The Future of SEO
+The Ongoing Evolution of Search
+The Growth of Search Complexity
+Google’s Dominance
+More Searchable Content and Content Types901
+Engines Will Make Crawling Improvements
+Engines Are Getting New Content Sources
+Multimedia Is Becoming Indexable
+More Personalized, Localized, and User-Influenced
+Search
+User Intent
+User Interactions
+New Search Patterns
+Growing Reliance on the Cloud
+Increasing Importance of Local, Mobile, and Voice Search 918
+Local Search
+Mobile Search
+Voice Recognition Search
+Increased Market Saturation and Competition
+SEO as an Enduring Art Form
+The Future of Semantic Search and the Knowledge Graph 924
+Conclusion
+
+Glossary
+Index
