@@ -16,5 +16,12 @@ date: 2022-12-24
     </p>
 </div>
 
+<div class="card"><div class="card-section">
 {%- assign sourcedata = site.data.code.ruby.v20240121_ruby | sort: "tags" -%}
-{% include datafile-ungrouped-2cols-20220817.html %}
+{% for item in sourcedata %}
+    <a href="{{item.url}}">{{item.title}}</a><br>
+{% endfor %}
+</div></div>
+
+<!--
+{% include datafile-ungrouped-2cols-20220817.html %} -->
