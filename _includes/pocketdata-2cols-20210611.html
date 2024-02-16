@@ -1,7 +1,10 @@
 <div style="column-count: 2;">
 
-{%- for record in records -%}
-	{%- assign data = record[1] -%}
+{{records["list"]}}
+
+{%- for record in records["list"] -%}
+	{%- assign data = record -%}
+	{{data}}
 	<div class="card">
 
 		<div class="card-divider">
