@@ -1,0 +1,39 @@
+{% assign domain_regexer = 'regex = %r{https?://(?:www\.)?([^/\s]+)}' %}
+
+<div style="column-count: 2;">
+
+{%- for record in records["list"] -%}
+	{% if record[1]['is_article'] == "1" %}
+
+	{% assign domain = record[1]['resolved_url'] %}
+
+	<div class="card">
+
+		<div class="card-divider">
+			<h4>
+			<a href="{{record[1]['resolved_url']}}">
+				{{record[1]['resolved_title']}}</a>
+			</h4>
+		</div>
+
+		<!-- TOP_IMAGE_URL -->
+		{% if record[1]['top_image_url'] %}
+		<div class="card-image">
+			<img class="thumbnail" src="{{record[1]['top_image_url']}}" />
+		</div>
+		{% endif %}
+	
+	<!-- EXCERPT -->
+		{% if record[1]['excerpt'] != "" %}
+			<div class="card-section">
+				<p>{{record[1]['excerpt']}}</p>
+			</div>
+		{% endif %}
+
+	</div>
+
+	{% endif %}
+
+{%- endfor -%}
+
+</div>

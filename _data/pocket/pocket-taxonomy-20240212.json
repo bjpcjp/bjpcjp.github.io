@@ -1,0 +1,1029 @@
+{
+  "advertising-commercials": {
+    "children": {
+      "adtech": {}, "adtech-adwords": {}, "infomercials": {},
+    }
+  },
+
+  "algorithms-math": {
+    "children": {
+
+      "prob-stats": {},
+      "bootstrap": {},
+      "distributions": {},
+      "crypto": {},
+      "blockchain": {},
+      "complexity": {},
+      "arxiv": {},
+      "paperswithcode": {},
+      "auctions": {},
+      "data-structures": {},
+      "compression-encoding": {},
+      "dsp": {},
+      "fourier": {},
+      "bloom-filters": {},
+      "calculus": {},
+      "differential-equations": {},
+
+      "evolutionary": {},
+      "filters": {},
+      "generative": {},
+      "geometry": {},
+      "graphs": {},
+      "hashing": {},
+      "info-theory": {},
+      "integrals": {},
+
+      "interpolation": {},
+      "kalman-filters": {},
+      "knapsack": {},
+      "tokens": {},
+      "knots": {},
+      "labeling": {},
+      "lagrange": {},
+      "laplace": {},
+      "linear-algebra": {},
+      "market-basket": {},
+      "monte-carlo": {},
+      "optimization": {},
+      "p2p": {},
+      "policy-gradients": {},
+      "probabilistic": {},
+      "queues": {},
+      "recursion": {},
+      "regexes": {},
+      "rpa": {},
+      "sets": {},
+      "sharding": {},
+      "spatial": {},
+      "splines": {},
+      "ssh": {},
+      "survival-analysis": {},
+      "svg": {},
+      "topology": {},
+    }
+  },
+
+  "analytics": {
+    "children": {
+      "a/b": {}, "clv": {}, "cohorts": {}, "conjoint": {}, "knime": {}, "uplift": {}
+      }
+    },
+
+  "art": {
+    "children": {
+      "fashion": {},
+      "music": {}, "jazz": {}, "violin": {},
+      "nft": {},
+      "origami": {},
+      "perfume": {},
+      "drawing": {},
+      "photography": {},
+    }
+  },
+  "audio": {
+    "children": {
+      "mp3": {},
+      "podcasts": {},
+    }
+  },
+  "aviation": {},
+  "astronomy-space": {},
+
+  "behaviors": {
+    "children": {
+      "acting": {}, 
+      "addition": {}, 
+      "altruism": {}, 
+      "anonymity": {}, 
+      "anthropology": {},
+      "assumptions": {}, 
+      "attitude": {}, 
+      "authenticity": {}, 
+      "beliefs": {}, 
+      "bias": {},
+      "bragging": {}, 
+      "bystander-effect": {}, 
+      "censorship": {}, 
+      "conservation": {},
+      "recycling": {},
+      "character": {},
+      "charisma": {},
+      "charity": {},
+      "cheating": {}, 
+      "chivalry": {},
+      "choices": {},
+      "commitments": {},
+      "confidence": {},
+      "courage": {},
+      "courtesy": {},
+      "crime": {},
+      "cults": {},
+      "culture": {},
+      "curiosity": {},
+      "deceipt-deception": {},
+      "decisions": {},
+      "defaults": {},
+      "delusions": {},
+      "dignity": {},
+      "discrimination": {},
+      "disobedience": {},
+      "dunning-kruger": {},
+      "endurance": {},
+      "ethics": {},
+      "failure": {},
+      "fakes": {},
+      "familiarity": {},
+      "focus-distractions": {},
+      "fomo": {},
+      "forecasting-predictions": {},
+      "fraud": {},
+      "friends": {},
+      "gaming": {},
+      "genius": {},
+      "gestures": {},
+      "grit-hustle-perseverence": {},
+      "groupthink": {},
+      "habits": {},
+      "honesty": {},
+      "humility": {},
+      "imagination": {},
+      "imposter-syndrome": {},
+      "instinct": {},
+      "introverts": {},
+      "intuition": {},
+      "kindness": {},
+      "laughter": {},
+      "likeability": {},
+      "loneliness": {},
+      "loss-aversion": {},
+      "loyalty": {},
+      "lying": {},
+      "mischief": {},
+      "modesty": {},
+      "morality": {},
+      "motivation": {},
+      "negativity": {},
+      "ostracism": {},
+      "patience": {},
+      "perfectionism": {},
+      "phobias": {},
+      "polarization": {},
+      "politeness": {},
+
+      "premature-optimization": {},
+      "pressure": {},
+      "privacy": {},
+      "privilege": {},
+      "procrastination": {},
+      "productivity-gtd": {},
+      "profanity": {},
+      "prospect-theory": {},
+      "purpose": {},
+      "reciprocity": {},
+      "regret": {},
+      "rejection": {},
+      "resonance": {},
+      "rewards": {},
+      "rituals": {},
+      "sabotage": {},
+      "secrecy": {},
+      "seduction": {},
+      "snobbery": {},
+      "social-skills": {},
+      "solitude": {},
+      "stoicism": {},
+      "stupidity": {},
+      "subterfuge": {},
+      "superstition": {},
+      "theft": {},
+      "truthtelling": {},
+      "values": {},
+      "whistleblowing": {},
+    }
+  },
+
+  "biology": {
+    "children": {
+      "agriculture": {}, "animals": {}, "dogs": {}, "botany": {},
+    }
+  },
+
+  "books": {},
+
+  "bookmarks": {
+    "children": {
+      "gkeep": {},
+      "pocket": {},
+      "omnivore": {},
+    }
+  },
+
+  "brandmgmt": {
+    "children": {
+      "naming": {},
+      "logos": {},
+      "positioning": {},
+    }
+  },
+
+  "broadcasting": {
+    "children": {
+      "streaming": {},
+      "plex": {},
+      "video": {},
+      "jellyfin": {},
+      "television-movies": {},
+      "youtube": {},
+      "netflix": {},
+      "radio": {},
+    }
+  },
+
+  "career-jobs-work": {
+    "children": {
+      "interviewing": {},
+      "jobdef": {},
+      "onboarding": {},
+      "polymaths": {},
+      "promotions": {},
+      "reviews": {},
+    }
+  },
+
+  "circuits-electronics": {
+    "children": {
+      "antennas": {}, "batteries": {}, "broadband": {}, "cameras": {},
+      "cellular": {}, "chip-design": {}, "codecs": {}, "connectors": {},
+      "hdmi": {}, "hpc": {}, "iot": {}, "iphone": {}, "ipod": {},
+      "keyboards": {}, "lidar": {},
+      "magnets": {},
+      "mainframes": {},
+      "headphones": {},
+      "networking": {},
+      "optics-photonics": {},
+      "rfid": {},
+      "robotics": {},
+      "sensors": {},
+      "spectrum": {},
+      "spice": {},
+      "substrates": {},
+      "wifi": {},
+      "thermal": {},
+    }
+  },
+
+  "climate-weather": {},
+
+  "cognition-neuro-percept": {
+    "children": {
+      "memory-recall": {}, "smell": {}, "symbols": {}, "vision": {},
+    }
+  },
+
+  "comedy-fun-humor": {
+    "children": {
+      "cartoons": {},
+      "comics": {},
+      "hobbies": {},
+      "magic": {},
+      "puzzles": {},
+      "laughter": {},
+    }
+  },
+
+  "databases": {
+    "children": {
+      "csv": {},
+      "mongodb": {},
+      "graphql": {},
+      "sql": {},
+      "mysql": {},
+      "nosql": {},
+      "postgres": {},
+      "redis": {},
+      "sqlite": {},
+      "yaml": {},
+      "vector-databases": {},
+      "dictionary": {},
+      "json": {},
+      "data-formats": {},
+      "firebase": {},
+    }
+  },
+
+  "deep-learning": {
+    "children": {
+      "adversarial": {}, "affordance": {}, "autoencoders": {}, "autograd": {},
+      "autonomous-driving": {}, "bert": {}, "chatgpt": {}, "convolutions": {},
+      "deepfakes": {}, "face-recognition": {}, "gans": {}, "gpt": {},
+      "hopfield": {}, 
+      "image-augmentation": {}, 
+      "image-classification": {},
+      "image-compression": {},
+      "image-generation": {},
+      "image-retrieval": {},
+      "image-segmentation": {},
+      "image-to-text": {},
+      "inference": {}, 
+      "langchain": {},
+      "latent-diffusion": {},
+      "llama": {},
+      "lstms": {},
+      "midjourney": {},
+      "prompt-engineering": {},
+      "rnns": {},
+      "semantic-search": {},
+      "semantic-segmentation": {},
+      "stable-diffusion": {},
+      "transformers": {},
+      "transfer-learning": {},
+      "topic-modeling": {},
+    }
+  },
+
+  "devops": {
+    "children": {
+      "ansible": {}, "aws": {}, "azure": {}, "cdns": {},
+      "ci-cd": {}, "cloud": {}, "data-centers": {}, "dns": {},
+      "domains": {}, "git": {}, "github": {}, "gitlab": {},
+      "heroku": {},
+      "google-cloud": {},
+      "hosting": {},
+      "jenkins": {},
+      "kubernetes": {},
+      "netlify": {},
+      "ngrok": {},
+      "nix": {},
+      "serverless": {}, 
+    },
+  },
+
+  "ecommerce": {
+    "children": {
+      "crm": {},
+      "drop-shipping": {},
+      "freemium": {},
+      "mobile": {},
+      "qr": {},
+      "shopify": {},
+      "square": {},
+      "subscriptions": {},
+    }
+  },
+  "economics": {
+    "children": {
+      "game-theory": {},
+      "monopoly": {},
+      "auctions": {},
+    }
+  },
+  "emotions": {
+    "children": {
+      "admiration": {}, "anger": {}, "boredom": {}, "burnout": {}, "disgust": {},
+      "doubt": {}, "emojis": {}, "empathy": {}, "fascination": {}, "fear": {}, 
+      "gratitude": {}, "guilt": {}, "happiness": {}, "surprise": {}, "trust": {}
+    }
+  },
+
+  "energy": {
+    "children": {
+      "electricity": {},
+    }
+  },
+
+  "execution": {
+    "children": {
+      "agile": {}, "best-practices": {}, "checklists": {}, "innovation": {},
+      "kanban": {}, "lean": {}, "meetings": {}, "okrs": {},
+      "post-mortems": {}, "process-mining": {}, "projmgmt": {},
+      "quality": {},
+      "rfcs": {},
+    }
+  },
+
+  "exercise-health-medicine": {
+    "children": {
+      "genetics": {},
+      "yoga": {},
+    }
+  },
+  "finance": {
+    "children": {
+      "crowdfunding": {},
+      "bitcoin": {},
+      "debt": {},
+      "mergers": {},
+      "payments": {},
+      "taxes": {},
+      "termsheets": {},
+    }
+  },
+
+  "food-drink": {
+    "children": {
+      "wine": {},
+    }
+  },
+
+  "games": {
+    "children": {
+      "chess": {}, "go": {}, "poker": {}, "stratego": {},
+    }
+  },
+
+  "geology": {},
+
+  "geography": {
+    "children": {
+      "maps": {},
+      "navigation": {},
+      "geofencing": {},
+      "gerrymandering": {},
+    }
+  },
+
+  "hardware-machinery": {},
+
+  "history": {
+    "children": {
+      "truecrime": {},
+      "mysteries": {},
+    }
+  },
+
+  "influence-persuasion": {
+    "children": {
+      "advice": {}, 
+      "apologies": {}, 
+      "arguments": {}, 
+      "attention": {},
+      "beauty": {}, 
+      "body-language": {}, 
+      "coaching-mentoring": {}, 
+      "compliments": {},
+      "conspiracies": {}, 
+      "controversy": {}, 
+      "coolness-desire-envy": {}, 
+      "criticism": {},
+      "delegation": {}, 
+      "exclusivity": {},
+      "excuses": {},
+      "fanclubs": {},
+      "feedback": {},
+      "framing": {},
+      "gaslighting": {},
+      "gifts": {},
+      "influencers": {}, 
+      "interrogations": {},
+      "listening": {},
+      "negotiation": {},
+      "presentations": {},
+      "propaganda": {},
+      "recognition": {},
+      "reputation": {},
+      "respect": {},
+      "rhetoric": {}, 
+      "rhyming": {},
+      "ridicule": {},
+      "sarcasm": {},
+      "sayingno": {},
+      "scolding": {},
+      "signaling": {},
+      "silence": {},
+      "speaking": {},
+      "spin": {},
+      "teamwork": {},
+      "tricks": {},
+      "triggers": {},
+      "trolling": {},
+      "leadership": {},
+      "leaks": {},
+      "management": {},
+      "nudging": {},
+      "objections": {},
+      "permission": {},
+    }
+  },
+
+  "language-linguistics": {
+    "children": {
+      "taxonomy": {},
+      "topic-noise": {},
+    }
+  },
+  "learning": {
+    "children": {
+      "anki": {}, "brainstorming": {}, "experiments": {}, "ideas": {},
+      "ideation": {}, "philosophy": {}, "reading": {}, "goodreads": {},
+      "creativity": {},
+    }
+  },
+
+  "legal": {
+    "children": {
+      "incorporation": {},
+      "intellectual-property": {},
+      "patents": {},
+      "probate": {},
+      "trademarks": {},
+    }
+  },
+
+  "machine-learning": {
+    "children": {
+      "activations": {}, 
+      "affinity": {}, 
+      "anomalies-outliers": {}, 
+      "apriori": {},
+      "association-rules": {}, 
+      "bandits": {}, 
+      "bayes": {}, 
+      "boosting": {},
+      "catalog-theory": {}, 
+      "cellular-automata": {}, 
+      "classification": {}, 
+      "clustering": {}, 
+      "concept-drift": {}, 
+      "constraints": {}, 
+      "correlation": {},
+      "covariance": {}, 
+      "decision-trees": {},
+      "denoising": {},
+      "dimensionality-reduction": {},
+      "discriminant-analysis": {},
+      "distance-measures": {},
+      "domain-adaptation": {},
+      "entity-resolution": {},
+      "entropy": {},
+      "feature-engineering": {},
+      "federated-learning": {},
+      "few-shot-learning": {},
+      "gaussians": {},
+      "gradients": {},
+      "hyperparameters": {},
+      "kernels": {},
+      "lda": {},
+      "linear-models": {},
+      "logistic-regression": {},
+      "loss-functions":{},
+      "markov": {},
+      "metrics": {},
+      "mlops": {},
+      "model-compression": {},
+      "model-selection": {},
+      "nlp": {},
+      "node2vec": {},
+      "outliers": {},
+      "passive-aggressive": {},
+      "pca": {},
+      "recommenders": {},
+      "regression": {},
+      "regularization": {},
+      "reinforcement-learning": {},
+      "representation-learning": {},
+      "roc": {},
+      "scoring-metrics": {},
+      "self-organizing-maps": {},
+      "self-supervised": {},
+      "semi-supervised": {},
+      "sensitivity": {},
+      "sentiment-analysis": {},
+      "speech-recognition": {},
+      "svd": {},
+      "synthetic-data": {},
+      "tabular-data": {},
+      "tsne": {},
+      "unbalanced": {},
+      "variational": {},
+      "word2vec": {},
+      "zero-shot": {},
+    }
+  },
+
+  "machine-vision": {
+    "children": {
+      "scikit-image": {},
+      "depth-estimation": {},
+      "motion-detection": {},
+      "object-detection": {},
+      "object-tracking": {},
+      "ocr": {},
+      "opencv": {},
+      "pose-estimation": {},
+      "super-resolution": {},
+    }
+  },
+  "marketing": {
+    "children": {
+      "blogging": {}, "brochures": {}, "cards": {}, "catalogs": {},
+      "chatbots": {}, "cms": {}, "communities": {}, "content-syndication": {},
+      "copywriting": {}, "disqus": {}, "email": {},
+      "epub": {},
+      "faqs": {},
+      "magazines": {},
+      "mail": {},
+      "mailchimp": {},
+      "newsletters": {},
+      "pdfs": {},
+      "press-releases": {},
+      "social-proof": {},
+      "wiki": {},
+      "gamification": {},
+      "growth-hacks": {},
+      "leadgen-leadmgmt": {},
+    }
+  },
+  "materials-minerals": {
+    "children": {
+      "aluminum": {}, "steel": {},
+      "clothing": {}, "fabric": {},
+    }
+  },
+
+  "thinking": {
+    "children": {
+      "mental-models": {},
+      "ambiguity": {},
+      "analogies": {},
+    }
+  },
+  "military-warfare": {
+    "children": {
+      "spycraft": {},
+    }
+  },
+  "public-policy": {
+    "children": {
+    }
+  },
+  "notetaking": {},
+  "physics": {
+    "children": {
+      "fusion": {},
+      "quantum": {},
+      "solar": {},
+      "space": {},
+    }
+  },
+
+  "places (not tagged)": {
+    "children": {
+      "africa": {}, "alaska": {}, "austin": {}, "china": {}, "greenland": {}, 
+      "india": {}, "japan": {}, "russia": {}, "wv": {},
+    }
+  },
+  "platforms": {
+    "children": {
+      "mastodon": {},
+      "pinterest": {},
+      "spreadsheets": {},
+      "telegram": {},
+      "excel": {},
+      "gmail": {},
+      "google-docs": {},
+      "instacart": {},
+      "instagram": {},
+      "linkedin": {},
+      "twitter": {},
+      "tiktok": {},
+      "reddit": {},
+      "wechat": {},
+    }
+  },
+  "printing": {},
+  "prodmgmt": {
+    "children": {
+      "affiliates": {}, 
+      "aggregation": {}, 
+      "antitrust": {}, 
+      "arbitrage": {},
+      "barcodes": {}, 
+      "battlecards": {}, 
+      "bundling": {},
+      "survival-metrics": {},
+      "channels": {},
+      "churn": {},
+      "collecting-curation": {},
+      "contracts": {},
+      "stickiness": {},
+      "craftsmanship": {},
+      "custsvc": {},
+      "demand-mgmt": {},
+      "discovery": {},
+      "disruption": {},
+      "ecosystems": {},
+      "eols": {},
+      "feature-benefits": {},
+      "friction-traction": {},
+      "industrial-classification": {},
+      "jobs-to-be-done": {},
+      "low-cost": {},
+      "luxury": {},
+      "moats": {},
+      "mvp": {},
+      "network-effects": {},
+      "personas": {},
+      "revenue-ops": {},
+      "value-prop": {},
+      "wishlists": {},
+      "packaging": {},
+      "physical-products": {},
+      "piracy": {},
+      "pivots": {},
+      "prds-requirements": {},
+      "pricing": {},
+      "prioritization": {},
+      "prod-mkt-fit": {},
+      "repair": {},
+      "sales-ops-planning": {},
+      "sales-salesmgmt": {},
+      "sass": {},
+      "scarcity": {},
+      "startups": {},
+      "whitelabel": {},
+      "winloss": {},
+      "virality": {},
+      "user-generated-content": {},
+      "tickets": {},
+    }
+  },
+  
+  "programming": {
+    "children": {
+      "animation": {}, 
+      "apis": {}, 
+      "authentication": {}, 
+      "backups": {},
+      "benchmarks": {},
+      "bios": {},
+      "bundler": {},
+      "caching": {},
+      "command-line": {},
+      "closure": {},
+      "compilers": {},
+      "concurrency": {},
+      "containers": {},
+      "data-augmentation": {},
+      "datasets": {},
+      "debugging": {},
+      "decorators": {},
+      "design-patterns": {},
+      "documentation": {},
+      "hacking": {},
+      "interpreters": {},
+      "logging": {},
+      "malware": {},
+      "metadata": {},
+      "packages": {},
+      "parsing": {},
+      "passkeys": {},
+      "etl": {},
+      }
+  },
+  "programming-tools": {
+    "children": {
+      "awk": {},
+      "bash": {},
+      "cpp": {},
+      "cuda": {},
+      "curl": {},
+      "d3": {},
+      "dash": {},
+      "dask": {},
+      "deno": {},
+      "django": {},
+      "docker": {},
+      "elasticsearch": {},
+      "elixir": {},
+      "erlang": {},
+      "flask": {},
+      "forth": {},
+      "fortran": {},
+      "gatsby": {},
+      "golang": {},
+      "gradio": {},
+      "gensim": {},
+      "grep": {},
+
+      "gcc": {},
+      "hadoop": {},
+      "hugo": {},
+      "hypertools": {},
+      "kafka": {},
+      "kvm": {},
+      "linux": {},
+      "lisp": {},
+      "llvm": {},
+      "lodash": {},
+      "make": {},
+      "nim": {},
+      "open-source": {},
+      "openstack": {},
+      "rpc": {},
+      "rtos": {},
+      "rust": {},
+      "sed": {},
+      "snap": {},
+      "sockets": {},
+      "spark": {},
+      "static-sites": {},
+      "sublime-text": {},
+      "text": {},
+      "ubuntu": {},
+      "voila": {},
+      "yarl": {},
+      "yarn": {},
+    }
+  },
+  "python": {
+    "children": {
+      "cpython": {},
+      "cython": {},
+      "pandas": {},  
+      "pip": {},
+      "pycaret": {},
+      "pyflame": {},
+      "pyspark": {},
+      "pytest": {}, 
+      "pytorch": {},
+      "scipy": {},
+      "scikit-learn": {},
+      "spacy": {},
+      "prophet": {},
+      "streamlit": {},
+      "sympy": {},
+      "tensorflow": {},
+      "parquet": {},
+      "venv": {},
+      "matplotlib": {},
+      "plotly": {},
+      "seaborn": {},
+      "fastapi": {},
+      "numpy": {},
+      "numba": {},
+    }
+  },
+  "jupyter": {
+    "children": {
+      "markdown": {},
+    }
+  },
+  "ruby": {
+    "children": {
+      "rack": {},
+      "rake": {},
+      "rbenv": {},
+      "rspec": {},
+      "rubygems": {},
+      "rubyonrails": {},
+      "sinatra": {},
+      "jekyll": {},
+      "liquid": {},
+    }
+  },
+  "javascript": {
+    "children": {
+      "reactjs": {},
+      "angularjs": {}, 
+      "sveltejs": {}, 
+      "typescript": {},
+      "meteorjs": {},   
+      "expressjs": {},
+      "nextjs": {},
+      "nodejs": {},
+      "npm": {},
+    }
+  },
+  "_r_": {
+    "children": {
+      "shiny": {},
+    }
+  },
+  "retail": {
+    "children": {
+      "grocery": {},
+      "self-serve": {},
+    }
+  },
+  "risk": {
+    "children": {
+      "due-diligence": {},
+      "insurance": {},
+      "luck": {},
+      "safety": {},
+    }
+  },
+  "search": {
+    "children": {
+      "github-awesome": {}, "bing": {}, "glossaries": {},
+      "keywords-ppc-seo": {},
+      "similarity-search": {},
+      "whitepages": {},
+    }
+  },
+  "semiconductors": {
+    "children": {
+      "amd": {}, "cpus": {}, "gpus": {}, "error-correction": {},
+      "foundries": {}, "fpgas": {}, "gallium-arsenide": {}, "gallium-nitride": {},
+      "gsi": {}, "interconnects": {}, "lithography": {}, "mems": {},
+      "nvidia": {},
+      "pufs": {},
+      "riscv": {},
+      "semiconductor-memory": {},
+      "stdf": {},
+    }
+  },
+  "sports": {
+    "children": {
+      "football": {},
+    }
+  },
+  "storytelling": {
+    "children": {
+      "folklore": {},
+      "journalism": {},
+      "mysteries": {},
+      "myths": {},
+      "scifi": {},
+    }
+  },
+  "supply-chain": {
+    "children": {
+      "kinaxis": {},
+      "manufacturing": {},
+      "returns": {},
+      "sap": {},
+    }
+  },
+  "tools": {},
+  "transportation": {
+    "children": {
+      "railroads": {},
+      "aviation": {},
+      "railroads": {},
+      "bicycles": {},
+      "vespa": {},
+    }
+  },
+  "travel": {
+    "children": {
+      "airstream": {}, 
+      "camping": {}, 
+      "expat": {}, 
+      "hiking": {},
+      "immigration": {}, 
+      "surfing": {}, 
+    }
+  },
+
+  "ui-ux": {
+    "children": {
+      "experience-maps": {},
+      "figma": {},
+      "fonts-typography": {},
+      "kern": {},
+      "menus": {},
+      "minimalism": {},
+      "scenario-maps": {},
+      "simplicity": {},
+      "style-guides": {},
+      "treemaps": {},
+      "wordclouds": {},
+    }
+  },
+  "visualization": {
+    "children": {
+      "sankey": {},
+      "scatterplot": {},
+      "voronoi": {},
+    }
+  },
+  "webdev": {
+    "children": {
+      "bookmarks": {}, "browsers": {}, "cards": {}, "color": {},
+      "css": {}, "gifs": {}, "html": {}, "htmx": {}, "http": {},
+      "icons": {}, "images": {}, "ipsec": {},
+      "sms": {},
+      "ipv6": {},
+      "latex": {},
+      "retargeting": {},
+      "rss": {},
+      "security": {},
+      "webgpu": {},
+      "webgl": {},
+      "webassembly": {},
+      "web-servers": {},
+      "web-scraping": {},
+      "web-crawlers": {},
+    }
+  },
+  "writing": {},
+  "realestate": {},
+  "architecture": {},
+  "buildings": {},
+  "construction": {},
+  "houses": {},
+  "lanterns": {},
+  "rope": {},
+}
