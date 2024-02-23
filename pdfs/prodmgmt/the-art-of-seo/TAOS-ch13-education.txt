@@ -1,0 +1,1168 @@
+CHAPTER THIRTEEN
+
+SEO Education and Research
+Learning everything you need to know about SEO in order to be effective today, and
+in the months and years to come, is a difficult process that is made even more challenging and complex by the constant evolution of web technologies, search engines,
+searcher behavior, and the landscape of the Web.
+Fortunately, many resources that make the job easier are available online. Leading
+SEO pros regularly post their thoughts on social media, blogs, and forums, and many
+speak at various industry conferences. These platforms create numerous opportunities
+to interact with folks doing SEO at a high level, to learn from their experience, and to
+keep your optimization skills sharp and up to date.
+In this chapter, we will talk about how you can leverage the many resources available
+to be more successful in your SEO efforts today and in the future.
+
+SEO Research and Search Performance Analysis
+It should be fairly evident to you at this stage that SEO is always evolving. Search
+engines are constantly changing their algorithms (Penguin, Panda, Hummingbird, oh
+my!), and new media and technologies are being introduced to the Web on a regular
+basis. Staying current requires an ongoing commitment to research, study, and participate in the process of SEO.
+
+SEO Resources
+One of the easiest ways to research what is happening in the world of SEO is to study
+the websites and periodicals that cover SEO in detail. Simultaneously, ongoing testing
+of your (and others’) SEO hypotheses should also play a major role in your day-to-day
+work if you hope to be, and remain, competitive.
+
+827
+
+www.it-ebooks.info
+
+Websites
+A large number of online sites cover the search marketing space. Here is a short list of
+some of the better-known ones:
+• Search Engine Land, owned and operated by Third Door Media
+• Search Engine Journal, owned and operated by Alpha Brand Media
+• Search Engine Watch, owned and operated by Incisive Media
+• Moz, owned and operated by SEOMoz, Inc.
+Each of these sites publishes columns on a daily basis, usually with multiple posts per
+day. The columns are typically written by industry experts who have been chosen for
+their ability to communicate information of value to their reader bases. Moz.com also
+provides a wide range of tools and resources for SEO practitioners.
+
+Commentary from search engine employees
+Search engine representatives sometimes actively participate in forums, or publish blog
+posts and/or videos designed for webmasters. The main blogs for the two major search
+engines at the time of this writing are:
+• Google Webmaster Central Blog
+• Bing Search Blog
+The search engines use these blogs to communicate official policy, announce new
+products or services, and provide webmasters with useful tips. You can reach Google
+personnel via the Google Webmaster Help group in Google Groups. Members of the
+Google webspam team are active in this group, answering questions and even starting
+their own new threads from time to time. Google’s YouTube channel also holds weekly
+Hangouts Office Hours, where people around the world can ask questions directly to
+Googlers. You will also find helpful advice via the Google Webmasters YouTube
+channel.
+You can also interact with search engine representatives in various forums, such as
+WebmasterWorld, and in social media, often via their individual Twitter accounts. We
+will discuss the value of forums in more detail in “The SEO Industry on the Web” on
+page 857.
+
+Interpreting commentary
+Search engine representatives are “managed” by their corporate communications
+departments, and some aren’t even allowed to go on the record with statements about
+how their search engines function. A rare few search engine reps have free reign (e.g.,
+
+828
+
+CHAPTER THIRTEEN: SEO EDUCATION AND RESEARCH
+
+www.it-ebooks.info
+
+Google’s Gary Illyes). Often they can’t be very specific or they can’t answer questions
+at all. The algorithms the search engines use are highly proprietary, and they need to
+be guarded as extremely valuable business assets.
+This means there are certain types of questions they won’t answer, such as “What do I
+have to do to move from position 3 to position 1 on a particular search?” or “How
+come this spammy site ranks so much higher than mine?”
+In addition, the search engines have their own motives and goals. They will want to
+reduce the amount of spam in their search indexes and on the Web overall (which is a
+good thing), but this may lead them to take positions on certain topics based on those
+goals.
+As an example, Google does not outline its specific methods for detecting paid links,
+but it has made clear that its ability to detect them has increased tremendously—and
+the updates to the Penguin algorithm over the past couple of years certainly prove it.
+Taking this position is, in itself, a spam-fighting tactic, as it may discourage people
+from buying links who otherwise might have chosen to do so.
+In spite of these limitations, you can gather a lot of useful data from interacting with
+search engine representatives.
+
+SEO Testing
+SEO is both an art and a science. As with any scientific discipline, it requires rigorous
+testing of hypotheses. The results need to be reproducible, and you have to take an
+experimental approach so as not to modify too many variables at once. Otherwise, you
+will not be able to tell which changes were responsible for specific results.
+And although you can gain a tremendous amount of knowledge of SEO best practices,
+latest trends, and tactics online, it is hard to separate the wheat from the chaff and to
+know with any degree of certainty that an SEO-related tactic will provide benefit.
+That’s where the testing of your SEO efforts comes in: to prove what works and what
+doesn’t.
+Unlike multivariate testing for optimizing conversion rates, where many experiments
+can be run in parallel, SEO testing requires a serial approach. Everything must filter
+through the search engines before the impact can be gauged. This is made more difficult by the fact that there’s a lag between when you make the changes and when the
+revised pages are spidered, and another lag before the spidered content makes it into
+the index and onto the search engine results pages (SERPs). On top of that, the results
+delivered depend on various user-specific pieces of information, including the user’s
+search history and location, the Google data center accessed, and other variables that
+you cannot hold constant.
+
+SEO RESEARCH AND SEARCH PERFORMANCE ANALYSIS
+
+www.it-ebooks.info
+
+829
+
+Sample experimental approach
+Let’s imagine you have a product page with high SERP exposure in Google for a specific search term, and you want to improve the positioning and resultant traffic even
+further. Rather than applying a number of different SEO tactics at once, start testing
+specific tactics one at a time:
+1. Modify just the HTML <title> tag and see what happens. Depending on your
+site’s crawl frequency, you will need a few days to a few weeks to give Google and
+Bing enough time to recognize what you have done, and respond.
+2. Continue making further revisions to the HTML <title> tag in multiple iterations
+until your search engine results show that the tag truly is optimal.
+3. Move on to your heading tag, tweaking it and nothing else.
+4. Watch what happens. Optimize it in multiple iterations.
+5. Move on to the intro copy, then the breadcrumb navigation, and so on.
+You can test many different elements in this scenario, such as:
+• HTML <title> tag
+• Headline tags (<h1>, <h2>, <h3>, ...)
+• Placement of body copy in the HTML
+• Presence of keywords in the body copy
+• Keyword prominence
+• Keyword repetition
+• Anchor text of internal links to that page
+• Anchor text of inbound links to that page from sites over which you have
+influence
+Testing should be iterative and ongoing, not just a “one-off” in which you give it your
+best shot and never revisit the issue. If you’re testing <title> tags, continue trying different things to see what works best. Shorten them; lengthen them; move words
+around; substitute words with synonyms. If all else fails, you can always put a <title>
+tag back the way it was.
+When doing iterative testing, do what you can to speed up the spidering and indexation so that you don’t have to wait so long between iterations to see the impact. For
+example, you can flow more link authority to the pages you want to test. That means
+linking to them from higher in the site tree (e.g., from the home page). Be sure to do
+this for a while before forming your baseline, though, because you will want the
+
+830
+
+CHAPTER THIRTEEN: SEO EDUCATION AND RESEARCH
+
+www.it-ebooks.info
+
+impact of changing the internal links to show in the search engines before you initiate
+your test (to prevent the two changes from interacting).
+Alternatively, you can use the XML Sitemaps protocol to set a priority for each page,
+from 0.0 to 1.0. Dial up the priority to 1.0 to increase the frequency with which your
+test pages will be spidered.
+NOTE
+Don’t make the mistake of setting all your pages to 1.0; if you do, none of your
+pages will be differentiated from each other in priority, and thus none will get preferential treatment from Googlebot.
+
+Throughout your SEO efforts, always remember that geolocation and personalization
+factors mean that not every searcher is seeing the same search results; therefore, you
+shouldn’t rely solely on specific rankings as the bellwether for the impact of your SEO
+tactics.
+
+Other useful SEO metrics
+As we discussed in Chapter 9, there are many other meaningful SEO metrics,
+including:
+• Organic traffic to the page
+• Search engine spider activity
+• Search terms driving traffic per page (to the extent you can determine keyword
+referrer data)
+• Number and percentage of URLs yielding search traffic
+• Searchers delivered per search term (again, Google’s blocking of keyword referrer
+data can make this difficult)
+• Ratio of branded to nonbranded search terms
+• Unique pages spidered
+• Unique pages indexed
+• Ratio of pages spidered to pages indexed
+• Conversion rates
+An effective testing regimen also requires a platform that is conducive to your performing rapid-fire iterative tests, in which each test can be associated with reporting
+based on these new metrics. Such a platform comes in very handy with experiments
+that are difficult to conduct under normal circumstances.
+
+SEO RESEARCH AND SEARCH PERFORMANCE ANALYSIS
+
+www.it-ebooks.info
+
+831
+
+Testing a category name revision applied sitewide is harder than, say, testing a <title>
+tag revision applied to a single page. Consider a scenario in which you’re asked to
+make a business case for changing the category name “kitchen electrics” to the more
+targeted, search engine–optimal “kitchen small appliances” or “small kitchen appliances.” Conducting the test to quantify the value would require applying the change to
+every occurrence of “kitchen electrics” across the website—a tall order indeed, unless
+you can conduct the test as a simple search-and-replace operation, which you can do
+by applying it through a proxy server platform.
+By acting as a middleman between the web server and the spider, a proxy server can
+facilitate useful tests that normally would be invasive on the ecommerce platform and
+time-intensive for the IT team to implement.
+NOTE
+During the proxying process, you can replace not only words, but also HTML, site
+navigation elements, Flash, JavaScript, iframes, and even HTTP headers—almost
+anything, in fact. You also can do some worthwhile side-by-side comparison
+tests: a champion/challenger sort of model that compares the proxy site to the
+native website.
+
+Start with a hypothesis
+A sound experiment always starts with a hypothesis. For example, if a page isn’t performing well in the SERPs and it’s an important product category for you, you might
+hypothesize that it’s underperforming because it’s not well linked-to from within your
+site. Or you may conclude that the page isn’t ranking well because it is targeting
+unpopular keywords, or because it doesn’t have enough copy.
+In the case of the first hypothesis, you could try these steps to test your theory:
+1. Add a link to that page on your site’s home page.
+2. Measure the effect, waiting at least a few weeks for the impact of the test to be
+reflected in the rankings.
+3. If the rankings don’t improve, formulate another hypothesis and conduct another
+test.
+Granted, this can be a slow process if you have to wait a month for the impact of each
+test to be revealed, but in SEO, patience is a virtue. Reacting too soon to changes you
+see (or don’t see) in the SERPs can lead you to false conclusions. You also need to
+remember that the search engines may be making changes in their algorithms at the
+same time, and your competitors may also be making SEO changes simultaneously. In
+other words, be aware that the testing environment is more dynamic than one using a
+strict scientific method with controls.
+
+832
+
+CHAPTER THIRTEEN: SEO EDUCATION AND RESEARCH
+
+www.it-ebooks.info
+
+Analysis of Top-Ranking Sites and Pages
+There are many reasons to analyze top-ranking sites, and particularly those that rank
+at the top in your market space. They may be your competitors’ sites—which is reason
+enough to explore them—but even if they are not, it can be very helpful to understand the types of things these sites are doing and how those things may have helped
+them get their top rankings. With this information in hand, you will be better
+informed as you decide how to put together the strategy for your site.
+Let’s start by reviewing a number of metrics of interest and how to get them:
+1. Start with a simple business analysis to see how a particular company’s business
+overlaps with yours and with other top-ranking businesses in your market space.
+It is good to know who is competing directly and who is competing only
+indirectly.
+2. Find out when the website was launched. This can be helpful in evaluating the
+site’s momentum. Determining the domain age is easy; you can do it by checking
+the domain’s whois records. Obtaining the age of the site, however, can be trickier.
+You can use the Internet Archive’s Wayback Machine to get an idea of when a site
+was launched (or at least when it had enough exposure that the Internet Archive
+started tracking it).
+3. Determine the number of Google results for a search for the site’s domain name
+(including the extension) for the past six months, excluding the domain itself. To
+get this information, search for <theirdomain.com> -site:<theirdomain.com> in Google. Then append &as_qdr=m6 to the end of the results page URL and reload the
+page (note this only works with Google Instant).
+4. Find out from Google Blog Search how many posts have appeared about the site
+in the past month. To do this, search for the domain in Google Blog Search, then
+append &as_qdr=m1 to the end of the results page URL and reload the page.
+5. Obtain the PageRank of the domain’s home page as reported by the Google toolbar or a third-party tool.
+6. Use an industrial-strength tool such as Moz’s Open Site Explorer, Majestic SEO, or
+LinkResearchTools to analyze backlink profiles. These tools provide a rich set of
+link data based on their own crawl of the Web, including additional critical details
+such as the anchor text of the links.
+7. If you are able to access a paid service such as Experian’s Hitwise or comScore,
+you can pull a rich set of additional data, breaking out the site’s traffic by source
+(e.g., organic versus paid versus direct traffic versus other referrers). You can also
+pull information on their highest-volume search terms for both paid and organic
+search.
+
+SEO RESEARCH AND SEARCH PERFORMANCE ANALYSIS
+
+www.it-ebooks.info
+
+833
+
+8. Determine the number of indexed pages in each of the two major search engines,
+using site:<theirdomain.com>.
+9. Search on the company brand name at Google, restricted to the past six months
+(by appending &as_qdr=m6 to the results page URL, as outlined earlier).
+10. Repeat the preceding step, but for only the past three months (using &as_qdr=m3).
+11. Perform a Google Blog Search for the brand name using the default settings (no
+time frame).
+12. Repeat the preceding step, but limit it to blog posts from the past month (using
+&as_qdr=m1).
+Of course, this is a pretty extensive analysis to perform, but it’s certainly worthwhile
+for the few sites that are the most important ones in your space. You might want to
+pick a subset of other related sites as well.
+NOTE
+As valuable as website metrics are, brand names can sometimes provide even
+more insight. After all, not everyone is going to use the domain name when talking
+about a particular brand, nor will they all link. Thus, looking at brand mentions over
+the past few months can provide valuable data.
+
+Analysis of Algorithmic Differentiation Across Engines and
+Search Types
+Each search engine makes use of its own proprietary algorithms to crawl and index the
+Web. Although many of the basic elements are the same (such as links being used as
+votes), there are significant differences among the different engines. Here are some
+examples of elements that can vary in on-page SEO analysis:
+• Role of user engagement measurements
+• Strategies for measuring content quality
+• Strength of social media signals
+• Weight of <title> tags
+• Weight of heading tags
+• Weight placed on synonyms
+• Value of internal link anchor text
+• How internal links are weighted as votes for a page
+• Duplicate content filtering methods
+
+834
+
+CHAPTER THIRTEEN: SEO EDUCATION AND RESEARCH
+
+www.it-ebooks.info
+
+Similarly, there are many different ways a search engine can tune its algorithm for
+evaluating links, including:
+• Percentage of a page’s link authority that it can use to vote for other pages
+• Weight of anchor text
+• Weight of text near the anchor text
+• Weight of overall linking page relevance
+• Weight of overall relevance of the site with the linking page
+• Factoring in placement of the link on the page
+• Precise treatment of nofollow
+• Other reasons for discounting a link (paid, not relevant, etc.)
+A detailed understanding of the specifics of a search engine’s ranking system, at least
+to the point of exact and sustained manipulation, is not possible. However, with determination you can uncover various aspects of how the search engines differ. One tactic
+for researching search engine differences is to conduct some comparative searches
+across the engines. For example, when we searched on folding glass doors in Google and
+Bing, we obtained the results outlined in Table 13-1. (Note that these search results
+differ daily by search engine, so the results you may see today will likely differ from
+what we saw at the time we conducted this search; the results also vary by searcher
+location.)
+Table 13-1. Comparison of top five results for “folding glass doors” in Google and Bing
+Google
+
+Bing
+
+http://www.nanawall.com/...
+
+http://www.solarinnovations.com/...
+
+http://www.jeld-wen.com/...
+
+http://www.lacantinadoors.com/...
+
+http://www.milgard.com/...
+
+http://www.jeld-wen.com/...
+
+https://www.marvin.com/...
+
+http://www.andersenwindows.com/...
+
+http://www.solarinnovations.com/...
+
+http://www.panorammicdoors.com/...
+
+There are some pretty significant differences here. For example, the search engines
+have only two sites in common (http://www.jeld-wen.com/ and http://www.solarinnova
+tions.com/). You can conduct some detailed analysis to try to identify possible factors
+contributing to http://www.lacantinadoors.com showing up in Bing, but not in Google.
+At the most basic level, your analysis of competing websites may indicate that Google
+appears to be weighting HTML <title> tags more heavily, whereas Bing seems to place
+greater value on keywords in the domain name. These are, of course, hypothetical
+examples of how you can begin to analyze SERPs across different engines for the same
+
+SEO RESEARCH AND SEARCH PERFORMANCE ANALYSIS
+
+www.it-ebooks.info
+
+835
+
+query to find differentiators across the search algorithms. However, there is a very
+large number of variables, so while you will be able to form theories, there is no way
+to ever truly be certain! Herein lies one of the persistent challenges of SEO.
+
+The Importance of Experience
+There are some commonly perceived differences among the search engines. For example, Google is still believed to place greater weight on link analysis than Bing (note
+that link analysis is very important to both engines). As we discussed in the second
+edition of this book, Google had fallen prey to much text-link forum/blog/article comment spam, with sites exploiting this tactic for higher organic positioning, and we
+expressed our hope that Google would improve its policing on that front. By the end
+of 2013, with various updates to its Penguin algorithm, Google had done just that by
+aggressively penalizing sites with low-quality, mostly paid, and often keyword-stuffed
+text links.
+There are also institutional biases to consider. Given its huge search market share,
+Google has the richest array of actual search data. The nature of the data that the different engines have available to them can be influencing factors in how they make
+their decisions.
+Over time and with experience, you can develop a sixth sense for the SERPs so that
+when you look at a set of search results you will have a good grasp of the key factors
+in play without having to analyze dozens of them. A seasoned SEO pro, when
+approaching a new project, will often be able to see important elements and factors
+that someone who is just starting out will not be able to pick up on. This kind of
+expertise is similar to that of a seasoned auto mechanic who can put an ear to an
+engine and tell you what’s wrong—that kind of knowledge doesn’t come from a blog
+or a book, but from years of trial and error working on many different engines. So
+while this book is a great resource that can help you get started, remember that
+actually doing SEO is the only way to build your abilities.
+
+Competitive Analysis
+Everything we discussed previously regarding analyzing top sites applies to analyzing
+competitors as well. In this section, we’ll cover some additional analysis methods that
+can help you gain a thorough understanding of how your competitors in search are
+implementing their SEO strategies.
+
+Content Analysis
+When examining a competing website, ask yourself the following questions:
+
+836
+
+CHAPTER THIRTEEN: SEO EDUCATION AND RESEARCH
+
+www.it-ebooks.info
+
+• What types of content are currently on the site, and how much content is there?
+Are there articles? Videos? Images? Music? News feeds? Answering these questions will tell you a lot of things, including how your competitors view their customers and how they use content to get links. For example, they may have a series of how-to articles related to their products, or a blog, or some nifty free tools
+that users may like. If they do have a blog, develop a sense of what they write
+about. Also, see whether the content they are developing is noncommercial or
+simply a thinly disguised ad.
+• How rapidly is that content changing? Publishers with rapidly changing websites
+are actively investing in their websites, whereas those who are not adding new
+articles or updating content may not be.
+• Are they collecting user-generated content? Sites that gather a meaningful
+amount of user-generated content tend to have an engaged user audience.
+• Are they trying to generate sign-ups or conversions in a direct way with their content? Or is the content more editorial in its tone and structure? This can give you
+more insight into the way their marketing and SEO strategies are put together.
+
+Internal Link Structure and Site Architecture
+The organization and internal linking structure of your competitors’ sites can indicate
+their priorities. Content linked to from the home page is typically important. For
+example, the great majority of websites have a hierarchy in which the major subsections of the site are linked to from the home page, and perhaps also from global navigation that appears on all or most of the pages on the site.
+But what else is linked to from the home page? If the competitor is SEO-savvy, this
+could be a clue to something that she is focusing on. Alternatively, she may have discovered that traffic to a given piece of content has a high conversion rate. Either way,
+these types of information can be helpful in understanding a competitor’s strengths
+and weaknesses.
+
+External Link Attraction Analysis
+You can extract a tremendous amount of information via link analysis. A thorough
+review involves looking at both anchor text and link authority, and requires an
+advanced tool such as Open Site Explorer, Majestic SEO, and LinkResearchTools.
+Blekko also provides some useful SEO tools, as do SEMrush and Searchmetrics.
+Conducting an external link analysis of your competitors allows you to do many
+things:
+
+COMPETITIVE ANALYSIS
+
+www.it-ebooks.info
+
+837
+
+Dig deeper
+What pages on the site are attracting the most links? These are likely the most
+important pages on the site, particularly if those pages also rank well for competitive search terms.
+
+Determine where their content is getting its links
+This can help you develop your own content and link development strategies.
+
+Analyze anchor text
+Do they have an unusually large number of people linking to them using highly
+optimized anchor text? If so, this could be a clue that they are engaged in broadscale link spam, such as paid article/blog commenting strictly for text-rich keyword linking.
+If your analysis shows that they are not buying links, take a deeper look to see
+how they are getting optimized anchor text.
+
+Determine whether they build manual links
+Manual links come in many forms, so look to see whether your competitors
+appear in lots of directories, or whether they are exchanging a lot of links.
+
+Determine whether they are using a direct or indirect approach
+Try to see whether they are using indirect approaches such as PR or social media
+campaigns to build links. Some sites do well building their businesses just through
+basic PR. If there are no signs that your competitors are doing a significant
+amount of PR or social media–based link building, it could mean they are aggressively reaching out to potential linkers by contacting them directly.
+If they are using social media campaigns, try to figure out what content is working
+for them and what content is not.
+
+Determine whether they are engaging in incentive-based link building
+Are they offering incentives in return for links, such as award programs or membership badges? Do those programs appear to be successful?
+
+Determine their overall link-building focus
+Break down the data some more and see whether you can determine where they
+are focusing their link-building efforts. Are they promoting viral videos or implementing a news feed and reaching influencers through Google News and Bing
+News?
+
+What Is Their SEO Strategy?
+Wrap up your competitive analysis by figuring out what your competitors’ SEO strategies are. First, do they appear to be SEO-savvy? If they’re not well versed and up to
+date with SEO, you may identify the following site characteristics:
+
+838
+
+CHAPTER THIRTEEN: SEO EDUCATION AND RESEARCH
+
+www.it-ebooks.info
+
+• Poorly optimized anchor text (if the majority of the site’s in-content links say
+“Read more” or “Click here,” it is possible there is no extensive SEO expertise
+behind the scenes; research further).
+• Content buried many levels deep. As you know from Chapter 6, flat site architecture is a must in SEO.
+• Critical content made inaccessible to spiders, such as content behind forms or content that can be reached only through JavaScript.
+In general, if you see sites with obvious errors that do not follow best or even good
+practices, the business is either not very SEO-savvy or is continuing to employ developers and use platforms that do not enable it to implement effective, SEO-friendly site
+development. These competitors may still be dangerous if they have a very strong
+brand, so you can’t ignore them. In addition, they can fix a lack of SEO expertise by
+simply hiring a smart SEO expert and getting key stakeholder buy-in to make needed
+changes.
+If, however, you are looking at a competitor who is very strong on the SEO front, you
+will want to pay even closer attention to their efforts.
+
+Competitive Analysis Summary
+If your competitors are implementing a strategy and it is working for them, consider
+using it as an effective model for your own efforts. Or, simply choose to focus on an
+area that appears to be a weak spot in their strategy, and/or one that leverages your
+current resources most effectively.
+For example, if your competitor is not focusing on a segment of the market that has
+the potential to provide quality links through content development efforts, you can
+stake out that portion of the market first to gain a competitive edge.
+In addition, if your competitors have previously bought or are still buying links,
+reporting them to the search engines is an option—but this is a decision you will have
+to make in consideration of your organization’s business ethics. Their spam tactics will
+eventually be discovered, so it is just as well to focus your energies on building your
+own business.
+Ultimately, you need to make some decisions about your own SEO strategy, and having a detailed understanding of what your competitors are doing can be invaluable in
+that process.
+
+Using Competitive Link Analysis Tools
+It can be frustrating to see competitors shoot ahead in the rankings and have no idea
+how they’ve achieved their success. The link analysis tools we have mentioned can
+
+COMPETITIVE ANALYSIS
+
+www.it-ebooks.info
+
+839
+
+help you reverse-engineer their tactics by letting you quickly sort through the links
+pointing to a given site/page.
+For example, if you were curious about how GoAnimate, a site providing business
+video creation tools, had earned its links, you could peek inside an advanced Open
+Site Explorer report and see that, according to Moz, there are 14,624 links to the
+domain from 2,332 domains, as shown in Figure 13-1.
+
+Figure 13-1. Exploring your competitor’s inbound links
+
+Looking at the data in Figure 13-1, you can see links that appear to come from content
+on the GoAnimate YouTube channel, as well as from tech article websites like
+Mashable.com.
+This type of information will help your organization understand what the competition
+is up to. If your competitors have great viral content, you can attempt to mimic or
+outdo their efforts.
+And if they’ve simply got a small, natural backlink profile, you can be more aggressive
+with content strategies and direct link requests to overcome their lead. It’s always an
+excellent idea to be prepared, and the ability to sort and filter out nofollows and internal links and see where good anchor text and link authority flow from makes this process much more accessible than it is with other, less granular or expansive tools.
+
+840
+
+CHAPTER THIRTEEN: SEO EDUCATION AND RESEARCH
+
+www.it-ebooks.info
+
+Competitive Analysis for Those with a Big Budget
+In Chapter 5, we introduced you to Experian’s Hitwise, an “online competitive intelligence service” with a price tag that runs into the tens of thousands of dollars. If you
+have a big budget, there are four more expensive packages you might want to consider: RioSEO, Conductor, Searchmetrics, and seoClarity. These are powerful
+enterprise-grade SEO assessment and competitive analysis solutions that grade your
+website in a number of areas and compare it side-by-side to your competitors and their
+scores.
+
+Using Search Engine–Supplied SEO Tools
+Google and Bing both make an active effort to communicate with webmasters and
+publishers and provide some very useful tools for SEO professionals, and it is imperative that you verify your site(s) with these tools to take advantage of them.
+
+Search Engine Tools for Webmasters
+Although we have referred to the tools provided for webmasters by Google and Bing
+throughout the book, it is worth going into these in greater depth. Using search
+engine–provided tools is a great way to see how the search engines perceive your site.
+Setting up and using a Google Search Console or Bing Webmaster Tools account provides no new information about your site to the search engines, with the exception of
+any information you submit to them via the tools, and the basic fact that you, the site
+owner, have an interest in the very SEO-specific data and functionality they provide.
+You can create an account with either Google or Bing to access these tools quite easily.
+An important part of creating these accounts is verifying your ownership of the site.
+Google provides you with the following options to verify your site:
+• Add a meta tag to your home page (proving that you have access to the source
+files). To use this method, you must be able to edit the HTML code of your site’s
+pages.
+• Upload an HTML file with the name Google specifies to your server. To use this
+method, you must be able to upload new files to your server.
+• Verify via your domain name provider. To use this method, you must be able to
+sign in to your domain name provider (for example, GoDaddy or Network Solutions) or hosting provider and add a new DNS record.
+• Add the Google Analytics code you use to track your site. To use this option, you
+must be an administrator on the Google Analytics account, and the tracking code
+must use the asynchronous snippet.
+
+USING SEARCH ENGINE–SUPPLIED SEO TOOLS
+
+www.it-ebooks.info
+
+841
+
+Bing provides the following options to verify your site with its Webmaster Tools (http://
+bit.ly/verify_ownership):
+
+XML file authentication
+Click BingSiteAuth.xml to save the custom XML file, which contains your customized ownership verification code, to your computer, and then upload the file to
+the root directory of the registered site.
+
+Meta tag authentication
+Copy the displayed <meta> tag with your custom ownership verification code to
+the clipboard. Then open your registered site’s default page in your web development environment editor and paste the code at the end of the <head> section.
+Make sure the <head> section is followed by a <body> tag. Lastly, upload the revised
+default page file containing the new <meta> tag to your site.
+
+CNAME record authentication
+This option requires access to your domain hosting account. Inside that account
+you would edit the CNAME record to hold the verification code (series of numbers and letters) Bing has provided you. When complete, you can verify your
+ownership of the site.
+The intent of these tools is to provide publishers with data on how the search engines
+view their sites. This is incredibly valuable data that publishers can use to diagnose site
+problems. We recommend that all publishers leverage both of these tools on all of their
+websites.
+In the following sections, we will take a look at both of these products in more detail.
+
+Google Search Console
+Figure 13-2 shows the type of data you get just by looking at the opening screen once
+you log in to Google Search Console.
+
+842
+
+CHAPTER THIRTEEN: SEO EDUCATION AND RESEARCH
+
+www.it-ebooks.info
+
+Figure 13-2. Google Search Console opening screen
+
+Google updated its Search Console offering to provide additional information it maintains about your site, including Search Appearance. Figure 13-3 shows Google’s Search
+Appearance Overview (which you can reach by clicking on the i in the grey circle next
+to Search Appearance), which brings users to an interactive overlay with links to
+information and instructions for specific components relevant to this section.
+
+USING SEARCH ENGINE–SUPPLIED SEO TOOLS
+
+www.it-ebooks.info
+
+843
+
+Figure 13-3. Google Search Appearance Overview
+
+Search Appearance also gives you an inside look at potential problems with your meta
+description tags and your <title> tags, as shown in Figure 13-4.
+You should investigate all meta description and <title> tag issues to see whether there
+are problems that can be resolved. They may be indicating duplicate content, or pages
+that have different content but the same <title> tag. Because the HTML <title> tag is
+a strong SEO signal, this is something that you should address by implementing a tag
+that more uniquely describes the content of the page.
+You can find valuable data in each of the report sections.
+Another valuable section, called “Search Traffic,” shows Google search query, impression, and click data for your website (Figure 13-5).
+
+844
+
+CHAPTER THIRTEEN: SEO EDUCATION AND RESEARCH
+
+www.it-ebooks.info
+
+Figure 13-4. Google Search Console HTML Improvements report
+
+Figure 13-5. Google Search Console top search queries report
+
+Figure 13-5 shows Google’s view of which search queries the site is showing up for
+most often in the SERPs, how many impressions the site is receiving for each query,
+
+USING SEARCH ENGINE–SUPPLIED SEO TOOLS
+
+www.it-ebooks.info
+
+845
+
+and how many clicks come from these impressions. You can also see data from Google
+regarding what the site’s average position in the SERPs was during the selected period
+for each of the search terms listed. Note that this data is pretty limited, and most publishers will be able to get better data on their search queries from web analytics software.
+Another valuable reporting area in Search Console is the Crawl section (Figure 13-6),
+which enables webmasters to look at Google’s findings based on its crawling activities
+of the site’s URLs and robots.txt file.
+The charts in Figure 13-6 look normal and healthy for the site. However, if you see a
+sudden dip that sustains itself, it could be a flag that there is a problem.
+The Crawl Errors report (Figure 13-7) is an incredibly valuable tool to identify and
+diagnose various site issues, from DNS resolution and server down time (Site Errors)
+to robots.txt and URL accessibility (URL Errors).
+Figure 13-8 shows another diagnostic data point available in the Crawl section of Google Search Console: Blocked URLs.
+It is common to find blocked URLs in your Search Console account. They can occur
+when sites mistakenly restrict access to URLs in their robots.txt file; when that happens,
+this report can be a godsend. The report flags pages it finds that are referenced on the
+Web but that Googlebot is not allowed to crawl. Other times, blocking specific URLs is
+intentional, in which case there is no problem. But when your intention was not to
+block crawler access to your pages, this report can alert you to the problem and the
+need to fix it.
+Another important diagnostic tactic is to look at Google’s handling of your sitemap file
+from within the Crawl section, as shown in Figure 13-9.
+
+846
+
+CHAPTER THIRTEEN: SEO EDUCATION AND RESEARCH
+
+www.it-ebooks.info
+
+Figure 13-6. Google Search Console Crawl Stats report
+
+USING SEARCH ENGINE–SUPPLIED SEO TOOLS
+
+www.it-ebooks.info
+
+847
+
+Figure 13-7. Google Search Console Crawl Errors report
+
+Figure 13-8. Google Search Console Blocked URLs report
+
+848
+
+CHAPTER THIRTEEN: SEO EDUCATION AND RESEARCH
+
+www.it-ebooks.info
+
+Figure 13-9. Google Search Console Sitemaps report
+
+With this data, you can analyze the nature of any sitemap problems identified and
+resolve them, as you don’t want to have any broken links in your sitemap file. In the
+example shown in Figure 13-9, we can see the “caution” icon to the left of the filename (sitemap.xml), and underneath the Issues column we see the linked text “1 warnings.” Clicking on this brings us to detailed information about the warning, which in
+this instance appears to show that there is an unreachable URL within the sitemap
+(see Figure 13-10).
+
+Figure 13-10. Google sitemaps error details
+
+As Google continues to update its Search Console offerings, it is important to familiarize yourself with the options available to you as you perform SEO and manage your
+site(s). This information can be found in the Settings section of Google Search Console, and in the following list:
+
+Geographic target
+If a given site targets users in a particular country, webmasters can provide Google
+with that information, and Google may emphasize that site more in queries from
+that country and less in others.
+
+USING SEARCH ENGINE–SUPPLIED SEO TOOLS
+
+www.it-ebooks.info
+
+849
+
+Preferred domain
+The preferred domain is the domain the webmaster wants to be used to index the
+site’s pages. If a webmaster specifies a preferred domain as http://www.example.com
+and Google finds a link to that site that is formatted as http://example.com, Google
+will treat that link as though it were pointing at http://www.example.com.
+
+Crawl rate
+The crawl rate affects the speed of Googlebot’s requests during the crawl process.
+It has no effect on how often Googlebot crawls a given site.
+
+robots.txt test tool
+The robots.txt tool (accessible at Crawl→Crawl Errors→Robots.txt fetch) is
+extremely valuable as well.
+In addition to the services just outlined, Google Search Console has added functionality for site owners to increase their organic exposure by streamlining various processes
+that otherwise would be time-consuming to implement on the client side.
+The Data Highlighter), for example, enables webmasters and site owners to “tag” structured data on site pages so that it can potentially appear as “rich snippets” of content
+within Google search results. While webmasters have always been able to mark up
+structured data using various formats, with Data Highlighter they can now “tag” structured data for Google’s use without having to modify the site’s pages on the server.
+More information about Google’s handling of rich snippets and structured data can be
+found here: http://bit.ly/structured_data_mrkup.
+Currently, Google supports rich snippets for the following content types:
+• Reviews
+• People
+• Products
+• Businesses and organizations
+• Recipes
+• Events
+• Music
+Figure 13-11 shows the main Data Highlighter page within your Google Search Console account.
+
+850
+
+CHAPTER THIRTEEN: SEO EDUCATION AND RESEARCH
+
+www.it-ebooks.info
+
+Figure 13-11. Google Data Highlighter
+
+Clicking on Start Highlighting brings you to the entry fields to select the appropriate
+options for your site (Figure 13-12).
+
+USING SEARCH ENGINE–SUPPLIED SEO TOOLS
+
+www.it-ebooks.info
+
+851
+
+Figure 13-12. Google Data Highlighter options
+
+In Figure 13-12, you would select the data type to highlight from the drop-down list,
+and then choose whether this data type is unique to this page. For example, if you
+have only one page with this type of data, but other pages have different data needing
+markup, you’d choose the option “Tag just this page”; conversely, if your site has thousands of product pages with the same structured data format, you can streamline the
+process and instruct Google to “Tag this page and others like it.”
+
+Manual spam actions.
+
+Google will also notify webmasters via the Search Console
+interface (and via the email notification settings specified within the account) of any
+manual spam actions it has taken against a site. Figure 13-13 shows the type of message you would receive from Google if it has identified “a pattern of unnatural, artificial, deceptive, or manipulative links” pointing to pages on your site (http://bit.ly/
+unnatural_links_impacts).
+
+852
+
+CHAPTER THIRTEEN: SEO EDUCATION AND RESEARCH
+
+www.it-ebooks.info
+
+Figure 13-13. Google Search Console manual penalty notification
+
+Bing Webmaster Tools
+Microsoft also offers a product for webmasters with some great features. With Bing
+Webmaster Tools you can get a rich set of data on many of the same metrics that Google Search Console offers, but you are getting the feedback from the Bing crawler
+instead. Being able to see the viewpoint from a different search engine is a tremendous
+asset, because different search engines may see different things. Figure 13-14 shows
+the opening screen for Bing WMT.
+
+USING SEARCH ENGINE–SUPPLIED SEO TOOLS
+
+www.it-ebooks.info
+
+853
+
+Figure 13-14. Bing Webmaster Tools opening screen
+
+Already you can see some of the great data points that are available. At the top, you
+can see Clicks from Search, Appeared in Search (Impressions), Pages Crawled, Crawl
+Errors, and Pages Indexed.
+To see Crawl Errors identified by Bingbot (Bing’s search crawler), you would click on
+Reports & Data→Crawl Information, as shown in Figure 13-15.
+
+Figure 13-15. Bing Webmaster Tools Crawl Information report
+
+You can pick from several options:
+
+854
+
+CHAPTER THIRTEEN: SEO EDUCATION AND RESEARCH
+
+www.it-ebooks.info
+
+• 400–499(Request errors)
+• 500–599 (Internal server errors)
+• 301 (Pages moved permanently)
+• 302 (Pages moved temporarily)
+• Robots.txt Exclusion
+• DNS Failures
+• Connection Timeouts
+Bing Webmaster Tools also includes an incredibly valuable tool called Index Explorer,
+accessible from Reports & Data→Index Explorer, and from the upper-right corner of
+the Crawl Errors report in Figure 13-15. This tool provides tremendous insight into
+your site’s internal architecture as viewed by a crawler, often showing subdirectory
+folders that you, and your webmaster, did not know were still “live” and crawlable
+(see Figure 13-16).
+
+Figure 13-16. Bing Webmaster Tools Index Explorer
+
+Bing Webmaster Tools also provides you with a section called SEO Reports, as shown
+in Figure 13-17.
+
+USING SEARCH ENGINE–SUPPLIED SEO TOOLS
+
+www.it-ebooks.info
+
+855
+
+Figure 13-17. Bing Webmaster Tools SEO Reports
+
+This section provides data similar to Google’s HTML Improvements report, and gives
+suggestions for where to improve SEO-relevant areas of your site’s pages for better
+performance in organic search; focus on the items with High severity first, as these are
+likely to be the most impactful in the near term.
+Bing also provides a new section called Diagnostics & Tools that is a mini-toolset in and
+of itself, with a host of valuable SEO functions (Figure 13-18).
+
+Figure 13-18. Bing Webmaster Tools Diagnostics & Tools
+
+The first tool, Keyword Research, enables you to gather estimated query volume for
+keywords and phrases based on the Bing search engine’s historical query database.
+
+856
+
+CHAPTER THIRTEEN: SEO EDUCATION AND RESEARCH
+
+www.it-ebooks.info
+
+Note that if you want only query data for the exact keyword or phrase you enter, be
+sure to select the Yes checkbox for Strict, just underneath and to the right of the keyword entry field. Checking Yes means that if you enter the phrase “feng shui santa
+barbara” you will see only query volumes specific to that exact phrase, not for phrases
+that include it, such as “feng shui consultant santa barbara.”
+NOTE
+In the summer of 2015, Bing announced the move to HTTPS—ultimately blocking
+search query data in the referrer path, resulting in the inability to track the keyword searches performed for search traffic sent from Bing. It has announced that
+it will continue to provide “limited query data” from the Search Query Terms
+Report in the Bing Ads UI or API and in Bing Webmaster Tools reports (http://
+bit.ly/bing_to_encrypt).
+
+There is much more here than we have been able to show in just a few pages, and the
+possibilities are limitless for how to utilize these valuable tools from both Google and
+Bing to your SEO advantage.
+
+The SEO Industry on the Web
+SEO-specific social media communities, forums, and blogs are almost always abuzz
+with new information and insights on the topic of SEO. Following this online community closely can help you increase your SEO knowledge and keep your skills sharp.
+
+Blogs
+A significant number of people and companies in the SEO industry regularly publish
+high-quality content about SEO and web marketing. This provides a great resource for
+newcomers who want to learn, and even for experienced SEO practitioners, who can
+pick up tips from others. However, note that not all top-notch SEO pros monetize their
+tactics by publishing them on social media or other publishing platforms, preferring
+instead to keep much of their expertise close to the chest.
+The reality is that SEO is a deep and complex topic, and the opportunities for learning
+never cease. That is one of the most rewarding aspects of the profession, and fortunately, the large number of available blogs about SEO and web marketing make it easy
+to research the profession on a regular basis.
+Be aware, however, that anyone can create a blog and start writing about SEO with
+self-appointed authority. There is a big difference between publishing an opinion and
+publishing content based on empirical knowledge. Many people have been able to create consulting businesses out of “flash in the pan” service offerings rooted in opportunism, as opposed to experience and love of the mystery, dynamism, and challenge of
+search. At all stages of your SEO research process and lifelong learning curve, it is
+
+THE SEO INDUSTRY ON THE WEB
+
+www.it-ebooks.info
+
+857
+
+important to know how to separate out those who know what they are talking about
+from those who do not.
+One way to do that is to see which bloggers have the respect of other senior people in
+the industry. This is not unlike the process search engines go through to identify trusted authority sites and see who they recommend and trust. Proximity to clearly
+authoritative figures is a big plus. (This is why we always recommend that you run a
+backlink profile check before hiring a firm or consultant. If the majority of links to
+them are low-quality text link spam, you have a red flag.)
+Another way to develop a voice is to become a contributor to these communities. As
+you accumulate SEO experiences, share the ones you can. Comment in blogs, forums,
+and social media and become known to the community. If you contribute, the community will reward you with help when you need it.
+The search technology publications we discussed at the beginning of this chapter are a
+great place to start. However, a number of other SEO blogs provide a great deal of useful information. Here are some of the best, listed alphabetically.
+First up are blogs by the authors:
+• Eric Enge: Digital Marketing Excellence
+• Stephan Spencer: Scatterings
+• Jessie Stricchiola: Alchemist Media Blog
+And here is a list of blogs by the search engines:
+• Bing Search Blog
+• Google Webmaster Central Blog
+Here are some other highly respected blogs and website resources:
+
+Search Engine Roundtable
+Barry Schwartz’s roundup of all things search-related
+
+Rae Hoffman
+Affiliate marketer and SEO pro Rae Hoffman’s writings
+
+Annie Cushing
+Analytics expert Annie Cushing’s writings on all things analytics, with SEOspecific information
+
+Dave Naylor
+Dave Naylor’s coverage of a wide range of online marketing issues, with a focus
+on SEO
+
+858
+
+CHAPTER THIRTEEN: SEO EDUCATION AND RESEARCH
+
+www.it-ebooks.info
+
+Small Business SEM
+Matt McGee’s blog focused on search marketing for small businesses
+
+SEO Book
+Aaron Wall’s accompaniment to his excellent book on SEO
+
+TechnicalSEO.info
+Merkle/RKG’s newly forming resource for technical SEO issues
+You can also get a more comprehensive list by visiting Lee Odden’s BIGLIST of SEO
+and SEM Blogs.
+
+SEO News Outlets, Communities, and Forums
+Much information can be gleaned from news sites, communities, and forums. Reading
+them does require a critical eye, but you can pick up a tremendous amount of knowledge by reading not only articles and posts, but also the differing opinions on various
+topics that follow those articles and posts. Once you develop your own feeling for
+SEO, interpreting what you read online becomes increasingly easier.
+
+SEO news outlets and communities
+• Search Engine Land
+• Search Engine Watch
+• Search Engine Journal
+• Moz.com
+
+Popular SEO forums
+Search Engine Roundtable Forums
+These are the forums associated with Barry Schwartz’s Search Engine Roundtable
+blog.
+
+SEOChat and WebmasterWorld Forums
+Founded by Brett Tabke, WebmasterWorld is now owned and operated by Jim
+Boykin. These forums have been among the most popular places for SEO pros to
+discuss issues since 1996—nearly two decades!
+
+WebProWorld Forums
+This is a large web development and SEO forum with a very diverse group of
+posters.
+
+THE SEO INDUSTRY ON THE WEB
+
+www.it-ebooks.info
+
+859
+
+High Rankings Forums
+Jill Whalen, a well-known and respected SEO practitioner, is the founder of High
+Rankings. As of November 2014, Jill was still on her hiatus from SEO consulting,
+which she announced in 2013; however, there is still an active forum community.
+NOTE
+In Memoriam
+In the second edition of this book, we sang the praises of longtime WebmasterWorld moderator Ted Ulle, lovingly known in the search industry as “Tedster.”
+Sadly, Ted passed away in 2013, and the industry mourned (http://searchengine
+land.com/mourning-ted-ulle-165466). We miss you, Ted, and we thank you for
+your incredible contributions to our industry over the years.
+
+Communities in Social Networks
+A significant number of SEO professionals are very active on social media, while others are not—it is a matter of personal and professional preference (and available
+time!). You can find this book’s authors on Facebook:
+• Eric Enge: https://www.facebook.com/ericenge.stc
+• Stephan Spencer: https://www.facebook.com/stephanspencerseo
+• Jessie Stricchiola: https://www.facebook.com/jessiestricchiola
+on Twitter:
+• Eric Enge: https://twitter.com/stonetemple
+• Stephan Spencer: https://twitter.com/sspencer
+• Jessie Stricchiola: https://twitter.com/itstricchi
+on Google+:
+• Eric Enge: https://plus.google.com/+EricEnge
+• Stephan Spencer: https://plus.google.com/+StephanSpencer
+• Jessie Stricchiola: https://plus.google.com/+JessieStricchiola
+on Pinterest:
+• Stephan Spencer: https://www.pinterest.com/stephanspencer/
+
+860
+
+CHAPTER THIRTEEN: SEO EDUCATION AND RESEARCH
+
+www.it-ebooks.info
+
+and on LinkedIn:
+• Eric Enge: https://www.linkedin.com/in/ericenge
+• Stephan Spencer: https://www.linkedin.com/in/stephanspencer
+• Jessie Stricchiola: http://www.linkedin.com/in/jessiestricchiola
+Social media engagement creates opportunities to interact with and learn from other
+people doing SEO. And, as in the forums, you can encounter search engine employees
+on these sites as well.
+
+Participation in Conferences and Organizations
+Conferences are another great way to meet leaders in the search space and network
+with them. The various panels may cover topics you’re looking to learn more about,
+and this by itself makes them a great resource. Even experienced SEO practitioners can
+learn new things from the panel sessions.
+Make sure you target the panels with the following objectives in mind:
+• Attend panels from which you can pick up some information, tips, and/or tricks
+that you need for your immediate SEO projects or that broaden your SEO
+knowledge.
+• Attend panels where someone that you want to get to know is speaking.
+• Engage during panels and presentations by tweeting your questions during the
+session (as available!).
+NOTE
+If you want to meet someone who is speaking on a panel, sit in the front row, and
+at the end of the session introduce yourself and/or ask a question. This is an
+opportunity to get some free and meaningful advice from experts. Get the speaker’s business card and follow up with her after the event. Some panels also have
+search engine representatives speaking on them, so this tactic can be useful in
+meeting them as well.
+
+Of course, you may encounter the people you want to meet in the hallways in and
+about the conference, and if so, take a moment to introduce yourself. You will find
+that most attendees are very open and will be happy to share information and tips.
+In addition to the day’s sessions, each conference has a series of networking events
+during the day and sometimes in the evening. These events are often held in the bar of
+the hotel where (or near where) the conference is being held.
+
+PARTICIPATION IN CONFERENCES AND ORGANIZATIONS
+
+www.it-ebooks.info
+
+861
+
+Each conference usually has a published party circuit, with different companies sponsoring parties every night (sometimes more than one per night). In addition, some
+conferences are starting to incorporate more “healthy” ways to network and connect
+with industry peers during the events. Third Door Media’s Search Marketing Expo
+(SMX) spearheaded this effort at SMX San Jose in 2014 by offering “Social Matworking”—yoga sessions for speakers and attendees taught by coauthor Jessie Stricchiola.
+Consider going to these types of industry networking events as a way to meet people
+and build new relationships.
+Here is an alphabetical list of some recommended conferences for search-specific content:
+
+Ad-Tech
+This is an interactive marketing conference that has begun to address many of the
+issues of SEO and search marketing.
+
+PubCon
+Two to three times per year, Brett Tabke, founder and former owner of WebmasterWorld, runs conferences that attract a large group of SEO practitioners.
+
+ClickZ Live
+Formerly Search Engine Strategies (SES), then SES Conference & Expo, and
+rebranded in 2014 to ClickZ Live, this group runs 8 to 12 conferences worldwide.
+San Francisco is the biggest event, but New York is also quite substantial.
+
+SEMPO
+The Search Engine Marketing Professionals Organization, the largest nonprofit
+trade organization in the world serving the search and digital marketing industry
+and the professionals engaged in it, focuses on education, networking, and
+research. Founded in 2002 by coauthor Jessie Stricchiola and search industry
+leaders Brett Tabke, Christine Churchill, Kevin Lee, Dana Todd, Noel McMichael,
+Barbara Coll, and Fredrick Marckini, SEMPO has local chapters that host events,
+hosts frequent webinars and Hangouts, and is an ongoing presence with networking events at industry conferences.
+
+Third Door Media Events
+Third Door Media runs more than a dozen conferences worldwide, focusing primarily on search marketing (Search Marketing Expo, or SMX) but also covering
+other online marketing topics, such as social media (SMX SMM) and marketing
+technology (MarTech). Third Door Media also offers a conference specifically for
+advanced-level search marketers and SEO professionals called SMX Advanced,
+held annually in Seattle.
+
+862
+
+CHAPTER THIRTEEN: SEO EDUCATION AND RESEARCH
+
+www.it-ebooks.info
+
+MozCon
+Operated by Moz (formerly SEOMoz), these conferences are focused on what Moz
+terms “inbound marketing” and cover many areas of digital marketing.
+More in-depth workshops are offered by:
+
+The Direct Marketing Association
+The DMA is the world’s largest trade association for direct marketers. It provides
+quality instruction, including certification programs and 90-minute online
+courses.
+
+Instant E-Training
+Instant E-Training provides training on Internet marketing topics such as SEO,
+social media, paid search, and web usability. Its training videos are bite-sized,
+ranging anywhere from 20 to 50 minutes in length. Instant E-Training also offers
+live workshops for SEO and social media multiple times per year. Instructors
+include experts such as Eric Enge, Shari Thurow, Christine Churchill, Carolyn
+Shelby, and Bob Tripathi.
+
+Market Motive
+Market Motive offers web-based Internet marketing training and certification.
+Market Motive was one of the first companies to offer a credible certification program for SEO, and the faculty includes leading industry figures such as Avinash
+Kaushik, John Marshall, Greg Jarboe, and Todd Malicoat.
+
+Conclusion
+Mastering SEO requires a great deal of study and effort. Even when you achieve a
+basic level of effectiveness in one vertical or with one website, you have to continue
+your research to stay current, and you still have many other variables and environments to consider before you will be able to point your expertise at any site and be
+effective. Even then, you will always be working against some business-specific variables that are out of your control, and will need to adapt and modify accordingly.
+Thankfully, industry resources abound in the form of news sites, blogs, forums, conferences, industry organizations, workshops, training materials, competitive analysis
+tools, and search engine–supplied toolsets and knowledge centers. Take advantage of
+these rich sources of information and, if you are so inclined, participate in the vibrant
+online community to stay in front of the SEO learning curve and ahead of your
+competition.
+
+CONCLUSION
+
+www.it-ebooks.info
+
+863
+
+

@@ -1,0 +1,1891 @@
+CHAPTER FIVE
+
+Keyword Research
+The Theory Behind Keyword Research
+Keyword research is one of the most important, valuable, and high-return activities in
+the search engine marketing field. Through the detective work of dissecting your market’s keyword demand, you learn not only which terms and phrases to target with
+SEO, but also more about your customers as a whole.
+With keyword research, you can predict shifts in demand, respond to changing market
+conditions, and produce the products, services, and content that web searchers are
+already actively seeking. In the history of marketing, there has never been such a low
+barrier to entry in understanding the motivations of consumers in virtually every
+niche.
+Every search phrase that’s typed into an engine is recorded in one way or another, and
+keyword research tools such as the ones we discuss in this chapter allow you to
+retrieve this information. However, those tools cannot show you (directly) how valuable or important it might be to rank for and receive traffic from those searches. This
+chapter seeks to expose the details of this process and the tools that can best assist.
+
+193
+
+www.it-ebooks.info
+
+Thinking Strategically
+Keyword research tools provide valuable insight into the thinking of your potential
+customers. When users go to search engines and type out their search query, they may
+use language that is entirely different from what you expect. Even if your product or
+service provides a solution they can use, they may start with their problem. Someone
+with diabetes might simply type diabetes in the search box. Then his next search might
+be diabetes medication or relief for diabetes symptoms.
+As we laid out in Chapter 1, searchers often go through a progression where they try
+certain searches, check out some sites, refine their searches, and repeat this process
+until they finally find what they want. Taking the time to understand typical search
+sequences is one aspect that impacts your keyword strategy.
+Other elements that influence search behavior include searcher demographics (male/
+female, age, income, etc.), geographical location, and time of year. Seasonal products
+such as Valentine’s Day cards, for example, go through sharp peaks in volume during
+the time preceding February 14, and then decline rapidly once the season is past.
+The keyword research tools in this chapter will provide you with methods to investigate all of these factors. Take the time to go beyond the surface and use the tools to
+learn how your customers think, get your thinking in alignment with theirs, and then
+build your website strategy (and perhaps even your product strategy) around this
+powerful information.
+
+Understanding the Long Tail of the Keyword Demand Curve
+It is wonderful to deal with keywords that have 5,000 searches per day, or even 500
+searches per day, but in reality these “popular” search terms may actually comprise
+less than 30% of the overall searches performed on the Web. The remaining 70% lie
+in what’s commonly called the “long tail” of search,1 illustrated in Figure 5-1. The tail
+contains hundreds of millions of unique searches that might be conducted a few times
+in any given day, or even only once ever, but when assessed in aggregate, they comprise the majority of the world’s demand for information through search engines.
+
+1 Rand Fishkin, “Rewriting the Beginner’s Guide - Part V,” Moz News, February 24, 2008, https://
+
+moz.com/blog/rewriting-the-beginners-guide-part-v-keyword-research.
+
+194
+
+CHAPTER FIVE: KEYWORD RESEARCH
+
+www.it-ebooks.info
+
+Figure 5-1. Long tail of search
+
+Understanding the Impact of Google Hummingbird
+In September 2013, to coincide with its 15th birthday, Google announced a major
+change to its search algorithm, called Hummingbird. Since then, although Hummingbird has been much discussed, Google has not released any more official documentation on this update. Hummingbird is a major change to the way Google interprets
+searches and in how searches relate to one another.
+Hummingbird is intended to get at the heart of what users want, not just the exact
+keywords they search for. In large part, this is related to Google getting more prepared
+for mobile search. In mobile searches, users are less apt to type traditionally formatted
+queries, and in many cases, actually do voice searches. When users use voice search,
+their queries may also be much more conversational in format, such as please find me
+the closest gas station. In addition, with Hummingbird, Google will use many other factors to determine the user’s intent, such as considering previous related searches by
+that user.
+The Hummingbird algorithm attempts to determine the true meaning behind what a
+user is searching for, rather than simply returning results for the exact query she uses.
+Indeed, in many cases, Google may simply relate the terms and consider them synonyms for the purposes of returning search results.
+Let’s look at this hypothetical, yet fully functional, example of a series of queries that a
+mobile user might ask Google:
+
+THE THEORY BEHIND KEYWORD RESEARCH
+
+www.it-ebooks.info
+
+195
+
+• where is the empire state building?
+• who built it?
+• pictures
+• how tall is it?
+• restaurants
+• Italian restaurants
+• show me the second one
+• directions
+No longer is Google’s response to the query where is the empire state building? simply the
+web page that is most closely optimized to that search query; Google uses its knowledge of entities—which include notable buildings and monuments and their attributes
+and locations, nearby restaurants, average review ratings of those restaurants (partially
+from semantic markup), and so forth—to return meaningful responses to these queries, including actual Italian restaurant recommendations near the Empire State Building, rather than merely a match on the keywords searched.
+Note in the preceding example the presence of one-word queries that Google expands
+(interprets) into longer-tail queries. This changes the game in terms of chasing after
+long-tail keywords. Now like never before, we must be like detectives who anticipate
+the searcher’s intent and next move before he even arrives on our website and be
+ready to meet his needs based on that intent, without the keywords to guide us.
+In terms of Hummingbird’s impact on keyword research, it’s also important to consider
+co-occurrence analysis. While there is some debate in the search engine optimization
+marketing discipline about the impact of various types of co-occurrence, there is strong
+evidence that the co-occurrence of keywords in on-page content can affect search
+engine rankings. When it comes to keyword research, co-occurrence refers to an analysis of what words and phrases appear most commonly on a page, how often they
+appear, and how they relate to each other.
+Coauthor Eric Enge gives a summary of a study by Searchmetrics in his post “How
+Content Quality Analysis Works with SEO”. He shows how on a sample page terms
+such as women, shoes, boots, and shoe co-occur on an ecommerce page with words like
+view, sale, cart, shipping, and other ecommerce-related terms. This sends a signal to the
+search engine that this should be a page where users can shop for and buy women’s
+footwear. The phrase buy women’s shoes may never actually appear on the page and yet
+due to the co-occurrence of the product type terms and ecommerce terms, Google
+should understand that the page’s “theme” or “purpose” is to offer a place where users
+can buy women’s shoes, and should potentially rank this page for that term (depending on the myriad other quality signals surrounding the page). If an ecommerce page
+
+196
+
+CHAPTER FIVE: KEYWORD RESEARCH
+
+www.it-ebooks.info
+
+lacks those words and phrases that help to signal that the page’s intent is to sell products, it might lower the chances of that page ranking for purchase-oriented search
+phrases.
+There is a related type of keyword co-occurrence that may affect rankings similarly:
+co-occurrence across various search engine queries during a session. In this type of cooccurrence, the engines would look at how similar groups of keywords are searched
+across a users’ search session. To continue the previous example, if a large number of
+queries for women’s shoes co-occurred during users’ search sessions with a query for buy
+women’s shoes online, Google should know that it is likely that users searching for women’s shoes are looking for where to buy women’s shoes online. In this instance, sites or
+pages that are well optimized for the term women’s shoes might also rank well for buy
+women’s shoes online without that exact phrase having to appear in the page copy or
+page metadata. In this case, Google would extrapolate that the user’s actual intent is to
+find a place to buy women’s shoes online, even though the query may simply have
+been women’s shoes.
+Ultimately, in both cases, the goal is for the search engines to understand the user’s
+intent and to return a set of results that satisfy that intent, regardless of whether the
+exact phrase searched for explicitly appears on the pages returned as results for a given
+query.
+Hummingbird is neither about shortening or lengthening queries—it’s a complete
+rewrite of the search platform. You can read about this in detail at “A Hummingbird
+Isn’t Just for Christmas, It’s for Life”. You can also watch “Hummingbird, Google Now,
+and the Future of Search”, an hour-long video hangout with Danny Sullivan and Eric
+Enge.
+Hummingbird was a platform rewrite, much like Caffeine, which rewrote the crawler
+and indexing parts of Google. Hummingbird rewrote the actual search engine piece
+(the part that receives user search queries and then pulls results out of the index).
+At the SMX West search marketing conference in the Spring of 2014, Marcus Tober of
+Searchmetrics presented some results of the company’s study of Google Hummingbird.
+Among its findings were that the context of the search (not just the exact query) and
+previous searches both matter, that Hummingbird attempts to understand conversational search, and that Google is trying to understand entities (people, places, things,
+etc.) and how they relate to one another. Searchmetrics found that Google is now
+delivering search results for many related queries as if they were the same search
+query.
+What this means from an SEO perspective is that the exact query a user may be
+searching for is less important than the intent behind it. While keyword research is still
+crucial, creating pages highly optimized to a specific keyword is less important than
+
+THE THEORY BEHIND KEYWORD RESEARCH
+
+www.it-ebooks.info
+
+197
+
+creating extremely high-quality, unique content that answers the need or question
+behind the keyword query.
+When doing your keyword research, be flexible and open to using tools that show you
+queries related to those at which you’re specifically looking. Also watch for informational queries, where it is apparent that the user is attempting to solve a problem.
+Much of your keyword research should be centered on the true meaning behind a
+query and why a user searches on those specific terms.
+To get your content to rank for the queries you uncover through your keyword
+research, focus on creating the best site and the best content while still incorporating
+keywords into your content where it is natural to do so.
+
+Understanding Keyword “Not Provided” and Co-Occurrence
+Analysis
+Two major changes in recent years that affect the way we approach keyword research
+are Google’s (and now Bing’s) move to obscuring referring keywords (keyword “not provided”) and a fundamental change to the way Google approaches looking at the entire
+body of keywords on a page, or co-occurrence analysis, as introduced in the preceding
+subsection.
+With “not provided,” Google has blocked the vast majority of the data that lets you see
+which keywords lead to organic search visits to your site. In June 2015, Bing
+announced it would follow suit in the summer of 2015 and also block keyword data
+from passing in the referring URL.2 While there are some workaround solutions to try
+to retrieve or re-create this data, such as Searchmetrics, other changes in the way Google views individual keywords make this data somewhat less vital than it has been in
+the past. As noted, going forward it is going to become more important to not just
+think about how to replace lost keyword data, but to understand your site’s relationship to keywords and to better understand your users’ needs and intent. Rather than
+simply thinking about optimizing a given page to a specific keyword, think about how
+that page can more effectively answer your users’ needs and provide a breadth of useful information to satisfy that need.
+As just mentioned in the section “Understanding the Impact of Google Hummingbird”
+on page 195, Google’s intention is to now be able to understand the meaning behind a
+query rather than just the specific words used in that query. The company is also
+actively working toward understanding the meaning and theme of the content on
+your pages rather than just the specific keywords used within that content. Rather
+than simply ranking a given page for how well it is optimized for a specific query, Goo-
+
+2 Duane Forrester, “Bing Moving to Encrypt Search Traffic by Default,” Bing Blogs, June 15, 2015,
+
+http://bit.ly/bing_default_encrypt.
+
+198
+
+CHAPTER FIVE: KEYWORD RESEARCH
+
+www.it-ebooks.info
+
+gle will attempt to rank the content that most closely answers the true intent behind
+the user’s query.
+Related to this notion of intent is the aforementioned idea of co-occurrence analysis,
+which refers to an analysis of what words appear most commonly on a page and
+under what circumstances they appear together. Rather than simply looking at keywords in isolation on a page, Google appears to have begun looking at what words
+commonly appear together under varying circumstances. We explore the notion of cooccurrence in depth in “Integrating Keyword Research, Co-Occurrence Analysis, and
+Knowledge of User Intent” on page 201. For now it is useful to note that Google is not
+looking just specifically at the repetition of a single keyword phrase but rather at what
+kinds of words appear together to signal the page’s true intent and theme and how
+well the content answers the true intent behind the user’s query.
+As you continue through this chapter, consider that the keyword research that you
+will perform is no longer simply about finding the exact best keyword phrases to
+specifically optimize pages on your site for, but rather to also help uncover what your
+potential users actually need to get from your site. Rather than highly optimizing each
+page on your site for one or two specific keyword phrases, think about which phrases
+might belong together on a page and identify the page’s theme and intent. Consider
+each page more holistically and how you might improve the page to better answer
+your users’ needs. Rather than trying to overoptimize for the exact number or combination of phrases, write naturally and for your users, using a wide variety of related
+terms and synonyms that you uncover during the keyword research process.
+
+Traditional Approaches: Domain Expertise and Site
+Content Analysis
+One of the smartest things you can do when initially conducting keyword research is
+to brainstorm original ideas with the participants in the business before getting keyword tools involved. This can be surprisingly effective for coming up with numerous
+critical keywords, and it can help you understand if your organization thinks about
+your offerings using different language than your customers—in which case, you may
+want to adapt!
+Start by generating a list of terms and phrases that are relevant to your (or your client’s) industry and what your site or business offers. The brainstorming phase should
+ideally result in a list of several dozen to several hundred or more keyword searches
+that will bring relevant, qualified visitors to your site. It can be a great idea to get sales,
+customer services, or whichever branch works most directly with clients to participate
+in the brainstorm, as they may have input into keywords or phrases the customer uses
+or expresses interest in that aren’t currently targeted.
+
+TRADITIONAL APPROACHES: DOMAIN EXPERTISE AND SITE CONTENT ANALYSIS
+
+www.it-ebooks.info
+
+199
+
+One easy way to begin this process is to gather your team in a conference room and
+then follow these steps:
+1. Produce a list of key one- to three-word phrases that describe your
+products/services.
+2. Spend some time coming up with synonyms that your potential customers might
+use for those products and services. Use a thesaurus to help you with this process.
+3. Create a taxonomy of all the areas of focus in your industry. It can be helpful to
+imagine creating a directory for all the people, projects, ideas, and companies
+connected to your site. You can also look at sites that are leaders in the industry
+and study their site hierarchy as a way to start your thinking about a taxonomy.
+4. Broaden your list by thinking of higher-level terms and topics of which your products or services are a subset.
+5. Review your existing site and extract what appear to be key phrases from your
+site.
+6. Review industry association and/or media sites to see what phrases they use to
+discuss your topic area.
+7. List all of your various brand terms.
+8. List all of your products. If your site has a massive number of products, consider
+stepping back a level (or two) and listing the categories and subcategories.
+9. Have your team imagine that they are potential customers, and ask them what
+they would type into a search engine if they were looking for something similar to
+your product or service.
+10. Supplement this by asking some people outside your business what they would
+search for, preferably people who are not directly associated with the company.
+Consider also the value of performing actual market research with a test group of
+consumers in your demographic, and ask them the same question.
+11. Use various tools (such as Google Search Console) to see what terms people are
+already using to come to your site, or what terms they are using within your site
+search tool if you have one.
+Gathering this kind of intelligence is what a traditional marketer might have done
+prior to initiating a marketing campaign before the Web existed. And of course, if any
+of this data is available to you from other departments of the company, be sure to
+incorporate it into your research process.
+
+200
+
+CHAPTER FIVE: KEYWORD RESEARCH
+
+www.it-ebooks.info
+
+Including Competitive Analysis
+Your competitors face the same problem, and unless you are very lucky, they are also
+probably resourceful and creative. You can likely count on their having invested in
+learning how their customers think and the best ways to appeal to them. So, add these
+steps to the process:
+1. Review your competitors’ websites and see what keywords and phrases they use
+for their products and services that compete with yours. Look also for unique variations and synonyms they incorporate into their language, and see if these indicate shifting trends in vernacular in your industry.
+2. Record what nonbrand terms they use for their business.
+3. Read any articles they have written that are published on sites other than their
+own.
+4. Observe what the media may have had to say about them.
+Add these ideas into the mix, and you will have a wonderfully robust set of keywords
+to use as a starting point.
+You may ask why you should go through all this trouble. Don’t the keyword tools take
+care of all this for you? There are two reasons why the extra effort is critical:
+• Your internal team has a rich array of knowledge that the keyword tools do not:
+they know where to start. Keyword tools require the initial input of information,
+and the quality of the data they provide is only as good as the quality of the
+“seeds” you give them.
+• The upfront brainstorming helps your organization’s stakeholders better understand the market and the opportunities. It also helps them “buy into” the eventual
+prioritization of keywords.
+Once you have completed these steps, you will have in hand a rich set of terms of
+interest. The next step is to expand those terms of interest using keyword research
+tools.
+
+Integrating Keyword Research, Co-Occurrence Analysis, and
+Knowledge of User Intent
+What changes like co-occurrence and Hummingbird mean for keyword research and
+strategy is that they are not as simple as they once were. No longer can you simply
+research what terms get the most traffic and build pages optimized to each one you
+would like to target. You still need to do keyword research to understand the universe
+of keywords your potential users might be looking for, and the relative scale of the
+opportunity in ranking well on each of those terms. You must also be able to uncover
+
+TRADITIONAL APPROACHES: DOMAIN EXPERTISE AND SITE CONTENT ANALYSIS
+
+www.it-ebooks.info
+
+201
+
+the intent behind your users’ searches and be able to build quality pages and content
+that meet those needs.
+Not only must your pages be well written and researched, and meet the actual needs
+of your potential users, but each page must present a coherent theme so that the
+engines can truly understand what need it is attempting to satisfy, and thus what body
+of related keywords it should be considered to rank for. Searchmetrics, which is mentioned elsewhere in this chapter, has tools in its Content Optimization section that can
+help you understand the terms and phrases that are highly relevant and related to
+your optimal keyword targets.
+It is also vital that you understand what your customers’ needs are and whether they
+are able to meet those needs with the information they find on your pages. There are
+lots of ways to understand more about what your users want and whether they are
+getting it from your site—from leveraging services like Usertesting.com to simply
+spending time talking to your customers about how and why they use your site. It is
+becoming more and more important to ensure that your content is meeting these
+needs as simply as possible, that it includes keywords relevant to those needs, and that
+it is integrated into well-designed, clearly themed pages.
+
+Keyword Research Options
+A wide variety of options are available for performing keyword research, including
+tools provided by the search engines, tools developed by third parties, and tools for
+complex keyword analysis of terms culled during research. In this section, we will
+review each of these, but first let’s provide some perspective on how to use these tools.
+When you are using the various keyword research tools to brainstorm keywords, it is
+important to keep in mind that they are all based on relatively limited data. You
+should be aware that each tool will provide different search count numbers than the
+other tools. Rather than focusing on the exact search count of various terms, you
+should think of each tool as a good way to get a general comparison of two search
+terms, or of groups of terms.
+For example, if you compare two terms and see that one term is more popular than
+the other because it returns a higher search count, you at least know that Term A may
+be more popular and searched for more often than Term B, but you can treat the
+search count values as only (rough) estimates.
+If you are new to keyword research, consider starting with the Google AdWords Keyword Planner (which is free with an AdWords account) and at least one of the paid
+tools, such as KeywordDiscovery.com. This will give you a rich, varied data set with
+which to begin your keyword research. Over time you can experiment with the other
+tools and adjust your process as you find tools that you prefer for one task or another.
+
+202
+
+CHAPTER FIVE: KEYWORD RESEARCH
+
+www.it-ebooks.info
+
+In addition, as you look at these keywords, keep in mind the semantic aspects of
+search, and the probable intent of the person performing the search. You don’t want to
+simply slap popular search terms on various pages of your site. You are using the keyword research information to provide you with insight into how your potential customers think, but you need to take into consideration many other inputs as well.
+
+Keyword Research Data from Search Engines
+Search engines provide a number of tools that can help you with keyword research.
+Many of these are not designed specifically for that purpose, but they can be used to
+obtain interesting keyword research information if they are used in the right manner.
+The data in these tools shows the number of pages that are related to a search phrase,
+not the number of searches on the phrase. This is still a useful indicator of the importance of a keyword phrase, as more web pages tend to get built for more popular
+topics.
+
+Related terms
+Several of the engines offer “related” terms, including Google, Yahoo!, Bing, Ask, and
+Yippy (which shows related terms in clusters, as shown in Figure 5-2). This data can
+be invaluable if you’re looking to find related terms that may not have come up
+through competitive analysis or brainstorming.
+
+Figure 5-2. Yippy related terms clusters
+
+KEYWORD RESEARCH OPTIONS
+
+www.it-ebooks.info
+
+203
+
+Common usage and phrase combinations
+Using a search with the * (asterisk) character can give you a good idea of what terms/
+phrases commonly precede or follow a given term/phrase. For example, using * ringtones can show you phrases that are commonly associated with the term ringtones, as
+shown in Figure 5-3.
+
+Figure 5-3. Finding common phrases
+
+Frequency of recent usage
+Using the very cool Google date range operator, shown in Figure 5-4, you can determine how many times in the past day, week, month, or year new content related to
+your term was added to the Google index. The easiest way to do this is to click on
+“Search tools” above the Google results. Once you do that, you can pick from “Any
+time” (which is the default), “Past hour,” “Past 24 hours,” “Past week,” “Past month,”
+“Past year,” and “Custom range.” This will limit you to the results that were added to
+the index during the referenced time frame.
+
+204
+
+CHAPTER FIVE: KEYWORD RESEARCH
+
+www.it-ebooks.info
+
+Figure 5-4. Google pages indexed in past 24 hours
+
+Picking a custom range provides you with a calendar method for specifying the time
+interval you want to focus the search on. For example, you might pick November 1,
+2014, to December 24, 2014, if you wanted to see what happened during the 2014
+holiday season. For additional flexibility, you can perform a normal search, get your
+result, and add a parameter to the end of the results page URL, using the operators
+shown in Table 5-1.
+Table 5-1. Google date search operators
+&as_qdr=d
+
+Past 24 hours
+
+&as_qdr=d4
+
+Past four days
+
+&as_qdr=w
+
+Past week
+
+&as_qdr=w5
+
+Past five weeks
+
+&as_qdr=m6
+
+Past six months
+
+&as_qdr=y2
+
+Past two years
+
+KEYWORD RESEARCH OPTIONS
+
+www.it-ebooks.info
+
+205
+
+This can give you some seasonal data if you follow it closely, and it can also show you
+who is producing content in your arena. For example, try a search for President Obama
+(past 24 hours). You can also get information on activity level from Yahoo! News, as
+shown in Figure 5-5.
+
+Figure 5-5. Yahoo! News activity level
+
+Both Google News and Yahoo! News are great places to do a bit of digging into anyone
+who is publishing press releases or getting news coverage on the terms/phrases you
+might be researching. If there’s a lot of activity in these arenas (and it is not all press
+release spam), you can bet the terms are going to be even more competitive. For
+example, you can find SEO news in Google News and in Yahoo! News.
+You can combine all of this data to form a very well-rounded view of a particular term
+or phrase, and although it is probably overkill for most keyword research projects, it is
+certainly a valuable exercise and something to monitor closely if you’re basing a lot of
+your success off of a single search query (or just a handful of queries). Even if you’re
+just trying to get a better sense of what’s going on infrequently and informally, these
+pieces of the keyword puzzle can be remarkably valuable.
+
+206
+
+CHAPTER FIVE: KEYWORD RESEARCH
+
+www.it-ebooks.info
+
+Keyword Research Data from Tools
+It is great to get this data from search engine queries, and it can certainly help you get
+a sense of the importance of a given keyword. However, a large array of tools exists to
+give you direct insight into the volume of searches performed on specific keywords,
+and also to help you discover new keywords to consider.
+The following sections present an overview of many of these leading tools.
+
+Google AdWords Keyword Planner and Traffic Estimator
+Google provides a couple of tools specifically designed for use in keyword research.
+Although they are primarily meant to help their paid search customers, they can also
+be used to obtain information for organic search. These tools are most effectively utilized when coupled with an active AdWords campaign.
+
+What the Keyword Planner provides.
+
+Google’s AdWords Keyword Planner provides related terms, search volume estimates, search trends, and ad cost estimates for
+any keyword or URL that you enter (see Figure 5-6).
+
+Figure 5-6. Google AdWords Keyword Planner
+
+The Keyword Planner provides multiple ways to search: based on words/phrases,
+based on websites/landing pages, and based on categories. In the “Your product or service” box, you can enter keywords or phrases (one per line) and the Keyword Planner
+will return related keyword ideas (note that you have to click on the “Keyword ideas”
+
+KEYWORD RESEARCH OPTIONS
+
+www.it-ebooks.info
+
+207
+
+tab; the “Ad group ideas” is what displays by default). The output of a search will show
+you:
+
+Keyword (by relevance)
+Shows the related keywords in a list, including the phrase or phrases you entered.
+
+Average monthly searches
+Shows the search query volume for the keyword for the locations, languages, and
+Google properties you defined.
+
+Monthly searches bar chart
+Shows the search volume for the keyword broken out by month for the last 12
+months (requires that you hover the mouse over the small gray chart icon immediately to the left of the numbers in the “Avg. monthly searches” column).
+
+Competition
+Displays the relative competitiveness of the keyword (in paid search).
+There are a number of settings you can use to tune your search. These include:
+
+Include/Exclude
+Provides a way to specify or exclude additional terms. For the include option, the
+Keyword Planner will show you only suggestions that included these terms (see
+Figure 5-7). The exclude option allows you to add a negative keyword for any
+keyword phrase that does not pertain to your business. This feature is not necessarily useful for researching keywords for organic search; rather, it is more valuable when you are planning your AdWords account bids.
+
+Locations
+Allows you to set the country used for the “Avg. monthly searches” part of the
+results.
+
+Language
+Lets you set the default language to use.
+
+Search networks
+Allows you to specify whether you want traffic estimates returned for only Google
+searches or whether you also wish to include Google search partners. Google
+search partners include other non-Google websites like AOL and other Google
+properties such as Maps, Video, and other Google sites.
+
+Date range
+Shows search volumes for the past 12 months by default. You can also specify a
+custom range of months that you would like to see and compare volumes for two
+different time ranges.
+
+208
+
+CHAPTER FIVE: KEYWORD RESEARCH
+
+www.it-ebooks.info
+
+NOTE
+You must log in to your Google AdWords account to use the Keyword Planner,
+but fortunately, you don’t have to spend money on AdWords to access this free
+tool.
+
+Figure 5-7. Specifying a required term in the Keyword Planner
+
+If you enter a web page URL, the Keyword Planner will show you keywords related to
+that website or specific page (see Figure 5-8).
+
+KEYWORD RESEARCH OPTIONS
+
+www.it-ebooks.info
+
+209
+
+Figure 5-8. Keyword Planner site-related keywords
+
+What the traffic forecasts provide. Within the Google AdWords Keyword Planner
+is an option to “Get click and cost performance forecasts” (formerly known as the Traffic Estimator) that allows you to get forecasts of traffic on different keywords (i.e., the
+potential click-throughs you may see to your site, instead of just the number of
+impressions provided by most keyword research tools); see Figure 5-9.
+
+Figure 5-9. Google AdWords Keyword Planner’s click and cost performance forecasts
+
+210
+
+CHAPTER FIVE: KEYWORD RESEARCH
+
+www.it-ebooks.info
+
+When you specify one or more keywords to get traffic estimates on, the Keyword
+Planner will return the predicted number of clicks per day, impressions per day, cost
+per day for those clicks and average ad position, as well as additional breakdown on a
+per-keyword basis, including clicks, impressions, cost, click-through rate, average cost
+per click, and average ad position. The cost information can provide you with additional insight into how competitive a keyword is in organic search as well. You can get
+more exact estimates by selecting specific budgets or costs per click.
+When using the Keyword Planner’s click and cost performance forecasting feature for
+keyword research, it is best to enter your keywords as “Exact match,” meaning the
+keywords specified were exactly the ones the Google user searched on.
+After you’ve entered your keywords, you can leave “Enter daily budget” blank. Select
+your language, search network, and the location you’re targeting (for U.S.-focused
+campaigns, use the default of “Countries and territories” and enter “United States”).
+You’ll then see data for each keyword you entered. Useful data for keyword research
+purposes includes Estimated Clicks/Day and Estimated Cost/Day. You can compare
+each keyword’s estimated clicks to see which term is more likely to be searched for
+and clicked on than others.
+In the results shown in Figure 5-10, at the maximum possible bid, internet marketing is
+estimated to have 3 clicks per day, while search engine marketing has 2, search engine optimization has 11, and seo has 68. Based on this data, it is clear that seo is the most popular of these options and is likely to be one of the more competitive terms. In this particular case, an additional factor enters into the equation, because seo is a “trophy
+term” on which people put an extra focus for branding reasons. Nonetheless, the value
+of the traffic data is considerable.
+
+KEYWORD RESEARCH OPTIONS
+
+www.it-ebooks.info
+
+211
+
+Figure 5-10. Google AdWords Keyword Planner traffic forecasting results
+
+Where the Keyword Planner gets its data. The Google AdWords Keyword Planner gets its data from Google’s search query database.
+How the Keyword Planner is useful.
+
+The Keyword Planner offers some useful
+information about your keyword campaigns, such as suggestions for similar keywords,
+an estimate of the keyword’s popularity, ad costs and positions, general search volume
+trend information, and keyword campaign suggestions for your site or your competitor’s site. The tool is great for compiling a lot of general information about a keyword.
+The click and cost performance forecasting feature provides a rough estimate of your
+keyword’s click-through rate. Based on the estimated clicks per day, you can get a relative idea of which of your keywords are the most popular and can potentially bring
+you the most traffic. Practitioners should use other tools to cross-reference these figures, as these numbers can be inaccurate.
+
+Cost.
+
+The Google AdWords Keyword Planner is free to use as long as you have a
+Google AdWords account.
+
+Google Trends
+Google Trends allows you to view the popularity trend of a keyword over time and by
+geography, as well as compare two or more search terms to each other to see relative
+popularity and seasonality/trending over time. If you enter the terms into the search
+bar and separate them with commas, you’ll see the requested terms’ trend history
+depicted in different colors on a graph spread over a certain time period. You can modify the results by changing the time period and/or region (see Figure 5-11).
+
+212
+
+CHAPTER FIVE: KEYWORD RESEARCH
+
+www.it-ebooks.info
+
+Figure 5-11. Google Trends sample output
+
+With Google Trends, users can also see Google’s estimate of which cities, regions, and
+languages performed the largest number of searches for a particular keyword (see
+Figure 5-12). Experienced marketers often feel that this data is imprecise (and occasionally inaccurate) because more accurate data from analytics and search advertising
+campaigns have often contradicted the results.
+
+Figure 5-12. Google Trends top cities data
+
+Lastly, plotted on each graph are a few articles/search results related to your keyword
+query, which correlate to peaks and valleys in the historical search popularity.
+
+KEYWORD RESEARCH OPTIONS
+
+www.it-ebooks.info
+
+213
+
+Where Google Trends gets its data.
+
+Google Trends gets its data from searches per-
+
+formed on Google.
+
+How Google Trends is useful.
+
+Google Trends is a great, easy tool for comparing
+keywords and identifying which term is more popular than the other; in addition, you
+can examine this data over many years with seasonality factored in. Although Google
+Trends doesn’t supply absolute search volume figures like the Google AdWords Keyword Planner, the graphs are simple to understand and provide a perfect visual of
+search trends over a particular period of time (note that this works only with relatively
+popular terms, not with long-tail search terms). You can also sign up for email alerts
+from Google Trends for the topics/keywords you’re researching, another convenient
+feature that can help keep you up to speed on the search trends you’re targeting.
+
+Cost.
+
+Google Trends is free to use.
+
+Bing Keyword Research
+The Bing Keyword Research tool generates keyword suggestions based on a search
+term or website you enter.
+Entering a keyword in the search box will return data that includes search phrases
+containing the keyword you provided, along with the preceding month, typical clickthrough rate percentages, and average cost per click. For example, a search for ice
+cream returns ice cream maker, ice cream recipes, and ice cream shop. As you can see in
+Figure 5-13, according to Microsoft, the term ice cream had 856,543 searches in the
+month prior to when this screenshot was captured.
+The Export to Excel option allows you to pull the collected data into a spreadsheet.
+Although the CTR% (click-through rate) and CPC (cost per click) columns are
+intended for paid search customers, they can also provide some indication of SEO
+value. You can multiply the CTR by the search volume to get a sense of how many
+clicks a high-ranking paid search result might get (comparable organic results will get
+three to four times more clicks), and the CPC provides some indication of the competition for ranking on the term. You can also obtain demographic data as shown in
+Figure 5-14.
+
+214
+
+CHAPTER FIVE: KEYWORD RESEARCH
+
+www.it-ebooks.info
+
+Figure 5-13. Bing Keyword Research tool basic output
+
+Figure 5-14. Bing Keyword Research tool demographic settings
+
+If you enter a URL into the search bar, the tool will return keywords related to the
+website selected.
+
+Where Bing Keyword Research gets its data.
+
+The Bing Keyword Research tool
+obtains its data from Microsoft’s Bing search query database.
+
+How Bing Keyword Research is useful.
+
+This tool is useful in generating keyword
+suggestions based on a keyword you are targeting or on your site’s URL. You can also
+enter a competitor’s URL and see what the keyword suggestions are for its site. One
+important feature of this tool is that it shows actual numbers from the Bing search
+query database.
+
+Cost.
+
+The Bing Keyword Research tool is free, although you do have to create an
+account with Bing Ads and provide credit card information in the event that you
+advertise on the Bing network.
+
+KEYWORD RESEARCH OPTIONS
+
+www.it-ebooks.info
+
+215
+
+KeywordDiscovery
+A very popular third-party tool for keyword research is Trellian’s KeywordDiscovery,
+which offers the following features:
+
+Keyword research
+When you enter a keyword or phrase in the search bar under the Research section, KeywordDiscovery displays the most popular search terms that include the
+keywords you provided, along with a count of how many searches were performed for those keywords in the past 12 months (see Figure 5-15).
+
+Figure 5-15. KeywordDiscovery basic output
+
+216
+
+CHAPTER FIVE: KEYWORD RESEARCH
+
+www.it-ebooks.info
+
+Seasonal search trends
+If you click on the little bar graph icon next to the number of searches for a query,
+you’ll see a graph of the search trends for that keyword over the past 12 months.
+You can mouse over each bar and see the number of searches for that time period,
+and you can sort the chart by historical data (how many searches in the past
+year), monthly data (number of searches broken down into each month), trends
+(a graph of the search trends over the past year), combination (a graph of historical global and global premium search data; Figure 5-16 shows a definition of these
+terms), and market share (a breakdown of which search engines were used to
+search for the query).
+
+Figure 5-16. KeywordDiscovery seasonal search trends
+
+Spelling mistake research
+Typing the query spell:<keyword> as the search term will return spelling variations
+for that keyword, the number of times the keyword has been searched for
+(searches), and the keyword results for your search (queries).
+For example, spell:optimization returns results such as optimation, optimazation, and
+optimisation, as shown in Figure 5-17.
+
+KEYWORD RESEARCH OPTIONS
+
+www.it-ebooks.info
+
+217
+
+Figure 5-17. KeywordDiscovery spelling mistakes output
+
+Related keywords
+Typing either related:<keyword> or crawl:<keyword> will return keywords that are
+related to the term you provided. For example, typing in related:seo returns results
+such as internet marketing, video, and internet consulting. You can see an example of
+this in Figure 5-18.
+
+218
+
+CHAPTER FIVE: KEYWORD RESEARCH
+
+www.it-ebooks.info
+
+Figure 5-18. KeywordDiscovery related keywords output
+
+Keyword density analysis
+This feature checks how often keywords are found on the URL you provide,
+assigns a keyword density percentage to those keywords, and lists the number of
+searches performed for each term.
+We do not recommend using keyword density as a metric to judge a page’s keyword targeting. The search engines use far more sophisticated analyses of keywords for their algorithms, and relying on rough counts such as this can seriously
+mislead you. See “Keyword Targeting” on page 297 for more on how to effectively
+target keywords on the page.
+One good use for the keyword density analysis feature is to enter a competitor’s
+URL into the search bar and see what keywords the site is targeting. It is a great
+tool to use for competitive research.
+
+Domain Researcher tool
+This tool requires an Enterprise subscription. It allows you to search for available
+domains that are based on popular keyword search terms. These domains have
+high traffic potential, as the tool shows how many users have searched for the
+
+KEYWORD RESEARCH OPTIONS
+
+www.it-ebooks.info
+
+219
+
+URL. The tool is great if you want to register other domains in your industry and
+want these domains to be keyword-rich (see Figure 5-19).
+
+Figure 5-19. KeywordDiscovery Domain Researcher tool
+
+Competitive intelligence reports
+Trellian, which powers KeywordDiscovery, also offers various competitive intelligence reports (which require a separate subscription). These reports include:
+
+Link Intelligence
+Identifies which links are sending traffic to your competitors
+
+Search Term Intelligence
+Identifies which search terms/phrases are driving traffic to your competitors
+
+Search Engine Intelligence
+Identifies which specific search engines send traffic to your competitors
+
+PPC Campaign Intelligence
+Identifies which search terms your competitors are bidding on
+
+Referrer Intelligence
+Provides information about specific sites that are referring traffic to your competitors
+
+Popularity Index
+Monitors the popularity index (which is based on the number of unique sessions a domain receives) of your competitors
+
+220
+
+CHAPTER FIVE: KEYWORD RESEARCH
+
+www.it-ebooks.info
+
+Ranking
+Provides a view of which terms your competitors are ranking for, the rank of
+these terms, and any changes in ranking over the past 30 days
+
+Meta Keywords
+Provides an analysis of your competitors’ meta keywords
+
+Competitive Intelligence Executive
+Provides information about every Competitive Intelligence report available, as
+well as several subreports
+
+Where Trellian gets its data. Trellian derives its keyword data primarily from
+aggregated historical global data purchased from ISPs. Trellian also uses a panel of 4.4
+million users to collect its global premium data. The company claims that the global
+premium data removes the bias that various spiders introduce into data from other
+sources.
+How KeywordDiscovery is useful.
+
+As we mentioned earlier, KeywordDiscovery
+offers a multitude of tools that are great for keyword research. Trellian also offers various tools that are useful for competitive research. You can almost think of KeywordDiscovery as a one-stop shop for research, because it offers a diverse set of tools, but as
+with many of the other keyword research tools we’ve discussed here, its data sources
+are limited, and you need to take this into account in your use of the tool.
+
+Cost.
+
+KeywordDiscovery offers different subscription options that range from a standard monthly subscription for $69.95 to a yearly Enterprise subscription for $4,752
+(pricing as of July 2014). Competitive intelligence reports range from $99.95 per
+month per domain (plus a $150 setup fee) to $995 per year per domain. The free tool
+with limited features is also available. We recommend reviewing the options and
+choosing the package that will work best for your company.
+
+Experian Hitwise
+Experian Hitwise offers a wide range of competitive and web statistics via its service.
+One component of the Experian Hitwise suite, Hitwise Search Intelligence, is a powerful keyword research tool for analyzing the long tail of search data. It provides extensive insights into how people have successfully searched for products and services
+across all major search engines, including the breakdown of paid and organic traffic
+(you can read more about the Experian Hitwise product offering in “Tying SEO to
+Conversion and ROI” on page 729).
+Hitwise Search Intelligence provides the following features:
+
+KEYWORD RESEARCH OPTIONS
+
+www.it-ebooks.info
+
+221
+
+• Timely information on search terms your specific competitors use
+• Market-specific results, for taking advantage of cultural differences on how people
+search locally
+• Information on terms that users have “clicked on” before and after visiting a website or industry (also known as upstream and downstream activity)
+Figure 5-20 shows an example of the most popular search terms used by searchers
+who ended up on travel sites.
+
+Figure 5-20. Hitwise “popular search terms” report
+
+The ability to see actual keyword data on your competitors is an extremely potent feature. You can see what is working for them and what is not. This type of information
+is very powerful and can give you a significant edge over the competition.
+You can also focus more directly on search term suggestions, as shown in Figure 5-21,
+which depicts a screenshot for terms related to travel.
+
+222
+
+CHAPTER FIVE: KEYWORD RESEARCH
+
+www.it-ebooks.info
+
+Figure 5-21. Hitwise search term suggestions tool
+
+Where Hitwise gets its data.
+
+Hitwise derives its data from more than 25 million
+people’s interaction with the Internet (10 million from the United States). Hitwise collects anonymous Internet usage information from a combination of ISP data partnerships and opt-in panels.
+
+How Hitwise is useful. The data is presented in percentages (the volume of
+searches, its success rate with searchers), which makes it very easy to compare the relative popularity of various keywords, but difficult to estimate the actual number of
+searches for a given term.
+Cost. Hitwise is not an inexpensive tool. The website does not list pricing information, but you should be ready to spend $20,000 if you plan to engage with this tool.
+Bear in mind that we have presented only a snapshot of its features, and the competitive data is extremely valuable, not just to the SEO team but to all marketing disciplines across your organization. If long-term use of the tool doesn’t make sense for
+your team’s needs, Hitwise also offers one-off analysis services for around $5,000 a
+report.
+
+KEYWORD RESEARCH OPTIONS
+
+www.it-ebooks.info
+
+223
+
+comScore Search Planner
+Like Hitwise, ComScore Search Planner is a tool that provides a wide range of data as a
+result of monitoring the behavior of actual users on the Internet. This data includes
+details on search terms used, as well as competitive search term analysis.
+
+What comScore Search Planner provides. ComScore Search Planner comprises
+eight modules, but two of them are particularly useful for keyword research:
+Site Profile (for Site(s) X)
+This module tells you what search terms and search engines are driving the most
+traffic to your site, to your competitor’s site, and within your category.
+
+Profile Search Terms
+This module tells you the demographic profile of people searching on a set of
+search terms, as well as what sites these searchers tend to visit.
+Figure 5-22 shows the highest-volume terms specific to the airline category.
+
+Figure 5-22. ComScore “airline search terms” report
+
+224
+
+CHAPTER FIVE: KEYWORD RESEARCH
+
+www.it-ebooks.info
+
+You can also view similar data specific to a competitor’s site, so you can see what
+search terms are driving its traffic. Another useful feature is the ability to view search
+trends for an industry. This helps with the identification of seasonal behavior, as you
+see in Figure 5-23.
+
+Figure 5-23. ComScore search trends report
+
+Where comScore gets its data.
+
+comScore monitors the behavior of approximately
+2 million users. These users have voluntarily joined comScore’s research panels in
+return for free software, free Internet-based storage, or chances to win prizes. Sites can
+also opt in to adding comScore tracking on their site using unified tags. Some sites do
+this because it tends to result in higher numbers and better data that they can then
+show to potential advertisers. This helps them sell online display advertising and
+obtain higher advertising rates.
+
+How comScore Search Planner is useful.
+
+comScore Search Planner data is presented in percentages (the volume of searches; its success rate with searchers), which
+makes it very easy to compare the relative popularity of various keywords, but difficult
+to estimate the actual number of searches for a given term.
+
+KEYWORD RESEARCH OPTIONS
+
+www.it-ebooks.info
+
+225
+
+Cost.
+
+You must contact comScore directly to get pricing for the Search Planner tool.
+The primary audience for the product is mid-size to large companies with developed
+SEM/SEO strategies, but the company has some smaller clients as well.
+
+WordStream
+The fast, powerful keyword tools from WordStream are completely free (access was
+previously restricted to paid subscribers). The Free Keyword tool delivers thousands of
+keyword suggestions, including long-tail keywords, from a constantly updated database of more than a trillion unique search queries. The Keyword Niche Finder helps
+you discover your most profitable pockets of keyword opportunities. This free tool
+delivers value-added, structured keyword suggestions, preorganized into groups of
+related searches, ready to use in search marketing campaigns. Or, if you already have a
+list of keywords, drop them into the Keyword Grouper to get back organized keyword
+niches: see all related variations of a keyword at once, or drop these clusters of keywords into an ad group in AdWords.
+
+What WordStream provides.
+
+WordStream provides a suite of five different tools for
+
+keyword research:
+
+Keyword Suggestion
+This is the basic tool for generating a list of keyword suggestions along with search
+volume metrics.
+
+Keyword Niche Finder
+This tool is useful when you are building out a list of new topics from which to
+create content.
+
+Keyword Grouper
+Keyword Grouper is used to mine keyword data for organic search referrals and
+trends.
+
+Negative Keyword
+This tool is mainly used in relation to PPC campaigns, but can assist in generating
+a list of terms that it is not desirable to match for.
+
+SEO Content Creation plug-in for Firefox
+This plug-in suggests topics and keywords for new SEO pages, and tracks keyword
+usage as you type.
+Figure 5-24 shows the output for keyword research related to the phrase catering.
+
+226
+
+CHAPTER FIVE: KEYWORD RESEARCH
+
+www.it-ebooks.info
+
+The Keyword Niche Finder tool finds keywords by topic area. This is useful when
+you’re looking for new topic or subtopic areas to create content for. Use this when
+deciding on new types of content for a site, or when first building a site. Figure 5-25
+shows the output related to used cars and cheap.
+
+Figure 5-24. WordStream Keyword Suggestion tool output for “catering”
+
+KEYWORD RESEARCH OPTIONS
+
+www.it-ebooks.info
+
+227
+
+Figure 5-25. Keyword niches related to “used cars” and “cheap”
+
+Where WordStream gets its data.
+
+Unlike many keyword research tools, WordStream does not source its data from Google. Instead, the company buys its data from
+ISPs, browser toolbar providers, and search engines.
+
+How WordStream is useful.
+
+WordStream is useful because it pulls its data from
+sources other than the search engines and goes into further depth, exposing more of
+the long tail of search. In addition, WordStream offers powerful features for organizing
+keywords, which in turn makes it easier to organize the keyword data to help drive
+your SEO strategy.
+
+Cost.
+
+WordStream is available in a number of different packages, one of which is a
+free keyword research tool. The WordStream Keyword Research Suite has three price
+points as of November 2014: $349 per month for small businesses, $549 per month for
+the Professional level, and $1099 per month at the Enterprise level.
+
+228
+
+CHAPTER FIVE: KEYWORD RESEARCH
+
+www.it-ebooks.info
+
+SEMrush
+SEMrush is a data provider and market leader in competitive research software. SEMrush includes the following tools and reports: Organic Research, Advertising Research,
+AdSense, Keyword Research, Site Audit, Domain vs. Domain, Position Tracking, and
+Backlinks. To start using SEMrush services, you will need to enter a domain, URL, or
+keyword in the main search bar. You can switch from one section to another in the left
+menu to get different data to display (see Figure 5-26).
+
+Figure 5-26. SEMrush domain-level keyword data (analyzing Moz.com)
+
+SEMrush Organic Research report. The Organic Research report offers analytics
+data on keywords that bring users to a website via Google’s top 20 organic results. For
+every keyword, you can find useful information such as its position in Google search
+results, volume, CPC, the URL of a landing page and how it’s displayed in the search
+results, competition, and trends (see Figure 5-27).
+
+KEYWORD RESEARCH OPTIONS
+
+www.it-ebooks.info
+
+229
+
+Figure 5-27. SEMrush Organic Research report
+
+The Organic Keywords graph represents the numbers of keywords for which a domain
+has ranked in the top 20 Google results each month on a historical basis (depending
+on your subscription, this could be one month, six months, one year, two years, or all
+time). Keywords are also grouped depending on the position they bring a website (1–
+5, 6–10, 11+) so you can easily analyze which keywords bring you a higher or lower
+ranking in Google.
+It’s also possible to use SEMrush to do keyword research on your competitors. This is
+particularly useful if you have competitors whom you know are successful in their
+marketing efforts. By leveraging the keywords your competitors rank for, and an
+approximation of the traffic they get for those keywords, you can find many keywords
+that should be profitable for you to rank for as well.
+The Competitors section in the Organic Research report provides the list of your
+domain’s competitors and common keywords (Figure 5-28). The competition level
+metric helps you exclude from your analysis domains that are not your real competitors on the market. SEMrush analyzes the ratio between the number of domains’ common keywords and the total number of keywords of each domain. If the total number
+
+230
+
+CHAPTER FIVE: KEYWORD RESEARCH
+
+www.it-ebooks.info
+
+of keywords is rather equal and the domains have a high number of common keywords, they will be considered competitors and their competition level will be high.
+
+Figure 5-28. SEMrush competitors in organic report
+
+SEMrush Advertising Research.
+
+The Advertising Research section has the same
+data as the Organic Research section: Ads Keywords report, Ads Keywords graph,
+Competitors in Ads report, Position Changes report, and so on. This report can be particularly useful for finding keywords that are good targets for your organic ranking
+efforts. If you can assume that your competitors are savvy online marketers, then the
+keywords that they actively purchase can generally be assumed to be those that drive
+a profitable number of conversions to their websites (see Figure 5-29).
+
+KEYWORD RESEARCH OPTIONS
+
+www.it-ebooks.info
+
+231
+
+Figure 5-29. SEMrush Paid Search Positions report
+
+Where SEMrush gets its data.
+
+SEMrush pulls its data directly from Google search
+engine results and maintains dedicated databases of this information. SEMrush has 25
+databases for the United States (Google and Bing), the United Kingdom, Canada, Russia, Germany, France, Spain, Italy, Israel, Belgium, The Netherlands, Denmark, Finland, Ireland, Norway, Poland, Sweden, Switzerland, Turkey, Brazil, Argentina, Mexico, and Hong Kong.
+
+How SEMrush is useful.
+
+SEMrush allows you to access a great deal of data about
+both your own domain and your competitors’ domains and what keywords those
+domains rank for in both organic and paid search.
+
+Cost.
+
+SEMrush offers either a Pro membership for $69.95 per month, which allows
+for 10,000 results per report and up to 3,000 reports per day, or a Guru-level account
+at $149.95 per month, which allows for 30,000 results per report and up to 5,000
+reports per day.
+
+232
+
+CHAPTER FIVE: KEYWORD RESEARCH
+
+www.it-ebooks.info
+
+Searchmetrics
+The Searchmetrics suite is an SEO platform that is generally used by enterprises. The
+software provides a holistic approach regarding both technically based SEO data analysis and content-focused optimization.
+While it provides a wide range of SEO metrics and tracking for the purposes of keyword research, you can monitor keywords, rankings, and URLs; optimize on-page
+structure and content; evaluate links; track social engagement in real time; and compare domains on a project basis. In addition, the platform provides you with automatic
+technical on-page analyzing and proactive recommendations including site structure
+optimization for up to several million subpages.
+One key feature of Searchmetrics is its reverse-engineering technology, which allows
+you to reconstruct “not provided” keyword and traffic data on a URL level by combining various data sources and algorithmic calculations.
+For the purposes of straightforward keyword research, Searchmetrics offers a keyword
+discovery tool that ranks any keyword on search volume, competition, cost (if you
+were to pay for the keyword rather than ranking for organically), and “search volume
+spread,” which shows any seasonality in the keyword. It shows similar and related
+keywords and allows you to click through on any keyword to see the top sites ranking
+for that term (see Figure 5-30).
+Also of interest with Searchmetrics is that it offers competitive keyword research on
+both paid and organic traffic. Enter a domain in the search box, and Searchmetrics will
+return a list of competitors in either organic or paid search along with data on how
+many keywords the domain shares in common with its competitors, how many keywords are not shared with the competitors, relative traffic volume for the competitors,
+and other data on the competitors’ rankings (see Figure 5-31).
+
+KEYWORD RESEARCH OPTIONS
+
+www.it-ebooks.info
+
+233
+
+Figure 5-30. Searchmetrics Keyword Discovery report
+
+234
+
+CHAPTER FIVE: KEYWORD RESEARCH
+
+www.it-ebooks.info
+
+Figure 5-31. Searchmetrics Organic Competitors report
+
+By clicking through any entry in the Competitive Keywords column, you can delve
+more deeply into which keywords the sites might have in common. To get more
+details on exactly which keywords your competition is ranking for, you can also look
+at the Rankings report under SEO Research (Figure 5-32). This report gives you indepth information into thousands of keywords that your competitor ranks for, including the keyword itself, the URL that ranks for it, the competitor’s position, and an estimate of both search volume and what the term would cost to purchase via PPC advertising. This report can give you a great deal of insight into which keywords are important to your competitors, and thus in many cases which keywords should be important
+to you.
+
+KEYWORD RESEARCH OPTIONS
+
+www.it-ebooks.info
+
+235
+
+Figure 5-32. Searchmetrics Rankings report
+
+Where Searchmetrics gets its data.
+
+Searchmetrics gets its data from the Google
+
+SERPs and Google Keyword Planner.
+
+How Searchmetrics is useful.
+
+Searchmetrics allows you to track most of your SEO
+efforts while providing many on-page analyses and recommendations. In addition, it
+provides a wealth of keyword information both at the keyword level and in mining
+your competitors’ keyword data.
+
+Cost.
+
+Searchmetrics Essentials, which allows for research access to SEO, PPC, keyword, and other data and detailed competitor analyses, costs $69 per month. The full
+Searchmetrics suite—which includes tracking, research, and optimization solutions—is
+quoted on a case-by-case basis.
+
+Other tools of interest
+There are many other keyword tools available on the market. Some of the more interesting ones are described next.
+
+Google Autocomplete.
+
+Previously known as Google Suggest, this Google feature
+automatically “suggests” queries related to a word or starting with the same word. For
+example, typing in lilac will reveal suggestions of lilac essential oil, lilac wine, and lilac
+tree. This was a somewhat hidden tool that, thankfully, Google brought front and center to default Google Search. Google won’t tell you how many times digital cameras has
+been searched for, but because it appears at the top of the list of suggestions, you can
+infer that it was probably searched for more often than the phrases that appear below
+it. This can give you important insight into what searchers are looking for, or what
+
+236
+
+CHAPTER FIVE: KEYWORD RESEARCH
+
+www.it-ebooks.info
+
+they search for in relation to a specific topic. For example, does a company have an
+autocomplete suggestion of <company name> scam? If so, it might have a PR nightmare
+on its hands.
+NOTE
+Suggestions are personalized based on the user’s location (e.g., wet n wild phoenix is a suggestion that shows up when a user in Phoenix, Arizona, types the letter
+w into Google. And in mobile search, you may notice apps listed as a suggestion.
+
+Google Instant.
+
+Start with the basic search input box, but look for what Google
+reveals as you type. Google gives results that appear in the search page even before
+you have completed the search query. As you refine this search further, these results
+appear below and change to fit your refined search. This benefits the searcher by eliminating the need to press the Search button, and often limits the need to finish the
+query. Google estimates that this function has the capability to save two to five seconds per search.
+
+Soovle.
+
+Soovle shows you real-time search terms as you type them, ordered by popularity, just like Google Suggest. In fact, it’s a one-stop shop that taps into those features of top search engines and much more. It also polls YouTube, Amazon, Bing,
+Wikipedia, and Answers.com for top related search terms, refreshing dynamically each
+time you pause during your typing. This tool allows you to tap into seven top resources at once (see Figure 5-33).
+
+Figure 5-33. Soovle results using keyword “golf”
+
+KEYWORD RESEARCH OPTIONS
+
+www.it-ebooks.info
+
+237
+
+YouTube Autocomplete.
+
+If you begin to type in a search query on YouTube, it
+offers search suggestions, as shown in Figure 5-34. The suggestions are the most popular variants of the search query you have typed so far.
+
+Figure 5-34. YouTube Autocomplete
+
+Google AdWords Display Planner.
+
+On September 1, 2014, Google discontinued
+the former YouTube Keyword Tool. As with the Google Keyword Planner, you must
+have a Google AdWords account, though you do not need to spend any money on the
+account to access the Display Planner (shown in Figure 5-35). You can enter a landing
+page or select from a list of topics to get recommendations on what terms might drive
+the most impressions. To get the video-only keyword recommendations, first search
+for your desired topic, then select Video under the “Ad formats and sizes” option on
+the lefthand side of the page. Selecting “Individual targeting ideas” will return a list of
+recommended keywords, their relevance to your select topic, and historical CPM (cost
+per mille, or cost per thousand impressions), number of cookies per week, and number of impressions per week.
+
+238
+
+CHAPTER FIVE: KEYWORD RESEARCH
+
+www.it-ebooks.info
+
+Figure 5-35. Google AdWords Display Planner
+
+Google Trends for Video.
+
+Just as you can use Google Trends to search for the relative interest of various keyword terms in the main Google search results, you can also
+use it to look for keyword trends and suggestions for YouTube. To do this, search as
+usual for a term on Google Trends, then select the YouTube option from the top navigation bar (see Figure 5-36).
+
+Figure 5-36. Google Trends for YouTube search
+
+KEYWORD RESEARCH OPTIONS
+
+www.it-ebooks.info
+
+239
+
+Google Trends will also return a list of topics and keyword queries related to your
+search, with a rating for the relative interest of each (see Figure 5-37).
+
+Figure 5-37. Google Trends related searches
+
+Ubersuggest.
+
+Ubersuggest is a free tool based on Google Autocomplete. It runs a
+bunch of variants based on the term that you have entered. For example, if you enter
+the query golf, Ubersuggest will automatically pull the suggestions for golf + terms beginning with a, golf + terms beginning with b, and so on, all the way through to golf + z and
+then golf + 0, golf + 1, and so on, as shown in Figure 5-38.
+
+240
+
+CHAPTER FIVE: KEYWORD RESEARCH
+
+www.it-ebooks.info
+
+Figure 5-38. Ubersuggest suggestions
+
+KeywordSpy.
+
+KeywordSpy is a paid tool that ranges in price from $89.95 to
+$139.95 monthly for basic packages. It also has agency and enterprise packages available at higher rates. KeywordSpy offers a variety of services but primarily offers
+insights into paid search volumes and costs per click, as shown in Figure 5-39. This can
+help you identify keyword variations as well as which keywords are more competitive
+
+KEYWORD RESEARCH OPTIONS
+
+www.it-ebooks.info
+
+241
+
+and thus more likely to lead to higher ROI should you be able to drive traffic from
+them. The tool also gives insight into search volumes for related terms, similar terms,
+and misspellings and shows lists of the top-ranking PPC and organic competitors for a
+given query.
+
+Figure 5-39. KeywordSpy keyword report
+
+Visual Thesaurus.
+
+Visual Thesaurus is another graphical tool that shows the definition of the keyword entered as well as related terms and concepts. Clicking on each
+node in the diagram opens a map of variations on the keyword and related concepts
+for that node (see Figure 5-40). It’s another tool you can use for brainstorming new
+keywords and concepts, which you can then enter into the keyword tools that give
+more specific keyword data. It has a nominal cost of $2.95 per month or $19.95 per
+year.
+
+242
+
+CHAPTER FIVE: KEYWORD RESEARCH
+
+www.it-ebooks.info
+
+Figure 5-40. Visual Thesaurus related concepts graph
+
+Visuwords. Visuwords is a free tool that provides a dynamic graphical interface of
+words and concepts related to the search term you enter (see Figure 5-41). It acts as
+both a dictionary and thesaurus as well as providing links to related concepts. These
+related concepts may be keyword areas not previously considered in other keyword
+research. Visuwords is a graphical representation of the data in Princeton’s WordNet
+Search.
+
+KEYWORD RESEARCH OPTIONS
+
+www.it-ebooks.info
+
+243
+
+Figure 5-41. Visuwords related concepts graph
+
+Keyword Research Data Analysis
+Once you have the raw keyword data from the research you’ve done with your favorite tools, you need to analyze which keywords have the highest value and the highest
+ROI. Unfortunately, there is no simple way to do this, but we will review some of the
+options in this section.
+When you’re researching keywords for your site, it is important to judge each keyword’s value, relevance, and potential conversion rate. If a keyword is strong in all
+three criteria, it is almost certainly a keyword you want to plan to optimize for within
+your site.
+
+Determining keyword value
+When judging the value of a keyword, you should contemplate how useful the term is
+for your site. How will your site benefit from targeting these keywords?
+
+244
+
+CHAPTER FIVE: KEYWORD RESEARCH
+
+www.it-ebooks.info
+
+Identifying relevant keywords
+To identify relevant, high-quality keywords, ask yourself the following questions:
+
+How relevant is the term/phrase to the content, services, products, or information on your
+site?
+Terms that are highly relevant will convert better than terms that are ancillary to
+your content’s focus.
+
+Assuming a visitor who searches for that term clicks on your result in the SERPs, what is
+the likelihood that she will take action in a way that will positively influence your site?
+You need to assess how likely it will be for users to perform a desired action on
+your site (make a purchase, subscribe to a newsletter, etc.), create a link to your
+site, influence others to visit, or engage in off-site engagement by promoting your
+content in social media. (You can also test this by setting up a PPC campaign, and
+buying clicks on a given keyword and seeing how it converts for you.) It is a good
+idea to target keywords that indicate imminent action (e.g., buy cranium board
+game, best prices for honda civic), because searchers are more likely to perform the
+corresponding action on your site when they search for those terms than they are
+for terms such as honda civic or cranium board game. Your click-through/conversion
+rates are likely to be higher if you target keywords that indicate the intent behind
+the search.
+
+How many people who search for this term will come to your site and leave dissatisfied?
+Pay attention to your site’s content and compare it to what other sites in the top
+results are offering—are these sites doing or offering something that you haven’t
+thought of? Do you feel as though these sites offer a more positive user experience? If so, see what you can learn from these sites and possibly emulate on your
+own.
+You can also use an analytics program and check to see which of your pages have
+the highest abandonment rates. See what you can change on those pages to
+improve user experience and increase users’ level of enjoyment when they’re
+using your site.
+It is important to categorize your keywords into high and low relevance. Generally,
+keywords of higher relevance will be more beneficial to your site in that they best represent your site as a whole. If, when judging the relevance of a keyword, you answer
+the preceding questions positively, you’ve found a highly relevant term and should
+include it in your targeting.
+Keywords with lower relevance than those that lead to conversions can still be great
+terms to target. A keyword might be relevant to your site’s content but have a low
+relevance to your business model. In this case, if you target that keyword, when a user
+clicks on your site and finds the content to be valuable, he is more likely to return to
+
+KEYWORD RESEARCH OPTIONS
+
+www.it-ebooks.info
+
+245
+
+the site, remember your brand, and potentially link to your site or suggest it to a
+friend. Low-relevance keywords, therefore, present a great opportunity to strengthen
+the branding of your site. This type of brand value can lead to return visits by those
+users when they are more likely to convert.
+
+Determining conversion rates
+A common misconception is that a conversion refers only to the purchase of an item
+on your site. However, many different types of actions users perform can be defined as
+a conversion, and they are worth tracking and segmenting (you can read more about
+this in “Key Performance Indicators for Long-Tail SEO” on page 787).
+The many different types of conversions create distinct opportunities for targeting various keywords. Although one keyword may work well for purchase conversions,
+another may be well suited to get users to subscribe to something on your site.
+Regardless of what type of conversion you are optimizing for, you should strive to
+have each keyword that you intentionally target convert well, meaning it should be
+relatively successful at getting searchers to click through to your site and, consequently, perform a specific action.
+To know which keywords to target now (and which to pursue later), you must understand the demand for a given term or phrase, as well as the work required to achieve
+those rankings. If your competitors block the top 10 results and you’re just starting out
+on the Web, the uphill battle for rankings can take months, or even years, of effort,
+bearing little to no fruit. This is why it is essential to understand keyword competitiveness, or keyword difficulty.
+To give you a rough idea of the level of competition faced for a particular term or
+phrase, the following metrics are valuable:
+• Search demand volume (how many people are searching for this keyword)
+• Number of paid search competitors and bid prices to get in the top four positions
+• Strength (age, link power, targeting, and relevance) of the top 10 results
+• Number of search results—it can be valuable to use advanced operators such as
+exact search (e.g., “patrick powers” Ireland) or the allintitle and allinurl operators
+here as well; see coauthor Stephan Spencer’s book, Google Power Search (O’Reilly)
+for more on using these specialized searches for keyword research
+Moz offers a Keyword Difficulty tool that does a good job collecting all of these metrics
+and providing a comparative score for any given search term or phrase.
+
+246
+
+CHAPTER FIVE: KEYWORD RESEARCH
+
+www.it-ebooks.info
+
+Ad Campaign Runs and Third-Party Search Data
+One of the points we have emphasized in this chapter is the imprecise nature of the
+data that keyword tools provide. This is inherent in the fact that the data sources each
+tool uses are limited. It turns out that there is a way to get much more precise and
+accurate data: making use of Google AdWords.
+Start with the keywords you are interested in and implement a simple AdWords campaign. Assuming that you are implementing this campaign solely to get keyword volume data, target position #4 or #5. This should be high enough that your ads run all
+the time, but low enough that the cost of collecting this data won’t be too high.
+Once you have run this for a few days, take a look at your AdWords reports, and identify the number of impressions generated for the keyword. Although this data is
+straight from Google, it is important to remember that the advertisers’ ads may not be
+running all the time, so more (possibly significantly more) impressions may be
+available.
+Next, think about the value of achieving certain rankings in the organic results. You
+can come up with a good estimate of that as well. The key here is to leverage what you
+know about how click-through rates vary based on organic search position. Table 5-2
+depicts click-through rates by SERP position based on data by Digital Relevance.3
+Table 5-2. Click-through rates by SERP position
+Organic position
+
+Click-through rate
+
+1
+
+18.2%
+
+2
+
+10.05%
+
+3
+
+7.22%
+
+4
+
+4.81%
+
+5
+
+3.09%
+
+This data, of course, is aggregated across a very large number of searches on AOL, so it
+serves only as an estimate; but if you are in position #1, the estimate is that 18.2% of
+the people who will search on a term will click on your result. In the case of a term
+that is searched 52 times per day, the site in the #1 position will get 9–10 clicks per
+day.
+
+3 DigitalRelevance, “A Tale of Two Studies: Establishing Google & Bing Click-Through Rates,” http://
+
+bit.ly/tale_of_two_studies.
+
+KEYWORD RESEARCH OPTIONS
+
+www.it-ebooks.info
+
+247
+
+NOTE
+There are certain search terms to which these estimates do not apply. For example, if the user searches on a brand term, the focus on the #1 position is much,
+much higher. Publishers in lower positions still get some traffic, but at lower percentages than we’ve outlined here.
+
+So, now you have a working estimate of the search volume and the number of clicks
+per day that the term will deliver. Can you get an estimate of conversion rates as well?
+Yes, you can. This requires only a simple extension of the AdWords campaign: implement conversion tracking, either with the free capability provided by Google or via
+another method at your disposal.
+Once you have that in place, look at how your AdWords campaign performs. If the
+conversion rate is a lofty 5% for one keyword and 3% for another, chances are that
+your organic search conversion rates for those two keywords will vary by a similar
+amount. Be aware, though, that although paid search results get significantly less traffic than organic search results, paid click-throughs do tend to convert at a somewhat
+higher rate (1.25 to 1.5 times, according to industry data). Using the preceding example, this suggests that we will get a little less than one conversion per day as a result of
+being in the #1 position.
+This data is great to have in hand. However, it does not mean you should use this
+methodology instead of other keyword tools. It takes time to implement and to collect
+the data. The keyword tools will get you started in real time. Nonetheless, using
+AdWords or MSN adCenter can provide you with some great data.
+We also don’t recommend that you get obsessed with tracking your rankings on keywords. As we discussed in “Benchmarking Current Rankings” in “Benchmarking
+Organic Rankings” on page 188, it is not possible to do this as accurately as you might
+think, and it can lead to poor decision making. Nonetheless, using this type of
+AdWords testing can help you get a sense of real search volumes and the importance
+of particular keywords to your SEO campaign.
+
+Landing Page Optimization
+Landing page optimization (sometimes also called conversion optimization) is the practice of
+actively testing multiple variations of a web page (or website) to see which one performs the best. Typically, this is done as part of an effort to improve the conversion
+performance of the site and it relies on testing tools such as Visual Website Optimizer,
+Optimizely, or Content Experiments (within Google Analytics).
+The simplest form of this type of test is called an A/B test. A/B tests involve creating
+two different versions of a page, and then selecting a version at random to show to a
+new visitor to the site (old visitors get the version they saw the last time they visited).
+
+248
+
+CHAPTER FIVE: KEYWORD RESEARCH
+
+www.it-ebooks.info
+
+You then measure the behavior of the visitors to the two different versions to see
+which group of visitors completes conversions on the site. You have to be careful to
+wait until you have a statistically significant amount of data to draw a conclusion.
+Once you have this data you can analyze it and decide on more tests, or simply pick
+the winner and move on.
+Multivariate testing is a bit more complex, because it involves more than two variations
+in the test. In addition, you can mix and match multiple variations. For example, you
+may want to try two different logos, two different calls to action, three different page
+titles, two different color schemes, and so on. In multivariate testing, any combination
+of your elements could be what is shown to a particular visitor. Obviously, more data
+(visits and actions) is required to draw a conclusion than in a simple A/B test.
+Landing page optimization can help in determining the value of a keyword because
+one of the elements you might want to test is the impact on conversion of variations of
+a keyword or phrase in the page title, the page header, and other strategic places on
+the page. One variation of the test would use one keyword or phrase and the other
+variation would use a different one.
+You can then see which keyword provides the best results from a conversion perspective. This data can provide you with an interesting measure of keyword value: its ability to help you convert your visitors. However, landing page optimization is not practical to use to perform SEO tests (i.e., to see which version of a page ranks higher), as
+SEO tests can take weeks or even months to see results.
+
+Leveraging the Long Tail of Keyword Demand
+As we discussed at the beginning of this chapter, the long tail of search is where 70%
+of search queries occur. Only 30% of those precious queries happen in the more obvious terms that people use, the so-called head terms. Another way to underscore this is
+that in May 2007, Google Vice President Udi Manber indicated that 25% of all search
+queries that Google receives on a given day are queries that Google is seeing for the
+first time. You can think of this as the “ultra-long tail.”
+The long tail of search queries in a given industry is typically not visible via any of the
+major keyword research services or search engine ad databases (Google AdWords,
+Bing Ads). In these instances, there is a method to find those terms that can carry
+value, but it requires a good amount of research and analysis.
+With this in mind, let’s outline a few methods for finding long-tail terms.
+
+LEVERAGING THE LONG TAIL OF KEYWORD DEMAND
+
+www.it-ebooks.info
+
+249
+
+Extracting Terms from Relevant Web Pages
+One source for long-tail terms is web pages that do well for searches that are relevant
+to your target market. Here is a basic process for finding those pages and extracting
+that information from them:
+1. Extract the top 10–50 most common search phrases at the head of the distribution
+graph from your existing keyword research in the industry.
+2. Search Google and Bing for each term.
+3. For each page in the top 10–30 results, extract the unique text on the page.
+4. Remove stopwords and filter by phrase size.
+5. Remove instances of terms/phrases already in your keyword research database.
+6. Sort through the most common remnants first, and comb as far down as you feel
+is valuable.
+Through this process, you are basically text-mining relevant documents on the subject
+of your industry/service/product for terms that, although lower in search volume,
+have a reasonable degree of relation. When you’re using this process, it is imperative
+to have human eyes reviewing the extracted data to make sure it passes the “common
+sense” test. You may even find additional terms at the head of the keyword distribution graph.
+You can expand on this method in the following ways:
+• Text-mine search results on social media sites such as Twitter and Pinterest for relevant results.
+• Use documents purely from specific types of results—local, academic—to focus
+your keyword mining efforts.
+• Mine forum threads on your subject matter. You could even use inurl:forum in the
+searches to grab conversational keywords.
+This methodology is highly effective. The return on this research has a direct relationship to the amount of effort you expend (and how deep you dig).
+
+Mining Keyword Research Tools
+Although looking into keyword research tools for long-tail data has significant limitations, there are still ways to do it. For example, if you own a chain of pizza restaurants
+in 50 cities across the country and you want to discover long-tail terms, you can. Let’s
+look at the tail end of Google Keyword Planner’s output for a combined search on
+Orlando Pizza, San Diego Pizza, and San Jose Pizza (see Figure 5-42).
+
+250
+
+CHAPTER FIVE: KEYWORD RESEARCH
+
+www.it-ebooks.info
+
+Figure 5-42. Extracting long-tail data from Google AdWords Keyword Planner
+
+san diego pizza restaurants (40 searches per month on average) is an example of a valid
+long-tail term. If some people search for san diego pizza restaurants, it is quite likely that
+others search for orlando pizza restaurants. It does not show in this data, because the
+volume of queries available to the keyword research tool is limited. All we are doing
+with these combined searches is giving the search tools more data to work with.
+The takeaway remains valid: apply these logical long-tail extensions across all of your
+cities, even though the keyword tool shows it for only one, and you’re likely to attract
+search queries for those keywords.
+
+Identifying Long-Tail Patterns
+You can also take another stab at determining long-tail information. As a hypothetical
+example using digital camera, here are 40 searches for two different brands and models
+of digital cameras that have been pulled (for this demonstration) from the KeywordDiscovery database that received only one search:
+• consumer comments on nikon 5.1 mp coolpix l3 digital camera
+• new nikon coolpix p3 8 1 mp digital camera memory
+• nikon 3 2 mp coolpix digital camera
+• nikon 51 mp coolpix s1 digital camera and cradle
+• nikon 6 mp coolpix digital camera
+
+LEVERAGING THE LONG TAIL OF KEYWORD DEMAND
+
+www.it-ebooks.info
+
+251
+
+• nikon 7 1 mp coolpix 7900 digital camera
+• nikon 81 mp coolpix 8800 digital camera
+• nikon coolpix 4800 4 mp digital camera
+• nikon coolpix 5200 51 mp digital camera
+• nikon coolpix 5400 51 mp digital camera
+• nikon coolpix 6.0 mp digital camera
+• nikon coolpix 8700 8mp 8x zoom digital camera 8 mp
+• nikon coolpix l2 6.0 mp digital camera
+• nikon coolpix l3 6 mp digital camera usa warranty
+• nikon coolpix p2 51 mp digital camera
+• best buy sony cybershot dsc t7 51 mp digital camera
+• brand new sony cybershot dsc h1 51 mp digital camera
+• camera digital sony cybershot 51 mp
+• sony - cybershot 10.1 mp digital camera
+• sony - cybershot 6.0 mp digital camera
+• sony 5 mp cybershot dsc t9 digital camera
+• sony 72 mp cybershot dsc p200 digital camera information
+• sony 72 mp cybershot dsc w7 digital camera
+• sony 72 mp digital still camera cybershot rebate
+• sony cybershot 10.1 mp digital camera
+• sony cybershot 7 2mp digital camera 7 2 mp
+• sony cybershot 72mp dsc w7 digital camera 72 mp
+• sony cybershot 81 mp digital camera
+• sony cybershot digital camera 5.1 mp
+• sony cybershot digital camera 6 mp
+• sony cybershot dsc 1 81 mp digital camera review
+• sony cybershot dsc h1 51 mp digital camera
+• sony cybershot dsc w30 6 mp digital camera
+• sony cybershot dscs40 41 mp digital camera 3x opt zoom
+• sony dsc p73 cybershot digital camera 41 mp p 73
+• sony dsc p8 cybershot 32 mp digital camera
+
+252
+
+CHAPTER FIVE: KEYWORD RESEARCH
+
+www.it-ebooks.info
+
+• sony dsc s60 cybershot digital camera 4 1 mp
+• sony dsc s85 cybershot 41 mp digital still camera
+• sony dsc t1 cybershot digital camera 5 0 mp
+• sony dsc t1 cybershot digital camera 50 mp t 1
+Our goal is to determine whether there are any universal patterns that searchers use.
+Within this subset of searches, a number of patterns stand out:
+• Approximately 48% begin with the brand name and end with digital camera.
+• Approximately 35% are ordered brand, model name, model number, megapixel,
+digital camera.
+• Approximately 22.5% are ordered brand, megapixel, model name, digital camera.
+• A whopping 60% follow the overall pattern of brand, model name, digital camera.
+You might also notice that, at least in this example, qualifiers such as new, a specific
+store name, and a reference to consumer comments tend to precede the search
+phrases, whereas features and product-related qualifiers such as memory, 3x opt zoom,
+warranty, cradle, information, and even a repeat of the megapixels or model number
+tend to be appended to the search phrases.
+NOTE
+Remember, this is purely a limited, hypothetical example and certainly is not
+meant to be statistically accurate; the goal here is to reveal different search term
+patterns to aid you in determining the best groupings of long-tail keywords to
+target.
+
+Applying Editorial Content Strategies for Long-Tail Targeting
+One of the most difficult aspects of capturing traffic from the long tail of search is creating relevant, targeted content. As we discussed in “Determining Searcher Intent and
+Delivering Relevant, Fresh Content” on page 92, search engines rely on lexical analysis
+to determine what a web page is about. As a result, your chances of showing up for a
+long-tail phrase are greatly increased if you have that long-tail phrase (or at least all
+the words that make up the long-tail phrase) on your page. Let’s look at why this may
+be challenging by checking out what phrases Wordtracker returns when we enter
+canon digital camera (see Figure 5-43).
+
+LEVERAGING THE LONG TAIL OF KEYWORD DEMAND
+
+www.it-ebooks.info
+
+253
+
+Figure 5-43. Sample long-tail data
+
+Already, with the eighth phrase returned (canon digital camera windows 7 screen fix), you
+can see the challenge. If you are trying to sell Canon digital cameras, you are probably
+not going to work that phrase into your page copy.
+The best approach is to use the long-tail research techniques we discussed in this chapter and identify the major patterns, or the major words, that appear across different
+long-tail scenarios, and then work those words into your copy. Don’t force it by making pages that appear foolish to a user.
+Make sure the writers remain focused on producing quality content. From a long-tail
+perspective, more text is better because it creates more possible long-tail matches, but
+there are limits to that too. Don’t put a 1,000-word article on your site unless it makes
+sense to your users for you to do so.
+
+Applying User-Generated Content Strategies for Long-Tail
+Targeting
+User-generated content (UGC) can be a great way to obtain lots of content that will
+help attract long-tail traffic. Popular ways of doing that include forums, reviews, blog
+comments, and a way to upload videos or images, among others. As users submit content, they do the hard work of writing the text you need to capitalize on the long tail.
+There are some downsides to UGC, though. Generally speaking, you need to moderate
+it to make sure people are not contributing objectionable material you don’t want on
+your site, or copyrighted material from other sources (and potential duplicate content
+issues, depending on how the UGC content is published to your site). Even if you get
+community members to participate, you will still need to manage them.
+
+254
+
+CHAPTER FIVE: KEYWORD RESEARCH
+
+www.it-ebooks.info
+
+In addition, you need to have a strategy for getting the process started. In the case of a
+forum, you need to develop a critical mass of users to establish a real community. If
+you don’t, a high percentage of the posts you receive will be one form of spam or
+another. To make UGC work, you need one or more of the following:
+• Significant existing daily site traffic (how much depends on how vertically oriented your community is intended to be—narrowly focused topics can get going
+with a smaller number of users)
+• A way to generate a lot of buzz to generate site traffic
+• Compelling supporting content
+If you can succeed at this, you’ll give life to a machine that produces long-tail content
+on an ongoing basis with comparatively low effort.
+
+Trending, Seasonality, and Seasonal Fluctuations in
+Keyword Demand
+One of the subtleties of keyword research, and of any fully developed SEO strategy, is
+that the use of keywords and phrases varies significantly over time. For instance,
+major holidays inevitably lead to bursts of keyword volume related to those holidays.
+Examples could be searches such as Halloween costumes, gift ideas for Christmas, or Valentine’s candy.
+If you want to write holiday-related content, it is important to have your site visible in
+the SERPs for those search queries prior to that holiday’s buying season so that you’ll
+get optimum traffic for those terms. And because the search engines take considerable
+time in ranking your pages, advance preparation is required. To investigate this further, let’s examine the Google Trends data for a period of 12 months for the search
+term halloween costumes (see Figure 5-44).
+
+TRENDING, SEASONALITY, AND SEASONAL FLUCTUATIONS IN KEYWORD DEMAND
+
+www.it-ebooks.info
+
+255
+
+Figure 5-44. Google Trends highly seasonal data example
+
+As you can see, searches begin gaining traction toward the end of August and into
+autumn; thus, if you are doing SEO for Halloween-related terms, you would want to
+have the related content and links in place by the beginning of the summer so that
+search engines can find and index your content, and therefore you’re more visible to
+searchers when they start doing research. A long-term SEO approach would take this
+into consideration as part of the overall strategy for the site. Searches start consistently
+increasing toward the end of September.
+A similar pattern emerges for Christmas-related searches. Figure 5-45 shows an example for firecrackers. Searches start consistently increasing in early June. You can keep
+trying more examples. With Valentine’s Day, the searches start in mid-December.
+
+256
+
+CHAPTER FIVE: KEYWORD RESEARCH
+
+www.it-ebooks.info
+
+Figure 5-45. Google Trends; another seasonal example
+
+In each case, searches started increasing about two to three months before the holiday,
+so it is important to acknowledge that and start crafting your content and targeting
+those keywords in ample time for them to be indexed before the searches start gaining
+traction.
+KeywordDiscovery also graphs search trends, so if you have an account, you can analyze these graphs to craft a holiday campaign, as shown in Figure 5-46.
+
+TRENDING, SEASONALITY, AND SEASONAL FLUCTUATIONS IN KEYWORD DEMAND
+
+www.it-ebooks.info
+
+257
+
+Figure 5-46. KeywordDiscovery seasonal data example
+
+You can see when people begin to search for Halloween costumes and when the activity drops off.
+Don’t take your cue from when the stores start stocking Halloween candy—do the
+research and find out what last year’s trends were so that you’re prepared this year. If
+you prepare early enough, you’ll be ready, while your competitors are scrambling with
+last-minute link-building campaigns three weeks before the holiday.
+Also, don’t remove your Halloween (or other seasonal) page as soon as the time frame
+has passed. Once you have fought hard to get rankings for your seasonal trophy term,
+you want to make sure you get the benefit for that hard work next year. Too many
+sites delete or archive these seasonal pages after the season is over, and then they have
+to start over again next year. A better strategy is to leave the page in place until a new
+version is created, reuse the same URL, and archive the old content to a different URL.
+Leaving the page in place will give you a jumpstart when it is time to begin ramping
+up next year.
+
+Conclusion
+Keyword research is a complex and time-consuming component of search engine optimization, but the rewards are high; once you learn where the keyword search volume
+is, you can begin to think about how that affects the information architecture and the
+navigation structure of your site. These are two critical elements that we will explore
+in greater detail in Chapter 6.
+
+258
+
+CHAPTER FIVE: KEYWORD RESEARCH
+
+www.it-ebooks.info
+
+

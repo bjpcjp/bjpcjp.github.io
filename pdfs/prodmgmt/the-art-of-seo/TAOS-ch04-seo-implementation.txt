@@ -1,0 +1,1249 @@
+CHAPTER FOUR
+
+SEO Implementation:
+First Stages
+SEO efforts require forethought and planning to obtain the best results, and a business’s SEO strategy is ideally incorporated into the planning stages of a website development or redevelopment project, as well as into ongoing web development efforts.
+Website architecture (including the selection of a content management system, or
+CMS), the overall marketing plan (including branding objectives), content development efforts, and more are affected by SEO.
+In this chapter, we will discuss several aspects of how SEO efforts for both desktop and
+mobile generally begin, including:
+• Putting together an SEO strategy
+• Performing a technical SEO audit of site versions
+• Setting a baseline for measuring results and progress
+
+The Importance of Planning
+As discussed in Chapter 3, your SEO strategy should be incorporated into the site planning process long before your site goes live, and your process should be well outlined
+before you make even the most basic technology choices, such as deciding on your
+hosting platform and content management system. However, this is not always possible—and in fact, more often than not, SEO efforts in earnest often begin well after a
+site has been launched and in use for some time.
+In all scenarios, there are major components to any SEO strategy that need to be
+addressed long before you craft your first HTML <title> tag.
+
+157
+
+www.it-ebooks.info
+
+Identifying the Site Development Process and
+Players
+Before you start the SEO process, it is important to identify your target audience, your
+message, and how your message is relevant. There are no web design tools or programming languages that tell you these things. Your company must have an identified
+purpose, mission, and vision—and an accompanying voice and tone for communicating these to the outside world. Understanding these elements first helps drive successful marketing and branding efforts, whether the channel is email marketing, display,
+or organic search.
+Your SEO team needs to be cross-functional and multidisciplinary, consisting of the
+team manager, the technical team, the creative team, the data and analytics team (if
+you have one), and the major stakeholders from marketing and website development.
+In a smaller organization or a startup environment, you and your team members may
+have to wear more than one of these hats (we never said SEO was easy!).
+The SEO team leader wants to know who the website’s target audience is. What does
+the marketing team know about them? How did we find them? What metrics will we
+use to track them? All of this is key information that should have an impact on various
+aspects of the project’s technical implementation. This ties in to the PR messaging presented to the media to entice them into writing and talking about it. What message do
+they want to deliver? You have to mirror that message in your content. If they say
+you’re relevant to organic cotton clothes, but your project plan says you’re relevant to
+yoga attire, the whole project is in trouble. When you’re creating visibility, the people
+who build up your brand have to see a clear, concise focus in what you do. If you provide them with anything less, their interest in your business will be brief, and they’ll
+find someone else to talk about.
+The technical, content development, and creative teams are responsible for jointly
+implementing the majority of an SEO strategy. Ongoing feedback is essential because
+the success of your strategy is determined solely by whether you’re meeting your
+goals. A successful SEO team understands all of these interactions and is comfortable
+relying on each team member to do his part, and establishing good communication
+among team members is essential.
+And even if you are a team of one, you still need to understand all of these steps, as
+addressing all aspects of the marketing problem (as it relates to SEO) is a requirement
+for success.
+
+Development Platform and Information Architecture
+Whether you’re working with an established website or not, you should plan to
+research the desired site architecture (from an SEO perspective) as a core element of
+
+158
+
+CHAPTER FOUR: SEO IMPLEMENTATION: FIRST STAGES
+
+www.it-ebooks.info
+
+your SEO strategy. This task can be divided into two major components: technology
+decisions and structural decisions.
+
+Technology Decisions
+SEO is a technical process, and as such, it impacts major technology choices. For
+example, a CMS can facilitate (or possibly undermine) your SEO strategy: some platforms do not allow you to write customized titles and meta descriptions that vary from
+one web page to the next, while some create hundreds (or thousands) of pages of
+duplicate content (not good for SEO!). For a deep dive into the technical issues you’ll
+need to familiarize yourself with in order to make the right technology decisions for
+your SEO needs, turn to Chapter 6. The technology choices you make at the outset of
+developing your site and publishing your content can make or break your SEO
+efforts—and it is best to make the right choices in the beginning to save yourself headaches down the road.
+As we outlined previously in this chapter, your technology choices can have a major
+impact on your SEO results. The following is an outline of the most important issues to
+address at the outset:
+
+Dynamic URLs
+Dynamic URLs are URLs for dynamic web pages (which have content generated
+“on the fly” by user requests). These URLs are generated in real time as the result
+of specific queries to a site’s database—for example, a search for leather bag on Etsy
+results in the dynamic search result URL https://www.etsy.com/search?q=leather
+%20bag. However, Etsy also has a static URL for a static page showing leather bags
+at https://www.etsy.com/market/leather_bag.
+Although Google has stated for some time that dynamic URLs are not a problem
+for the search engine to crawl, it is wise to make sure your dynamic URLs are not
+“running wild” by checking that your CMS does not render your pages on URLs
+with too many convoluted parameters. In addition, be sure to make proper use of
+rel="canonical", as outlined by Google (http://bit.ly/canonical_urls).
+Finally, while dynamic URLs are crawlable, don’t overlook the value of static URLs
+for the purpose of controlling your URL structure for brevity, descriptiveness,
+user-friendliness, and ease of sharing.
+
+Session IDs or user IDs in the URL
+It used to be very common for a CMS to track individual users surfing a site by
+adding a tracking code to the end of the URL. Although this worked well for this
+purpose, it was not good for search engines, because they saw each URL as a different page rather than a variant of the same page. Make sure your CMS does not
+ever serve up session IDs. If you are not able to do this, make sure you use
+
+DEVELOPMENT PLATFORM AND INFORMATION ARCHITECTURE
+
+www.it-ebooks.info
+
+159
+
+rel="canonical" on your URLs (what this is, and how to use it, is explained in
+Chapter 6).
+
+Superfluous parameters in the URL
+Related to the preceding two items is the notion of extra characters being present
+in the URL. This may bother search engines, and it interferes with the user experience for your site.
+
+Links or content based in Flash
+Search engines often cannot see links and content implemented with Flash technology. Have a plan to expose your links and content in simple HTML text, and be
+aware of Flash’s limitations.
+
+Content behind forms (including pull-down lists)
+Making content accessible only after the user has completed a form (such as a
+login) or made a selection from an improperly implemented pull-down list is a
+great way to hide content from the search engines. Do not use these techniques
+unless you want to hide your content!
+
+Temporary (302) redirects
+This is also a common problem in web server platforms and content management
+systems. The 302 redirect blocks a search engine from recognizing that you have
+permanently moved the content, and it can be very problematic for SEO, as 302
+redirects block the passing of PageRank. Make sure the default redirect your systems use is a 301, or learn how to configure it so that it becomes the default.
+All of these are examples of basic technology choices that can adversely affect your
+chances for a successful SEO project. Do not be fooled into thinking that SEO issues
+are understood, let alone addressed, by all CMS vendors out there—unbelievably,
+some are still very far behind the SEO curve. It is also important to consider whether a
+“custom” CMS is truly needed when many CMS vendors are creating SEO-friendly
+systems—often with much more flexibility for customization, a broader development
+base, and customizable, SEO-specific “modules” that can quickly and easily add SEO
+functionality. There are also advantages to selecting a widely used CMS, including
+portability in the event that you choose to hire different developers at some point.
+Also, do not assume that all web developers understand the SEO implications of what
+they develop. Learning about SEO is not a requirement to get a software engineering
+degree or become a web developer (in fact, there are still very few college courses that
+adequately cover SEO). It is up to you, the SEO expert, to educate the other team
+members on this issue as early as possible in the development process.
+
+160
+
+CHAPTER FOUR: SEO IMPLEMENTATION: FIRST STAGES
+
+www.it-ebooks.info
+
+Structural Decisions
+One of the most basic decisions to make about a website concerns internal linking and
+navigational structures, which are generally mapped out in a site architecture document. What pages are linked to from the home page? What pages are used as top-level
+categories that then lead site visitors to other related pages? Do pages that are relevant
+to each other link to each other? There are many, many aspects to determining a linking structure for a site, and it is a major usability issue because visitors make use of the
+links to surf around your website. For search engines, the navigation structure helps
+their crawlers determine what pages you consider the most important on your site,
+and it helps them establish the relevance of the pages on your site to specific topics.
+This section outlines a number of key factors that you need to consider before launching into developing or modifying a website. The first step will be to obtain a current
+site information architecture (IA) document for reference, or to build one out for a
+new site. From here, you can begin to understand how your content types, topics, and
+products will be organized.
+
+Target keywords
+Keyword research is a critical component of SEO. What search terms do people use
+when searching for products or services similar to yours? How do those terms match
+up with your site hierarchy? Ultimately, the logical structure of your pages should
+match up with the way users think about products and services like yours. Figure 4-1
+shows how this is done on Amazon.com.
+
+Figure 4-1. A well-thought-out site hierarchy
+
+DEVELOPMENT PLATFORM AND INFORMATION ARCHITECTURE
+
+www.it-ebooks.info
+
+161
+
+Cross-link relevant content
+Linking between articles that cover related material can be very powerful. It helps the
+search engine ascertain with greater confidence how relevant a web page is to a particular topic. This can be extremely difficult to do well if you have a massive ecommerce
+site, but Amazon handles it nicely, as shown in Figure 4-2.
+
+Figure 4-2. Product cross-linking on Amazon
+
+The “Frequently Bought Together” and “Customers Who Bought This Item Also
+Bought” sections are brilliant ways to group products into categories that establish the
+relevance of the page to certain topic areas, as well as to create links between relevant
+pages.
+In the Amazon system, all of this is rendered on the page dynamically, so it requires
+little day-to-day effort on Amazon’s part. The “Customers Who Bought...” data is part
+of Amazon’s internal databases, and the “Tags Customers Associate...” data is provided
+directly by the users themselves.
+Of course, your site may be quite different, but the lesson is the same: you want to
+plan on having a site architecture that will allow you to cross-link related items.
+
+Use anchor text, intuitively
+Anchor text has generally been one of the golden opportunities of internal linking,
+and exact-match keyword anchor text was generally the protocol for internal linking
+for many years. However, in these days of aggressive anchor text abuse (and crackdown by the search engines), while keyword-infused anchor text in internal links is
+still often the most intuitive and user-friendly, we generally advocate for a more
+broad-minded approach to crafting internal anchor text. Use descriptive text in your
+internal links and avoid using irrelevant text such as “More” or “Click here.” Try to be
+
+162
+
+CHAPTER FOUR: SEO IMPLEMENTATION: FIRST STAGES
+
+www.it-ebooks.info
+
+as specific and contextually relevant as possible and include phrases when appropriate
+within your link text. For example, as a crystal vendor, you might use “some of our
+finest quartz specimens” as anchor text for an internal link, versus “quality quartz
+crystals.” Make sure that the technical, creative, and editorial teams understand this
+approach, as it will impact how content is created, published, and linked to within
+your site.
+
+Use breadcrumb navigation
+Breadcrumb navigation is a way to show the user where he is in the navigation hierarchy. Figure 4-3 shows an example from PetSmart.
+
+Figure 4-3. Breadcrumb bar on PetSmart’s website
+
+This page is currently four levels down from the home page. Also, note how the
+anchor text in the breadcrumb is keyword-rich, as is the menu navigation on the left.
+This is helpful to both users and search engines.
+
+Minimize link depth
+Search engines (and people) look to the site architecture for clues as to what pages are
+most important. A key measurement is how many clicks from the home page it takes a
+person, and a search engine crawler, to reach a page. A page that is only one click
+from the home page is clearly important, while a page that is five or six clicks away is
+
+DEVELOPMENT PLATFORM AND INFORMATION ARCHITECTURE
+
+www.it-ebooks.info
+
+163
+
+not nearly as influential. In fact, the search engine spider may never even find such a
+page, depending in part on the site’s link authority.
+Standard SEO advice is to keep the site architecture as flat as possible, to minimize
+clicks from the home page to important content. The bottom line is that you need to
+plan out a site structure that is as flat as you can reasonably make it without compromising your user experience.
+In this and the preceding sections, we outlined common structural decisions that you
+need to incorporate into your SEO strategy prior to implementation. There are other
+considerations, such as how to make your efforts scale across a very large site (thousands of pages or more). In such a situation, you cannot feasibly review every page
+one by one.
+
+Mobile Sites and Mobile Apps
+If you are building a website, you need to build a mobile version if you want to take
+full advantage of organic search through SEO—and depending on your business, you
+may benefit from developing a mobile app as well. The main consideration regarding
+your site’s mobile version is whether to host it on the same or separate URLs as your
+desktop version—and, if you’re utilizing the same URLs, whether to choose responsive
+design or dynamic serving (a.k.a. adaptive design), discussed in detail in Chapter 10.
+
+Single-Page Applications
+Single-page applications (SPAs) are web applications that use AJAX and HTML5 to
+load a single HTML page in a web browser, and then dynamically update that page’s
+content as the user interacts with the app. The majority of the work in loading page
+content, or rendering, is done on the client side (as opposed to the server side), which
+makes for a fast and fluid user experience and minimized page loads, often while the
+page URL remains the same. Commonly used frameworks for SPA development
+include Angular.js, Backbone.js, and Ember.js, which are used by many popular applications including Virgin America, Twitter, and Square, respectively.
+One of the main issues to address when you’re building a site with one of these frameworks is URL crawlability—namely, ensuring that the search engines can crawl your
+site’s URLs to access your site content. It is important that you have a publishing system that allows you to customize URLs to remove the # or #! (hashbang) from the
+URL, and to create user-friendly, bookmarkable, back-clickable URLs. There are various methods that developers can use to implement search- and user-friendly URLs,
+with the two most recent being window.location.hash and HTML5’s
+history.pushState—both of which have advantages and disadvantages depending on
+your site and user objectives. An informative discussion of these two options can be
+found at StackOverflow.
+
+164
+
+CHAPTER FOUR: SEO IMPLEMENTATION: FIRST STAGES
+
+www.it-ebooks.info
+
+Angular.js: Making it SEO-friendly
+Detailing SEO-friendly development for all SPA frameworks is beyond the scope of this
+volume; however, the information below provides guidelines and workarounds specific to Angular.js thanks to SEO/Angular.js developer Jeff Whelpley, who assisted coauthor Jessie Stricchiola in addressing this issue for Alchemist Media client
+Events.com.
+
+Server rendering versus client-Only rendering.
+
+If the website owner doesn’t care
+about achieving top ranking, and the only goal is getting indexed—and, the only goal
+is to get indexed by Google, not any other search engine—then it is OK to do clientonly rendering with Angular. Google has gotten very good recently at indexing client
+rendered HTML. If you go down this route, you will need to do the following:
+1. Enable push state in Angular so you get pretty URLs without the hash.
+2. Implement UI Router or the new Component Router in Angular so you can map
+URLs to pages.
+3. Follow all normal SEO best practices for page titles, URLs, content, etc. Nothing
+changes here.
+4. Optimize the heck out of the initial page load—a major mistake many make is
+thinking initial page load time for client-rendered apps doesn’t matter, but it does!
+
+While the above approach will work for Google indexing, you will perform better in
+organic search with server rendering. The reasons for this are:
+• Google is good at client rendering, but not perfect.
+• Other search engines are really not good at it.
+• Things like Facebook or Twitter link previews will not work.
+• It is much easier to make server rendering fast than it is to make the initial load
+for client rendering fast—and that makes a big difference.
+The options for server rendering are as follows:
+• Implement in PHP or another language. This will work but requires that you
+duplicate all pages, which is generally not feasible unless you have a small/simple
+site.
+• Use Prerender.io or a similar service. This works but can get expensive for larger
+sites, can be tricky to set up, and you need to be OK with long page cache times
+(i.e., server pages are one day old).
+• Build a custom solution off the Jangular library. Although this works, it does
+require a lot of heavy lifting.
+
+DEVELOPMENT PLATFORM AND INFORMATION ARCHITECTURE
+
+www.it-ebooks.info
+
+165
+
+• Wait for Angular 2.0 (possibly to be released end of 2015)
+As of July 2015, Jeff is working with the Angular core team to bake server rendering
+into Angular 2.0. It won’t be ready until later in the year, but it will be by far the best
+option out of all these. For developers dealing with this issue prior to the 2.0 roll-out
+who don’t have the resources for a comprehensive fix, it is always possible to implement the client routing solution in the interim and align the Angular app so it can
+easily be upgraded to 2.0 once it is ready.
+NOTE
+A special thanks to Jeff Whelpley for his contributions to the Angular.js portion of
+this chapter.
+
+Auditing an Existing Site to Identify SEO Problems
+Auditing an existing site is one of the most important tasks that SEO professionals
+encounter. SEO is still a relatively new field, and many of the limitations of search
+engine crawlers are nonintuitive. In addition, many web developers, unfortunately,
+are still not well versed in SEO. Even more unfortunately, some stubbornly refuse to
+learn, or worse still, have learned the wrong things about SEO! This includes those
+who have developed CMS platforms, so there is a lot of opportunity to find problems
+when you’re conducting a site audit. While you may have to deal with some headaches in this department (trust us, we still deal with this on a regular basis), your
+evangelism for SEO, and hopefully support from key stakeholders, will set the stage
+for an effective SEO strategy.
+
+Elements of an Audit
+Your website needs to be a strong foundation for the rest of your SEO efforts to succeed. An SEO site audit is often the first step in executing an SEO strategy. Both your
+desktop and mobile site versions need to be audited for SEO effectiveness. The following sections identify what you should look for when performing a site audit.
+
+Page load time
+Is the page load time excessive? Too long a load time may slow down crawling and
+indexing of the site, and can virtually eliminate your site from competitiveness in
+mobile search.
+
+Mobile-friendliness
+Your site should have a fast, mobile-friendly version that is served to mobile devices.
+
+166
+
+CHAPTER FOUR: SEO IMPLEMENTATION: FIRST STAGES
+
+www.it-ebooks.info
+
+Usability
+Although this may not be seen as a direct SEO issue, it is a very good place to start.
+Usability affects many factors, including conversion rate as well as the propensity of
+people to link to a site.
+
+Accessibility/spiderability
+Make sure the site is friendly to search engine spiders (discussed in more detail in
+“Making Your Site Accessible to Search Engines” on page 259 and “Creating an Optimal Information Architecture” on page 267).
+
+Search engine health checks
+Here are some quick health checks:
+• Perform a site:<yourdomain.com> search in the search engines to check how many
+of your pages appear to be in the index. Compare this to the number of unique
+pages you believe you have on your site. Also, check indexation numbers in your
+Google Search Console and Bing Webmaster Tools accounts.
+• Check the Google cache to make sure the cached versions of your pages look the
+same as the live versions.
+• Check to ensure major search engine Search Console and Webmaster Tools
+accounts have been verified for the domain (and any subdomains, for mobile or
+other content areas). Google and Bing currently offer site owner validation to
+“peek” under the hood of how the engines view your site.
+• Test a search on your brand terms to make sure you are ranking for them (if not,
+you may be suffering from a penalty; be sure to check your associated Search
+Console/Webmaster Tools accounts to see if there are any identifiable penalties, or
+any other helpful information).
+
+Keyword health checks
+Are the right keywords being targeted? Does the site architecture logically flow from
+the way users search on related keywords? Does more than one page target the same
+exact keyword (a.k.a. keyword cannibalization)? We will discuss these items in “Keyword Targeting” on page 297.
+
+Duplicate content checks
+The first thing you should do is make sure the non-www versions of your pages (i.e.,
+http://yourdomain.com) 301-redirect to the www versions (i.e., http://www.yourdomain.com), or vice versa (this is often called the canonical redirect). While you are at it,
+
+AUDITING AN EXISTING SITE TO IDENTIFY SEO PROBLEMS
+
+www.it-ebooks.info
+
+167
+
+check that you don’t have https: pages that are duplicates of your http: pages. You
+should check the rest of the content on the site as well.
+The easiest way to do this is to take unique text sections from each of the major content pages on the site and search on them in Google. Make sure you enclose the string
+inside double quotes (e.g., “a phrase from your website that you are using to check for duplicate content”) so that Google will search for that exact string. If you see more than one
+link showing in the results, look closely at the URLs and pages to determine why it is
+happening.
+If your site is monstrously large and this is too big a task, make sure you check the
+most important pages, and have a process for reviewing new content before it goes live
+on the site.
+You can also use search operators such as inurl: and intitle: (refer back to Table 2-1 for a
+refresher) to check for duplicate content. For example, if you have URLs for pages that
+have distinctive components to them (e.g., 1968-mustang-blue or 1097495), you can
+search for these with the inurl: operator and see whether they return more than one
+page.
+Another duplicate content task to perform is to make sure each piece of content is
+accessible at only one URL. This probably trips up big commercial sites more than any
+other issue. The problem is that the same content is accessible in multiple ways and on
+multiple URLs, forcing the search engines (and visitors) to choose which is the canonical version, which to link to, and which to disregard. No one wins when sites fight
+themselves; if you have to deliver the content in different ways, rely on cookies so that
+you don’t confuse search engine spiders.
+
+URL checks
+Make sure you have clean, short, descriptive URLs. Descriptive means keyword-rich but
+not keyword-stuffed (e.g., site.com/outerwear/mens/hats is keyword-rich; site.com/outerwear/mens/hat-hats-hats-for-men is keyword-stuffed!). You don’t want parameters
+appended (have a minimal number if you must have any), and you want them to be
+simple and easy for users (and search engine spiders) to understand.
+
+HTML <title> tag review
+Make sure the <title> tag on each page of the site is unique and descriptive. If you
+want to include your company brand name in the title, consider putting it at the end
+of the <title> tag, not at the beginning, as placing keywords at the front of a page title
+(generally referred to as prominence) brings ranking benefits. Also check to ensure the
+<title> tag is fewer than 70 characters long, or 512 pixels wide.
+
+168
+
+CHAPTER FOUR: SEO IMPLEMENTATION: FIRST STAGES
+
+www.it-ebooks.info
+
+Content review
+Do the main pages of the site have enough text content to engage and satisfy a site
+visitor? Do these pages all make use of header tags? A subtler variation of this is making sure the number of pages with little content on the site is not too high compared
+to the total number of pages on the site.
+
+Meta tag review
+Check for a meta robots tag on the pages of the site. If you find one, you may have
+already spotted trouble. An unintentional noindex or nofollow value (we define these
+in “Content Delivery and Search Spider Control” on page 334) could adversely affect
+your SEO efforts.
+Also make sure every page has a unique meta description. If for some reason that is
+not possible, consider removing the meta description altogether. Although the meta
+description tags are generally not a direct factor in ranking, they may well be used in
+duplicate content calculations, and the search engines frequently use them as the
+description for your web page in the SERPs; therefore, they can affect click-though
+rate.
+
+Sitemaps file and robots.txt file verification
+Use the Google Search Console “Robots.txt fetch” to check your robots.txt file. Also verify that your Sitemap file is correctly identifying all of your site pages.
+
+URL redirect checks
+Check all redirects to make sure the right redirect is in place, and it is pointing to the
+correct destination URL. This also includes checking that the canonical redirect is properly implemented. Use a server header checker such as Redirect Check or RedirectChecker.org, or when using Firefox, install the browser extension Redirect Check Client.
+Not all URL redirect types are created equal, and some can create problems for SEO.
+Be sure to research and understand proper use of URL redirects before implementing
+them, and minimize the number of redirects needed over time by updating your internal linking and navigation so that you have as few redirects as possible.
+
+Internal linking checks
+Look for pages that have excessive links. As discussed earlier, make sure the site makes
+intelligent use of anchor text in its internal links. This is a user-friendly opportunity to
+inform users and search engines what the various pages of your site are about. Don’t
+abuse it, though. For example, if you have a link to your home page in your global
+navigation (which you should), call it “Home” instead of picking your juiciest key-
+
+AUDITING AN EXISTING SITE TO IDENTIFY SEO PROBLEMS
+
+www.it-ebooks.info
+
+169
+
+word. The search engines can view that particular practice as spammy, and it does not
+engender a good user experience.
+NOTE
+A brief aside about hoarding PageRank: many people have taken this to an
+extreme and built sites where they refused to link out to other quality websites,
+because they feared losing visitors and link authority. Ignore this idea! You should
+link out to quality websites. It is good for users, and it is likely to bring you ranking
+benefits (through building trust and relevance based on what sites you link to).
+Just think of your human users and deliver what they are likely to want. It is
+remarkable how far this will take you.
+
+Avoidance of unnecessary subdomains
+The engines may not apply the entirety of a domain’s trust and link authority weight
+to subdomains. This is largely due to the fact that a subdomain could be under the
+control of a different party, and therefore in the search engine’s eyes it needs to be separately evaluated. In the great majority of cases, content that gets placed within its
+own subdomain can easily go in a subfolder, such as site.com/content, as opposed to the
+subdomain content.site.com.
+
+Geolocation
+If the domain is targeting a specific country, make sure the guidelines for country geotargeting outlined in “Best Practices for Multilanguage/Country Targeting” on page
+375 are being followed. If your concern is primarily about ranking for san francisco chiropractor because you own a chiropractic office in San Francisco, California, make sure
+your address is on every page of your site. You should also claim and ensure the validity of your Google Places listings to ensure data consistency; this is discussed in detail
+in Chapter 10.
+
+External linking
+Check the inbound links to the site by performing a backlink analysis. Use a backlinking tool such as LinkResearchTools, Open Site Explorer, Majestic SEO, or Ahrefs Site
+Explorer & Backlink Checker to collect data about your links. Look for bad patterns in
+the anchor text, such as 87% of the links having the critical keyword for the site in
+them. Unless the critical keyword happens to also be the name of the company, this is
+a sure sign of trouble. This type of distribution is quite likely the result of link purchasing or other manipulative behavior, and will (if it hasn’t already) likely earn you a
+manual Google penalty or trigger Google’s Penguin algorithm to lower your rankings.
+
+170
+
+CHAPTER FOUR: SEO IMPLEMENTATION: FIRST STAGES
+
+www.it-ebooks.info
+
+On the flip side, make sure the site’s critical topics and keywords are showing up
+sometimes. A lack of the topically related anchor text is not entirely good, either. You
+need to find a balance, and err on the side of caution, intuitiveness, and usability.
+Also check that there are links to pages other than the home page. These are often
+called deep links, and they will help drive the ranking of key sections of your site. You
+should look at the links themselves, by visiting the linking pages, and see whether the
+links appear to be paid for. They may be overtly labeled as sponsored, or their placement may be such that they are clearly not natural endorsements. Too many of these
+are another sure sign of trouble in the backlink profile.
+Lastly, check how the backlink profile for the site compares to the backlink profiles of
+its major competitors. Make sure that there are enough external links to your site, and
+that there are enough high-quality links in the mix.
+
+Image alt attributes
+Do all the images have relevant, keyword-rich alt attribute text and filenames? Search
+engines can’t easily tell what is inside an image, and the best way to provide them
+with some clues is with the alt attribute and the filename of the image. These can also
+reinforce the overall context of the page itself.
+
+Code quality
+Although W3C validation is not something search engines require, checking the code
+itself is a good idea (you can check it with the W3C validator. Poor coding can have
+some undesirable impacts. You can use a tool such as SEO Browser to see how the
+search engines see the page.
+
+The Importance of Keyword Reviews
+Another critical component of an architecture audit is a keyword review. Basically, this
+involves the following steps.
+
+Step 1: Keyword research
+It is vital to examine your topic and keyword strategy as early as possible in any SEO
+effort. You can read about this in more detail in Chapter 5.
+
+Step 2: Site architecture
+Coming up with architecture for a website can be very tricky. At this stage, you need
+to look at your keyword research and the existing site (to make as few changes as possible). You can think of this in terms of your site map.
+
+AUDITING AN EXISTING SITE TO IDENTIFY SEO PROBLEMS
+
+www.it-ebooks.info
+
+171
+
+You need a hierarchy that leads site visitors to your high-value pages (i.e., the pages
+where conversions are most likely to occur). Obviously, a good site hierarchy allows
+the parents of your “money pages” to rank for relevant keywords, which are likely to
+be shorter tail.
+Most products have an obvious hierarchy they fit into, but for products with descriptions, categories, and concepts that can have multiple hierarchies, deciding on a site’s
+information architecture can become very tricky. Some of the trickiest hierarchies, in
+our opinion, can occur when there is a location involved. In London alone there are
+London boroughs, metropolitan boroughs, tube stations, and postcodes. London even
+has a city (“The City of London”) within it.
+In an ideal world, you will end up with a single hierarchy that is natural to your users
+and gives the closest mapping to your keywords. But whenever there are multiple
+ways in which people search for the same product, establishing a hierarchy becomes
+challenging.
+
+Step 3: Keyword mapping
+Once you have a list of keywords and a good sense of the overall architecture, start
+mapping the major relevant keywords to URLs. When you do this, it is very easy to
+spot pages that you were considering creating that aren’t targeting a keyword (perhaps
+you might skip creating these) and, more importantly, keywords that don’t have a
+page.
+If this stage is causing you problems, revisit step 2. Your site architecture should lead
+naturally to a mapping that is easy to use and includes your keywords.
+
+Step 4: Site review
+Once you are armed with your keyword mapping, the rest of the site review will flow
+more easily. For example, when you are looking at crafting your <title> tags and
+headings, you can refer back to your keyword mapping and see not only whether
+there is appropriate use of tags (such as the heading tag), but also whether it includes
+the appropriate keyword targets.
+
+Keyword Cannibalization
+Keyword cannibalization typically starts when a website’s information architecture
+calls for the targeting of a single term or phrase on multiple pages of the site. This is
+often done unintentionally, but it can result in several or even dozens of pages that
+have the same keyword target in the title and header tags. Figure 4-4 shows the
+problem.
+
+172
+
+CHAPTER FOUR: SEO IMPLEMENTATION: FIRST STAGES
+
+www.it-ebooks.info
+
+Figure 4-4. Example of keyword cannibalization
+
+Search engines will spider the pages on your site and see 4 (or 40) different pages, all
+seemingly relevant to one particular keyword (in the example in Figure 4-4 the keyword is snowboards). For clarity’s sake, Google doesn’t interpret this as meaning that
+your site as a whole is more relevant to snowboards or should rank higher than the
+competition. Instead, it forces Google to choose among the many versions of the page
+and pick the one it feels best fits the query. When this happens, you lose out on a
+number of rank-boosting features:
+
+Internal anchor text
+Because you’re pointing to so many different pages with the same subject, you
+can’t concentrate the value and weight of internal, thematically relevant anchor
+text on one target.
+
+External links
+If four sites link to one of your pages on snowboards, three sites link to another of
+your snowboard pages, and six sites link to yet another snowboard page, you’ve
+split up your external link value among three topically similar pages, rather than
+consolidating it into one.
+
+Content quality
+After three or four pages about the same primary topic, the value of your content
+is going to suffer. You want the best possible single page to attract links and referrals, not a dozen bland, repetitive pages.
+
+Conversion rate
+If one page is converting better than the others, it is a waste to have multiple
+lower-converting versions targeting the same traffic. If you want to do conversion
+
+AUDITING AN EXISTING SITE TO IDENTIFY SEO PROBLEMS
+
+www.it-ebooks.info
+
+173
+
+tracking, use a multiple-delivery testing system (either A/B or multivariate), such
+as Optimizely.
+So, what’s the solution? Take a look at Figure 4-5.
+
+Figure 4-5. Solution to keyword cannibalization
+
+The difference in this example is that instead of every page targeting the single term
+snowboards, the pages are focused on unique, valuable variations and all of them link
+back to an original, canonical source for the single term. Google can now easily identify the most relevant page for each of these queries. This isn’t just valuable to the
+search engines; it also represents a far better user experience and overall information
+architecture.
+What should you do if you already have a case of keyword cannibalization? Employ
+301s liberally to eliminate pages competing with each other within SERPs, or figure
+out how to differentiate them. Start by identifying all the pages in the architecture
+with this issue and determine the best page to point them to, and then use a 301 from
+each of the problem pages to the page you wish to retain. This ensures not only that
+visitors arrive at the right page, but also that the link equity and relevance built up
+over time are directing the engines to the most relevant and highest-ranking-potential
+page for the query. If 301s aren’t practical or feasible, use rel="canonical".
+
+Example: Fixing an Internal Linking Problem
+Enterprise sites range from 10,000 to 10 million pages in size. For many of these types
+of sites, an inaccurate distribution of internal link juice is a significant problem.
+Figure 4-6 shows how this can happen.
+
+174
+
+CHAPTER FOUR: SEO IMPLEMENTATION: FIRST STAGES
+
+www.it-ebooks.info
+
+Figure 4-6. Link authority distribution on a very large site
+
+Figure 4-6 is an illustration of the link authority distribution issue. Imagine that each
+tiny page represents 5,000–100,000 pages in an enterprise site. Some areas, such as
+blogs, articles, tools, popular news stories, and so on, might be receiving more than
+their fair share of internal link attention. Other areas—often business-centric and
+sales-centric content—tend to fall by the wayside. How do you fix this problem? Take
+a look at Figure 4-7.
+The solution is simple, at least in principle: have the link-rich pages spread the wealth
+to their link-bereft brethren. As easy as this may sound, it can be incredibly complex
+to execute. Inside the architecture of a site with several hundred thousand or a million
+pages, it can be nearly impossible to identify link-rich and link-poor pages, never mind
+adding code that helps to distribute link authority equitably.
+The answer, sadly, is labor-intensive from a programming standpoint. Enterprise site
+owners need to develop systems to track inbound links and/or rankings and build
+bridges (or, to be more consistent with Figure 4-7, spouts) that funnel authority
+between the link-rich and link-poor.
+An alternative is simply to build a very flat site architecture that relies on relevance or
+semantic analysis. This strategy is more in line with the search engines’ guidelines
+(though slightly less perfect) and is certainly far less labor-intensive.
+
+AUDITING AN EXISTING SITE TO IDENTIFY SEO PROBLEMS
+
+www.it-ebooks.info
+
+175
+
+Figure 4-7. Using cross-links to push link authority where you want it
+
+Server and Hosting Issues
+Thankfully, only a handful of server or web hosting dilemmas affect the practice of
+search engine optimization. However, when overlooked, they can spiral into massive
+problems, and so are worthy of review. The following are some server and hosting
+issues that can negatively impact search engine rankings:
+
+Server timeouts
+If a search engine makes a page request that isn’t served within the bot’s time
+limit (or that produces a server timeout response), your pages may not make it
+into the index at all, and will almost certainly rank very poorly (as no indexable
+text content has been found).
+
+Slow response times
+Although this is not as damaging as server timeouts, it still presents a potential
+issue. Not only will crawlers be less likely to wait for your pages to load, but surfers and potential linkers may choose to visit and link to other resources because
+accessing your site is problematic. Again, net neutrality concerns are relevant
+here.
+
+Shared IP addresses
+Basic concerns include speed, the potential for having spammy or untrusted
+neighbors sharing your IP address, and potential concerns about receiving the full
+benefit of links to your IP address (discussed in more detail in “Why Using a Static
+IP Address Is Beneficial... Google Engineer Explains”).
+
+Blocked IP addresses
+As search engines crawl the Web, they frequently find entire blocks of IP addresses
+filled with nothing but egregious web spam. Rather than blocking each individual
+site, engines do occasionally take the added measure of blocking an IP address or
+
+176
+
+CHAPTER FOUR: SEO IMPLEMENTATION: FIRST STAGES
+
+www.it-ebooks.info
+
+even an IP range. If you’re concerned, search for your IP address at Bing using the
+ip:address query.
+
+Bot detection and handling
+Some system administrators will go a bit overboard with protection and restrict
+access to files to any single visitor making more than a certain number of requests
+in a given time frame. This can be disastrous for search engine traffic, as it will
+constantly limit the spiders’ crawling ability.
+
+Bandwidth and transfer limitations
+Many servers have set limitations on the amount of traffic that can run through to
+the site. This can be potentially disastrous when content on your site becomes
+very popular and your host shuts off access. Not only are potential linkers prevented from seeing (and thus linking to) your work, but search engines are also cut
+off from spidering.
+
+Server geography
+While the search engines of old did use the location of the web server when determining where a site’s content is, Google makes it clear that in today’s search environment, actual server location is, for the most part, irrelevant. According to Google, if a site is using a ccTLD or gTLD (country code top-level domain or generic
+top-level domain, respectively) in conjunction with Search Console to set geolocation information for the site, then the location of the server itself becomes immaterial. There is one caveat: content hosted closer to end users tends to be delivered
+more quickly, and speed of content delivery is taken into account by Google,
+impacting mobile search significantly.
+
+Identifying Current Server Statistics Software and
+Gaining Access
+In Chapter 11, we will discuss in detail the methods for tracking results and measuring
+success, and we will also delve into how to set a baseline of measurements for your
+SEO projects. But before we do that, and before you can accomplish these tasks, you
+need to have the right tracking and measurement systems in place.
+
+Web Analytics
+Analytics software can provide you with a rich array of valuable data about what is
+taking place on your site. It can answer questions such as:
+• How many unique visitors did you receive yesterday?
+• Is traffic trending up or down?
+• What site content is attracting the most visitors from organic search?
+
+IDENTIFYING CURRENT SERVER STATISTICS SOFTWARE AND GAINING ACCESS
+
+www.it-ebooks.info
+
+177
+
+• What are the best-converting pages on the site?
+We strongly recommend that if your site does not currently have any measurement
+systems in place, you remedy that immediately. High-quality, free analytics tools are
+available, such as the powerful and robust Google Analytics, as well as the open source
+platform Piwik. Of course, higher-end analytics solutions are also available, which we
+will discuss in greater detail in Chapter 11.
+
+Log file Tracking
+Log files contain a detailed click-by-click history of all requests to your web server.
+Make sure you have access to the logfiles and some method for analyzing them. If you
+use a third-party hosting company for your site, chances are it provides some sort of
+free logfile analyzer, such as AWStats, Webalizer, or something similar (the aforementioned Piwik also provides a log analytics tool). Identify and obtain access to whatever
+tool is in use as soon as you can.
+One essential function that these tools provide that JavaScript-based web analytics
+software cannot is recording search engine spider activity on your site. Although spidering will typically vary greatly from day to day, you can still see longer-term trends
+of search engine crawling patterns, and whether crawling activity is trending up
+(good) or down (bad). Although this web crawler data is very valuable, do not rely on
+the free solutions provided by hosting companies for all of your analytics data, as there
+is a lot of value in what traditional analytics tools can capture.
+NOTE
+Some web analytics software packages read logfiles as well, and therefore can
+report on crawling activity. We will discuss these in more detail in Chapter 11.
+
+Google Search Console and Bing Webmaster Tools
+As mentioned earlier, other valuable sources of data include Google Search Console
+and Bing Webmaster Tools. We cover these extensively in “Using Search Engine–Supplied SEO Tools” on page 841.
+From a planning perspective, you will want to get these tools in place as soon as possible. Both tools provide valuable insight into how the search engines see your site,
+including external link data, internal link data, crawl errors, high-volume search
+terms, and much, much more. In addition, these tools provide important functionality
+for interacting directly with the search engine via sitemap submissions, URL and sitelink removals, disavowing bad links, setting parameter handling preferences, tagging
+structured data, and more—enabling you to have more control over how the search
+engines view, crawl, index, and output your page content within their index, and
+within search results.
+
+178
+
+CHAPTER FOUR: SEO IMPLEMENTATION: FIRST STAGES
+
+www.it-ebooks.info
+
+Determining Top Competitors
+Understanding the competition should be a key component of planning your SEO
+strategy. The first step is to understand who your competitors in the search results
+really are. It can often be small players who give you a run for your money.
+
+Identifying Spam
+Affiliates that cheat tend to come and go out of the top search results, as only sites that
+implement ethical tactics are likely to maintain their positions over time.
+How do you know whether a top-ranking site is playing by the rules? Look for dubious links to the site using a backlink analysis tool such as Majestic SEO or Open Site
+Explorer (discussed earlier in this chapter). Because the number of links is one factor
+search engines use to determine search position, less ethical websites will obtain links
+from a multitude of irrelevant and low-quality sites.
+This sort of sleuthing can reveal some surprises. For instance, here are examples of
+two devious link schemes:
+• GiftCertificates.com’s short-lived nemesis was FindGiftCards.com, which came out
+of nowhere to command the top two spots in Google for the all-important search
+term gift certificates, thus relegating GiftCertificates.com to the third position. How
+did FindGiftCards.com do it? It operated a sister site, 123counters.com, with a free
+hit counter that propagated “link spam” across thousands of sites, all linking back
+to FindGiftCards.com and other sites in its network.
+Sadly for FindGiftCards.com, coauthor Stephan Spencer discussed the company’s
+tactics in an article he wrote for Multichannel Merchant, and Google became aware
+of the scam.1 The end result? Down to two pages in the Google index, as shown in
+Figure 4-8.
+• CraigPadoa.com was a thorn in the side of SharperImage.com, outranking the latter for its most popular product, the Ionic Breeze, by frameset trickery and guestbook spamming (in other words, defacing vulnerable websites with fake guestbook entries that contained spammy links back to its own site). As soon as The
+Sharper Image realized what was happening, it jumped on the wayward affiliate.
+It also restricted such practices in its affiliate agreement and stepped up its monitoring for these spam practices.
+
+1 Stephan Spencer, “Casing the Competition,” Multichannel Merchant, April 1, 2004, http://multi
+
+channelmerchant.com/catalogage/ar/marketing_casing_competition/.
+
+DETERMINING TOP COMPETITORS
+
+www.it-ebooks.info
+
+179
+
+Figure 4-8. Site with only two pages in the index
+
+Seeking the Best
+Look for competitors whose efforts you would like to emulate (or “embrace and
+extend,” as Bill Gates would put it)—usually a website that consistently dominates the
+upper half of the first page of search results in the search engines for a range of important keywords that are popular and relevant to your target audience.
+Note that your “mentor” competitors shouldn’t just be good performers, they should
+also demonstrate that they know what they’re doing when it comes to SEO. To assess
+competitors’ competence at SEO, you need to answer the following questions:
+• Are their websites fully indexed by Google and Bing? In other words, are all their
+web pages, including product pages, making it into the search engines’ databases?
+You can go to each search engine and type in site:<theirdomain.com> to find out. A
+competitor with only a small percentage of its site indexed in Google probably has
+a site that is unfriendly to search spiders.
+• Do their product and category pages have keyword-rich page titles (<title> tags)
+that are unique to each page? You can easily review an entire site’s page titles
+within Google or Bing by searching for site:<www.yourcompetitor.com>.
+Incidentally, this type of search can sometimes yield confidential information. A
+lot of webmasters do not realize that Google has discovered and indexed commercially sensitive content buried deep in their sites. For example, a Google search for
+business plan confidential filetype:doc can yield a lot of real business plans among the
+sample templates.
+• Do their product and category pages have reasonably high PageRank scores?
+• Is anchor text across the site, particularly in the navigation, descriptive but not
+keyword-stuffed?
+• Are the websites getting penalized? You can overdo SEO. Too much keyword repetition or too many suspiciously well-optimized text links can yield a penalty for
+overoptimization. Sites can also be penalized for extensive amounts of duplicate
+content, for lack of high-quality content (referred to as “thin” content), and for
+
+180
+
+CHAPTER FOUR: SEO IMPLEMENTATION: FIRST STAGES
+
+www.it-ebooks.info
+
+participating in guest blog/article writing schemes. You can learn more about how
+to identify search engine penalties in Chapter 9.
+
+Uncovering Their Secrets
+Let’s assume your investigation has led you to identify several competitors who are
+gaining excellent search placement using legitimate, intelligent tactics. Now it is time
+to identify their strategy and tactics:
+
+What keywords are they targeting?
+You can determine this by looking at the page titles (up in the bar above the
+address bar at the top of your web browser, which also appears in the search
+results listings) of each competitor’s home page and product category pages. You
+can also use various online tools to see what keywords they may be targeting with
+PPC advertising; while it’s not always an indication that they are investing in SEO,
+you can still get a solid grasp on their overall keyword strategy.
+
+Who’s linking to their home page, or to their top-selling product pages and category pages?
+A link popularity checker can be quite helpful in analyzing this.
+
+If it is a database-driven site, what technology workarounds are they using to get search
+engine spiders such as Googlebot to cope with the site being dynamic?
+Nearly all the technology workarounds are tied to the ecommerce platforms the
+competitors are running. You can check to see whether they are using the same
+server software as you by using the “What’s that site running?” tool. Figure 4-9
+shows a screenshot of a segment of the results for HSN.com.
+
+DETERMINING TOP COMPETITORS
+
+www.it-ebooks.info
+
+181
+
+Figure 4-9. Sample Netcraft output
+
+While you are at it, look at cached (archived) versions of your competitors’ pages
+by clicking on the Cached link next to their search results in Google to see
+whether they’re doing anything too aggressive, such as cloaking, where they serve
+up a different version of the page to search engine spiders than to human visitors.
+The cached page will show you what the search engine actually saw, and you can
+see how it differs from the page you see.
+
+What effect will their future SEO initiatives have on their site traffic?
+Assess the success of their SEO not just by the lift in rankings. Periodically record
+key SEO metrics over time—the number of pages indexed, the PageRank score,
+the number of links—and watch the resulting effect on their site traffic. If you utilize one of the many web-based SEO tool platforms (read more about these in
+Chapter 11), you can set your competitors’ sites up as additional sites or campaigns to track.
+You do not need access to competitors’ analytics data or server logs to get an idea
+of how much traffic they are getting. Simply go to Compete, Quantcast, Search
+Metrics, or SEMRush and search on the competitor’s domain. If you have the
+budget for higher-end competitive intelligence tools, you can use comScore or
+Experian’s Hitwise.
+The data these tools can provide is limited in its accuracy, and can often be
+unavailable if the site in question receives too little traffic, but it’s still very useful
+in giving you a general assessment of where your competitors are. The tools are
+
+182
+
+CHAPTER FOUR: SEO IMPLEMENTATION: FIRST STAGES
+
+www.it-ebooks.info
+
+most useful for making relative comparisons between sites in the same market
+space. To get an even better idea of where you stand, use their capabilities to compare the traffic of multiple sites, including yours, to learn how your traffic compares to theirs.
+
+How does the current state of their sites’ SEO compare with those of years past?
+You can reach back into history and access previous versions of your competitors’
+home pages and view the HTML source to see which optimization tactics they
+were employing back then. The Internet Archive’s Wayback Machine provides an
+amazingly extensive archive of web pages.
+
+Assessing Historical Progress
+Measuring the results of SEO changes can be challenging, partly because there are so
+many moving parts and partly because months can elapse between when changes are
+made to a site and when results are seen in organic search exposure and traffic. This
+difficulty only increases the importance of measuring progress and being accountable
+for results. This section will explore methods for measuring the results from your SEO
+efforts.
+
+Timeline of Site Changes
+Keeping a log of changes to your site is absolutely recommended. If you’re not keeping
+a timeline (which could be as simple as an online spreadsheet or as complex as a professional project management visual flowchart), you will have a harder time executing
+your SEO plan and managing the overall SEO process. Sure, without one you can still
+gauge the immediate effects of content additions/revisions, link acquisitions, and
+development changes, but visibility into how technical modifications to the website
+might have altered the course of search traffic, whether positively or negatively, is
+obscured.
+One of the most useful ways to document this information is by utilizing annotations
+in Google Analytics, whereby you can document specific events along your site timeline for future reference and for ongoing visual association with your analytics data.
+Figure 4-10 shows how annotations appear along your timeline graph in Google Analytics reports; note the text balloons along the date timeline (each text balloon can be
+clicked on individually, to display the notes added at that time).
+
+ASSESSING HISTORICAL PROGRESS
+
+www.it-ebooks.info
+
+183
+
+Figure 4-10. Annotations in Google Analytics
+
+If you don’t record and track site changes—both those intended to influence SEO, and
+those for which SEO wasn’t even a consideration—you will be eventually optimizing
+blind and could miss powerful signals that could help dictate your strategy going forward. Ideally, you should track more than just site changes, as external factors that can
+have a big impact on your SEO results can be just as important; these include confirmed search engine algorithm updates, competitor news events (e.g., product or
+company launches), breaking news, and trending topics in social media. Factors within
+your own business can have an impact as well, such as major marketing or PR events,
+IPOs, or the release of earnings statements.
+There are many scenarios in which you will want to try to establish cause and effect,
+such as:
+
+If search traffic spikes or plummets
+Sudden changes in organic traffic are obviously notable events. If traffic plummets, you will be facing lots of questions about why, and having a log of site
+changes will put you in a better position to assess whether any changes you recommended could have been the cause. Of course, if traffic spikes, you will want to
+be able to see whether an SEO-related change was responsible as well.
+
+When gradual traffic changes begin
+Changes do not always come as sudden spikes or drop-offs. If you see the traffic
+beginning a gradual climb (or descent), you will want to be able to assess the
+likely reasons.
+
+To track and report SEO progress
+Accountability is a key component of SEO. Budget managers will want to know
+what return they are getting on their SEO investment. This will inevitably fall into
+two buckets: itemizing specific items worked on, and analyzing benefits to the
+
+184
+
+CHAPTER FOUR: SEO IMPLEMENTATION: FIRST STAGES
+
+www.it-ebooks.info
+
+business. Keeping an ongoing change log makes tracking and reporting SEO progress much easier to accomplish.
+
+Creation of new, noteworthy content onsite and/or tied to social media campaigns
+Your social media efforts can directly impact your site’s performance, both directly
+(traffic from third-party social media platforms) and indirectly (via links, social
+sharing, search query trending, and other factors). All of this can be tied back via
+annotations in Google Analytics for meaningful data analysis.
+
+Types of Site Changes That Can Affect SEO
+Your log should track all changes to the website, not just those that were made with
+SEO in mind. Organizations make many changes that they do not think will affect
+SEO, but that have a big impact on it. Here are some examples:
+• Adding content areas/features/options to the site (this could be anything from a
+new blog to a new categorization system)
+• Changing the domain of the site (this can have a significant impact, and you
+should document when the switchover was made)
+• Modifying URL structures (changes to URLs on your site will likely impact your
+rankings, so record any and all changes)
+• Implementing a new CMS (this is a big one, with a very big impact—if you must
+change your CMS, make sure you do a thorough analysis of the SEO shortcomings of the new CMS versus the old one, and make sure you track the timing and
+the impact)
+• Establishing new partnerships that either send links or require them (meaning
+your site is earning new links or linking out to new places)
+• Acquiring new links to pages on the site other than the home page (referred to as
+deep links)
+• Making changes to navigation/menu systems (moving links around on pages, creating new link systems, etc.)
+• Implementing redirects either to or from the site
+• Implementing SSL/HTTPS
+• Implementing new/updated sitemaps, canonical tags, schema markup, and so on
+When you track these items, you can create an accurate storyline to help correlate
+causes with effects. If, for example, you’ve observed a spike in traffic from Bing that
+started four to five days after you switched your menu links from the page footer to
+the header, it is likely that there is a correlation; further analysis would determine
+whether, and to what extent, there is causation.
+
+ASSESSING HISTORICAL PROGRESS
+
+www.it-ebooks.info
+
+185
+
+Without such documentation, it could be months before you noticed the impact—and
+there would be no way to trace it back to the responsible modification. Your design
+team might later choose to switch back to footer links, your traffic might fall, and no
+record would exist to help you understand why. Without the lessons of history, you
+cannot leverage the positive influencing factors.
+
+Previous SEO Work
+When you are brought on to handle the SEO for a particular website, one of the first
+things you need to find out is which SEO activities have previously been attempted.
+There may be valuable data there, such as a log of changes that you can match up with
+analytics data to gauge impact.
+If no such log exists, you can always check the Internet Archive’s Wayback Machine to
+see whether it has historical logs for your website. This offers snapshots of what the
+site looked like at various points in time.
+Even if a log was not kept, spend some time building a timeline of when any changes
+that affect SEO (as discussed in the previous section) took place. In particular, see
+whether you can get copies of the exact recommendations the prior SEO consultant
+made, as this will help you with the timeline and the specifics of the changes made.
+You should also pay particular attention to understanding the types of link-building
+activities that took place. Were shady practices used that carry a lot of risk? Was there
+a particular link-building tactic that worked quite well? Going through the history of
+the link-building efforts can yield tons of information that you can use to determine
+your next steps. Google undoubtedly keeps a “rap sheet” on us webmasters/SEO
+practitioners.
+
+Benchmarking Current Indexing Status
+The search engines have an enormous task: indexing the world’s online content (well,
+more or less). The reality is that they try hard to discover all of it, but they do not
+choose to include all of it in their indexes. There can be a variety of reasons for this,
+such as the page being inaccessible to the spider, being penalized, or not having
+enough link juice to merit inclusion.
+When you launch a new site or add new sections to an existing site, or if you are dealing with a very large site, not every page will necessarily make it into the index. You
+will want to actively track the indexing level of your site in order to develop and
+maintain a site with the highest accessibility and crawl efficiency. If your site is not
+fully indexed, it could be a sign of a problem (not enough links, poor site structure,
+etc.).
+
+186
+
+CHAPTER FOUR: SEO IMPLEMENTATION: FIRST STAGES
+
+www.it-ebooks.info
+
+Getting basic indexation data from search engines is pretty easy. The major search
+engines support the same basic syntax for that: site:<yourdomain.com>. Figure 4-11
+shows a sample of the output from Bing.
+
+Figure 4-11. Indexing data from Bing
+
+Keeping a log of the level of indexation over time can help you understand how things
+are progressing, and this information can be tracked in a spreadsheet.
+Related to indexation is the crawl rate of the site. Google and Bing provide this data in
+their respective toolsets. Figure 4-12 shows a screenshot representative of the crawl
+rate charts that are available in Google Search Console.
+Short-term spikes are not a cause for concern, nor are periodic drops in levels of
+crawling. What is important is the general trend. Bing Webmaster Tools provides similar data to webmasters, and for other search engines their crawl-related data can be
+revealed using logfile analyzers mentioned previously in this chapter—and then a similar timeline can be created and monitored.
+
+BENCHMARKING CURRENT INDEXING STATUS
+
+www.it-ebooks.info
+
+187
+
+Figure 4-12. Crawl data from Google Search Console
+
+Benchmarking Organic Rankings
+People really love to check their search rankings. Many companies want to use this as
+a measurement of SEO progress over time, but it is a bit problematic, for a variety of
+reasons. Here is a summary of the major problems with rank checking:
+• Google results are not consistent:
+— Different geographies (even in different cities within the United States) often
+give different results.
+— Results are personalized for logged-in users based on their search histories, and
+personalized for non-logged-in users as well based on their navigational behaviors within the SERPs, browser history, location data, and more.
+
+188
+
+CHAPTER FOUR: SEO IMPLEMENTATION: FIRST STAGES
+
+www.it-ebooks.info
+
+— No rank checker can monitor and report all of these inconsistencies (at least,
+not without scraping Google hundreds of times from all over the world with
+every possible setting).
+• Obsessing over rankings (rather than traffic) can result in poor strategic decisions:
+— When site owners obsess over rankings for particular keywords, the time and
+energy they expend on those few keywords and phrases often produces far less
+value than would have been produced if they had spent those resources on the
+site as a whole.
+— Long-tail traffic very often accounts for 70%–80% of the demand curve, and it
+is much easier to rank in the long tail and get valuable traffic from there than it
+is to concentrate on the few rankings at the top of the demand curve.
+So indulge your desire to check rankings by going to the search engine and typing in a
+few queries or use a tool like AuthorityLabs and automate it, but be sure to also keep
+an ongoing focus on your visitor and conversion statistics.
+
+Benchmarking Current Traffic Sources and Volume
+The most fundamental objective of any SEO project should be to drive the bottom line.
+For a business, this means delivering more revenue with favorable ROI. As a precursor
+to determining the level of ROI impact, the SEO pro must focus on increasing the volume of relevant traffic to the site. This is a more important objective than anything
+related to rankings or number of links obtained. More relevant traffic should mean
+more revenue for the business (or more conversions, for those whose websites are not
+specifically selling something).
+Today’s web analytics tools make gathering such data incredibly easy. Google Analytics
+offers a robust set of tools sufficient for many smaller to medium sites, while larger
+sites will probably need to use the paid version of Google Analytics (Google Analytics
+Premium) in lieu of or in conjunction with other paid solutions such as Adobe’s Marketing Cloud, IBM Experience One, or Webtrends.
+The number of data points you can examine in analytics is nearly endless. It is fair to
+say that there is too much data, and one of the key things that an SEO expert needs to
+learn is which data is worth looking at and which is not. Generally speaking, the creation of custom dashboards in Google Analytics can greatly reduce the steps needed to
+see top-level data points for SEO; in Chapter 10, we will discuss in greater detail how
+to leverage the power of analytics.
+
+BENCHMARKING CURRENT TRAFFIC SOURCES AND VOLUME
+
+www.it-ebooks.info
+
+189
+
+Leveraging Business Assets for SEO
+Chances are, your company/organization has numerous digital media assets beyond
+the website that can be put to good use to improve the quality and quantity of traffic
+you receive through search engine optimization efforts. We discuss some of these
+assets in the subsections that follow.
+
+Other Domains You Own/Control
+If you have multiple domains, the major items to think about are:
+• Can you 301-redirect some of those domains back to your main domain or to a
+subfolder on the site for additional benefit? Be sure to check the domain health in
+Search Console and Webmaster Tools before performing any 301 redirects, as you
+want to ensure the domain in question has no penalties before closely associating
+it with your main domain(s).
+• If you’re maintaining those domains as separate sites, are you linking between
+them intelligently?
+If any of those avenues produce valuable strategies, pursue them—remember that it is
+often far easier to optimize what you’re already doing than to develop entirely new
+strategies, content, and processes.
+
+Relationships On and Off the Web
+Business relationships and partnerships can be leveraged in similar ways, particularly
+on the link development front. If you have business partners that you supply or otherwise work with—or from whom you receive service—chances are good that you can
+safely create legitimate, user-friendly linking relationships between your sites.
+Although reciprocal linking carries a bit of a bad reputation, there is nothing wrong
+with building a “partners,” “clients,” “suppliers,” or “recommended” list on your site,
+or with requesting that your organizational brethren do likewise for you. Just do this
+in moderation and make sure you link only to highly relevant, trusted sites.
+
+Content or Data You’ve Never Put Online
+Chances are that you have content that you have never published on your website.
+This content can be immensely valuable to your SEO efforts. However, many companies are not savvy about how to publish that content in a search engine–friendly manner. Those hundreds of lengthy articles you published when you were shipping a print
+publication via the mail could be a great fit for your website archives. You should take
+all of your email newsletters and make them accessible on your site. If you have
+unique data sets or written material, you should apply it to relevant pages on your site
+(or consider building out if nothing yet exists).
+
+190
+
+CHAPTER FOUR: SEO IMPLEMENTATION: FIRST STAGES
+
+www.it-ebooks.info
+
+Customers Who Have Had a Positive Experience
+Customers are a terrific resource for earning links, but did you also know they can
+write? Customers and website visitors can contribute all kinds of content. Seriously, if
+you have user-generated content (UGC) options available to you and you see value in
+the content your users produce, by all means reach out to customers, visitors, and
+email list subscribers for content opportunities.
+
+Followers, Friends, and Fans
+If you run a respected business that operates offline or work in entertainment, hard
+goods, or any consumer services, there are likely people out there who’ve used your
+products or services and would love to share their experiences. Do you make video
+games? Hopefully you’ve established a presence on social media and can leverage
+third-party platforms (Facebook, Pinterest, Instagram, Twitter, Vine, and others) to
+market your content for link acquisition, content curation, positive testimonials, and
+brand buzz.
+
+Conclusion
+The first steps of SEO are often the most challenging ones. It’s tempting to rush into
+the effort just to get things moving, but spending some focused time properly planning
+your SEO strategy before implementation will pay big dividends in the long run.
+Establish a strong foundation, and you will have a firm launching pad for SEO success.
+
+CONCLUSION
+
+www.it-ebooks.info
+
+191
+
+
