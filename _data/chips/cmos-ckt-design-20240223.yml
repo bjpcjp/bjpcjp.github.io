@@ -1,0 +1,312 @@
+# cmos-ckt-design-20210524
+# cmos-ckt-design-20210711
+# cmos-ckt-design-20240223
+
+- title: Ch01 - Introduction
+  url: /pdfs/cmos_layout_sim/ch01-intro.pdf
+  tags: intro
+  notes:
+
+  
+- title: Ch02 - Wells
+  url: /pdfs/cmos_layout_sim/ch02-well.pdf
+  tags: physical design
+  notes:
+    Patterning, 
+    Layout, 
+    Resistance Calculations, 
+    N-Well/Substrate Diode, 
+    RC Delay, 
+    Twin Wells
+
+
+- title: Ch03 - Metal Layers
+  url: /pdfs/cmos_layout_sim/ch03-metal.pdf
+  tags: physical design
+  notes:
+    Bonding pads, 
+    Metal & Via characteristics, 
+    Crosstalk, 
+    Ground Bounce, 
+    Layout Examples
+
+
+- title: Ch04 - Active & Poly Layers
+  url: /pdfs/cmos_layout_sim/ch04-active-poly.pdf
+  tags: physical design
+  notes:
+    Layout, 
+    Wire Connections, 
+    ESD Protection
+  pic: /px/chips/cmos-ckt-design-layout-sim/fig-4-2-active-poly.png
+
+
+- title: Ch05 - Resistors, Capacitors, MOSFETs
+  url: /pdfs/cmos_layout_sim/ch05-res-caps-fets.pdf
+  tags: elements
+  notes:
+    Resistors, 
+    Capacitors, 
+    MOSFETs, 
+    Layout Examples
+
+
+- title: Ch06 - MOSFET basics
+  url: /pdfs/cmos_layout_sim/ch06-mosfet-ops.pdf
+  tags: elements
+  notes:
+    Capacitance, 
+    Threshold Voltage, 
+    I/V characteristics, 
+    Spice Modeling, 
+    Short-Channel Factors
+
+
+- title: Ch07 - Manufacturing Basics
+  url: /pdfs/cmos_layout_sim/ch07-fabrication.pdf
+  tags: manufacturing
+  notes:
+    Unit Processes, 
+    Process Integration, 
+    Backend
+
+
+- title: Ch08 - Noise
+  url: /pdfs/cmos_layout_sim/ch08-noise.pdf
+  tags: modeling
+  notes:
+    Signals, 
+    Circuit Noise, 
+    Discussion
+
+
+- title: Ch09 - Analog Models
+  url: /pdfs/cmos_layout_sim/ch09-analog-models.pdf
+  tags: modeling
+  notes:
+    Long-Channel MOSFETs, 
+    Short-Channel MOSFETs, 
+    Noise Modeling
+
+
+- title: Ch10 - Digital Models
+  url: /pdfs/cmos_layout_sim/ch10-digital-models.pdf
+  tags: modeling
+  notes:
+    Model, 
+    Pass Gates, 
+    Measurements
+
+
+
+- title: Ch11 - Inverters
+  url: /pdfs/cmos_layout_sim/ch11-inverter.pdf
+  tags: logic
+  notes:
+    DC Behavior, 
+    Switching Behavior, 
+    Layout, 
+    Large-Load Sizing, 
+    Other Configurations
+
+
+
+- title: Ch12 - Static Logic
+  url: /pdfs/cmos_layout_sim/ch12-static-logic.pdf
+  tags: logic
+  notes:
+    DC Behavior, 
+    Layout, 
+    Switching Behavior, 
+    Complex Gates
+
+
+
+- title: Ch13 - Clocked Logic
+  url: /pdfs/cmos_layout_sim/ch13-clocked-logic.pdf
+  tags: logic
+  notes:
+    Transmission Gates, 
+    Applications, 
+    Latches & FlipFlops, 
+    Examples
+
+
+
+- title: Ch14- Dynamic Logic
+  url: /pdfs/cmos_layout_sim/ch14-dynamic-logic.pdf
+  tags: logic
+  notes:
+    Fundamentals, 
+    Clocked Logic
+
+
+- title: Ch15 - Layout Basics
+  url: /pdfs/cmos_layout_sim/ch15-layout-basics.pdf
+  tags: physical design 
+  notes:
+    Chip Layout, 
+    Steps
+
+
+- title: Ch16 - Memory Basics
+  url: /pdfs/cmos_layout_sim/ch16-memory-basics.pdf
+  tags: memory
+  notes:
+    Arrays, 
+    Peripheries, 
+    Bitcells
+
+
+- title: Ch17 - Sensing Circuits
+  url: /pdfs/cmos_layout_sim/ch17-sensing.pdf
+  tags: sensing
+  notes:
+    Intro, 
+    Resistive Memory, 
+    CMOS Imagers
+
+
+- title: Ch18 - Special-Purpose Circuits
+  url: /pdfs/cmos_layout_sim/ch18-special-ckts.pdf
+  tags: special purpose
+  notes:
+    Schmitt Triggers, 
+    Multivibrators, 
+    Input Buffers, 
+    Charge Pumps
+
+
+- title: Ch19 - Digital PLLs
+  url: /pdfs/cmos_layout_sim/ch19-digital-plls.pdf
+  tags: plls
+  notes:
+    Phase Detector, 
+    Voltage-Controlled Oscillator (VCO), 
+    Loop Filter, 
+    System Factors, 
+    Delay-Locked Loops, 
+    Examples
+
+
+- title: Ch20 - Current Mirrors
+  url: /pdfs/cmos_layout_sim/ch20-current-mirrors.pdf
+  tags: analog
+  notes:
+    Intro, 
+    Cascoding, 
+    Biasing
+
+
+- title: Ch21 - Amplifiers
+  url: /pdfs/cmos_layout_sim/ch21-amplifiers.pdf
+  tags: amplifiers
+  notes:
+    Gate-Drain-Connected Loads, 
+    Current Source Loads, 
+    Push-Pull Amps
+  pic: /px/chips/cmos-ckt-design-layout-sim/fig21-1-four-common-source-amps.png
+
+
+- title: Ch22 - Differential Amplifiers
+  url: /pdfs/cmos_layout_sim/ch22-diff-amplifiers.pdf
+  tags: amplifiers
+  notes:
+    Source-Coupled Pair, 
+    Source Cross-Coupled Pair, 
+    Cascode Loads, 
+    Wide-Swing Diff Amps    
+
+
+- title: Ch23 - Voltage References
+  url: /pdfs/cmos_layout_sim/ch23-voltage-refs.pdf
+  tags: analog
+  notes:
+    MOSFET-Resistor Refs, 
+    Parasitic Diode-Based Refs
+
+
+- title: Ch24 - Operational Amplifiers (OAs)
+  url: /pdfs/cmos_layout_sim/ch24-op-amps.pdf
+  tags: amplifiers
+  notes:
+    2-Stage OAs, 
+    OA with Output Buffer, 
+    Operational Transconductance Amp (OTA), 
+    Gain Enhancement, 
+    Examples
+
+
+- title: Ch25 - Dynamic Analog Circuits
+  url: /pdfs/cmos_layout_sim/ch25-dynamic-analog-ckts.pdf
+  tags: analog
+  notes:
+    MOSFET switches, 
+    Fully-Differential Ckts, 
+    Switched-Capacitor Ckts, 
+    Examples
+
+
+- title: Ch26 - Operational Amplifiers, Pt.2
+  url: /pdfs/cmos_layout_sim/ch26-op-amps-p2.pdf
+  tags: amplifiers
+  notes:
+    Biasing for Power & Speed, 
+    Concepts, 
+    Basic Design, 
+    Design using Switched-Capacitor CMFB
+
+
+- title: Ch27 - Nonlinear Analog Circuits
+  url: /pdfs/cmos_layout_sim/ch27-nonlinear-analog-ckts.pdf
+  tags: analog
+  notes:
+    Comparators, 
+    Adaptive Biasing, 
+    Analog Multipliers
+
+
+- title: Ch28 - Data Converters
+  url: /pdfs/cmos_layout_sim/ch28-data-cnvrtr-basics.pdf
+  tags: conversion
+  notes:
+    Analog vs Discrete Time Signals, 
+    Analog-to-Digital Conversion, 
+    Sample & Hold (S/H), 
+    Digital-to-Analog (DAC) Specs, 
+    Analog-to-Digital (ADC) Specs, 
+    Mixed-Signal Layout Issues
+
+
+- title: Ch29 - Data Converter Architectures
+  url: /pdfs/cmos_layout_sim/ch29-data-cnvrtr-archs.pdf
+  tags: conversion
+  notes:
+    DAC Architectures, 
+    ADC Architectures
+
+
+- title: Ch30 - Data Converter Designs
+  url: /pdfs/cmos_layout_sim/ch30-data-cnvrtr-design.pdf
+  tags: conversion
+  notes:
+    R-2R DAC Topologies, 
+    OAs in Data Converters, 
+    Implementing ADCs
+
+
+- title: Ch31 - Feedback Amplifiers
+  url: /pdfs/cmos_layout_sim/ch31-feedback-amps.pdf
+  tags: amplifiers
+  notes:
+    Feedback Equation, 
+    Negative Feedback Properties, 
+    Recognizing Feedback Topologies, 
+    Voltage Amp, 
+    Transimpedance Amp, 
+    Transconductance Amp, 
+    Current Amp, 
+    Stability, 
+    Examples
+
+
