@@ -1,143 +1,307 @@
 ---
 layout: default-foundation-20210515
 title: Scikit-Learn Guide notes
-date:   2024-01-15
+date:   2024-02-24 11:45
 tags: scikit-learn python jupyter machine-learning
 ---
 
+<!--
+    data files grepped for "scikit" (0.22.1)
+    _data/code/machine-learning.yaml
+    _data/code/machine-learning-20240104.yaml
+    _data/code/machine-learning-20210501.yaml
+    _data/code/machine-learning-20210430.yaml
+    _data/code/scikit-learn-supervised.yaml
+    _data/code/scikit-learn-unsupervised.yaml
+    _data/code/scikit-learn-intro.yaml
+    _data/code/scikit-intro.yaml
+
+    _data/code/_site/machine-learning-v20210430.yaml
+    _data/code/_site/scikit-intro.yaml
+    _data/code/_site/machine-learning-20210501.yaml
+    _data/code/_site/scikit-learn-intro.yaml
+    _data/code/_site/scikit-learn-unsupervised.yaml
+
+    grep site.data.code.machine_learning _posts/*
+    _posts/2022-07-03-python-oldpage.html: site.data.code.machine-learning-20240104
+
+    grep /htmls/scikit-learn/
+    _posts/2021-12-01-scikit-learn-jupyter-notebooks.html
+
+    grep site.data.code.scikit _posts/*
+    _posts/2021-12-01-scikit-learn-jupyter-notebooks.html
+
+-->
+
 <div class="callout">
-    <h2>Scikit-Learn v0.24 User Guides - Jupyter Notebooks</h2>
-    (Jupyter notebooks => HTML using nbconvert.)<br>
+    <h3>Scikit-Learn notes</h3>
+    (0.24: Jupyter notebooks converted to HTML with nbconvert)<br>
+    (0.22: PDFs)
 </div>
 
-<a href="/htmls/scikit-learn/00_getting_started.html" target="_blank"><strong>Getting Started</strong></a><br/>
+{% assign pdfspath = "/pdfs/scikit-0.22.1/" %}
+{% assign htmlspath = "/htmls/scikit-learn/" %}
 
-<h2>Supervised Learning </h2>
+<div style="columns:2;">
 
-<a href="/htmls/scikit-learn/01_linear_models.html" target="_blank"><strong>Linear Models</strong></a><br/>
-<a href="/htmls/scikit-learn/01a_logistic_regression.html" target="_blank"><strong>Logistic Regression (LR)</strong></a><br/>
-<a href="/htmls/scikit-learn/02_discriminant_analysis.html" target="_blank"><strong>Discriminant Analysis (LDA, QDA)</strong></a><br/>
-<a href="/htmls/scikit-learn/03_kernel_ridge_regression.html" target="_blank"><strong>Kernel Ridge Regression (KRR)</strong></a><br/>
-<a href="/htmls/scikit-learn/04_support_vector_machines.html" target="_blank"><strong>Support Vector Machines (SVMs)</strong></a><br/>
-<a href="/htmls/scikit-learn/05_stochastic_gradient_descent.html" target="_blank"><strong>Stochastic Gradient Descent (SGD)</strong></a><br/>
-<a href="/htmls/scikit-learn/06_nearest_neighbors.html" target="_blank"><strong>Nearest Neighbors (NNs)</strong></a><br/>
-<a href="/htmls/scikit-learn/07_gaussians.html" target="_blank">                    <strong>Gaussians</strong></a><br/>
-<a href="/htmls/scikit-learn/08_cross_decomposition.html" target="_blank">          <strong>Cross Decomposition</strong></a><br/>
-<a href="/htmls/scikit-learn/09_naive_bayes.html" target="_blank">                  <strong>Naive Bayes</strong></a><br/>
-<a href="/htmls/scikit-learn/10_decision_trees.html" target="_blank">               <strong>Ensembles/Decision Trees</strong></a><br/>
-<a href="/htmls/scikit-learn/11a_bagging_trees.html" target="_blank">               <strong>Ensembles/Bagging</strong></a><br/>
-<a href="/htmls/scikit-learn/11b_boosting.html" target="_blank">                    <strong>Ensembles/Boosting</strong></a><br/>
-<a href="/htmls/scikit-learn/11c_voting.html" target="_blank">
-    <strong>Voting</strong></a><br/>
-<a href="/htmls/scikit-learn/11d_general_stacking.html" target="_blank">        <strong>Stacking</strong></a><br/>
-<a href="/htmls/scikit-learn/12_multiclass_multioutput.html" target="_blank">   <strong>Multiclass & Multioutput Algorithms</strong></a><br/>
-<a href="/htmls/scikit-learn/13_feature_selection.html" target="_blank">
-    <strong>Feature Selection (FS)</strong></a><br/>
-<a href="/htmls/scikit-learn/14_unsupervised.html" target="_blank">
-    <strong>Semi-Supervised Algorithms</strong></a><br/>
-<a href="/htmls/scikit-learn/15_isotonic_regression.html" target="_blank">
-    <strong>Isotonic Regression</strong></a><br/>
-<a href="/htmls/scikit-learn/16_calibration_curves.html" target="_blank">
-    <strong>Calibration Curves</strong></a><br/>
-<a href="/htmls/scikit-learn/17_perceptron.html" target="_blank">
-    <strong>Multilayer Perceptrons (MLPs)</strong></a><br/>
+<h3>Getting Started</h3>
+<a href="{{htmlspath}}00_getting_started.html"                  target="_blank">v0.24</a>&nbsp; 
+<a href="{{pdfspath}}scikit-guide-0.22.1-installation-dev.pdf"  target="_blank">v0.22 </a><br>
 
-<h2>Unsupervised Learning</h2>
+<h3>Glossary</h3>
+<a href="{{pdfspath}}scikit-guide-0.22.1-glossary.pdf"          target="_blank">v0.22 </a><br>
 
-<a href="/htmls/scikit-learn/21_gaussian_mixtures.html" target="_blank">
-    <strong>Gaussian Mixtures</strong></a><br/>
-<a href="/htmls/scikit-learn/22_manifolds.html" target="_blank">
-    <strong>Manifolds</strong></a><br/>
-<a href="/htmls/scikit-learn/23_clustering.html" target="_blank">
-    <strong>Clustering Techniques</strong></a><br/>
-<a href="/htmls/scikit-learn/23a_clustering_metrics.html" target="_blank">
-    <strong>Clustering Metrics</strong></a><br/>
-<a href="/htmls/scikit-learn/24_biclustering.html" target="_blank">
-    <strong>Biclustering</strong></a><br/>
-<a href="/htmls/scikit-learn/25_component_analysis_matrix_factorization.html" target="_blank">
-    <strong>Component Analysis / Matrix Factorization</strong></a><br/>
-<a href="/htmls/scikit-learn/26_covariance.html" target="_blank">
-    <strong>Covariance</strong></a><br/>
-<a href="/htmls/scikit-learn/27_novelties_outliers.html" target="_blank">
-    <strong>Novelty & Outlier Detection</strong></a><br/>
-<a href="/htmls/scikit-learn/28_density_estimation.html" target="_blank">
-    <strong>Density Analysis</strong></a><br/>
-<a href="/htmls/scikit-learn/29_restricted_boltzmann_machines.html" target="_blank">
-    <strong>Restricted Boltzmann Machines (RBMs)</strong></a><br/>
+<h3>API </h3>
+<a href="{{pdfspath}}scikit-api-0.22.1.pdf"                 target="_blank">v0.22</a>&nbsp; 
 
-<h2>Cross Validation & Hyperparameters</h2>
+<h3>Supervised Learning </h3>
 
+Linear Models
+<a href="{{htmlspath}}01_linear_models.html"                target="_blank">v0.24</a>&nbsp; 
+<a href="{{pdfspath}}scikit-guide-0.22.1-linear.pdf"        target="_blank">v0.22 </a><br>
 
-<a href="/htmls/scikit-learn/31_cross_validation.html" target="_blank">
-    <strong>Cross Validation (CV)</strong></a><br/>
-<a href="/htmls/scikit-learn/32_hyperparameters.html" target="_blank">
-    <strong>Hyperparameter Settings</strong></a><br/>
+Logistic Regression (LR)
+<a href="{{htmlspath}}01a_logistic_regression.html"         target="_blank">v0.24</a><br>
 
-<h2>Metrics, Evaluation & Scoring</h2>
+Discriminant Analysis (LDA, QDA)
+<a href="{{htmlspath}}02_discriminant_analysis.html"                target="_blank">v0.24</a>&nbsp; 
+<a href="{{pdfspath}}scikit-guide-0.22.1-discriminant-analysis.pdf"  target="_blank">v0.22 </a><br>
 
-<a href="/htmls/scikit-learn/33a_classification_metrics.html" target="_blank">
-    <strong>Classifier Metrics</strong></a><br/>
-<a href="/htmls/scikit-learn/33b_multilabel_ranking_metrics.html" target="_blank">
-    <strong>Multi-label Rankers</strong></a><br/>
-<a href="/htmls/scikit-learn/33c_regression_metrics.html" target="_blank">
-    <strong>Regression Metrics</strong></a><br/>
-<a href="/htmls/scikit-learn/33d_dummy_metrics.html" target="_blank">
-    <strong>"Dummy" Metrics</strong></a><br/>
-<a href="/htmls/scikit-learn/33_metrics.html" target="_blank">
-    <strong>Metrics Overview</strong></a><br/>
+Kernel Ridge Regression (KRR)
+<a href="{{htmlspath}}03_kernel_ridge_regression.html"      target="_blank">v0.24</a>&nbsp; 
+<a href="{{pdfspath}}scikit-guide-0.22.1-kernel-ridge.pdf"  target="_blank">v0.22 </a><br>
 
-<h2>Metrics - Visualization</h2>
+Support Vector Machines (SVMs)
+<a href="{{htmlspath}}04_support_vector_machines.html"                  target="_blank">v0.24</a>&nbsp; 
+<a href="{{pdfspath}}scikit-guide-0.22.1-support-vector-machines.pdf"   target="_blank">v0.22 </a><br>
 
-<a href="/htmls/scikit-learn/34_validation_learning_curves.html" target="_blank">
-    <strong>Learning Curves</strong></a><br/>
-<a href="/htmls/scikit-learn/41_inspection_plots.html" target="_blank">
-    <strong>Partial Dependence Plots (PDPs)</strong></a><br/>
-<a href="/htmls/scikit-learn/42_permutation_feature_importance.html" target="_blank">
-    <strong>Permutation Feature Importance (PFI) plots</strong></a><br/>
-<a href="/htmls/scikit-learn/50a_ROC_curve_viz.html" target="_blank">
-    <strong>ROC curves</strong></a><br/>
-<a href="/htmls/scikit-learn/50b_partial_dependence_viz.html" target="_blank">
-    <strong>Customized Partial Dependence plots</strong></a><br/>
-<a href="/htmls/scikit-learn/50c_display_objects.html" target="_blank">
-    <strong>Examples</strong></a><br/>
-<a href="/htmls/scikit-learn/61_composite_transformers.html" target="_blank">
-    <strong>Composite Transformers</strong></a><br/>
+Stochastic Gradient Descent (SGD)
+<a href="{{htmlspath}}05_stochastic_gradient_descent.html"                  target="_blank">v0.24</a>&nbsp; 
+<a href="{{pdfspath}}scikit-guide-0.22.1-stochastic-gradient-descent.pdf"  target="_blank">v0.22 </a><br>
 
-<h2>Feature Engineering</h2>
+Nearest Neighbors (NNs)
+<a href="{{htmlspath}}06_nearest_neighbors.html"                 target="_blank">v0.24</a>&nbsp; 
+<a href="{{pdfspath}}scikit-guide-0.22.1-nearest-neighbors.pdf"  target="_blank">v0.22 </a><br>
 
-<a href="/htmls/scikit-learn/62a_text_feature_extraction.html" target="_blank">
-    <strong>Feature Extraction (Text)</strong></a><br/>
-<a href="/htmls/scikit-learn/62b_image_patch_extraction.html" target="_blank">
-    <strong>Feature Extraction (Image Patches)</strong></a><br/>
-<a href="/htmls/scikit-learn/63_preprocessing.html" target="_blank">
-    <strong>Data Preprocessing</strong></a><br/>
-<a href="/htmls/scikit-learn/64_imputation.html" target="_blank">
-    <strong>Data Imputation</strong></a><br/>
-<a href="/htmls/scikit-learn/66_random_projections.html" target="_blank">
-    <strong>Dimensionality Reduction: Random Projections (RP)</strong></a><br/>
-<a href="/htmls/scikit-learn/67_kernel_approximation.html" target="_blank">
-    <strong>Kernel Approximations</strong></a><br/>
-<a href="/htmls/scikit-learn/68_pairwise_ops.html" target="_blank">
-    <strong>Pairwise Operations</strong></a><br/>
-<a href="/htmls/scikit-learn/69_transform_prediction_targets.html" target="_blank">
-    <strong>Transforming Prediction Targets</strong></a><br/>
+Gaussians
+<a href="{{htmlspath}}07_gaussians.html"                    target="_blank">v0.24</a>&nbsp; 
+<a href="{{pdfspath}}scikit-guide-0.22.1-gaussians.pdf"     target="_blank">v0.22 </a><br>
 
-<h2>Datasets</h2>
+Cross Decomposition
+<a href="{{htmlspath}}08_cross_decomposition.html"                  target="_blank">v0.24</a>&nbsp; 
+<a href="{{pdfspath}}scikit-guide-0.22.1-cross-decomposition.pdf"   target="_blank">v0.22 </a><br>
 
-<a href="/htmls/scikit-learn/71_example_datasets.html" target="_blank">
-    <strong>Simple Datasets</strong></a><br/>
-<a href="/htmls/scikit-learn/73_artificial_data_generators.html" target="_blank">
-    <strong>Artificial Data Generators</strong></a><br/>
-<a href="/htmls/scikit-learn/74_other_datasets.html" target="_blank">
-    <strong>Other Example Datasets</strong></a><br/>
+Naive Bayes
+<a href="{{htmlspath}}09_naive_bayes.html"                  target="_blank">v0.24</a>&nbsp; 
+<a href="{{pdfspath}}scikit-guide-0.22.1-naive-bayes.pdf"  target="_blank">v0.22 </a><br>
 
-<h2>Performance factors</h2>
+Ensembles/Decision Trees
+<a href="{{htmlspath}}10_decision_trees.html"                   target="_blank">v0.24</a>&nbsp; 
+<a href="{{pdfspath}}scikit-guide-0.22.1-decision-trees.pdf"    target="_blank">v0.22 </a><br>
 
-<a href="/htmls/scikit-learn/81_scaling.html" target="_blank">
-    <strong>Performance / Scaling</strong></a><br/>
-<a href="/htmls/scikit-learn/82_performance.html" target="_blank">
-    <strong>Performance / Latency</strong></a><br/>
-<a href="/htmls/scikit-learn/83_parallelism.html" target="_blank">
-    <strong>Performance / Parallel Ops Tools</strong></a><br/>
-<a href="/htmls/scikit-learn/90_persistence.html" target="_blank">
-    <strong>Persistence (File I/O)</strong></a><br/>
+Ensembles/Bagging, Random Forests, Random Trees
+<a href="{{htmlspath}}11a_bagging_trees.html"               target="_blank">v0.24</a><br>
+
+Ensembles/Adaboost
+<a href="{{htmlspath}}11b_boosting.html"                    target="_blank">v0.24</a><br>
+
+Voting
+<a href="{{htmlspath}}11c_voting.html"                      target="_blank">v0.24</a><br>
+
+Stacking
+<a href="{{htmlspath}}11d_general_stacking.html"            target="_blank">v0.24</a><br>
+
+Multiclass & Multioutput Algorithms
+<a href="{{htmlspath}}12_multiclass_multioutput.html"       target="_blank">v0.24</a>&nbsp; 
+<a href="{{pdfspath}}scikit-guide-0.22.1-multiclass.pdf"  target="_blank">v0.22 </a><br>
+
+Semi-Supervised Algorithms
+<a href="{{htmlspath}}14_unsupervised.html"                 target="_blank">v0.24</a>&nbsp; 
+<a href="{{pdfspath}}scikit-guide-0.22.1-label-propagation.pdf"  target="_blank">v0.22 </a><br>
+
+Isotonic Regression
+<a href="{{htmlspath}}15_isotonic_regression.html"          target="_blank">v0.24</a>&nbsp; 
+<a href="{{pdfspath}}scikit-guide-0.22.1-isotonic.pdf"  target="_blank">v0.22 </a><br>
+
+Probability Calibration Curves
+<a href="{{htmlspath}}16_calibration_curves.html"           target="_blank">v0.24</a>&nbsp; 
+<a href="{{pdfspath}}scikit-guide-0.22.1-calibration.pdf"  target="_blank">v0.22 </a><br>
+
+Multilayer Perceptrons (MLPs)
+<a href="{{htmlspath}}17_perceptron.html"                   target="_blank">v0.24</a>&nbsp; 
+<a href="{{pdfspath}}scikit-guide-0.22.1-neural-nets-supervised.pdf"  target="_blank">v0.22 </a><br>
+
+<h3>Unsupervised Learning</h3>
+
+Gaussian Mixtures
+<a href="{{htmlspath}}21_gaussian_mixtures.html"                target="_blank">v0.24</a>&nbsp; 
+<a href="{{pdfspath}}scikit-guide-0.22.1-gaussian-mixtures.pdf" target="_blank">v0.22 </a><br>
+
+Manifolds
+<a href="{{htmlspath}}22_manifolds.html"                    target="_blank">v0.24</a>&nbsp; 
+<a href="{{pdfspath}}scikit-guide-0.22.1-manifolds.pdf"     target="_blank">v0.22 </a><br>
+
+Clustering Techniques
+<a href="{{htmlspath}}23_clustering.html"                   target="_blank">v0.24</a>&nbsp; 
+<a href="{{pdfspath}}scikit-guide-0.22.1-clustering.pdf"    target="_blank">v0.22 </a><br>
+
+Clustering Metrics
+<a href="{{htmlspath}}23a_clustering_metrics.html"          target="_blank">v0.24</a><br>
+
+Biclustering: &nbsp;
+<a href="{{htmlspath}}24_biclustering.html"                 target="_blank">v0.24</a>&nbsp; 
+<a href="{{pdfspath}}scikit-guide-0.22.1-biclustering.pdf"  target="_blank">v0.22 </a><br>
+
+Component Analysis / Matrix Factorization (PCA + variants): &nbsp;
+<a href="{{htmlspath}}25_component_analysis_matrix_factorization.html"  target="_blank">v0.24</a>&nbsp; 
+<a href="{{pdfspath}}scikit-guide-0.22.1-matrix-factorization.pdf"      target="_blank">v0.22 </a><br>
+
+Covariance:
+<a href="{{htmlspath}}26_covariance.html"                   target="_blank">v0.24</a>&nbsp; 
+<a href="{{pdfspath}}scikit-guide-0.22.1-covariance.pdf"    target="_blank">v0.22 </a><br>
+
+Novelty & Outlier Detection
+<a href="{{htmlspath}}27_novelties_outliers.html"           target="_blank">v0.24</a>&nbsp; 
+<a href="{{pdfspath}}scikit-guide-0.22.1-outliers.pdf"      target="_blank">v0.22 </a><br>
+
+Density Analysis
+<a href="{{htmlspath}}28_density_estimation.html"                 target="_blank">v0.24</a>&nbsp; 
+<a href="{{pdfspath}}scikit-guide-0.22.1-density-estimation.pdf"  target="_blank">v0.22 </a><br>
+
+Restricted Boltzmann Machines (RBMs)
+<a href="{{htmlspath}}29_restricted_boltzmann_machines.html"            target="_blank">v0.24</a>&nbsp; 
+<a href="{{pdfspath}}scikit-guide-0.22.1-neural-nets-unsupervised.pdf"  target="_blank">v0.22 </a><br>
+
+<h3>Cross Validation & Hyperparameters</h3>
+
+Cross Validation (CV)
+<a href="{{pdfspath}}scikit-guide-0.22.1-cross-validation.pdf"         target="_blank">v0.22 </a><br>
+
+Hyperparameters
+<a href="{{htmlspath}}32_hyperparameters.html"                          target="_blank">v0.24</a>&nbsp; 
+<a href="{{pdfspath}}scikit-guide-0.22.1-hyperparams-grid-search.pdf"  target="_blank">v0.22</a><br>
+
+<div class="card"><div class="card-section"><h3>Metrics, Evaluation & Scoring</h3>
+
+Metrics Overview
+<a href="{{htmlspath}}33_metrics.html"                      target="_blank">v0.24</a>&nbsp; 
+<a href="{{pdfspath}}scikit-guide-0.22.1-metrics-scoring.pdf"  target="_blank">v0.22 </a><br>
+
+Classifier Metrics
+<a href="{{htmlspath}}33a_classification_metrics.html"      target="_blank">v0.24</a><br> 
+
+Multi-label Rankers
+<a href="{{htmlspath}}33b_multilabel_ranking_metrics.html"  target="_blank">v0.24</a><br>
+
+Regression Metrics
+<a href="{{htmlspath}}33c_regression_metrics.html"          target="_blank">v0.24</a><br> 
+
+"Dummy" Metrics
+<a href="{{htmlspath}}33d_dummy_metrics.html"               target="_blank">v0.24</a><br> 
+
+<h3>Metrics - Visualization</h3>
+
+Learning/Validation Curves
+<a href="{{htmlspath}}34_validation_learning_curves.html"   target="_blank">v0.24</a>&nbsp; 
+<a href="{{pdfspath}}scikit-guide-0.22.1-validation-curves.pdf"  target="_blank">v0.22 </a><br>
+
+Partial Dependence Plots (PDPs)
+<a href="{{htmlspath}}41_inspection_plots.html"                         target="_blank">v0.24</a>&nbsp; 
+<a href="{{pdfspath}}scikit-guide-0.22.1-partial-dependence-plots.pdf"  target="_blank">v0.22 </a><br>
+
+Permutation Feature Importance (PFI) plots
+<a href="{{htmlspath}}42_permutation_feature_importance.html"         target="_blank">v0.24</a>&nbsp; 
+<a href="{{pdfspath}}scikit-guide-0.22.1-permutation-importance.pdf"  target="_blank">v0.22 </a><br>
+
+ROC curves
+<a href="{{htmlspath}}50a_ROC_curve_viz.html"               target="_blank">v0.24</a><br> 
+
+Customized Partial Dependence plots
+<a href="{{htmlspath}}50b_partial_dependence_viz.html"      target="_blank">v0.24</a><br>
+
+Examples
+<a href="{{htmlspath}}50c_display_objects.html"             target="_blank">v0.24</a><br>
+
+Plotting API
+<a href="{{pdfspath}}scikit-guide-0.22.1-plotting-api.pdf"  target="_blank">v0.22 </a><br>
+
+Visualization
+<a href="{{pdfspath}}scikit-guide-0.22.1-visualizations.pdf"  target="_blank">v0.22 </a><br>
+
+<h3>Feature Engineering</h3>
+
+Feature Selection (FS)
+<a href="{{htmlspath}}13_feature_selection.html"                 target="_blank">v0.24</a>&nbsp; 
+<a href="{{pdfspath}}scikit-guide-0.22.1-feature-selection.pdf"  target="_blank">v0.22 </a><br>
+
+Feature Extraction (Text)
+<a href="{{htmlspath}}62a_text_feature_extraction.html"     target="_blank">v0.24</a>&nbsp; 
+<a href="{{pdfspath}}scikit-guide-0.22.1-feature-extraction.pdf"  target="_blank">v0.22 </a><br>
+
+Feature Extraction (Image Patches)
+<a href="{{htmlspath}}62b_image_patch_extraction.html"      target="_blank">v0.24</a><br>
+
+Data Preprocessing
+<a href="{{htmlspath}}63_preprocessing.html"                target="_blank">v0.24</a>&nbsp; 
+<a href="{{pdfspath}}scikit-guide-0.22.1-preprocessing.pdf" target="_blank">v0.22 </a><br>
+
+Data Imputation
+<a href="{{htmlspath}}64_imputation.html"                   target="_blank">v0.24</a>&nbsp; 
+<a href="{{pdfspath}}scikit-guide-0.22.1-imputation.pdf"    target="_blank">v0.22 </a><br>
+
+Composite Transformers
+<a href="{{htmlspath}}61_composite_transformers.html"       target="_blank">v0.24</a>&nbsp; 
+<a href="{{pdfspath}}scikit-guide-0.22.1-pipelines.pdf"     target="_blank">v0.22 </a><br>
+
+Dimensionality Reduction: Random Projections (RP)
+<a href="{{htmlspath}}66_random_projections.html"           target="_blank">v0.24</a>&nbsp; 
+<a href="{{pdfspath}}scikit-guide-0.22.1-dimensionality-reduction-unsupervised.pdf"  target="_blank">v0.22 </a><br>
+
+Kernel Approximations
+<a href="{{htmlspath}}67_kernel_approximation.html"                 target="_blank">v0.24</a>&nbsp; 
+<a href="{{pdfspath}}scikit-guide-0.22.1-kernel-approximation.pdf"  target="_blank">v0.22 </a><br>
+
+Pairwise Operations
+<a href="{{htmlspath}}68_pairwise_ops.html"                 target="_blank">v0.24</a>&nbsp; 
+<a href="{{pdfspath}}scikit-guide-0.22.1-pairwise-ops.pdf"  target="_blank">v0.22 </a><br>
+
+Transforming Prediction Targets
+<a href="{{htmlspath}}69_transform_prediction_targets.html"         target="_blank">v0.24</a>&nbsp; 
+<a href="{{pdfspath}}scikit-guide-0.22.1-target-preprocessing.pdf"  target="_blank">v0.22 </a><br>
+
+<h3>Datasets</h3>
+
+Simple Datasets
+<a href="{{htmlspath}}71_example_datasets.html"             target="_blank">v0.24</a>&nbsp; 
+<a href="{{pdfspath}}scikit-guide-0.22.1-dataset-loaders.pdf"  target="_blank">v0.22 </a><br>
+
+Artificial Data Generators
+<a href="{{htmlspath}}73_artificial_data_generators.html"   target="_blank">v0.24</a><br>
+
+Other Example Datasets
+<a href="{{htmlspath}}74_other_datasets.html"               target="_blank">v0.24</a>&nbsp; 
+
+<h3>Performance factors</h3>
+
+Performance / Scaling
+<a href="{{htmlspath}}81_scaling.html"                      target="_blank">v0.24</a>&nbsp; 
+<a href="{{pdfspath}}scikit-guide-0.22.1-performance.pdf"   target="_blank">v0.22 </a><br>
+
+Performance / Latency
+<a href="{{htmlspath}}82_performance.html"                  target="_blank">v0.24</a>&nbsp; 
+<a href="{{pdfspath}}scikit-guide-0.22.1-computation-factors.pdf"  target="_blank">v0.22 </a><br>
+
+Performance / Parallel Ops Tools
+<a href="{{htmlspath}}83_parallelism.html"                  target="_blank">v0.24</a><br> 
+
+Persistence (File I/O)
+<a href="{{htmlspath}}90_persistence.html"                  target="_blank">v0.24</a>&nbsp; 
+<a href="{{pdfspath}}scikit-guide-0.22.1-file-io.pdf"       target="_blank">v0.22 </a><br>
+
+<h3>Developer Utilities</h3>
+<a href="{{pdfspath}}scikit-guide-0.22.1-utilities-dev.pdf"  target="_blank">v0.22 </a><br>
+
+<h3>Related Libraries</h3>
+<a href="{{pdfspath}}scikit-guide-0.22.1-related-projects.pdf"  target="_blank">v0.22 </a><br>
+
+</div>
