@@ -1,16 +1,24 @@
 ---
 layout: default-foundation-20210515
 title:  Game Theory Resources
-date: 2022-08-14
+date: 2024-02-23 16:50
 tags: game-theory
 ---
 
 <div class="callout">
-    <h2>Game Theory & Auction Resources:</h2>(formerly a top-level menu page.)</div>
+    <h2>Game Theory & Auction Resources:</h2>
+</div>
 
-<!-- formerly: v20210626 -->
-<!-- formerly: v20220612 -->
-<!-- formerly: v20220709 -->
+<!-- data revs:
+	_data/gametheory/v20220814.yml:
+	_data/gametheory/v20220709.yml:
+	_data/gametheory/v20210626.yml: 
+	_data/gametheory/gametheory-v20210626.yml
+	_data/gametheory/v20210516.yml:
+	_data/gametheory/v20210308.yml:
+	_data/gametheory/page.yml
+-->
+
 {%- assign records = site.data.gametheory.v20220814 | sort: "tags" | group_by: "tags" -%}
 
 <div class="callout primary">
@@ -19,6 +27,8 @@ tags: game-theory
         <a href="#{{tag.name}}">{{tag.name}}</a>&nbsp; &nbsp;
     {%- endfor -%}
 </div>
+
+<div style="columns:3;">
 
 {%- for tag in records -%}
     {%- if tag.name != "" -%}
@@ -33,19 +43,7 @@ tags: game-theory
 		        	{%- for item in sorted_tag_items -%}
 
 	        			<a href="{{item.url}}" target="_blank">
-	        				{{item.title}}
-							<!--
-							&nbsp;
-							{%- if item.source -%}
-								({{item.source}})
-							{%- endif -%}
-							-->
-                            <!--
-		        			{%- if item.px -%}
-	        					<img src="{{item.img}}" width=90%>
-	    	    			{%- endif -%}
-                            -->
-	    	    		</a><br>
+	        				{{item.title}}</a><br>
 
 	    	    		{%- if item.notes -%}
 	    	    			<div class="card-section">
@@ -59,3 +57,5 @@ tags: game-theory
     	</div>
     {%- endif -%}
 {%- endfor -%}
+
+</div>

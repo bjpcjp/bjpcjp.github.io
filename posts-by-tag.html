@@ -3,16 +3,19 @@ title: Posts by Topic
 layout: default-foundation-20210515
 ---
 
-{% assign sorted = site.tags | sort %}
+<div class="callout">
+  <h2>All Posts by Topic (aka Tag)</h2>
+</div>
 
+<div style="columns:2;">
+
+{% assign sorted = site.tags | sort %}
 {%- for tag in sorted -%}
 
   <div class="card">
       
       <div class="card-divider">
-        <summary>
           <strong>{{ tag[0] }}</strong>
-        </summary>
       </div>
 
       <div class="card-section">
@@ -24,6 +27,8 @@ layout: default-foundation-20210515
 
   </div>
 {%- endfor -%}
+
+</div>
 
 <!--
 <div class="callout">

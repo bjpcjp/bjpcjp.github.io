@@ -1,27 +1,32 @@
 ---
 title: Ruby book notes & library links
 layout: default-foundation-20210515
-tags: ruby
-date: 2022-12-24
+tags: ruby booknotes
+date: 2024-02-24 10:10
 ---
 
 <div class="callout">
-    <p>Chapter outlines for three classic Ruby programming language books:<br>
-        - Eloquent Ruby<br>
+    <h2>Ruby language booknotes</h2>
+    <p> - Eloquent Ruby<br>
         - Programming Ruby<br>
         - Ruby under the Microscope<br>
-    </p>
-    <p>
-        Also links to Ruby's core classes & standard library (v3.1.2).
+        - Ruby core classes & standard library (v3.1.2).
     </p>
 </div>
 
-<div class="card"><div class="card-section">
-{%- assign sourcedata = site.data.code.ruby.v20240121_ruby | sort: "tags" -%}
-{% for item in sourcedata %}
-    <a href="{{item.url}}">{{item.title}}</a><br>
-{% endfor %}
-</div></div>
+{%- assign sourcedata = site.data.code.ruby.v20240224_ruby | sort: "title" -%}
 
-<!--
-{% include datafile-ungrouped-2cols-20220817.html %} -->
+<div style="columns:2;">
+    {% for item in sourcedata %}
+        <div class="card">
+            <div class="card-divider">
+                <a href="{{item.url}}">{{item.title}}</a>
+                    &nbsp; ({{item.source}})</div>
+            {% if item.notes %}
+                <div class="card-section">
+                    {{item.notes}}
+                </div>
+            {% endif %}
+        </div>
+    {% endfor %}
+</div>

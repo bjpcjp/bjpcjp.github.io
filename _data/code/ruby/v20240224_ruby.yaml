@@ -1,0 +1,1234 @@
+# v20240224 - edited titles
+# v20240121 - ruby pickaxe chaps
+# v20220822
+# awesome-ruby
+
+- title: awesome ruby
+  url: https://awesome-ruby.com/
+  tags: tutorials & resources
+  source: github
+  notes:
+
+# v20220818
+# Clever algorithms
+# redundant (earlier post)
+
+#- title: clever algorithms
+#  url: https://github.com/clever-algorithms/CleverAlgorithms/tree/master/src/algorithms
+#  tags: algorithms
+#  px:
+#  source: clever algorithms
+#  notes: also - /pdfs/ruby/Clever-Algorithms.pdf
+
+# Well-grounded Ruby
+
+- title: setup
+  url: https://github.com/bjpcjp/well-grounded-rubyist-book-notes/blob/master/ch01-bootstrap.ipynb
+  tags: ruby language
+  px:
+  source: well grounded ruby - jupyter (github)
+  notes:
+    - installation<br>
+    - identifiers<br>
+    - methods, messages, objects<br>
+    - writing & saving programs<br>
+    - feeding a program to ruby<br>
+    - keyboard & file I/O<br>
+    - key directories<br>
+    - require, require_relative<br>
+    - tools (ruby, irb, rdoc, ri, rake, gem, erb)<br>
+
+- title: objects & methods 
+  url: https://github.com/bjpcjp/well-grounded-rubyist-book-notes/blob/master/ch02-objs-meths-locals.ipynb
+  tags: ruby language
+  px:
+  source: well grounded ruby - jupyter (github)
+  notes:
+    - talking to objects<br>
+    - construction<br>
+    - behaviors<br>
+    - arguments<br>
+    - local variables<br>
+
+- title: classes
+  url: https://github.com/bjpcjp/well-grounded-rubyist-book-notes/blob/master/ch03-classes.ipynb
+  tags: ruby language
+  px:
+  source: well grounded ruby - jupyter (github)
+  notes:
+    - classes & instances<br>
+    - instance variables & object state<br>
+    - setters<br>
+    - attributes<br>
+    - inheritance<br>
+    - classes as objects & message receivers<br>
+    - constants<br>
+
+- title: modules
+  url: https://github.com/bjpcjp/well-grounded-rubyist-book-notes/blob/master/ch04-modules.ipynb
+  tags: ruby language
+  px:
+  source: well grounded ruby - jupyter (github)
+  notes:
+    - basics (bundles of methods & constants)<br>
+    - method lookup<br>
+    - method_missing<br>
+    - naming conventions<br>
+
+- title: self
+  url: https://github.com/bjpcjp/well-grounded-rubyist-book-notes/blob/master/ch05-self.ipynb
+  tags: ruby language
+  px:
+  source: well grounded ruby - jupyter (github)
+  notes:
+    - introduction<br>
+    - scope | global variables<br>
+    - public | private | protected methods<br>
+    - top-level methods (definitions)<br>
+
+- title: control structures
+  url: https://github.com/bjpcjp/well-grounded-rubyist-book-notes/blob/master/ch06-control-flow.ipynb
+  tags: ruby language
+  px:
+  source: well grounded ruby - jupyter (github)
+  notes:
+    - conditionals (if, not, unless)<br>
+    - case<br>
+    - loops, iterators, code blocks<br>
+    - errors & exceptions<br>
+
+
+- title: syntax
+  url: https://github.com/bjpcjp/well-grounded-rubyist-book-notes/blob/master/ch07-essentials.ipynb
+  tags: ruby language
+  px:
+  source: well grounded ruby - jupyter (github)
+  notes:
+    - built-in modules & classes<br>
+    - string|symbol|array|hash|range|regexp|proc syntax<br>
+    - syntactical sugar<br>
+    - bang methods<br>
+    - to_* methods<br>
+    - booleans<br>
+    - comparison ops<br>
+    - object methods (a long list)<br>
+
+- title: symbols, strings, other scalars
+  url: https://github.com/bjpcjp/well-grounded-rubyist-book-notes/blob/master/ch08-scalars.ipynb
+  tags: ruby language
+  px:
+  source: well grounded ruby - jupyter (github)
+  notes:
+    - strings<br>
+    - symbols<br>
+    - numbers<br>
+    - times & dates<br>
+
+- title: collections & containers
+  url: https://github.com/bjpcjp/well-grounded-rubyist-book-notes/blob/master/ch09-collections-containers.ipynb
+  tags: ruby language
+  px:
+  source: well grounded ruby - jupyter (github)
+  notes:
+    - arrays vs hashes<br>
+    - arrays & collection handling<br>
+    - hashes<br>
+    - ranges<br>
+    - sets<br>
+
+- title: enumerables
+  url: https://github.com/bjpcjp/well-grounded-rubyist-book-notes/blob/master/ch10-enumerables.ipynb
+  tags: ruby language
+  px:
+  source: well grounded ruby - jupyter (github)
+  notes:
+    - <code>each</code><br>
+    - boolean queries<br>
+    - searches & indexes<br>
+    - element-wise ops<br>
+    - <code>each_*</code><br>
+    - <code>map</code> aka <code>collect</code><br>
+    - strings<br>
+    - sorting<br>
+    - enumerators<br>
+    - semantics & uses<br>
+
+- title: regexes
+  url: https://github.com/bjpcjp/well-grounded-rubyist-book-notes/blob/master/ch11-regexes.ipynb
+  tags: ruby language
+  px:
+  source: well grounded ruby - jupyter (github)
+  notes:
+    - writing them<br>
+    - building a pattern<br>
+    - matching, substrings & <code>MatchData</code><br>
+    - quantifiers, anchors, modifiers<br>
+    - strings <-> regexes<br>
+    - common uses<br>
+
+- title: file i/o
+  url: https://github.com/bjpcjp/well-grounded-rubyist-book-notes/blob/master/ch12-file-io.ipynb
+  tags: ruby language
+  px:
+  source: well grounded ruby - jupyter (github)
+  notes:
+    <strong>UNFINISHED</strong><br>
+    - basics<br>
+    - file ops<br>
+    - queries<br>
+    - directories<br>
+    - file utils<br>
+
+- title: object individualization
+  url: https://github.com/bjpcjp/well-grounded-rubyist-book-notes/blob/master/ch13-object-individualization.ipynb
+  tags: ruby language
+  px:
+  source: well grounded ruby - jupyter (github)
+  notes:
+    - singletons<br>
+    - modifying ruby core classes & modules<br>
+    - <code>BasicObject</code><br>
+
+- title: callables & runnables
+  url: https://github.com/bjpcjp/well-grounded-rubyist-book-notes/blob/master/ch14-callables-runnables.ipynb
+  tags: ruby language
+  px:
+  source: well grounded ruby - jupyter (github)
+  notes:
+    - procs<br>
+    - lambda and "stabby lambda"<br>
+    - methods as objects<br>
+    - instance_eval, class_eval<br>
+    - threads<br>
+    - system commands, backticks, exec<br>
+
+- title: callbacks, hooks & introspection
+  url: https://github.com/bjpcjp/well-grounded-rubyist-book-notes/blob/master/ch15-callbacks-hooks-introspection.ipynb
+  tags: ruby language
+  px:
+  source: well grounded ruby - jupyter (github)
+  notes:
+    - intro<br>
+    - interpreting object capability queries<br>
+    - introspection<br>
+    - tracing execution<br>
+    - callbacks & method inspection<br>
+
+- title: functional programming
+  url: https://github.com/bjpcjp/well-grounded-rubyist-book-notes/blob/master/ch16-functional-programming.ipynb
+  tags: ruby language
+  px:
+  source: well grounded ruby - jupyter (github)
+  notes:
+    - pure functions<br>
+    - immutability<br>
+    - higher-order functions<br>
+    - recursion (unfinished, btw.)
+
+# Ruby   url: /pdfs/ruby/programming-ruby-pickaxe/PICKAXE
+
+- title: pickaxe book online (pdf)
+  url: /pdfs/ruby/Programming-Ruby.pdf
+  tags: ruby language
+  px: https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.tMqs9-MzhjthxhMM63j9xQHaI8%26pid%3DApi&f=1
+  source: Pragmatic
+  notes:
+    
+- title: sockets
+  url: /pdfs/ruby/programming-ruby-pickaxe/PICKAXE19-apxA-sockets.pdf
+  tags: ruby
+  px:
+  source: Ruby pickaxe
+
+- title: setup
+  url: /pdfs/ruby/programming-ruby-pickaxe/PICKAXE19-chap01-startup.pdf
+  tags: ruby
+  px:
+  source: Ruby pickaxe
+
+- title: datatypes
+  url: /pdfs/ruby/programming-ruby-pickaxe/PICKAXE19-chap02-datatypes.pdf
+  tags: ruby
+  px:
+  source: Ruby pickaxe
+
+- title: objects, classes, variables
+  url: /pdfs/ruby/programming-ruby-pickaxe/PICKAXE19-chap03-objs-classes-vars.pdf
+  tags: ruby
+  px:
+  source: Ruby pickaxe
+
+- title: containers, blocks, iterators
+  url: /pdfs/ruby/programming-ruby-pickaxe/PICKAXE19-chap04-containers-blocks-iterators.pdf
+  tags: ruby
+  px:
+  source: Ruby pickaxe
+
+- title: inheritance, modules, mixins
+  url: /pdfs/ruby/programming-ruby-pickaxe/PICKAXE19-chap05-inherit-modules-mixins.pdf
+  tags: ruby
+  px:
+  source: Ruby pickaxe
+
+- title: numbers, strings, ranges
+  url: /pdfs/ruby/programming-ruby-pickaxe/PICKAXE19-chap06-nums-strings-ranges.pdf
+  tags: ruby
+  px:
+  source: Ruby pickaxe
+
+- title: regexes
+  url: /pdfs/ruby/programming-ruby-pickaxe/PICKAXE19-chap07-regexes.pdf
+  tags: ruby
+  px:
+  source: Ruby pickaxe
+
+- title: methods
+  url: /pdfs/ruby/programming-ruby-pickaxe/PICKAXE19-chap08-methods.pdf
+  tags: ruby
+  px:
+  source: Ruby pickaxe
+
+- title: expressions
+  url: /pdfs/ruby/programming-ruby-pickaxe/PICKAXE19-chap09-expressions.pdf
+  tags: ruby
+  px:
+  source: Ruby pickaxe
+
+- title: exceptions, catch, throw
+  url: /pdfs/ruby/programming-ruby-pickaxe/PICKAXE19-chap10-excepts-catch-throw.pdf
+  tags: ruby
+  px:
+  source: Ruby pickaxe
+
+- title: io (basic)
+  url: /pdfs/ruby/programming-ruby-pickaxe/PICKAXE19-chap11-basic-io.pdf
+  tags: ruby
+  px:
+  source: Ruby pickaxe
+
+- title: fibers, threads, procs
+  url: /pdfs/ruby/programming-ruby-pickaxe/PICKAXE19-chap12-fibers-threads-procs.pdf
+  tags: ruby
+  px:
+  source: Ruby pickaxe
+
+- title: unit testing
+  url: /pdfs/ruby/programming-ruby-pickaxe/PICKAXE19-chap13-unit-testing.pdf
+  tags: ruby
+  px:
+  source: Ruby pickaxe
+
+- title: debugging, benchmarking
+  url: /pdfs/ruby/programming-ruby-pickaxe/PICKAXE19-chap14-debug-benchmark.pdf
+  tags: ruby
+  px:
+  source: Ruby pickaxe
+
+- title: command line, rake
+  url: /pdfs/ruby/programming-ruby-pickaxe/PICKAXE19-chap15-cmndline-rake.pdf
+  tags: ruby
+  px:
+  source: Ruby pickaxe
+
+- title: namespaces, gems
+  url: /pdfs/ruby/programming-ruby-pickaxe/PICKAXE19-chap16-namespaces-gems.pdf
+  tags: ruby
+  px:
+  source: Ruby pickaxe
+
+- title: character encoding
+  url: /pdfs/ruby/programming-ruby-pickaxe/PICKAXE19-chap17-char-encoding.pdf
+  tags: ruby
+  px:
+  source: Ruby pickaxe
+
+- title: irb (interactive ruby)
+  url: /pdfs/ruby/programming-ruby-pickaxe/PICKAXE19-chap18-irb.pdf
+  tags: ruby
+  px:
+  source: Ruby pickaxe
+
+- title: documenting
+  url: /pdfs/ruby/programming-ruby-pickaxe/PICKAXE19-chap19-documenting.pdf
+  tags: ruby
+  px:
+  source: Ruby pickaxe
+
+- title: web basics
+  url: /pdfs/ruby/programming-ruby-pickaxe/PICKAXE19-chap20-web-basics.pdf
+  tags: ruby
+  px:
+  source: Ruby pickaxe
+
+- title: windows OS
+  url: /pdfs/ruby/programming-ruby-pickaxe/PICKAXE19-chap21-mswindows.pdf
+  tags: ruby
+  px:
+  source: Ruby pickaxe
+
+- title: datatypes
+  url: /pdfs/ruby/programming-ruby-pickaxe/PICKAXE19-chap22-datatypes.pdf
+  tags: ruby
+  px:
+  source: Ruby pickaxe
+
+- title: duck typing
+  url: /pdfs/ruby/programming-ruby-pickaxe/PICKAXE19-chap23-ducktypes.pdf
+  tags: ruby
+  px:
+  source: Ruby pickaxe
+
+- title: metaprogramming
+  url: /pdfs/ruby/programming-ruby-pickaxe/PICKAXE19-chap24-metaprogramming.pdf
+  tags: ruby
+  px:
+  source: Ruby pickaxe
+
+- title: reflection, object spaces
+  url: /pdfs/ruby/programming-ruby-pickaxe/PICKAXE19-chap25-reflect-objspaces.pdf
+  tags: ruby
+  px:
+  source: Ruby pickaxe
+
+- title: safety
+  url: /pdfs/ruby/programming-ruby-pickaxe/PICKAXE19-chap26-safety.pdf
+  tags: ruby
+  px:
+  source: Ruby pickaxe
+
+- title: arrays
+  url: /pdfs/ruby/programming-ruby-pickaxe/PICKAXE19-chap27-arrays.pdf
+  tags: ruby
+  px:
+  source: Ruby pickaxe (ch27 - stdlib)
+
+- title: basic objects
+  url: /pdfs/ruby/programming-ruby-pickaxe/PICKAXE19-chap27-basic-objects.pdf
+  tags: ruby
+  px:
+  source: Ruby pickaxe (ch27 - stdlib)
+
+- title: bignums (stdlib)
+  url: /pdfs/ruby/programming-ruby-pickaxe/PICKAXE19-chap27-bignums.pdf
+  tags: ruby
+  px:
+  source: Ruby pickaxe (ch27 - stdlib)
+
+- title: bindings
+  url: /pdfs/ruby/programming-ruby-pickaxe/PICKAXE19-chap27-bindings.pdf
+  tags: ruby
+  px:
+  source: Ruby pickaxe (ch27 - stdlib)
+
+- title: classes
+  url: /pdfs/ruby/programming-ruby-pickaxe/PICKAXE19-chap27-classes.pdf
+  tags: ruby
+  px:
+  source: Ruby pickaxe (ch27 - stdlib)
+
+- title: comparables
+  url: /pdfs/ruby/programming-ruby-pickaxe/PICKAXE19-chap27-comparables.pdf
+  tags: ruby
+  px:
+  source: Ruby pickaxe (ch27 - stdlib)
+
+- title: complex numbers
+  url: /pdfs/ruby/programming-ruby-pickaxe/PICKAXE19-chap27-complexnums.pdf
+  tags: ruby
+  px:
+  source: Ruby pickaxe (ch27 - stdlib)
+
+- title: directories
+  url: /pdfs/ruby/programming-ruby-pickaxe/PICKAXE19-chap27-directories.pdf
+  tags: ruby
+  px:
+  source: Ruby pickaxe (ch27 - stdlib)
+
+- title: encodings
+  url: /pdfs/ruby/programming-ruby-pickaxe/PICKAXE19-chap27-encodings.pdf
+  tags: ruby
+  px:
+  source: Ruby pickaxe (ch27 - stdlib)
+
+- title: enumerables
+  url: /pdfs/ruby/programming-ruby-pickaxe/PICKAXE19-chap27-enumerables.pdf
+  tags: ruby
+  px:
+  source: Ruby pickaxe (ch27 - stdlib)
+
+- title: enumerators
+  url: /pdfs/ruby/programming-ruby-pickaxe/PICKAXE19-chap27-enumerators.pdf
+  tags: ruby
+  px:
+  source: Ruby pickaxe (ch27 - stdlib)
+
+- title: error numbers
+  url: /pdfs/ruby/programming-ruby-pickaxe/PICKAXE19-chap27-error-numbers.pdf
+  tags: ruby
+  px:
+  source: Ruby pickaxe (ch27 - stdlib)
+
+- title: exceptions
+  url: /pdfs/ruby/programming-ruby-pickaxe/PICKAXE19-chap27-exceptions.pdf
+  tags: ruby
+  px:
+  source: Ruby pickaxe (ch27 - stdlib)
+
+- title: false class
+  url: /pdfs/ruby/programming-ruby-pickaxe/PICKAXE19-chap27-false.pdf
+  tags: ruby
+  px:
+  source: Ruby pickaxe (ch27 - stdlib)
+
+- title: fibers
+  url: /pdfs/ruby/programming-ruby-pickaxe/PICKAXE19-chap27-fibers.pdf
+  tags: ruby
+  px:
+  source: Ruby pickaxe (ch27 - stdlib)
+
+- title: files
+  url: /pdfs/ruby/programming-ruby-pickaxe/PICKAXE19-chap27-files.pdf
+  tags: ruby
+  px:
+  source: Ruby pickaxe (ch27 - stdlib)
+
+- title: filestats
+  url: /pdfs/ruby/programming-ruby-pickaxe/PICKAXE19-chap27-filestats.pdf
+  tags: ruby
+  px:
+  source: Ruby pickaxe (ch27 - stdlib)
+
+- title: filetests
+  url: /pdfs/ruby/programming-ruby-pickaxe/PICKAXE19-chap27-filetests.pdf
+  tags: ruby
+  px:
+  source: Ruby pickaxe (ch27 - stdlib)
+
+- title: fixnums
+  url: /pdfs/ruby/programming-ruby-pickaxe/PICKAXE19-chap27-fixnums.pdf
+  tags: ruby
+  px:
+  source: Ruby pickaxe (ch27 - stdlib)
+
+- title: floatnums
+  url: /pdfs/ruby/programming-ruby-pickaxe/PICKAXE19-chap27-floatnums.pdf
+  tags: ruby
+  px:
+  source: Ruby pickaxe (ch27 - stdlib)
+
+- title: garbage control
+  url: /pdfs/ruby/programming-ruby-pickaxe/PICKAXE19-chap27-garbage-control.pdf
+  tags: ruby
+  px:
+  source: Ruby pickaxe (ch27 - stdlib)
+
+- title: hashes
+  url: /pdfs/ruby/programming-ruby-pickaxe/PICKAXE19-chap27-hashes.pdf
+  tags: ruby
+  px:
+  source: Ruby pickaxe (ch27 - stdlib)
+
+- title: integers
+  url: /pdfs/ruby/programming-ruby-pickaxe/PICKAXE19-chap27-integers.pdf
+  tags: ruby
+  px:
+  source: Ruby pickaxe (ch27 - stdlib)
+
+- title: io
+  url: /pdfs/ruby/programming-ruby-pickaxe/PICKAXE19-chap27-io.pdf
+  tags: ruby
+  px:
+  source: Ruby pickaxe (ch27 - stdlib)
+
+- title: kernels
+  url: /pdfs/ruby/programming-ruby-pickaxe/PICKAXE19-chap27-kernels.pdf
+  tags: ruby
+  px:
+  source: Ruby pickaxe (ch27 - stdlib)
+
+- title: marshaling
+  url: /pdfs/ruby/programming-ruby-pickaxe/PICKAXE19-chap27-marshaling.pdf
+  tags: ruby
+  px:
+  source: Ruby pickaxe (ch27 - stdlib)
+
+- title: regex match data
+  url: /pdfs/ruby/programming-ruby-pickaxe/PICKAXE19-chap27-match-data.pdf
+  tags: ruby
+  px:
+  source: Ruby pickaxe (ch27 - stdlib)
+
+- title: trig & transcendental math
+  url: /pdfs/ruby/programming-ruby-pickaxe/PICKAXE19-chap27-math-trig-trans.pdf
+  tags: ruby
+  px:
+  source: Ruby pickaxe (ch27 - stdlib)
+
+- title: methods
+  url: /pdfs/ruby/programming-ruby-pickaxe/PICKAXE19-chap27-methods.pdf
+  tags: ruby
+  px:
+  source: Ruby pickaxe (ch27 - stdlib)
+
+- title: modules
+  url: /pdfs/ruby/programming-ruby-pickaxe/PICKAXE19-chap27-modules.pdf
+  tags: ruby
+  px:
+  source: Ruby pickaxe (ch27 - stdlib)
+
+- title: mutexes
+  url: /pdfs/ruby/programming-ruby-pickaxe/PICKAXE19-chap27-mutexes.pdf
+  tags: ruby
+  px:
+  source: Ruby pickaxe (ch27 - stdlib)
+
+- title: nil class
+  url: /pdfs/ruby/programming-ruby-pickaxe/PICKAXE19-chap27-nil.pdf
+  tags: ruby
+  px:
+  source: Ruby pickaxe (ch27 - stdlib)
+
+- title: numerics
+  url: /pdfs/ruby/programming-ruby-pickaxe/PICKAXE19-chap27-numerics.pdf
+  tags: ruby
+  px:
+  source: Ruby pickaxe (ch27 - stdlib)
+
+- title: objects
+  url: /pdfs/ruby/programming-ruby-pickaxe/PICKAXE19-chap27-objects.pdf
+  tags: ruby
+  px:
+  source: Ruby pickaxe (ch27 - stdlib)
+
+- title: object spaces
+  url: /pdfs/ruby/programming-ruby-pickaxe/PICKAXE19-chap27-objectspaces.pdf
+  tags: ruby
+  px:
+  source: Ruby pickaxe (ch27 - stdlib)
+
+- title: processes
+  url: /pdfs/ruby/programming-ruby-pickaxe/PICKAXE19-chap27-processes.pdf
+  tags: ruby
+  px:
+  source: Ruby pickaxe (ch27 - stdlib)
+
+- title: process GIDs
+  url: /pdfs/ruby/programming-ruby-pickaxe/PICKAXE19-chap27-process-GIDs.pdf
+  tags: ruby
+  px:
+  source: Ruby pickaxe (ch27 - stdlib)
+
+- title: process status
+  url: /pdfs/ruby/programming-ruby-pickaxe/PICKAXE19-chap27-process-statuses.pdf
+  tags: ruby
+  px:
+  source: Ruby pickaxe (ch27 - stdlib)
+
+- title: process sys
+  url: /pdfs/ruby/programming-ruby-pickaxe/PICKAXE19-chap27-process-sys.pdf
+  tags: ruby
+  px:
+  source: Ruby pickaxe (ch27 - stdlib)
+
+- title: process UIDs
+  url: /pdfs/ruby/programming-ruby-pickaxe/PICKAXE19-chap27-process-UIDs.pdf
+  tags: ruby
+  px:
+  source: Ruby pickaxe (ch27 - stdlib)
+
+- title: procs
+  url: /pdfs/ruby/programming-ruby-pickaxe/PICKAXE19-chap27-procs.pdf
+  tags: ruby
+  px:
+  source: Ruby pickaxe (ch27 - stdlib)
+
+- title: ranges
+  url: /pdfs/ruby/programming-ruby-pickaxe/PICKAXE19-chap27-ranges.pdf
+  tags: ruby
+  px:
+  source: Ruby pickaxe (ch27 - stdlib)
+
+- title: rationals
+  url: /pdfs/ruby/programming-ruby-pickaxe/PICKAXE19-chap27-rationals.pdf
+  tags: ruby
+  px:
+  source: Ruby pickaxe (ch27 - stdlib)
+
+- title: regexes
+  url: /pdfs/ruby/programming-ruby-pickaxe/PICKAXE19-chap27-regexes.pdf
+  tags: ruby
+  px:
+  source: Ruby pickaxe (ch27 - stdlib)
+
+- title: signals
+  url: /pdfs/ruby/programming-ruby-pickaxe/PICKAXE19-chap27-signals.pdf
+  tags: ruby
+  px:
+  source: Ruby pickaxe (ch27 - stdlib)
+
+- title: strings
+  url: /pdfs/ruby/programming-ruby-pickaxe/PICKAXE19-chap27-strings.pdf
+  tags: ruby
+  px:
+  source: Ruby pickaxe (ch27 - stdlib)
+
+- title: structs
+  url: /pdfs/ruby/programming-ruby-pickaxe/PICKAXE19-chap27-structs.pdf
+  tags: ruby
+  px:
+  source: Ruby pickaxe (ch27 - stdlib)
+
+- title: symbols
+  url: /pdfs/ruby/programming-ruby-pickaxe/PICKAXE19-chap27-symbols.pdf
+  tags: ruby
+  px:
+  source: Ruby pickaxe (ch27 - stdlib)
+
+- title: thread groups
+  url: /pdfs/ruby/programming-ruby-pickaxe/PICKAXE19-chap27-thread-groups.pdf
+  tags: ruby
+  px:
+  source: Ruby pickaxe (ch27 - stdlib)
+
+- title: threads
+  url: /pdfs/ruby/programming-ruby-pickaxe/PICKAXE19-chap27-threads.pdf
+  tags: ruby
+  px:
+  source: Ruby pickaxe (ch27 - stdlib)
+
+- title: time
+  url: /pdfs/ruby/programming-ruby-pickaxe/PICKAXE19-chap27-time.pdf
+  tags: ruby
+  px:
+  source: Ruby pickaxe (ch27 - stdlib)
+
+- title: true class
+  url: /pdfs/ruby/programming-ruby-pickaxe/PICKAXE19-chap27-true.pdf
+  tags: ruby
+  px:
+  source: Ruby pickaxe (ch27 - stdlib)
+
+- title: unbound
+  url: /pdfs/ruby/programming-ruby-pickaxe/PICKAXE19-chap27-unbound.pdf
+  tags: ruby
+  px:
+  source: Ruby pickaxe (ch27 - stdlib)
+
+- title: stdlib19
+  url: /pdfs/ruby/programming-ruby-pickaxe/PICKAXE19-chap28-stdlib19.pdf
+  tags: ruby
+  px:
+  source: Ruby pickaxe (ch27 - stdlib)
+
+- title: extensions
+  url: /pdfs/ruby/programming-ruby-pickaxe/PICKAXE19-chap29-extensions.pdf
+  tags: ruby
+  px:
+  source: Ruby pickaxe (ch27 - stdlib)
+
+
+# Ruby under the Microscope
+
+#- title: Programming Ruby - book - Ruby under Microscope
+#  url: /pdfs/ruby/ruby-under-microscope.pdf
+#  tags: ruby language
+#  px: /px/ruby/Ruby-Under-Microscope.png
+#  source: patshaughnessy
+#  notes: <a href="http://patshaughnessy.net/ruby-under-a-microscope">original link</a>
+
+- title: tokenization & parsing
+  url: /pdfs/ruby/rum-ch01-tokenization-parsing.pdf
+  tags: ruby language
+  px:
+  source: ruby under the microscope
+
+- title: compiling
+  url: /pdfs/ruby/rum-ch02-compilation.pdf
+  tags: ruby language
+  px:
+  source: ruby under the microscope
+  
+- title: code execution
+  url: /pdfs/ruby/rum-ch03-execution.pdf
+  tags: ruby language
+  px:
+  source: ruby under the microscope
+  
+- title: control & dispatching
+  url: /pdfs/ruby/rum-ch04-controls-dispatching.pdf
+  tags: ruby language
+  px:
+  source: ruby under the microscope
+  
+- title: objects & classes
+  url: /pdfs/ruby/rum-ch05-objects-classes.pdf
+  tags: ruby language
+  px:
+  source: ruby under the microscope
+  
+- title: object lookups
+  url: /pdfs/ruby/rum-ch06-lookups.pdf
+  tags: ruby language
+  px:
+  source: ruby under the microscope
+  
+- title: hash tables
+  url: /pdfs/ruby/rum-ch07-hash-tables.pdf
+  tags: ruby language
+  px:
+  source: ruby under the microscope
+  
+- title: blocks, lambdas and procs
+  url: /pdfs/ruby/rum-ch08-blocks-lambdas-procs.pdf
+  tags: ruby language
+  px:
+  source: ruby under the microscope
+  notes:
+    - blocks = closure in ruby<br>
+    - which is faster? (while vs each)<br>
+    - lambdas and procs<br>
+    - local variables inside a lambda<br>
+  
+- title: metaprogramming
+  url: /pdfs/ruby/rum-ch09-metaprogramming.pdf
+  tags: ruby language
+  px:
+  source: ruby under the microscope
+  notes:
+    - alternative ways to define methods<br>
+    - self and scope<br>
+    - closures (eval, instance_eval, binding)
+    - define_method<br>
+  
+- title: jruby & JVM
+  url: /pdfs/ruby/rum-ch10-jruby.pdf
+  tags: ruby language
+  px:
+  source: ruby under the microscope
+  
+- title: rubinius
+  url: /pdfs/ruby/rum-ch11-rubinius.pdf
+  tags: ruby language
+  px:
+  source: ruby under the microscope
+  
+- title: garbage collection
+  url: /pdfs/ruby/rum-ch12-garbage-collection.pdf
+  tags: ruby language
+  px:
+  source: ruby under the microscope
+
+# Eloquent Ruby
+# -----------------------------------------------------------------------
+
+- title: setup/intro
+  url: https://github.com/cocoa/eloquent-ruby/tree/master/chapter_01
+  tags: ruby language
+  px: 
+  source: eloquent ruby (pdf)
+  notes: 
+    - <a href="/pdfs/ruby/er-ch01-basics.pdf">book notes</a><br>
+    - format<br>
+    - comments<br>
+    - camel case & snake case<br>
+    - parentheses<br>
+    - semicolons & line folds<br>
+    - avoiding trouble; wrapup
+
+
+- title: control structures
+  url: /pdfs/ruby/er-ch02-control-structs.pdf
+  tags: ruby language
+  px: 
+  source: eloquent ruby (pdf)
+  notes: 
+    - if, unless, while, until<br>
+    - modifiers<br>
+    - each, not for<br>
+    - case<br>
+    - avoiding trouble; in the wild; wrapup
+
+
+- title: collections
+  url: https://github.com/cocoa/eloquent-ruby/tree/master/chapter_03
+  url: 
+  tags: ruby language
+  px: 
+  source: eloquent ruby (pdf)
+  notes: 
+    <a href="/pdfs/ruby/er-ch03-collections.pdf">book notes</a><br>
+    - literal shortcuts<br>
+    - arrays & hashes from method calls<br>
+    - running through your collection<br>
+    - beware the bang!<br>
+    - hash ordering<br>
+    - avoiding trouble - in the wild - wrapup
+  
+- title: strings
+  url: /pdfs/ruby/er-ch04-strings.pdf
+  tags: ruby language
+  px: 
+  source: eloquent ruby (pdf)
+  notes: 
+    - syntax<br>
+    - string methods<br>
+    - lines, characters & bytes<br>
+    - avoiding trouble; in the wild; wrapup
+  
+- title: regexes
+  url: /pdfs/ruby/er-ch05-regexes.pdf
+  tags: ruby language
+  px: 
+  source: eloquent ruby (pdf)
+  notes: 
+    - single-character matches<br>
+    - sets, ranges, alternatives<br>
+    - the asterik, aka star<br>
+    - Ruby regexes<br>
+    - beginnings & endings<br>
+    - avoiding trouble; in the wild; wrapup
+  
+- title: symbols
+  url: /pdfs/ruby/er-ch06-symbols.pdf
+  tags: ruby language
+  px: 
+  source: eloquent ruby (pdf)
+  notes: 
+    - two faces of strings<br>
+    - not quite a string<br>
+    - symbols "stand for something"<br>
+    - avoiding trouble; in the wild; wrapup
+  
+- title: objects
+  url: /pdfs/ruby/er-ch07-objects.pdf
+  tags: ruby language
+  px: 
+  source: eloquent ruby (pdf)
+  notes: 
+    - review - classes, instances, methods<br>
+    - objects all the way down<br>
+    - importance of being an object<br>
+    - public, private, protected objects<br>
+    - in the wild; wrapup
+  
+- title: datatypes (dynamic)
+  url: /pdfs/ruby/er-ch08-dynamic-typing.pdf
+  tags: ruby language
+  px: 
+  source: eloquent ruby (pdf)
+  notes: 
+    - shorter programs - not the way you expect<br>
+    - decoupling<br>
+    - ceremony vs clarity<br>
+    - avoiding trouble; in the wild; wrapup
+  
+- title: specs & testing
+  url: /pdfs/ruby/er-ch09-specs-testing.pdf
+  tags: ruby language
+  px: 
+  source: eloquent ruby (pdf)
+  notes: 
+    - <strong>test::unit</strong><br>
+    - assertions<br>
+    - don't test it - spec it<br>    
+    - readability<br>
+    - stubs & mocks<br>
+    - avoiding trouble; in the wild; wrapup
+  
+- title: classes & methods
+  url: /pdfs/ruby/er-ch10-classes-methods.pdf
+  tags: ruby language
+  px: 
+  source: eloquent ruby (pdf)
+  notes:
+    - compressing specs<br>
+    - methods for humans<br>
+    - ruby methods<br>
+    - one way out?<br>
+    - avoiding trouble; in the wild; wrapup
+  
+- title: operators
+  url: /pdfs/ruby/er-ch11-operators.pdf
+  tags: ruby language
+  px: 
+  source: eloquent ruby (pdf)
+  notes: 
+    - defining operators<br>
+    - examples<br>
+    - operating across classes<br>
+    - avoiding trouble; in the wild; wrapup
+  
+- title: objects & equality
+  url: /pdfs/ruby/er-ch12-object-equality.pdf
+  tags: ruby language
+  px: 
+  source: eloquent ruby (pdf)
+  notes: 
+    - document identifiers<br>
+    - multiple equality methods<br>
+    - <strong>==</strong><br>
+    - more <strong>==</strong> uses<br>
+    - well-behaved equality<br>
+    - <strong>===</strong> for case statements<br>
+    - <strong>eql?</strong> and hashes<br>
+    - well-behaved hash keys<br>
+    - avoiding trouble; in the wild; wrapup
+  
+- title: singletons
+  url: /pdfs/ruby/er-ch13-singletons.pdf
+  tags: ruby language
+  px: /px/ruby/singleton.png
+  source: eloquent ruby (pdf)
+  notes: 
+    - a puzzle<br>
+    - a hidden, but real, class<br>
+    - class methods<br>
+    - avoiding trouble; in the wild; wrapup
+  
+- title: class instance variables
+  url: /pdfs/ruby/er-ch14-class-instance-vars.pdf
+  tags: ruby language
+  px: 
+  source: eloquent ruby (pdf)
+  notes: 
+    - quick review<br>
+    - wandering variables<br>
+    - controlling data in your class<br>
+    - class instance variables & subclasses<br>
+    - convenience helpers<br>
+    - avoiding trouble; in the wild; wrapup
+  
+- title: modules & namespaces
+  url: /pdfs/ruby/er-ch15-modules-namespaces.pdf
+  tags: ruby language
+  px: 
+  source: eloquent ruby (pdf)
+  notes: 
+    - a place for your stuff<br>
+    - a home for utility methods<br>
+    - construction<br>
+    - modules are objects<br>
+    - avoiding trouble; in the wild; wrapup
+
+  
+- title: modules & mixins
+  url: /pdfs/ruby/er-ch16-modules-mixins.pdf
+  tags: ruby language
+  px: 
+  source: eloquent ruby (pdf)
+  notes: 
+    - better books with modules<br>
+    - mixin modules<br>
+    - module extensions<br>
+    - avoiding trouble; in the wild; wrapup
+  
+- title: blocks & iteration
+  url: /pdfs/ruby/er-ch17-blocks-iteration.pdf
+  tags: ruby language
+  px: 
+  source: eloquent ruby (pdf)
+  notes: 
+    - quick review<br>
+    - one word after another<br>
+    - as many iterators as you want<br>
+    - iterating over the ethereal<br>
+    - Enumerable - your iterator on steroids<br>
+    - avoiding trouble; in the wild; wrapup
+  
+- title: blocks & wrappers
+  url: /pdfs/ruby/er-ch18-blocks-execute-around.pdf
+  tags: ruby language
+  px:
+  source: eloquent ruby (pdf)
+  notes: 
+    - logging<br>
+    - when something absolutely MUST happen<br>
+    - initialization blocks<br>
+    - dragging your scope along with the block<br>
+    - carrying the answers back<br>
+    - avoiding trouble; in the wild; wrapup
+
+- title: blocks - deferred execution
+  url: /pdfs/ruby/er-ch19-blocks-deferred-execution.pdf
+  tags: ruby language
+  px:
+  source: eloquent ruby (pdf)
+  notes: 
+    - explicit blocks<br>
+    - callback problems<br>
+    - banking blocks<br>
+    - saving blocks for lazy initialization<br>
+    - instant block objects<br>
+    - avoiding trouble; in the wild; wrapup
+
+- title: metaprogramming - hooks
+  url: /pdfs/ruby/er-ch20-metaprogramming-hooks.pdf
+  tags: ruby language
+  px:
+  source: eloquent ruby (pdf)
+  notes: 
+    - waking up to a new subclass<br>
+    - modules want to be heard too<br>
+    - knowing when time is up<br>
+    - ...and a cast of thousands<br>
+    - avoiding trouble; in the wild; wrapup
+  
+- title: method_missing
+  url: /pdfs/ruby/er-ch21-metaprogramming-method_missing.pdf
+  tags: ruby language
+  px:
+  source: eloquent ruby (pdf)
+  notes: 
+    - meeting those methods<br>
+    - handling document errors<br>
+    - coping with constants<br>
+    - in the wild; wrapup
+  
+- title: method_missing - delegation
+  url: /pdfs/ruby/er-ch22-metaprogramming-method_missing-delegation.pdf
+  tags: ruby language
+  px:
+  source: eloquent ruby (pdf)
+  notes: 
+    - intro<br>
+    - challenges<br>
+    - <strong>method_missing</strong><br>
+    - more discriminating delegation<br>
+    - in the wild; wrapup
+  
+- title: method_missing - APIs
+  url: /pdfs/ruby/er-ch23-metaprogramming-method_missing-apis.pdf
+  tags: ruby language
+  px:
+  source: eloquent ruby (pdf)
+  notes: 
+    - form letters - one word at a time<br>
+    - <strong>method_missing</strong and magic methods<br>
+    - its the users that count<br>
+    - in the wild; wrapup
+  
+- title: monkey patching
+  url: /pdfs/ruby/er-ch24-metaprogramming-monkeypatching.pdf
+  tags: ruby language
+  px:
+  source: eloquent ruby (pdf)
+  notes: 
+    - classes are wide-open<br>
+    - fixing a broken class<br>
+    - improving classes<br>
+    - <strong>alias_method</strong><br>
+    - do anyting, anytime, to any class<br>
+    - avoiding trouble; in the wild; wrapup
+  
+- title: classes (self-modifying)
+  url: /pdfs/ruby/er-ch25-metaprogramming-self-modify-classes.pdf
+  tags: ruby language
+  px:
+  source: eloquent ruby (pdf)
+  notes: 
+    - open classes<br>
+    - logic in classes<br>
+    - class methods that change their class<br>
+    - avoiding trouble; in the wild; wrapup
+  
+- title: classes (modifying subclasses)
+  url: /pdfs/ruby/er-ch26-metaprogramming-self-modify-subclasses.pdf
+  tags: ruby language
+  px:
+  source: eloquent ruby (pdf)
+  notes: 
+    - a document of paragraphs<br>
+    - subclassing challenges<br>
+    - class methods that build instance methods<br>
+    - <strong>define_method</strong><br>
+    - advanced modification ideas<br>
+    - avoiding trouble - in the wild - wrapup
+  
+- title: dsl design (internal)
+  url: /pdfs/ruby/er-ch27-building-dsls.pdf
+  tags: ruby language
+  px:
+  source: eloquent ruby (pdf)
+  notes:
+    - little languages for big problems<br>
+    - dealing with XML<br>
+    - stepping over the line<br>
+    - pulling out the stops<br>
+    - in the wild - avoiding trouble - wrapup<br>
+  
+- title: dsl design (external)
+  url: /pdfs/ruby/er-ch28-external-dsls.pdf
+  tags: ruby language
+  px:
+  source: eloquent ruby (pdf)
+  notes: 
+    - the trouble with Ripper<br>
+    - internal is not the only DSL<br>
+    - regexes & parsing<br>
+    - <a href="https://rubygems.org/gems/treetop/versions/1.6.11">treetop</a><br>
+    - avoiding trouble; in the wild; wrapup
+  
+- title: rubygem package building
+  url: /pdfs/ruby/er-ch29-gem-packaging.pdf
+  tags: ruby language
+  px:
+  source: eloquent ruby (pdf)
+  notes: 
+    - using gems<br>
+    - gem versions<br>
+    - nuts & bolts<br>
+    - construction<br>
+    - uploading to a repository<br>
+    - automation<br>
+    - avoiding trouble; in the wild; wrapup
+  
+- title: ruby implementations (variants)
+  url: /pdfs/ruby/er-ch30-ruby-implementations.pdf
+  tags: ruby language
+  px:
+  source: eloquent ruby (pdf)
+  notes: 
+    - quick list of variants<br>
+    - MRI<br>
+    - YARV (next-gen MRI)<br>
+    - JRuby<br>
+    - Rubinius<br>
+    - avoiding trouble; in the wild; wrapup
+  
+# v20220817
+
+- title: core classes & methods, v3.1.2
+  url: https://ruby-doc.org/core-3.1.2/
+  tags: ruby language
+  px: https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Ruby_logo.svg/121px-Ruby_logo.svg.png
+  source: ruby-doc
+  notes: 
+
+- title: std library v3.1.2
+  url: https://ruby-doc.org/stdlib-3.1.2/
+  tags: ruby language
+  px: https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Ruby_logo.svg/121px-Ruby_logo.svg.png
+  source: ruby-doc
+  notes:
+    - see <code>lib/</code> in Ruby source code, or<br>
+    - <code>lib/ruby/version/</code> of an installation.
+
+- title: metaprogramming
+  url: https://akshaykhot.com/books/metaprogramming-ruby
+  tags: metaprogramming
+  px: https://akshaykhot.com/images/books/metaprogramming_ruby.jpeg
+  source: akshaykhot
+  notes: 
+    - the object model<br>
+    - open classes & monkeypatching<br>
+    - instance variables vs instance methods<br>
+    - classes are objects<br>
+    - method calls<br>
+    - <strong>kernel</strong> module<br>
+    - <strong>self</strong> keyword<br>
+    - dynamic definitions<br>
+    - dynamic method calls<br>
+    - <strong>method_missing</strong><br>
+    - <strong>instance_eval</strong><br>
+    - <strong>class_eval</strong><br>
+    - singleton methods & classes<br>
