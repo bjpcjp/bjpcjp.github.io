@@ -120,7 +120,7 @@
 - title: Book of Examples (Erich Prisner)
   url: /pdfs/gametheory/game-theory-examples.pdf
   px: /px/gametheory/game-theory-examples-cover.png
-  tags: game structures
+  tags: book of examples
   notes:
     <p>
       - Intro<br>
@@ -134,7 +134,6 @@
       - Behavioral strategies<br> 
       - Bibliography & index
     </p>
-  parent:
 
 - title:  To Get Good, Go After The Metagame (commonplace) 
   url: https://commoncog.com/blog/to-get-good-go-after-the-metagame/ 
