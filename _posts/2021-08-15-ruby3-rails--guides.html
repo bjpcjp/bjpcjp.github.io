@@ -1,0 +1,629 @@
+---
+layout: default-foundation-20210515
+title:  Ruby 3.0.2 & Rails links
+date:   2024-02-24 21:15
+categories: ruby rubyonrails
+---
+
+{% assign rubycore = "https://ruby-doc.org/core-3.0.2/" %}
+
+<div class="callout">
+  <h2>Ruby core language, v3.0.2</h2>
+
+  <a href="{{rubycore}}Array.html">Arrays</a> &nbsp; &nbsp;
+  <a href="{{rubycore}}Class.html">Classes</a> &nbsp; &nbsp;
+  <a href="{{rubycore}}Continuation.html">Continuations</a> &nbsp; &nbsp;
+  <a href="{{rubycore}}Dir.html">File directories</a> &nbsp; &nbsp;
+  <a href="{{rubycore}}Exception.html">Exceptions</a> &nbsp; &nbsp;
+  <a href="{{rubycore}}Fiber.html">Fibers</a> &nbsp; &nbsp; 
+  <a href="{{rubycore}}File.html">File IO Operations</a> &nbsp; &nbsp;
+  <a href="{{rubycore}}Hash.html">Hashes</a> &nbsp; &nbsp;
+  <a href="{{rubycore}}IO.html">IO Primitives</a> &nbsp; &nbsp;
+  <a href="{{rubycore}}Numeric.html">Numerics</a> &nbsp; &nbsp;
+  <a href="{{rubycore}}Object.html">Objects</a> &nbsp; &nbsp;
+  <a href="{{rubycore}}Proc.html">Procs</a> &nbsp; &nbsp;
+  <a href="{{rubycore}}Queue.html">Queues</a> &nbsp; &nbsp;
+  <a href="{{rubycore}}Random.html">Random Numbers</a> &nbsp; &nbsp;
+  <a href="{{rubycore}}Range.html">Ranges</a> &nbsp; &nbsp; 
+  <a href="{{rubycore}}Regexp.html">Regular expressions</a> &nbsp; &nbsp; 
+  <a href="{{rubycore}}String.html">Strings</a> &nbsp; &nbsp;
+  <a href="{{rubycore}}Struct.html">Structs</a> &nbsp; &nbsp;
+  <a href="{{rubycore}}Symbol.html">Symbols</a> &nbsp; &nbsp;
+  <a href="{{rubycore}}Thread.html">Thread</a> &nbsp; &nbsp;
+  <a href="{{rubycore}}Time.html">Time</a> &nbsp; &nbsp; 
+
+</div>
+
+<!-- **********************************************************
+      RUBY ON RAILS
+    *********************************************************** -->
+
+
+{% assign railsguides = "https://guides.rubyonrails.org/" %}
+{% assign actrec      = "active_record_basics.html" %}
+
+<h2>Rails Guides</h2>
+
+<div class="callout">  
+  <h4>Data Models</h4>
+
+  <a href="{{railsguides}}{{actrec}}#what-is-active-record">Definition</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{actrec}}#naming-conventions">Naming</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{actrec}}#schema-conventions">Schemas</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{actrec}}#creating-active-record-models">Creating a Model</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{actrec}}#overriding-the-naming-conventions">Custom Naming</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{actrec}}#create"><code>create</code></a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{actrec}}#read"><code>read</code></a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{actrec}}#update"><code>update</code></a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{actrec}}#delete"><code>delete</code></a> &nbsp; &nbsp;
+</div>
+
+<div class="callout">
+  <h4>DB Migrations</h4>
+
+  <a href="{{railsguides}}active_record_migrations.html#creating-a-migration">Creating</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}active_record_migrations.html#writing-a-migration">Table definitions</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}active_record_migrations.html#running-migrations">Run/Rollback/Setup/Reset</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}active_record_migrations.html#changing-existing-migrations">Editing</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}active_record_migrations.html#schema-dumping-and-you">Schema Files</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}active_record_migrations.html#active-record-and-referential-integrity">Reference Integrity</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}active_record_migrations.html#migrations-and-seed-data">Seed Data</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}active_record_migrations.html#old-migrations">Old Migrations</a> &nbsp; &nbsp;
+</div>
+
+<div class="callout">
+  <h4>Model Validators</h4>
+
+  <a href="{{railsguides}}active_record_validations.html#validations-overview">Basics</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}active_record_validations.html#validation-helpers">Helpers</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}active_record_validations.html#common-validation-options">Options</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}active_record_validations.html#strict-validations">Strict Validation</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}active_record_validations.html#conditional-validation">:if, :unless</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}active_record_validations.html#performing-custom-validations">Custom</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}active_record_validations.html#working-with-validation-errors">Error Handlers</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}active_record_validations.html#displaying-validation-errors-in-views">Error Displays</a> &nbsp; &nbsp;
+</div>
+
+<div class="callout">
+  <h4>Callbacks</h4>
+
+  <a href="{{railsguides}}active_record_callbacks.html#callbacks-overview">Setup</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}active_record_callbacks.html#available-callbacks">Options</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}active_record_callbacks.html#running-callbacks">Execution</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}active_record_callbacks.html#skipping-callbacks">Skipping</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}active_record_callbacks.html#halting-execution">Halting Execution</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}active_record_callbacks.html#relational-callbacks">Relationals</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}active_record_callbacks.html#conditional-callbacks">:if, :unless</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}active_record_callbacks.html#callback-classes">Classes</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}active_record_callbacks.html#transaction-callbacks">DB Transactions</a> &nbsp; &nbsp;
+</div>
+
+<div class="callout">
+  <h4>Model Associations</h4>
+
+  <a href="{{railsguides}}association_basics.html#the-belongs-to-association">belongs_to</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}association_basics.html#the-has-one-association">has_one</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}association_basics.html#the-has-many-association">has_many</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}association_basics.html#the-has-many-through-association">has_many :through</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}association_basics.html#the-has-one-through-association">has_one :through</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}association_basics.html#the-has-and-belongs-to-many-association">has_and_belongs_to_many</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}association_basics.html#polymorphic-associations">Polymorphic</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}association_basics.html#self-joins">Self Joins</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}association_basics.html#tips-tricks-and-warnings">Tips</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}association_basics.html#detailed-association-reference">Detailed Reference</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}association_basics.html#single-table-inheritance-sti">STI (single table inheritance)</a> &nbsp; &nbsp;
+</div>
+
+<div class="callout">
+  <h4>DB Queries</h4>
+
+  <a href="{{railsguides}}active_record_querying.html#retrieving-a-single-object">Get 1 Object</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}active_record_querying.html#retrieving-multiple-objects-in-batches">Get Multiple Objects (Batching)</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}active_record_querying.html#conditions">Where</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}active_record_querying.html#ordering">Ordering</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}active_record_querying.html#selecting-specific-fields">Specific Fields</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}active_record_querying.html#limit-and-offset">Limit, Offset</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}active_record_querying.html#group">Grouping</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}active_record_querying.html#having">Having</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}active_record_querying.html#overriding-conditions">Override Conditions</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}active_record_querying.html#null-relation">Null Relations</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}active_record_querying.html#readonly-objects">Read-Only</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}active_record_querying.html#locking-records-for-update">DB Locking</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}active_record_querying.html#joining-tables">Table Joins</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}active_record_querying.html#eager-loading-associations">Eager Loading</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}active_record_querying.html#scopes">Scopes</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}active_record_querying.html#dynamic-finders">find_by_</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}active_record_querying.html#enums">Enums</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}active_record_querying.html#understanding-method-chaining">Method Chains</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}active_record_querying.html#find-or-build-a-new-object">Find-or-Build</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}active_record_querying.html#finding-by-sql">find_by_sql</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}active_record_querying.html#existence-of-objects">exists?</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}active_record_querying.html#calculations">Calculations</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}active_record_querying.html#running-explain">Explain</a> &nbsp; &nbsp;
+</div>
+
+
+<div class="callout">
+  <h4>Generating (Rendering) Views</h4>
+
+  <a href="{{railsguides}}layouts_and_rendering.html#rendering-by-default-convention-over-configuration-in-action">Defaults</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}layouts_and_rendering.html#using-render">render</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}layouts_and_rendering.html#using-redirect-to">redirect_to</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}layouts_and_rendering.html#using-head-to-build-header-only-responses">head</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}layouts_and_rendering.html#asset-tag-helpers">Asset Tags</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}layouts_and_rendering.html#understanding-yield">yield</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}layouts_and_rendering.html#using-the-content-for-method">content_for</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}layouts_and_rendering.html#using-partials">Partials</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}layouts_and_rendering.html#using-nested-layouts">Nested Layouts</a> &nbsp; &nbsp;
+
+</div>
+
+<div class="callout">
+  <h4>View Helpers</h4>
+
+  (partial list. Many more listed <a href="https://api.rubyonrails.org/v6.1.4/classes/ActionView/Helpers.html">here in the API.</a>) &nbsp; &nbsp; 
+  <a href="{{railsguides}}action_view_helpers.html#assettaghelper">Asset Tag</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}action_view_helpers.html#atomfeedhelper">Atom Feed</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}action_view_helpers.html#benchmarkhelper">Benchmark</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}action_view_helpers.html#cachehelper">Cache</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}action_view_helpers.html#capturehelper">Capture</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}action_view_helpers.html#datehelper">Date</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}action_view_helpers.html#debughelper">Debug</a> &nbsp; &nbsp;
+
+</div>
+
+<div class="callout">
+  <h4>Forms</h4>
+
+  <a href="{{railsguides}}form_helpers.html#dealing-with-basic-forms">Basics</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}form_helpers.html#dealing-with-model-objects">Model Handling</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}form_helpers.html#making-select-boxes-with-ease">Select Boxes</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}form_helpers.html#using-date-and-time-form-helpers">Date & Time Helpers</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}form_helpers.html#choices-from-a-collection-of-arbitrary-objects">Arbitrary Object Collections</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}form_helpers.html#uploading-files">File Uploads</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}form_helpers.html#customizing-form-builders">Custom Form Builders</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}form_helpers.html#understanding-parameter-naming-conventions">Parameter Naming</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}form_helpers.html#forms-to-external-resources">External Resources</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}form_helpers.html#building-complex-forms">Complex Forms</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}form_helpers.html#using-tag-helpers-without-a-form-builder">Tag Helpers</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}form_helpers.html#using-form-tag-and-form-for">form_tag, form_for</a> &nbsp; &nbsp;
+</div>
+
+<div class="callout">
+  <h4>Controls</h4>
+
+  <a href="{{railsguides}}action_controller_overview.html">Controls</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}action_controller_overview.html#controller-naming-convention">Naming</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}action_controller_overview.html#methods-and-actions">Methods & Actions</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}action_controller_overview.html#parameters">Parameters</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}action_controller_overview.html#session">Sessions</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}action_controller_overview.html#cookies">Cookies</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}action_controller_overview.html#rendering-xml-and-json-data">XML & JSON</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}action_controller_overview.html#filters">Filters</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}action_controller_overview.html#request-forgery-protection">Request Forgery Protection</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}action_controller_overview.html#the-request-and-response-objects">Request & Response objects</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}action_controller_overview.html#http-authentications">HTTP Authenication (basic, digest, token)</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}action_controller_overview.html#streaming-and-file-downloads">Streaming & File Downloads</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}action_controller_overview.html#log-filtering">Log Filters</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}action_controller_overview.html#rescue">Rescues (500, 404, _from)</a> &nbsp; &nbsp;
+</div>
+
+<div class="callout">
+  <h4>Routing</h4>
+
+  <a href="{{railsguides}}routing.html#the-purpose-of-the-rails-router">Intro</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}routing.html#resource-routing-the-rails-default">Resources</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}routing.html#non-resourceful-routes">Non-Resource Routing</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}routing.html#customizing-resourceful-routes">Custom Resources</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}routing.html#inspecting-and-testing-routes">Inspect/Test</a> &nbsp; &nbsp;
+
+</div>
+
+<div class="callout">
+  <h4>Ruby Core Extensions</h4>
+
+  <a href="{{railsguides}}active_support_core_extensions.html#how-to-load-core-extensions">How to Load</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}active_support_core_extensions.html#extensions-to-all-objects">All Objects</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}active_support_core_extensions.html#extensions-to-module">Module</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}active_support_core_extensions.html#extensions-to-class">Class</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}active_support_core_extensions.html#extensions-to-string">String</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}active_support_core_extensions.html#extensions-to-symbol">Symbol</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}active_support_core_extensions.html#extensions-to-numeric">Numeric</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}active_support_core_extensions.html#extensions-to-integer">Integer</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}active_support_core_extensions.html#extensions-to-bigdecimal">BigDecimal</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}active_support_core_extensions.html#extensions-to-enumerable">Enumerable</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}active_support_core_extensions.html#extensions-to-array">Array</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}active_support_core_extensions.html#extensions-to-hash">Hash</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}active_support_core_extensions.html#extensions-to-regexp">Regexp</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}active_support_core_extensions.html#extensions-to-range">Range</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}active_support_core_extensions.html#extensions-to-date">Date</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}active_support_core_extensions.html#extensions-to-datetime">DateTime</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}active_support_core_extensions.html#extensions-to-time">Time</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}active_support_core_extensions.html#extensions-to-file">File</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}active_support_core_extensions.html#extensions-to-marshal">Marshal</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}active_support_core_extensions.html#extensions-to-nameerror">NameError</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}active_support_core_extensions.html#extensions-to-loaderror">LoadError</a> &nbsp; &nbsp;
+
+</div>
+
+{% assign mail = "action_mailer_basics.html" %}
+
+<div class="callout">
+  <h4>Email</h4>
+
+  <a href="{{railsguides}}{{mail}}#what-is-action-mailer">Intro</a> &nbsp; &nbsp; 
+  <a href="{{railsguides}}{{mail}}#walkthrough-to-generating-a-mailer">Build</a> &nbsp; &nbsp; 
+  <a href="{{railsguides}}{{mail}}#auto-encoding-header-values">Headers</a> &nbsp; &nbsp; 
+  <a href="{{railsguides}}{{mail}}#complete-list-of-action-mailer-methods">Methods</a> &nbsp; &nbsp; 
+  <a href="{{railsguides}}{{mail}}#mailer-views">Views</a> &nbsp; &nbsp; 
+  <a href="{{railsguides}}{{mail}}#action-mailer-layouts">Layouts</a> &nbsp; &nbsp; 
+  <a href="{{railsguides}}{{mail}}#previewing-emails">Previews</a> &nbsp; &nbsp; 
+  <a href="{{railsguides}}{{mail}}#generating-urls-in-action-mailer-views">Generating URLs</a> &nbsp; &nbsp; 
+  <a href="{{railsguides}}{{mail}}#adding-images-in-action-mailer-views">Adding Images</a> &nbsp; &nbsp; 
+  <a href="{{railsguides}}{{mail}}#sending-multipart-emails">Multipart Emails</a> &nbsp; &nbsp; 
+  <a href="{{railsguides}}{{mail}}#sending-emails-with-dynamic-delivery-options">Dynamic Delivery</a> &nbsp; &nbsp; 
+  <a href="{{railsguides}}{{mail}}#sending-emails-without-template-rendering">Without Template Rendering</a> &nbsp; &nbsp; 
+
+  <a href="{{railsguides}}{{mail}}#action-mailer-callbacks">Callbacks</a> &nbsp; &nbsp; 
+  <a href="{{railsguides}}{{mail}}#using-action-mailer-helpers">Helpers</a> &nbsp; &nbsp; 
+  <a href="{{railsguides}}{{mail}}#action-mailer-configuration">Config</a> &nbsp; &nbsp; 
+  <a href="{{railsguides}}{{mail}}#mailer-testing">Testing</a> &nbsp; &nbsp; 
+  <a href="{{railsguides}}{{mail}}#intercepting-and-observing-emails">Intercept & Observe</a> &nbsp; &nbsp; 
+
+</div>
+
+{% assign actjob = "active_job_basics.html" %}
+
+<div class="callout">
+  <h4>Background Jobs (Active Job)</h4>
+
+  <a href="{{railsguides}}{{actjob}}#creating-a-job">Create</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{actjob}}#job-execution">Execute</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{actjob}}#queues">Queues</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{actjob}}#callbacks">Callbacks</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{actjob}}#action-mailer">Email</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{actjob}}#internationalization">Internationalization</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{actjob}}#supported-types-for-arguments">Supported Arguments</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{actjob}}#exceptions">Exceptions</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{actjob}}#job-testing">Testing</a> &nbsp; &nbsp;
+</div>
+
+{% assign actsto = "active_storage_overview.html" %}
+
+<div class="callout">
+  <h4>File Attachments (Active Storage)</h4>
+
+  <a href="{{railsguides}}{{actsto}}#setup">Setup</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{actsto}}#attaching-files-to-records">Attaching</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{actsto}}#removing-files">Removing</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{actsto}}#linking-to-files">Linking</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{actsto}}#downloading-files">Downloading</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{actsto}}#analyzing-files">Analyzing</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{actsto}}#transforming-images">Images</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{actsto}}#previewing-files">Previewing</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{actsto}}#direct-uploads">Uploads</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{actsto}}#discarding-files-stored-during-system-tests">System Tests</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{actsto}}#discarding-files-stored-during-integration-tests">Integration Tests</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{actsto}}#implementing-support-for-other-cloud-services">Other Cloud Services</a> &nbsp; &nbsp;
+</div>
+
+
+{% assign actcab = "action_cable_overview.html" %}
+
+<div class="callout">
+  <h4>WebSockets (Action Cable)</h4>
+
+  <a href="{{railsguides}}{{actcab}}#terminology">Terminology</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{actcab}}#server-side-components">Server-Side</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{actcab}}#client-side-components">Client-Side</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{actcab}}#streams">Streams</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{actcab}}#broadcastings">Broadcasting</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{actcab}}#subscriptions">Subscriptions</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{actcab}}#passing-parameters-to-channels">Params & Channels</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{actcab}}#rebroadcasting-a-message">Re-Broadcasting</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{actcab}}#full-stack-examples">Examples</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{actcab}}#configuration">Configuration</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{actcab}}#running-standalone-cable-servers">Standalone Cable Servers</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{actcab}}#dependencies">Dependencies</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{actcab}}#deployment">Deployment</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{actcab}}#testing">Testing</a> &nbsp; &nbsp;
+</div>
+
+{% assign i18n = "i18n.html" %}
+
+<div class="callout">
+  <h4>Internationalization API</h4>
+
+  <a href="{{railsguides}}{{i18n}}#how-i18n-in-ruby-on-rails-works">Intro</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{i18n}}#setup-the-rails-application-for-internationalization">Setup</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{i18n}}#internationalization-and-localization">Localization</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{i18n}}#overview-of-the-i18n-api-features">API Features</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{i18n}}#how-to-store-your-custom-translations">Custom Translations</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{i18n}}#customize-your-i18n-setup">Custom Setup</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{i18n}}#translating-model-content">Translating Model Content</a> &nbsp; &nbsp;
+</div>
+
+
+{% assign tst = "testing.html" %}
+
+<div class="callout">
+  <h4>Testing</h4>
+
+  <a href="{{railsguides}}{{tst}}#rails-sets-up-for-testing-from-the-word-go">Setup</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{tst}}#the-test-environment">Test Environment</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{tst}}#rails-meets-minitest">Minitest</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{tst}}#available-assertions">Assertions</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{tst}}#rails-specific-assertions">Assertions (Rails-specific)</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{tst}}#a-brief-note-about-test-cases">Test Cases</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{tst}}#the-rails-test-runner">Test Runner</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{tst}}#parallel-testing">Parallel Testing</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{tst}}#the-test-database">Test DB</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{tst}}#model-testing">Model Tests</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{tst}}#system-testing">System Tests</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{tst}}#integration-testing">Integration Tests</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{tst}}#functional-tests-for-your-controllers">Controller Tests</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{tst}}#testing-routes">Router Tests</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{tst}}#testing-views">View Tests</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{tst}}#testing-helpers">Helper Tests</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{tst}}#testing-your-mailers">Email Tests</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{tst}}#testing-jobs">Background Job Tests</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{tst}}#testing-action-cable">Websocket Tests</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{tst}}#additional-testing-resources">Resources</a> &nbsp; &nbsp;
+</div>
+
+{% assign sec = "security.html" %}
+
+<div class="callout">
+  <h4>Security</h4>
+
+  <a href="{{railsguides}}{{sec}}#sessions">Sessions</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{sec}}#cross-site-request-forgery-csrf">CSRF</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{sec}}#redirection-and-files">Redirection & Files</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{sec}}#intranet-and-admin-security">Intranets & Admin</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{sec}}#user-management">User Management</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{sec}}#injection">Injection</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{sec}}#unsafe-query-generation">Unsafe Queries</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{sec}}#default-headers">Headers</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{sec}}#environmental-security">Custom Credentials</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{sec}}#dependency-management-and-cves">Dependencies</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{sec}}#additional-resources">Resources</a> &nbsp; &nbsp;
+</div>
+
+{% assign dbg = "debugging.html" %}
+
+<!--
+<div class="callout">
+  <h4>Debugging</h4>
+
+  <a href="{{railsguides}}{{dbg}}#view-helpers-for-debugging">debug, to_yaml, inspect</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{dbg}}#the-logger">Logger</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{dbg}}#debugging-with-the-byebug-gem">byebug</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{dbg}}#debugging-with-the-web-console-gem">web-console</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{dbg}}#debugging-memory-leaks">Memory Leaks</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{dbg}}#plugins-for-debugging">Plugins</a> &nbsp; &nbsp;
+</div>
+-->
+
+{% assign config = "configuring.html" %}
+
+<div class="callout">
+  <h4>Configuration</h4>
+
+  <a href="{{railsguides}}{{config}}#locations-for-initialization-code">Code Locations</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{config}}#running-code-before-rails">Code before Rails</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{config}}#rails-general-configuration">General Options</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{config}}#configuring-assets">Assets</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{config}}#configuring-generators">Generators</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{config}}#configuring-middleware">Middleware</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{config}}#configuring-i18n">I18N</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{config}}#configuring-active-model">Models</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{config}}#configuring-active-record">Active Record</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{config}}#configuring-action-controller">Controllers</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{config}}#configuring-action-dispatch">Dispatchers</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{config}}#configuring-action-view">Views</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{config}}#configuring-action-mailbox">Email</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{config}}#configuring-active-support">Active Support</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{config}}#configuring-active-job">Background Jobs</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{config}}#configuring-action-cable">Websockets</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{config}}#configuring-active-storage">File Attachments</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{config}}#results-of-config-load-defaults">Defaults</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{config}}#configuring-a-database">Databases</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{config}}#connection-preference">Connections</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{config}}#creating-rails-environments">Environments</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{config}}#deploy-to-a-subdirectory">Relative Root URLs</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{config}}#rails-environment-settings">Rails Environments</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{config}}#using-initializer-files">Initializers</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{config}}#initialization-events">Initialization Events</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{config}}#database-pooling">DB Pools</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{config}}#custom-configuration">Custom Configs</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{config}}#search-engines-indexing">SEO</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{config}}#evented-file-system-monitor">File System Monitor</a> &nbsp; &nbsp;
+</div>
+
+{% assign cli = "command_line.html" %}
+
+<div class="callout">
+  <h4>CLI (command line)</h4>
+  <a href="{{railsguides}}{{cli}}#rails-new">new</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{cli}}#bin-rails-server"><code>server</code></a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{cli}}#bin-rails-generate"><code>generate</code></a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{cli}}#bin-rails-console"><code>console</code></a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{cli}}#bin-rails-dbconsole"><code>dbconsole</code></a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{cli}}#bin-rails-runner"><code>runner</code></a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{cli}}#bin-rails-destroy"><code>destroy</code></a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{cli}}#bin-rails-about"><code>about</code></a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{cli}}#bin-rails-assets"><code>assets</code></a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{cli}}#bin-rails-db"><code>db</code></a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{cli}}#bin-rails-notes"><code>notes</code></a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{cli}}#bin-rails-routes"><code>routes</code></a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{cli}}#bin-rails-test"><code>test</code></a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{cli}}#bin-rails-tmp"><code>tmp</code></a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{cli}}#miscellaneous">miscellaneous</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{cli}}#custom-rake-tasks">custom rake tasks</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{cli}}#the-rails-advanced-command-line">advanced topics</a> &nbsp; &nbsp;
+</div>
+
+
+{% assign astpipe = "asset_pipeline.html" %}
+
+<div class="callout">
+  <h4>Asset Pipeline</h4>
+
+  <a href="{{railsguides}}{{astpipe}}#main-features">Features</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{astpipe}}#what-is-fingerprinting-and-why-should-i-care">Fingerprinting</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{astpipe}}#how-to-use-the-asset-pipeline">How to Use</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{astpipe}}#in-development">Development Topics</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{astpipe}}#in-production">Production Topics</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{astpipe}}#customizing-the-pipeline">Customization</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{astpipe}}#assets-cache-store">Caches</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{astpipe}}#adding-assets-to-your-gems">Assets & Gems</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{astpipe}}#making-your-library-or-gem-a-pre-processor">Making a Preprocessor</a> &nbsp; &nbsp;
+</div>
+
+{% assign zeit = "autoloading_and_reloading_constants.html" %}
+
+<div class="callout">
+  <h4>Autoloading & Reloading Constants (Zeitwerk mode (Rails 6+))</h4>
+
+  <a href="{{railsguides}}{{zeit}}#introduction">Intro</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{zeit}}#enabling-zeitwerk-mode">Enabling</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{zeit}}#project-structure">Structure</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{zeit}}#autoload-paths">Autoload Paths</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{zeit}}#$load-path"><code>$LOAD_PATH</code></a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{zeit}}#reloading">Reloading</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{zeit}}#eager-loading">Eager Loading</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{zeit}}#single-table-inheritance">Single Table Inheritance (STI)</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{zeit}}#customizing-inflections">Inflections</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{zeit}}#troubleshooting">Troubleshooting</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{zeit}}#rails-autoloaders"><code>Rails.autoloaders</code></a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{zeit}}#differences-with-classic-mode">Vs Classic Mode</a> &nbsp; &nbsp;
+
+</div>
+
+{% assign cache = "caching_with_rails.html" %}
+
+<div class="callout">
+  <h4>Caching</h4>
+
+  <a href="{{railsguides}}{{cache}}#basic-caching">Basic Techniques</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{cache}}#cache-stores">Storage Options</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{cache}}#cache-keys">Keys</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{cache}}#conditional-get-support">Conditional GET</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{cache}}#caching-in-development">Development Topics</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{cache}}#references">References</a> &nbsp; &nbsp;
+</div>
+
+{% assign api = "api_app.html" %}
+
+<div class="callout">
+  <h4>API-only Applications</h4>
+
+  <a href="{{railsguides}}{{api}}#what-is-an-api-application-questionmark">Definition</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{api}}#why-use-rails-for-json-apis-questionmark">Why Rails?</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{api}}#the-basic-configuration">Setup</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{api}}#choosing-middleware">Middleware</a> &nbsp; &nbsp;
+  <a href="{{railsguides}}{{api}}#choosing-controller-modules">Controller Modules</a> &nbsp; &nbsp;
+</div>
+
+<!--
+RAILS FROM SCRATCH _ MIKE HARTL
+-->
+
+{% assign hartl = "/pdfs/rails/hartl/" %}
+
+<div class="callout">
+  <h2>Rails from Scratch (Hartl)</h2>
+
+    <a href="{{hartl}}ch01.pdf">                    ch01</a> &nbsp; &nbsp;
+    <a href="{{hartl}}ch02.pdf">                    ch02</a> &nbsp; &nbsp;
+
+    <a href="{{hartl}}ch03-dynamic-pages.pdf">      dynamic pages</a> &nbsp; &nbsp;
+    <a href="{{hartl}}ch03.pdf">                    ch03</a> &nbsp; &nbsp;
+    <a href="{{hartl}}ch03-setup-repos.pdf">        repo setup</a> &nbsp; &nbsp;
+    <a href="{{hartl}}ch03-static-pages.pdf">       static pages</a> &nbsp; &nbsp;
+    <a href="{{hartl}}ch03-testing-advanced.pdf">   testing (adv)</a> &nbsp; &nbsp;
+    <a href="{{hartl}}ch03-testing.pdf">            testing</a> &nbsp; &nbsp;
+
+    <a href="{{hartl}}ch04.pdf">                    ch04</a> &nbsp; &nbsp;
+    <a href="{{hartl}}ch04-classes.pdf">            classes</a> &nbsp; &nbsp;
+    <a href="{{hartl}}ch04-ruby-helpers.pdf">       helpers</a> &nbsp; &nbsp;
+    <a href="{{hartl}}ch04-stylesheets.pdf">        stylesheets</a> &nbsp; &nbsp;
+
+    <a href="{{hartl}}ch05-asset-pipeline.pdf">     asset pipeline</a> &nbsp; &nbsp;
+    <a href="{{hartl}}ch05-bootstrap.pdf">          bootstrap CSS</a> &nbsp; &nbsp;
+    <a href="{{hartl}}ch05-layout.pdf">             layouts</a> &nbsp; &nbsp;
+    <a href="{{hartl}}ch05-links-routes.pdf">       links & routes</a> &nbsp; &nbsp;
+    <a href="{{hartl}}ch05.pdf">                    ch05</a> &nbsp; &nbsp;
+    <a href="{{hartl}}ch05-signup-setup.pdf">       signups</a> &nbsp; &nbsp;
+
+    <a href="{{hartl}}ch06.pdf">                    ch06</a> &nbsp; &nbsp;
+    <a href="{{hartl}}ch06-secure-password.pdf">    secure passwords</a> &nbsp; &nbsp;
+    <a href="{{hartl}}ch06-user-model.pdf">         user models</a> &nbsp; &nbsp;
+    <a href="{{hartl}}ch06-user-validation.pdf">    user validation</a> &nbsp; &nbsp;
+
+    <a href="{{hartl}}ch07-byebug.pdf">             byebug</a> &nbsp; &nbsp;
+    <a href="{{hartl}}ch07-debug.pdf">              debugging</a> &nbsp; &nbsp;
+    <a href="{{hartl}}ch07-gravatars.pdf">          gravatars</a> &nbsp; &nbsp;
+    <a href="{{hartl}}ch07.pdf">                    ch07</a> &nbsp; &nbsp;
+    <a href="{{hartl}}ch07-postgres-setup.pdf">     postgresql</a> &nbsp; &nbsp;
+    <a href="{{hartl}}ch07-puma-setup.pdf">         puma server</a> &nbsp; &nbsp;
+    <a href="{{hartl}}ch07-signup-fail.pdf">        signup failures</a> &nbsp; &nbsp;
+    <a href="{{hartl}}ch07-signup-form.pdf">        signup form</a> &nbsp; &nbsp;
+    <a href="{{hartl}}ch07-signup-good.pdf">        signup ok</a> &nbsp; &nbsp;
+    <a href="{{hartl}}ch07-ssl.pdf">                ssl</a> &nbsp; &nbsp;
+    <a href="{{hartl}}ch07-user-resource.pdf">      user resources</a> &nbsp; &nbsp;
+
+    <a href="{{hartl}}ch08-login-action.pdf">       login actions</a> &nbsp; &nbsp;
+    <a href="{{hartl}}ch08-login-sessions.pdf">     login sessions</a> &nbsp; &nbsp;
+    <a href="{{hartl}}ch08-logout.pdf">             logout</a> &nbsp; &nbsp;
+    <a href="{{hartl}}ch08.pdf">                    ch08</a> &nbsp; &nbsp;
+
+    <a href="{{hartl}}ch09.pdf">                    ch09</a> &nbsp; &nbsp;
+    <a href="{{hartl}}ch09-heroku-maintain-mode.pdf">heroku maintain mode</a> &nbsp; &nbsp;
+    <a href="{{hartl}}ch09-remember-checkbox.pdf">  remember checkbox</a> &nbsp; &nbsp;
+    <a href="{{hartl}}ch09-remember-me.pdf">        remember me</a> &nbsp; &nbsp;
+    <a href="{{hartl}}ch09-remember-tests.pdf">     remember tests</a> &nbsp; &nbsp;
+
+    <a href="{{hartl}}ch10.pdf">                    ch10</a> &nbsp; &nbsp;
+    <a href="{{hartl}}ch10-user-auth.pdf">          user authorization</a> &nbsp; &nbsp;
+    <a href="{{hartl}}ch10-user-delete.pdf">        user delete</a> &nbsp; &nbsp;
+    <a href="{{hartl}}ch10-user-pagination.pdf">    user pagination</a> &nbsp; &nbsp;
+    <a href="{{hartl}}ch10-user-updates.pdf">       user updates</a> &nbsp; &nbsp;
+
+    <a href="{{hartl}}ch11.pdf">                    ch11</a> &nbsp; &nbsp;
+    <a href="{{hartl}}ch11-activation-action.pdf">  activations</a> &nbsp; &nbsp;
+    <a href="{{hartl}}ch11-activation-email.pdf">   activation email</a> &nbsp; &nbsp;
+    <a href="{{hartl}}ch11-activation-resource.pdf">activation resource</a> &nbsp; &nbsp;
+    <a href="{{hartl}}ch11-activation-sendgrid.pdf">activation (sendgrid)</a> &nbsp; &nbsp;
+
+    <a href="{{hartl}}ch12.pdf">                    ch12</a> &nbsp; &nbsp;
+    <a href="{{hartl}}ch12-pwd-reset-action.pdf">   password reset</a> &nbsp; &nbsp;
+    <a href="{{hartl}}ch12-pwd-reset-email.pdf">    password reset email</a> &nbsp; &nbsp;
+    <a href="{{hartl}}ch12-pwd-reset-resource.pdf"> password reset resource</a> &nbsp; &nbsp;
+
+    <a href="{{hartl}}ch13.pdf">                    ch13</a> &nbsp; &nbsp;
+    <a href="{{hartl}}ch13-micropost-model.pdf">    micropost model</a> &nbsp; &nbsp;
+    <a href="{{hartl}}ch13-micropost-show.pdf">     micropost show</a> &nbsp; &nbsp;
+    <a href="{{hartl}}ch13-micropost-image-active-storage.pdf">active storage</a> &nbsp; &nbsp;
+    <a href="{{hartl}}ch13-micropost-image-aws-s3.pdf">       images-s3-aws</a> &nbsp; &nbsp;
+    <a href="{{hartl}}ch13-micropost-protofeed.pdf">          micropost protofeed</a> &nbsp; &nbsp;
+    <a href="{{hartl}}ch13-micropost-destroy.pdf">            micropost destroy</a> &nbsp; &nbsp;
+    <a href="{{hartl}}ch13-conclusion.pdf">                   conclusion</a> &nbsp; &nbsp;
+
+    <a href="{{hartl}}ch14.pdf">                    ch14</a> &nbsp; &nbsp;
+    <a href="{{hartl}}ch14-following-ui.pdf">       following-ui</a> &nbsp; &nbsp;
+    <a href="{{hartl}}ch14-relations.pdf">       relations</a> &nbsp; &nbsp;
+
+</div>
+
+<div class="callout">
+  <h2>Various resources</h2>
+
+  <a href="https://ruby-doc.org/stdlib-3.0.2/">Ruby Std Library v3.0.2</a> &nbsp; &nbsp; 
+  <a href="https://github.com/markets/awesome-ruby">Awesome Ruby (GitHub)</a> &nbsp; &nbsp; 
+  <a href="https://github.com/dpaluy/awesome-rails">Awesome Rails (Github)</a> &nbsp; &nbsp;
+  <a href="https://hn.algolia.com/?dateRange=pastYear&page=0&prefix=false&query=rails&sort=byPopularity&type=story">Hacker News mentions</a> &nbsp; &nbsp;
+  <a href="https://rubygems.org/">RubyGems home</a> &nbsp; &nbsp;
+  <a href="https://www.ruby-toolbox.com/categories">Ruby Toolbox</a> &nbsp; &nbsp;
+</div>
+
