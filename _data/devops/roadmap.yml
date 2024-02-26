@@ -1123,7 +1123,7 @@
   tags: linux CLI 
   source: flaviocopes
 
-- url: 12-factor-apps.pdf
+- url: /pdfs/devops/12-factor-apps.pdf
   title: 12-factor apps
   tags: 12 factor apps
   pic:
