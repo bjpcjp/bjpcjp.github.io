@@ -1,11 +1,6 @@
-{% assign domain_regexer = 'regex = %r{https?://(?:www\.)?([^/\s]+)}' %}
-
 <div style="column-count: 2;">
 
 {%- for record in records["list"] -%}
-	{% if record[1]['is_article'] == "1" %}
-
-	{% assign domain = record[1]['resolved_url'] %}
 
 	<div class="card">
 
@@ -31,8 +26,6 @@
 		{% endif %}
 
 	</div>
-
-	{% endif %}
 
 {%- endfor -%}
 
