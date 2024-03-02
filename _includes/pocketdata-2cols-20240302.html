@@ -1,0 +1,40 @@
+{% if include.compressed == True %}
+
+	<div style="column-count: 2;">
+		{%- for record in records["list"] -%}
+			<a href="{{record[1]['resolved_url']}}">
+				{{record[1]['resolved_title']}}</a><br>
+		{% endfor %}
+	</div>
+
+{% else %}
+	<div style="column-count: 2;">
+	{%- for record in records["list"] -%}
+		<div class="card">
+			<div class="card-divider">
+				<h4>
+				<a href="{{record[1]['resolved_url']}}">
+					{{record[1]['resolved_title']}}</a>
+				</h4>
+			</div>
+
+			<!-- TOP_IMAGE_URL -->
+			{% if record[1]['top_image_url'] %}
+			<div class="card-image">
+				<img class="thumbnail" src="{{record[1]['top_image_url']}}" />
+			</div>
+			{% endif %}
+		
+		<!-- EXCERPT -->
+			{% if record[1]['excerpt'] != "" %}
+				<div class="card-section">
+					<p>{{record[1]['excerpt']}}</p>
+				</div>
+			{% endif %}
+
+		</div>
+	{%- endfor -%}
+	</div>
+
+{% endif %}
+
