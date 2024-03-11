@@ -4,6 +4,8 @@
 	<div style="column-count: 2;">
 		{%- for record in records["list"] -%}
 
+			<div style="padding:0.5em;">
+
 			<!-- build html link with title & url -->
 			{% if record[1]['resolved_title'] == "" %}
 				{% assign usethis = record[1]['resolved_url'] %}
@@ -14,8 +16,16 @@
 			<a href="{{record[1]['resolved_url']}}">
 				{{usethis}}</a><br>
 
-			<!-- check tags here
-			<code>{{record[1]['tags']}}</code>  -->
+			<!-- check tags here -->
+			<!--<small>tags: {{record[1]['tags']}}</small>-->
+			<small>
+			{% for tag in record[1]['tags'] %}
+				{% if tag[0] != "python" %}
+					{{tag[0]}} &nbsp; &nbsp;
+				{% endif %}
+			{% endfor %}
+			</small><br>
+			</div>
 
 		{% endfor %}
 	</div>

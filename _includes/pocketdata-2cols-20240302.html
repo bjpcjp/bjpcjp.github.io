@@ -1,8 +1,10 @@
 {% if include.compressed == true %}
 
+	<!-- compressed format -->
 	<div style="column-count: 2;">
 		{%- for record in records["list"] -%}
 
+			<!-- build html link with title & url -->
 			{% if record[1]['resolved_title'] == "" %}
 				{% assign usethis = record[1]['resolved_url'] %}
 			{% else %}
@@ -12,23 +14,21 @@
 			<a href="{{record[1]['resolved_url']}}">
 				{{usethis}}</a><br>
 
+			<!-- check tags here
+			<code>{{record[1]['tags']}}</code>  -->
+
 		{% endfor %}
 	</div>
 
 {% else %}
 
+	<!-- uncompressed format (image, excerpt, title, url -->
 	<div style="column-count: 2;">
 	{%- for record in records["list"] -%}
 		<div class="card">
 			<div class="card-divider">
 				
-				<!--
-				<h4>
-				<a href="{{record[1]['resolved_url']}}">
-					{{record[1]['resolved_title']}}</a>
-				</h4>
-				-->
-
+				<!-- build html link with title & url -->
 				{% if record[1]['resolved_title'] == "" %}
 					{% assign usethis = record[1]['resolved_url'] %}
 				{% else %}
@@ -47,12 +47,15 @@
 			</div>
 			{% endif %}
 		
-		<!-- EXCERPT -->
+			<!-- EXCERPT -->
 			{% if record[1]['excerpt'] != "" %}
 				<div class="card-section">
 					<p>{{record[1]['excerpt']}}</p>
 				</div>
 			{% endif %}
+
+			<!-- check tags here 
+			<code>{{record[1]['tags']}}</code> -->
 
 		</div>
 	{%- endfor -%}
