@@ -1,0 +1,11 @@
+---
+title: raindrop bookmarks
+layout: default-foundation-20210515
+---
+
+{% assign bookmarks = site.data.raindrop.raindrop_all_20241216 %}
+{% assign tagpairs  = site.data.raindrop.raindrop_all_20241216_tagpairs %}
+#bookmarks: {{bookmarks.size}} &nbsp; #tagpairs: {{tagpairs.size}}<br>
+{% for tagpair in tagpairs %}
+	{{tagpair}}<br>
+{% endfor %}

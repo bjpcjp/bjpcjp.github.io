@@ -1,0 +1,478 @@
+---
+title: semiconductors
+layout: default-foundation-20210515
+tags: semiconductors
+date: 2025-01-04
+---
+
+<div class="callout">
+</div>
+
+<div style="columns:2;">
+
+  <div class="card">
+    <div class="card-divider">
+      <strong><a href="/pdfs/chips/Signal-integrity-basics.pdf">signal integrity basics</a></strong>   
+    </div>
+    <div class="card-section">
+      <p>
+        Table of contents<br>
+        Introduction<br>
+        What is signal integrity?<br>
+        Transmission lines<br>
+        Termination<br>
+        Crosstalk<br>
+        Differential pairs<br>
+        Vias and impairments<br>
+        Timing<br>
+        Conclusion<br>
+        References<br>
+        Next steps<br>
+      </p>
+    </div>
+  </div>
+
+<!--
+(venv) bjpcjp@Sword15-A12UE:~/projects/code-math/ruby/ruby-jekyll/bjpcjp.github.io/bjpcjp.github.io$ ls pdfs/chips/device* -1
+device-models-ch01-intro.pdf
+device-models-ch02-device-physics.pdf
+device-models-ch03-mos-devices.pdf
+device-models-ch04-mosfets-large-geo.pdf
+device-models-ch05-mosfets-small-geo.pdf
+device-models-ch06-mosfets-capacitance.pdf
+device-models-ch07-mosfets-rf.pdf
+device-models-ch08-mosfets-scaled-process-variability.pdf
+device-models-ch09-ultrathin-body-fets.pdf
+device-models-ch10-tunnel-fets.pdf
+device-models-ch11-bjts.pdf
+device-models-ch12-simulation-libraries.pdf
+device-models-ndx.pdf
+-->
+
+  {% assign path="/pdfs/chips/device-models/" %}
+
+  <div class="card">
+    <div class="card-divider">
+      <strong>device models</strong>
+    </div>
+    <div class="card-section">
+      <a href="{{path}}device-models-ch01-intro.pdf">intro</a><br>
+      <a href="{{path}}device-models-ch02-device-physics.pdf">device physics</a><br>
+      <a href="{{path}}device-models-ch03-mos-devices.pdf">mosfets</a><br>
+      <a href="{{path}}device-models-ch04-mosfets-large-geo.pdf">mosfets - large geometry</a><br>
+      <a href="{{path}}device-models-ch05-mosfets-small-geo.pdf">mosfets - small geometry</a><br>
+      <a href="{{path}}device-models-ch06-mosfets-capacitance.pdf">mosfets capacitance</a><br>
+      <a href="{{path}}device-models-ch07-mosfets-rf.pdf">RF mosfets</a><br>
+      <a href="{{path}}device-models-ch08-mosfets-scaled-process-variability.pdf">FETs - process variability</a><br>
+      <a href="{{path}}device-models-ch09-ultrathin-body-fets.pdf">ultrathin body FETs</a><br>
+      <a href="{{path}}device-models-ch10-tunnel-fets.pdf">tunnel FETs</a><br>
+      <a href="{{path}}device-models-ch11-bjts.pdf">BJT devices</a><br>
+      <a href="{{path}}device-models-ch12-simulation-libraries.pdf">simulation libraries</a><br>
+      <a href="{{path}}device-models-ndx.pdf">index</a><br>
+    </div>
+  </div>
+
+<!--
+(venv) bjpcjp@Sword15-A12UE:~/projects/code-math/ruby/ruby-jekyll/bjpcjp.github.io/bjpcjp.github.io$ ls pdfs/cmos_layout_sim -1
+ch01-intro.pdf
+ch02-well.pdf
+ch03-metal.pdf
+ch04-active-poly.pdf
+ch05-res-caps-fets.pdf
+ch06-mosfet-ops.pdf
+ch07-fabrication.pdf
+ch08-noise.pdf
+ch09-analog-models.pdf
+ch10-digital-models.pdf
+ch11-inverter.pdf
+ch12-static-logic.pdf
+ch13-clocked-logic.pdf
+ch14-dynamic-logic.pdf
+ch15-layout-basics.pdf
+ch16-memory-basics.pdf
+ch17-sensing.pdf
+ch18-special-ckts.pdf
+ch19-digital-plls.pdf
+ch20-current-mirrors.pdf
+ch21-amplifiers.pdf
+ch22-diff-amplifiers.pdf
+ch23-voltage-refs.pdf
+ch24-op-amps.pdf
+ch25-dynamic-analog-ckts.pdf
+ch26-op-amps-p2.pdf
+ch27-nonlinear-analog-ckts.pdf
+ch28-data-cnvrtr-basics.pdf
+ch29-data-cnvrtr-archs.pdf
+ch30-data-cnvrtr-design.pdf
+ch31-feedback-amps.pdf
+-->
+
+  {% assign path="/pdfs/cmos_layout_sim/" %}
+
+  <div class="card">
+    <div class="card-divider">
+      <strong>CMOS layout & simulation</strong>
+    </div>
+    <div class="card-section">
+      <a href="{{path}}ch01-intro.pdf">intro</a><br>
+      <a href="{{path}}ch02-well.pdf">wells</a><br>
+      <a href="{{path}}ch03-metal.pdf">metal</a><br>
+      <a href="{{path}}ch04-active-poly.pdf">active poly</a><br>
+      <a href="{{path}}ch05-res-caps-fets.pdf">resistors, capacitors, FETs</a><br>
+      <a href="{{path}}ch06-mosfet-ops.pdf">MOSfet ops</a><br>
+      <a href="{{path}}ch07-fabrication.pdf">fabrication</a><br>
+      <a href="{{path}}ch08-noise.pdf">noise</a><br>
+      <a href="{{path}}ch09-analog-models.pdf">analog models</a><br>
+      <a href="{{path}}ch10-digital-models.pdf">digital models</a><br>
+      <a href="{{path}}ch11-inverter.pdf">inverters</a><br>
+      <a href="{{path}}ch12-static-logic.pdf">static logic</a><br>
+      <a href="{{path}}ch13-clocked-logic.pdf">clocked logic</a><br>
+      <a href="{{path}}ch14-dynamic-logic.pdf">dynamic logic</a><br>
+      <a href="{{path}}ch15-layout-basics.pdf">layout basics</a><br>
+      <a href="{{path}}ch16-memory-basics.pdf">memory basics</a><br>
+      <a href="{{path}}ch17-sensing.pdf">sensing</a><br>
+      <a href="{{path}}ch18-special-ckts.pdf">special circuits</a><br>
+      <a href="{{path}}ch19-digital-plls.pdf">digital PLLs</a><br>
+      <a href="{{path}}ch20-current-mirrors.pdf">current mirros</a><br>
+      <a href="{{path}}ch21-amplifiers.pdf">amplifiers</a><br>
+      <a href="{{path}}ch22-diff-amplifiers.pdf">diff amplifiers</a><br>
+      <a href="{{path}}ch23-voltage-refs.pdf">voltage references</a><br>
+      <a href="{{path}}ch24-op-amps.pdf">op amps</a><br>
+      <a href="{{path}}ch25-dynamic-analog-ckts.pdf">dynamic analog circuits</a><br>
+      <a href="{{path}}ch26-op-amps-p2.pdf">op amps, part 2</a><br>
+      <a href="{{path}}ch27-nonlinear-analog-ckts.pdf">nonlinear analog circuits</a><br>
+      <a href="{{path}}ch28-data-cnvrtr-basics.pdf">data converter basics</a><br>
+      <a href="{{path}}ch29-data-cnvrtr-archs.pdf">data converter architectures</a><br>
+      <a href="{{path}}ch30-data-cnvrtr-design.pdf">data converter design</a><br>
+      <a href="{{path}}ch31-feedback-amps.pdf">feedback amps</a><br>
+    </div>
+  </div>
+
+<!--
+(venv) bjpcjp@Sword15-A12UE:~/projects/code-math/ruby/ruby-jekyll/bjpcjp.github.io/bjpcjp.github.io$ ls pdfs/cmos_mixedsignal -1
+CMOS_MixedSignal_CktDesign_2nd.pdf
+CMSCD2_01_signals_filters_tools.pdf
+CMSCD2_02_samples_aliasing.pdf
+CMSCD2_03_analog_filters.pdf
+CMSCD2_04_digital_filters.pdf
+CMSCD2_05_data_converter_snr.pdf
+CMSCD2_06_data_converter_design_basics.pdf
+CMSCD2_07_data_converter_noise_shaping.pdf
+CMSCD2_08_data_converter_bandpass.pdf
+CMSCD2_09_data_converter_hispeed.pdf
+CMSCD2_index.pdf
+-->
+
+  {% assign path="/pdfs/cmos_mixedsignal/" %}
+
+  <div class="card">
+    <div class="card-divider">
+      <strong>CMOS mixed-signal design</strong>
+    </div>
+    <div class="card-section">
+      <a href="{{path}}CMSCD2_01_signals_filters_tools.pdf">tools</a><br>
+      <a href="{{path}}CMSCD2_02_samples_aliasing.pdf">samples & aliasing</a><br>
+      <a href="{{path}}CMSCD2_03_analog_filters.pdf">analog filters</a><br>
+      <a href="{{path}}CMSCD2_04_digital_filters.pdf">digital filters</a><br>
+      (data converters:)<br>
+      <a href="{{path}}CMSCD2_05_data_converter_snr.pdf">signal-noise ratio</a><br>
+      <a href="{{path}}CMSCD2_06_data_converter_design_basics.pdf">basics</a><br>
+      <a href="{{path}}CMSCD2_07_data_converter_noise_shaping.pdf">noise shaping</a><br>
+      <a href="{{path}}CMSCD2_08_data_converter_bandpass.pdf">bandpass</a><br>
+      <a href="{{path}}CMSCD2_09_data_converter_hispeed.pdf">hi speed</a><br>
+      <a href="{{path}}CMSCD2_index.pdf">index</a><br>
+    </div>
+  </div>
+
+<!--
+(venv) bjpcjp@Sword15-A12UE:~/projects/code-math/ruby/ruby-jekyll/bjpcjp.github.io/bjpcjp.github.io$ ls pdfs/cpus-quant -1
+comparchs-apxA.pdf
+comparchs-apxB.pdf
+comparchs-apxC.pdf
+comparchs-ch01.pdf
+comparchs-ch02.pdf
+comparchs-ch03.pdf
+comparchs-ch04.pdf
+comparchs-ch05.pdf
+comparchs-ch06.pdf
+comparchs-indx.pdf
+-->
+
+  {% assign path="/pdfs/cpus-quant/" %}
+
+  <div class="card">
+    <div class="card-divider">
+      <strong>CPUs quantitative design</strong>
+    </div>
+    <div class="card-section">
+      <a href="{{path}}comparchs-ch01.pdf">design & analysis fundamentals</a><br>
+      <a href="{{path}}comparchs-ch02.pdf">memory hierarchy design</a><br>
+      <a href="{{path}}comparchs-ch03.pdf">parallelism - instruction level</a><br>
+      <a href="{{path}}comparchs-ch04.pdf">parallelism - data level</a><br>
+      <a href="{{path}}comparchs-ch05.pdf">parallelism - thread level</a><br>
+      <a href="{{path}}comparchs-ch06.pdf">warehouse scale</a><br>
+      (appendices)<br>
+      <a href="{{path}}comparchs-apxA.pdf">instruction sets - basic principles</a><br>
+      <a href="{{path}}comparchs-apxB.pdf">memory hierarchy - review</a><br>
+      <a href="{{path}}comparchs-apxC.pdf">pipelines</a><br>
+      <a href="{{path}}comparchs-indx.pdf">index</a><br>
+    </div>
+  </div>
+
+<!--
+(venv) bjpcjp@Sword15-A12UE:~/projects/code-math/ruby/ruby-jekyll/bjpcjp.github.io/bjpcjp.github.io$ ls pdfs/optical -1
+optical-networking-intro.pdf
+-->
+
+  {% assign path="/pdfs/optical/" %}
+
+  <div class="card">
+    <div class="card-divider">
+      <strong>optical networking intro</strong>
+    </div>
+    <div class="card-section">
+      <a href="{{path}}optical-networking-intro.pdf">intro</a><br>
+    </div>
+  </div>
+
+<!--
+(venv) bjpcjp@Sword15-A12UE:~/projects/code-math/ruby/ruby-jekyll/bjpcjp.github.io/bjpcjp.github.io$ ls pdfs/chips -1
+GaN-transistors-power-conversion.pdf
+-->
+
+  {% assign path="/pdfs/chips/" %}
+
+  <div class="card">
+    <div class="card-divider">
+      <strong>Gallium nitride - power conversion</strong>
+    </div>
+    <div class="card-section">
+      <a href="{{path}}GaN-transistors-power-conversion.pdf">book</a><br>
+      <a href="#">ch01 - technology overview</a><br>
+      <a href="#">ch02 - transistor electricals</a><br>
+      <a href="#">ch03 - drivers</a><br>
+      <a href="#">ch04 - layout factors</a><br>
+      <a href="#">ch05 - modeling & measurement</a><br>
+      <a href="#">ch06 - hard switching topologies</a><br>
+      <a href="#">ch07 - resonant & soft-switch converters</a><br>
+      <a href="#">ch08 - RF performance</a><br>
+      <a href="#">ch09 - GaN & space applications</a><br>
+      <a href="#">ch10 - replacing silicon power mosfets</a><br>
+    </div>
+  </div>
+<!--
+(venv) bjpcjp@Sword15-A12UE:~/projects/code-math/ruby/ruby-jekyll/bjpcjp.github.io/bjpcjp.github.io$ ls pdfs/chips -1
+2020-case-study.pdf
+agner
+clock-tree-design.pdf
+cmos-7nm-vs-finfet-edited.pdf
+cmos-flipflop-pipeline-vlsi13.pdf
+cmos-power-mgmt-reinf-learning-dac11.pdf
+NAND_Flash_intro.pdf
+Networking-protocols.pdf
+SEMICON_Taiwan_2016_collaert.pdf
+SER-mechanisms-GPU-regfiles.pdf
+Signal-integrity-basics.pdf
+-->
+
+  {% assign path="/pdfs/chips/" %}
+
+  <div class="card">
+    <div class="card-divider">
+      <strong>other</strong>
+    </div>
+    <div class="card-section">
+      <a href="{{path}}clock-tree-design.pdf">clock trees</a><br>
+     <a href="{{path}}cmos-7nm-vs-finfet-edited.pdf">standard cells: 7nm vs finFET</a><br>
+     <a href="{{path}}cmos-flipflop-pipeline-vlsi13.pdf">CMOS FF pipeline (vlsi13)</a><br>
+     <a href="{{path}}cmos-power-mgmt-reinf-learning-dac11.pdf">power mgmt via reinforcement learning</a><br>
+     <summary>
+     <a href="{{path}}NAND_Flash_intro.pdf">intro to NAND flash</a><br>
+     <a href="{{path}}Networking-protocols.pdf">networking protocols</a><br>
+<!--     <a href="{{path}}SEMICON_Taiwan_2016_collaert.pdf">clock trees</a><br>
+-->
+     <a href="{{path}}SER-mechanisms-GPU-regfiles.pdf">soft errors in GPU register files</a><br>
+    </div>
+  </div>
+
+<!--
+(venv) bjpcjp@Sword15-A12UE:~/projects/code-math/ruby/ruby-jekyll/bjpcjp.github.io/bjpcjp.github.io$ ls pdfs/chips/antenna-design-milligan -1
+antenna-design-milligan.pdf
+MAD-ch01-properties.pdf
+MAD-ch02-radiation-structs.pdf
+MAD-ch03-arrays.pdf
+MAD-ch04-apertures.pdf
+MAD-ch05-dipoles-slots-loops.pdf
+MAD-ch06-microstrips.pdf
+MAD-ch07-horns.pdf
+MAD-ch08-reflectors.pdf
+MAD-ch09-lens.pdf
+MAD-ch10-traveling-wave.pdf
+MAD-ch11-frequency-independent.pdf
+MAD-ch12-phased-arrays.pdf
+MAD-toc.pdf
+-->
+
+  {% assign path="/pdfs/chips/antenna-design-milligan/" %}
+
+  <div class="card">
+    <div class="card-divider">
+      <strong>antenna design (milligan)</strong>
+    </div>
+    <div class="card-section">
+      <a href="{{path}}MAD-ch01-properties.pdf">properties</a><br>
+      <a href="{{path}}MAD-ch02-radiation-structs.pdf">radiation structs</a><br>
+      <a href="{{path}}MAD-ch03-arrays.pdf">arrays</a><br>
+      <a href="{{path}}MAD-ch04-apertures.pdf">apertures</a><br>
+      <a href="{{path}}MAD-ch05-dipoles-slots-loops.pdf">dipoles, slots, loops</a><br>
+      <a href="{{path}}MAD-ch06-microstrips.pdf">microstrips</a><br>
+      <a href="{{path}}MAD-ch07-horns.pdf">horns</a><br>
+      <a href="{{path}}MAD-ch08-reflectors.pdf">reflectors</a><br>
+      <a href="{{path}}MAD-ch09-lens.pdf">lens</a><br>
+      <a href="{{path}}MAD-ch10-traveling-wave.pdf">traveling waves</a><br>
+      <a href="{{path}}MAD-ch11-frequency-independent.pdf">frequency-independent</a><br>
+      <a href="{{path}}MAD-ch12-phased-arrays.pdf">phased arrays</a><br>
+    </div>
+  </div>
+
+<!--
+(venv) bjpcjp@Sword15-A12UE:~/projects/code-math/ruby/ruby-jekyll/bjpcjp.github.io/bjpcjp.github.io$ ls pdfs/chips/antennas -1
+antennas-ch01-intro.pdf
+antennas-ch02-fundamentals.pdf
+antennas-ch03-integrals-funcs.pdf
+antennas-ch04-linear-wires.pdf
+antennas-ch05-loops.pdf
+antennas-ch06-arrays.pdf
+antennas-ch07-synthesis.pdf
+antennas-ch08-integrals-moments-impedances.pdf
+antennas-ch09-broadband-dipoles-matching.pdf
+antennas-ch10-traveling-waves-broadband.pdf
+antennas-ch11-freq-independent-minaturization.pdf
+antennas-ch12-apertures.pdf
+antennas-ch13-horns.pdf
+antennas-ch14-microstrips.pdf
+antennas-ch15-reflectors.pdf
+antennas-ch16-measurements.pdf
+antennas-ch17-math-frequencies.pdf
+antennas-ch18-index.pdf
+-->
+
+  {% assign path="/pdfs/chips/antennas/" %}
+
+  <div class="card">
+    <div class="card-divider">
+      <strong>antenna design</strong>
+    </div>
+    <div class="card-section">
+      <a href="{{path}}antennas-ch01-intro.pdf">intro</a><br>
+      <a href="{{path}}antennas-ch02-fundamentals.pdf">fundamentals</a><br>
+      <a href="{{path}}antennas-ch03-integrals-funcs.pdf">integrals</a><br>
+      <a href="{{path}}antennas-ch04-linear-wires.pdf">linear wires</a><br>
+      <a href="{{path}}antennas-ch05-loops.pdf">loops</a><br>
+      <a href="{{path}}antennas-ch06-arrays.pdf">arrays</a><br>
+      <a href="{{path}}antennas-ch07-synthesis.pdf">synthesis</a><br>
+      <a href="{{path}}antennas-ch08-integrals-moments-impedances.pdf">integrals, moments & impedances</a><br>
+      <a href="{{path}}antennas-ch09-broadband-dipoles-matching.pdf">broadband dipoles</a><br>
+      <details><summary></summary></details>
+      <a href="{{path}}antennas-ch10-traveling-waves-broadband.pdf">traveling waves broadband</a><br>
+      <a href="{{path}}antennas-ch11-freq-independent-minaturization.pdf">frequency-independent minaturization</a><br>
+      <a href="{{path}}antennas-ch12-apertures.pdf">apertures</a><br>
+      <a href="{{path}}antennas-ch13-horns.pdf">horns</a><br>
+      <a href="{{path}}antennas-ch14-microstrips.pdf">microstrips</a><br>
+      <a href="{{path}}antennas-ch15-reflectors.pdf">reflectors</a><br>
+      <a href="{{path}}antennas-ch16-measurements.pdf">measurements</a><br>
+      <a href="{{path}}antennas-ch17-math-frequencies.pdf">math & frequencies</a><br>
+      <a href="{{path}}antennas-ch18-index.pdf">index</a><br>
+    </div>
+  </div>
+
+
+<!--
+(venv) bjpcjp@Sword15-A12UE:~/projects/code-math/ruby/ruby-jekyll/bjpcjp.github.io/bjpcjp.github.io$ ls pdfs/chips/fwce -1
+FWCE-apx01-conversions.pdf
+FWCE-apx02-coordinates.pdf
+FWCE-apx03-magfield-derivations.pdf
+FWCE-apx04-phasors.pdf
+FWCE-apx05-green-funcs.pdf
+FWCE-ch01-stationary-electric-fields.pdf
+FWCE-ch02-magnetic-fields.pdf
+FWCE-ch03-maxwell-equations.pdf
+FWCE-ch04-circuit-electromagnetics.pdf
+FWCE-ch05-transmission-lines.pdf
+FWCE-ch06-plane-wave-prop-reflect.pdf
+FWCE-ch07-2d3d-boundary-values.pdf
+FWCE-ch08-cylindrical-waveguides.pdf
+FWCE-ch09-waveguide-types.pdf
+FWCE-ch10-resonators.pdf
+FWCE-ch11-microwave-nets.pdf
+FWCE-ch12-radiation.pdf
+FWCE-ch13-material-props.pdf
+FWCE-ch14-optics.pdf
+FWCE-toc.pdf
+-->
+
+  {% assign path="/pdfs/chips/fwce/" %}
+
+  <div class="card">
+    <div class="card-divider">
+      <strong>fields theory</strong>
+    </div>
+    <div class="card-section">
+      <a href="{{path}}FWCE-ch01-stationary-electric-fields.pdf">stationary electric fields</a><br>
+      <a href="{{path}}FWCE-ch02-magnetic-fields.pdf">magnetic fields</a><br>
+      <a href="{{path}}FWCE-ch03-maxwell-equations.pdf">maxwell equations</a><br>
+      <a href="{{path}}FWCE-ch04-circuit-electromagnetics.pdf">circuit electromagnetics</a><br>
+      <a href="{{path}}FWCE-ch05-transmission-lines.pdf">transmission lines</a><br>
+      <a href="{{path}}FWCE-ch06-plane-wave-prop-reflect.pdf">plane wave propagation & reflection</a><br>
+      <a href="{{path}}FWCE-ch07-2d3d-boundary-values.pdf">2D/3D boundary values</a><br>
+      <a href="{{path}}FWCE-ch08-cylindrical-waveguides.pdf">waveguides (cylindrical)</a><br>
+      <a href="{{path}}FWCE-ch09-waveguide-types.pdf">waveguide types</a><br>
+      <a href="{{path}}FWCE-ch10-resonators.pdf">resonators</a><br>
+      <a href="{{path}}FWCE-ch11-microwave-nets.pdf">microwave nets</a><br>
+      <a href="{{path}}FWCE-ch12-radiation.pdf">radiaton</a><br>
+      <a href="{{path}}FWCE-ch13-material-props.pdf">material properties</a><br>
+      <a href="{{path}}FWCE-ch14-optics.pdf">optics</a><br>
+      (appendices)<br>
+      <a href="{{path}}FWCE-apx01-conversions.pdf">unit conversions</a><br>
+      <a href="{{path}}FWCE-apx02-coordinates.pdf">coordinates</a><br>
+      <a href="{{path}}FWCE-apx03-magfield-derivations.pdf">magnetic field derivations</a><br>
+      <a href="{{path}}FWCE-apx04-phasors.pdf">phasors</a><br>
+      <a href="{{path}}FWCE-apx05-green-funcs.pdf">green functions</a><br>
+    </div>
+  </div>
+
+<!--
+(venv) bjpcjp@Sword15-A12UE:~/projects/code-math/ruby/ruby-jekyll/bjpcjp.github.io/bjpcjp.github.io$ ls pdfs/chips/vlsi -1
+VLSI-design-chap1.pdf
+VLSI-design-chap2.pdf
+VLSI-design-chap3.pdf
+VLSI-design-chap4.pdf
+VLSI-design-chap5.pdf
+VLSI-design-chap6.pdf
+VLSI-design-chap7.pdf
+VLSI-design-chap8.pdf
+-->
+
+  {% assign path="/pdfs/chips/vlsi/" %}
+
+  <div class="card">
+    <div class="card-divider">
+      <strong>VLSI design</strong>
+    </div>
+    <div class="card-section">
+      <a href="{{path}}VLSI-design-chap1.pdf">intro</a><br>
+      <a href="{{path}}VLSI-design-chap2.pdf">netlist & system partitions</a><br>
+      <a href="{{path}}VLSI-design-chap3.pdf">planning</a><br>
+      <a href="{{path}}VLSI-design-chap4.pdf">placement (global & detailed)</a><br>
+      <a href="{{path}}VLSI-design-chap5.pdf">routing (global)</a><br>
+      <a href="{{path}}VLSI-design-chap6.pdf">routing (detailed)</a><br>
+      <a href="{{path}}VLSI-design-chap7.pdf">routing (specialized)</a><br>
+      <a href="{{path}}VLSI-design-chap8.pdf">timing closure</a><br>
+    </div>
+  </div>
+
+<!--
+-->
+
+</div>
+

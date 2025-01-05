@@ -1,0 +1,22 @@
+---
+title: raindrop bookmarks
+layout: default-foundation-20210515
+---
+
+{% assign bookmarks = site.data.raindrop.raindrop_all_20241216 %}
+{% assign tagpairs  = site.data.raindrop.raindrop_all_20241219_tagpair %}
+
+<h2>
+#bookmarks: {{bookmarks.size}} &nbsp; #tagpairs: {{tagpairs.size}}<br>
+</h2>
+
+{% for tagpair in tagpairs %}
+
+	{% if tagpair.tag1 == "semiconductors" %}
+		tag1: {{tagpair.tag1}}:{{tagpair.tag2}}<br>
+	{% endif %}
+
+	{% if tagpair.tag2 == "semiconductors" %}
+		tag2: {{tagpair.tag2}}:{{tagpair.tag1}}<br>
+	{% endif %}
+{% endfor %}
