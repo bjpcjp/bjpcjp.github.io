@@ -1,0 +1,2 @@
+id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
+876778418,Using PyTorch + NumPy? You're making a mistake.,,A bug that plagues thousands of open-source ML projects.,https://tanelp.github.io/posts/a-bug-that-plagues-thousands-of-open-source-ml-projects,my_library,"numpy, python, pytorch",2021-04-11T20:22:42.000Z,,,False

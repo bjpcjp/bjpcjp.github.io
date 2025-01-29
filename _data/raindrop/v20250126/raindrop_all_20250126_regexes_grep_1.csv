@@ -1,0 +1,16 @@
+id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
+920322350,Introduction to Using Grep With Regular Expressions via Warp,,"After mastering regex, tools like grep become much more useful.",https://thenewstack.io/introduction-to-using-grep-with-regular-expressions-via-warp/,my_library,"regexes, grep, linux",2024-12-12T19:24:21.823Z,https://cdn.thenewstack.io/media/2024/12/f81ea84e-steve-johnson-pjofestxhra-unsplashb.jpg,"Highlight:The grep flags can roughly be divided by what to read, what to match, what to report, and in what context.
+
+Highlight:grep -r --include=*.json 'pattern' ./
+
+Highlight:grep -E '(f|F)irst (A|a)id|(M|m)edical|(D|d)octor'
+
+Highlight:didn’t use the -E flag
+
+Highlight:The output context I want is the line above and below with the filename and line number.
+
+Highlight:grep -ErnC1 --include=*.json '(f|F)irst (A|a)id|(M|m)edical|(D|d)octor
+
+Highlight:b(f|F)irst (A|a)id\b|\b(M|m)edical\b|\b(D|d)octor\b'
+
+Highlight:This process is called a Workflow",True

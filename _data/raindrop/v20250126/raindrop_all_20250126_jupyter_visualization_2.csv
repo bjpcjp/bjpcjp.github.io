@@ -1,0 +1,3 @@
+id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
+876791024,voila · PyPI,,Voilà turns Jupyter notebooks into standalone web applications,https://pypi.org/project/voila,my_library,"jupyter, programming, python, visualization, voila",2023-03-24T16:57:01.000Z,https://pypi.org/static/images/twitter.abaf4b19.webp,,False
+876790818,Using PyGWalker to Enhance Your Jupyter Notebook EDA Experience,,An Introduction to the PyGWalker Library for Easy Data Visualisation,https://towardsdatascience.com/use-pygwalker-to-enhance-your-jupyter-notebook-eda-experience-d7a5ee358be9?source=rss----7f60cf5620c9---4,my_library,"jupyter, programming, python, visualization",2023-03-03T11:44:51.000Z,https://miro.medium.com/v2/resize:fit:1130/1*jJDVB9TlJWJd-TAH3_9Myg.png,,False

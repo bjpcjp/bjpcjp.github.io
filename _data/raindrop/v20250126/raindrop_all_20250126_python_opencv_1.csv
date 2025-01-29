@@ -1,0 +1,2 @@
+id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
+876779066,How to cartoonize an image with Python,,"In this tutorial, I will show you how to give a cartoon-effect to an image in Python with OpenCV.  Op...",https://dev.to/stokry/how-to-cartoonize-an-image-with-python-1e01,my_library,"opencv, python",2021-05-24T14:25:02.000Z,"https://media.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F1bbzb00qcwmr5jp41wfc.png",,False

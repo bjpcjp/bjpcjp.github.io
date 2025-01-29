@@ -1,0 +1,2 @@
+id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
+876774697,Build an app to generate photorealistic faces using TensorFlow and Streamli,,"We’ll show you how to quickly build a Streamlit app to synthesize celebrity faces using GANs, Tensorflow, and st.cache.",https://www.kdnuggets.com/2020/04/app-generate-photorealistic-faces-tensorflow-streamlit.html,my_library,"deep-learning, streamlit, tensorflow",2020-04-19T13:58:51.000Z,,,False

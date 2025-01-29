@@ -1,0 +1,2 @@
+id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
+876793060,"Inside the Matrix: Visualizing Matrix Multiplication, Attention and Beyond",,"Use 3D to visualize matrix multiplication expressions, attention heads with real weights, and more.",https://pytorch.org/blog/inside-the-matrix,my_library,"pytorch, visualization",2023-09-25T15:48:12.000Z,https://pytorch.org/assets/images/social-share.jpg,,False

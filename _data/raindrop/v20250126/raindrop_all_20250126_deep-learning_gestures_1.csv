@@ -1,0 +1,2 @@
+id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
+876777489,Text2Gestures: A Transformer-Based Network for Generating Emotive Body Gest,,"We present Text2Gestures, a transformer-based learning method to interactively generate emotive full-body gestures for virtual agents aligned with natural language text inputs. Our method generates…",https://hgpu.org/?p=24466,my_library,"deep-learning, gestures",2021-01-31T14:00:37.000Z,https://hgpu.org/img/social-logo.png,,False

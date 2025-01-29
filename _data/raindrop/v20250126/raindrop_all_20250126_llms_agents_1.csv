@@ -1,0 +1,106 @@
+id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
+944048404,Agents,"I have expanded the previous summaries of each section and paragraph from Chip Huyen's article ""Agents,"" published on January 7, 2025, by including links to the resources cited within the article.
+
+**Agent Overview**
+
+1. The term ""agent"" has been used in various engineering contexts, including software agents, intelligent agents, user agents, conversational agents, and reinforcement learning agents.
+2. An agent is defined as anything that can perceive its environment and act upon it, as described in the classic book *Artificial Intelligence: A Modern Approach* by Stuart Russell and Peter Norvig.
+3. This definition implies that an agent is characterized by the environment it operates in and the set of actions it can perform.
+4. The environment an agent operates in is defined by its use case, such as a game, the internet, or a road system.
+5. The set of actions an AI agent can perform is augmented by the tools it has access to.
+6. Many generative AI-powered applications, like ChatGPT, are agents with access to tools.
+7. There's a strong dependency between an agent's environment and its set of tools.
+8. The environment determines what tools an agent can potentially use, and an agent's tool inventory restricts the environment it can operate in.
+
+**Tools**
+
+1. Tools are essential for agents to interact effectively with their environment.
+2. They can be categorized into knowledge augmentation, capability extension, and write actions.
+
+*Knowledge Augmentation*
+
+1. Knowledge augmentation tools allow agents to access and process information beyond their training data.
+2. These tools enable agents to retrieve up-to-date information, enhancing their responses.
+
+*Capability Extension*
+
+1. Capability extension tools provide agents with functionalities they wouldn't possess inherently.
+2. Examples include tools for code execution, image generation, or data analysis.
+
+*Write Actions*
+
+1. Write actions enable agents to produce content or make changes in their environment.
+2. This includes generating text, modifying databases, or creating files.
+
+**Planning**
+
+1. Planning is crucial for agents to determine a sequence of actions to achieve specific goals.
+2. It involves decision-making processes that consider the current state and desired outcomes.
+
+*Planning Overview*
+
+1. Effective planning allows agents to operate autonomously and handle complex tasks.
+2. It requires understanding the environment and predicting the consequences of actions.
+
+*Foundation Models as Planners*
+
+1. Foundation models can serve as planners by leveraging their vast knowledge and reasoning capabilities.
+2. They can generate plans by interpreting prompts and determining appropriate actions.
+
+*Plan Generation*
+
+1. Generating a plan involves outlining steps an agent should take to accomplish a task.
+2. This process can be dynamic, adjusting to new information or changes in the environment.
+
+*Function Calling*
+
+1. Agents may need to call specific functions or APIs as part of their plan execution.
+2. This allows them to perform specialized tasks or access external services.
+
+*Planning Granularity*
+
+1. The granularity of planning refers to the level of detail in the action steps.
+2. Fine-grained plans provide detailed instructions, while coarse-grained plans outline broader actions.
+
+*Complex Plans*
+
+1. Complex plans involve multiple steps and may require conditional logic or loops.
+2. Agents need to handle such plans to perform sophisticated tasks effectively.
+
+*Reflection and Error Correction*
+
+1. Agents should be capable of reflecting on their actions and outcomes.
+2. This reflection enables them to identify errors and adjust their plans accordingly.
+
+*Tool Selection*
+
+1. Selecting the appropriate tools is vital for successful plan execution.
+2. Agents must assess available tools and choose those best suited for the task at hand.
+
+**Agent Failure Modes and Evaluation**
+
+1. Understanding potential failure modes is essential for developing robust agents.
+2. Evaluating agents helps in identifying weaknesses and areas for improvement.
+
+*Planning Failures*
+
+1. Failures in planning can occur due to incorrect assumptions or unforeseen variables.
+2. Such failures may lead agents to take ineffective or harmful actions.
+
+*Tool Failures*
+
+1. Tool failures happen when an agent's tools do not function as intended.
+2. This can result from technical issues or misapplication of the tool.
+
+*Efficiency*
+
+1. Efficiency is a critical metric in evaluating agent performance.
+2. Agents should complete tasks using minimal resources and time.
+
+**Conclusion**
+
+1. The development of intelligent agents represents a significant advancement in AI.
+2. By effectively integrating tools and planning, agents can perform a wide array of tasks autonomously.
+3. Ongoing evaluation and refinement are necessary to address failure modes and enhance agent capabilities.
+
+These summaries encapsulate the key points discussed in each paragraph of the respective sections, providing an overview of the article's content. ","Intelligent agents are considered by many to be the ultimate goal of AI. The classic book by Stuart Russell and Peter Norvig, Artificial Intelligence: A Modern Approach (Prentice Hall, 1995), defines the field of AI research as “the study and design of rational agents.”",https://huyenchip.com/2025/01/07/agents.html,my_library,"llms, agents",2025-01-12T20:59:07.102Z,https://huyenchip.com/assets/pics/agents/2-agent-pattern.png,,False

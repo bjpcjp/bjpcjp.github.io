@@ -1,0 +1,2 @@
+id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
+876789888,A Visual Guide to SSH Tunnels: Local and Remote Port Forwarding,,SSH port forwarding explained in a clean and visual way. How to use local and remote port forwarding. What sshd settings may need to be adjusted. How to memorize the right flags.,https://iximiuz.com/en/posts/ssh-tunnels,my_library,"command-line, devops, linux, ssh",2023-01-13T19:12:17.000Z,https://iximiuz.com/ssh-tunnels/ssh-tunnels-2000-opt.png,,False

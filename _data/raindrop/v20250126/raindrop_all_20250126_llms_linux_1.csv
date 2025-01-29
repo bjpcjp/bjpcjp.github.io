@@ -1,0 +1,2 @@
+id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
+952927582,LLM 0.20,,"New release of my [LLM](https://llm.datasette.io/) CLI tool and Python library. A bunch of accumulated fixes and features since the start of December, most notably: - Support for OpenAI's [o1 model](https://platform.openai.com/docs/models#o1) …",https://simonwillison.net/2025/Jan/23/llm-020/#atom-everything,my_library,"llms, linux",2025-01-23T11:57:42.065Z,,,False

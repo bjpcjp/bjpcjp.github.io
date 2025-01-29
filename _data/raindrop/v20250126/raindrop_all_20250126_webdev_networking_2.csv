@@ -1,0 +1,3 @@
+id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
+876797881,Layer 8: A Semantic Networking Layer for the Age of AI,,"Layer 8 and existing application delivery infrastructure will pave the way for more intelligent, context-aware networks that adapt to AI-driven applications.",https://thenewstack.io/layer-8-the-inevitable-semantic-networking-layer,my_library,"networking, webdev",2024-07-03T20:04:23.000Z,https://cdn.thenewstack.io/media/2024/06/ffe55292-layer.jpg,,False
+876791967,Beej's Guide to Network Programming,,,https://beej.us/guide/bgnet,my_library,"http, networking, webdev",2023-05-27T18:44:21.000Z,,,False

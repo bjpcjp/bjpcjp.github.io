@@ -1,0 +1,2 @@
+id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
+876780066,Various ways to include comments on your static site,,Overview of different techniques to implement comments using a static site generator.,https://darekkay.com/blog/static-site-comments,my_library,"blogging, jekyll, programming",2021-11-18T12:10:24.000Z,https://darekkay.com/blog/static-site-comments/cover.png,,False

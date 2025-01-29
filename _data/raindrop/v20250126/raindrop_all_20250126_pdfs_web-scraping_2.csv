@@ -1,0 +1,3 @@
+id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
+876782725,How to Scrape and Extract Data from PDFs Using Python and tabula-py,,You want to make friends with tabula-py and Pandas,https://towardsdatascience.com/scrape-data-from-pdf-files-using-python-fe2dc96b1e68,my_library,"pdfs, python, web-scraping",2022-02-21T17:35:32.000Z,https://miro.medium.com/v2/resize:fit:1200/0*Bwgt-3VHlshuv0G8.png,,False
+876782723,Scrape Data from PDF Files Using Python and PDFQuery,,Extract Data from PDF Files Effectively,https://towardsdatascience.com/scrape-data-from-pdf-files-using-python-and-pdfquery-d033721c3b28,my_library,"pdfs, python, web-scraping",2022-02-21T17:34:39.000Z,https://miro.medium.com/v2/resize:fit:1200/1*SLwrjTpeOD4MpwrYqJUBmg.png,,False

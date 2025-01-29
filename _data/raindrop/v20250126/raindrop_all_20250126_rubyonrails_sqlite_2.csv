@@ -1,0 +1,3 @@
+id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
+876796765,SQLite on Rails: The how and why of optimal performance,,"This is my personal site, where I write about Ruby, programming, and any of my varied fascinations.",https://fractaledmind.github.io/2024/04/15/sqlite-on-rails-the-how-and-why-of-optimal-performance,my_library,"rubyonrails, sqlite",2024-04-23T19:07:02.000Z,,,False
+876795461,How (and why) to run SQLite in production: RubyConf Taiwan 2023,,"This is my personal site, where I write about Ruby, programming, and any of my varied fascinations.",https://fractaledmind.github.io/2023/12/23/rubyconftw,my_library,"devops, rubyonrails, sqlite",2024-03-27T20:34:47.000Z,,,False

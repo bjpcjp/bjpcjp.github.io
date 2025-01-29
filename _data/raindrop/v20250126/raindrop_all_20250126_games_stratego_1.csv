@@ -1,0 +1,2 @@
+id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
+876786430,Mastering the Game of Stratego with Model-Free Multiagent...,,"We introduce DeepNash, an autonomous agent capable of learning to play the imperfect information game Stratego from scratch, up to a human expert level. Stratego is one of the few iconic board...",https://arxiv.org/abs/2206.15378,my_library,"deep-learning, game-theory, games, reinforcement-learning, stratego",2022-07-11T20:38:06.000Z,https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png,,False

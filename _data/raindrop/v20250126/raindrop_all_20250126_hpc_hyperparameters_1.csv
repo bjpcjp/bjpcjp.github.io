@@ -1,0 +1,2 @@
+id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
+876790957,Towards a Benchmarking Suite for Kernel Tuners,,"As computing system become more complex, it is becoming harder for programmers to keep their codes optimized as the hardware gets updated. Autotuners try to alleviate this by hiding as many archite…",https://hgpu.org/?p=28050,my_library,"benchmarks, gpus, hpc, hyperparameters",2023-03-19T10:17:24.000Z,https://hgpu.org/img/social-logo.png,,False

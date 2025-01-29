@@ -1,0 +1,2 @@
+id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
+876778463,Time Series Forecasting with PyCaret Regression Module,,PyCaret is an alternate low-code library that can be used to replace hundreds of lines of code with few lines only. See how to use PyCaret's Regression Module for Time Series Forecasting.,https://www.kdnuggets.com/2021/04/time-series-forecasting-pycaret-regression-module.html,my_library,"machine-learning, pycaret, python, time-series",2021-04-22T13:12:09.000Z,,,False

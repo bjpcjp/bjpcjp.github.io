@@ -1,0 +1,2 @@
+id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
+876795328,How To Set Up Nginx Server Blocks on Ubuntu 22.04,,This article describes how to set up Nginx server blocks on Ubuntu 22.04. You'll learn how to set up multiple websites on a single server and customize each site's settings to suit your needs.,https://linuxize.com/post/how-to-set-up-nginx-server-blocks-on-ubuntu-22-04,my_library,"devops, nginx",2024-03-05T00:23:46.000Z,https://linuxize.com/post/how-to-set-up-nginx-server-blocks-on-ubuntu-22-04/featured.jpg,,False

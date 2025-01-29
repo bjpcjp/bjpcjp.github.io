@@ -1,0 +1,2 @@
+id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
+876782673,"Color Picker with Ruby on Rails 6, Stimulus and Webpacker",,"A tutorial to integrate a Javascript color picker library Pickr, with Ruby on Rails 6.0, StimulusJS, and Webpacker.",https://chrislabarge.com/posts/color-picker,my_library,"color, rubyonrails",2022-02-12T15:13:51.000Z,https://chrislabarge.com/img/color-picker.jpg,,False

@@ -1,0 +1,3 @@
+id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
+876789834,Dense Vectors | Pinecone,,,https://www.pinecone.io/learn/dense-vector-embeddings-nlp,my_library,"databases, machine-learning, nlp, word2vec",2022-12-28T15:52:50.000Z,https://www.pinecone.io/api/og/?title=Dense%20Vectors:%20Capturing%20Meaning%20with%20Code,,False
+876769196,Google's trained Word2Vec model in Python · Chris McCormick,,,http://mccormickml.com/2016/04/12/googles-pretrained-word2vec-model-in-python,my_library,"nlp, word2vec",2018-02-12T02:17:11.000Z,,,False

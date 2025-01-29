@@ -1,0 +1,2 @@
+id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
+876788486,TIL: You Can Access A User's Camera with Just HTML,,The HTML capture attribute is interesting because it allows you to activate a user's camera with just HTML. This article covers it in more depth.,https://austingil.com/html-capture-attribute,my_library,"cameras, html, webdev",2022-09-08T01:28:16.000Z,https://austingil.com/wp-content/uploads/HTML-Blog-Cover.png,,False

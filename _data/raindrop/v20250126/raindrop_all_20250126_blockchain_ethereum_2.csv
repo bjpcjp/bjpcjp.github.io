@@ -1,0 +1,3 @@
+id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
+876795188,Home | Solidity Programming Language,,Solidity is a statically-typed curly-braces programming language designed for developing smart contracts that run on Ethereum.,https://soliditylang.org,my_library,"blockchain, ethereum, solidity",2024-02-27T21:36:45.000Z,https://soliditylang.org/assets/logo-og-image.png,,False
+876795187,Home | ethereum.org,,"Ethereum is a global, decentralized platform for money and new kinds of applications. On Ethereum, you can write code that controls money, and build applications accessible anywhere in the world.",https://ethereum.org,my_library,"blockchain, ethereum",2024-02-27T21:36:43.000Z,https://ethereum.org/images/home/hero.png,,False

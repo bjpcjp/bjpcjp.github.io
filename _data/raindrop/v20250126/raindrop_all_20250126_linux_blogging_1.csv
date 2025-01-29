@@ -1,0 +1,2 @@
+id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
+876797017,How to Host Your Blog with Ghost on Ubuntu 24.04,,This guide will walk you through installing Ghost on your Ubuntu server and configuring Nginx (a popular web server) to host your blog.,https://www.ubuntumint.com/install-ghost-on-ubuntu,my_library,"blogging, linux",2024-05-22T16:44:47.000Z,https://www.ubuntumint.com/wp-content/uploads/2024/05/Install-Ghost-On-Ubuntu.webp,,False

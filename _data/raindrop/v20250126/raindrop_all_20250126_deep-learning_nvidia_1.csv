@@ -1,0 +1,2 @@
+id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
+876778383,"State of the art NLP at scale with RAPIDS, HuggingFace and Dask",,See how to build end-to-end NLP pipelines in a fast and scalable way on GPUs — from feature engineering to inference.,https://medium.com/rapids-ai/state-of-the-art-nlp-at-scale-with-rapids-huggingface-and-dask-a885c19ce87b,my_library,"dask, deep-learning, gpus, nlp, nvidia",2021-04-04T14:22:38.000Z,https://miro.medium.com/v2/da:true/resize:fit:1200/0*w9WCIHyMuQ9h5Pee,,False

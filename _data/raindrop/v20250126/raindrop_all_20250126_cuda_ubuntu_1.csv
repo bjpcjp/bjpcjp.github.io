@@ -1,0 +1,3 @@
+id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
+876797995,nvidia - Installing CUDA on Ubuntu 23.10 - libt5info not installable - Ask,,"Today I've installed from scratch Ubuntu 23.10 on my computer.
+After having installed all the software I need, I tried to install CUDA from the NVIDIA website, following their instructions: https://",https://askubuntu.com/questions/1491254/installing-cuda-on-ubuntu-23-10-libt5info-not-installable,my_library,"cuda, ubuntu",2024-07-30T02:52:05.000Z,https://cdn.sstatic.net/Sites/askubuntu/Img/apple-touch-icon.png?v=e16e1315edd6,,False

@@ -1,0 +1,2 @@
+id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
+876797879,From bare metal to a 70B model: infrastructure set-up and scripts - imbue,,"We would like to thank Voltage Park, Dell, H5, and NVIDIA for their invaluable partnership and help with setting up our cluster. A special…",https://imbue.com/research/70b-infrastructure,my_library,"devops, llms",2024-07-03T19:55:16.000Z,https://generallyintelligent.com/preview/70b-infra-social.png,,False

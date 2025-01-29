@@ -1,0 +1,2 @@
+id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
+876771899,Scaling Jupyter notebooks with Kubernetes and Tensorflow,,"In this article, you will explore how you can leverage Kubernetes, Tensorflow and Kubeflow to scale your models without having to worry about scaling the infrastructure.",https://learnk8s.io/blog/scaling-machine-learning-with-kubeflow-tensorflow,my_library,"deep-learning, devops, kubernetes, tensorflow",2019-08-29T22:54:21.000Z,https://static.learnk8s.io/25578661c4220a43040ebfb385ea44e9.png,,False

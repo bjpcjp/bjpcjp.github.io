@@ -1,0 +1,2 @@
+id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
+876791897,Federation Architecture Overview - Bluesky,,"Soon, we’re launching a sandbox environment for federation. In advance, we want to share some technical details about our design decisions.",https://blueskyweb.xyz/blog/5-5-2023-federation-architecture,my_library,"federated-learning, twitter",2023-05-07T16:02:05.000Z,https://bsky.social/about/blog/blogposts/federation-architecture-diagram.png,,False

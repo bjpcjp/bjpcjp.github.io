@@ -1,0 +1,2 @@
+id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
+876793752,GPT in 60 Lines of NumPy,,Implementing a GPT model from scratch in NumPy.,https://jaykmody.com/blog/gpt-from-scratch,my_library,"gpt, numpy",2024-01-07T22:16:58.000Z,https://jaykmody.com/profile.png,,False

@@ -1,0 +1,2 @@
+id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
+876776453,Terraform vs Ansible: What's the difference and which one you should use?,,Preparing your Infrastructure as Code solution? Ansible and Terraform are two of the most popular choices. But what's the difference?,https://linuxhandbook.com/terraform-vs-ansible,my_library,"ansible, devops, terraform",2020-12-10T03:38:01.000Z,https://linuxhandbook.com/content/images/2020/11/ansible-vs-terraform-1.jpg,,False

@@ -1,0 +1,3 @@
+id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
+876795390,Speech and Language Processing,,,https://web.stanford.edu/~jurafsky/slp3,my_library,"language-linguistics, machine-learning, nlp",2024-03-12T19:02:38.000Z,,,False
+876785025,T-LEAF: Taxonomy Learning and EvaluAtion Framework,,"How we applied qualitative learning, human labeling and machine learning to iteratively develop Airbnb’s Community Support Taxonomy.",https://medium.com/airbnb-engineering/t-leaf-taxonomy-learning-and-evaluation-framework-30ae19ce8c52?source=rss----53c7c27702d5---4,my_library,"language-linguistics, machine-learning, taxonomy",2022-06-24T23:30:37.000Z,https://miro.medium.com/v2/da:true/resize:fit:1200/0*X863W9ZDWmr7SlKW,,False

@@ -1,0 +1,3 @@
+id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
+876784096,rr: lightweight recording & deterministic debugging,,,https://rr-project.org,my_library,"cpp, debugging, programming",2022-06-05T22:16:36.000Z,,,False
+876776376,Show HN: A list of 470 static analysis tools,,"Find static code analysis tools and linters for Java, JavaScript, PHP, Python, Ruby, C/C++, C#, Go, Swift, and more. All tools and linters are peer-reviewed by fellow developers to select the best tools available. Avoid bugs in production, outages on weekends, and angry customers.",https://analysis-tools.dev,my_library,"cpp, programming, python, ruby",2020-11-29T20:14:23.000Z,https://analysis-tools.dev/assets/images/social.png,,False

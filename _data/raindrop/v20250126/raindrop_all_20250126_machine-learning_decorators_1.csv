@@ -1,0 +1,2 @@
+id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
+876783969,Useful Python decorators for Data Scientists,,I show toy implementations of Python decorator patterns that may be useful for Data Scientists.,https://bytepawn.com/python-decorators-for-data-scientists.html,my_library,"decorators, machine-learning, python",2022-05-28T00:57:37.000Z,https://bytepawn.com/images/decorators-ds.jpg,,False

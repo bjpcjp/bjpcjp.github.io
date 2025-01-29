@@ -1,0 +1,2 @@
+id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
+876772821,When your data doesn’t fit in memory: the basic techniques,,"You can process data that doesn’t fit in memory by using four basic techniques: spending money, compression, chunking, and indexing.",https://pythonspeed.com/articles/data-doesnt-fit-in-memory,my_library,"python, semiconductor-memory",2019-12-14T20:33:30.000Z,https://pythonspeed.com/assets/titles/data-doesnt-fit-in-memory.png,,False

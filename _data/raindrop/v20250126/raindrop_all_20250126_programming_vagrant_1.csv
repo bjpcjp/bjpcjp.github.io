@@ -1,0 +1,2 @@
+id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
+876780825,Introduction | Vagrant | HashiCorp Developer,,"Vagrant is a tool for building complete development environments. With an easy-to-use workflow and focus on automation, Vagrant lowers development environment setup time, increases development/production parity, and makes the ""it works on my machine"" excuse a relic of the past.",https://www.vagrantup.com/intro/index.html,my_library,"devops, programming, vagrant",2021-12-12T18:16:28.000Z,https://developer.hashicorp.com/og-image/vagrant.jpg,,False

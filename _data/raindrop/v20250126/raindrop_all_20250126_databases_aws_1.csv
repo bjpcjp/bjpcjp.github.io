@@ -1,0 +1,2 @@
+id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
+876795361,"S3 is files, but not a filesystem",,"""Deep"" modules, mismatched interfaces - and why SAP is so painful",https://calpaterson.com/s3.html,my_library,"aws, databases, sqlite",2024-03-10T13:06:19.000Z,https://calpaterson.com/images/photo/cal-misc.jpeg,,False

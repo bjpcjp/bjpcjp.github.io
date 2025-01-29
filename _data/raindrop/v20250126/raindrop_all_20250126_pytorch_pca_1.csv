@@ -1,0 +1,2 @@
+id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
+876794046,Understanding Principal Component Analysis in PyTorch,,Built-in function vs. numerical methods,https://towardsdatascience.com/differentiable-principal-component-analysis-in-pytorch-using-power-iteration-ee93ac9fa2c4,my_library,"pca, pytorch",2024-02-20T15:23:29.000Z,https://miro.medium.com/v2/resize:fit:1192/1*bLWUKmsBU0wi080CUgEhxA.png,,False

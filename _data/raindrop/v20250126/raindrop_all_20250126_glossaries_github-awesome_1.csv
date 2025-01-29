@@ -1,0 +1,2 @@
+id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
+876782888,Glossary — Python 3.10.3 documentation,,">>>, The default Python prompt of the interactive shell. Often seen for code examples which can be executed interactively in the interpreter.,,..., Can refer to:- The default Python prompt of the i...",https://docs.python.org/3/glossary.html#term-__slots__,my_library,"github-awesome, glossaries, python",2022-03-23T22:58:55.000Z,https://docs.python.org/3/_static/og-image.png,,False

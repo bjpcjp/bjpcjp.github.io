@@ -1,0 +1,37 @@
+id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
+881001396,PAM4: Pulse Amplitude Modulation Explained,,An in-depth look at the high-speed data communication standard's benefits and tradeoffs.,https://semiengineering.com/pam4-pulse-amplitude-modulation-explained,my_library,"circuits-electronics, networking, dsp",2024-10-19T18:32:36.992Z,https://semiengineering.com/wp-content/uploads/Screenshot-2024-09-24-at-10.51.43%E2%80%AFAM.png?fit=1760%2C1316&ssl=1,"Highlight:PAM4 is a four-level pulse amplitude-modulated signal, which can be electrical or optical.
+
+Highlight:non-return-to-zero (NRZ) encoding
+
+Highlight:PAM4 uses four levels. A PAM4 signal can appear as one of four voltages during each clock cycle, each voltage level representing two bits
+
+Highlight:Shannon-Hartley theorem
+
+Highlight:The PHY circuit
+
+Highlight:an 800GE network can be carried by eight 100 Gb/s (50 GBaud PAM4) lanes rather than sixteen 50 Gb/s NRZ lanes.
+
+Highlight:PAM4 devices are far more susceptible to noise
+
+Highlight:decision feedback equalization (DFE)
+
+Highlight:forward error correction (FEC).
+
+Highlight:redundant bits use the same channel
+
+Highlight:PCIe® 6.0 adopted PAM4 in 2022
+
+Highlight:USB4 Version 2.0, which uses PAM3 signaling
+
+Highlight:Coherent optics uses quadrature amplitude modulation (QAM), a method of complex modulation that increases transmission speed and efficiency by extending multi-level modulation to two or more dimensions
+
+Highlight:signal-to-noise and distortion ratio (SNDR), rise and fall time, 12-edge jitter, and transmitter dispersion and eye closure quaternary (TDECQ)
+
+Highlight:eye height and width
+
+Highlight:“closed eye”
+
+Highlight:requires an oscilloscope with at least 50 GHz bandwidth",False
+876795341,The quiet plan to make the internet feel faster,,L4S could fix a problem that even gigabit connections don’t.,https://www.theverge.com/23655762/l4s-internet-apple-comcast-latency-speed-bandwidth,my_library,"circuits-electronics, networking",2024-03-06T08:20:12.000Z,https://cdn.vox-cdn.com/thumbor/OV6DgjtIZgh5HmgrjqUUrAw7jbM=/0x0:2040x1360/1200x628/filters:focal(1020x680:1021x681)/cdn.vox-cdn.com/uploads/chorus_asset/file/25139984/236836_Infrastructure_L4S_BROADBAND_SISIKIM_LEDE.jpg,,False
+876794047,Ethernet For Hackers: The Very Basics | Hackaday,,"Ethernet is ubiquitous, fast, and simple. You only need two diffpairs (four wires) to establish a 100Mbit link, the hardware is everywhere, you can do Ethernet over long distances easily, and tons …",https://hackaday.com/2024/02/12/ethernet-for-hackers-the-very-basics,my_library,"circuits-electronics, networking",2024-02-20T15:23:34.000Z,https://hackaday.com/wp-content/uploads/2024/02/ethernet_cable_featured.png,,False
+876792626,Speed matters: How Ethernet went from 3Mbps to 100Gbps… and beyond,,"One of the biggest computing inventions of all time, courtesy of Xerox PARC.",https://arstechnica.com/gadgets/2023/06/speed-matters-how-ethernet-went-from-3mbps-to-100gbps-and-beyond,my_library,"circuits-electronics, networking",2023-07-03T22:54:52.000Z,https://cdn.arstechnica.net/wp-content/uploads/2020/10/broadband-ethernet-cables.jpg,,False

@@ -1,0 +1,3 @@
+id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
+876777509,rgl | RubyGems.org | your community gem host,,,https://rubygems.org/gems/rgl/versions/0.3.1,my_library,"algorithms-math, graphs, ruby, rubyonrails",2021-02-03T14:05:11.000Z,,,False
+876777229,Practical Graph Theory in Ruby,,"This is the next installment in the ""Practical Computer Science"" series, where you will learn how to apply classic computer science concepts to solve real problems using Ruby.  Today we are going to talk about Graph",https://www.rubyguides.com/2017/05/graph-theory-in-ruby,my_library,"algorithms-math, graphs, machine-learning, ruby",2020-12-26T12:30:00.000Z,https://www.rubyguides.com/wp-content/uploads/2017/05/graph-theory-1.png,,False

@@ -1,0 +1,29 @@
+<div class="callout">
+	<h2>{{page.title}}</h2>
+</div>
+
+<div style="columns:2;">
+	{% for record in file %}
+		<div class="card" style="border:1px solid lightslategray; border-radius:10px;">
+			
+			<div class="card-divider" style="border-bottom:1px solid lightslategray;">
+				<strong><a href="{{record.url}}">{{record.title | truncate: 60}}</a></strong>
+			</div>
+			
+			{% if record.cover %}
+				<div class="card-image">
+					<a href="{{record.url}}">
+						<img src="{{record.cover}}" 
+							alt="{{record.title}}"/></a>
+				</div>
+			{% endif %}
+
+			{% if record.excerpt %}
+				<div class="card-section">
+					<p style="color:darkslategray;">{{record.excerpt}}</p>
+				</div>
+			{% endif %}
+
+		</div>
+	{% endfor %}
+</div>

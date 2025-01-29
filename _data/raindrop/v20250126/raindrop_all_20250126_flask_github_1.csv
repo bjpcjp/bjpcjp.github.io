@@ -1,0 +1,2 @@
+id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
+876776114,Create and Deploy your First Flask App using Python and Heroku,,Flask is a straightforward and lightweight web application framework for Python applications. This guide walks you through how to write an application using Flask with a deployment on Heroku.,https://www.kdnuggets.com/2020/09/flask-app-using-python-heroku.html,my_library,"flask, github, heroku",2020-11-03T00:10:33.000Z,,,False

@@ -1,0 +1,2 @@
+id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
+876778230,Using RAPIDS with PyTorch,,"In this post we take a look at how to use cuDF, the RAPIDS dataframe library, to do some of the preprocessing steps required to get the mortgage data in a format that PyTorch can process so that we…",https://developer.nvidia.com/blog/using-rapids-with-pytorch,my_library,"gpus, nvidia, pytorch",2021-03-15T20:28:23.000Z,https://developer-blogs.nvidia.com/wp-content/uploads/2021/01/RAPIDSPyTorch_Image1-1.jpg,,False

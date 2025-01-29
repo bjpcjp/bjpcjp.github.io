@@ -1,0 +1,3 @@
+id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
+876789924,Torch and Torchvision C installation and debugging on Linux,,Example debugging RoIAlign from Torchvision,https://towardsdatascience.com/torch-and-torchvision-c-installation-and-debugging-on-linux-263676c38fa2,my_library,"cpp, linux, pytorch",2023-01-16T21:21:37.000Z,https://miro.medium.com/v2/resize:fit:825/1*sdG0loJNkXjq83kB6_BAVg.png,,False
+876789717,Important GCC Flags in Linux,,You can use GCC flags to extend the functionality of the GCC compiler. Here are some of the common and yet important flags.,https://linuxhandbook.com/gcc-flags,my_library,"cpp, gcc, linux",2022-12-16T19:16:25.000Z,https://linuxhandbook.com/content/images/2022/12/important-gcc-flags-in-linux.png,,False

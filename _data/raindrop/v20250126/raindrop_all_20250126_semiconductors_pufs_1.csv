@@ -1,0 +1,2 @@
+id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
+876780149,Design and Analysis of Stability-Guaranteed PUFs,,"The lack of stability is one of the major limitations that constrains PUF from being put in widespread practical use. In this paper, we propose a weak PUF and a strong PUF that are both completely...",https://arxiv.org/abs/1701.05637,my_library,"pufs, semiconductors",2021-12-01T14:43:46.000Z,https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png,,False

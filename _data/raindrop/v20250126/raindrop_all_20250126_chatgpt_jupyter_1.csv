@@ -1,0 +1,10 @@
+id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
+876793068,ChatGPT Noteable (Jupyter) = Mind-blowing! - YouTube,,"Do you use Python, Pandas, and Seaborn to collect, analyze, and plot data? Then you'll be amazed by what ChatGPT can do, when using ChatGPT+, GPT-4 model, and the plugin for Noteable's version of Jupyter notebooks.
+
+[UPDATE/NOTE: This was my first summary of Noteable and ChatGPT. I have done more experiments, which you can see here: https://www.youtube.com/watch?v=2WUZ0b-hUDU]
+
+In this video, I show you how I got things set up for using Noteable (and world headlines), then put together a query, You'll see how it goes well, where it goes wrong, and what sort of code I can create using just English-language descriptions of my plans. And I show you what's happening behind the scenes, as we see the JSON being written.
+
+This is all brand new and exciting, and I hope that you'll post suggestions and ideas in the comments for how we can take this even further!
+
+And if you're interested in analyzing data with Pandas, check out Bamboo Weekly at https://www.BambooWeekly.com/, where I look at current events through the eyes of data analysis.",https://www.youtube.com/watch?v=otk2AA6hGgU,my_library,"chatgpt, jupyter",2023-09-25T23:22:37.000Z,https://i.ytimg.com/vi/otk2AA6hGgU/maxresdefault.jpg,,False

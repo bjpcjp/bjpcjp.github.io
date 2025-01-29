@@ -1,0 +1,2 @@
+id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
+876783966,One Line of Code to Accelerate Your Sklearn Algorithms on Big Data,,The introduction of the intel sklearn extension. Make your Random Forest even faster than XGBoost.,https://towardsdatascience.com/one-line-of-code-to-accelerate-your-sklearn-algorithms-on-big-data-9c26190a0dc5,my_library,"machine-learning, programming, python, scikit-learn",2022-05-27T22:11:00.000Z,https://miro.medium.com/v2/resize:fit:972/1*hKuJSM0GmY2pW7jm3BvEyQ.png,,False

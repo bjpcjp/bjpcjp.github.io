@@ -1,0 +1,3 @@
+id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
+876780686,3 (and Half) Powerful Tricks To Effectively Read CSV Data In Python,,"Master usecols, chunksize, parse_dates in pandas read_csv().",https://towardsdatascience.com/3-and-half-powerful-tricks-to-effectively-read-csv-data-in-python-c4699a4f9d07?source=rss----7f60cf5620c9---4,my_library,"csv, machine-learning, pandas, python",2021-12-07T00:58:08.000Z,https://miro.medium.com/v2/resize:fit:1200/1*SFqrLpBamc7ZgTkncBLZXw.jpeg,,False
+876774742,1. Getting started — csvkit 1.0.5 documentation,,,https://csvkit.readthedocs.io/en/latest/tutorial/1_getting_started.html#installing-csvkit,my_library,"csv, machine-learning",2020-04-23T23:45:52.000Z,,,False

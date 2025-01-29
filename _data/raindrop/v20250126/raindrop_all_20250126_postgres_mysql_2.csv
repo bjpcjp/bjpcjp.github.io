@@ -1,0 +1,3 @@
+id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
+876784859,Postgres Vs MySQL syntax comparison with cheatsheet,,When migrating from PostgreSQL to MySQL we often get stuck with syntax between databases. Here are...,https://dev.to/tipseason/postgres-vs-mysql-syntax-comparison-with-cheatsheet-41n5,my_library,"databases, mysql, postgres",2022-06-22T16:40:53.000Z,"https://media.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fl7vr3b8a0h58yza7hv7d.png",,False
+876778126,Why Uber Engineering Switched from Postgres to MySQL,,,https://eng.uber.com/postgres-to-mysql-migration,my_library,"databases, mysql, postgres",2021-02-27T23:19:59.000Z,,,False

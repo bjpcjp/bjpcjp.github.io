@@ -1,0 +1,3 @@
+id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
+876778949,Deploy an app — Streamlit 0.81.1 documentation,,,https://docs.streamlit.io/en/stable/deploy_streamlit_app.html,my_library,"devops, streamlit",2021-05-05T15:14:21.000Z,https://docs.streamlit.io/sharing-image-facebook.jpg,,False
+876778400,Deploying a basic Streamlit app to Heroku,,This article demonstrates the deployment of a basic Streamlit app (that simulates the Central Limit Theorem) to Heroku.,https://towardsdatascience.com/deploying-a-basic-streamlit-app-to-heroku-be25a527fcb3?source=rss----7f60cf5620c9---4,my_library,"devops, heroku, machine-learning, streamlit",2021-04-07T21:28:58.000Z,https://miro.medium.com/v2/resize:fit:1200/1*fIEKxiVouesevXYZJ0xx_w.png,,False

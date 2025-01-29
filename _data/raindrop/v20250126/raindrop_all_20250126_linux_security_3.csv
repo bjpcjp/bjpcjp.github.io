@@ -1,0 +1,4 @@
+id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
+876780873,My First 10 Minutes On a Server - Primer for Securing Ubuntu | Codelitt,,How to secure an ubuntu server against attacks.,https://www.codelitt.com/blog/my-first-10-minutes-on-a-server-primer-for-securing-ubuntu,my_library,"linux, security, web-servers",2021-12-12T19:46:49.000Z,https://res-3.cloudinary.com/hepw4b4yn/image/upload/q_auto/v1/ghost-blog-images/My-first-10-minutes-on-an-ubuntu-server.png,,False
+876777263,Linux Hardening Guide | Madaidan's Insecurities,,,https://madaidans-insecurities.github.io/guides/linux-hardening.html,my_library,"devops, linux, security",2020-12-31T16:54:30.000Z,,,False
+876769556,netdev day 1: IPsec!,,,https://jvns.ca/blog/2018/07/11/netdev-day-1--ipsec,my_library,"devops, ipsec, linux, security",2018-07-13T16:37:20.000Z,,,False

@@ -1,0 +1,2 @@
+id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
+876790579,Comparing Different Automatic Image Augmentation Methods in PyTorch,,"Data augmentation is a key tool in reducing overfitting, whether it's for images or text. This article compares three Auto Image Data Augmentation techniques...",https://sebastianraschka.com/blog/2023/data-augmentation-pytorch.html,my_library,"data-augmentation, machine-learning, pytorch",2023-01-30T19:53:39.000Z,https://sebastianraschka.com/images/blog/2023/data-augmentation-pytorch/hero.jpg,,False

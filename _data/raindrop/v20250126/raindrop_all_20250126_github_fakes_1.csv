@@ -1,0 +1,2 @@
+id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
+876790972,"Tracking the Fake GitHub Star Black Market with Dagster, dbt and BigQuery | Dagster Blog",,It's easy for an open-source project to buy fake GitHub stars. We share two approaches for detecting them.,https://dagster.io/blog/fake-stars,my_library,"fakes, github",2023-03-19T17:41:24.000Z,https://dagster.io/posts/fake-stars/fake-stars-cover.png,,False

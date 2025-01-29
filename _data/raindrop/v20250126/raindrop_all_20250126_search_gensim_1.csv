@@ -1,0 +1,2 @@
+id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
+876792672,Introduction to Vector Similarity Search,,Learn what vector search is and the metrics pertinent to decide the distance (or similarity) between objects.,https://zilliz.com/blog/vector-similarity-search,my_library,"gensim, machine-learning, nlp, search",2023-07-14T15:47:08.000Z,https://assets.zilliz.com/Introduction_to_Vector_Similarity_Search_2af599462f.png,,False
