@@ -1,6 +1,22 @@
+<!--
 <div class="callout">
 	<h2>{{page.title}}</h2>
 </div>
+-->
+
+{% if page.format == "condensed" %}
+
+<div style="columns:2;">
+	{% for record in file %}
+		<div class="card" style="border:1px solid lightslategray; border-radius:10px;">
+			<div class="card-section" style="border-bottom:1px solid lightslategray;">
+				<p><a href="{{record.url}}">{{record.title | truncate: 60}}</a></p>
+			</div>
+		</div>	
+	{% endfor %}
+</div>
+
+{% else %}
 
 <div style="columns:2;">
 	{% for record in file %}
@@ -13,8 +29,7 @@
 			{% if record.cover %}
 				<div class="card-image">
 					<a href="{{record.url}}">
-						<img src="{{record.cover}}" 
-							alt="{{record.title}}"/></a>
+						<img src="{{record.cover}}"/></a>
 				</div>
 			{% endif %}
 
@@ -27,3 +42,5 @@
 		</div>
 	{% endfor %}
 </div>
+
+{% endif %}
