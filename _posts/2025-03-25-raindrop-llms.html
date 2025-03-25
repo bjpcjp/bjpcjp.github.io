@@ -1,0 +1,14 @@
+---
+title: LLM articles
+date: 2025-03-25
+layout: default-foundation-20210515
+tags: llms
+#format: "condensed"
+---
+
+{%- assign raindrop = site.data.raindrop.v20250325.rain20250325 %}
+{%- assign file = raindrop | where_exp: "item", "item.tags contains 'llms'" %}
+
+<div class="callout"><h2>{{page.title}}</h2></div>
+
+{% include raindrop-2c-pix.html %}
