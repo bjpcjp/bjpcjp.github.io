@@ -1,16 +1,30 @@
 ---
 title: Bash resources
 layout: default-foundation-20210515
-tags: devops linux bash
-date: 2024-02-23
+tags: linux bash
+date: 2025-03-25
 ---
 
 {%- assign title = "Bash resources" -%}
 {%- assign records = site.data.code.bash-20240106 | sort: "title" -%}
+{%- assign raindrop = site.data.raindrop.v20250325.rain20250325 %}
+{%- assign file = raindrop | where_exp: "item", "item.tags contains 'bash'" %}
 
 <div class="callout">
 	<h2>{{title}}</h2>
+    <p>(updated 3/25/25)</p>
 </div>
+
+<div class="callout primary">
+    <p>Raindrop.io bookmarks, 3/25/25</p>
+</div>
+
+{% include raindrop-2c-pix.html %}
+
+<div class="callout primary">
+    <p>other, mainly PDFs (7/6/22)</p>
+</div>
+
 
 <div style="columns: 2;">
 {%- for item in records -%}
