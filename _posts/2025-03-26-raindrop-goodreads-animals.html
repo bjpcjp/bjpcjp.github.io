@@ -1,0 +1,17 @@
+---
+title: goodreads/animals
+date: 2025-03-26 13:13
+layout: default-foundation-20210515
+tags: goodreads animals
+#format: "condensed"
+---
+
+{%- assign raindrop = site.data.raindrop.v20250325.rain20250325 %}
+
+{%- assign file = raindrop | where_exp: "item", "item.tags contains 'goodreads'" | where_exp: "item", "item.tags contains 'animals'"| sort: 'created' | reverse %}
+
+{% assign prodmgmt_ecommerce_posts = site.data.posts  %}
+
+<div class="callout"><h2>{{page.title}}</h2></div>
+
+{% include raindrop-2c-pix.html %}
