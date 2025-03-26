@@ -10,7 +10,10 @@
 	{% for record in file %}
 		<div class="card" style="border:1px solid lightslategray; border-radius:10px;">
 			<div class="card-section" style="border-bottom:1px solid lightslategray;">
+
 				<p><a href="{{record.url}}">{{record.title | truncate: 60}}</a></p>
+				<p>({{record.created | date: "%Y-%m-%d"}})</p>
+
 			</div>
 		</div>	
 	{% endfor %}
@@ -29,7 +32,9 @@
 			{% if record.cover %}
 				<div class="card-image">
 					<a href="{{record.url}}">
-						<img src="{{record.cover}}"/></a>
+						<img src="{{record.cover}}"
+							 class="thumbnail"
+						/></a>
 				</div>
 			{% endif %}
 

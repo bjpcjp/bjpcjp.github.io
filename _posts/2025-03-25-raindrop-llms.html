@@ -7,7 +7,7 @@ tags: llms
 ---
 
 {%- assign raindrop = site.data.raindrop.v20250325.rain20250325 %}
-{%- assign file = raindrop | where_exp: "item", "item.tags contains 'llms'" %}
+{%- assign file = raindrop | where_exp: "item", "item.tags contains 'llms'" | sort: 'created' | reverse %}
 
 <div class="callout"><h2>{{page.title}}</h2></div>
 
