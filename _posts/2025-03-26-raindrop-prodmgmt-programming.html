@@ -1,0 +1,17 @@
+---
+title: prodmgmt/programming links
+date: 2025-03-26 12:51
+layout: default-foundation-20210515
+tags: prodmgmt programming
+#format: "condensed"
+---
+
+{%- assign raindrop = site.data.raindrop.v20250325.rain20250325 %}
+
+{%- assign file = raindrop | where_exp: "item", "item.tags contains 'prodmgmt'" | where_exp: "item", "item.tags contains 'programming'"| sort: 'created' | reverse %}
+
+{% assign prodmgmt_ecommerce_posts = site.data.posts  %}
+
+<div class="callout"><h2>{{page.title}}</h2></div>
+
+{% include raindrop-2c-pix.html %}
