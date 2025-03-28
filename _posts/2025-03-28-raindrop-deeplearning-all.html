@@ -1,16 +1,16 @@
 ---
-title: prodmgmt/ecommerce (condensed)
-date: 2025-01-29
+title: deep-learning (all)
+date: 2025-03-28 17:57
 layout: default-foundation-20210515
-tags: prodmgmt, ecommerce
-format: "condensed"
+tags: deep-learning
+#format: "condensed"
+showtags: showtags
 ---
 
 {%- assign raindrop = site.data.raindrop.v20250325.rain20250325 %}
 
 {%- assign file = raindrop | 
-	where_exp: "item", "item.tags contains 'prodmgmt'" | 
-	where_exp: "item", "item.tags contains 'ecommerce'" | 
+	where_exp: "item", "item.tags contains 'deep-learning'" | 
 	sort: 'created' | 
 	reverse %}
 

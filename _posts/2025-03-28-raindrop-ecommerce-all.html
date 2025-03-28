@@ -1,15 +1,15 @@
 ---
-title: prodmgmt/ecommerce (condensed)
-date: 2025-01-29
+title: ecommerce (all)
+date: 2025-03-28 18:01
 layout: default-foundation-20210515
-tags: prodmgmt, ecommerce
-format: "condensed"
+tags: ecommerce
+#format: "condensed"
+showtags: showtags
 ---
 
 {%- assign raindrop = site.data.raindrop.v20250325.rain20250325 %}
 
 {%- assign file = raindrop | 
-	where_exp: "item", "item.tags contains 'prodmgmt'" | 
 	where_exp: "item", "item.tags contains 'ecommerce'" | 
 	sort: 'created' | 
 	reverse %}

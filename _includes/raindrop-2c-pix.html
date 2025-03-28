@@ -1,20 +1,15 @@
-<!--
-<div class="callout">
-	<h2>{{page.title}}</h2>
-</div>
--->
-
 {% if page.format == "condensed" %}
 
-<div style="columns:2;">
 	{% for record in file %}
-		<div class="card" style="border:1px solid lightslategray; border-radius:10px;">
-			<div class="card-section" style="border-bottom:1px solid lightslategray;">
-				<p><a href="{{record.url}}">{{record.title | truncate: 60}}</a></p>
-			</div>
-		</div>	
+		<li style="list-style:none;">
+			{{record.created | date: "%Y-%m-%d"}} &nbsp;
+			<a href="{{record.url}}">{{record.title | truncate: 60}}</a>
+			&nbsp;
+			<!-- DISPLAYS ARTICLE URL DOMAIN and WHEN SAVED -->
+			({{ record.url | split: '//' | last | split: '/' | first }})
+		</li>
+
 	{% endfor %}
-</div>
 
 {% else %}
 
@@ -27,8 +22,14 @@
 			</div>
 			
 			<div class="card-section">
+				<!-- DISPLAYS ARTICLE URL DOMAIN and WHEN SAVED -->
 				{{ record.url | split: '//' | last | split: '/' | first }} &nbsp;
 				({{record.created | date: "%Y-%m-%d"}})
+
+				<!-- DISPLAYS TAGS IF DIRECTED SO BY POST PARAMS -->
+				{% if page.showtags == "showtags" %}
+					<p style="text-decoration-color: red;">tags: {{record.tags}}</p>
+				{% endif %}
 			</div>
 
 			{% if record.cover %}

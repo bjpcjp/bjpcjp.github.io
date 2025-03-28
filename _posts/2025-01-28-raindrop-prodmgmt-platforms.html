@@ -3,9 +3,16 @@ title: stuff I read - prodmgmt/platforms
 date: 2025-01-28
 layout: default-foundation-20210515
 tags: prodmgmt, platforms
+format: "condensed"
 ---
 
-{% assign file = site.data.raindrop.v20250126.raindrop_all_20250126_prodmgmt_platforms_135 %}
+{%- assign raindrop = site.data.raindrop.v20250325.rain20250325 %}
+
+{%- assign file = raindrop | 
+	where_exp: "item", "item.tags contains 'prodmgmt'" | 
+	where_exp: "item", "item.tags contains 'platforms'" | 
+	sort: 'created' | 
+	reverse %}
 
 <div class="callout"><h2>{{page.title}}</h2></div>
 
