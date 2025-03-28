@@ -1,0 +1,19 @@
+---
+title: machine-learning/algorithms-math
+date: 2025-03-28 10:55
+layout: default-foundation-20210515
+tags: machine-learning algorithms-math
+#format: "condensed"
+---
+
+{%- assign raindrop = site.data.raindrop.v20250325.rain20250325 %}
+
+{%- assign file = raindrop | 
+	where_exp: "item", "item.tags contains 'machine-learning'" | 
+	where_exp: "item", "item.tags contains 'algorithms-math'" | 
+	sort: 'created' | 
+	reverse %}
+
+<div class="callout"><h2>{{page.title}}</h2></div>
+
+{% include raindrop-2c-pix.html %}

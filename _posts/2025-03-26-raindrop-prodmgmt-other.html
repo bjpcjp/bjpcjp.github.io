@@ -1,0 +1,24 @@
+---
+title: prodmgmt/other
+date: 2025-03-26 15:19
+layout: default-foundation-20210515
+tags: prodmgmt other
+#format: "condensed"
+---
+
+{%- assign raindrop = site.data.raindrop.v20250325.rain20250325 %}
+
+{% assign include_tag = "prodmgmt" %} 
+{% assign exclude_tags = "programming, behavior, discovery, marketing, analytics, startup, pricing, ecommerce, platforms, ui-ux" | split: ", " %}
+
+{% assign final_records = filtered_records | where_exp: "record", "record.tags == nil or exclude_tags | map: record.tags | compact | size == 0" %}
+
+{%- assign file = raindrop | 
+	where_exp: "item", "item.tags contains 'semiconductors'" | 
+	where_exp: "item", "item.tags contains 'semiconductor-memory'"| 
+	sort: 'created' | 
+	reverse %}
+
+<div class="callout"><h2>{{page.title}}</h2></div>
+
+{% include raindrop-2c-pix.html %}
