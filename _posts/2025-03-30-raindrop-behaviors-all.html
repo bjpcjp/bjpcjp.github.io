@@ -1,16 +1,16 @@
 ---
-title: machine-learning/algorithms-math
-date: 2025-03-28 10:55
+title: behaviors (all)
+date: 2025-03-30 10:41
 layout: default-foundation-20210515
-tags: machine-learning algorithms-math
-#format: "condensed"
+tags: behaviors
+format: "condensed"
+showtags: showtags
 ---
 
 {%- assign raindrop = site.data.raindrop.v20250325.rain20250325 %}
 
 {%- assign file = raindrop | 
-	where_exp: "item", "item.tags contains 'machine-learning'" | 
-	where_exp: "item", "item.tags contains 'algorithms-math'" | 
+	where_exp: "item", "item.tags contains 'behaviors'" | 
 	sort: 'created' | 
 	reverse %}
 

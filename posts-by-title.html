@@ -6,26 +6,19 @@ title: Posts by Title
 {% if site.posts.size > 0 -%}
 
   {%- assign posts = site.posts | sort: 'title' -%}
-  {%- assign lastpost  = posts.last -%}
-  {%- assign last20posts = posts | reverse | slice: 1, 20 -%}
-  {%- assign showindex = True -%}
 
   <div class="callout">
     <h2>All posts by title</h2>
   </div>
 
-<div style="column-count: 2;">
-  <span id="content">
+  <div style="column-count: 2;">
 
-  {%- for post in posts -%}
+    {%- for post in posts -%}
+      <a href="{{post.url}}">{{post.title}}</a> &nbsp;
+      <small>({{post.date | date: "%Y/%m/%d"}})</small><br>
+    {%- endfor -%}
 
-    <a href="{{post.url}}">{{post.title}}</a> &nbsp;
-    <small>({{post.date | date: "%Y/%m/%d"}})</small><br>
-
-  {%- endfor -%}
-
-</span>
-</div>
+  </div>
 
 {% endif %}
 
