@@ -1,9 +1,12 @@
 ---
+title: product design resources - github
 layout: default-foundation-20210515
 tags: uiux design
 ---
 
-# Awesome Product Design [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
+<div class="callout">
+	<h2>Awesome Product Design [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)</h2>
+</div>
 
 > A collection of bookmarks, resources, articles for product designers.
 

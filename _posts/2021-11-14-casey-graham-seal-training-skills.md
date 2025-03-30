@@ -1,5 +1,5 @@
 ---
-title: Seal Fit training skills (Casey Graham)
+title: seal fit training skills (Casey Graham)
 tags: motivation
 date: 2021-11-14
 layout: default-foundation-20210515

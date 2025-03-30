@@ -1,5 +1,5 @@
 ---
-title: Data Science Interview Q&A
+title: data science interview Q&A
 layout: default-foundation-20210515
 date: 2021-10-01
 tags: data-science machine-learning
