@@ -22,10 +22,12 @@
 			</div>
 			
 			<div class="card-section">
-				<!-- DISPLAYS ARTICLE URL DOMAIN and WHEN SAVED -->
-				{{ record.url | split: '//' | last | split: '/' | first }} &nbsp;
-				({{record.created | date: "%Y-%m-%d"}})
-
+				<!-- DISPLAYS ARTICLE URL DOMAIN and WHEN SAVED - IF NEEDED -->
+				{% if page.hide_record_metadata != "hide" %}
+					{{ record.url | split: '//' | last | split: '/' | first }} &nbsp;
+					({{record.created | date: "%Y-%m-%d"}})
+				{% endif %}
+				
 				<!-- DISPLAYS TAGS IF DIRECTED SO BY POST PARAMS -->
 				{% if page.showtags == "showtags" %}
 					<p style="text-decoration-color: red;">tags: {{record.tags}}</p>
