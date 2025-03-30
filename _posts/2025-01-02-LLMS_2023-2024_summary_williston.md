@@ -1,5 +1,5 @@
 ---
-title: LLM trend summary 23-24 - Williston
+title: lLM trend summary 23-24 - Williston
 layout: default-foundation-20210515
 tags: llms
 date: 2025-01-02

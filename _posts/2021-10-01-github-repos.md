@@ -1,5 +1,5 @@
 ---
-title: My Github Repos
+title: my Github Repos
 layout: default-foundation-20210515
 date: 2021-10-01
 tags: ruby rubyonrails jekyll python elixir scikit-learn pycaret spacy jupyter javascript nextjs gatsbyjs matplotlib 

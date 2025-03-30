@@ -1,5 +1,5 @@
 ---
-title: ML project from scratch
+title: mL project from scratch
 layout: default-foundation-20210515
 date: 2021-10-21
 tags: machine-learning
