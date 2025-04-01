@@ -1,2 +1,0 @@
-id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
-876797914,"Introducing ‘Mark’, a Markdown CLI tool for GPT4o | Ryan Elston",,"Introduction In this post, I want to introduce Mark, a simple CLI tool that uses Markdown and its syntax to interact naturally with the GPT4-vision/GPT4o models.",https://relston.github.io/markdown/gpt4o/cli/2024/06/07/introducing-mark.html,my_library,"chatgpt, command-line, markdown, python",2024-07-09T22:08:44.000Z,,,False

@@ -1,8 +1,0 @@
-id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
-876790781,Nested lists in yaml - Stack Overflow,,"How can I create nested lists in YAML? I want to get:
- {""Hello"": [""as"", [""http://"", [""cat""]]]}
-
-Here's my YAML that doesn't work (with pyYaml):
-  Hello:
-    - &",https://stackoverflow.com/questions/16333975/nested-lists-in-yaml,my_library,"ruby, yaml",2023-02-25T12:28:39.000Z,https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon.png?v=c78bd457575a,,False
-876779081,Saving/Retrieving Data With a YAML file in Ruby: The Basics | by Kristen Fl,,Writing and reading yaml files can be very simple. Here are a few examples.,https://medium.com/@kristenfletcherwilde/saving-retrieving-data-with-a-yaml-file-in-ruby-the-basics-e45232903d94,my_library,"ruby, yaml",2021-05-28T01:45:19.000Z,,,False

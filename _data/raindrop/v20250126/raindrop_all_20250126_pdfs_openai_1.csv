@@ -1,2 +1,0 @@
-id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
-876796903,How to Summarize Large Documents with LangChain and OpenAI,,There are still some limitations when summarizing very large documents. Here are some ways to mitigate these effects.,https://thenewstack.io/how-to-summarize-large-documents-with-langchain-and-openai,my_library,"langchain, openai, pdfs",2024-05-11T22:22:41.000Z,https://cdn.thenewstack.io/media/2024/04/194e19a1-alley.jpg,,False

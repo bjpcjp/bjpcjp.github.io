@@ -1,2 +1,0 @@
-id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
-876776545,Use `nproc` and not grep /proc/cpuinfo,,"There’s something really quite subtle about how the nproc utility from GNU coreutils works. If you look at the man page, it’s even the very first sentence: Print the number of processin…",https://www.flamingspork.com/blog/2020/11/25/why-you-should-use-nproc-and-not-grep-proc-cpuinfo,my_library,"cpus, linux",2020-12-18T11:21:10.000Z,https://s0.wp.com/i/blank.jpg,,False

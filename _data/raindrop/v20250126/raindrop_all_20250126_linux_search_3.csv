@@ -1,4 +1,0 @@
-id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
-876790964,A different approach to fuzzy finding,,,https://nathancraddock.com/blog/2023/a-different-approach-to-fuzzy-finding,my_library,"linux, search",2023-03-19T11:49:50.000Z,,,False
-876788483,How to Search in Less Command,,The less command is excellent for reading large text files. It also allows you to search for text in it. Here's what you need to know about searching in less.,https://linuxhandbook.com/search-less-command,my_library,"linux, search",2022-09-08T00:10:33.000Z,https://linuxhandbook.com/content/images/2022/09/search-in-less-command.png,,False
-876773691,How to build a search engine with common Unix tools (2018) [pdf],,,https://www.iaria.org/conferences2018/filesDBKDA18/AndreasSchmidt_Tutorial_SearchEngine.pdf,my_library,"linux, programming, search",2020-02-19T20:03:28.000Z,,,False

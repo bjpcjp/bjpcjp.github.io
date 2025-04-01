@@ -1,3 +1,0 @@
-id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
-876789858,Breaking RSA with a Quantum Computer - Schneier on Security,,,https://www.schneier.com/blog/archives/2023/01/breaking-rsa-with-a-quantum-computer.html,my_library,"algorithms-math, crypto, quantum, security",2023-01-04T16:19:46.000Z,,,False
-876769754,Obtaining an Elliptic Curve certificate from Let's Encrypt,,Let's Encrypt does not currently generate Elliptic Curve certificates. Here's how to obtain one.,https://dev.to/benjaminblack/obtaining-an-elliptic-curve-dsa-certificate-with-lets-encrypt-51bc,my_library,"algorithms-math, crypto, security",2018-09-27T01:51:23.000Z,https://dev-to-uploads.s3.amazonaws.com/uploads/articles/3otvb2z646ytpt1hl2rv.jpg,,False

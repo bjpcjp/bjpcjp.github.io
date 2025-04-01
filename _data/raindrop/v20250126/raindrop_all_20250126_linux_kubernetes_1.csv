@@ -1,2 +1,0 @@
-id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
-876780055,Learning Containers From The Bottom Up,,What is a Container? Container vs. VM? Docker vs. Kubernetes. How to organize the learning efficiently?,https://iximiuz.com/en/posts/container-learning-path,my_library,"containers, devops, docker, kubernetes, linux, programming",2021-11-15T01:58:51.000Z,https://iximiuz.com/container-learning-path/docker-containerd-runc-2000-opt.png,,False

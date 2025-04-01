@@ -1,2 +1,0 @@
-id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
-909219242,Ansible Cron Module: Manage Cron Jobs on Remote Systems,,The cron module in Ansible lets you run and manage the cron jobs on remote systems.,https://linuxhandbook.com/ansible-cron-module/,my_library,"ansible, linux",2024-11-26T14:13:40.048Z,https://linuxhandbook.com/content/images/2024/11/ansible-cron-module.png,,False

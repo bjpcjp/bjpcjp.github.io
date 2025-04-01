@@ -1,2 +1,0 @@
-id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
-876775986,How to cluster images based on visual similarity,,Use a pre-trained neural network for feature extraction and cluster images using K-means.,https://towardsdatascience.com/how-to-cluster-images-based-on-visual-similarity-cd6e7209fe34?source=rss----7f60cf5620c9---4,my_library,"clustering, deep-learning, vision",2020-11-02T23:52:36.000Z,https://miro.medium.com/v2/da:true/resize:fit:1200/0*RARg2hIOV2DCGO-h,,False

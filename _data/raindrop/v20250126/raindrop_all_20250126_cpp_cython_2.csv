@@ -1,3 +1,0 @@
-id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
-876771805,"An Introduction to Cython, the Secret Python Extension with Superpowers",,,http://okigiveup.net/an-introduction-to-cython,my_library,"cpp, cython, python",2019-08-21T22:10:08.000Z,,,False
-876771016,Cython,,"Build software that combines Python’s expressivity with the performance and control of C (and C++). It’s possible with Cython, the compiler and hybrid programming language used by foundational packages such …  - Selection from Cython [Book]",http://shop.oreilly.com/product/0636920033431.do,my_library,"cpp, cython, python",2019-05-21T02:06:33.000Z,https://www.oreilly.com/library/cover/9781491901731/1200w630h/,,False

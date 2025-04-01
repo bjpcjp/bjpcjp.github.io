@@ -1,2 +1,0 @@
-id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
-876775881,Introduction to modern CMake for beginners - Internal Pointers,,A look at one of the most popular build systems for C and C++.,https://internalpointers.com/post/modern-cmake-beginner-introduction,my_library,"devops, make",2020-09-16T17:50:59.000Z,https://raw.githubusercontent.com/monocasual/internalpointers-files/master/2020/09/cmake/introduction-modern-cmake-beginners.png,,False

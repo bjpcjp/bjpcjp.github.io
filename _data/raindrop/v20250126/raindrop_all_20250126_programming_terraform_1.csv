@@ -1,2 +1,0 @@
-id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
-876779181,GitHub - hashicorp/terraform: Terraform enables you to safely and predictab,,"Terraform enables you to safely and predictably create, change, and improve infrastructure. It is a source-available tool that codifies APIs into declarative configuration files that can be shared ...",https://github.com/hashicorp/terraform,my_library,"devops, programming, terraform",2021-06-09T02:24:31.000Z,https://repository-images.githubusercontent.com/17728164/10b4bf00-6a20-11ea-8934-20870600afc0,,False

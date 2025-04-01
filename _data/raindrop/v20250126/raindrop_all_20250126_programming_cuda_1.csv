@@ -1,2 +1,0 @@
-id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
-876789694,CUDA Toolkit 12.0 Released for General Availability,,"NVIDIA announces the newest CUDA Toolkit software release, 12.0. This release is the first major release in many years and it focuses on new programming models and CUDA application acceleration…",https://developer.nvidia.com/blog/cuda-toolkit-12-0-released-for-general-availability,my_library,"cuda, gpus, programming",2022-12-13T14:17:36.000Z,https://developer-blogs.nvidia.com/wp-content/uploads/2022/01/cuda-image-16x9-1.jpg,,False

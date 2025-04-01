@@ -1,3 +1,0 @@
-id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
-876782107,PostgreSQL Python,,This PostgreSQL Python section shows how to work with PostgreSQL from Python programming language using the psycopg2 database driver.,https://www.postgresqltutorial.com/postgresql-python,my_library,"postgres, python",2022-01-16T23:11:52.000Z,https://www.postgresqltutorial.com/wp-content/uploads/2016/06/PostgreSQL-Python.png,,False
-876774026,PostgreSQL Python: Connect To PostgreSQL Database Server,,"In this tutorial, you will learn how to connect to the PostgreSQL database server from Python using the psycopg2 package.",https://www.postgresqltutorial.com/postgresql-python/connect,my_library,"postgres, python",2020-03-23T17:14:52.000Z,,,False

@@ -1,2 +1,0 @@
-id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
-923563917,Using Arrays in YAML: Practical Examples,,Make your config files even more useful by adding a list of items in a sequence in YAML.,https://linuxhandbook.com/yaml-array/,my_library,"yaml, linux",2024-12-17T12:31:26.427Z,https://linuxhandbook.com/content/images/2024/12/yml-array.png,,False

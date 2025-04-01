@@ -1,3 +1,0 @@
-id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
-876791931,Makefile Tutorial by Example,,,https://makefiletutorial.com/#top,my_library,"linux, make",2023-05-16T20:06:13.000Z,,,False
-876789630,Using the Make Utility and Makefiles in Linux [Guide],,Learn the basics of makefile and how to use the make utility for building your applications in Linux with a sample C project.,https://linuxhandbook.com/using-make,my_library,"linux, make",2022-12-07T20:01:18.000Z,https://linuxhandbook.com/content/images/2022/12/make-command-in-linux.png,,False

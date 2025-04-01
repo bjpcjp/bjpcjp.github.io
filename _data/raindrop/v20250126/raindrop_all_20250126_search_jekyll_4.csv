@@ -1,5 +1,0 @@
-id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
-876782146,Forestry.io CMS,,"The Forestry.io team is now focused on building TinaCMS. If you wish to migrate your Forestry site to Tina, follow the guide below.",https://forestry.io/blog/search-with-algolia-in-jekyll,my_library,"jekyll, search",2022-01-17T19:23:19.000Z,https://tina.io/img/tina-og.png,,False
-876780958,Adding Cloudant search to your static Jekyll blog,,Making a static HTML website have dynamic search,https://medium.com/@glynn_bird/adding-cloudant-search-to-your-static-jekyll-blog-5ad76b32a902,my_library,"jekyll, ruby, search",2021-12-15T02:32:45.000Z,https://miro.medium.com/v2/resize:fit:1200/1*TRW3LITyjlZvKFedlir9lA.jpeg,,False
-876780924,https://community.algolia.com/jekyll-algolia/,,,https://community.algolia.com/jekyll-algolia,my_library,"jekyll, search",2021-12-14T22:26:36.000Z,,,False
-876771821,Algolia for Jekyll | Add fast and relevant search to your Jekyll site,,,https://community.algolia.com/jekyll-algolia/blog.html,my_library,"jekyll, ruby, search",2019-08-23T20:55:20.000Z,,,False

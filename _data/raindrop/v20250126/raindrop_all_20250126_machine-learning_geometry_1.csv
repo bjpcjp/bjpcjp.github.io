@@ -1,2 +1,0 @@
-id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
-876789847,Geometric Kernels,,"A cross-framework package for kernels and Gaussian processes on manifolds, graphs, and meshes",https://geometric-kernels.github.io,my_library,"geometry, machine-learning, programming, python",2023-01-01T15:13:37.000Z,https://geometric-kernels.github.io/assets/banner.png,,False

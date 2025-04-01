@@ -1,2 +1,0 @@
-id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
-876776529,Quickstart: Create a Python app - Azure App Service | Microsoft Docs,,Get started with Azure App Service by deploying your first Python app to Azure App Service.,https://docs.microsoft.com/en-us/azure/app-service/quickstart-python?pivots=python-framework-flask&tabs=bash,my_library,"azure, devops, flask, python",2020-12-18T11:20:36.000Z,https://learn.microsoft.com/en-us/media/open-graph-image.png,,False

@@ -1,3 +1,0 @@
-id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
-876784015,Apt - PostgreSQL wiki,,,https://wiki.postgresql.org/wiki/Apt,my_library,"command-line, databases, jupyter, kernels, postgres, ubuntu, _r_",2022-05-29T21:19:24.000Z,,,False
-876782319,IRkernel/IRkernel: R kernel for Jupyter,,R kernel for Jupyter.,https://github.com/IRkernel/IRkernel,my_library,"jupyter, kernels, _r_",2022-01-18T18:43:59.000Z,https://opengraph.githubassets.com/0f6d2f4d05569b7096ffbc75f0ac31d045314424429c1610a7d58f44a9534075/IRkernel/IRkernel,,False

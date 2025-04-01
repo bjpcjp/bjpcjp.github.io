@@ -1,2 +1,0 @@
-id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
-876777526,[1605.09782v6] Adversarial Feature Learning,,The ability of the Generative Adversarial Networks (GANs) framework to learn generative models mapping from simple latent distributions to arbitrarily complex data distributions has been...,https://arxiv.org/abs/1605.09782v6,my_library,"adversarial, deep-learning, feature-engineering",2021-02-04T11:09:48.000Z,https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png,,False

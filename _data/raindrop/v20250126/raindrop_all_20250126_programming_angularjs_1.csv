@@ -1,2 +1,0 @@
-id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
-876785177,Why Your Angular Bundle Is Bloated,,A common reason why an Angular bundle is bloated is that it uses a library like MomentJS that isn't...,https://dev.to/bitovi/why-your-angular-bundle-is-bloated-p2d,my_library,"angularjs, javascript, programming",2022-06-30T20:50:46.000Z,"https://media.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fthkap3noyidzsjq9o7un.jpg",,False

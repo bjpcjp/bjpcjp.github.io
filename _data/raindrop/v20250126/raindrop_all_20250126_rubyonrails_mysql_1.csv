@@ -1,2 +1,0 @@
-id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
-876788475,Introducing Trilogy: a new database adapter for Ruby on Rails,,"We've open sourced Trilogy, the database adapter we use to connect Ruby on Rails to MySQL-compatible database servers.",https://github.blog/2022-08-25-introducing-trilogy-a-new-database-adapter-for-ruby-on-rails,my_library,"mysql, rubyonrails",2022-09-05T22:56:24.000Z,https://github.blog/wp-content/uploads/2022/08/Group-1.png?fit=1200%2C630,,False

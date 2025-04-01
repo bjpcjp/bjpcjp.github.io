@@ -1,2 +1,0 @@
-id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
-876778921,Deploy an NLP pipeline. Flask Heroku Bert.,,A simple quick solution for deploying an NLP project and challenges you may faced during the process.,https://towardsdatascience.com/deploy-an-nlp-pipeline-flask-heroku-bert-f13a302efd9d,my_library,"bert, flask, heroku, nlp",2021-05-01T00:06:16.000Z,https://miro.medium.com/v2/resize:fit:1200/0*5mrPjkeY-esxQrL-.jpg,,False

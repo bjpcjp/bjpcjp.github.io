@@ -1,6 +1,0 @@
-id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
-876788740,"How can you beat XGBoost, CatBoost, and TabNet on tabular data?",,"Use a cocktail of 13 modern regularization techniques! ()
-[1/9]  
-— Sebastian Raschka (@rasbt)",https://twitter.com/rasbt/status/1572616437977546754?s=12&t=xinOWR8ogeOKPe8C2Af9oA,my_library,"machine-learning, regularization, tabular-data",2022-10-14T19:02:13.000Z,,,False
-876785212,An Introduction to Regularization,,This is what makes your trained models actually usable,https://towardsdatascience.com/an-introduction-to-regularization-ec14a269018c?source=rss----7f60cf5620c9---4,my_library,"machine-learning, regularization",2022-07-05T10:35:43.000Z,https://miro.medium.com/v2/resize:fit:1200/1*KZwbQkV6yDkaXyU_EYE52Q.jpeg,,False
-876781097,A Comprehensive Guide of Regularization Techniques in Deep Learning | by Eu,,Understanding how Regularization can be useful to improve the performance of your model,https://towardsdatascience.com/a-comprehensive-guide-of-regularization-techniques-in-deep-learning-c671bb1b2c67,my_library,"machine-learning, regularization",2021-12-28T19:28:14.000Z,https://miro.medium.com/v2/resize:fit:694/1*hawKFCLbd0DC_CqKLTxfdQ.png,,False

@@ -1,2 +1,0 @@
-id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
-876779308,Read Excel files with Python. 1000x Faster.,,"In this article, I’ll show you five ways to load data in Python. Achieving a speedup of 3 orders of magnitude.",https://towardsdatascience.com/read-excel-files-with-python-1000x-faster-407d07ad0ed8,my_library,"excel, machine-learning, pandas, python, supply-chain",2021-07-03T21:36:51.000Z,https://miro.medium.com/v2/resize:fit:728/0*OWlt7BQBEGHNNtLp.jpg,,False

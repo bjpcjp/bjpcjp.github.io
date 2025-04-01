@@ -1,3 +1,0 @@
-id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
-876795327,Happy New Year: GPT in 500 lines of SQL,,A complete GPT2 implementation as a single SQL query in PostgreSQL.,https://explainextended.com/2023/12/31/happy-new-year-15,my_library,"gpt, sql",2024-03-05T00:21:31.000Z,https://explainextended.com/wp-content/uploads/2023/12/kandinsky-download-1703639350496.jpg,,False
-876790659,openai-to-sqlite - a tool for Datasette,,,https://datasette.io/tools/openai-to-sqlite,my_library,"chatgpt, programming, sqlite",2023-02-09T13:20:50.000Z,,,False

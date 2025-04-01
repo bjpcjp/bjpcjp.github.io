@@ -1,2 +1,0 @@
-id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
-876783979,A Comprehensive Guide to Image Augmentation using Pytorch,,A way to increase the amount of data and make the model more robust,https://towardsdatascience.com/a-comprehensive-guide-to-image-augmentation-using-pytorch-fb162f2444be,my_library,"image-augmentation, pytorch",2022-05-28T01:07:05.000Z,https://miro.medium.com/v2/da:true/resize:fit:1000/0*kXJRrpkDPfjh6OqK,,False

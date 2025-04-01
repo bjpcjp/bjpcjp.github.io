@@ -1,2 +1,0 @@
-id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
-876786443,"Machine Learning Operations (MLOps): Overview, Definition, and Architecture",,"The final goal of all industrial machine learning (ML) projects is to develop ML products and rapidly bring them into production. However, it is highly challenging to automate and operationalize...",https://arxiv.org/abs/2205.02302,my_library,"arxiv, devops, machine-learning",2022-07-13T01:31:18.000Z,https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png,,False

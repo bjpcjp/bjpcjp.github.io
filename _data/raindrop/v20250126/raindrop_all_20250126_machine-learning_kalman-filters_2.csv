@@ -1,3 +1,0 @@
-id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
-876781879,"How a Kalman filter works, in pictures | Bzarg",,,http://www.bzarg.com/p/how-a-kalman-filter-works-in-pictures,my_library,"algorithms-math, kalman-filters, machine-learning",2022-01-12T20:12:37.000Z,,,False
-876778925,Notebook on nbviewer,,Check out this Jupyter notebook!,http://nbviewer.ipython.org/github/rlabbe/Kalman-and-Bayesian-Filters-in-Python/blob/master/table_of_contents.ipynb,my_library,"bayes, filters, kalman-filters, machine-learning",2021-05-01T00:07:59.000Z,http://ipython.org/ipython-doc/dev/_images/ipynb_icon_128x128.png,,False

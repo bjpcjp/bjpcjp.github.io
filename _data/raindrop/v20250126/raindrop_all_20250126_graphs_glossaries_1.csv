@@ -1,2 +1,0 @@
-id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
-876795322,[2304.05055] A Comprehensive Survey on Deep Graph Representation Learning,,"Graph representation learning aims to effectively encode high-dimensional sparse graph-structured data into low-dimensional dense vectors, which is a fundamental task that has been widely studied...",https://arxiv.org/abs/2304.05055,my_library,"deep-learning, glossaries, graphs",2024-03-05T00:17:57.000Z,https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png,,False

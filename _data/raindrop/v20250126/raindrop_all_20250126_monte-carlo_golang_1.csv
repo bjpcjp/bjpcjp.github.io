@@ -1,2 +1,0 @@
-id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
-876778943,The art of solving problems with Monte Carlo simulations | Gabriel Carvalho,,Using the power of randomness to answer scientific questions.,https://ggcarvalho.dev/posts/montecarlo,my_library,"golang, monte-carlo",2021-05-04T14:46:51.000Z,https://ggcarvalho.dev/img/posts/montecarlo/dies.jpg,,False

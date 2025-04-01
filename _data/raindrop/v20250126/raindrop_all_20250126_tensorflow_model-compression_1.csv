@@ -1,2 +1,0 @@
-id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
-876777339,Model Compression: A Look into Reducing Model Size,,"Why is Model Compression important?  A significant problem in the arms race to produce more accurate models is complexity, which leads to…",https://towardsdatascience.com/model-compression-a-look-into-reducing-model-size-8251683c338e?source=rss----7f60cf5620c9---4,my_library,"deep-learning, machine-learning, model-compression, tensorflow",2021-01-10T20:44:30.000Z,https://miro.medium.com/v2/resize:fit:1200/1*Em_pmyl1YhE5FwiIxKGyfQ.jpeg,,False

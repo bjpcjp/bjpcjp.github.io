@@ -1,6 +1,0 @@
-id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
-876793671,python - Using virtualenv on Jupyter Notebook - Stack Overflow,,"I trying to use virtualenv on jupyter notebook, to use all packages installed in an environment, but inside jupyter they are not recognized.
-Already tried:
-pip install tornado==4.5.3
-pip install",https://stackoverflow.com/questions/55448244/using-virtualenv-on-jupyter-notebook,my_library,"jupyter, python, venv",2023-10-15T23:05:37.000Z,https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon.png?v=c78bd457575a,,False
-876793669,Install scikit-learn in Jupyter Lab,,Shared via ChatGPT,https://chat.openai.com/share/a1f3b7aa-4b2f-44b6-89be-906996c7bf0a,my_library,"jupyter, scikit-learn, venv",2023-10-15T23:04:20.000Z,https://cdn.oaistatic.com/assets/chatgpt-share-og-u7j5uyao.webp,,False

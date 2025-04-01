@@ -1,2 +1,0 @@
-id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
-876769705,"WordPress, Spam Filtering, and You: From SPF to DKIM to Blocklists",,There is no one key to making sure WordPress site emails are sent reliably and stay out of the recipient’s spam folder. A common recommendation is to use a dedicated…,https://deliciousbrains.com/how-spam-filters-works,my_library,"email, security, spam",2018-09-09T20:43:38.000Z,https://deliciousbrains.com/wp-content/uploads/2022/10/Spam-filtering-article-feature-image.png,,False

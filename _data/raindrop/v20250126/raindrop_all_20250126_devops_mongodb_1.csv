@@ -1,2 +1,0 @@
-id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
-876788398,How Discord Stores Billions of Messages,,We decided early on to store all chat history forever so users can come back at any time and have their data available. This is a lot of data: how do we do it?,https://discord.com/blog/how-discord-stores-billions-of-messages,my_library,"databases, devops, mongodb",2022-08-28T00:37:23.000Z,https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/612414349957074a5778efc4_1_8eA5bgAG9NmCJshhccMhZQ.png,,False

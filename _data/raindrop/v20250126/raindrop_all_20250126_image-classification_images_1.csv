@@ -1,2 +1,0 @@
-id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
-876769337,Multi-label classification with Keras - PyImageSearch,,"In this tutorial you will learn how to perform multi-label classification using Keras, Python, and deep learning.",https://www.pyimagesearch.com/2018/05/07/multi-label-classification-with-keras?__s=ttpjwjuwzwekhqhqdrsq,my_library,"image-classification, images",2018-05-12T02:55:30.000Z,https://pyimagesearch.com/wp-content/uploads/2018/04/keras_multi_label_output_01.png,,False

@@ -1,2 +1,0 @@
-id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
-876784013,SQLite on Heroku | Heroku Dev Center,,"A guide to SQLite on Heroku - explaining why using SQLite on Heroku's ephemeral file system is a bad fit, and looking at alternatives.",https://devcenter.heroku.com/articles/sqlite3,my_library,"heroku, postgres, rubyonrails",2022-05-29T21:18:53.000Z,https://www.herokucdn.com/images/og.png,,False

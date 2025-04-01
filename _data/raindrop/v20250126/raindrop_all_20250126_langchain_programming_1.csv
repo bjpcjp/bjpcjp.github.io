@@ -1,2 +1,0 @@
-id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
-876791744,4 Ways to Do Question Answering in LangChain,,"Chat with your long PDF docs: load_qa_chain, RetrievalQA, VectorstoreIndexCreator, ConversationalRetrievalChain",https://towardsdatascience.com/4-ways-of-question-answering-in-langchain-188c6707cc5a,my_library,"langchain, nlp, pdfs, programming",2023-04-14T02:07:58.000Z,https://miro.medium.com/v2/resize:fit:1200/1*7T_1_MmNT7KxDIbPxr-zdw.jpeg,,False

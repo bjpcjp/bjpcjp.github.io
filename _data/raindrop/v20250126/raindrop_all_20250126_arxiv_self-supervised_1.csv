@@ -1,2 +1,0 @@
-id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
-876791828,A Cookbook of Self-Supervised Learning,,"Self-supervised learning, dubbed the dark matter of intelligence, is a promising path to advance machine learning. Yet, much like cooking, training SSL methods is a delicate art with a high...",https://arxiv.org/abs/2304.12210,my_library,"arxiv, self-supervised",2023-04-25T16:16:04.000Z,https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png,,False

@@ -1,2 +1,0 @@
-id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
-876791665,Cycle Detection for Recursive Search in Hierarchical Trees - Database Tip,,"Recursive queries are a straightforward solution to querying hierarchical trees. However, one loop in the relationship references results in a failing or never ending query when cycle detection is not used.",https://sqlfordevs.com/cycle-detection-recursive-query,my_library,"decision-trees, machine-learning, sql",2023-04-05T16:47:08.000Z,https://sqlfordevs.com/build/assets/twittercard.d9160996.png,,False

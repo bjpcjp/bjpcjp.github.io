@@ -1,4 +1,0 @@
-id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
-876774582,Unable to install mongodb properly on ubuntu 18.04 LTS - Stack Overflow,,"I am trying to install mongodb on my Ubuntu 18.04 LTS, but it has the following error saying
-  You might want to run 'apt --fix-broken install' to correct these. The
-  following packages have unmet",https://stackoverflow.com/questions/51417708/unable-to-install-mongodb-properly-on-ubuntu-18-04-lts,my_library,"linux, mongodb",2020-03-31T01:27:05.000Z,https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon.png?v=c78bd457575a,,False

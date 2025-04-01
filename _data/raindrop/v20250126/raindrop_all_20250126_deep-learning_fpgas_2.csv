@@ -1,3 +1,0 @@
-id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
-876780717,Analysis and Comparison of Performance and Power Consumption of Neural Netw,,"In this work, we analyze the performance of neural networks on a variety of heterogenous platforms. We strive to find the best platform in terms of raw benchmark performance, performance per watt a…",https://hgpu.org/?p=25937,my_library,"cpus, deep-learning, fpgas, gpus, tpu",2021-12-08T19:54:44.000Z,https://hgpu.org/img/social-logo.png,,False
-876778995,untitled - HyperRec.pdf,,,https://acsweb.ucsd.edu/~sasalama/papers/HyperRec.pdf,my_library,"deep-learning, fpgas, recommenders",2021-05-13T21:53:15.000Z,,,False

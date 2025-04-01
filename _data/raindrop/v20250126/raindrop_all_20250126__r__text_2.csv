@@ -1,3 +1,0 @@
-id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
-876782873,Text Mining with R,,"A guide to text analysis within the tidy data framework, using the tidytext package and other tidy tools",https://www.tidytextmining.com/index.html,my_library,"books, text, _r_",2022-03-21T20:39:34.000Z,https://www.tidytextmining.com/images/cover.png,,False
-876775009,Text Mining with R: Gathering and Cleaning Data,,Case study of tweets from comments on Indonesia’s biggest media,https://towardsdatascience.com/text-mining-with-r-gathering-and-cleaning-data-8f8b0d65e67c?source=rss----7f60cf5620c9---4,my_library,"machine-learning, text, _r_",2020-06-01T16:43:31.000Z,https://miro.medium.com/v2/resize:fit:1200/1*In50ISWWARri4ZcPU08RXw.jpeg,,False

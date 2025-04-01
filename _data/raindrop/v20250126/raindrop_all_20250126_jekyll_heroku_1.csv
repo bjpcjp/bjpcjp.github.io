@@ -1,2 +1,0 @@
-id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
-876781065,Deploying Jekyll to Heroku,,"So you have a static site in Jekyll that you want to deploy toHeroku. Lucky for you, this is a relatively easy task and does notrequire anything as complex a...",http://www.johnmurray.io/log/2016/08/08/Jekyll-on-Heroku.html,my_library,"heroku, jekyll",2021-12-26T21:10:05.000Z,,,False

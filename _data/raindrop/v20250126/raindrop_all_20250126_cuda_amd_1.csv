@@ -1,2 +1,0 @@
-id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
-876793975,AMD Quietly Funded A Drop-In CUDA Implementation Built On ROCm: It's Now Op,,"While there have been efforts by AMD over the years to make it easier to port codebases targeting NVIDIA's CUDA API to run atop HIP/ROCm, it still requires work on the part of developers.",https://www.phoronix.com/review/radeon-cuda-zluda,my_library,"amd, cuda, gpus",2024-02-13T03:45:23.000Z,https://www.phoronix.net/image.php?id=radeon-cuda-zluda&image=radeon_cuda_1,,False

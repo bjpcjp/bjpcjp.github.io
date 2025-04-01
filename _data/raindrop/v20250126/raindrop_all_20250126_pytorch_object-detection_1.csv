@@ -1,2 +1,0 @@
-id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
-876789722,YOLOv5 PyTorch Tutorial,,"The YOLO algorithm offers high detection speed and performance through its one-forward propagation capability. In this tutorial, we will focus on YOLOv5.",https://exxactcorp.com/blog/Deep-Learning/YOLOv5-PyTorch-Tutorial,my_library,"object-detection, pytorch",2022-12-17T00:32:22.000Z,https://images.contentstack.io/v3/assets/blt71da4c740e00faaa/blt2ccd3f8f98a1b20a/6359ac9faa5f5f55fdf2826b/EXX-Blog-pytorch-yolo5-tutorial.jpg,,False

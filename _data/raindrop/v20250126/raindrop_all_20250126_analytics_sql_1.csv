@@ -1,2 +1,0 @@
-id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
-876795629,Using window functions for advanced data analysis,,"Window functions are an advanced feature of SQL that provides powerful tools for detailed data analysis and manipulation without grouping data into single output rows, which is common in aggregate functions.",https://www.datasciencecentral.com/using-window-functions-for-advanced-data-analysis,my_library,"analytics, sql",2024-04-15T20:22:34.000Z,https://www.datasciencecentral.com/wp-content/uploads/2024/04/1619995106780.jpg,,False

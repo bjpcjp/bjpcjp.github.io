@@ -1,2 +1,0 @@
-id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
-876788737,Product Quantization for Similarity Search,,How to compress and fit a humongous set of vectors in memory for similarity search with asymmetric distance computation (ADC),https://towardsdatascience.com/product-quantization-for-similarity-search-2f1f67c5fddd,my_library,"machine-learning, metrics, python, search",2022-10-14T19:02:02.000Z,https://miro.medium.com/v2/da:true/resize:fit:1200/0*p5_lEAB_bMtMgPNt,,False

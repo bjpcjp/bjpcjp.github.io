@@ -1,3 +1,0 @@
-id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
-876769478,Interactive Workflows for C with Jupyter – Jupyter Blog,,"Scientists, educators and engineers not only use programming languages to build software systems, but also in interactive workflows, using…",https://blog.jupyter.org/interactive-workflows-for-c-with-jupyter-fe9b54227d92,my_library,"cpp, jupyter",2018-06-08T23:42:44.000Z,https://miro.medium.com/v2/da:true/resize:fit:964/1*NnjISpzZtpy5TOurg0S89A.gif,,False
-876768977,C Kernel for Jupyter Notebook,,,http://shuvomoy.github.io/blog/programming/2016/08/04/Cpp-kernel-for-Jupyter.html,my_library,"cpp, jupyter",2017-10-31T22:10:59.000Z,,,False

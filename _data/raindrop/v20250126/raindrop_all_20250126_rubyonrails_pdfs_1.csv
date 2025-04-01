@@ -1,7 +1,0 @@
-id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
-876780088,Converting PDF preview in Rails 6 using Active Storage and MiniMagic,,"In this demo application we will demonstrate that how you can upload documents using active records and convert preview of PDF pages as images. We have also used action cable to display progress of PDF pages to image conversion inside bootstrap modal. Though this is a simple and basic example but you can learn different concepts here from the code base.
-
-Here you can find the repository for this demo application:
-https://github.com/RaviSys/pdf-preview-demo
-
-Hope you enjoy learning this.",https://m.youtube.com/watch?v=PZglYDXCRIk,my_library,"pdfs, rubyonrails",2021-11-23T14:54:31.000Z,https://i.ytimg.com/vi/PZglYDXCRIk/sddefault.jpg,,False

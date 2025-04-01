@@ -1,5 +1,0 @@
-id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
-876790946,YAML Ain’t Markup Language (YAML™) revision 1.2.2,,,https://yaml.org/spec/1.2.2,my_library,"jekyll, webdev, yaml",2023-03-17T23:54:43.000Z,,,False
-876790885,YAMLlint - The YAML Validator,,"Validate, Verify and Reformat your YAML documents, optimized for Ruby on Rails",http://www.yamllint.com,my_library,"jekyll, programming, webdev, yaml",2023-03-13T17:02:16.000Z,,,False
-876784008,Staticman: Overview,,I bring user-generated content to static sites,https://staticman.net/docs,my_library,"jekyll, programming, webdev",2022-05-29T20:47:58.000Z,https://staticman.net/assets/images/staticman-avatar.png,,False
-876777463,Online HTML To YAML Converter,,This free online tool lets you convert a HTML file into a YAML file. No need to download or install any software. Click to convert your file now.,https://bfotool.com/html-to-yaml,my_library,"html, jekyll, programming, webdev, yaml",2021-01-30T11:22:38.000Z,https://bfotool.com/uploads/2019/12/93-html-to-yaml.gif?v=1.0.1,,False

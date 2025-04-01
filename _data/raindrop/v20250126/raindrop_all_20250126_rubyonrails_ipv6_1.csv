@@ -1,4 +1,0 @@
-id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
-876778966,debian jessie - gem cannot access rubygems.org - Stack Overflow,,"I have a server with Rackspace that I use for a few Ruby sites. When I try  bundle install on a new site I get
-
-Retrying download gem from http://rubygems.org/ due to error (2/4): Gem::RemoteFetcher::",https://stackoverflow.com/questions/49800432/gem-cannot-access-rubygems-org,my_library,"ipv6, ruby, rubygems, rubyonrails",2021-05-07T17:23:51.000Z,https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon.png?v=c78bd457575a,,False

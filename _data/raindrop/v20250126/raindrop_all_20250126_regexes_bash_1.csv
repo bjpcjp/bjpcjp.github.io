@@ -1,2 +1,0 @@
-id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
-876797006,Understanding The $BASH_REMATCH In Bash | by Linux School Tech | Medium,,$BASH_REMATCH is a special array variable in the Bash shell that stores the results of matching a regular expression using the =~ operator…,https://medium.com/@linuxschooltech/understanding-the-bash-rematch-in-bash-183a5b065081,my_library,"bash, regexes",2024-05-21T16:02:17.000Z,https://miro.medium.com/v2/resize:fit:1200/1*nIZog5UABUp9SCA2E0iT8w.jpeg,,False

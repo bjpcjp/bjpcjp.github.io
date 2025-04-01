@@ -1,2 +1,0 @@
-id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
-876792911,Variational Autoencoder (VAE) with Discrete Distribution using Gumbel Softm,,Theory and PyTorch Implementation,https://towardsdatascience.com/variational-autoencoder-vae-with-discrete-distribution-using-gumbel-softmax-b3f749b3417e?source=rss----7f60cf5620c9---4,my_library,"autoencoders, deep-learning, generative, pytorch",2023-08-10T15:50:40.000Z,https://miro.medium.com/v2/resize:fit:640/1*IB22-8qoNpIITYqKA034lQ.png,,False

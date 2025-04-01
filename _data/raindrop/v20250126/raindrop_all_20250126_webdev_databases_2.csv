@@ -1,3 +1,0 @@
-id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
-876778219,Baserow: Open source online database tool,,"Discover Baserow, the open-source no-code platform for building databases and applications. No code or technical skills needed. Start creating for free today!",https://baserow.io,my_library,"databases, programming, webdev",2021-03-14T14:21:51.000Z,https://baserow.io/img/baserow_open_graph.png,,False
-876772842,Why databases use ordered indexes but programming uses hash tables (evanjones.ca),,,https://www.evanjones.ca/ordered-vs-unordered-indexes.html,my_library,"databases, webdev",2019-12-14T20:36:03.000Z,,,False

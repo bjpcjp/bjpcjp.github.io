@@ -1,9 +1,0 @@
-id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
-876780825,Introduction | Vagrant | HashiCorp Developer,,"Vagrant is a tool for building complete development environments. With an easy-to-use workflow and focus on automation, Vagrant lowers development environment setup time, increases development/production parity, and makes the ""it works on my machine"" excuse a relic of the past.",https://www.vagrantup.com/intro/index.html,my_library,"devops, programming, vagrant",2021-12-12T18:16:28.000Z,https://developer.hashicorp.com/og-image/vagrant.jpg,,False
-876780240,Quick Start | Vagrant | HashiCorp Developer,,Vagrant isolates dependencies and their configuration within a single disposable and consistent development environment.,https://learn.hashicorp.com/collections/vagrant/getting-started,my_library,"devops, vagrant",2021-12-02T01:48:30.000Z,https://developer.hashicorp.com/og-image/vagrant.jpg,,False
-876776124,What is Vagrant? - DevOps Library,,,https://devopslibrary.com/lessons/what-is-vagrant,my_library,"devops, vagrant",2020-11-03T00:13:01.000Z,,,False
-876774589,Vagrant up timeout - Stack Overflow,,"Having some issues to get my vagrant up, 
-Got the box, run vagrant init and after vagrant up command I get this message.
-
-Bringing machine 'default' up with 'virtualbox' provider...
-    ==> defa...",https://stackoverflow.com/questions/23690124/vagrant-up-timeout,my_library,"devops, vagrant, virtualbox",2020-03-31T15:43:38.000Z,https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon.png?v=c78bd457575a,,False

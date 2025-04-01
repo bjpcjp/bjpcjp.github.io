@@ -1,2 +1,0 @@
-id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
-876775585,EmailThis/ansible-rails: Ruby on Rails deployment using Ansible - with Lets,,"Ruby on Rails deployment using Ansible - with Lets Encrypt, Sidekiq, PostgreSQL, nginx & puma - EmailThis/ansible-rails",https://github.com/EmailThis/ansible-rails,my_library,"ansible, rubyonrails",2020-06-24T17:42:52.000Z,https://repository-images.githubusercontent.com/259653207/39b80b00-a59e-11ea-9881-3c99f3a79372,,False

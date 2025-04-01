@@ -1,2 +1,0 @@
-id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
-876779404,"No, we don’t use Kubernetes",,"“No, we don’t use Kubernetes”. That always gets raised eyebrows... so we decided to write about our reasoning behind this cloud architecture decision.",https://ably.com/blog/no-we-dont-use-kubernetes,my_library,"devops, docker, kubernetes, webdev",2021-07-20T21:12:57.000Z,https://files.ably.io/ghost/prod/2021/07/no-we-dont-use-kubernetes-current-setup-1.png,,False

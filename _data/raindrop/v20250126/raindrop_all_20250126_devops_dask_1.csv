@@ -1,2 +1,0 @@
-id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
-876797808,Lessons Learned from Scaling to Multi-Terabyte Datasets,,This post is meant to guide you through some of the lessons I’ve learned while working with multi-terabyte datasets. The lessons shared are focused on what someone may face as the size of the…,https://v2thegreat.com/2024/06/19/lessons-learned-from-scaling-to-multi-terabyte-datasets,my_library,"dask, databases, devops, python",2024-06-22T00:46:55.000Z,https://v2thegreat.com/wp-content/uploads/2024/06/image-6.png,,False

@@ -1,2 +1,0 @@
-id,title,note,excerpt,url,folder,tags,created,cover,highlights,favorite
-876795487,The Great Migration from MongoDB to PostgreSQL,,How Infisical migrated from MongoDB to PostgreSQL.,https://infisical.com/blog/postgresql-migration-technical,my_library,"databases, mongodb, postgres",2024-03-31T02:13:59.000Z,https://infisical.com/static/images/postgresql-migration-technical.png,,False
