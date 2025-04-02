@@ -1,10 +1,18 @@
 ---
-title: signaling
+title: signaling (behavior)
+date: 2025-04-02 12:16
 layout: default-foundation-20210515
-tags: signaling behavior 
-date: 2023-04-26 20:00
+tags: signaling behavior
+#format: "condensed"
 ---
 
-{%- assign records = site.data.signaling-20230426 -%}
-{%- assign title = "Signaling (Behavior) articles" %}
-{%- include 2col-cards-20230204.html -%}
+{%- assign raindrop = site.data.raindrop.v20250325.rain20250325 %}
+
+{%- assign file = raindrop | 
+	where_exp: "item", "item.tags contains 'signaling'" | 
+	sort: 'created' | 
+	reverse %}
+
+<div class="callout"><h2>{{page.title}}</h2></div>
+
+{% include raindrop-2c-pix.html %}
