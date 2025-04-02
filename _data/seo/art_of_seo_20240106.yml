@@ -1,13 +1,14 @@
 # _data/seo/art_of_seo_20240106.yml
 
-- pdfname: TAOS-ch01.pdf                       
+- url: /pdfs/seo/the-art-of-seo/TAOS-ch01.pdf                       
   title: intro
-  contents:
+  excerpt:
+    <span style="columns:3;">
     The Mission of Search Engines<br>
-    The Market Share of Search Engines<br>
-    The Human Goals of Searching<br>
+    Search Engine Market Share<br>
+    Human Goals of Searching<br>
     Who Searches and What Do They Search For<br>
-    Determining Searcher Intent<br>
+    Search Intent<br>
     Marketers and Search Engines<br>
     Navigational Queries<br>
     Informational Queries<br>
@@ -15,41 +16,40 @@
     Adaptive Search<br>
     Searcher Intent<br>
     How People Search<br>
-    How Search Engines Drive Ecommerce<br>
-    The Mobile Shift<br>
-    The History of Eye Tracking<br>
+    Ecommerce<br>
+    Mobile<br>
+    Eye Tracking<br>
     How Users Click on Results (Organic Versus Paid)<br>
     Distribution of Search Results and Traffic<br>
-    Conclusion<br>
+    Conclusion
+    </span>
 
-- pdfname: TAOS-ch02-search-engine-basics.pdf  
+- url: /pdfs/seo/the-art-of-seo/TAOS-ch02-search-engine-basics.pdf  
   title: search engine basics
-  contents:
+  excerpt:
     Search Engine Basics<br>
-    Understanding Search Engine Results<br>
-    Understanding the Layout of Search Results Pages<br>
-    Understanding How Vertical Results Fit into the SERPs<br>
+    Results<br>
+    Results page layout<br>
+    Vertical Results & SERPs<br>
     Google’s Knowledge Graph<br>
-    Crawling, Indexing, and Ranking<br>
-    Crawling and Indexing<br>
-    Retrieval and Ranking<br>
-    Evaluating Content on a Web Page<br>
-    Understanding What Content Search Engines Can
-    “See” on a Web Page<br>
-    Determining Searcher Intent and Delivering Relevant,
-    Fresh Content<br>
-    Document Analysis and Semantic Connectivity<br>
-    Content Quality and User Engagement<br>
+    Crawling, Indexing, Ranking<br>
+    Crawling & Indexing<br>
+    Retrieval & Ranking<br>
+    Evaluating Content<br>
+    What Search Engines can “See”<br>
+    Searcher Intent <br>
+    Document Analysis & Semantic Connectivity<br>
+    Content Quality & User Engagement<br>
     Link Analysis<br>
-    Evaluating Social Media Signals<br>
+    Social Media Signals<br>
     Problem Words, Disambiguation, and Diversity<br>
-    Why These Algorithms Sometimes Fail<br>
+    Why Algorithms Sometimes Fail<br>
     The Knowledge Graph<br>
-    Analyzing Ranking Factors<br>
+    Ranking Factors<br>
     Negative Ranking Factors<br>
     Other Ranking Factors<br>
-    Using Advanced Search Techniques<br>
-    Advanced Google Search Operators<br>
+    Advanced Search Techniques<br>
+    Google Search Operators<br>
     Bing Advanced Search Operators<br>
     More Advanced Search Operator Techniques<br>
     Vertical Search Engines<br>
@@ -59,15 +59,15 @@
     Optimizing for Specific Countries<br>
     Conclusion<br>
 
-- pdfname: TAOS-ch03-seo-planning.pdf          
+- url: /pdfs/seo/the-art-of-seo/TAOS-ch03-seo-planning.pdf          
   title: SEO planning
-  contents:
-    Strategic Goals SEO Practitioners Can Fulfill<br>
+  excerpt:
+    Goals<br>
     Visibility (Branding)<br>
-    Website Traffic<br>
-    High Return on Investment<br>
-    Every SEO Strategy Should Be Customized<br>
-    Understanding Search Engine Traffic and Visitor Intent<br>
+    Traffic<br>
+    ROI<br>
+    Customization<br>
+    Understanding Traffic & Visitor Intent<br>
     Developing an SEO Plan Prior to Site Development<br>
     Business Factors That Impact Your SEO Strategy135<br>
     Understanding Your Audience and Finding Your Niche<br>
@@ -87,9 +87,9 @@
     SMART Objectives<br>
     Conclusion<br>
 
-- pdfname: TAOS-ch04-seo-implementation.pdf    
+- url: /pdfs/seo/the-art-of-seo/TAOS-ch04-seo-implementation.pdf    
   title: SEO implementation
-  contents:
+  excerpt:
     The Importance of Planning<br>
     Identifying the Site Development Process and Players<br>
     Development Platform and Information Architecture<br>
@@ -126,9 +126,9 @@
     Followers, Friends, and Fans<br>
     Conclusion<br>
 
-- pdfname: TAOS-ch05-keywords.pdf              
+- url: /pdfs/seo/the-art-of-seo/TAOS-ch05-keywords.pdf              
   title: keyword research
-  contents:
+  excerpt:
     Keyword Research<br>
     The Theory Behind Keyword Research<br>
     Thinking Strategically<br>
@@ -156,9 +156,9 @@
     Trending, Seasonality, and Seasonal Fluctuations<br>
     Conclusion<br>
 
-- pdfname: TAOS-ch06-site-devt.pdf             
+- url: /pdfs/seo/the-art-of-seo/TAOS-ch06-site-devt.pdf             
   title: website development
-  contents:
+  excerpt:
     Developing an SEO-Friendly Website<br>
     Making Your Site Accessible to Search Engines<br>
     Indexable Content<br>
@@ -170,9 +170,9 @@
     Flat Versus Deep Architecture<br>
     Search-Friendly Site Navigation<br>
     Root Domains, Subdomains, and Microsites<br>
-    When to Use a Subfolder<br>
-    When to Use a Subdomain<br>
-    When to Use a Separate Root Domain<br>
+    Subfolders<br>
+    Subdomains<br>
+    Separate Root Domains<br>
     Microsites<br>
     When to Use a TLD Other Than .com<br>
     Optimization of Domain Names/URLs<br>
@@ -249,9 +249,9 @@
     The Future of the Knowledge Vault
     Conclusion
 
-- pdfname: TAOS-ch07-content-mktg.pdf       
+- url: /pdfs/seo/the-art-of-seo/TAOS-ch07-content-mktg.pdf       
   title: content marketing
-  contents:
+  excerpt:
     How Links Historically Influenced Search Engine Rankings
     The Original PageRank Algorithm
     Additional Factors That Influence Link Value
@@ -317,9 +317,9 @@
     Putting It All Together
     Conclusion
 
-- pdfname: TAOS-ch08-social-user-ranks.pdf  
+- url: /pdfs/seo/the-art-of-seo/TAOS-ch08-social-user-ranks.pdf  
   title: social users and rankings
-  contents:
+  excerpt:
     Correlation Between Social Signals and Google Rankings 540
     What Is the Value of Social Signals?
     Bing’s Experiments with Social Signals
@@ -358,9 +358,9 @@
     Additional Social Media Resources
     Conclusion
 
-- pdfname: TAOS-ch09-panda-penguin.pdf      
+- url: /pdfs/seo/the-art-of-seo/TAOS-ch09-panda-penguin.pdf      
   title: panda, penguin and search algo changes
-  contents:
+  excerpt:
     Diagnosing the Cause of a Traffic Loss
     Summary of Major Google Algorithms
     Panda
@@ -381,9 +381,9 @@
     The Link Removal Process
     Conclusion
 
-- pdfname: TAOS-ch10-mobile-local-vert.pdf  
+- url: /pdfs/seo/the-art-of-seo/TAOS-ch10-mobile-local-vert.pdf  
   title: mobile, local & vertical site SEO
-  contents:
+  excerpt:
     The Mobile Landscape
     SEO for Mobile
     App SEO
@@ -428,9 +428,9 @@
     Video SEO for Google
     Conclusion
 
-- pdfname: TAOS-ch11-tracking.pdf           
+- url: /pdfs/seo/the-art-of-seo/TAOS-ch11-tracking.pdf           
   title: tracking & analytics
-  contents:
+  excerpt:
     Why Measuring Success Is Essential to the SEO Process
     The Tracking Cycle
     Establishing a Proper Baseline
@@ -478,9 +478,9 @@
     Searchmetrics Essentials
     Conclusion
 
-- pdfname: TAOS-ch12-changes.pdf
+- url: /pdfs/seo/the-art-of-seo/TAOS-ch12-changes.pdf
   title: changes
-  contents:
+  excerpt:
     The Basics of Moving Content
     Large-Scale Content Moves
     Mapping Content Moves
@@ -511,9 +511,9 @@
     Cleanup and Auditing
     Conclusion
 
-- pdfname: TAOS-ch13-education.pdf
+- url: /pdfs/seo/the-art-of-seo/TAOS-ch13-education.pdf
   title: education
-  contents:
+  excerpt:
     SEO Research and Search Performance Analysis
     SEO Resources
     SEO Testing
@@ -537,9 +537,9 @@
     Participation in Conferences and Organizations
     Conclusion
 
-- pdfname: TAOS-ch14-support.pdf
+- url: /pdfs/seo/the-art-of-seo/TAOS-ch14-support.pdf
   title: support 
-  contents:
+  excerpt:
     The Business of SEO
     Understand Your Market Opportunity
     Get Buy-In Across the Organization
@@ -575,9 +575,9 @@
     Building a Culture of SEO into Your Organization
     Conclusion
 
-- pdfname: TAOS-ch15-future.pdf
+- url: /pdfs/seo/the-art-of-seo/TAOS-ch15-future.pdf
   title: future
-  contents:
+  excerpt:
     The Ongoing Evolution of Search
     The Growth of Search Complexity
     Google’s Dominance
