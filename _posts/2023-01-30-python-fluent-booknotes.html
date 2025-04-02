@@ -1,21 +1,17 @@
 ---
+title: python (fluent) booknotes
+date: 2025-04-02 15:25
 layout: default-foundation-20210515
-title: fluent Python - booknotes
-tags: python booknotes
-date: 2024-02-23 19:05
+tags: python
+#format: "condensed"
+hide_record_metadata: "hide"
 ---
 
-<div class="callout">
-    <h2>Fluent Python</h2>
-    <p>Click on book cover image to access github</p>
+{%- assign raindrop = site.data.python-fluent-20230130 %}
 
-    <div class="card">
-        <div class="card-image">
-            <a href="https://github.com/fluentpython/example-code">
-            <img src="/px/python/python-fluent-book-cover.png"></a>
-        </div>
-    </div>
-</div>
+{%- assign file = raindrop | 
+    sort: 'url' %}
 
-{%- assign records = site.data.python-fluent-20230130 | sort: "title" -%}
-{%- include 2col-cards-20221226.html -%}
+<div class="callout"><h2>{{page.title}}</h2></div>
+
+{% include raindrop-2c-pix.html %}

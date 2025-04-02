@@ -5,7 +5,7 @@
   px:
   tags:
   page:
-  note:
+  excerpt:
     - pythonic card deck<br>
     - special methods<br>
     - why "len" is not a method<br>
@@ -15,7 +15,7 @@
   px:
   tags: data structures
   page:
-  note:
+  excerpt:
     - overview<br>
     - list comprehensions / generator expressions<br>
     - tuples - not just immutable lists<br>
@@ -31,7 +31,7 @@
   px:
   tags: data structures
   page:
-  note:
+  excerpt:
     - mapping types<br>
     - dict comprehensions<br>
     - mapping<br>
@@ -46,7 +46,7 @@
   px:
   tags: data structures
   page:
-  note:
+  excerpt:
     - character issues<br>
     - bytes<br>
     - encoders/decoders<br>
@@ -61,7 +61,7 @@
   px:
   tags: functions as objects
   page:
-  note:
+  excerpt:
     - treating a function like an object<br>
     - higher-order functions<br>
     - anon functions<br>
@@ -78,7 +78,7 @@
   px:
   tags: functions as objects
   page:
-  note:
+  excerpt:
     - case study<br>
     - command<br>
 
@@ -87,7 +87,7 @@
   px:
   tags:
   page:
-  note:
+  excerpt:
     - intro<br>
     - python decorator execution<br>
     - decorator-enhanced strategy pattern<br>
@@ -104,7 +104,7 @@
   px:
   tags: object idioms
   page:
-  note:
+  excerpt:
     - variables are NOT boxes<br>
     - identity, equality, aliases<br>
     - copies are shallow by default<br>
@@ -118,7 +118,7 @@
   px:
   tags: object idioms
   page:
-  note:
+  excerpt:
     - object representations<br>
     - vector class, redux<br>
     - alternate constructors<br>
@@ -134,7 +134,7 @@
   px:
   tags: object idioms
   page:
-  note:
+  excerpt:
     - vectors<br>
     - vector2D<br>
     - protocols & duck typing<br>
@@ -148,7 +148,7 @@
   px:
   tags: object idioms
   page:
-  note:
+  excerpt:
     - python culture<br>
     - python loves sequences<br>
     - monkey-patching<br>
@@ -165,7 +165,7 @@
   px:
   tags: object idioms
   page:
-  note:
+  excerpt:
     - subclassing gotchas<br>
     - multiple inheritance - method resolution<br>
     - real-world multi inheritance<br>
@@ -177,7 +177,7 @@
   px:
   tags: object idioms
   page:
-  note:
+  excerpt:
     - basics<br>
     - unary operators<br>
     - vector addition<br>
@@ -190,7 +190,7 @@
   px:
   tags: control flow
   page:
-  note:
+  excerpt:
     - a sequence of words<br>
     - iterables vs iterators<br>
     - classic iterator<br>
@@ -211,7 +211,7 @@
   px:
   tags: control flow
   page:
-  note:
+  excerpt:
     - do this, then that<br>
     - context managers & with blocks<br>
     - contextlib<br>
@@ -222,7 +222,7 @@
   px:
   tags: control flow
   page:
-  note:
+  excerpt:
     - how coroutines came from generators<br>
     - basic behavior<br>
     - example - running average coroutine<br>
@@ -238,7 +238,7 @@
   px:
   tags: control flow
   page:
-  note:
+  excerpt:
     - examples - 3 styles of web downloads<br>
     - blocking I/O and the GIL<br>
     - launching processes<br>
@@ -250,7 +250,7 @@
   px:
   tags: control flow
   page:
-  note:
+  excerpt:
     - threads vs coroutines<br>
     - downloading<br>
     - blocking calls<br>
@@ -263,7 +263,7 @@
   px:
   tags: metaprogramming
   page:
-  note:
+  excerpt:
     - data wrangling<br>
     - using a property for validation<br>
     - properties<br>
@@ -276,7 +276,7 @@
   px:
   tags: metaprogramming
   page:
-  note:
+  excerpt:
     - example - attribute validation<br>
     - overriding vs non-overriding descriptors<br>
     - methods ARE descriptors<br>
@@ -288,7 +288,7 @@
   px:
   tags: metaprogramming
   page:
-  note:
+  excerpt:
     - class factory<br>
     - class decorator - custom descriptors<br>
     - what happens when - import time vs runtime<br>
@@ -302,5 +302,5 @@
   px:
   tags: other
   page:
-  note:
+  excerpt:
 
