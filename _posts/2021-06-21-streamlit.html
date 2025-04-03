@@ -1,10 +1,17 @@
 ---
-title: streamlit
+title: streamlit (python)
 layout: default-foundation-20210515
-tags: streamlit python webdev
-date: 2021-06-30 10:15
+tags: streamlit python
+date: 2025-04-03 14:30
 ---
 
-{%- assign title = "Streamlit links from Pocket" %}
-{%- assign records = site.data.pocket.streamlit-20210630.list -%}
-{%- include pocketdata-1col-20210621.html -%}
+{%- assign raindrop = site.data.raindrop.v20250325.rain20250325 %}
+
+{%- assign file = raindrop | 
+	where_exp: "item", "item.tags contains 'streamlit'" | 
+	sort: 'created' | 
+	reverse %}
+
+<div class="callout"><h2>{{page.title}}</h2></div>
+
+{% include raindrop-2c-pix.html %}

@@ -1,10 +1,17 @@
 ---
-title: auction Theory
+title: auctions
 layout: default-foundation-20210515
-tags: auctions game-theory pricing
-date: 2023-05-24
+tags: auctions game-theory
+date: 2025-04-03 14:17
 ---
 
-{%- assign records = site.data.pocket.auctions-20210621.list -%}
-{%- assign title = "Auction Theory" -%}
-{%- include pocketdata-2cols-20210611.html -%}
+{%- assign raindrop = site.data.raindrop.v20250325.rain20250325 %}
+
+{%- assign file = raindrop | 
+	where_exp: "item", "item.tags contains 'auctions'" | 
+	sort: 'created' | 
+	reverse %}
+
+<div class="callout"><h2>{{page.title}}</h2></div>
+
+{% include raindrop-2c-pix.html %}

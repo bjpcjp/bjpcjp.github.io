@@ -1,9 +1,17 @@
 ---
 title: charisma
 layout: default-foundation-20210515
-tags: charisma behavior influence persuasion
+tags: charisma influence 
+date: 2025-04-03 14:20
 ---
 
-{%- assign records = site.data.pocket.charisma-20210621.list -%}
-{%- assign title = "Behavior/Charisma articles" -%}
-{%- include pocketdata-1col-20210621.html -%}
+{%- assign raindrop = site.data.raindrop.v20250325.rain20250325 %}
+
+{%- assign file = raindrop | 
+	where_exp: "item", "item.tags contains 'charisma'" | 
+	sort: 'created' | 
+	reverse %}
+
+<div class="callout"><h2>{{page.title}}</h2></div>
+
+{% include raindrop-2c-pix.html %}

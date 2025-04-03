@@ -1,39 +1,17 @@
 ---
-title: cognition articles (2021)
+title: cognition (neurology)
 layout: default-foundation-20210515
-tags: perception cognition
-date: 2024-03-11
+tags: cognition perception neurology
+date: 2025-04-03 14:24
 ---
 
-{%- assign records = site.data.pocket.cognition-20210621.list -%}
-{% assign title = "Cognition Articles" %}
+{%- assign raindrop = site.data.raindrop.v20250325.rain20250325 %}
 
-<div class="callout">
-	<h2>{{title}}</h2>
-</div>
+{%- assign file = raindrop | 
+	where_exp: "item", "item.tags contains 'cognition'" | 
+	sort: 'created' | 
+	reverse %}
 
-<div style="columns:2;">
+<div class="callout"><h2>{{page.title}}</h2></div>
 
-{%- for record in records -%}
-	{%- assign data = record[1] -%}
-	<div class="card">
-
-		<div class="card-divider">
-			<a href="{{data.resolved_url}}" target="_blank">
-				{{data.resolved_title}}</a>
-		</div>
-
-		<div class="card-image">
-			<img src="{{data.top_image_url}}">
-		</div>
-
-		{%- if data.excerpt -%}
-			<div class="card-section">
-				{{data.excerpt}}
-			</div>
-		{%- endif -%}
-	</div>
-
-{%- endfor -%}
-
-</div>
+{% include raindrop-2c-pix.html %}
