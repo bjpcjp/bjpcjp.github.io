@@ -1,0 +1,17 @@
+---
+title: symbols / symbolism
+layout: default-foundation-20210515
+tags: symbols language
+date: 2025-04-03 14:44
+---
+
+{%- assign raindrop = site.data.raindrop.v20250325.rain20250325 %}
+
+{%- assign file = raindrop | 
+	where_exp: "item", "item.tags contains 'symbols'" | 
+	sort: 'created' | 
+	reverse %}
+
+<div class="callout"><h2>{{page.title}}</h2></div>
+
+{% include raindrop-2c-pix.html %}
