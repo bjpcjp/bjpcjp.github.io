@@ -38,3 +38,5 @@ header_pages:
 # pagination
 paginate: 50
 
+# data files
+latest_docfile: site.data.docs.doctree_l4_20250404

@@ -1,0 +1,21 @@
+---
+title: devops docs
+layout: default-foundation-20210515
+tags: devops
+date: 2025-04-04 11:00
+hide_record_metadata: hide
+showtags: showtags
+---
+
+<div class="callout">
+	<h2>{{page.title}}</h2>
+</div>
+
+{%- assign raindrop = site.data.docs.doctree_l4_20250404 %}
+
+{%- assign file = raindrop | 
+	where_exp: "item", "item.tags contains 'devops'" | 
+	sort: 'created' | 
+	reverse %}
+
+{% include raindrop-2c-pix.html %}

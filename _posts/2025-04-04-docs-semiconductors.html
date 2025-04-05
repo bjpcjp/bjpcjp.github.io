@@ -1,0 +1,19 @@
+---
+title: semiconductor docs
+layout: default-foundation-20210515
+tags: pdfs
+date: 2025-04-04 11:00
+---
+
+<div class="callout">
+	<p>{{page.title}}</p>
+</div>
+
+{%- assign raindrop = site.data.docs.doctree_l4_20250404 %}
+
+{%- assign file = raindrop | 
+	where_exp: "item", "item.tags contains 'semiconductors'" | 
+	sort: 'created' | 
+	reverse %}
+
+{% include raindrop-2c-pix.html %}
