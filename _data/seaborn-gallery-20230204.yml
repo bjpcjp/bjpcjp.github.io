@@ -1,248 +1,291 @@
 # data/seaborn-gallery-20230204.yml
 # paired with _includes/2col-cards-20230204.html
 
-- name: Anscombe’s quartet
+- title: Anscombe’s quartet
   url: https://seaborn.pydata.org/examples/anscombes_quartet.html
-  pic: https://seaborn.pydata.org/_images/anscombes_quartet.png
-  notes:
+  cover: https://seaborn.pydata.org/_images/anscombes_quartet.png
+  excerpt:
+  tags: Anscombe
 
-- name: Scatterplot with multiple semantics
+- title: Scatterplot with multiple semantics
   url: https://seaborn.pydata.org/examples/different_scatter_variables.html
-  pic: https://seaborn.pydata.org/_images/different_scatter_variables.png
-  notes:
+  cover: https://seaborn.pydata.org/_images/different_scatter_variables.png
+  excerpt:
+  tags: scatterplot
 
-- name: Timeseries plot with error bands
+- title: Timeseries plot with error bands
   url: https://seaborn.pydata.org/examples/errorband_lineplots.html
-  pic: https://seaborn.pydata.org/_images/errorband_lineplots.png
-  notes:
+  cover: https://seaborn.pydata.org/_images/errorband_lineplots.png
+  excerpt:
+  tags: time-series
 
-- name: Histograms - faceted with subsets of data
+- title: Histograms - faceted with subsets of data
   url: https://seaborn.pydata.org/examples/faceted_histogram.html
-  pic: https://seaborn.pydata.org/_images/faceted_histogram.png
-  notes:
+  cover: https://seaborn.pydata.org/_images/faceted_histogram.png
+  excerpt:
+  tags: histogram 
 
-- name: Line plots - multiple facets
+- title: Line plots - multiple facets
   url: https://seaborn.pydata.org/examples/faceted_lineplot.html
-  pic: https://seaborn.pydata.org/_images/faceted_lineplot.png
-  notes:
+  cover: https://seaborn.pydata.org/_images/faceted_lineplot.png
+  excerpt:
+  tags: line-plot
 
-- name: Barplots - grouped
+- title: Barplots - grouped
   url: https://seaborn.pydata.org/examples/grouped_barplot.html
-  pic: https://seaborn.pydata.org/_images/grouped_barplot.png
-  notes:
+  cover: https://seaborn.pydata.org/_images/grouped_barplot.png
+  excerpt:
+  tags: bar-plot
 
-- name: Boxplots - grouped
+- title: Boxplots - grouped
   url: https://seaborn.pydata.org/examples/grouped_boxplot.html
-  pic: https://seaborn.pydata.org/_images/grouped_boxplot.png
-  notes:
+  cover: https://seaborn.pydata.org/_images/grouped_boxplot.png
+  excerpt:
+  tags: box-plot
 
-- name: Violinplots grouped, split violins
+- title: Violinplots grouped, split violins
   url: https://seaborn.pydata.org/examples/grouped_violinplots.html
-  pic: https://seaborn.pydata.org/_images/grouped_violinplots.png
-  notes:
+  cover: https://seaborn.pydata.org/_images/grouped_violinplots.png
+  excerpt:
+  tags: violin-plot
 
-- name: Scatterplot heatmap
+- title: Scatterplot heatmap
   url: https://seaborn.pydata.org/examples/heat_scatter.html
-  pic: https://seaborn.pydata.org/_images/heat_scatter.png
-  notes:
+  cover: https://seaborn.pydata.org/_images/heat_scatter.png
+  excerpt:
+  tags: scatterplot heatmap 
 
-- name: Hexbin plot with marginal distributions
+- title: Hexbin plot with marginal distributions
   url: https://seaborn.pydata.org/examples/hexbin_marginals.html
-  pic: https://seaborn.pydata.org/_images/hexbin_marginals.png
-  notes:
+  cover: https://seaborn.pydata.org/_images/hexbin_marginals.png
+  excerpt:
+  tags: hexbin-plot
 
-- name: Histogram, stacked, log scale
+- title: Histogram, stacked, log scale
   url: https://seaborn.pydata.org/examples/histogram_stacked.html
-  pic: https://seaborn.pydata.org/_images/histogram_stacked.png
-  notes:
+  cover: https://seaborn.pydata.org/_images/histogram_stacked.png
+  excerpt:
+  tags: histogram 
 
-- name: Boxplot, horizontal, with observations
+- title: Boxplot, horizontal, with observations
   url: https://seaborn.pydata.org/examples/horizontal_boxplot.html
-  pic: https://seaborn.pydata.org/_images/horizontal_boxplot.png
+  cover: https://seaborn.pydata.org/_images/horizontal_boxplot.png
+  tags: box-plot 
 
-- name: Conditional means with observations
+- title: Jitter spripplot
   url: https://seaborn.pydata.org/examples/jitter_stripplot.html
-  pic: https://seaborn.pydata.org/_images/jitter_stripplot.png
-  notes:
+  cover: https://seaborn.pydata.org/_images/jitter_stripplot.png
+  excerpt:
+  tags: strip-plot
 
-- name: Histograms - joint and marginal
+- title: Histograms - joint and marginal
   url: https://seaborn.pydata.org/examples/joint_histogram.html#
-  pic: https://seaborn.pydata.org/_images/joint_histogram.png
-  notes:
-
-- name: KDE - joint
+  cover: https://seaborn.pydata.org/_images/joint_histogram.png
+  excerpt:
+  tags:
+    
+- title: KDE - joint
   url: https://seaborn.pydata.org/examples/joint_kde.html
-  pic: https://seaborn.pydata.org/_images/joint_kde.png
-  notes:
+  cover: https://seaborn.pydata.org/_images/joint_kde.png
+  excerpt:
+  tags:
 
-- name: Ridge plot - overlapping densities
+- title: Ridge plot - overlapping densities
   url: https://seaborn.pydata.org/examples/kde_ridgeplot.html
-  pic: https://seaborn.pydata.org/_images/kde_ridgeplot.png
-  notes:
+  cover: https://seaborn.pydata.org/_images/kde_ridgeplot.png
+  excerpt:
+  tags:
 
-- name: Large distributions
+- title: Large distributions
   url: https://seaborn.pydata.org/examples/large_distributions.html
-  pic: https://seaborn.pydata.org/_images/large_distributions.png
-  notes:
+  cover: https://seaborn.pydata.org/_images/large_distributions.png
+  excerpt:
+  tags:
 
-- name: Bivariate plot with multiple elements
+- title: Bivariate plot with multiple elements
   url: https://seaborn.pydata.org/examples/layered_bivariate_plot.html
-  pic: https://seaborn.pydata.org/_images/layered_bivariate_plot.png
-  notes:
+  cover: https://seaborn.pydata.org/_images/layered_bivariate_plot.png
+  excerpt:
+  tags:
 
-- name: Faceted logistic regression
+- title: Faceted logistic regression
   url: https://seaborn.pydata.org/examples/logistic_regression.html
-  pic: https://seaborn.pydata.org/_images/logistic_regression.png
-  notes:
+  cover: https://seaborn.pydata.org/_images/logistic_regression.png
+  excerpt:
+  tags:
 
-- name: Large number of facets
+- title: Large number of facets
   url: https://seaborn.pydata.org/examples/many_facets.html
-  pic: https://seaborn.pydata.org/_images/many_facets.png
-  notes:
+  cover: https://seaborn.pydata.org/_images/many_facets.png
+  excerpt:
+  tags:
 
-- name: Correlation matrix (diagonal)
+- title: Correlation matrix (diagonal)
   url: https://seaborn.pydata.org/examples/many_pairwise_correlations.html
-  pic: https://seaborn.pydata.org/_images/many_pairwise_correlations.png
-  notes:
+  cover: https://seaborn.pydata.org/_images/many_pairwise_correlations.png
+  excerpt:
+  tags:
 
-- name: Scatterplot with marginal ticks
+- title: Scatterplot with marginal ticks
   url: https://seaborn.pydata.org/examples/marginal_ticks.html
-  pic: https://seaborn.pydata.org/_images/marginal_ticks.png
-  notes:
+  cover: https://seaborn.pydata.org/_images/marginal_ticks.png
+  excerpt:
+  tags:
 
-- name: KDE plots - bivariate
+- title: KDE plots - bivariate
   url: https://seaborn.pydata.org/examples/multiple_bivariate_kde.html
-  pic: https://seaborn.pydata.org/_images/multiple_bivariate_kde.png
-  notes:
+  cover: https://seaborn.pydata.org/_images/multiple_bivariate_kde.png
+  excerpt:
+  tags:
 
-- name: Conditional kernel density estimate - conditional
+- title: Conditional kernel density estimate - conditional
   url: https://seaborn.pydata.org/examples/multiple_conditional_kde.html#
-  pic: https://seaborn.pydata.org/_images/multiple_conditional_kde.png
-  notes:
+  cover: https://seaborn.pydata.org/_images/multiple_conditional_kde.png
+  excerpt:
+  tags:
 
-- name: Facetted ECDF plots
+- title: Facetted ECDF plots
   url: https://seaborn.pydata.org/examples/multiple_ecdf.html
-  pic: https://seaborn.pydata.org/_images/multiple_ecdf.png
-  notes:
+  cover: https://seaborn.pydata.org/_images/multiple_ecdf.png
+  excerpt:
+  tags:
 
-- name: Multiple linear regression
+- title: Multiple linear regression
   url: https://seaborn.pydata.org/examples/multiple_regression.html
-  pic: https://seaborn.pydata.org/_images/multiple_regression.png
-  notes:
+  cover: https://seaborn.pydata.org/_images/multiple_regression.png
+  excerpt:
+  tags:
 
-- name: Paired density and scatterplot matrix
+- title: Paired density and scatterplot matrix
   url: https://seaborn.pydata.org/examples/pair_grid_with_kde.html
-  pic: https://seaborn.pydata.org/_images/pair_grid_with_kde.png
-  notes:
+  cover: https://seaborn.pydata.org/_images/pair_grid_with_kde.png
+  excerpt:
+  tags:
 
-- name: Paired categorical plots
+- title: Paired categorical plots
   url: https://seaborn.pydata.org/examples/paired_pointplots.html
-  pic: https://seaborn.pydata.org/_images/paired_pointplots.png
-  notes:
+  cover: https://seaborn.pydata.org/_images/paired_pointplots.png
+  excerpt:
+  tags:
 
-- name: Dot plot with several variables
+- title: Dot plot with several variables
   url: https://seaborn.pydata.org/examples/pairgrid_dotplot.html
-  pic: https://seaborn.pydata.org/_images/pairgrid_dotplot.png
-  notes:
+  cover: https://seaborn.pydata.org/_images/pairgrid_dotplot.png
+  excerpt:
+  tags:
 
-- name: Color palette choices
+- title: Color palette choices
   url: https://seaborn.pydata.org/examples/palette_choices.html
-  pic: https://seaborn.pydata.org/_images/palette_choices.png
-  notes:
+  cover: https://seaborn.pydata.org/_images/palette_choices.png
+  excerpt:
+  tags:
 
-- name: Different cubehelix palettes
+- title: Different cubehelix palettes
   url: https://seaborn.pydata.org/examples/palette_generation.html
-  pic: https://seaborn.pydata.org/_images/palette_generation.png
-  notes:
+  cover: https://seaborn.pydata.org/_images/palette_generation.png
+  excerpt:
+  tags:
 
-- name: Bar plots - horizontal
+- title: Bar plots - horizontal
   url: https://seaborn.pydata.org/examples/part_whole_bars.html
-  pic: https://seaborn.pydata.org/_images/part_whole_bars.png
-  notes:
+  cover: https://seaborn.pydata.org/_images/part_whole_bars.png
+  excerpt:
+  tags:
 
-- name: ANOVA, 3-way
+- title: ANOVA, 3-way
   url: https://seaborn.pydata.org/examples/pointplot_anova.html
-  pic: https://seaborn.pydata.org/_images/pointplot_anova.png
-  notes:
+  cover: https://seaborn.pydata.org/_images/pointplot_anova.png
+  excerpt:
+  tags:
 
-- name: FacetGrid with custom projection
+- title: FacetGrid with custom projection
   url: https://seaborn.pydata.org/examples/radial_facets.html
-  pic: https://seaborn.pydata.org/_images/radial_facets.png
-  notes:
+  cover: https://seaborn.pydata.org/_images/radial_facets.png
+  excerpt:
+  tags:
 
-- name: Linear regression - marginal distributions
+- title: Linear regression - marginal distributions
   url: https://seaborn.pydata.org/examples/regression_marginals.html
-  pic: https://seaborn.pydata.org/_images/regression_marginals.png
-  notes:
+  cover: https://seaborn.pydata.org/_images/regression_marginals.png
+  excerpt:
+  tags:
 
-- name: Model residuals
+- title: Model residuals
   url: https://seaborn.pydata.org/examples/residplot.html
-  pic: https://seaborn.pydata.org/_images/residplot.png
-  notes:
+  cover: https://seaborn.pydata.org/_images/residplot.png
+  excerpt:
+  tags:
 
-- name: Scatterplot - varying point sizes and hues
+- title: Scatterplot - varying point sizes and hues
   url: https://seaborn.pydata.org/examples/scatter_bubbles.html
-  pic: https://seaborn.pydata.org/_images/scatter_bubbles.png
-  notes:
+  cover: https://seaborn.pydata.org/_images/scatter_bubbles.png
+  excerpt:
+  tags:
 
-- name: Scatterplot - categorical variables
+- title: Scatterplot - categorical variables
   url: https://seaborn.pydata.org/examples/scatterplot_categorical.html
-  pic: https://seaborn.pydata.org/_images/scatterplot_categorical.png
-  notes:
+  cover: https://seaborn.pydata.org/_images/scatterplot_categorical.png
+  excerpt:
+  tags:
 
-- name: Scatterplot Matrix
+- title: Scatterplot Matrix
   url: https://seaborn.pydata.org/examples/scatterplot_matrix.html
-  pic: https://seaborn.pydata.org/_images/scatterplot_matrix.png
-  notes:
+  cover: https://seaborn.pydata.org/_images/scatterplot_matrix.png
+  excerpt:
+  tags:
 
-- name: Scatterplot - continuous hues and sizes
+- title: Scatterplot - continuous hues and sizes
   url: https://seaborn.pydata.org/examples/scatterplot_sizes.html
-  pic: https://seaborn.pydata.org/_images/scatterplot_sizes.png
-  notes:
+  cover: https://seaborn.pydata.org/_images/scatterplot_sizes.png
+  excerpt:
+  tags:
 
-- name: Violinplots with observations
+- title: Violinplots with observations
   url: https://seaborn.pydata.org/examples/simple_violinplots.html
-  pic: https://seaborn.pydata.org/_images/simple_violinplots.png
-  notes:
+  cover: https://seaborn.pydata.org/_images/simple_violinplots.png
+  excerpt:
+  tags:
 
-- name: Smooth kernel density with marginal histograms
+- title: Smooth kernel density with marginal histograms
   url: https://seaborn.pydata.org/examples/smooth_bivariate_kde.html
-  pic: https://seaborn.pydata.org/_images/smooth_bivariate_kde.png
-  notes:
+  cover: https://seaborn.pydata.org/_images/smooth_bivariate_kde.png
+  excerpt:
+  tags:
 
-- name: Heatmaps - annotated
+- title: Heatmaps - annotated
   url: https://seaborn.pydata.org/examples/spreadsheet_heatmap.html
-  pic: https://seaborn.pydata.org/_images/spreadsheet_heatmap.png
-  notes:
+  cover: https://seaborn.pydata.org/_images/spreadsheet_heatmap.png
+  excerpt:
+  tags:
 
-- name: Regression fit over a strip plot
+- title: Regression fit over a strip plot
   url: https://seaborn.pydata.org/examples/strip_regplot.html
-  pic: https://seaborn.pydata.org/_images/strip_regplot.png
-  notes:
+  cover: https://seaborn.pydata.org/_images/strip_regplot.png
+  excerpt:
 
-- name: Heatmap - discovering structure
+- title: Heatmap - discovering structure
   url: https://seaborn.pydata.org/examples/structured_heatmap.html
-  pic: https://seaborn.pydata.org/_images/structured_heatmap.png
-  notes:
+  cover: https://seaborn.pydata.org/_images/structured_heatmap.png
+  excerpt:
 
-- name: Histogram - trivariate with two categorical variables
+- title: Histogram - trivariate with two categorical variables
   url: https://seaborn.pydata.org/examples/three_variable_histogram.html
-  pic: https://seaborn.pydata.org/_images/three_variable_histogram.png
-  notes:
+  cover: https://seaborn.pydata.org/_images/three_variable_histogram.png
+  excerpt:
 
-- name: Time series - small, multiple
+- title: Time series - small, multiple
   url: https://seaborn.pydata.org/examples/timeseries_facets.html
-  pic: https://seaborn.pydata.org/_images/timeseries_facets.png
-  notes:
+  cover: https://seaborn.pydata.org/_images/timeseries_facets.png
+  excerpt:
 
-- name: Lineplot - wide-form dataset
+- title: Lineplot - wide-form dataset
   url: https://seaborn.pydata.org/examples/wide_data_lineplot.html
-  pic: https://seaborn.pydata.org/_images/wide_data_lineplot.png
-  notes:
+  cover: https://seaborn.pydata.org/_images/wide_data_lineplot.png
+  excerpt:
 
-- name: Violinplot - wide-form dataset
+- title: Violinplot - wide-form dataset
   url: https://seaborn.pydata.org/examples/wide_form_violinplot.html
-  pic: https://seaborn.pydata.org/_images/wide_form_violinplot.png
-  notes:
+  cover: https://seaborn.pydata.org/_images/wide_form_violinplot.png
+  excerpt:
 
 
