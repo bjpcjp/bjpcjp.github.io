@@ -1,10 +1,18 @@
 ---
-title: optical & photonics articles
+title: optical & photonics
+date: 2025-04-06 16:19
 layout: default-foundation-20210515
-tags: semiconductors optical photonics
-date: 2024-02-26 15:45
+tags: optical photonics
+showtags: showtags
 ---
 
-{%- assign sourcedata = site.data.chips.optical-20220708 -%}
-{% assign title = "Optical/photonics resources" %}
-{% include datafile-ungrouped-2cols-20220706.html %}
+{%- assign raindrop = site.data.raindrop.v20250325.rain20250325 %}
+
+{%- assign file = raindrop | 
+    where_exp: "item", "item.tags contains 'optics-photonics'" | 
+    sort: 'created' | 
+    reverse %}
+
+<div class="callout"><h2>{{page.title}}</h2></div>
+
+{% include raindrop-2c-pix.html %}
