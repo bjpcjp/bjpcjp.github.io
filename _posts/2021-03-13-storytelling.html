@@ -1,31 +1,19 @@
 ---
-title: 8 Powerful Storytelling Hooks
-date: 2021-03-13
-tags: storytelling
+title: storytelling
+date: 2025-04-06 09:08
 layout: default-foundation-20210515
+tags: storytelling influence
+#format: "condensed"
+showtags: showtags
 ---
 
-<div class="callout">
-	<h2>8 Powerful Storytelling Hooks</h2>
-	(Smithsonian)
-</div>
+{%- assign raindrop = site.data.raindrop.v20250325.rain20250325 %}
 
-<div class="card">
-	<div class="card-image">
-		<a href="https://www.smithsonianmag.com/innovation/eight-literatures-most-powerful-inventions-and-neuroscience-behind-how-they-work-180977168/">
-		<img src="/px/storytelling/neuroscience_and_reading.jpg"></a>
-	</div>
+{%- assign file = raindrop | 
+	where_exp: "item", "item.tags contains 'storytelling'" | 
+	sort: 'created' | 
+	reverse %}
 
-	<div class="card-section">
-		<ul style="list-style: none;">
-			<li>Plot Twists</li>
-			<li>Hurt Delays</li>
-			<li>Tales told from our Future</li>
-			<li>Revealing an Intimate Character Detail</li>
-			<li>Laughing at Yourself (instead of somebody else)</li>
-			<li>Generating Empathy</li>
-			<li>The Almighty Heart</li>
-			<li>The Anarchy Rhymer</li>
-		</ul>
-	</div>
-</div>
+<div class="callout"><h2>{{page.title}}</h2></div>
+
+{% include raindrop-2c-pix.html %}
