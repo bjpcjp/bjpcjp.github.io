@@ -1,12 +1,18 @@
 ---
-title: shame - as a tool
+title: shaming
+date: 2025-04-06 16:12
 layout: default-foundation-20210515
-tags: behavior shame
-date: 2023-02-04 13:49
+tags: behaviors shame
+showtags: showtags
 ---
 
-<!--
-    use | where: "tags", "graphs" to filter a single tag..
--->
-{%- assign sourcedata = site.data.behaviors.shame-v20220817 -%}
-{% include datafile-ungrouped-2cols-20220817.html %}
+{%- assign raindrop = site.data.raindrop.v20250325.rain20250325 %}
+
+{%- assign file = raindrop | 
+    where_exp: "item", "item.tags contains 'shaming'" | 
+    sort: 'created' | 
+    reverse %}
+
+<div class="callout"><h2>{{page.title}}</h2></div>
+
+{% include raindrop-2c-pix.html %}
