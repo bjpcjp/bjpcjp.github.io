@@ -208,84 +208,84 @@
   url: https://seaborn.pydata.org/examples/regression_marginals.html
   cover: https://seaborn.pydata.org/_images/regression_marginals.png
   excerpt:
-  tags:
+  tags: linear-regression
 
 - title: Model residuals
   url: https://seaborn.pydata.org/examples/residplot.html
   cover: https://seaborn.pydata.org/_images/residplot.png
   excerpt:
-  tags:
+  tags: residuals
 
 - title: Scatterplot - varying point sizes and hues
   url: https://seaborn.pydata.org/examples/scatter_bubbles.html
   cover: https://seaborn.pydata.org/_images/scatter_bubbles.png
   excerpt:
-  tags:
+  tags: scatterplot
 
 - title: Scatterplot - categorical variables
   url: https://seaborn.pydata.org/examples/scatterplot_categorical.html
   cover: https://seaborn.pydata.org/_images/scatterplot_categorical.png
   excerpt:
-  tags:
+  tags: scatterplot
 
 - title: Scatterplot Matrix
   url: https://seaborn.pydata.org/examples/scatterplot_matrix.html
   cover: https://seaborn.pydata.org/_images/scatterplot_matrix.png
   excerpt:
-  tags:
+  tags: scatterplot
 
 - title: Scatterplot - continuous hues and sizes
   url: https://seaborn.pydata.org/examples/scatterplot_sizes.html
   cover: https://seaborn.pydata.org/_images/scatterplot_sizes.png
   excerpt:
-  tags:
+  tags: scatterplot
 
 - title: Violinplots with observations
   url: https://seaborn.pydata.org/examples/simple_violinplots.html
   cover: https://seaborn.pydata.org/_images/simple_violinplots.png
   excerpt:
-  tags:
+  tags: violinplot
 
 - title: Smooth kernel density with marginal histograms
   url: https://seaborn.pydata.org/examples/smooth_bivariate_kde.html
   cover: https://seaborn.pydata.org/_images/smooth_bivariate_kde.png
   excerpt:
-  tags:
+  tags: kernel density
 
 - title: Heatmaps - annotated
   url: https://seaborn.pydata.org/examples/spreadsheet_heatmap.html
   cover: https://seaborn.pydata.org/_images/spreadsheet_heatmap.png
   excerpt:
-  tags:
+  tags: heatmap
 
 - title: Regression fit over a strip plot
   url: https://seaborn.pydata.org/examples/strip_regplot.html
   cover: https://seaborn.pydata.org/_images/strip_regplot.png
-  excerpt:
+  tags: regression
 
 - title: Heatmap - discovering structure
   url: https://seaborn.pydata.org/examples/structured_heatmap.html
   cover: https://seaborn.pydata.org/_images/structured_heatmap.png
-  excerpt:
+  tags: heatmap 
 
 - title: Histogram - trivariate with two categorical variables
   url: https://seaborn.pydata.org/examples/three_variable_histogram.html
   cover: https://seaborn.pydata.org/_images/three_variable_histogram.png
-  excerpt:
+  tags: histogram
 
 - title: Time series - small, multiple
   url: https://seaborn.pydata.org/examples/timeseries_facets.html
   cover: https://seaborn.pydata.org/_images/timeseries_facets.png
-  excerpt:
+  tags: time-series
 
 - title: Lineplot - wide-form dataset
   url: https://seaborn.pydata.org/examples/wide_data_lineplot.html
   cover: https://seaborn.pydata.org/_images/wide_data_lineplot.png
-  excerpt:
+  tags: lineplot
 
 - title: Violinplot - wide-form dataset
   url: https://seaborn.pydata.org/examples/wide_form_violinplot.html
   cover: https://seaborn.pydata.org/_images/wide_form_violinplot.png
-  excerpt:
+  tags: violinplot
 
 
