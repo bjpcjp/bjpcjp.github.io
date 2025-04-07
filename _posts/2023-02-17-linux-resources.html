@@ -1,161 +1,19 @@
 ---
-title: linux resources
+title: linux
+date: 2025-04-06 21:40
 layout: default-foundation-20210515
-date: 2024-02-26 15:20
 tags: linux
+showtags: showtags
+format: condensed
 ---
 
-<div style="columns: 2;">
+{%- assign raindrop = site.data.raindrop.v20250325.rain20250325 %}
 
-	<div class="card">
-		<div class="card-divider">
-			Linux std directory structure
-		</div>
-		<div class="card-image">
-			<img src="/px/linux/std-directory-structure.jpg">
-		</div>
-	</div>
+{%- assign file = raindrop | 
+    where_exp: "item", "item.tags contains 'linux'" | 
+    sort: 'created' | 
+    reverse %}
 
-	<div class="card">
-		<div class="card-divider">
-			77 selected linux command summaries
-		</div>
-		<div class="card-image">
-			<a href="/pdfs/devops/77_linux_commands.pdf">
-				<img src="/px/devops/77-linux-cmnds.png"/></a>
-		</div>
-	</div>
+<div class="callout"><h2>{{page.title}}</h2></div>
 
-	<div class="card">
-		<div class="card-divider">
-			Linux alias command
-		</div>
-		<div class="card-image">
-			<a href="https://www.tecmint.com/create-alias-in-linux/">
-				<img src="/px/devops/alias.png"></a>
-			</div>
-		<div class="card-section">
-			<p>Linux users often need to use one command over and over again. Typing or copying the same command again and again reduces your productivity and distracts you from what you are actually doing. You can save yourself some time by creating aliases for your most used commands. Aliases are like custom shortcuts used to represent a command (or set of commands) executed with or without custom options. Chances are you are already using aliases on your Linux system.</p>
-		</div>
-	</div>
-
-	<div class="card">
-		<div class="card-divider">
-			Linux Productivity Tools (pdf)
-		</div>
-		<div class="card-image">
-			<a href="/pdfs/tools/linux-productivity-tools.pdf">
-			<img src="/px/devops/linux-productivity-tools.png"></a>
-		</div>
-	</div>
-
-</div>
-
-<div class="callout">
-	<h2>Linux Networking Commands</h2>
-	(Labnol.org)
-</div>
-
-
-<div style="column-count: 2;">
-
-	<div class="card">
-		<div class="card-image">
-			<a href="https://www.labnol.org/network-commands-200706">
-			<img src="/px/devops/network-commands.gif"></a>
-		</div>
-	</div>
-
-	<div class="card">
-		<div class="card-divider">What is my IP address?</div>
-		<div class="card-section">
-			<strong>curl https://checkip.amazonaws.com</strong>
-			<p>Make a curl or wget request to the checkip.amazonaws.com and it prints the public IP address of your computer. You can also connect to Akamai’s whatismyip.akamai.com domain get your external IP address.</p>
-		</div>
-	</div>
-	
-	<div class="card">
-		<div class="card-divider">What is my Private IP address?</div>
-		<div class="card-section">
-			<strong>ifconfig en0 | grep inet</strong>
-			<p>Your computer has a private IP address that only work within the local network. For older Macs with a wired Ethernet port, use en0 for Ethernet interface or en1 for the WiFi interface.</p>
-		</div>
-	</div>
-
-	<div class="card">
-		<div class="card-divider">Print a list all network interfaces available on your machine.</div>
-		<div class="card-section">
-			<strong>networksetup -listnetworkserviceorder</strong>
-		</div>
-	</div>
-	
-	<div class="card">
-		<div class="card-divider">Find the Location of IP address</div>
-		<div class="card-section">
-			<strong>curl https://ip2c.org/?ip=8.8.8.8</strong>
-			<p>The free ‘ip2c’ service resolves an IP address to the country. Or, use ipapi to get more details of an IP address including the city name, timezone and even the latitude and longitude associated with an IP address.</p>
-		<div class="card-section">
-			<strong>curl https://ipapi.co/8.8.8.8/json</strong>
-		</div>
-	</div>
-	
-	<div class="card">
-		<div class="card-divider">DNS Records: Find the IP address of a website</div>
-		<div class="card-section">
-			<strong>dig +short www.labnol.org</strong>
-		</div>
-	</div>
-	
-	<div class="card">
-		<div class="card-divider">DNS Records: Find the Mail Server of Domain</div>
-		<div class="card-section">
-			<strong>host -t MX labnol.org</strong>
-			<p>The Mail Exchange (MX) records specify the incoming mail servers that used for delivering email messages sent to your domain name.</p>
-		</div>
-	</div>
-	
-	<div class="card">
-		<div class="card-divider">Print all DNS Records of a Domain</div>
-		<div class="card-section">
-			<strong>dig +nocmd amazon.com any +noall +answer</strong>
-			<p>Get a list of all DNS records of a domain including TXT records, MX records and name servers. The name servers handle queries regarding the location of the domain’s website, email and other services.</p>
-		</div>
-	</div>
-	
-	<div class="card">
-		<div class="card-divider">Who is hosting a website?</div>
-		<div class="card-section">
-			<strong>dig +short netflix.com A | tail -1</strong>
-			<p>Use dig to find the IP address of a website. Use the dig command to perform a reverse lookup to find the host of that IP address.</p>
-		</div>
-	</div>
-	
-	<div class="card">
-		<div class="card-divider">Find the owner of the website</div>
-		<div class="card-section">
-			<strong>whois dictation.io</strong>
-			<p>Use whois to reveal information about any web domain including the date when it was first registered, the contact details of the owner, the expiration date of the domain, the name of the domain registrar and so on.</p>
-		<div class="card-section">
-			<strong>dig +nocmd -x 52.11.104.17 +noall +answer</strong>
-			<p>Use that IP address in the next command to get the hostname.</p>
-		</div>
-	</div>
-	
-	<div class="card">
-		<div class="card-divider">Test Network Connectivity</div>
-		<div class="card-section">
-			<strong>ping -c 5 -i 2 labnol.org</strong>
-			<p>The ping command helps you test if a remote host is reachable and whether your machine can connect to it properly. The above command pings the host 5 time and there’s a 2 second wait between pings.</p>
-		</div>
-	</div>
-	
-	<div class="card">
-		<div class="card-divider">Where’s the fault?</div>
-		<div class="card-section">
-			<strong>traceroute labnol.org</strong>
-			<p>If your Internet connection is working but you are unable to reach a website, there could be an issue with an intermediate router that the packets have to pass through to reach the server. Traceroute prints the network path from your local computer to the website that the traffic must pass through.</p>
-		</div>
-	</div>
-		
-</div>
-
+{% include raindrop-2c-pix.html %}
