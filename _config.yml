@@ -32,8 +32,8 @@ header_pages:
   - index.html # all posts by date
   - posts-by-tag.html # all posts grouped by tag
   - posts-by-title.html # all posts by title
+  - repos.html
   - about.html
-  #- posts-by-tag-last-update.html # sorted by most recently updated post with a given tag
 
 # pagination
 paginate: 50
