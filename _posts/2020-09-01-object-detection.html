@@ -1,34 +1,18 @@
 ---
+title: object detection (machine vision)
+date: 2025-04-08 14:15
 layout: default-foundation-20210515
-title: object detection (2019-20)
-date: 2024-03-20-18:10
-tags: object-detection deep-learning
+tags: machine-vision object-detection
+#format: "condensed"
 ---
 
-<div class="callout">
-	<h2>{{page.title}}</h2>
-</div>
+{%- assign raindrop = site.data.raindrop.v20250325.rain20250325 %}
 
-<div style="columns:2;">
+{%- assign file = raindrop | 
+	where_exp: "item", "item.tags contains 'object-detection'" | 
+	sort: 'created' | 
+	reverse %}
 
-<div class="card">
-	<div class="card-divider">
-		New approaches (miro.medium)
-	</div>
-	<div class="card-image">
-		<a href="https://towardsdatascience.com/new-approaches-to-object-detection-f5cbc925e00e">
-			<img src="https://miro.medium.com/max/1400/1*_ssXB-7gYmIwif0mxjncYg.jpeg">
-		</a>
-	</div>
-</div>
+<div class="callout"><h2>{{page.title}}</h2></div>
 
-<div class="card">
-	<div class="card-divider">
-		E2E theoretical introduction (mlwhiz.com)
-	</div>
-	<div class="card-image">
-		<a href="https://mlwhiz.com/blog/2018/09/22/object_detection/">
-		<img src="/px/math/object-detection-e2e.png"></a>
-	</div>
-
-</div>
+{% include raindrop-2c-pix.html %}
