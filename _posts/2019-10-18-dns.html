@@ -1,51 +1,18 @@
 ---
-title: webdev - DNS bookmarks
+title: dns (devops)
+date: 2025-04-08 14:43
 layout: default-foundation-20210515
-tags: webdev
-date: 2024-03-20 19:10
+tags: dns devops webdev
+#format: "condensed"
 ---
 
-<div class="callout">
-  <h2>{{page.title}}</h2>
-</div>
+{%- assign raindrop = site.data.raindrop.v20250325.rain20250325 %}
 
-<div style="columns:2;">
+{%- assign file = raindrop | 
+    where_exp: "item", "item.tags contains 'dns'" | 
+    sort: 'created' | 
+    reverse %}
 
-<div class="card">
-  <div class="card-divider">
-    Domain name servers (redhat)
-  </div>
-  <div class="card-image">
-    <a href="https://www.redhat.com/sysadmin/dns-domain-name-servers" target="_blank">
-      <img src="/px/devops/college_whiteboard.jpg"></a>
-  </div>
-</div>
+<div class="callout"><h2>{{page.title}}</h2></div>
 
-<div class="card">
-  <div class="card-divider">
-    <a href="https://rjzaworski.com/2019/04/the-web-developers-guide-to-dns">
-    The Web Developer's Guide to DNS (rjzaworski.com)</a>  
-  </div>
-</div>
-
-<div class="card">
-  <div class="card-divider">
-    DNS Terminology, Components, and Concepts (Digital Ocean)  
-  </div>
-  <div class="card-image">
-    <a href="https://www.digitalocean.com/community/tutorials/an-introduction-to-dns-terminology-components-and-concepts">
-      <img src="https://www.digitalocean.com/_next/static/media/intro-to-cloud.d49bc5f7.jpeg"></a>
-  </div>
-</div>
-
-<div class="card">
-  <div class="card-divider">
-        How to Download a List of all Registered Domain Names (Jordan Wright)
-  </div>
-  <div class="card-image">
-    <a href="http://jordan-wright.com/blog/2015/09/30/how-to-download-a-list-of-all-registered-domain-names/">
-      <img src="https://jordan-wright.com/blog/images/headers/download_domains.png">
-  </div>
-</div>
-
-</div>
+{% include raindrop-2c-pix.html %}
