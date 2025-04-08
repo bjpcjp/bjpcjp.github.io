@@ -1,29 +1,18 @@
 ---
-date:   2024-03-20 19:50
+title: groupthink (behavior)
+date: 2025-04-08 17:00
 layout: default-foundation-20210515
-title: groupthink and the Challenger disaster (2019)
 tags: behavior
+#format: "condensed"
 ---
 
-<div class="callout">
-	<h2>{{page.title}}</h2>
-</div>
+{%- assign raindrop = site.data.raindrop.v20250325.rain20250325 %}
 
-<div style="columns:2;">
+{%- assign file = raindrop | 
+    where_exp: "item", "item.tags contains 'groupthink'" | 
+    sort: 'created' | 
+    reverse %}
 
-<div class="card">
-	<div class="card-image">
-		<a href="https://sites.psu.edu/aspsy/2020/10/07/how-groupthink-played-a-role-in-the-challenger-disaster/">
-		<img src="/px/behavior/groupthink-space-shuttle-launch.png"></a>
-	</div>
-</div>
+<div class="callout"><h2>{{page.title}}</h2></div>
 
-<div class="card">
-	<div class="card-section">
-		<p>
-			Have you ever felt pressured to do something while you were part of a team or group that led to a flawed decision?
-		</p>
-	</div>
-</div>
-
-</div>
+{% include raindrop-2c-pix.html %}

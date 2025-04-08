@@ -1,27 +1,18 @@
 ---
-date:   2024-03-20 19:59
+title: jq (json tools)
+date: 2025-04-08 17:00
 layout: default-foundation-20210515
-title: jq resources
-tags: json
+tags: jq json
+#format: "condensed"
 ---
 
-<div class="callout">
-	<h2>{{page.title}}</h2>
-</div>
+{%- assign raindrop = site.data.raindrop.v20250325.rain20250325 %}
 
-<div style="columns:2;">
+{%- assign file = raindrop | 
+    where_exp: "item", "item.tags contains 'json'" | 
+    sort: 'created' | 
+    reverse %}
 
-<div class="card">
-	<div class="card-image">
-		<a href="https://stedolan.github.io/jq/manual/">
-			<img src="/px/tools/jq-banner.png"></a>
-	</div>
-</div>
+<div class="callout"><h2>{{page.title}}</h2></div>
 
-<div class="card">
-	<div class="card-section">
-		<a href="https://shapeshed.com/jq-json/">JSON on the Command Line (shapeshed)</a>
-	</div>
-</div>
-
-</div>
+{% include raindrop-2c-pix.html %}
