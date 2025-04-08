@@ -9,9 +9,12 @@ author: Brian Piercy
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://bjpcjp.github.io"
 
-# Build settings
-markdown: kramdown
+kramdown:
+  syntax_highlighter_opts:
+    disable : true
+
 #theme: minima
+
 plugins:
   - jekyll-feed
   - jekyll_social_icons
