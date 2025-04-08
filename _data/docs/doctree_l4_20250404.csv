@@ -675,7 +675,23 @@ created,temp,title,url,excerpt,cover,tags,tag1,tags2,tag3,alltags
 4/4/2025,The-48-Laws-of-Power-Robert-Greene.pdf,The-48-Laws-of-Power-Robert-Greene.pdf,/pdfs/behavior/48-laws-power/The-48-Laws-of-Power-Robert-Greene.pdf,,,influence 48laws ,influence,48laws,,influence 48laws 
 4/4/2025,intro.pdf,intro.pdf,/pdfs/dl-goodfellow/intro.pdf,,,intro math ,intro,math,,intro math 
 4/4/2025,34-julia-AlgoDM.pdf,34-julia-AlgoDM.pdf,/pdfs/math/34-julia-AlgoDM.pdf,,,julia ADM math,julia,ADM,math,julia ADM math
-4/4/2025,Kubernetes - Up and Running.pdf,Kubernetes - Up and Running.pdf,/pdfs/devops/Kubernetes - Up and Running.pdf,,,kubernetes tools ,kubernetes,tools,,kubernetes tools 
+4/4/2025,Kubernetes - Up and Running.pdf,Kubernetes – Up & Running,/pdfs/devops/Kubernetes - Up and Running.pdf,"Intro<br>
+Creating & Running containers<br>
+Deploying clusters<br>
+Kubectl commands<br>
+Pods<br>
+Labels & Annotations<br>
+Service discovery<br>
+ReplicaSets<br>
+DaemonSets<br>
+Jobs<br>
+ConfigMaps<br>
+Secrets<br>
+Deployments<br>
+Integrating storage solutions<br>
+Real-world deployments<br>
+Raspberry Pi cluster<br>
+",,kubernetes tools ,kubernetes,tools,,kubernetes tools 
 4/4/2025,linear_algebra-DLgoodfellow.pdf,linear_algebra-DLgoodfellow.pdf,/pdfs/dl-goodfellow/linear_algebra-DLgoodfellow.pdf,,,Linear-algebra math ,Linear-algebra,math,,Linear-algebra math 
 4/4/2025,linear-factor-models-DLgoodfellow.pdf,linear-factor-models-DLgoodfellow.pdf,/pdfs/dl-goodfellow/linear-factor-models-DLgoodfellow.pdf,,,Linear-factor-models math ,Linear-factor-models,math,,Linear-factor-models math 
 4/4/2025,77_linux_commands.pdf,77_linux_commands.pdf,/pdfs/devops/77_linux_commands.pdf,,,linux  ,linux,,,linux  

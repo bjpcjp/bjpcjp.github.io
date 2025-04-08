@@ -1,26 +1,18 @@
 ---
-date: 2020-02-25 18:35
-title: compelling speech techniques
+title: speaking
+date: 2025-04-08 14:43
 layout: default-foundation-20210515
-tags: persuasion influence speaking
+tags: speech speaking
+#format: "condensed"
 ---
 
-<div class="callout">
-	<h2>Speech Techniques</h2>
-</div>
+{%- assign raindrop = site.data.raindrop.v20250325.rain20250325 %}
 
-<div class="card">
-	<div class="card-image">
-		<a href="https://ideas.ted.com/tap-into-the-power-to-persuade-by-using-these-6-techniques-of-clear-and-compelling-speech/" target="_blank">
-			<img src="/px/behavior/web-ready_speaker-final.jpg">
-		</a>
-	</div>
-	<div class="card-section">
-		1. Breathless sentences or phrases<br>
-		2. Speaking in "threes"<br>
-		3. Balanced statements<br>
-		4. Metaphors<br>
-		5. Exaggerations<br>
-		6. Rhyming<br>
-	</div>
-</div>
+{%- assign file = raindrop | 
+    where_exp: "item", "item.tags contains 'speaking'" | 
+    sort: 'created' | 
+    reverse %}
+
+<div class="callout"><h2>{{page.title}}</h2></div>
+
+{% include raindrop-2c-pix.html %}

@@ -1,29 +1,18 @@
 ---
-title: langchain tools
+title: langchain
+date: 2025-04-08 14:35
 layout: default-foundation-20210515
-tags: llms langchain
-date: 2023-05-19
+tags: langchain llms
+#format: "condensed"
 ---
 
-<div class="callout">
-    <h2>{{ page.title }}</h2>
-</div>
+{%- assign raindrop = site.data.raindrop.v20250325.rain20250325 %}
 
-<div style="columns: 2;">
+{%- assign file = raindrop | 
+    where_exp: "item", "item.tags contains 'langchain'" | 
+    sort: 'created' | 
+    reverse %}
 
-    <div class="card">
-        <div class="card-section">
-            <h4>Linked In article</h4>
-        </div>
-        <div class="card-section">
-            <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7063160222776774656" allowfullscreen="" title="Embedded post" width="504" height="1388" frameborder="0"></iframe>
-        </div>
-    </div>
+<div class="callout"><h2>{{page.title}}</h2></div>
 
-    <div class="card">
-        <div class="card-section">
-            <h4><a href="https://www.pinecone.io/learn/langchain/?utm_source=pocket_saves">Langchain handbook (Pinecone)</a></h4>
-        </div>
-    </div>
-
-</div>
+{% include raindrop-2c-pix.html %}
