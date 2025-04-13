@@ -1,8 +1,8 @@
 ---
-title: ruby book notes & library links
+title: ruby
 layout: default-foundation-20210515
 tags: ruby booknotes
-date: 2024-02-24 10:10
+date: 2025-04-12 19:47
 ---
 
 <div class="callout">
@@ -18,8 +18,8 @@ date: 2024-02-24 10:10
 
 <div style="columns:2;">
     {% for item in sourcedata %}
-        <div class="card">
-            <div class="card-divider">
+        <div class="card" style="border:1px solid lightslategray; border-radius:10px;">
+            <div class="card-divider" style="border-bottom:1px solid lightslategray;">
                 <a href="{{item.url}}">{{item.title}}</a>
                     &nbsp; ({{item.source}})</div>
             {% if item.notes %}

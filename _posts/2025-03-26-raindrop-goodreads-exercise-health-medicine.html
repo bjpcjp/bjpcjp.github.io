@@ -6,7 +6,7 @@ tags: goodreads exercise-health-medicine
 #format: "condensed"
 ---
 
-{%- assign raindrop = site.data.raindrop.v20250325.rain20250325 %}
+{%- assign raindrop = site.data.raindrop.v20250411.rain20250411 %}
 
 {%- assign file = raindrop | where_exp: "item", "item.tags contains 'goodreads'" | where_exp: "item", "item.tags contains 'exercise-health-medicine'"| sort: 'created' | reverse %}
 

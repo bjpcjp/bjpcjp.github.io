@@ -1,43 +1,17 @@
 ---
-title: sinatra (ruby) links
+title: sinatra (ruby)
 layout: default-foundation-20210515
-tags: ruby jekyll
-date: 2023-02-04 19:15
+tags: ruby sinatra webdev
+date: 2025-04-12 19:45
 ---
 
-<!---
-NOTE - data layout is not controlled via _include file.
--->
+{%- assign raindrop = site.data.raindrop.v20250411.rain20250411 %}
 
-<div class="callout">
-<h2>Sinatra (Ruby site generator) resources</h2>
-</div>
+{%- assign file = raindrop | 
+    where_exp: "item", "item.tags contains 'sinatra'" | 
+    sort: 'created' | 
+    reverse %}
 
-{%- assign records = site.data.code.ruby.v20220817_sinatra | sort: "tags" -%}
+<div class="callout"><h2>{{page.title}}</h2></div>
 
-<div style="column-count: 2;">
-
-{%- for record in records -%}
-    {%- if record.title != "" -%}
-
-        <div class="card">
-            <div class="card-divider">
-                <a href="{{record.url}}" target="_blank">{{record.title}}</a>
-            </div>
-
-            <div class="card-section">
-                {%- if record.source -%}
-                            &nbsp; <small>({{record.source}})</small>
-                {%- endif -%}
-            </div>
-
-            {%- if record.px -%}
-                <div class="card-image">
-                    <img src="{{record.px}}">
-                </div>
-            {%- endif -%}
-        </div>
-    {%- endif -%}
-{%- endfor -%}
- 
-</div>
+{% include raindrop-2c-pix.html %}
