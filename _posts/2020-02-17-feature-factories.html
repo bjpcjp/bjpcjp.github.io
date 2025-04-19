@@ -1,23 +1,24 @@
 ---
+title: prodmgmt/features
 layout: default-foundation-20210515
-title: 12 signs that You're Working in a Feature Factory
-date: 2024-03-21 19:28
-tags: prodmgmt
+tags: prodmgmt features
+date: 2025-04-19 15:35
 ---
 
 <div class="callout">
 	<h2>{{page.title}}</h2>
 </div>
 
-<center>
-<div class="card">
-	<div class="card-divider">
-		cutle.fish (more <a href="https://amplitude.com/blog/12-signs-youre-working-in-a-feature-factory-3-years-later"> &nbsp; here</a>.)
-	</div>
+<!--<a href="https://amplitude.com/blog/12-signs-youre-working-in-a-feature-factory-3-years-later" -->
 
-	<div class="card-image">
-		<a href="https://cutle.fish/blog/12-signs-youre-working-in-a-feature-factory">
-		<img src="/px/prodmgmt/feature-factory.png"></a>
-	</div>
-</div>
-</center>
+{%- assign raindrop = site.data.raindrop.v20250419.rain20250419 %}
+
+{%- assign file = raindrop | 
+	where_exp: "item", "item.tags contains 'prodmgmt'" | 
+	where_exp: "item", "item.title contains 'feature'" | 
+	sort: 'created' | 
+	reverse %}
+
+<div class="callout"><h2>{{page.title}}</h2></div>
+
+{% include raindrop-2c-pix.html %}

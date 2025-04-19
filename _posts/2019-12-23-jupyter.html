@@ -1,18 +1,21 @@
 ---
-date: 2020-02-24 18:00
-title: paperspace gradient notebook
+date: 2025-04-19 15:30
+title: jupyter 
 layout: default-foundation-20210515
-tags: machine-learning
+tags: jupyter
 ---
 
 <div class="callout">
-	<h2>Paperspace Gradient Notebooks</h2>
+	<h2>{{page.title}}</h2>
 </div>
 
-<div style="columns: 2;">
+{%- assign raindrop = site.data.raindrop.v20250419.rain20250419 %}
 
-<div class="card"><div class="card-section">
-	<a href="https://blog.paperspace.com/paperspace-launches-gradient-community-notebooks/">Launch blog post</a>
-</div></div>
+{%- assign file = raindrop | 
+	where_exp: "item", "item.tags contains 'jupyter'" | 
+	sort: 'created' | 
+	reverse %}
 
-</div>
+<div class="callout"><h2>{{page.title}}</h2></div>
+
+{% include raindrop-2c-pix.html %}

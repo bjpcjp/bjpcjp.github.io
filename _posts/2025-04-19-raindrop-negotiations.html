@@ -1,0 +1,17 @@
+---
+title: negotiations (behavior)
+layout: default-foundation-20210515
+tags: negotiations behavior
+date: 2025-04-19 15:24
+---
+
+{%- assign raindrop = site.data.raindrop.v20250419.rain20250419 %}
+
+{%- assign file = raindrop | 
+	where_exp: "item", "item.tags contains 'negotiation'" | 
+	sort: 'created' | 
+	reverse %}
+
+<div class="callout"><h2>{{page.title}}</h2></div>
+
+{% include raindrop-2c-pix.html %}

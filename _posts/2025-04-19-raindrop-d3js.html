@@ -1,0 +1,17 @@
+---
+title: d3js (javascript)
+layout: default-foundation-20210515
+tags: javascript d3js
+date: 2025-04-19 15:13
+---
+
+{%- assign raindrop = site.data.raindrop.v20250419.rain20250419 %}
+
+{%- assign file = raindrop | 
+	where_exp: "item", "item.title contains 'd3'" | 
+	sort: 'created' | 
+	reverse %}
+
+<div class="callout"><h2>{{page.title}}</h2></div>
+
+{% include raindrop-2c-pix.html %}
