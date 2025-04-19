@@ -1,0 +1,33 @@
+---
+title: docdata test
+layout: default-foundation-20210515
+tags: pdfs
+date: 2025-04-04
+---
+
+{% comment %}
+	{%- assign raindrop = site.data.raindrop.v20250325.rain20250325 %}
+{% endcomment %}
+
+{% comment %}
+	{%- assign data = raindrop | where_exp: "item", "item.url contains 'symbol'" %}
+{% endcomment %}
+
+{% comment %}
+	{% for n in data %}
+		{{n}}<br/>
+	{% endfor %}
+{% endcomment %}
+
+<div class="callout">
+	<p>{{page.title}}</p>
+</div>
+
+{%- assign raindrop = site.data.docs.doctree_l4_20250404 %}
+
+{%- assign file = raindrop | 
+	where_exp: "item", "item.tags contains 'execution'" | 
+	sort: 'created' | 
+	reverse %}
+
+{% include raindrop-2c-pix.html %}

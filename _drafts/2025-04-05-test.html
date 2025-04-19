@@ -1,0 +1,24 @@
+---
+title: test
+layout: default-foundation-20210515
+tags: math
+date: 2025-04-05 10:24
+hide_record_metadata: hide
+showtags: showtags
+format: condensed
+---
+
+<div class="callout">
+	<h2>{{page.title}}</h2>
+</div>
+
+{% include addl_notes/test.html %}
+
+{%- assign raindrop = site.data.docs.doctree_l4_20250404 %}
+
+{%- assign file = raindrop | 
+	where_exp: "item", "item.tags contains 'nothing'" | 
+	sort: 'created' | 
+	reverse %}
+
+{% include raindrop-2c-pix.html %}
