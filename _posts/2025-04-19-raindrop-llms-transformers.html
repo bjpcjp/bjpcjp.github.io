@@ -1,14 +1,14 @@
 ---
-title: gans (deep learning)
+title: transformers (llms)
 layout: default-foundation-20210515
-tags: gans deep-learning
-date: 2025-04-19 19:00
+tags: transformers llms
+date: 2025-04-19 17:24
 ---
 
 {%- assign raindrop = site.data.raindrop.v20250419.rain20250419 %}
 
 {%- assign file = raindrop | 
-	where_exp: "item", "item.tags contains 'gans'" | 
+	where_exp: "item", "item.tags contains 'transformers'" | 
 	sort: 'created' | 
 	reverse %}
 

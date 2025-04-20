@@ -1,16 +1,23 @@
 ---
-title: intro to product packaging (2021)
+title: packaging (prodmgmt)
 layout: default-foundation-20210515
 tags: prodmgmt packaging
-date: 2024-03-21 19:35
+date: 2025-04-19 17:00
 ---
 
-<div class="callout">
-	<h2>{{page.title}}</h2>
-</div>
+{%- assign raindrop = site.data.raindrop.v20250419.rain20250419 %}
 
-<div style="column-count: 2;">
+{%- assign file = raindrop | 
+	where_exp: "item", "item.tags contains 'prodmgmt'" | 
+	where_exp: "item", "item.tags contains 'packaging'" | 
+	sort: 'created' | 
+	reverse %}
 
+<div class="callout"><h2>{{page.title}}</h2></div>
+
+{% include raindrop-2c-pix.html %}
+
+<!--
 <div class="card">
 	<div class="card-divider">
 		Design Inspiration blogs (creativemarket)
@@ -76,3 +83,4 @@ date: 2024-03-21 19:35
 </div>
 
 </div>
+-->
