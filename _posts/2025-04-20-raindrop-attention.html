@@ -1,14 +1,15 @@
 ---
-title: execution/onboarding
+title: llms/attention
 layout: default-foundation-20210515
-tags: execution onboarding
-date: 2025-04-20 21:35
+tags: attention
+date: 2025-04-20 21:00
 ---
 
 {%- assign raindrop = site.data.raindrop.v20250419.rain20250419 %}
 
 {%- assign file = raindrop | 
-	where_exp: "item", "item.tags contains 'onboarding'" | 
+	where_exp: "item", "item.tags contains 'llms'" | 
+	where_exp: "item", "item.tags contains 'attention'" | 
 	sort: 'created' | 
 	reverse %}
 
