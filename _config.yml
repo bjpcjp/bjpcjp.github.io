@@ -43,4 +43,4 @@ paginate: 50
 
 # data files
 latest_docfile: site.data.docs.doctree_l4_20250404
-default_raindrop: site.data.raindrop.v20250419.rain20250419
+default_raindrop: v20250419.rain20250419
