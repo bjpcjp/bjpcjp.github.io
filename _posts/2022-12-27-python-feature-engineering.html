@@ -1,13 +1,14 @@
 ---
 layout: default-foundation-20210515
-title: feature engineering with Python
+title: python/feature engineering
 tags: python feature-engineering pandas numpy scikit-learn
-date: 2023-02-04 09:19
+date: 2025-04-23
+hide_record_metadata: hide
 ---
 
 <div class="callout">
-    <h2>Feature Engineering with Python</h2>
+    <h2>{{page.title}}</h2>
 </div>
 
-{%- assign records = site.data.code.feature-engineering-20221226 | sort: "title" -%}
-{%- include 2col-cards-20221226.html -%}
+{%- assign file = site.data.code.feature-engineering-20221226 | sort: "title" -%}
+{%- include render.html -%}

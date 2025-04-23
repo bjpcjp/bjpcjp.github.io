@@ -39,7 +39,7 @@ if record.cover exists,
 
 if record.excerpt exists,
     card-section: paragraph of excerpt
-    
+
 -->
 
 <div style="columns:2;">
@@ -50,19 +50,19 @@ if record.excerpt exists,
 				<h4><a href="{{record.url}}">{{record.title | truncate: 60}}</a></h4>
 			</div>
 			
-			<div class="card-section">
-				<!-- DISPLAYS ARTICLE URL DOMAIN and WHEN SAVED - IF NEEDED -->
-				{% if page.hide_record_metadata != "hide" %}
+			{% if page.hide_record_metadata != "hide" %}
+				<div class="card-section">
 					{{ record.url | split: '//' | last | split: '/' | first }} &nbsp;
 					({{record.created | date: "%Y-%m-%d"}})
-				{% endif %}
-				
-				<!-- DISPLAYS TAGS IF DIRECTED SO BY POST PARAMS -->
-				{% if page.showtags == "showtags" %}
-					<p style="text-decoration-color: red;">tags: {{record.tags}}</p>
-				{% endif %}
-			</div>
+				</div>
+			{% endif %}
 
+			{% if page.showtags == "showtags" %}
+				<div class="card-section">
+					<p style="text-decoration-color: red;">tags: {{record.tags}}</p>
+				</div>
+			{% endif %}
+				
 			{% if record.cover %}
 				<div class="card-image">
 					<a href="{{record.url}}">
