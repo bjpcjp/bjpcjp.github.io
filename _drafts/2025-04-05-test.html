@@ -1,43 +1,21 @@
 ---
-title: test - ADM
+title: test-combined pdfs & px folder
 layout: default-foundation-20210515
 tags: math
 date: 2025-04-22
-hide_record_metadata: hide
-showtags: showtags
-format: condensed
 ---
 
 <div class="callout">
 	<h2>{{page.title}}</h2>
 </div>
 
-{%- assign docsfile = site.data.docs.pdfs-tree-if-20250224 %}
-{%- assign allpx    = site.data.docs.px-tree-if-20250224 %}
+{%- assign pdfs_px = site.data.docs.find-type-f-20250424 %}
 
-{%- assign file = docsfile | 
+<h3>Python/Fluent</h3>
+
+{%- assign file = pdfs_px | 
 	where_exp: "item", "item.url contains 'fluent-python'" | 
 	sort: 'created' | 
 	reverse %}
 
-<div style="columns: 4;">
-{% for record in docsfile %}
-	<a href="/{{record.url}}">{{record.url}}</a><br>
-{% endfor %}
-</div>
-
-<h2>pics:</h2>
-
-{%- assign file = allpx | 
-	where_exp: "item", "item.url contains 'stdcell-cz'" | 
-	sort: 'created' | 
-	reverse %}
-
-<div style="columns: 4;">
-{% for record in file %}
-	<div class="card">
-		<div class="card-divider">{{record.url}}</div>
-		<div class="card-image"><img src="/{{record.url}}/"></div>
-	</div>
-{% endfor %}
-</div>
+{% include render.html %}
