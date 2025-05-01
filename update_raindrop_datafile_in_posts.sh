@@ -4,8 +4,8 @@
 POST_DIR="${1:-_posts}"
 
 # Updated expression to find and replace
-OLD_EXPRESSION='{%- assign raindrop = site.data.raindrop.v20250419.rain20250419 %}'
-NEW_EXPRESSION='{%- assign raindrop = site.data.raindrop.v20250422.export %}'
+OLD_EXPRESSION='{%- assign raindrop = site.data.raindrop.v20250422.export %}'
+NEW_EXPRESSION='{%- assign raindrop = site.data.raindrop.v20250501.export %}'
 
 # Loop through all files in the directory
 find "$POST_DIR" -type f \( -name "*.md" -o -name "*.html" \) | while read -r file; do
