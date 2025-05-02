@@ -1,0 +1,374 @@
+---
+title: vagrant tutorial
+date: 2020-04-14
+layout: default-foundation-20210515
+tags: devops vagrant tools
+---
+
+<div class="callout">
+	<h2>Vagrant Tutorial</h2>
+</div>
+
+<div style="columns: 2;">
+
+<div class="card">
+	<div class="card-image">
+		<a href="https://www.vagrantup.com/">
+		<img src="/px/devops/vagrant-logo.png" /></a>
+</div></div>
+
+<div class="card">
+	<div class="card-divider">
+		<a href="https://www.vagrantup.com/docs/installation">
+			<strong>Installation</strong></a></div>
+	<div class="card-section">
+		<li>Multiple hypervisors</li>
+		<li>Backwards compatibility</li>
+		<li>Upgrading</li>
+		<li>Upgrading from 1.0.x</li>
+		<li>From source</li>
+		<li>Uninstall</li></div>
+</div>
+
+<div class="card">
+	<div class="card-divider">
+		<a href="https://learn.hashicorp.com/collections/vagrant/getting-started">
+		<strong>Tutorial - Getting started</strong></a></div>
+
+	<div class="card-section">
+		<li><a href="https://www.vagrantup.com/downloads.html">Install</a></li>
+		<li><code>vagrant</code> auto-added to your system path</li>
+		<li>verify by trying the CLI: <code>$vagrant</code></li>
+		<li>*beware of system package managers* - often missing dependencies</li>
+	</div>
+</div>
+
+<div class="card">
+	<div class="card-divider">
+		<strong>Project setup</strong></div>
+
+	<div class="card-section">
+		<code>$mkdir vagrant_getting_started && cd $_</code>
+		<code>$vagrant init hashicorp/bionic64</code>
+		<code>$vagrant box add hashicorp/bionic64</code>
+		<ul>VagrantFile options:<br>
+			<li><code>config.vm.box = "hashicorp/bionic64"</code>
+			<li><code>config.vm.box_version = 1.1.0"</code>
+			<li><code>config.vm.box_url = "https://vagrantcloud.com/hashicorp/bionic64"</code>
+		</ul>
+		<li><code>$vagrant up</code>
+		<li>code>$vagrant ssh</code>
+		<li><code>$vagrant destroy</code>
+		<li><code>$vagrant box remove</code>
+	</div>
+</div>
+
+<!-- from online menu ---------------------------------------------------- -->
+
+<div class="card">
+	<div class="card-divider">
+		<strong>
+			<a href="https://www.vagrantup.com/docs/cli">CLI</strong></a></div>
+
+<strong><code>$vagrant [cmnd[opts]]</code></strong><br>
+<code>box</code>
+<code>cloud</code>
+<code>connect</code>
+<code>destroy</code>
+<code>global-status</code>
+<code>halt</code>
+<code>init</code>
+<code>login</code>
+<code>package</code>
+<code>plugin</code>
+<code>port</code>
+<code>powershell</code>
+<code>provision</code>
+<code>rdp</code>
+<code>reload</code>
+<code>resume</code>
+<code>share</code>
+<code>snapshot</code>
+<code>ssh</code>
+<code>ssh-config</code>
+<code>status</code>
+<code>suspend</code>
+<code>up</code>
+<code>upload</code>
+<code>validate</code>
+<code>version</code>
+(more)
+</div>
+
+<!-- from online menu ---------------------------------------------------- -->
+
+<div class="card">
+	<div class="card-divider">
+		<a href="https://www.vagrantup.com/docs/share">
+			<strong>Vagrant Share</strong></a></div>
+
+	<div class="card-section">
+		<li>over HTTP</li>
+		<li>over SSH</li>
+		<li>Connect</li>
+		<li>Security</li>
+		<li>Custom Providers</li></div>
+</div>
+
+<!-- from online menu ---------------------------------------------------- -->
+
+<div class="card">
+	<div class="card-divider">
+		<a href="https://www.vagrantup.com/docs/vagrantfile">
+			<strong>VagrantFiles</strong></a></div>
+
+	<div class="card-section">
+		<li>Configuration</li>
+		<li>Minimum Vagrant Version</li>
+		<li>Tips & Tricks</li>
+		<li><code>config.vm</code></li>
+		<li><code>config.ssh</code></li>
+		<li><code>config.wimrm</code></li>
+		<li><code>config.winssh</code></li>
+		<li><code>config.vagrant</code></li></div>
+</div>
+
+<!-- from online menu ---------------------------------------------------- -->
+
+<div class="card">
+	<div class="card-divider">
+		<a href="https://www.vagrantup.com/docs/boxes">
+			<strong>Boxes</strong></a></div>
+
+	<div class="card-section">
+		<li>Versioning</li>
+		<li>Creating</li>
+		<li>File Format</li>
+		<li>Info Format</li></div>
+
+</div>
+
+<!-- from online menu ---------------------------------------------------- -->
+
+<div class="card">
+	<div class="card-divider">
+		<a href="https://www.vagrantup.com/docs/provisioning">
+			<strong>Provisioning</strong></a></div>
+
+	<div class="card-section">
+		<li>Basics</li>
+		<li>Files</li>
+		<li>Shells</li>
+		<li>intro to Ansible</li>
+		<li>Ansible local</li>
+		<li>Common Ansible options</li>
+		<li>CFEngine</li>
+		<li>Chef - common configuration</li>
+		<li>Chef Solo</li>
+		<li>Chef Zero</li>
+		<li>Chef Client</li>
+		<li>Docker</li>
+		<li>Podman</li>
+		<li>Puppet Apply</li>
+		<li>Puppet Agent</li>
+		<li>Salt</li></div>
+</div>
+
+<!-- from online menu ---------------------------------------------------- -->
+
+<div class="card">
+	<div class="card-divider">
+		<a href="https://www.vagrantup.com/docs/networking">
+		<strong>Networking</strong></a></div>
+
+	<div class="card-section">
+		<li>Basics</li>
+		<li>Port forwarding</li>
+		<li>Private Networks</li>
+		<li>Public Networks</li></div>
+</div>
+
+<!-- from online menu ---------------------------------------------------- -->
+
+<div class="card">
+	<div class="card-divider">
+		<a href="https://www.vagrantup.com/docs/synced-folders">
+			<strong>Synced folders</strong></a></div>
+	<div class="card-section">
+		<li>Basics</li>
+		<li>NFS</li>
+		<li>RSync</li>
+		<li>SMB</li>
+		<li>VirtualBox</li></div>
+</div>
+
+<!-- from online menu ---------------------------------------------------- -->
+
+<div class="card">
+	<div class="card-divider">
+		<a href="https://www.vagrantup.com/docs/cloud-init">
+			<strong>Cloud-init</strong></a></div>
+
+	<div class="card-section">
+		<li>Overview</li>
+		<li>Configuration</li>
+		<li>Usage</li></div>
+</div>
+
+<!-- from online menu ---------------------------------------------------- -->
+
+<div class="card">
+	<div class="card-divider">
+		<a href="https://www.vagrantup.com/docs/disks">
+			<strong>Disks (experimental)</strong></a></div>
+
+	<div class="card-section">
+		<li>Overview</li>
+		<li>Configuration</li>
+		<li>Usage</li>
+		<li>VirtualBox</li>
+		<li>Hyper-V</li>
+		<li>VMware</li></div>
+</div>
+
+<!-- from online menu ---------------------------------------------------- -->
+
+<div class="card">
+	<div class="card-divider">
+		<a href="https://www.vagrantup.com/docs/multi-machine">
+			<strong>Multiple Machines</strong></a></div>
+
+	<div class="card-section">
+		<li>Defining</li>
+		<li>Controls</li>
+		<li>Machine Communications</li>
+		<li>Primary Machines</li>
+		<li>Autostarting</li></div>
+</div>
+
+<!-- from online menu ---------------------------------------------------- -->
+
+<div class="card">
+	<div class="card-divider">
+		<a href="https://www.vagrantup.com/docs/providers">
+			<strong>Providers</strong></a></div>
+
+	<div class="card-section">
+		<li>Install</li>
+		<li>Basic Usage</li>
+		<li>Configuration</li>
+		<li>Default</li>
+		<li>VirtualBox</li>
+		<li>VMware</li>
+		<li>Docker</li>
+		<li>Hyper-V</li>
+		<li>Custom</li></div>
+</div>
+
+<!-- from online menu ---------------------------------------------------- -->
+
+<div class="card">
+	<div class="card-divider">
+		<a href="https://www.vagrantup.com/docs/plugins">
+			<strong>Plugins</strong></a></div>
+
+	<div class="card-section">
+		<li>Usage</li>
+		<li>Design Basics</li>
+		<li>Action Hooks</li>
+		<li>Commands</li>
+		<li>Configuration</li>
+		<li>Guests</li>
+		<li>Guest Capabilities</li>
+		<li>Hosts</li>
+		<li>Host Capabilities</li>
+		<li>Providers</li>
+		<li>Provisioners</li>
+		<li>Packaging & Distribution</li></div>
+</div>
+
+<!-- from online menu ---------------------------------------------------- -->
+
+<div class="card">
+	<div class="card-divider">
+		<a href="https://www.vagrantup.com/docs/push">
+			<strong>Push</strong></a></div>
+
+	<div class="card-section">
+		<li>FTP, SFTP</li>
+		<li>Heroku</li>
+		<li>Local execution</li></div>
+</div>
+
+<!-- from online menu ---------------------------------------------------- -->
+
+<div class="card">
+	<div class="card-divider">
+		<a href="https://www.vagrantup.com/docs/triggers">
+			<strong>Triggers</strong></a></div>
+
+	<div class="card-section">
+		<li>Configuration</li>
+		<li>Usage</li></div>
+</div>
+
+<!-- from online menu ---------------------------------------------------- -->
+
+<div class="card">
+	<div class="card-divider">
+		<a href="https://www.vagrantup.com/docs/experimental">
+			<strong>Experimental Features</strong></a></div>
+
+	<div class="card-section">
+		<li><code>cloud_init</code></li>
+		<li><code>dependency_provisioners</code></li>
+		<li><code>disks</code></li>
+		<li><code>typed_triggers</code></li></div>
+</div>
+
+<!-- from online menu ---------------------------------------------------- -->
+
+<div class="card">
+	<div class="card-divider">
+		<a href="https://www.vagrantup.com/docs/other/debugging">
+		<strong>Debugging</strong></a></div>
+</div>
+
+<!-- from online menu ---------------------------------------------------- -->
+
+<div class="card">
+	<div class="card-divider">
+		<a href="https://www.vagrantup.com/docs/other/environmental-variables">
+		<strong>Environment Variables</strong></a></div>
+</div>
+
+<!-- from online menu ---------------------------------------------------- -->
+
+<div class="card">
+	<div class="card-divider">
+		<a href="https://www.vagrantup.com/docs/other/wsl">
+			<strong>WSL</strong></a></div>
+
+	<div class="card-section">
+		<li>Installation</li>
+		<li>Windows access</li>
+		<li><code>PATH</code> mods</li>
+		<li>Synced folders</li>
+		<li>Using Docker</li></div>
+</div>
+
+<!-- from online menu ---------------------------------------------------- -->
+
+<div class="card">
+	<div class="card-divider">
+		<a href="https://www.vagrantup.com/vagrant-cloud">
+			<strong>Vagrant Cloud</strong></a></div>
+
+	<div class="card-section">
+		<li><a href="https://www.vagrantup.com/docs/vagrant-cloud/boxes/catalog">
+			Vagrant Box Catalog</a></li>
+		<li><a href="https://www.vagrantup.com/docs/vagrant-cloud/boxes/create">
+			Vagrant Box Creation</a></li>
+		<li><a href="https://www.vagrantup.com/docs/vagrant-cloud/boxes/lifecycle">
+			Vagrant Box Versioning</a></li></div>
+</div>

@@ -1,0 +1,45 @@
+---
+title: shipping cost ideas (pdf)
+layout: default-foundation-20210515
+tags: prodmgmt supply-chain
+date: 2021-06-26 09:42
+---
+
+<div class="callout">
+	<h2>Shipping Cost Ideas (pdf)</h2>
+</div>
+
+{%- assign records = site.data.prodmgmt.shipping-cost-ideas-20210626 -%}
+
+{%- for record in records -%}
+	{%- if record.title != "" -%}
+
+		<div class="card">
+
+			<div class="card-divider">
+				<a href="{{parent_url}}{{record.url}}" target="_blank">
+					{{record.title}}</a>
+			</div>
+
+			{%- if record.px -%}
+				<div class="card-image">
+					<img src="{{record.px}}"/>
+				</div>
+			{%- endif -%}
+
+			{%- if record.notes -%}
+				<div class="card-section">
+					{{record.notes}}
+				</div>
+			{%- endif -%}
+
+			{%- if record.more -%}
+				<div class="card-section">
+					{{record.more}}
+				</div>
+			{%- endif -%}
+
+		</div>
+
+	{%- endif -%}
+{%- endfor -%}

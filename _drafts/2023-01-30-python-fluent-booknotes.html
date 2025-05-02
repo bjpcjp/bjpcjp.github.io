@@ -1,0 +1,17 @@
+---
+title: python (fluent) booknotes
+date: 2025-04-02 15:25
+layout: default-foundation-20210515
+tags: python
+#format: "condensed"
+hide_record_metadata: "hide"
+---
+
+{%- assign raindrop = site.data.python-fluent-20230130 %}
+
+{%- assign file = raindrop | 
+    sort: 'url' %}
+
+<div class="callout"><h2>{{page.title}}</h2></div>
+
+{%- include render.html -%}
