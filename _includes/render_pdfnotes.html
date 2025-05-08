@@ -1,0 +1,39 @@
+<div style="columns:2;">
+
+{% for record in datafile %}
+	<div class="card">
+		<div class="card-divider">
+			<p><a href="{{docspath}}{{record.Markdown}}">{{ record.Title }}</a></p>
+		</div>
+
+		{% if record.Image %}
+		<div class="card-image">
+			<img src="{{docspath}}{{ record.Image }}">
+		</div>
+		{% endif %}
+
+		<div class="card-section">
+			<p><strong>Summary:</strong><br>{{ record.Summary }}</p>
+		</div>
+
+		<div class="card-section">
+			<details>
+				<summary><strong>Outline</strong></summary>
+				<div class="outline-content">
+					{{ record.Outline }}
+				</div>
+			</details>
+		</div>
+
+		<div class="card-section">
+			<details>
+				<summary><strong>Glossary</strong></summary>
+				<div class="glossary-content">
+					{{ record.Glossary }}
+				</div>
+			</details>
+		</div>
+	</div>
+{% endfor %}
+
+</div>
