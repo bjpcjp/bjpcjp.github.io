@@ -1,0 +1,45 @@
+---
+layout: default-foundation-20210515
+title: Posts by Date
+---
+
+{% if site.posts.size > 0 -%}
+
+  {%- assign posts       = site.posts | sort: 'title' -%}
+  {%- assign lastpost    = posts.last -%}
+  {%- assign last50posts = site.posts | sort: 'date' | reverse | slice: 0, 50 -%}
+  {%- assign sorted      = site.posts | sort: 'date' | reverse                -%}
+  {%- assign showindex   = True -%}
+
+  <div class="callout warning">
+    <h2>Please excuse the mess. We're rebuilding.</h2>
+  </div>
+  
+  <div class="callout">
+    <h2>Posts Index - by Date</h2>
+  </div>
+  
+
+<div style="column-count: 2;">
+  {%- for post in sorted -%}
+  {%- assign draft = post.path | slice: 0,6 %}
+
+    {%- if draft == "_draft" %}
+      <span style="background-color: cornsilk;">
+    {% endif %}
+
+    <a href="{{post.url}}">{{post.title}}</a> &nbsp;
+    <small>({{post.date | date: "%Y/%m/%d"}})</small> &nbsp;
+
+    {%- if draft == "_draft" %}
+      <small><strong>**DRAFT**</strong></small></span>
+    {% endif %}
+    <br>
+
+  {%- endfor -%}
+
+</div>
+
+{% endif %}
+
+

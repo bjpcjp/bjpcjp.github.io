@@ -1,45 +1,1163 @@
 ---
+title: My Raindrop Bookmarks
 layout: default-foundation-20210515
-title: Posts by Date
 ---
 
-{% if site.posts.size > 0 -%}
-
-  {%- assign posts       = site.posts | sort: 'title' -%}
-  {%- assign lastpost    = posts.last -%}
-  {%- assign last50posts = site.posts | sort: 'date' | reverse | slice: 0, 50 -%}
-  {%- assign sorted      = site.posts | sort: 'date' | reverse                -%}
-  {%- assign showindex   = True -%}
 
   <div class="callout warning">
     <h2>Please excuse the mess. We're rebuilding.</h2>
+    <p>This is a taxonomy of my Raindrop bookmark library. It doesn't (yet) contain any book summaries - just HTML content. The taxonomy is my attempt to wrestle 15K bookmarks into some sense of organization. (It also hopefully shows that I'm not a one-note band.)</p>
   </div>
   
-  <div class="callout">
-    <h2>Posts Index - by Date</h2>
-  </div>
-  
+<div style="columns:4;">
 
-<div style="column-count: 2;">
-  {%- for post in sorted -%}
-  {%- assign draft = post.path | slice: 0,6 %}
+<!-- A -->
 
-    {%- if draft == "_draft" %}
-      <span style="background-color: cornsilk;">
-    {% endif %}
+<div class="card" style="background-color:azure;"><div class="card-divider">
+<strong><a href="docs/2025-07-01-dsp.html">Algos / Signal Processing</a></strong></div><div class="card-section">
+<a href="docs/2025-07-01-splines.html">splines</a><br/>
+<a href="docs/2025-07-01-kalman_filters.html">kalman_filters</a><br/>
+<a href="docs/2025-07-01-lagrange.html">lagrange</a><br/>
+<a href="docs/2025-07-01-bloom_filters.html">bloom_filters</a><br/>
+<a href="docs/2025-07-01-filters.html">filters</a><br/>
+<a href="docs/2025-07-01-fourier.html">fourier</a><br/>
+</div></div>
 
-    <a href="{{post.url}}">{{post.title}}</a> &nbsp;
-    <small>({{post.date | date: "%Y/%m/%d"}})</small> &nbsp;
+<div class="card" style="background-color:azure;"><div class="card-divider">
+<strong><a href="docs/2025-07-01-topology.html">Algos / Topology</a></strong></div><div class="card-section">
+<a href="docs/2025-07-01-knots.html">knots</a><br/>
+<a href="docs/2025-07-01-spatial.html">spatial</a><br/>
+<a href="docs/2025-07-01-geometry.html">geometry</a><br/>
+<a href="docs/2025-07-01-origami.html">origami</a><br/>
+</div></div>
 
-    {%- if draft == "_draft" %}
-      <small><strong>**DRAFT**</strong></small></span>
-    {% endif %}
-    <br>
 
-  {%- endfor -%}
+<!-- B -->
+
+<div class="card" style="background-color:aliceblue;"><div class="card-divider">
+<strong><a href="docs/2025-07-01-behaviors.html">Behaviors</a></strong></div><div class="card-section">
+<a href="docs/2025-07-01-addiction.html">addiction</a><br/>
+<a href="docs/2025-07-01-affinity.html">affinity</a><br/>
+<a href="docs/2025-07-01-altruism.html">altruism</a><br/>
+<a href="docs/2025-07-01-anonymity.html">anonymity</a><br/>
+<a href="docs/2025-07-01-assumptions.html">assumptions</a><br/>
+<a href="docs/2025-07-01-beliefs.html">beliefs</a><br/>
+<a href="docs/2025-07-01-bias.html">bias</a><br/>
+<a href="docs/2025-07-01-burnout.html">burnout</a><br/>
+<a href="docs/2025-07-01-bystander_effect.html">bystander_effect</a><br/>
+<a href="docs/2025-07-01-censorship.html">censorship</a><br/>
+<a href="docs/2025-07-01-character.html">character</a><br/>
+<a href="docs/2025-07-01-charity.html">charity</a><br/>
+<a href="docs/2025-07-01-cheating.html">cheating</a><br/>
+<a href="docs/2025-07-01-chivalry.html">chivalry</a><br/>
+<a href="docs/2025-07-01-choices.html">choices</a><br/>
+<a href="docs/2025-07-01-collecting_curation.html">collecting_curation</a><br/>
+<a href="docs/2025-07-01-collusion.html">collusion</a><br/>
+<a href="docs/2025-07-01-comedy_fun_humor.html">comedy_fun_humor</a><br/>
+<a href="docs/2025-07-01-conspiracies.html">conspiracies</a><br/>
+<a href="docs/2025-07-01-controversy.html">controversy</a><br/>
+<a href="docs/2025-07-01-coolness_desire_envy.html">coolness_desire_envy</a><br/>
+<a href="docs/2025-07-01-courage.html">courage</a><br/>
+<a href="docs/2025-07-01-courtesy.html">courtesy</a><br/>
+<a href="docs/2025-07-01-creativity.html">creativity</a><br/>
+<a href="docs/2025-07-01-crime.html">crime</a><br/>
+<a href="docs/2025-07-01-deceit_deception.html">deceit_deception</a><br/>
+<a href="docs/2025-07-01-decisions.html">decisions</a><br/>
+<a href="docs/2025-07-01-delusions.html">delusions</a><br/>
+<a href="docs/2025-07-01-dignity.html">dignity</a><br/>
+<a href="docs/2025-07-01-disobedience.html">disobedience</a><br/>
+<a href="docs/2025-07-01-dogwhistles.html">dogwhistles</a><br/>
+<a href="docs/2025-07-01-dunning_kruger.html">dunning_kruger</a><br/>
+<a href="docs/2025-07-01-ethics.html">ethics</a><br/>
+<a href="docs/2025-07-01-excuses.html">excuses</a><br/>
+<a href="docs/2025-07-01-fakes.html">fakes</a><br/>
+<a href="docs/2025-07-01-fallacies.html">fallacies</a><br/>
+<a href="docs/2025-07-01-familiarity.html">familiarity</a><br/>
+<a href="docs/2025-07-01-fanclubs_fandom.html">fanclubs_fandom</a><br/>
+<a href="docs/2025-07-01-focus_distractions.html">focus_distractions</a><br/>
+<a href="docs/2025-07-01-fraud.html">fraud</a><br/>
+<a href="docs/2025-07-01-friends.html">friends</a><br/>
+<a href="docs/2025-07-01-gaslighting.html">gaslighting</a><br/>
+<a href="docs/2025-07-01-genius.html">genius</a><br/>
+<a href="docs/2025-07-01-gestures.html">gestures</a><br/>
+<a href="docs/2025-07-01-gifts.html">gifts</a><br/>
+<a href="docs/2025-07-01-grit_hustle_perseverence.html">grit_hustle_perseverence</a><br/>
+<a href="docs/2025-07-01-groupthink.html">groupthink</a><br/>
+<a href="docs/2025-07-01-habits.html">habits</a><br/>
+<a href="docs/2025-07-01-hoarding.html">hoarding</a><br/>
+<a href="docs/2025-07-01-hobbies.html">hobbies</a><br/>
+<a href="docs/2025-07-01-honesty.html">honesty</a><br/>
+<a href="docs/2025-07-01-humility.html">humility</a><br/>
+<a href="docs/2025-07-01-imposter_syndrome.html">imposter_syndrome</a><br/>
+<a href="docs/2025-07-01-instinct_intuition.html">instinct_intuition</a><br/>
+<a href="docs/2025-07-01-introverts.html">introverts</a><br/>
+<a href="docs/2025-07-01-kindness.html">kindness</a><br/>
+<a href="docs/2025-07-01-laughter.html">laughter</a><br/>
+<a href="docs/2025-07-01-likeability.html">likeability</a><br/>
+<a href="docs/2025-07-01-loyalty.html">loyalty</a><br/>
+<a href="docs/2025-07-01-lying.html">lying</a><br/>
+<a href="docs/2025-07-01-morality.html">morality</a><br/>
+<a href="docs/2025-07-01-motivation.html">motivation</a><br/>
+<a href="docs/2025-07-01-patience.html">patience</a><br/>
+<a href="docs/2025-07-01-politeness.html">politeness</a><br/>
+<a href="docs/2025-07-01-premature_optimization.html">premature_optimization</a><br/>
+<a href="docs/2025-07-01-pressure.html">pressure</a><br/>
+<a href="docs/2025-07-01-procastination.html">procastination</a><br/>
+<a href="docs/2025-07-01-productivity_gtd.html">productivity_gtd</a><br/>
+<a href="docs/2025-07-01-purpose.html">purpose</a><br/>
+<a href="docs/2025-07-01-reciprocity.html">reciprocity</a><br/>
+<a href="docs/2025-07-01-rejection.html">rejection</a><br/>
+<a href="docs/2025-07-01-reputation.html">reputation</a><br/>
+<a href="docs/2025-07-01-respect.html">respect</a><br/>
+<a href="docs/2025-07-01-rituals.html">rituals</a><br/>
+<a href="docs/2025-07-01-sabotage.html">sabotage</a><br/>
+<a href="docs/2025-07-01-scams.html">scams</a><br/>
+<a href="docs/2025-07-01-secrecy.html">secrecy</a><br/>
+<a href="docs/2025-07-01-seduction.html">seduction</a><br/>
+<a href="docs/2025-07-01-silence.html">silence</a><br/>
+<a href="docs/2025-07-01-snobbery.html">snobbery</a><br/>
+<a href="docs/2025-07-01-solitude.html">solitude</a><br/>
+<a href="docs/2025-07-01-stoicism.html">stoicism</a><br/>
+<a href="docs/2025-07-01-subterfuge.html">subterfuge</a><br/>
+<a href="docs/2025-07-01-theft.html">theft</a><br/>
+<a href="docs/2025-07-01-triggers.html">triggers</a><br/>
+<a href="docs/2025-07-01-trust.html">trust</a><br/>
+<a href="docs/2025-07-01-values.html">values</a><br/>
+<a href="docs/2025-07-01-whistleblowing.html">whistleblowing</a><br/>
+</div></div>
+
+<div class="card"><div class="card-divider">
+<strong><a href="docs/2025-07-01-best_practices.html">Best Practices</a> &
+		<a href="docs/2025-07-01-execution.html">Execution</a></strong></div><div class="card-section">
+<a href="docs/2025-07-01-kanban.html">kanban</a><br/>
+<a href="docs/2025-07-01-agile.html">agile</a><br/>
+<a href="docs/2025-07-01-checklists.html">checklists</a><br/>
+<a href="docs/2025-07-01-benchmarks.html">benchmarks</a><br/>
+<a href="docs/2025-07-01-github_awesome.html">github_awesome</a><br/>
+<a href="docs/2025-07-01-arxiv.html">arxiv</a><br/>
+<a href="docs/2025-07-01-paperswithcode.html">paperswithcode</a><br/>
+<a href="docs/2025-07-01-documentation.html">documentation</a><br/>
+<a href="docs/2025-07-01-glossaries.html">glossaries</a><br/>
+<a href="docs/2025-07-01-lean.html">lean</a><br/>
+<a href="docs/2025-07-01-meetings.html">meetings</a><br/>
+<a href="docs/2025-07-01-onboarding.html">onboarding</a><br/>
+<a href="docs/2025-07-01-post_mortems.html">post_mortems</a><br/>
+<a href="docs/2025-07-01-practice.html">practice</a><br/>
+<a href="docs/2025-07-01-projmgmt.html">projmgmt</a><br/>
+<a href="docs/2025-07-01-quality.html">quality</a><br/>
+<a href="docs/2025-07-01-teamwork.html">teamwork</a><br/>
+<a href="docs/2025-07-01-testing.html">testing</a><br/>
+<a href="docs/2025-07-01-okrs.html">okrs</a><br/>
+</div></div>
+
+<div class="card"><div class="card-divider">
+<strong><a href="docs/2025-07-01-books.html">Books</a></strong></div><div class="card-section">
+</div></div>
+
+<!-- C -->
+
+<div class="card" style="background-color:azure;"><div class="card-divider">
+<strong><a href="docs/2025-07-01-cognition_neuro_percept.html">Cognition, Neurology, Perception</a></strong></div><div class="card-section">
+<a href="docs/2025-07-01-neurology.html">neurology</a><br/>
+<a href="docs/2025-07-01-perception.html">perception</a><br/>
+<a href="docs/2025-07-01-color.html">color</a><br/>
+<a href="docs/2025-07-01-psychology.html">psychology</a><br/>
+<a href="docs/2025-07-01-vision.html">vision</a><br/>
+<a href="docs/2025-07-01-smell.html">smell</a><br/>
+<a href="docs/2025-07-01-philosophy.html">philosophy</a><br/>
+<a href="docs/2025-07-01-images.html">images</a><br/>
+<a href="docs/2025-07-01-hunger.html">hunger</a><br/>
+</div></div>
+
+<div class="card" style="background-color:azure;"><div class="card-divider">
+<strong><a href="docs/2025-07-01-crypto.html">Crypto</a><br/></strong></div><div class="card-section">
+<a href="docs/2025-07-01-bitcoin.html">bitcoin</a><br/>
+<a href="docs/2025-07-01-blockchain.html">blockchain</a><br/>
+<a href="docs/2025-07-01-ethereum.html">ethereum</a><br/>
+<a href="docs/2025-07-01-nft.html">nft</a><br/>
+</div></div>
+
+<div class="card" style="background-color:aliceblue;"><div class="card-divider">
+<a href="docs/2025-07-01-culture.html">Culture</a></div><div class="card-section">
+<a href="docs/2025-07-01-art.html">art</a><br/>
+<a href="docs/2025-07-01-beauty.html">beauty</a><br/>
+<a href="docs/2025-07-01-perfume.html">perfume</a><br/>
+<a href="docs/2025-07-01-fashion.html">fashion</a><br/>
+<a href="docs/2025-07-01-food_drink.html">food_drink</a><br/>
+<hr>
+<a href="docs/2025-07-01-movies_television.html">movies_television</a><br/>
+<a href="docs/2025-07-01-cartoons.html">cartoons</a><br/>
+<a href="docs/2025-07-01-comics.html">comics</a><br/>
+<a href="docs/2025-07-01-memes.html">memes</a><br/>
+<a href="docs/2025-07-01-photography.html">photography</a><br/>
+<a href="docs/2025-07-01-stickers.html">stickers</a><br/>
+<hr>
+
+<a href="docs/2025-07-01-toys.html">toys</a><br/>
+<a href="docs/2025-07-01-games.html">games</a><br/>
+<a href="docs/2025-07-01-chess.html">chess</a><br/>
+<a href="docs/2025-07-01-play.html">play</a><br/>
+<a href="docs/2025-07-01-poker.html">poker</a><br/>
+<a href="docs/2025-07-01-sports.html">sports</a><br/>
+<a href="docs/2025-07-01-football.html">football</a><br/>
+<a href="docs/2025-07-01-go_game.html">go</a><br/>
+<hr>
+
+<a href="docs/2025-07-01-magic.html">magic</a><br/>
+<a href="docs/2025-07-01-tricks.html">tricks</a><br/>
+<hr>
+
+<a href="docs/2025-07-01-clothes.html">clothes</a><br/>
+<a href="docs/2025-07-01-fabric.html">fabric</a><br/>
+<a href="docs/2025-07-01-tshirts.html">tshirts</a><br/>
+<hr>
+
+<a href="docs/2025-07-01-furniture.html">furniture</a><br/>
+<a href="docs/2025-07-01-dishes.html">dishes</a><br/>
+<a href="docs/2025-07-01-dogs.html">dogs</a><br/>
+<hr>
+
+<a href="docs/2025-07-01-music.html">music</a><br/>
+<a href="docs/2025-07-01-jazz.html">jazz</a><br/>
+<a href="docs/2025-07-01-spotify.html">spotify</a><br/>
+<a href="docs/2025-07-01-violin.html">violin</a><br/>
+</div></div>
+
+<!-- D -->
+
+<div class="card" style="background-color:azure;"><div class="card-divider">
+<strong>Devtools</strong></div><div class="card-section">
+<a href="docs/2025-07-01-jupyter.html">jupyter</a><br/>
+<a href="docs/2025-07-01-cran.html">cran</a><br/>
+<a href="docs/2025-07-01-git.html">git</a><br/>
+<a href="docs/2025-07-01-dash.html">dash</a><br/>
+<a href="docs/2025-07-01-tensorflow.html">tensorflow</a><br/>
+<a href="docs/2025-07-01-dask.html">dask</a><br/>
+<a href="docs/2025-07-01-erlang.html">erlang</a><br/>
+<a href="docs/2025-07-01-fastapi.html">fastapi</a><br/>
+<a href="docs/2025-07-01-gitlab.html">gitlab</a><br/>
+<a href="docs/2025-07-01-nim.html">nim</a><br/>
+<a href="docs/2025-07-01-gcc.html">gcc</a><br/>
+<a href="docs/2025-07-01-gradio.html">gradio</a><br/>
+<a href="docs/2025-07-01-graphql.html">graphql</a><br/>
+<a href="docs/2025-07-01-hadoop.html">hadoop</a><br/>
+<a href="docs/2025-07-01-html.html">html</a><br/>
+<a href="docs/2025-07-01-htmx.html">htmx</a><br/>
+<a href="docs/2025-07-01-http.html">http</a><br/>
+<a href="docs/2025-07-01-hugo.html">hugo</a><br/>
+<a href="docs/2025-07-01-knime.html">knime</a><br/>
+<a href="docs/2025-07-01-lodash.html">lodash</a><br/>
+<a href="docs/2025-07-01-php.html">php</a><br/>
+<a href="docs/2025-07-01-r.html">r</a><br/>
+<a href="docs/2025-07-01-rust.html">rust</a><br/>
+<a href="docs/2025-07-01-sed.html">sed</a><br/>
+<a href="docs/2025-07-01-spark.html">spark</a><br/>
+<a href="docs/2025-07-01-ubuntu.html">ubuntu</a><br/>
+<a href="docs/2025-07-01-voila.html">voila</a><br/>
+<a href="docs/2025-07-01-webassembly.html">webassembly</a><br/>
+<a href="docs/2025-07-01-yawl.html">yawl</a><br/>
+<a href="docs/2025-07-01-yellowbrick.html">yellowbrick</a><br/>
+<a href="docs/2025-07-01-sublime_text.html">sublime_text</a><br/>
+</div></div>
+
+
+<!-- E -->
+
+<div class="card" style="background-color:lightblue;"><div class="card-divider">
+<strong><a href="docs/2025-07-01-circuits_electronics.html">Electronics</a></strong></div><div class="card-section">
+<a href="docs/2025-07-01-keyboards.html">keyboards</a><br/>
+<a href="docs/2025-07-01-cables.html">cables</a><br/>
+<a href="docs/2025-07-01-superconductors.html">superconductors</a><br/>
+
+<a href="docs/2025-07-01-audio.html">audio</a><br/>
+<a href="docs/2025-07-01-headphones.html">headphones</a><br/>
+<a href="docs/2025-07-01-ipod.html">ipod</a><br/>
+<a href="docs/2025-07-01-mp3.html">mp3</a><br/>
+
+<a href="docs/2025-07-01-hdmi.html">hdmi</a><br/>
+<a href="docs/2025-07-01-iot.html">iot</a><br/>
+<a href="docs/2025-07-01-iphone.html">iphone</a><br/>
+<a href="docs/2025-07-01-kindle.html">kindle</a><br/>
+<a href="docs/2025-07-01-batteries.html">batteries</a><br/>
+<a href="docs/2025-07-01-cameras.html">cameras</a><br/>
+
+<a href="docs/2025-07-01-bios.html">bios</a><br/>
+<a href="docs/2025-07-01-rtos.html">rtos</a><br/>
+<a href="docs/2025-07-01-sensors.html">sensors</a><br/>
+<a href="docs/2025-07-01-robotics.html">robotics</a><br/>
+<a href="docs/2025-07-01-hpc.html">hpc</a><br/>
+</div></div>
+
+<div class="card" style="background-color:aliceblue;"><div class="card-divider">
+<strong><a href="docs/2025-07-01-exercise_health.html">Exercise & Health</a></strong></div><div class="card-section">
+<a href="docs/2025-07-01-exercise_health_medicine.html">exercise_health_medicine</a><br/>
+<a href="docs/2025-07-01-medicare.html">medicare</a><br/>
+<a href="docs/2025-07-01-yoga.html">yoga</a><br/>
+</div></div>
+
+<!-- L -->
+
+<div class="card"><div class="card-divider">
+<strong><a href="docs/2025-07-01-language_linguistics.html">Language - Linguistics</a></strong></div><div class="card-section">
+<a href="docs/2025-07-01-symbols.html">symbols</a><br/>
+<a href="docs/2025-07-01-mental_models.html">mental_models</a><br/>
+<a href="docs/2025-07-01-thinking.html">thinking</a><br/>
+<a href="docs/2025-07-01-analogies.html">analogies</a><br/>
+<a href="docs/2025-07-01-naming.html">naming</a><br/>
+</div></div>
+
+<div class="card"><div class="card-divider">
+<strong><a href="docs/2025-07-01-legal.html">legal</a></strong></div><div class="card-section">
+<a href="docs/2025-07-01-trademarks.html">trademarks</a><br/>
+<a href="docs/2025-07-01-incorporation.html">incorporation</a><br/>
+<a href="docs/2025-07-01-intellectual_property.html">intellectual_property</a><br/>
+<a href="docs/2025-07-01-patents.html">patents</a><br/>
+<a href="docs/2025-07-01-antitrust.html">antitrust</a><br/>
+<a href="docs/2025-07-01-contracts.html">contracts</a><br/>
+<a href="docs/2025-07-01-monopoly.html">monopoly</a><br/>
+<a href="docs/2025-07-01-logos.html">logos</a><br/>
+</div></div>
+
+<!-- M -->
+
+<div class="card"><div class="card-divider">
+<strong><a href="docs/2025-07-01-mail.html">(Physical) Mail</a></strong></div><div class="card-section">
+</div></div>
+
+<div class="card"><div class="card-divider">
+<strong><a href="docs/2025-07-01-military_warfare.html">Military / Warfare</a></strong></div><div class="card-section">
+<a href="docs/2025-07-01-spycraft.html">spycraft</a><br/>
+<a href="docs/2025-07-01-security.html">security</a><br/>
+</div></div>
+
+<div class="card" style="background-color:azure;"><div class="card-divider">
+<strong><a href="docs/2025-07-01-mobile.html">Mobile Device Topics</a></strong></div><div class="card-section">
+</div></div>
+
+
+<!-- P -->
+
+<div class="card" style="background-color:aliceblue;"><div class="card-divider">
+<strong><a href="docs/2025-07-01-places.html">Places</a></strong></div><div class="card-section">
+<a href="docs/2025-07-01-africa.html">africa</a><br/>
+<a href="docs/2025-07-01-austin.html">austin</a><br/>
+<a href="docs/2025-07-01-china.html">china</a><br/>
+<a href="docs/2025-07-01-wv.html">wv</a><br/>
+<a href="docs/2025-07-01-india.html">india</a><br/>
+<a href="docs/2025-07-01-japan.html">japan</a><br/>
+</div></div>
+
+<div class="card"><div class="card-divider">
+<strong><a href="docs/2025-07-01-physics.html">Physics</a></strong></div><div class="card-section">
+<a href="docs/2025-07-01-fusion.html">fusion</a><br/>
+<a href="docs/2025-07-01-quantum.html">quantum</a><br/>
+<a href="docs/2025-07-01-magnets.html">magnets</a><br/>
+<a href="docs/2025-07-01-antimatter.html">antimatter</a><br/>
+<a href="docs/2025-07-01-astronomy_space.html">astronomy_space</a><br/>
+<a href="docs/2025-07-01-satellite.html">satellite</a><br/>
+<a href="docs/2025-07-01-energy.html">energy</a><br/>
+<a href="docs/2025-07-01-electricity.html">electricity</a><br/>
+<a href="docs/2025-07-01-solar.html">solar</a><br/>
+</div></div>
+
+<div class="card"><div class="card-divider">
+<strong><a href="docs/2025-07-01-privacy.html">Privacy</a></strong></div><div class="card-section">
+<a href="docs/2025-07-01-whatsapp.html">whatsapp</a><br/>
+<a href="docs/2025-07-01-mastodon.html">mastodon</a><br/>
+</div></div>
+
+<div class="card"><div class="card-divider">
+<strong><a href="docs/2025-07-01-prodmgmt.html">Prodmgmt</a></strong></div><div class="card-section">
+<a href="docs/2025-07-01-aggregation.html">aggregation</a><br/>
+<a href="docs/2025-07-01-arbitrage.html">arbitrage</a><br/>
+<a href="docs/2025-07-01-bundling.html">bundling</a><br/>
+<a href="docs/2025-07-01-craftsmanship.html">craftsmanship</a><br/>
+<a href="docs/2025-07-01-custsvc.html">custsvc</a><br/>
+<a href="docs/2025-07-01-demand_mgmt.html">demand_mgmt</a><br/>
+<a href="docs/2025-07-01-discovery.html">discovery</a><br/>
+<a href="docs/2025-07-01-disruption.html">disruption</a><br/>
+<a href="docs/2025-07-01-dropshipping.html">dropshipping</a><br/>
+<a href="docs/2025-07-01-pivots.html">pivots</a><br/>
+<a href="docs/2025-07-01-ecommerce.html">ecommerce</a><br/>
+<a href="docs/2025-07-01-instacart.html">instacart</a><br/>
+<a href="docs/2025-07-01-returns.html">returns</a><br/>
+<a href="docs/2025-07-01-permission.html">permission</a><br/>
+<a href="docs/2025-07-01-personas.html">personas</a><br/>
+<a href="docs/2025-07-01-pricing.html">pricing</a><br/>
+<a href="docs/2025-07-01-luxury.html">luxury</a><br/>
+<a href="docs/2025-07-01-scarcity.html">scarcity</a><br/>
+<a href="docs/2025-07-01-p2p.html">p2p</a><br/>
+<a href="docs/2025-07-01-exclusivity.html">exclusivity</a><br/>
+<a href="docs/2025-07-01-piracy.html">piracy</a><br/>
+<a href="docs/2025-07-01-eols.html">eols</a><br/>
+<a href="docs/2025-07-01-failure.html">failure</a><br/>
+<a href="docs/2025-07-01-features_benefits.html">features_benefits</a><br/>
+<a href="docs/2025-07-01-forecasting_predictions.html">forecasting_predictions</a><br/>
+<a href="docs/2025-07-01-freemium.html">freemium</a><br/>
+<a href="docs/2025-07-01-friction_traction.html">friction_traction</a><br/>
+<a href="docs/2025-07-01-gamification.html">gamification</a><br/>
+<a href="docs/2025-07-01-growth_hacks.html">growth_hacks</a><br/>
+<a href="docs/2025-07-01-jobdef.html">jobdef</a><br/>
+<a href="docs/2025-07-01-ideation.html">ideation</a><br/>
+<a href="docs/2025-07-01-influencers.html">influencers</a><br/>
+<a href="docs/2025-07-01-jobstobedone.html">jobstobedone</a><br/>
+<a href="docs/2025-07-01-landing_pages.html">landing_pages</a><br/>
+<a href="docs/2025-07-01-leadgen_leadmgmt.html">leadgen_leadmgmt</a><br/>
+<a href="docs/2025-07-01-linecards.html">linecards</a><br/>
+<a href="docs/2025-07-01-low_cost.html">low_cost</a><br/>
+<a href="docs/2025-07-01-marketing.html">marketing</a><br/>
+<a href="docs/2025-07-01-tickets.html">tickets</a><br/>
+<a href="docs/2025-07-01-menus.html">menus</a><br/>
+<a href="docs/2025-07-01-moats.html">moats</a><br/>
+<a href="docs/2025-07-01-mvp.html">mvp</a><br/>
+<a href="docs/2025-07-01-network_effects.html">network_effects</a><br/>
+<a href="docs/2025-07-01-packaging.html">packaging</a><br/>
+<a href="docs/2025-07-01-pawnshops.html">pawnshops</a><br/>
+<a href="docs/2025-07-01-physical_products.html">physical_products</a><br/>
+
+<a href="docs/2025-07-01-sass.html">sass</a><br/>
+
+<a href="docs/2025-07-01-positioning.html">positioning</a><br/>
+<a href="docs/2025-07-01-prds_requirements.html">prds_requirements</a><br/>
+<a href="docs/2025-07-01-prioritization.html">prioritization</a><br/>
+<a href="docs/2025-07-01-prod_mkt_fit.html">prod_mkt_fit</a><br/>
+<a href="docs/2025-07-01-recycling.html">recycling</a><br/>
+<a href="docs/2025-07-01-repair.html">repair</a><br/>
+
+<a href="docs/2025-07-01-retail.html">retail</a><br/>
+<a href="docs/2025-07-01-grocery.html">grocery</a><br/>
+
+<a href="docs/2025-07-01-reviews.html">reviews</a><br/>
+<a href="docs/2025-07-01-shopify.html">shopify</a><br/>
+<a href="docs/2025-07-01-simplicity.html">simplicity</a><br/>
+<a href="docs/2025-07-01-social_proof.html">social_proof</a><br/>
+<a href="docs/2025-07-01-startups.html">startups</a><br/>
+<a href="docs/2025-07-01-stickiness.html">stickiness</a><br/>
+<a href="docs/2025-07-01-subscriptions.html">subscriptions</a><br/>
+<a href="docs/2025-07-01-user_generated_content.html">user_generated_content</a><br/>
+<a href="docs/2025-07-01-value_prop.html">value_prop</a><br/>
+<a href="docs/2025-07-01-virality.html">virality</a><br/>
+<a href="docs/2025-07-01-white_label.html">white_label</a><br/>
+</div></div>
+
+<div class="card"><div class="card-divider">
+<strong><a href="docs/2025-07-01-public_policy.html">Public Policy</a></strong></div><div class="card-section">
+</div></div>
+
+<div class="card" style="background-color:azure;"><div class="card-divider">
+<strong><a href="docs/2025-07-01-python.html">(code) / Python</a></strong></div><div class="card-section">
+<a href="docs/2025-07-01-vaex.html">vaex</a><br/>
+<a href="docs/2025-07-01-pip.html">pip</a><br/>
+<a href="docs/2025-07-01-numba.html">numba</a><br/>
+<a href="docs/2025-07-01-cython.html">cython</a><br/>
+<a href="docs/2025-07-01-django.html">django</a><br/>
+<a href="docs/2025-07-01-flask.html">flask</a><br/>
+<a href="docs/2025-07-01-numpy.html">numpy</a><br/>
+<a href="docs/2025-07-01-pandas.html">pandas</a><br/>
+<a href="docs/2025-07-01-pycaret.html">pycaret</a><br/>
+<a href="docs/2025-07-01-pyspark.html">pyspark</a><br/>
+<a href="docs/2025-07-01-pytest.html">pytest</a><br/>
+<a href="docs/2025-07-01-pytorch.html">pytorch</a><br/>
+<a href="docs/2025-07-01-scipy.html">scipy</a><br/>
+<a href="docs/2025-07-01-sympy.html">sympy</a><br/>
+<a href="docs/2025-07-01-venv.html">venv</a><br/>
+<a href="docs/2025-07-01-streamlit.html">streamlit</a><br/>
+<a href="docs/2025-07-01-decorators.html">decorators</a><br/>
+</div></div>
+
+<!-- R -->
+
+<div class="card"><div class="card-divider">
+<strong><a href="docs/2025-07-01-reading.html">reading</a></strong> and 
+<strong><a href="docs/2025-07-01-writing.html">Writing</a></strong></div><div class="card-section">
+<a href="docs/2025-07-01-journalism.html">journalism</a><br/>
+<a href="docs/2025-07-01-drawing.html">drawing</a><br/>
+<a href="docs/2025-07-01-blogging.html">blogging</a><br/>
+<a href="docs/2025-07-01-copywriting.html">copywriting</a><br/>
+<a href="docs/2025-07-01-notetaking.html">notetaking</a><br/>
+<a href="docs/2025-07-01-printing.html">printing</a><br/>
+<a href="docs/2025-07-01-advertising_commercials.html">advertising_commercials</a><br/>
+<a href="docs/2025-07-01-brochures.html">brochures</a><br/>
+<a href="docs/2025-07-01-catalogs.html">catalogs</a><br/>
+<a href="docs/2025-07-01-content_syndication.html">content_syndication</a><br/>
+<a href="docs/2025-07-01-magazines.html">magazines</a><br/>
+<a href="docs/2025-07-01-faqs.html">faqs</a><br/>
+<a href="docs/2025-07-01-rss.html">rss</a><br/>
+<a href="docs/2025-07-01-newsletters.html">newsletters</a><br/>
+<a href="docs/2025-07-01-email.html">email</a><br/>
+<a href="docs/2025-07-01-gmail.html">gmail</a><br/>
+<a href="docs/2025-07-01-mailchimp.html">mailchimp</a><br/>
+</div></div>
+
+<!-- S -->
+
+<div class="card"><div class="card-divider">
+<strong><a href="docs/2025-07-01-sales_salesmgmt.html">Sales</a></strong></div><div class="card-section">
+<a href="docs/2025-07-01-winloss.html">winloss</a><br/>
+<a href="docs/2025-07-01-battlecards.html">battlecards</a><br/>
+<a href="docs/2025-07-01-sales_ops_planning.html">sales_ops_planning</a><br/>
+</div></div>
+
+<div class="card" style="background-color:azure;"><div class="card-divider">
+<strong><a href="docs/2025-07-01-search.html">Search</a></strong></div><div class="card-section">
+<a href="docs/2025-07-01-bing.html">bing</a><br/>
+<a href="docs/2025-07-01-bigquery.html">bigquery</a><br/>
+<a href="docs/2025-07-01-elasticsearch.html">elasticsearch</a><br/>
+<a href="docs/2025-07-01-similarity_search.html">similarity_search</a><br/>
+</div></div>
+
+<div class="card" style="background-color:lightblue;"><div class="card-divider">
+<strong><a href="docs/2025-07-01-semiconductors.html">Semiconductors</a></strong></div><div class="card-section">
+<a href="docs/2025-07-01-amd.html">amd</a><br/>
+
+<a href="docs/2025-07-01-nvidia.html">nvidia</a><br/>
+<a href="docs/2025-07-01-gpus.html">gpus</a><br/>
+<a href="docs/2025-07-01-cuda.html">cuda</a><br/>
+<a href="docs/2025-07-01-triton.html">triton</a><br/>
+
+<a href="docs/2025-07-01-foundries.html">foundries</a><br/>
+<a href="docs/2025-07-01-lithography.html">lithography</a><br/>
+
+<a href="docs/2025-07-01-cpus.html">cpus</a><br/>
+<a href="docs/2025-07-01-fpgas.html">fpgas</a><br/>
+<a href="docs/2025-07-01-riscv.html">riscv</a><br/>
+<a href="docs/2025-07-01-tpu.html">tpu</a><br/>
+<a href="docs/2025-07-01-pufs.html">pufs</a><br/>
+
+<a href="docs/2025-07-01-gallium_arsenide.html">gallium_arsenide</a><br/>
+<a href="docs/2025-07-01-gallium_nitride.html">gallium_nitride</a><br/>
+<a href="docs/2025-07-01-silicon_carbide.html">silicon_carbide</a><br/>
+<a href="docs/2025-07-01-superconductors.html">superconductors</a><br/>
+<a href="docs/2025-07-01-interconnects.html">interconnects</a><br/>
+<a href="docs/2025-07-01-semiconductor_memory.html">semiconductor_memory</a><br/>
+<a href="docs/2025-07-01-neuromorphic.html">neuromorphic</a><br/>
+
+<a href="docs/2025-07-01-gsi.html">gsi</a><br/>
+<hr>
+<a href="docs/2025-07-01-spice.html">spice</a><br/>
+<a href="docs/2025-07-01-chip_design.html">chip_design</a><br/>
+<a href="docs/2025-07-01-verilog.html">verilog</a><br/>
+<a href="docs/2025-07-01-thermal.html">thermal</a><br/>
+<a href="docs/2025-07-01-substrates.html">substrates</a><br/>
+<a href="docs/2025-07-01-optics_photonics.html">optics_photonics</a><br/>
+
+</div></div>
+
+<div class="card" style="background-color:aliceblue;"><div class="card-divider">
+<a href="docs/2025-07-01-storytelling.html">Storytelling</a></div><div class="card-section">
+<a href="docs/2025-07-01-folklore.html">folklore</a><br/>
+<a href="docs/2025-07-01-mysteries.html">mysteries</a><br/>
+<a href="docs/2025-07-01-myths.html">myths</a><br/>
+<a href="docs/2025-07-01-documentaries.html">documentaries</a><br/>
+<a href="docs/2025-07-01-exorcism.html">exorcism</a><br/>
+</div></div>
+
+<div class="card"><div class="card-divider">
+<strong><a href="docs/2025-07-01-supply_chain.html">Supply Chains</a></strong></div><div class="card-section">
+<a href="docs/2025-07-01-kinaxis.html">kinaxis</a><br/>
+<a href="docs/2025-07-01-deminimus.html">deminimus</a><br/>
+<a href="docs/2025-07-01-logistics_shipping.html">logistics_shipping</a><br/>
+<a href="docs/2025-07-01-sap.html">sap</a><br/>
+</div></div>
+
+<!-- T -->
+
+<div class="card" style="background-color:aliceblue;"><div class="card-divider">
+<strong><a href="docs/2025-07-01-travel.html">Travel</a></strong></div><div class="card-section">
+<a href="docs/2025-07-01-airstream.html">airstream</a><br/>
+<a href="docs/2025-07-01-expat_travel.html">expat_travel</a><br/>
+<a href="docs/2025-07-01-camping.html">camping</a><br/>
+<a href="docs/2025-07-01-hiking.html">hiking</a><br/>
+<a href="docs/2025-07-01-surfing.html">surfing</a><br/>
+<a href="docs/2025-07-01-immigration.html">immigration</a><br/>
+</div></div>
+
+<!-- W -->
+
+<div class="card"><div class="card-divider">
+<strong><a href="docs/2025-07-01-webdev.html">webdev</a></strong></div><div class="card-section">
+<a href="docs/2025-07-01-web_servers.html">web_servers</a><br>
+<a href="docs/2025-07-01-nginx.html">nginx</a><br/>
+<a href="docs/2025-07-01-icons.html">icons</a><br/>
+<a href="docs/2025-07-01-websockets.html">websockets</a><br/>
+<a href="docs/2025-07-01-web_crawlers.html">web_crawlers</a><br/>
+<a href="docs/2025-07-01-firecrawl.html">firecrawl</a><br/>
+<a href="docs/2025-07-01-web_scraping.html">web_scraping</a><br/>
+<a href="docs/2025-07-01-gifs.html">gifs</a><br/>
+<a href="docs/2025-07-01-streaming.html">streaming</a><br/>
+<a href="docs/2025-07-01-torrents.html">torrents</a><br/>
+<a href="docs/2025-07-01-webgpu.html">webgpu</a><br/>
+<a href="docs/2025-07-01-webpack.html">webpack</a><br/>
+<a href="docs/2025-07-01-webpacker.html">webpacker</a><br/>
+
+</div></div>
+
+<div class="card"><div class="card-divider">
+<strong><a href="docs/2025-07-01-bookmarks.html">bookmarks</a></strong></div><div class="card-section">
+<a href="docs/2025-07-01-memory_recall.html">memory_recall</a><br/>
+<a href="docs/2025-07-01-gkeep.html">gkeep</a><br/>
+<a href="docs/2025-07-01-pocket.html">pocket</a><br/>
+<a href="docs/2025-07-01-hashtags.html">hashtags</a><br/>
+</div></div>
+
+<div class="card"><div class="card-divider">
+<strong><a href="docs/2025-07-01-broadcasting.html">broadcasting</a></strong></div><div class="card-section">
+<a href="docs/2025-07-01-spectrum.html">spectrum</a><br>
+<a href="docs/2025-07-01-video.html">video</a><br/>
+<a href="docs/2025-07-01-plex.html">plex</a><br/>
+<a href="docs/2025-07-01-youtube.html">youtube</a><br/>
+<a href="docs/2025-07-01-networking.html">networking</a><br/>
+<a href="docs/2025-07-01-antennas.html">antennas</a><br/>
+<a href="docs/2025-07-01-radar.html">radar</a><br/>
+<a href="docs/2025-07-01-lidar.html">lidar</a><br/>
+<a href="docs/2025-07-01-broadband.html">broadband</a><br/>
+<a href="docs/2025-07-01-cellular.html">cellular</a><br/>
+<a href="docs/2025-07-01-wifi.html">wifi</a><br/>
+<a href="docs/2025-07-01-radio.html">radio</a><br/>
+<a href="docs/2025-07-01-sms.html">sms</a><br/>
+<a href="docs/2025-07-01-telephones.html">telephones</a><br/>
+</div></div>
+
+
+
+
+<div class="card" style="background-color:azure;"><div class="card-divider">
+<strong><a href="docs/2025-07-01-nlp.html">nlp</a></strong></div><div class="card-section">
+<a href="docs/2025-07-01-spacy.html">spacy</a><br/>
+<a href="docs/2025-07-01-gensim.html">gensim</a><br/>
+<a href="docs/2025-07-01-nltk.html">nltk</a><br/>
+<a href="docs/2025-07-01-sentiment_analysis.html">sentiment_analysis</a><br/>
+</div></div>
+
+<div class="card"><div class="card-divider">
+<strong><a href="docs/2025-07-01-ui_ux.html">UI/UX</a></strong></div><div class="card-section">
+<a href="docs/2025-07-01-affordance.html">affordance</a><br/>
+<a href="docs/2025-07-01-ambiguity.html">ambiguity</a><br/>
+<a href="docs/2025-07-01-kern.html">kern</a><br/>
+<a href="docs/2025-07-01-animation.html">animation</a><br/>
+<a href="docs/2025-07-01-navigation.html">navigation</a><br/>
+<a href="docs/2025-07-01-design_patterns.html">design_patterns</a><br/>
+<a href="docs/2025-07-01-experience_maps.html">experience_maps</a><br/>
+<a href="docs/2025-07-01-fonts_typography.html">fonts_typography</a><br/>
+<a href="docs/2025-07-01-emojis.html">emojis</a><br/>
+<a href="docs/2025-07-01-latex.html">latex</a><br/>
+<a href="docs/2025-07-01-cards.html">cards</a><br/>
+<a href="docs/2025-07-01-design.html">design</a><br/>
+<a href="docs/2025-07-01-figma.html">figma</a><br/>
+<a href="docs/2025-07-01-storyboards.html">storyboards</a><br/>
+</div></div>
+
+<div class="card" style="background-color:aliceblue;"><div class="card-divider">
+<strong><a href="docs/2025-07-01-goodreads.html">goodreads</a></strong></div><div class="card-section">
+<a href="docs/2025-07-01-history.html">history</a><br/>
+<a href="docs/2025-07-01-truecrime.html">truecrime</a><br/>
+<a href="docs/2025-07-01-scifi.html">scifi</a><br/>
+</div></div>
+
+<div class="card"><div class="card-divider">
+<strong><a href="docs/2025-07-01-risk.html">risk</a></strong></div><div class="card-section">
+<a href="docs/2025-07-01-insurance.html">insurance</a><br/>
+<a href="docs/2025-07-01-due_diligence.html">due_diligence</a><br/>
+<a href="docs/2025-07-01-luck.html">luck</a><br/>
+<a href="docs/2025-07-01-gaming.html">gaming</a><br/>
+</div></div>
+
+<div class="card"><div class="card-divider">
+<strong><a href="docs/2025-07-01-finance.html">finance</a></strong></div><div class="card-section">
+<a href="docs/2025-07-01-crowdfunding.html">crowdfunding</a><br/>
+<a href="docs/2025-07-01-debt.html">debt</a><br/>
+<a href="docs/2025-07-01-mergers.html">mergers</a><br/>
+<a href="docs/2025-07-01-payments.html">payments</a><br/>
+<a href="docs/2025-07-01-taxes.html">taxes</a><br/>
+</div></div>
+
+<div class="card" style="background-color:azure;"><div class="card-divider">
+<strong>Code / Deep Learning</strong></div><div class="card-section">
+<a href="docs/2025-07-01-adversarial.html">adversarial</a><br/>
+<a href="docs/2025-07-01-autoencoders.html">autoencoders</a><br/>
+<a href="docs/2025-07-01-deepseek.html">deepseek</a><br/>
+<a href="docs/2025-07-01-gans.html">gans</a><br/>
+<a href="docs/2025-07-01-generative.html">generative</a><br/>
+<a href="docs/2025-07-01-hopfield.html">hopfield</a><br/>
+<a href="docs/2025-07-01-reinforcement_learning.html">reinforcement_learning</a><br/>
+<a href="docs/2025-07-01-representation_learning.html">representation_learning</a><br/>
+<a href="docs/2025-07-01-transfer_learning.html">transfer_learning</a><br/>
+<a href="docs/2025-07-01-rnns.html">rnns</a><br/>
+<a href="docs/2025-07-01-variational.html">variational</a><br/>
+</div></div>
+
+<div class="card" style="background-color:azure;"><div class="card-divider">
+<strong><a href="docs/2025-07-01-llms.html">Code / llms</a></strong></div><div class="card-section">
+<a href="docs/2025-07-01-agents.html">agents</a><br/>
+<a href="docs/2025-07-01-attention.html">attention</a><br/>
+<a href="docs/2025-07-01-bert.html">bert</a><br/>
+<a href="docs/2025-07-01-chatbots.html">chatbots</a><br/>
+<a href="docs/2025-07-01-chatgpt.html">chatgpt</a><br/>
+<a href="docs/2025-07-01-claude.html">claude</a><br/>
+<a href="docs/2025-07-01-gpt.html">gpt</a><br/>
+<a href="docs/2025-07-01-gemini.html">gemini</a><br/>
+<a href="docs/2025-07-01-llama.html">llama</a><br/>
+<a href="docs/2025-07-01-llm_rag.html">llm_rag</a><br/>
+<a href="docs/2025-07-01-langchain.html">langchain</a><br/>
+<a href="docs/2025-07-01-mcp.html">mcp</a><br/>
+<a href="docs/2025-07-01-midjourney.html">midjourney</a><br/>
+<a href="docs/2025-07-01-ollama.html">ollama</a><br/>
+<a href="docs/2025-07-01-openai.html">openai</a><br/>
+<a href="docs/2025-07-01-prompt_engineering.html">prompt_engineering</a><br/>
+<a href="docs/2025-07-01-tokens.html">tokens</a><br/>
+<a href="docs/2025-07-01-transformers.html">transformers</a><br/>
+<a href="docs/2025-07-01-reasoning.html">reasoning</a><br/>
+<a href="docs/2025-07-01-hugging_face.html">hugging_face</a><br/>
+</div></div>
+
+<div class="card" style="background-color:azure;"><div class="card-divider">
+<strong><a href="docs/2025-07-01-machine_vision.html">Code / Machine Vision</a></strong></div><div class="card-section">
+<a href="docs/2025-07-01-scikit_image.html">scikit_image</a><br/>
+<a href="docs/2025-07-01-opencv.html">opencv</a><br/>
+<hr>
+<a href="docs/2025-07-01-autonomous_driving.html">autonomous_driving</a><br/>
+<a href="docs/2025-07-01-deep_learning.html">deep_learning</a><br/>
+<a href="docs/2025-07-01-deepfakes.html">deepfakes</a><br/>
+<a href="docs/2025-07-01-denoising.html">denoising</a><br/>
+<a href="docs/2025-07-01-depth_estimation.html">depth_estimation</a><br/>
+<a href="docs/2025-07-01-diffusion.html">diffusion</a><br/>
+<a href="docs/2025-07-01-face_recognition.html">face_recognition</a><br/>
+<a href="docs/2025-07-01-image_augmentation.html">image_augmentation</a><br/>
+<a href="docs/2025-07-01-image_classification.html">image_classification</a><br/>
+<a href="docs/2025-07-01-image_compression.html">image_compression</a><br/>
+<a href="docs/2025-07-01-image_generation.html">image_generation</a><br/>
+<a href="docs/2025-07-01-image_retrieval.html">image_retrieval</a><br/>
+<a href="docs/2025-07-01-image_segmentation.html">image_segmentation</a><br/>
+<a href="docs/2025-07-01-image_to_text.html">image_to_text</a><br/>
+<a href="docs/2025-07-01-object_detection.html">object_detection</a><br/>
+<a href="docs/2025-07-01-pose_estimation.html">pose_estimation</a><br/>
+<a href="docs/2025-07-01-semantic_search.html">semantic_search</a><br/>
+<a href="docs/2025-07-01-semantic_segmentation.html">semantic_segmentation</a><br/>
+<a href="docs/2025-07-01-speech_recognition.html">speech_recognition</a><br/>
+<a href="docs/2025-07-01-stable_diffusion.html">stable_diffusion</a><br/>
+<a href="docs/2025-07-01-super_resolution.html">super_resolution</a><br/>
+<a href="docs/2025-07-01-topic_modeling.html">topic_modeling</a><br/>
+<a href="docs/2025-07-01-ocr.html">ocr</a><br/>
+</div></div>
+
+<div class="card" style="background-color:azure;"><div class="card-divider">
+<strong><a href="docs/2025-07-01-machine_learning.html">machine_learning</a></strong></div><div class="card-section">
+<a href="docs/2025-07-01-text.html">text</a><br/>
+<a href="docs/2025-07-01-activations.html">activations</a><br/>
+<a href="docs/2025-07-01-anomalies_outliers.html">anomalies_outliers</a><br/>
+<a href="docs/2025-07-01-apriori.html">apriori</a><br/>
+<a href="docs/2025-07-01-association_rules.html">association_rules</a><br/>
+<a href="docs/2025-07-01-bandits.html">bandits</a><br/>
+<a href="docs/2025-07-01-bayes.html">bayes</a><br/>
+<a href="docs/2025-07-01-boosting.html">boosting</a><br/>
+<a href="docs/2025-07-01-bootstrap.html">bootstrap</a><br/>
+<a href="docs/2025-07-01-category_theory.html">category_theory</a><br/>
+<a href="docs/2025-07-01-conformal.html">conformal</a><br/>
+<a href="docs/2025-07-01-cellular_automata.html">cellular_automata</a><br/>
+<a href="docs/2025-07-01-classification.html">classification</a><br/>
+<a href="docs/2025-07-01-clustering.html">clustering</a><br/>
+<a href="docs/2025-07-01-compression_encoding.html">compression_encoding</a><br/>
+<a href="docs/2025-07-01-concept_drift.html">concept_drift</a><br/>
+<a href="docs/2025-07-01-convex_hulls.html">convex_hulls</a><br/>
+<a href="docs/2025-07-01-labeling.html">labeling</a><br/>
+<a href="docs/2025-07-01-convolutions.html">convolutions</a><br/>
+<a href="docs/2025-07-01-correlation.html">correlation</a><br/>
+<a href="docs/2025-07-01-covariance.html">covariance</a><br/>
+<a href="docs/2025-07-01-data_augmentation.html">data_augmentation</a><br/>
+<a href="docs/2025-07-01-decision_trees.html">decision_trees</a><br/>
+<a href="docs/2025-07-01-dimentionality_reduction.html">dimentionality_reduction</a><br/>
+<a href="docs/2025-07-01-distance_metrics.html">distance_metrics</a><br/>
+<a href="docs/2025-07-01-distributions.html">distributions</a><br/>
+<a href="docs/2025-07-01-domain_adaptation.html">domain_adaptation</a><br/>
+<a href="docs/2025-07-01-entity_resolution.html">entity_resolution</a><br/>
+<a href="docs/2025-07-01-entropy.html">entropy</a><br/>
+<a href="docs/2025-07-01-evolutionary.html">evolutionary</a><br/>
+<a href="docs/2025-07-01-feature_engineering.html">feature_engineering</a><br/>
+<a href="docs/2025-07-01-gaussian.html">gaussian</a><br/>
+<a href="docs/2025-07-01-gradients.html">gradients</a><br/>
+<a href="docs/2025-07-01-hyperparameters.html">hyperparameters</a><br/>
+<a href="docs/2025-07-01-inference.html">inference</a><br/>
+<a href="docs/2025-07-01-info_theory.html">info_theory</a><br/>
+<a href="docs/2025-07-01-kernels.html">kernels</a><br/>
+<a href="docs/2025-07-01-knapsack.html">knapsack</a><br/>
+<a href="docs/2025-07-01-lda.html">lda</a><br/>
+<a href="docs/2025-07-01-linear_algebra.html">linear_algebra</a><br/>
+<a href="docs/2025-07-01-linear_models.html">linear_models</a><br/>
+<a href="docs/2025-07-01-logistic_regression.html">logistic_regression</a><br/>
+<a href="docs/2025-07-01-ml_ops.html">ml_ops</a><br/>
+<a href="docs/2025-07-01-market_basket.html">market_basket</a><br/>
+<a href="docs/2025-07-01-merkle_trees.html">merkle_trees</a><br/>
+<a href="docs/2025-07-01-model_compression.html">model_compression</a><br/>
+<a href="docs/2025-07-01-monte_carlo.html">monte_carlo</a><br/>
+<a href="docs/2025-07-01-optimization.html">optimization</a><br/>
+<a href="docs/2025-07-01-outliers.html">outliers</a><br/>
+<a href="docs/2025-07-01-pca.html">pca</a><br/>
+<a href="docs/2025-07-01-policy_gradients.html">policy_gradients</a><br/>
+<a href="docs/2025-07-01-prophet.html">prophet</a><br/>
+<a href="docs/2025-07-01-recommenders.html">recommenders</a><br/>
+<a href="docs/2025-07-01-regexes.html">regexes</a><br/>
+<a href="docs/2025-07-01-regressions.html">regressions</a><br/>
+<a href="docs/2025-07-01-regularization.html">regularization</a><br/>
+<a href="docs/2025-07-01-scikit_learn.html">scikit_learn</a><br/>
+<a href="docs/2025-07-01-self_supervised.html">self_supervised</a><br/>
+<a href="docs/2025-07-01-semi_supervised.html">semi_supervised</a><br/>
+<a href="docs/2025-07-01-survival_analysis.html">survival_analysis</a><br/>
+<a href="docs/2025-07-01-svd.html">svd</a><br/>
+<a href="docs/2025-07-01-svg.html">svg</a><br/>
+<a href="docs/2025-07-01-svm.html">svm</a><br/>
+<a href="docs/2025-07-01-umap.html">umap</a><br/>
+<a href="docs/2025-07-01-unbalanced.html">unbalanced</a><br/>
+<a href="docs/2025-07-01-word2vec.html">word2vec</a><br/>
+</div></div>
+
+<div class="card"><div class="card-divider">
+<strong>Marketing</strong></div><div class="card-section">
+<a href="docs/2025-07-01-brandmgmt.html">brandmgmt</a><br/>
+<a href="docs/2025-07-01-affiliates.html">affiliates</a><br/>
+<a href="docs/2025-07-01-channels.html">channels</a><br/>
+<a href="docs/2025-07-01-retargeting.html">retargeting</a><br/>
+<a href="docs/2025-07-01-seo.html">seo</a><br/>
+<a href="docs/2025-07-01-adtech_adwords.html">adtech_adwords</a><br/>
+<a href="docs/2025-07-01-adtech.html">adtech</a><br/>
+<a href="docs/2025-07-01-keywords_ppc_seo.html">keywords_ppc_seo</a><br/>
+<a href="docs/2025-07-01-podcast.html">podcast</a><br/>
+</div></div>
+
+<div class="card"><div class="card-divider">
+<strong><a href="docs/2025-07-01-platforms.html">Marketing / Platforms/Communities/Fanclubs</a></strong></div><div class="card-section">
+<a href="docs/2025-07-01-communities.html">communities</a><br/>
+<a href="docs/2025-07-01-discord.html">discord</a><br/>
+<a href="docs/2025-07-01-disqus.html">disqus</a><br/>
+<a href="docs/2025-07-01-telegram.html">telegram</a><br/>
+<a href="docs/2025-07-01-twitter.html">twitter</a><br/>
+<a href="docs/2025-07-01-tiktok.html">tiktok</a><br/>
+<a href="docs/2025-07-01-reddit.html">reddit</a><br/>
+<a href="docs/2025-07-01-linkedin.html">linkedin</a><br/>
+<a href="docs/2025-07-01-pinterest.html">pinterest</a><br/>
+</div></div>
+
+<div class="card" style="background-color:azure;"><div class="card-divider">
+<strong>Code / Languages</strong></div><div class="card-section">
+<a href="docs/2025-07-01-awk.html">awk</a><br/>
+<a href="docs/2025-07-01-bash.html">bash</a><br/>
+<a href="docs/2025-07-01-angularjs.html">angularjs</a><br/>
+<a href="docs/2025-07-01-clojure.html">clojure</a><br/>
+<a href="docs/2025-07-01-cpp.html">cpp</a><br/>
+<a href="docs/2025-07-01-cpython.html">cpython</a><br/>
+<a href="docs/2025-07-01-deno.html">deno</a><br/>
+<a href="docs/2025-07-01-elixir.html">elixir</a><br/>
+<a href="docs/2025-07-01-forth.html">forth</a><br/>
+<a href="docs/2025-07-01-fortran.html">fortran</a><br/>
+<a href="docs/2025-07-01-golang.html">golang</a><br/>
+<a href="docs/2025-07-01-hugo.html">hugo</a><br/>
+<a href="docs/2025-07-01-lisp.html">lisp</a><br/>
+<a href="docs/2025-07-01-ocaml.html">ocaml</a><br/>
+</div></div>
+
+<div class="card" style="background-color:azure;"><div class="card-divider">
+<a href="docs/2025-07-01-command_line.html">command_line</a></div><div class="card-section">
+<a href="docs/2025-07-01-llvm.html">llvm</a><br/>
+<a href="docs/2025-07-01-kitty.html">kitty</a><br/>
+<a href="docs/2025-07-01-curl.html">curl</a><br/>
+<a href="docs/2025-07-01-grep.html">grep</a><br/>
+<a href="docs/2025-07-01-linux.html">linux</a><br/>
+<a href="docs/2025-07-01-make.html">make</a><br/>
+</div></div>
+
+<div class="card" style="background-color:azure;"><div class="card-divider">
+<a href="docs/2025-07-01-linux.html">Code / Techniques</a></div><div class="card-section">
+<a href="docs/2025-07-01-apis.html">apis</a><br/>
+<a href="docs/2025-07-01-authentication.html">authentication</a><br/>
+<a href="docs/2025-07-01-backups.html">backups</a><br/>
+<a href="docs/2025-07-01-packages.html">packages</a><br/>
+<a href="docs/2025-07-01-browsers.html">browsers</a><br/>
+<a href="docs/2025-07-01-bluesky.html">bluesky</a><br/>
+
+<a href="docs/2025-07-01-caching.html">caching</a><br/>
+<a href="docs/2025-07-01-airflow.html">airflow</a><br/>
+<a href="docs/2025-07-01-codecs.html">codecs</a><br/>
+<a href="docs/2025-07-01-compilers.html">compilers</a><br/>
+<a href="docs/2025-07-01-concurrency.html">concurrency</a><br/>
+<a href="docs/2025-07-01-debugging.html">debugging</a><br/>
+<a href="docs/2025-07-01-error_correction.html">error_correction</a><br/>
+<a href="docs/2025-07-01-garbage_collection.html">garbage_collection</a><br/>
+<a href="docs/2025-07-01-logging.html">logging</a><br/>
+<a href="docs/2025-07-01-open_source.html">open_source</a><br/>
+<a href="docs/2025-07-01-programming.html">programming</a><br/>
+</div></div>
+
+<div class="card" style="background-color:azure;"><div class="card-divider">
+<a href="docs/2025-07-01-data_structures.html">data_structures</a></div><div class="card-section">
+<a href="docs/2025-07-01-graphs.html">graphs</a><br/>
+<a href="docs/2025-07-01-hashing.html">hashing</a><br/>
+<a href="docs/2025-07-01-dictionary.html">dictionary</a><br/>
+<a href="docs/2025-07-01-taxonomy.html">taxonomy</a><br/>
+<a href="docs/2025-07-01-queues.html">queues</a><br/>
+<a href="docs/2025-07-01-sets.html">sets</a><br/>
+</div></div>
+
+<div class="card" style="background-color:azure;"><div class="card-divider">
+<strong><a href="docs/2025-07-01-databases.html">databases & file formats</a></strong></div><div class="card-section">
+<a href="docs/2025-07-01-nosql.html">nosql</a><br/>
+<a href="docs/2025-07-01-datasets.html">datasets</a><br/>
+<a href="docs/2025-07-01-maps.html">maps</a><br/>
+<a href="docs/2025-07-01-mongodb.html">mongodb</a><br/>
+<a href="docs/2025-07-01-mysql.html">mysql</a><br/>
+<a href="docs/2025-07-01-postgres.html">postgres</a><br/>
+<a href="docs/2025-07-01-graphql.html">graphql</a><br/>
+<a href="docs/2025-07-01-redis.html">redis</a><br/>
+<a href="docs/2025-07-01-sql.html">sql</a><br/>
+<a href="docs/2025-07-01-sqlite.html">sqlite</a><br/>
+<a href="docs/2025-07-01-firebase.html">firebase</a><br/>
+
+<a href="docs/2025-07-01-file_formats.html">file_formats</a><br/>
+<a href="docs/2025-07-01-json.html">json</a><br/>
+<a href="docs/2025-07-01-csv.html">csv</a><br/>
+<a href="docs/2025-07-01-markdown.html">markdown</a><br/>
+<a href="docs/2025-07-01-pdf.html">pdf</a><br/>
+<a href="docs/2025-07-01-pdfs.html">pdfs</a><br/>
+<a href="docs/2025-07-01-epub.html">epub</a><br/>
+<a href="docs/2025-07-01-synthetic_data.html">synthetic_data</a><br/>
+<a href="docs/2025-07-01-tabular_data.html">tabular_data</a><br/>
+<a href="docs/2025-07-01-time_series.html">time_series</a><br/>
+<a href="docs/2025-07-01-vector_databases.html">vector_databases</a><br/>
+<a href="docs/2025-07-01-yaml.html">yaml</a><br/>
+<a href="docs/2025-07-01-parquet.html">parquet</a><br/>
+<a href="docs/2025-07-01-excel.html">excel</a><br/>
+<a href="docs/2025-07-01-spreadsheets.html">spreadsheets</a><br/>
+<a href="docs/2025-07-01-google_docs.html">google_docs</a><br/>
+
+</div></div>
+
+<div class="card" style="background-color:azure;"><div class="card-divider">
+<strong><a href="docs/2025-07-01-ruby.html">ruby</a></strong></div><div class="card-section">
+<a href="docs/2025-07-01-bundler.html">bundler</a><br/>
+<a href="docs/2025-07-01-gatsby.html">gatsby</a><br/>
+<a href="docs/2025-07-01-jekyll.html">jekyll</a><br/>
+<a href="docs/2025-07-01-rack.html">rack</a><br/>
+<a href="docs/2025-07-01-rake.html">rake</a><br/>
+<a href="docs/2025-07-01-rbenv.html">rbenv</a><br/>
+<a href="docs/2025-07-01-rspec.html">rspec</a><br/>
+<a href="docs/2025-07-01-rubygems.html">rubygems</a><br/>
+<a href="docs/2025-07-01-rubyonrails.html">rubyonrails</a><br/>
+<a href="docs/2025-07-01-sinatra.html">sinatra</a><br/>
+</div></div>
+	
+<div class="card" style="background-color:azure;"><div class="card-divider">
+<strong><a href="docs/2025-07-01-javascript.html">javascript</a></strong></div><div class="card-section">
+<a href="docs/2025-07-01-expressjs.html">expressjs</a><br/>
+<a href="docs/2025-07-01-meteorjs.html">meteorjs</a><br/>
+<a href="docs/2025-07-01-nextjs.html">nextjs</a><br/>
+<a href="docs/2025-07-01-nodejs.html">nodejs</a><br/>
+<a href="docs/2025-07-01-npm.html">npm</a><br/>
+<a href="docs/2025-07-01-reactjs.html">reactjs</a><br/>
+<a href="docs/2025-07-01-sveltejs.html">sveltejs</a><br/>
+<a href="docs/2025-07-01-typescript.html">typescript</a><br/>
+<a href="docs/2025-07-01-vue.html">vue</a><br/>
+<a href="docs/2025-07-01-yarn.html">yarn</a><br/>
+</div></div>
+	
+<div class="card" style="background-color:azure;"><div class="card-divider">
+<strong><a href="docs/2025-07-01-visualization.html">Code / visualization</a></strong></div><div class="card-section">
+<a href="docs/2025-07-01-css.html">css</a><br/>
+<a href="docs/2025-07-01-boxplots.html">boxplots</a><br/>
+<a href="docs/2025-07-01-d3.html">d3</a><br/>
+<a href="docs/2025-07-01-matplotlib.html">matplotlib</a><br/>
+<a href="docs/2025-07-01-mermaid.html">mermaid</a><br/>
+<a href="docs/2025-07-01-plotly.html">plotly</a><br/>
+<a href="docs/2025-07-01-seaborn.html">seaborn</a><br/>
+<a href="docs/2025-07-01-wireframes.html">wireframes</a><br/>
+<a href="docs/2025-07-01-wordclouds.html">wordclouds</a><br/>
+<a href="docs/2025-07-01-sankey.html">sankey</a><br/>
+</div></div>
+
+<div class="card" style="background-color:aliceblue;"><div class="card-divider">
+<a href="docs/2025-07-01-emotions.html">Emotions</a></strong></div><div class="card-section">
+<a href="docs/2025-07-01-anger.html">anger</a><br/>
+<a href="docs/2025-07-01-attitude.html">attitude</a><br/>
+<a href="docs/2025-07-01-boredom.html">boredom</a><br/>
+<a href="docs/2025-07-01-chills.html">chills</a><br/>
+<a href="docs/2025-07-01-confidence.html">confidence</a><br/>
+<a href="docs/2025-07-01-creepy.html">creepy</a><br/>
+<a href="docs/2025-07-01-curiosity.html">curiosity</a><br/>
+<a href="docs/2025-07-01-disgust.html">disgust</a><br/>
+<a href="docs/2025-07-01-doubt.html">doubt</a><br/>
+<a href="docs/2025-07-01-empathy.html">empathy</a><br/>
+<a href="docs/2025-07-01-fascination.html">fascination</a><br/>
+<a href="docs/2025-07-01-fear.html">fear</a><br/>
+<a href="docs/2025-07-01-fomo.html">fomo</a><br/>
+<a href="docs/2025-07-01-gratitude.html">gratitude</a><br/>
+<a href="docs/2025-07-01-guilt.html">guilt</a><br/>
+<a href="docs/2025-07-01-happiness.html">happiness</a><br/>
+<a href="docs/2025-07-01-loneliness.html">loneliness</a><br/>
+<a href="docs/2025-07-01-regret.html">regret</a><br/>
+<a href="docs/2025-07-01-shaming.html">shaming</a><br/>
+<a href="docs/2025-07-01-surprise.html">surprise</a><br/>
+</div></div>
+
+
+<div class="card" style="background-color:aliceblue;"><div class="card-divider">
+<strong><a href="docs/2025-07-01-influence_persuasion.html">Influence & Persuasion</a><br/></strong></div><div class="card-section">
+<a href="docs/2025-07-01-acting.html">acting</a><br/>
+<a href="docs/2025-07-01-advice.html">advice</a><br/>
+<a href="docs/2025-07-01-apologies.html">apologies</a><br/>
+<a href="docs/2025-07-01-arguments.html">arguments</a><br/>
+<a href="docs/2025-07-01-authenticity.html">authenticity</a><br/>
+<a href="docs/2025-07-01-body_language.html">body_language</a><br/>
+<a href="docs/2025-07-01-bragging.html">bragging</a><br/>
+<a href="docs/2025-07-01-charisma.html">charisma</a><br/>
+<a href="docs/2025-07-01-coaching_mentoring.html">coaching_mentoring</a><br/>
+<a href="docs/2025-07-01-criticism.html">criticism</a><br/>
+<a href="docs/2025-07-01-delegation.html">delegation</a><br/>
+<a href="docs/2025-07-01-interviewing.html">interviewing</a><br/>
+<a href="docs/2025-07-01-feedback.html">feedback</a><br/>
+<a href="docs/2025-07-01-gossip.html">gossip</a><br/>
+<a href="docs/2025-07-01-leaks.html">leaks</a><br/>
+<a href="docs/2025-07-01-insults.html">insults</a><br/>
+<a href="docs/2025-07-01-interrogations.html">interrogations</a><br/>
+<a href="docs/2025-07-01-leadership.html">leadership</a><br/>
+<a href="docs/2025-07-01-listening.html">listening</a><br/>
+<a href="docs/2025-07-01-management.html">management</a><br/>
+<a href="docs/2025-07-01-negotiation.html">negotiation</a><br/>
+<a href="docs/2025-07-01-nudging.html">nudging</a><br/>
+<a href="docs/2025-07-01-objections.html">objections</a><br/>
+<a href="docs/2025-07-01-propaganda.html">propaganda</a><br/>
+<a href="docs/2025-07-01-sayingno.html">sayingno</a><br/>
+<a href="docs/2025-07-01-signaling.html">signaling</a><br/>
+<a href="docs/2025-07-01-social_skills.html">social_skills</a><br/>
+<a href="docs/2025-07-01-speaking.html">speaking</a><br/>
+<a href="docs/2025-07-01-presentations_presenting.html">presentations_presenting</a><br/>
+<a href="docs/2025-07-01-spin.html">spin</a><br/>
+</div></div>
+
+
+<div class="card" style="background-color:azure;"><div class="card-divider">
+<strong><a href="docs/2025-07-01-devops.html">Devops</a></strong></div><div class="card-section">
+<a href="docs/2025-07-01-ansible.html">ansible</a><br/>
+<a href="docs/2025-07-01-kubernetes.html">kubernetes</a><br/>
+<a href="docs/2025-07-01-containers.html">containers</a><br/>
+<a href="docs/2025-07-01-domains.html">domains</a><br/>
+<a href="docs/2025-07-01-etl.html">etl</a><br/>
+<a href="docs/2025-07-01-hadoop.html">hadoop</a><br/>
+<a href="docs/2025-07-01-ssh.html">ssh</a><br/>
+<a href="docs/2025-07-01-terraform.html">terraform</a><br/>
+<a href="docs/2025-07-01-vagrant.html">vagrant</a><br/>
+<a href="docs/2025-07-01-virtualbox.html">virtualbox</a><br/>
+<a href="docs/2025-07-01-virtualization.html">virtualization</a><br/>
+<a href="docs/2025-07-01-docker.html">docker</a><br/>
+<a href="docs/2025-07-01-ngrok.html">ngrok</a><br/>
+<a href="docs/2025-07-01-ci_cd.html">ci_cd</a><br/>
+</div></div>
+
+<div class="card" style="background-color:azure;"><div class="card-divider">
+<strong><a href="docs/2025-07-01-cloud.html">cloud</a></strong></div><div class="card-section">
+<a href="docs/2025-07-01-aws.html">aws</a><br/>
+<a href="docs/2025-07-01-azure.html">azure</a><br/>
+<a href="docs/2025-07-01-cdns.html">cdns</a><br/>
+<a href="docs/2025-07-01-datacenters.html">datacenters</a><br/>
+<a href="docs/2025-07-01-github.html">github</a><br/>
+<a href="docs/2025-07-01-google_cloud.html">google_cloud</a><br/>
+<a href="docs/2025-07-01-heroku.html">heroku</a><br/>
+<a href="docs/2025-07-01-netlify.html">netlify</a><br/>
+<a href="docs/2025-07-01-cms.html">cms</a><br/>
+<a href="docs/2025-07-01-web_hosting.html">web_hosting</a><br/>
+<a href="docs/2025-07-01-dns.html">dns</a><br/>
+<a href="docs/2025-07-01-static_sites.html">static_sites</a><br/>
+<a href="docs/2025-07-01-hashnode.html">hashnode</a><br/>
+</div></div>
+
+<div class="card" style="background-color:aliceblue;"><div class="card-divider">
+<strong>Creativity</strong></div><div class="card-section">
+<a href="docs/2025-07-01-brainstorming.html">brainstorming</a><br/>
+<a href="docs/2025-07-01-ideas.html">ideas</a><br/>
+<a href="docs/2025-07-01-ideas_commish.html">ideas_commish</a><br/>
+<a href="docs/2025-07-01-ideas_semex.html">ideas_semex</a><br/>
+<a href="docs/2025-07-01-imagination.html">imagination</a><br/>
+<a href="docs/2025-07-01-inventions_innovation.html">inventions_innovation</a><br/>
+<a href="docs/2025-07-01-hacking.html">hacking</a><br/>
+</div></div>
+
+<div class="card"><div class="card-divider">
+<strong><a href="docs/2025-07-01-economics.html">Economics</a></strong></div><div class="card-section">
+<a href="docs/2025-07-01-auctions.html">auctions</a></div><div class="card-section">
+<a href="docs/2025-07-01-game_theory.html">game_theory</a><br/>
+</div></div>
+
+<div class="card" style="background-color:azure;"><div class="card-divider">
+<strong><a href="docs/2025-07-01-analytics.html">Analytics</a></strong></div><div class="card-section">
+<a href="docs/2025-07-01-a_b.html">a_b</a><br/>
+<a href="docs/2025-07-01-churn.html">churn</a><br/>
+<a href="docs/2025-07-01-cohorts.html">cohorts</a><br/>
+<a href="docs/2025-07-01-experiments.html">experiments</a><br/>
+<a href="docs/2025-07-01-uplift.html">uplift</a><br/>
+<a href="docs/2025-07-01-conjoint.html">conjoint</a><br/>
+<a href="docs/2025-07-01-metrics.html">metrics</a><br/>
+<a href="docs/2025-07-01-sensitivity.html">sensitivity</a><br/>
+</div></div>
+
+<strong><a href="docs/2025-07-01-learning.html">learning</a></strong>
+<a href="docs/2025-07-01-anki.html">anki</a><br/>
+<a href="docs/2025-07-01-polymaths.html">polymaths</a><br/>
+
+<strong>Transportation</strong><br>
+<a href="docs/2025-07-01-aviation.html">aviation</a><br/>
+<a href="docs/2025-07-01-bicycles.html">bicycles</a><br/>
+<a href="docs/2025-07-01-railroads.html">railroads</a><br/>
+<a href="docs/2025-07-01-trains.html">trains</a><br/>
+<a href="docs/2025-07-01-rockets.html">rockets</a><br/>
+
+<strong>Natural Sciences</strong><br>
+<a href="docs/2025-07-01-agriculture.html">agriculture</a><br/>
+<a href="docs/2025-07-01-animals.html">animals</a><br/>
+<a href="docs/2025-07-01-biology.html">biology</a><br/>
+<a href="docs/2025-07-01-botany.html">botany</a><br/>
+<a href="docs/2025-07-01-climate_weather.html">climate_weather</a><br/>
+<a href="docs/2025-07-01-conservation.html">conservation</a><br/>
+<a href="docs/2025-07-01-water.html">water</a><br/>
+
+<a href="docs/2025-07-01-anthropology.html">anthropology</a><br/>
+<a href="docs/2025-07-01-archeology.html">archeology</a><br/>
+<a href="docs/2025-07-01-genetics.html">genetics</a><br/>
+
+<a href="docs/2025-07-01-chemistry.html">chemistry</a><br/>
+
+<a href="docs/2025-07-01-architecture.html">architecture</a><br/>
+<a href="docs/2025-07-01-buildings.html">buildings</a><br/>
+<a href="docs/2025-07-01-houses.html">houses</a><br/>
+<a href="docs/2025-07-01-realestate.html">realestate</a><br/>
+<a href="docs/2025-07-01-paint.html">paint</a><br/>
+
+
+<a href="docs/2025-07-01-geology.html">geology</a><br/>
+<a href="docs/2025-07-01-materials.html">materials</a><br/>
+<a href="docs/2025-07-01-minerals.html">minerals</a><br/>
+<a href="docs/2025-07-01-steel.html">steel</a><br/>
+
+<strong><a href="docs/2025-07-01-geography.html">geography</a></strong><br>
+<a href="docs/2025-07-01-geofencing.html">geofencing</a><br/>
+<a href="docs/2025-07-01-gerrymandering.html">gerrymandering</a><br/>
+
+<!--
+
+<a href="docs/2025-07-01-federated_learning.html">federated_learning</a><br/>
+<a href="docs/2025-07-01-html.html">html</a><br/>
+<a href="docs/2025-07-01-htmx.html">htmx</a><br/>
+<a href="docs/2025-07-01-qr.html">qr</a><br/>
+<a href="docs/2025-07-01-safety.html">safety</a><br/>
+<a href="docs/2025-07-01-spam.html">spam</a><br/>
+<a href="docs/2025-07-01-malware.html">malware</a><br/>
+
+
+<a href="docs/2025-07-01-mom.html">mom</a><br/>
+<a href="docs/2025-07-01-msi_laptop.html">msi_laptop</a><br/>
+<a href="docs/2025-07-01-harmony.html">harmony</a><br/>
+<a href="docs/2025-07-01-starflight.html">starflight</a><br/>
+<a href="docs/2025-07-01-silverado.html">silverado</a><br/>
+<a href="docs/2025-07-01-toyotafj.html">toyotafj</a><br/>
+<a href="docs/2025-07-01-retire.html">retire</a><br/>
+<a href="docs/2025-07-01-career_jobs_work.html">career_jobs_work</a><br/>
+<a href="docs/2025-07-01-dad.html">dad</a><br/>
+
+-->
 
 </div>
-
-{% endif %}
-
-

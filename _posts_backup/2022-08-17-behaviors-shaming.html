@@ -1,0 +1,18 @@
+---
+title: shaming
+date: 2025-04-06 16:12
+layout: default-foundation-20210515
+tags: behaviors shame
+showtags: showtags
+---
+
+{%- assign raindrop = site.data.raindrop.v20250506.v20250506 %}
+
+{%- assign file = raindrop | 
+    where_exp: "item", "item.tags contains 'shaming'" | 
+    sort: 'created' | 
+    reverse %}
+
+<div class="callout"><h2>{{page.title}}</h2></div>
+
+{%- include render.html -%}

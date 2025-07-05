@@ -1,0 +1,24 @@
+---
+title: pricing/collusion
+layout: default-foundation-20210515
+tags: prodmgmt pricing collusion
+date: 2025-04-20 21:30
+---
+
+{%- assign raindrop = site.data.raindrop.v20250506.v20250506 %}
+
+{%- assign file = raindrop | 
+	where_exp: "item", "item.tags contains 'collusion'" | 
+	sort: 'created' | 
+	reverse %}
+
+<div class="callout"><h2>{{page.title}}</h2></div>
+
+{%- include render.html -%}
+
+<!--
+	<div class="card-section">
+		<p>Figure 1 illustrates the punishment strategies that the algorithms autonomously learn to play. Starting from the (collusive) prices on which the algorithms have converged (the grey dotted line), we override one algorithm’s choice (the red line), forcing it to deviate downward to the competitive or Nash price (the orange dotted line) for one period. The other algorithm (the blue line) keeps playing as prescribed by the strategy it has learned. After this exogenous deviation in period , both algorithms regain control of the pricing.</p>
+	</div>
+</div>
+-->

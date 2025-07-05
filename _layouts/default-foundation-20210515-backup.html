@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+  {%- include head-foundation-20210515.html -%}
+  <body>
+    
+    <div class="grid-container fluid">
+
+      <div class="row">     
+        <div class="text-left">
+          <h1><a href="{{ "/" | relative_url }}">{{ site.title | escape }}</a></h1>
+        </div>
+      </div>
+
+      <div class="row">
+        {%- include mainmenu-foundation-20220703.html -%}
+      </div>
+
+      <div class="row">
+        <span id=""content">     
+          {{ content }}
+        </span>
+      </div>
+
+      <hr>
+      {%- include footer-foundation-20210515.html -%}
+    </div>
+
+    {%- include foundation-js.html -%}
+  </body>
+</html>

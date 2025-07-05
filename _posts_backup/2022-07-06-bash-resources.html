@@ -1,0 +1,56 @@
+---
+title: bash resources
+layout: default-foundation-20210515
+tags: linux bash
+date: 2025-03-25
+---
+
+{%- assign title = "Bash resources" -%}
+{%- assign records = site.data.code.bash-20240106 | sort: "title" -%}
+{%- assign raindrop = site.data.raindrop.v20250506.v20250506 %}
+{%- assign file = raindrop | where_exp: "item", "item.tags contains 'bash'" %}
+
+<div class="callout">
+	<h2>{{title}}</h2>
+    <p>(updated 3/25/25)</p>
+</div>
+
+<div class="callout primary">
+    <p>Raindrop.io bookmarks, 3/25/25</p>
+</div>
+
+{%- include render.html -%}
+
+<div class="callout primary">
+    <p>other, mainly PDFs (7/6/22)</p>
+</div>
+
+
+<div style="columns: 2;">
+{%- for item in records -%}
+
+    <div class="card">
+        <div class="card-divider">
+            <a href="{{item.url}}" target="_blank">
+            {{item.title}}</a>
+
+            {%- if item.source -%}
+                &nbsp; <em>({{item.source}})</em>
+            {%- endif -%}
+        </div>
+
+        {%- if item.pic -%} 
+            <div class="card-image">
+                <img src="{{item.pic}}"/>
+            </div>
+        {%- endif -%}
+
+        {%- if item.notes -%} 
+            <div class="card-section">
+                {{item.notes}}
+            </div>
+        {%- endif -%}
+    </div>
+
+{%- endfor -%}
+</div>
