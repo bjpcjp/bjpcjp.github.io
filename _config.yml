@@ -9,11 +9,6 @@ author: Brian Piercy
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://bjpcjp.github.io"
 
-kramdown:
-  syntax_highlighter_opts:
-    disable : true
-
-#theme: minima
 
 plugins:
   - jekyll-feed
@@ -33,8 +28,7 @@ show_excerpts: true
 # navigation links
 header_pages:
   - index.html # all posts by date
-  - posts-by-tag.html # all posts grouped by tag
-  - posts-by-title.html # all posts by title
+  - chips/index.html # all posts grouped by tag
   - repos.html
   - about.html
 
@@ -44,3 +38,12 @@ paginate: 50
 # data files
 latest_docfile: site.data.docs.doctree_l4_20250404
 default_raindrop: v20250419.rain20250419
+
+# raindrop topic files
+collections:
+  docs:
+    output: true
+    permalink: /docs/:path/
+  _pdfs:
+    output: true
+    
