@@ -1,0 +1,868 @@
+---
+layout: post
+title: "cloud"
+date: 2026-03-26
+---
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>cloud &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 27 Mar 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2026-03-08T01:25:46.732Z | tags: cloud, benchmarks, cpus -->
+      <div class="card-image">
+        <img src="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fnfspjoxt6h8z1l1tjprz.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://devblog.ecuadors.net/cloud-vm-benchmarks-2026-performance-price-1i1m.html">Cloud VM benchmarks 2026: performance / price</a>
+          <div class="card-meta">8 Mar 2026</div>
+          <div class="card-meta card-domain">devblog.ecuadors.net</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2026-02-06T00:08:59.392Z | tags: cloud, datacenters -->
+      <div class="card-image">
+        <img src="https://blog.comma.ai/img/datacenter/power.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://blog.comma.ai/datacenter/">Owning a $5M data center</a>
+          <div class="card-meta">6 Feb 2026</div>
+          <div class="card-meta card-domain">blog.comma.ai</div>
+        </div>
+        <div class="card-section">
+          <p>Data centers are cool, everyone should have one.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-12-22T23:49:02.379Z | tags: cloud -->
+      <div class="card-image">
+        <img src="https://drive.proton.me/assets/proton-og-image.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://drive.proton.me/urls/X8C14W3QAW#I74ASAhn7OIi">Proton Drive</a>
+          <div class="card-meta">22 Dec 2025</div>
+          <div class="card-meta card-domain">drive.proton.me</div>
+        </div>
+        <div class="card-section">
+          <p>Securely store, share, and access your important files and photos. Anytime, anywhere.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-10-02T13:30:55.133Z | tags: cloud, llms -->
+      <div class="card-image">
+        <img src="https://si.inc/the-heap/cover.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://si.inc/posts/the-heap/">Building the heap: racking 30 petabytes of hard drives for pretraining</a>
+          <div class="card-meta">2 Oct 2025</div>
+          <div class="card-meta card-domain">si.inc</div>
+        </div>
+        <div class="card-section">
+          <p>How we spent under half a million dollars to build a 30 petabyte data storage cluster in downtown San Francisco</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-06-11T11:47:21.803Z | tags: rubyonrails, cloud -->
+      <div class="card-image">
+        <img src="https://share.redd.it/preview/post/1l8n6an" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.reddit.com/r/rails/s/X4xKDpMzxF">Notes for people wanting to move away from Heroku : r/rails</a>
+          <div class="card-meta">11 Jun 2025</div>
+          <div class="card-meta card-domain">reddit.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-05-12T01:08:56.950Z | tags: databases, cloud -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://raydoraisamy.com/blog/2025/04/26/oil-gas-software-infrastructure?ref=thediff.co">From Self-Hosted to Cloud: An Interview About Oil &amp; Gas Software Infrastructure</a>
+          <div class="card-meta">12 May 2025</div>
+          <div class="card-meta card-domain">raydoraisamy.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-03-15T00:27:03.796Z | tags: aws, cloud -->
+      <div class="card-image">
+        <img src="https://www.allthingsdistributed.com/images/s3-pi-day-2025.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.allthingsdistributed.com/2025/03/in-s3-simplicity-is-table-stakes.html">In S3 simplicity is table stakes</a>
+          <div class="card-meta">15 Mar 2025</div>
+          <div class="card-meta card-domain">allthingsdistributed.com</div>
+        </div>
+        <div class="card-section">
+          <p>From simple object storage to sophisticated table management, builders have always shaped S3&#39;s evolution. Andy Warfield discusses why making complex systems simple remains our north star at AWS.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-02-15T18:36:12.544Z | tags: gpus, cloud, llms -->
+      <div class="card-image">
+        <img src="https://fly.io/blog/wrong-about-gpu/assets/choices-choices-cover.webp" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://fly.io/blog/wrong-about-gpu/">We Were Wrong About GPUs</a>
+          <div class="card-meta">15 Feb 2025</div>
+          <div class="card-meta card-domain">fly.io</div>
+        </div>
+        <div class="card-section">
+          <p>Do my tears surprise you? Strong CEOs also cry.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-12-18T19:54:24.834Z | tags: cloud, datacenters, finance -->
+      <div class="card-image">
+        <img src="https://cdn.thenewstack.io/media/2024/12/ec61c850-what-do-you-lose-when-you-abandon-the-cloud.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://thenewstack.io/what-do-you-lose-when-you-abandon-the-cloud/">What Do You Lose When You Abandon the Cloud?</a>
+          <div class="card-meta">18 Dec 2024</div>
+          <div class="card-meta card-domain">thenewstack.io</div>
+        </div>
+        <div class="card-section">
+          <p>Cloud repatriation might seem like a solution for high infrastructure costs, but it can prove short-sighted as an organization scales.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-12-02T23:52:54.550Z | tags: rubyonrails, cloud -->
+      <div class="card-image">
+        <img src="https://kamal-deploy.org/assets/images/opengraph.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://kamal-deploy.org/">Deploy web apps anywhere with Kamal</a>
+          <div class="card-meta">2 Dec 2024</div>
+          <div class="card-meta card-domain">kamal-deploy.org</div>
+        </div>
+        <div class="card-section">
+          <p>From bare metal to cloud VMs using Docker, deploy web apps anywhere with zero downtime.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-11-13T14:55:01.116Z | tags: cloud -->
+      <div class="card-image">
+        <img src="https://www.marktechpost.com/wp-content/uploads/2024/11/Screenshot-2024-11-12-at-11.34.56%E2%80%AFPM-1024x831.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.marktechpost.com/2024/11/13/top-15-cloud-hosting-providers/">Top 15 Cloud Hosting Providers</a>
+          <div class="card-meta">13 Nov 2024</div>
+          <div class="card-meta card-domain">marktechpost.com</div>
+        </div>
+        <div class="card-section">
+          <p>Cloud hosting has emerged as a key component for companies and developers seeking to expand their operations, improve performance, and guarantee strong data security in the current digital era. Selecting the best cloud service provider might be difficult because there are an increasing number of them offering different solutions. Cloud hosting is crucial for delivering high-performance websites and applications to businesses of all sizes, from startups to large corporations. In this article, the top 15 cloud hosting providers that are notable for their features, affordability, scalability, and dependability have been discussed.  Amazon Web Services (AWS) Leading cloud hosting company Amazon</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-11-05T12:26:14.064Z | tags: cloud -->
+      <div class="card-image">
+        <img src="https://cdn.thenewstack.io/media/2024/11/b7c129e3-ismail-enes-ayhan-lvzjvw-u9v8-unsplash-scaled.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://thenewstack.io/why-companies-are-ditching-the-cloud-the-rise-of-cloud-repatriation/">Why Companies Are Ditching the Cloud: The Rise of Cloud Repatriation</a>
+          <div class="card-meta">5 Nov 2024</div>
+          <div class="card-meta card-domain">thenewstack.io</div>
+        </div>
+        <div class="card-section">
+          <p>Major organizations like 37signals and GEICO highlight the economic and strategic reasons to reconsider cloud infrastructure.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-11-04T13:06:40.704Z | tags: semiconductors, cloud, cpus -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc4e551c4-2704-4e1c-9c88-b6a827c22fcf_1921x1080.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.semianalysis.com/p/amazons-cloud-crisis-how-aws-will?utm_campaign=post&amp;utm_medium=web">Amazon’s Cloud Crisis: How AWS Will Lose The Future Of Computing</a>
+          <div class="card-meta">4 Nov 2024</div>
+          <div class="card-meta card-domain">semianalysis.com</div>
+        </div>
+        <div class="card-section">
+          <p>Nitro, Graviton, EFA, Inferentia, Trainium, Nvidia Cloud, Microsoft Azure, Google Cloud, Oracle Cloud, Handicapping Infrastructure, AI As A Service, Enterprise Automation, Meta, Coreweave, TCO</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-10-21T21:19:33.960Z | tags: aws, cloud -->
+      <div class="card-image">
+        <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/10/GettyImages-1358638792.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://arstechnica.com/information-technology/2024/10/basecamp-maker-37signals-says-its-cloud-exit-will-save-it-10m-over-5-years/">Basecamp-maker 37Signals says its “cloud exit” will save it $10M over 5 years</a>
+          <div class="card-meta">21 Oct 2024</div>
+          <div class="card-meta card-domain">arstechnica.com</div>
+        </div>
+        <div class="card-section">
+          <p>After buying its own hardware, 37Signals will be “literally deleting our AWS account come this summer.” But most firms are looking at hybrid mixes.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-07-14T17:00:34.000Z | tags: cloud -->
+      <div class="card-image">
+        <img src="https://cdn.sanity.io/images/hvk0tap5/production/cb7ff287cdf28d8115569e91e856e9b6441bc7a6-3840x2146.png?rect=13,0,3815,2146&amp;w=1600&amp;h=900&amp;fit=max&amp;auto=format" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://render.com/changelog">Changelog</a>
+          <div class="card-meta">14 Jul 2024</div>
+          <div class="card-meta card-domain">render.com</div>
+        </div>
+        <div class="card-section">
+          <p>Render is a unified cloud to build and run all your apps and websites with free TLS certificates, global CDN, private networks and auto deploys from Git.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-05-31T13:48:00.000Z | tags: cloud, rubyonrails -->
+      <div class="card-image">
+        <img src="https://ondemand.bannerbear.com/signedurl/Mn62mqoVbWvyB5wgQ1/image.jpg?modifications=W3sibmFtZSI6InRpdGxlIiwidGV4dCI6IkdldHRpbmcgU3RhcnRlZDogWW91ciBSdWJ5IE9uIFJhaWxzIEFwcCBIb3N0ZWQgT24gRGlnaXRhbE9jZWFuIFdpdGggQXBwU2lnbmFsIn0seyJuYW1lIjoiaW1hZ2UiLCJpbWFnZV91cmwiOiJodHRwczovL2FwcHNpZ25hbC1uZXh0anMtYmxvZy1ueXFyNnFjcjgtYXBwc2lnbmFsLnZlcmNlbC5hcHAvaW1hZ2VzL2Jsb2cvMjAyNC0wNS9kaWdpdGFsb2NlYW4tcDEuanBnIn0seyJuYW1lIjoiY2F0ZWdvcnlfbG9nbyIsImltYWdlX3VybCI6Imh0dHBzOi8vYXBwc2lnbmFsLW5leHRqcy1ibG9nLW55cXI2cWNyOC1hcHBzaWduYWwudmVyY2VsLmFwcC9pbWFnZXMvbG9nb3MvcnVieS1sb2dvLnBuZyJ9XQ&amp;s=de7eb5a71347c965bc0762d2eb26165e1d24747c2e976b6d90036fcffe938e59" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://blog.appsignal.com/2024/05/29/getting-started-your-ruby-on-rails-app-hosted-on-digitalocean-with-appsignal.html">Getting Started: Your Ruby On Rails App Hosted On DigitalOcean With AppSign</a>
+          <div class="card-meta">31 May 2024</div>
+          <div class="card-meta card-domain">blog.appsignal.com</div>
+        </div>
+        <div class="card-section">
+          <p>In the first part of a two-part series, we&#39;ll introduce how to set up DigitalOcean and AppSignal for a Ruby on Rails application.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-05-19T06:06:25.000Z | tags: cloud, devops -->
+      <div class="card-image">
+        <img src="https://cdn.arstechnica.net/wp-content/uploads/2022/09/google-cloud.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://arstechnica.com/gadgets/2024/05/google-cloud-accidentally-nukes-customer-account-causes-two-weeks-of-downtime">“Unprecedented” Google Cloud event wipes out customer account and its backu</a>
+          <div class="card-meta">19 May 2024</div>
+          <div class="card-meta card-domain">arstechnica.com</div>
+        </div>
+        <div class="card-section">
+          <p>UniSuper, a $135 billion pension account, details its cloud compute nightmare.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-05-04T06:01:11.000Z | tags: cloud, gpus -->
+      <div class="card-image">
+        <img src="https://www.nextplatform.com/wp-content/uploads/2024/05/coreweave-logo.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nextplatform.com/2024/05/02/how-to-make-more-money-renting-a-gpu-than-nvidia-makes-selling-it">How To Make More Money Renting A GPU Than Nvidia Makes Selling It</a>
+          <div class="card-meta">4 May 2024</div>
+          <div class="card-meta card-domain">nextplatform.com</div>
+        </div>
+        <div class="card-section">
+          <p>It is not a coincidence that the companies that got the most “Hopper” H100 allocations from Nvidia in 2023 were also the hyperscalers and cloud builders,</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-04-16T18:22:04.000Z | tags: cloud, torrents -->
+      <div class="card-image">
+        <img src="https://opengraph.githubassets.com/01105f2f1a95eff48f27198dc99cdb97d0c85848b59dc600b22504ae6df594c6/johang/btfs" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://github.com/johang/btfs">johang/btfs</a>
+          <div class="card-meta">16 Apr 2024</div>
+          <div class="card-meta card-domain">github.com</div>
+        </div>
+        <div class="card-section">
+          <p>A bittorrent filesystem based on FUSE.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-02-28T07:12:08.000Z | tags: aws, cloud, devops -->
+      <div class="card-image">
+        <img src="https://usefathom.com/assets/src/blog/meta-reduce-aws-bill.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://usefathom.com/blog/reduce-aws-bill">Reducing our AWS bill by $100,000 - Fathom Analytics</a>
+          <div class="card-meta">28 Feb 2024</div>
+          <div class="card-meta card-domain">usefathom.com</div>
+        </div>
+        <div class="card-section">
+          <p>We reduced our AWS bill so that we could invest in more important areas.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-02-11T17:47:14.000Z | tags: cloud -->
+      <div class="card-image">
+        <img src="https://www.nextplatform.com/wp-content/uploads/2023/03/microsoft-ai-datacenter-racks.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nextplatform.com/2024/02/05/a-tale-of-three-cloud-builders-all-seeking-dominance">A Tale Of Three Cloud Builders, All Seeking Dominance</a>
+          <div class="card-meta">11 Feb 2024</div>
+          <div class="card-meta card-domain">nextplatform.com</div>
+        </div>
+        <div class="card-section">
+          <p>While Amazon Web Services has first mover advantage when it comes to building a compute and storage cloud, it would be a mistake to believe that the</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-05-26T00:41:41.000Z | tags: cloud, devops -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*WiBuCxjiT-vPamo-SY7RTw.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/the-top-clouds-evaluated-such-that-you-dont-need-to-repeat-our-mistakes-6797720992b">The Top Clouds Evaluated Such That You Don’t Need to Repeat Our Mistakes</a>
+          <div class="card-meta">26 May 2022</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Opinion on popular cloud service providers from an ML engineer</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-05-20T19:40:08.000Z | tags: cloud, devops -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://news.ycombinator.com/item?id=31376241">Dokku – Free Heroku Alternative | Hacker News</a>
+          <div class="card-meta">20 May 2022</div>
+          <div class="card-meta card-domain">news.ycombinator.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-05-20T19:39:53.000Z | tags: cloud, webdev -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://fly.io">Deploy app servers close to your users · Fly</a>
+          <div class="card-meta">20 May 2022</div>
+          <div class="card-meta card-domain">fly.io</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-05-19T23:29:12.000Z | tags: cloud, devops -->
+      <div class="card-image">
+        <img src="https://media.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fk4bur7v0sw0uo5xrrvgq.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/jordan_t/get-up-and-running-with-terraform-iac-tool-1ofb">Get up and running with Terraform (IaC) Tool</a>
+          <div class="card-meta">19 May 2022</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>What exactly is this amazing tool?   Infrastructure as code (IaC) tools allow you to manage...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-05-17T22:26:24.000Z | tags: aws, cloud, devops -->
+      <div class="card-image">
+        <img src="https://media.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fv0fpxrfyotkqeigvsnef.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/dabeeeenster/the-actual-infrastructure-costs-of-running-saas-at-scale-billions-of-requestsmonth-5hlm">The actual infrastructure costs of running SaaS at scale (billions of reque</a>
+          <div class="card-meta">17 May 2022</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>In this article we are going to share two main things:    The evolution of our infrastructure over...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-05-01T21:44:36.000Z | tags: aws, cloud, devops -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://news.ycombinator.com/item?id=31218268">Ask HN: Beyond AWS/Azure/GCP, what cloud providers should I know more about</a>
+          <div class="card-meta">1 May 2022</div>
+          <div class="card-meta card-domain">news.ycombinator.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-04-13T18:29:17.000Z | tags: aws, cloud, devops, pricing -->
+      <div class="card-image">
+        <img src="https://bluexp.netapp.com/hubfs/Small%20Image-AWS%20Data%20Transfer%20Pricing_%20Hidden%20Network%20Transfer%20Costs%20and%20What%20to%20Do%20About%20Them-1932x966.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://cloud.netapp.com/blog/aws-cvo-blg-aws-data-transfer-costs-solving-hidden-network-transfer-costs">AWS Data Transfer Costs: Solving Hidden Network Transfer Costs</a>
+          <div class="card-meta">13 Apr 2022</div>
+          <div class="card-meta card-domain">cloud.netapp.com</div>
+        </div>
+        <div class="card-section">
+          <p>Hidden AWS data transfer costs can lead to higher than expected cloud service bills. This post will help track hidden fees and show you how to control them.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-03-07T16:52:50.000Z | tags: aws, azure, cloud, devops, google-cloud -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.reddit.com/r/devops/comments/t8es2r/what_are_some_pros_in_choosing_gcp_over_aws_or">[deleted by user]</a>
+          <div class="card-meta">7 Mar 2022</div>
+          <div class="card-meta card-domain">reddit.com</div>
+        </div>
+        <div class="card-section">
+          <p>139 votes, 93 comments. 352K subscribers in the devops community.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-27T16:40:06.000Z | tags: aws, cloud, devops -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://hashnode.tpschmidt.com/my-top-10-free-learning-resources-for-aws">My Top 10 Free Learning Resources for AWS</a>
+          <div class="card-meta">27 Dec 2021</div>
+          <div class="card-meta card-domain">hashnode.tpschmidt.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-27T16:39:40.000Z | tags: aws, cloud, devops -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://ptribble.blogspot.com/2021/12/the-cost-of-cloud.html">The Trouble with Tribbles...: The cost of cloud</a>
+          <div class="card-meta">27 Dec 2021</div>
+          <div class="card-meta card-domain">ptribble.blogspot.com</div>
+        </div>
+        <div class="card-section">
+          <p>Putting your IT infrastructure into the cloud seems to be the &quot;in&quot; thing. It&#39;s been around for a while, of course. And, like most things rel...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-13T12:23:01.000Z | tags: cloud, netlify -->
+      <div class="card-image">
+        <img src="https://docs.netlify.com/og-image.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.netlify.com/docs/continuous-deployment">Build configuration overview</a>
+          <div class="card-meta">13 Dec 2021</div>
+          <div class="card-meta card-domain">netlify.com</div>
+        </div>
+        <div class="card-section">
+          <p>Configure build settings for a repository that uses continuous deployment, and understand build image options for your site.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-12T19:45:31.000Z | tags: azure, cloud -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://azure.microsoft.com/en-us">Cloud Computing Services | Microsoft Azure</a>
+          <div class="card-meta">12 Dec 2021</div>
+          <div class="card-meta card-domain">azure.microsoft.com</div>
+        </div>
+        <div class="card-section">
+          <p>Invent with purpose, realize cost savings, and make your organization more efficient with Microsoft Azure’s open and flexible cloud computing platform.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-12T19:44:30.000Z | tags: cloud, heroku -->
+      <div class="card-image">
+        <img src="https://www.herokucdn.com/images/og.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.heroku.com">Cloud Application Platform | Heroku</a>
+          <div class="card-meta">12 Dec 2021</div>
+          <div class="card-meta card-domain">heroku.com</div>
+        </div>
+        <div class="card-section">
+          <p>Heroku is a platform as a service (PaaS) that enables developers to build, run, and operate applications entirely in the cloud.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-12T19:43:22.000Z | tags: cloud, google-cloud -->
+      <div class="card-image">
+        <img src="https://cloud.google.com/_static/cloud/images/social-icon-google-cloud-1200-630.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://cloud.google.com">Cloud Computing Services | Google Cloud</a>
+          <div class="card-meta">12 Dec 2021</div>
+          <div class="card-meta card-domain">cloud.google.com</div>
+        </div>
+        <div class="card-section">
+          <p>Meet your business challenges head on with cloud computing services from Google, including data management, hybrid &amp; multi-cloud, and AI &amp; ML.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-12T19:41:25.000Z | tags: cloud -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://cloud.linode.com">Akamai Cloud Manager</a>
+          <div class="card-meta">12 Dec 2021</div>
+          <div class="card-meta card-domain">cloud.linode.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-12T19:41:13.000Z | tags: cloud -->
+      <div class="card-image">
+        <img src="https://www.digitalocean.com/_next/static/media/social-share-default.e8530e9e.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.digitalocean.com">DigitalOcean | Cloud Infrastructure for Developers</a>
+          <div class="card-meta">12 Dec 2021</div>
+          <div class="card-meta card-domain">digitalocean.com</div>
+        </div>
+        <div class="card-section">
+          <p>An ocean of simple, scalable cloud solutions.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-12T18:17:34.000Z | tags: azure, cloud -->
+      <div class="card-image">
+        <img src="https://learn.microsoft.com/en-us/media/open-graph-image.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://docs.microsoft.com/en-us/azure/architecture/solution-ideas/articles/cicd-for-azure-vms">DevOps for IaaS solutions architecture - Azure Pipelines</a>
+          <div class="card-meta">12 Dec 2021</div>
+          <div class="card-meta card-domain">docs.microsoft.com</div>
+        </div>
+        <div class="card-section">
+          <p>High-level DevOps workflow for deploying application changes to VMs using continuous integration (CI) and continuous deployment (CD) practices using Azure Pipelines.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-12T18:17:22.000Z | tags: aws, cloud -->
+      <div class="card-image">
+        <img src="https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://aws.amazon.com/cloudformation">Infrastructure As Code Provisioning Tool - AWS CloudFormation - AWS</a>
+          <div class="card-meta">12 Dec 2021</div>
+          <div class="card-meta card-domain">aws.amazon.com</div>
+        </div>
+        <div class="card-section">
+          <p>AWS CloudFormation is an infrastructure as code (IaC) service that allows you to easily model, provision, and manage AWS and third-party resources.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-12T18:16:46.000Z | tags: cloud, netlify, webdev -->
+      <div class="card-image">
+        <img src="https://docs.netlify.com/og-image.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://docs.netlify.com">Welcome to Netlify</a>
+          <div class="card-meta">12 Dec 2021</div>
+          <div class="card-meta card-domain">docs.netlify.com</div>
+        </div>
+        <div class="card-section">
+          <p>Learn how to build fast and reliable web experiences with our enterprise-ready composable platform.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-11T01:29:11.000Z | tags: aws, cloud -->
+      <div class="card-image">
+        <img src="https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://aws.amazon.com">Cloud Computing Services - Amazon Web Services (AWS)</a>
+          <div class="card-meta">11 Dec 2021</div>
+          <div class="card-meta card-domain">aws.amazon.com</div>
+        </div>
+        <div class="card-section">
+          <p>Amazon Web Services offers reliable, scalable, and  inexpensive cloud computing services. Free to join, pay only for what you use.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-11T01:27:50.000Z | tags: cloud, devops -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://increment.com/cloud/an-engineers-guide-to-cloud-capacity-planning">https://increment.com/cloud/an-engineers-guide-to-cloud-capacity-planning/</a>
+          <div class="card-meta">11 Dec 2021</div>
+          <div class="card-meta card-domain">increment.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-02T01:48:09.000Z | tags: cloud, devops -->
+      <div class="card-image">
+        <img src="https://docs.digitalocean.com/opengraph/opengraph-base-NOOPT_hu10d88a98f142b24c84f649282c796338_6896_filter_11705492890857457039.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.digitalocean.com/docs/app-platform">App Platform | DigitalOcean Documentation</a>
+          <div class="card-meta">2 Dec 2021</div>
+          <div class="card-meta card-domain">digitalocean.com</div>
+        </div>
+        <div class="card-section">
+          <p>App Platform is a platform as a service (PaaS) offering that lets you publish code directly to DigitalOcean servers without worrying about the underlying infrastructure, runtimes, or dependencies.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-02T01:44:55.000Z | tags: cloud, gatsby, netlify -->
+      <div class="card-image">
+        <img src="https://www.codespot.org/assets/gatsby-cover.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.codespot.org/how-to-build-a-blog-with-gatsby-and-netlify">How To Build A Blog With Gatsby and Netlify</a>
+          <div class="card-meta">2 Dec 2021</div>
+          <div class="card-meta card-domain">codespot.org</div>
+        </div>
+        <div class="card-section">
+          <p>The #1 Blog For Software &amp; Web Developers. Free Tutorials, Tips, Tricks and Learning Resources.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-05-30T22:51:16.000Z | tags: cloud, webdev -->
+      <div class="card-image">
+        <img src="https://d1lamhf6l6yk6d.cloudfront.net/uploads/2021/05/a16z_Graphics_SaaS_C_FA-ENT-COLORS-1200x630-1.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://a16z.com/2021/05/27/cost-of-cloud-paradox-market-cap-cloud-lifecycle-scale-growth-repatriation-optimization">The Cost of Cloud, a Trillion Dollar Paradox | Andreessen Horowitz</a>
+          <div class="card-meta">30 May 2021</div>
+          <div class="card-meta card-domain">a16z.com</div>
+        </div>
+        <div class="card-section">
+          <p>The pressure the cloud puts on margins can start to outweigh the benefits you scale and growth slows. Understand how much market cap is being suppressed by the cloud to help inform the decision-making framework on managing infrastructure as companies scale.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-12-18T19:16:40.000Z | tags: cloud, web-hosting -->
+      <div class="card-image">
+        <img src="https://blog.paperspace.com/content/images/size/w2000/2020/05/5eb8ce053cb50746e44069c0_cluster-bg--1-.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://console.paperspace.com/teml4wiss/projects">Paperspace | Gradient Projects</a>
+          <div class="card-meta">18 Dec 2020</div>
+          <div class="card-meta card-domain">console.paperspace.com</div>
+        </div>
+        <div class="card-section">
+          <p>Build and scale ML applications with a cloud platform focused on speed and simplicity.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-12-18T11:20:55.000Z | tags: cloud, devops -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.amazon.com/Google-Cloud-Platform-Cookbook-applications/dp/1788291999">Amazon.com: Google Cloud Platform Cookbook: Implement, deploy, maintain, an</a>
+          <div class="card-meta">18 Dec 2020</div>
+          <div class="card-meta card-domain">amazon.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-12-18T11:20:38.000Z | tags: cloud, devops -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://ncona.com/2020/11/introduction-to-google-cloud-functions">Introduction to Google Cloud Functions</a>
+          <div class="card-meta">18 Dec 2020</div>
+          <div class="card-meta card-domain">ncona.com</div>
+        </div>
+        <div class="card-section">
+          <p>Cloud Functions are Google’s offering for serverless architecture (similar to AWS lambdas).  What is serverless?  Before we look into how to use Cloud Functions, we should understand some things about it.  Code needs servers to run, so serverless doesn’t mean there are no servers, it means that we don’t need to manage those servers ourselves.  In a usual server based architecture, we might create a service and deploy it to a machine. This service will be running in the machine all the time waiting for requests. This has the disadvantage that even if there are no requests, the machine would need to be up, and incurring cost.  On the other hand, if we use Cloud Functions, we write a service and register it with Google. Google will then listen to the endpoint this service cares about and will only start it when there are requests. If it detects that there haven’t been requests for some time, it will stop the service again.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-11-02T11:13:35.000Z | tags: cloud, devops -->
+      <div class="card-image">
+        <img src="https://cloud.google.com/_static/cloud/images/social-icon-google-cloud-1200-630.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://cloud.google.com/sdk/auth_success">You are now authenticated with the Google Cloud SDK!</a>
+          <div class="card-meta">2 Nov 2020</div>
+          <div class="card-meta card-domain">cloud.google.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-06-01T16:46:41.000Z | tags: cloud, machine-learning -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*QJ0-Pu0eeX37Q87I" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/a-product-managers-guide-to-machine-learning-cloud-machine-learning-ca5d7209a4fa?source=rss----7f60cf5620c9---4">A Product Manager’s Guide to Machine Learning: Cloud Machine Learning</a>
+          <div class="card-meta">1 Jun 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Why obtaining the Amazon Web Services Machine Learning — Specialty (“AWS ML”) certification is one of the best starting points to gaining…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-06-01T16:45:11.000Z | tags: cloud -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://news.ycombinator.com/item?id=23089999">Ask HN: Is your company sticking to on-premise servers? Why? | Hacker News</a>
+          <div class="card-meta">1 Jun 2020</div>
+          <div class="card-meta card-domain">news.ycombinator.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-03-09T20:16:47.000Z | tags: cloud, devops -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://blog.acolyer.org/2020/02/28/microsoft-gandalf">Gandalf: an intelligent, end-to-end analytics service for safe deployment i</a>
+          <div class="card-meta">9 Mar 2020</div>
+          <div class="card-meta card-domain">blog.acolyer.org</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-03-09T20:13:24.000Z | tags: cloud -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*RwOb3-L7repKtbZAKYzLYw.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://blog.sia.tech/cloud-storage-for-2-tb-mo-8a34043e93bb">Cloud Storage for $2 / TB / Mo - Sia Blog</a>
+          <div class="card-meta">9 Mar 2020</div>
+          <div class="card-meta card-domain">blog.sia.tech</div>
+        </div>
+        <div class="card-section">
+          <p>Explore the model that shows why Sia storage will stay below $2/TB/Mo for the long term.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-08-30T00:02:18.000Z | tags: cloud -->
+      <div class="card-image">
+        <img src="https://docs.netlify.com/og-image.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.netlify.com/docs?_ga=2.240983552.22381213.1552595342-567693159.1552226169">Docs | Netlify</a>
+          <div class="card-meta">30 Aug 2019</div>
+          <div class="card-meta card-domain">netlify.com</div>
+        </div>
+        <div class="card-section">
+          <p>Learn how to build fast and reliable web experiences with our enterprise-ready composable platform.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-12-22T19:23:42.000Z | tags: cloud, devops, netlify -->
+      <div class="card-image">
+        <img src="https://cdn.sanity.io/images/o0o2tn5x/marketing/19d95d00d7f79b8b4340dc6ca183ac5456f1a095-1200x630.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.netlify.com">Netlify: All-in-one platform for automating modern web projects.</a>
+          <div class="card-meta">22 Dec 2018</div>
+          <div class="card-meta card-domain">netlify.com</div>
+        </div>
+        <div class="card-section">
+          <p>Realize the speed, agility and performance of a scalable, composable web architecture with Netlify. Explore the composable web platform now!</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-09-06T15:13:18.000Z | tags: devops, cloud -->
+      <div class="card-image">
+        <img src="https://techcrunch.com/wp-content/uploads/2018/08/GettyImages-1833877791.jpg?resize=1200,777" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://techcrunch.com/2018/08/30/openstacks-latest-release-focuses-on-bare-metal-clouds-and-easier-upgrades">OpenStack’s latest release focuses on bare metal clouds and easier upgrades</a>
+          <div class="card-meta">6 Sep 2018</div>
+          <div class="card-meta card-domain">techcrunch.com</div>
+        </div>
+        <div class="card-section">
+          <p>The OpenStack Foundation today released the 18th version of its namesake open-source cloud infrastructure software. The project has had its ups and downs,</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

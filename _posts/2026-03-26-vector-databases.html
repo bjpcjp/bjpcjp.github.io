@@ -1,0 +1,406 @@
+---
+layout: post
+title: "vector-databases"
+date: 2026-03-26
+---
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>vector-databases &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 27 Mar 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2026-01-23T22:50:37.179Z | tags: vector-databases -->
+      <div class="card-image">
+        <img src="https://i0.wp.com/amanxai.com/wp-content/uploads/2026/01/Vector-Databases-Explained-for-AI-Engineers.png?fit=1280%2C720&amp;ssl=1" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://amanxai.com/2026/01/23/vector-databases-explained-from-scratch/">Vector Databases Explained from Scratch | Aman Kharwal</a>
+          <div class="card-meta">23 Jan 2026</div>
+          <div class="card-meta card-domain">amanxai.com</div>
+        </div>
+        <div class="card-section">
+          <p>In this article, I’ll explain vector databases from scratch and build a simple semantic search engine in Python for free.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-11-16T22:29:01.021Z | tags: vector-databases -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://venturebeat.com/ai/from-shiny-object-to-sober-reality-the-vector-database-story-two-years-later">From shiny object to sober reality the vector database story two years later</a>
+          <div class="card-meta">16 Nov 2025</div>
+          <div class="card-meta card-domain">venturebeat.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-11-10T11:36:26.749Z | tags: llm-rag, llms, databases, vector-databases, graphs, context-graphs -->
+      <div class="card-image">
+        <img src="https://www.marktechpost.com/wp-content/uploads/2025/11/blog-banner-29.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.marktechpost.com/2025/11/10/comparing-memory-systems-for-llm-agents-vector-graph-and-event-logs/">Comparing Memory Systems for LLM Agents: Vector, Graph, and Event Logs</a>
+          <div class="card-meta">10 Nov 2025</div>
+          <div class="card-meta card-domain">marktechpost.com</div>
+        </div>
+        <div class="card-section">
+          <p>Learn how different memory systems affect multi-agent planning. Comparing Memory Systems for LLM Agents highlights key performance metrics.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-10-19T00:01:52.734Z | tags: vector-databases -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://venturebeat.com/ai/abstract-or-die-why-ai-enterprises-cant-afford-rigid-vector-stacks">Abstract or die why ai enterprises cant afford rigid vector stacks</a>
+          <div class="card-meta">19 Oct 2025</div>
+          <div class="card-meta card-domain">venturebeat.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-07-04T12:28:53.510Z | tags: vector-databases, search, semantic-search -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.leoniemonigatti.com/blog/what_i_learned.html">37 Things I Learned About Information Retrieval in Two Years at a Vector Database Company – Leonie Monigatti</a>
+          <div class="card-meta">4 Jul 2025</div>
+          <div class="card-meta card-domain">leoniemonigatti.com</div>
+        </div>
+        <div class="card-section">
+          <p>From BM25 to RAG: Everything I learned about vector databases, embedding models, and vector search - and everything in between.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-04-30T13:36:57.311Z | tags: elasticsearch, vector-databases -->
+      <div class="card-image">
+        <img src="https://s47652.pcdn.co/research/wp-content/uploads/2025/03/image-21.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://fin.ai/research/do-you-really-need-a-vector-search-database/">Do you really need a Vector Search Database?</a>
+          <div class="card-meta">30 Apr 2025</div>
+          <div class="card-meta card-domain">fin.ai</div>
+        </div>
+        <div class="card-section">
+          <p>Reflections on Intercom’s decision to stick with Elasticsearch</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-01-15T01:27:49.328Z | tags: machine-learning, vector-databases, algorithms-math -->
+      <div class="card-image">
+        <img src="https://p.migdal.pl/blog/2025/01/dont-use-cosine-similarity/cartoon-espresso-word2vec.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://p.migdal.pl/blog/2025/01/dont-use-cosine-similarity">Don&#39;t use cosine similarity carelessly - Piotr Migdał</a>
+          <div class="card-meta">15 Jan 2025</div>
+          <div class="card-meta card-domain">p.migdal.pl</div>
+        </div>
+        <div class="card-section">
+          <p>Cosine similarity - the duct tape of AI. Convenient but often misused. Let&#39;s find out how to use it better.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-10-19T18:32:36.992Z | tags: vector-databases -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*r1jow5XCAkmA_FXl95xfaA.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/vector-embeddings-are-lossy-heres-what-to-do-about-it-4f9a8ee58bb7">Vector Embeddings are Lossy. Here’s What to Do About It.</a>
+          <div class="card-meta">19 Oct 2024</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>AI systems aren’t perfect (GASP!) and these are some of the reasons why.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-07-13T06:41:50.000Z | tags: vector-databases -->
+      <div class="card-image">
+        <img src="https://cdn.thenewstack.io/media/2024/07/176c7349-server1.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://thenewstack.io/use-your-data-in-llms-with-the-vector-database-you-already-have">Use Your Data in LLMs With the Vector Database You Already Have</a>
+          <div class="card-meta">13 Jul 2024</div>
+          <div class="card-meta card-domain">thenewstack.io</div>
+        </div>
+        <div class="card-section">
+          <p>Open source vector databases are among the top options out there for AI development, including some you may already be familiar with or even have on hand.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-05-28T21:26:35.000Z | tags: search, vector-databases -->
+      <div class="card-image">
+        <img src="https://cdn.thenewstack.io/media/2024/05/4ab1de9b-tanvity.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://thenewstack.io/an-sql-vector-database-to-enhance-text-search-how-we-did-it">An SQL Vector Database To Enhance Text Search: How We Did It</a>
+          <div class="card-meta">28 May 2024</div>
+          <div class="card-meta card-domain">thenewstack.io</div>
+        </div>
+        <div class="card-section">
+          <p>Performance testing shows integrating Tantivy’s full-text search engine library into vector search significantly improves speed and performance.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-05-21T15:35:15.000Z | tags: vector-databases -->
+      <div class="card-image">
+        <img src="https://techcrunch.com/wp-content/uploads/2024/05/GettyImages-1520090215.jpg?resize=1200,800" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://techcrunch.com/2024/05/21/pinecone-launches-its-serverless-vector-database-out-of-preview">Pinecone launches its serverless vector database out of preview</a>
+          <div class="card-meta">21 May 2024</div>
+          <div class="card-meta card-domain">techcrunch.com</div>
+        </div>
+        <div class="card-section">
+          <p>Pinecone, the vector database startup founded by Edo Liberty, the former head of Amazon&#39;s AI Labs, has long been at the forefront of helping businesses</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-05-13T06:56:27.000Z | tags: machine-learning, vector-databases -->
+      <div class="card-image">
+        <img src="https://algebrica.org/wp-content/uploads/resources/images/algebrica.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://algebrica.org/cosine-similarity">Cosine Similarity</a>
+          <div class="card-meta">13 May 2024</div>
+          <div class="card-meta card-domain">algebrica.org</div>
+        </div>
+        <div class="card-section">
+          <p>Cosine similarity can measure the proximity between two documents by transforming words into vectors within a vector space.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-04-22T05:09:06.000Z | tags: vector-databases -->
+      <div class="card-image">
+        <img src="https://www.marktechpost.com/wp-content/uploads/2024/04/Screenshot-2024-04-20-at-11.21.21-PM-1024x870.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.marktechpost.com/2024/04/21/comparative-analysis-of-top-14-vector-databases-features-performance-and-scalability-insights">Comparative Analysis of Top 14 Vector Databases: Features, Performance, and</a>
+          <div class="card-meta">22 Apr 2024</div>
+          <div class="card-meta card-domain">marktechpost.com</div>
+        </div>
+        <div class="card-section">
+          <p>Vector databases have become increasingly prominent, especially in applications that involve machine learning, image processing, and similarity searches. Unlike traditional databases that store data as scalar values (numbers and strings), vector databases are designed to handle multidimensional data points, typically represented as vectors. These vectors can be used to model complex items like images, videos, and text in a format that machines can interpret for tasks such as content recommendation, anomaly detection, and more. Let’s explore 14 different vector databases and provide a comparative analysis of several key parameters.  Faiss (Facebook AI Similarity Search) Faiss, developed by Facebook AI, is</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-04-16T05:37:11.000Z | tags: hugging-face, memes, vector-databases -->
+      <div class="card-image">
+        <img src="https://harper.blog/images/og.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://harper.blog/2024/04/12/i-accidentally-built-a-meme-search-engine">I accidentally built a meme search engine | Harper Reed&#39;s Blog</a>
+          <div class="card-meta">16 Apr 2024</div>
+          <div class="card-meta card-domain">harper.blog</div>
+        </div>
+        <div class="card-section">
+          <p>I built a magical meme search engine using siglip/CLIP and vector encoding images. It was a fun way to learn about this powerful technology. I&#39;m sharing the code so you can build your own and discover forgotten gems in your photo library. Let&#39;s unleash the power of AI on our images!</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-02-18T03:22:55.000Z | tags: vector-databases -->
+      <div class="card-image">
+        <img src="https://media.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fs5vnvtj8xnfbt2ab2f0p.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/datastax/what-we-learned-when-we-built-a-vector-database-and-our-customers-started-using-it-part-1-1c6h">What We Learned When We Built a Vector Database-and Our Customers Started U</a>
+          <div class="card-meta">18 Feb 2024</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>Everyone is talking about vectors these days. Cosines, ANN searches, normalizations, sentence...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-01-17T06:30:12.000Z | tags: vector-databases -->
+      <div class="card-image">
+        <img src="https://venturebeat.com/wp-content/uploads/2024/01/DALL%C2%B7E-2024-01-15-21.46.38-A-modernist-interpretation-of-a-pinecone.-The-image-should-focus-on-geometric-shapes-and-abstract-forms-emphasizing-the-unique-texture-and-patterns-o.png?w=1024?w=1200&amp;strip=all" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://venturebeat.com/ai/pinecone-new-vector-database-architecture-a-breakthrough-to-curb-ai-hallucinations">Pinecone: New vector database architecture a ‘breakthrough’ to curb AI hall</a>
+          <div class="card-meta">17 Jan 2024</div>
+          <div class="card-meta card-domain">venturebeat.com</div>
+        </div>
+        <div class="card-section">
+          <p>Today Pinecone launched a serverless vector database architecture that CEO Edo Liberty calls a &#39;significant&#39; breakthrough for the industry.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-08-20T10:56:25.000Z | tags: llms, vector-databases -->
+      <div class="card-image">
+        <img src="https://www.marktechpost.com/wp-content/uploads/2023/08/Screenshot-2023-08-19-at-3.55.16-AM-1024x534.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.marktechpost.com/2023/08/19/meet-chroma-an-ai-native-open-source-vector-database-for-llms-a-faster-way-to-build-python-or-javascript-llm-apps-with-memory">Meet Chroma: An AI-Native Open-Source Vector Database For LLMs: A Faster Wa</a>
+          <div class="card-meta">20 Aug 2023</div>
+          <div class="card-meta card-domain">marktechpost.com</div>
+        </div>
+        <div class="card-section">
+          <p>Word embedding vector databases have become increasingly popular due to the proliferation of massive language models. Using the power of sophisticated machine learning techniques, data is stored in a vector database. It allows for very fast similarity search, essential for many AI uses such as recommendation systems, picture recognition, and NLP. The essence of complicated data is captured in a vector database by representing each data point as a multidimensional vector. Quickly retrieving related vectors is made possible by modern indexing techniques like k-d trees and hashing. To transform big data analytics, this architecture generates highly scalable, efficient solutions for</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-05-28T21:43:30.000Z | tags: databases, vector-databases -->
+      <div class="card-image">
+        <img src="https://assets.zilliz.com/Mar_28_Vector_Database_101_Scalar_Quantization_and_Product_Quantization_56ba821c40.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://zilliz.com/blog/scalar-quantization-and-product-quantization">Scalar Quantization and Product Quantization - Zilliz blog</a>
+          <div class="card-meta">28 May 2023</div>
+          <div class="card-meta card-domain">zilliz.com</div>
+        </div>
+        <div class="card-section">
+          <p>A hands-on dive into scalar quantization (integer quantization) and product quantization with Python.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-05-28T21:43:24.000Z | tags: databases, vector-databases -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*_gCfGYHc87EtuYuv" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/milvus-pinecone-vespa-weaviate-vald-gsi-what-unites-these-buzz-words-and-what-makes-each-9c65a3bd0696">Not All Vector Databases Are Made Equal</a>
+          <div class="card-meta">28 May 2023</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>A detailed comparison of Milvus, Pinecone, Vespa, Weaviate, Vald, GSI and Qdrant</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-05-07T16:27:31.000Z | tags: databases, semantic-search, vector-databases -->
+      <div class="card-image">
+        <img src="https://www.pinecone.io/api/og/?title=What%20is%20a%20Vector%20Database%20&amp;%20How%20Does%20it%20Work?%20Use%20Cases%20+%20Examples" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.pinecone.io/learn/vector-database">What is a Vector Database? | Pinecone</a>
+          <div class="card-meta">7 May 2023</div>
+          <div class="card-meta card-domain">pinecone.io</div>
+        </div>
+        <div class="card-section">
+          <p>Discover Vector Databases: How They Work, Examples, Use Cases, Pros &amp; Cons, Selection and Implementation. They have combined capabilities of traditional databases and standalone vector indexes while specializing for vector embeddings.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-05-02T00:52:54.000Z | tags: ecommerce, machine-learning, search, vector-databases -->
+      <div class="card-image">
+        <img src="https://static.ebayinc.com/static/assets/Uploads/Blog/Posts/_resampled/ScaleWidthWzEwMjRd/230501-Similarity-Engine-tech-blog-v1-inc-16x9-hero.jpg?fs=f9996dab418d497d" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://tech.ebayinc.com/engineering/ebays-blazingly-fast-billion-scale-vector-similarity-engine">eBay’s Blazingly Fast Billion-Scale Vector Similarity Engine</a>
+          <div class="card-meta">2 May 2023</div>
+          <div class="card-meta card-domain">tech.ebayinc.com</div>
+        </div>
+        <div class="card-section">
+          <p>The Similarity Engine&#39;s use cases include item-to-item similarity for text and image modality and user-to-item personalized recommendations based on a user’s historical behavior data.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-04-19T16:27:37.000Z | tags: databases, elasticsearch, vector-databases -->
+      <div class="card-image">
+        <img src="https://media.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fm2huidunm4tho9kle0hj.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/bybydev/top-10-best-vector-databases-libraries-330f">Top 10 Best Vector Databases &amp; Libraries</a>
+          <div class="card-meta">19 Apr 2023</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>Vector database is a type of database that stores data as high-dimensional vectors, which are...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2016-09-24T00:00:00.000Z | tags: vector-databases -->
+      <div class="card-image">
+        <img src="https://www.marktechpost.com/wp-content/uploads/2024/09/Screenshot-2024-09-15-at-5.59.01-PM.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.marktechpost.com/2024/09/15/hnsw-flat-or-inverted-index-which-should-you-choose-for-your-search-this-ai-paper-offers-operational-advice-for-dense-and-sparse-retrievers">HNSW Flat or Inverted Index: Which Should You Choose for Your Search? This AI Paper Offers Operati</a>
+          <div class="card-meta">24 Sep 2016</div>
+          <div class="card-meta card-domain">marktechpost.com</div>
+        </div>
+        <div class="card-section">
+          <p>A significant challenge in information retrieval today is determining the most efficient method for nearest-neighbor vector search, especially with the growing complexity of dense and sparse retrieval models. Practitioners must navigate a wide range of options for indexing and retrieval methods, including HNSW (Hierarchical Navigable Small-World) graphs, flat indexes, and inverted indexes. These methods offer different trade-offs in terms of speed, scalability, and quality of retrieval results. As datasets become larger and more complex, the absence of clear operational guidance makes it difficult for practitioners to optimize their systems, particularly for applications requiring high performance, such as search engines and</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

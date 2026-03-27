@@ -1,0 +1,602 @@
+---
+layout: post
+title: "fonts-typography"
+date: 2026-03-26
+---
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>fonts-typography &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 27 Mar 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2025-12-17T12:22:51.119Z | tags: fonts-typography, svg, css, animation -->
+      <div class="card-image">
+        <img src="https://files.smashing.media/articles/smashing-animations-part-7-recreating-toon-text-css-svg/smashing-animations-part-7-recreating-toon-text-css-svg.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://smashingmagazine.com/2025/12/smashing-animations-part-7-recreating-toon-text-css-svg/">Smashing Animations Part 7: Recreating Toon Text With CSS And SVG — Smashing Magazine</a>
+          <div class="card-meta">17 Dec 2025</div>
+          <div class="card-meta card-domain">smashingmagazine.com</div>
+        </div>
+        <div class="card-section">
+          <p>In this article, pioneering author and web designer [Andy Clarke](https://stuffandnonsense.co.uk) shows his techniques for creating [Toon Text titles](https://stuffandnonsense.co.uk/toon-text/index.html) using modern CSS and SVG.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-12-12T12:18:06.831Z | tags: fonts-typography, design, printing -->
+      <div class="card-image">
+        <img src="http://static1.squarespace.com/static/58935280be6594fa6e0fc503/5a2ed084f9619ad304c293d6/674e3d1f985e412c394c3486/1762120364895/parts+list+4.png?format=1500w" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.bethmathews.com/shop/partslistfont">Beth Mathews Design — Parts List Typeface</a>
+          <div class="card-meta">12 Dec 2025</div>
+          <div class="card-meta card-domain">bethmathews.com</div>
+        </div>
+        <div class="card-section">
+          <p>A typeface inspired by vintage forms, lists and gas station ephemera.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-10-04T00:37:48.286Z | tags: fonts-typography -->
+      <div class="card-image">
+        <img src="https://modernfontstacks.com/img/og-modernfontstacks.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://modernfontstacks.com/">Modern Font Stacks</a>
+          <div class="card-meta">4 Oct 2025</div>
+          <div class="card-meta card-domain">modernfontstacks.com</div>
+        </div>
+        <div class="card-section">
+          <p>System font stack CSS organized by typeface classification for every modern OS. The fastest fonts available. No downloading, no layout shifts, no flashes — just instant renders.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-02-15T23:05:57.115Z | tags: fonts-typography -->
+      <div class="card-image">
+        <img src="https://aresluna.org/images/the-hardest-working-font-in-manhattan/ogimage.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://aresluna.org/the-hardest-working-font-in-manhattan/">The hardest working font in Manhattan</a>
+          <div class="card-meta">15 Feb 2025</div>
+          <div class="card-meta card-domain">aresluna.org</div>
+        </div>
+        <div class="card-section">
+          <p>A story of a 150-year-old font you have never heard of – and one you probably saw earlier today.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-01-18T21:03:58.072Z | tags: fonts-typography -->
+      <div class="card-image">
+        <img src="https://64.media.tumblr.com/avatar_91b1c1e7e83a_64.pnj" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.letterheady.com/page/7">LETTERHEADY</a>
+          <div class="card-meta">18 Jan 2025</div>
+          <div class="card-meta card-domain">letterheady.com</div>
+        </div>
+        <div class="card-section">
+          <p>letterheady –adjective 1. overcome by a strong emotion due to a letterhead design. Edited by me,...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-10-24T11:09:46.968Z | tags: fonts-typography -->
+      <div class="card-image">
+        <img src="https://www.noupe.com/wp-content/uploads/2024/10/florian-klauer-1mTm3gH5_Wk-unsplash.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.noupe.com/inspiration/typography/mastering-the-art-of-web-typography.html">Mastering the Art of Web Typography: Enhancing Readability and Brand Identity - noupe</a>
+          <div class="card-meta">24 Oct 2024</div>
+          <div class="card-meta card-domain">noupe.com</div>
+        </div>
+        <div class="card-section">
+          <p>Learn how to use the art of web typography to enhance website readability and your brand identity.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-06-25T19:25:07.000Z | tags: fonts-typography -->
+      <div class="card-image">
+        <img src="https://www.practicalecommerce.com/wp-content/uploads/2024/06/Free-Typography-Fonts-Tools-Courses.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://www.practicalecommerce.com/16-typography-resources-fonts-galleries-instruction">Free Typography Fonts, Tools, Courses</a>
+          <div class="card-meta">25 Jun 2024</div>
+          <div class="card-meta card-domain">practicalecommerce.com</div>
+        </div>
+        <div class="card-section">
+          <p>Typography is an essential component of web design. It’s also affordable, with free commercial fonts, tools, and educational materials.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-03-07T19:34:36.000Z | tags: comics, fonts-typography -->
+      <div class="card-image">
+        <img src="https://kleinletters.com/Blog/wp-content/uploads/2023/12/CruikshankTreasurySpectre_1798Detailpg.jpg.webp" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://kleinletters.com/Blog/the-art-and-history-of-lettering-comics">THE ART AND HISTORY OF LETTERING COMICS</a>
+          <div class="card-meta">7 Mar 2024</div>
+          <div class="card-meta card-domain">kleinletters.com</div>
+        </div>
+        <div class="card-section">
+          <p>Todd Klein&#39;s online book exploring little-known aspects of comics: lettering, letterers, logo design and more.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-03-03T03:07:53.000Z | tags: fonts-typography -->
+      <div class="card-image">
+        <img src="https://static01.nyt.com/images/2024/02/02/multimedia/00BODONI-clgm/00BODONI-clgm-largeHorizontalJumbo.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nytimes.com/2024/02/29/books/bodoni-museum-typeface.html">He’s Probably in Your House, Lurking on Your Bookshelf</a>
+          <div class="card-meta">3 Mar 2024</div>
+          <div class="card-meta card-domain">nytimes.com</div>
+        </div>
+        <div class="card-section">
+          <p>The Museo Bodoniano in Parma, Italy, is a mecca for one of the world’s most enduring, and ubiquitous, typefaces. Meet Giambattista Bodoni, the “prince of typography.”</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-02-03T22:24:52.000Z | tags: fonts-typography, language-linguistics -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://vietnamesetypography.com/history">History</a>
+          <div class="card-meta">3 Feb 2024</div>
+          <div class="card-meta card-domain">vietnamesetypography.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-10-04T01:13:11.000Z | tags: fonts-typography, llms, python -->
+      <div class="card-image">
+        <img src="https://serce.me/images/make-me-a-font/bender.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://serce.me/posts/02-10-2023-hey-computer-make-me-a-font">Hey, Computer, Make Me a Font</a>
+          <div class="card-meta">4 Oct 2023</div>
+          <div class="card-meta card-domain">serce.me</div>
+        </div>
+        <div class="card-section">
+          <p>This is a story of my journey learning to build generative ML models from scratch and teaching a computer to create fonts in the process.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-01-30T11:57:01.000Z | tags: fonts-typography -->
+      <div class="card-image">
+        <img src="https://cards.fontsinuse.com/cardshot?s=og&amp;t=use&amp;url=https://fontsinuse.com/uses/43515/the-mystery-of-the-dune-font&amp;k=7442995d4415438a26a3eb8781483f0b" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://fontsinuse.com/uses/43515/the-mystery-of-the-dune-font">The Mystery of the Dune Font</a>
+          <div class="card-meta">30 Jan 2023</div>
+          <div class="card-meta card-domain">fontsinuse.com</div>
+        </div>
+        <div class="card-section">
+          <p>Putting a name to the typeface that defined the visual identity of the science fiction series and its author, Frank Herbert</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-11-07T13:56:41.000Z | tags: fonts-typography -->
+      <div class="card-image">
+        <img src="https://blakewatson.com/assets/images/og-image.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://blakewatson.com/journal/almost-monospaced-the-perfect-fonts-for-writing">Almost monospaced: the perfect fonts for writing - blakewatson.com</a>
+          <div class="card-meta">7 Nov 2022</div>
+          <div class="card-meta card-domain">blakewatson.com</div>
+        </div>
+        <div class="card-section">
+          <p>The unedited, writerly feel of monospaced fonts meets the readability and legibility of proportional ones.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-06T12:31:09.000Z | tags: design, fonts-typography, webdev -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.noupe.com/inspiration/typography-to-get-more-leads.html">Eye-Catching Typography To Get More Leads</a>
+          <div class="card-meta">6 Jul 2022</div>
+          <div class="card-meta card-domain">noupe.com</div>
+        </div>
+        <div class="card-section">
+          <p>Noupe passionately delivers stylish and dynamic news for designers and Web developers across the globe on all subjects of design; ranging from CSS, Photography, JavaScript, Web design, Graphics, Typography and much more.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-21T13:48:58.000Z | tags: css, design, design-patterns, fonts-typography, keywords-ppc-seo, ui-ux, webdev -->
+      <div class="card-image">
+        <img src="https://www.noupe.com/wp-content/uploads/2022/06/amy-hirschi-JaoVGh5aJ3E-unsplash.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.noupe.com/inspiration/in-demand-marketing-skills-for-your-design-cv.html">6 In-demand Marketing Skills for Your Design CV</a>
+          <div class="card-meta">21 Jun 2022</div>
+          <div class="card-meta card-domain">noupe.com</div>
+        </div>
+        <div class="card-section">
+          <p>In today’s tech-savvy world, being a great designer is not all about being a whiz at tools such as Adobe Photoshop and Adobe Illustrator. The job is</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-01T14:39:27.000Z | tags: fonts-typography -->
+      <div class="card-image">
+        <img src="http://learnui.design/tools/img/typography-tutorial/card-itt.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://learnui.design/tools/typography-tutorial.html">Interactive Typography Tutorial –&amp;nbsp;Learn UI Design</a>
+          <div class="card-meta">1 Jun 2022</div>
+          <div class="card-meta card-domain">learnui.design</div>
+        </div>
+        <div class="card-section">
+          <p>Learn the fundamentals of typography through this gamified walkthrough with real-time feedback and logic-based principles.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-04-08T21:34:41.000Z | tags: fonts-typography -->
+      <div class="card-image">
+        <img src="https://cms-assets.tutsplus.com/uploads/users/30/posts/8617/preview_image/pre.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://webdesign.tutsplus.com/articles/understanding-typographic-hierarchy--webdesign-11636">Understanding Typographic Hierarchy</a>
+          <div class="card-meta">8 Apr 2022</div>
+          <div class="card-meta card-domain">webdesign.tutsplus.com</div>
+        </div>
+        <div class="card-section">
+          <p>What is hierarchy in typography, and how does it work? In this article, we&#39;ll explain type hierarchy and look at some examples of how it works.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-29T20:13:31.000Z | tags: fonts-typography, ui-ux -->
+      <div class="card-image">
+        <img src="https://learn.canva.com/wp-content/uploads/2015/09/A-beginner%E2%80%99s-guide-to-kerning-like-a-designer-featured-image.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.canva.com/learn/kerning">A beginner’s guide to kerning like a designer</a>
+          <div class="card-meta">29 Jan 2022</div>
+          <div class="card-meta card-domain">canva.com</div>
+        </div>
+        <div class="card-section">
+          <p>In this article, we talk about the definition of kerning and its importance in design. Learn more about kerning here, and start kerning like a pro!</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-23T20:21:56.000Z | tags: fonts-typography, ui-ux -->
+      <div class="card-image">
+        <img src="https://practicaltypography.com/images/og-image.jpg?1722181455" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://practicaltypography.com/what-is-typography.html">What is typography? | Butterick’s Practical Typography</a>
+          <div class="card-meta">23 Jan 2022</div>
+          <div class="card-meta card-domain">practicaltypography.com</div>
+        </div>
+        <div class="card-section">
+          <p>Butterick’s Practical Typography</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-23T20:14:49.000Z | tags: fonts-typography, ui-ux -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://theultralinx.com/2013/09/50-amazing-examples-knolling-photography">UltraLinx</a>
+          <div class="card-meta">23 Jan 2022</div>
+          <div class="card-meta card-domain">theultralinx.com</div>
+        </div>
+        <div class="card-section">
+          <p>Creating exceptional content.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-23T12:47:31.000Z | tags: fonts-typography, ui-ux -->
+      <div class="card-image">
+        <img src="https://christiantietze.de/posts/2021/01/hyperlegible-font/2021-02-02_hyperlegible.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://christiantietze.de/posts/2021/01/hyperlegible-font">Atkinson Hyperlegible Font May Be Pretty Good If Your Granny Can&#39;t See Well</a>
+          <div class="card-meta">23 Jan 2022</div>
+          <div class="card-meta card-domain">christiantietze.de</div>
+        </div>
+        <div class="card-section">
+          <p>My grandmother approves of Atkinson Hyperlegible free font for her phone book printout</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-16T22:41:56.000Z | tags: css, fonts-typography -->
+      <div class="card-image">
+        <img src="https://css-tricks.com/wp-json/social-image-generator/v1/image/267485" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://css-tricks.com/css-techniques-and-effects-for-knockout-text">CSS Techniques And Effects For Knockout Text | CSS-Tricks</a>
+          <div class="card-meta">16 Jan 2022</div>
+          <div class="card-meta card-domain">css-tricks.com</div>
+        </div>
+        <div class="card-section">
+          <p>Knockout text is a technique where words are clipped out of an element and reveal the background. In other words, you only see the background because the</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-16T19:17:59.000Z | tags: css, fonts-typography, ui-ux, webdev -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*2YuCOOCjdMEJxg-Lb6G2FA.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://medium.com/refactoring-ui/7-practical-tips-for-cheating-at-design-40c736799886">7 Practical Tips for Cheating at Design</a>
+          <div class="card-meta">16 Jan 2022</div>
+          <div class="card-meta card-domain">medium.com</div>
+        </div>
+        <div class="card-section">
+          <p>Improving your designs with tactics instead of talent.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-16T19:17:26.000Z | tags: fonts-typography -->
+      <div class="card-image">
+        <img src="https://developer.mozilla.org/mdn-social-share.d893525a4fb5fb1f67a2.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Web_fonts">Web fonts - Learn web development | MDN</a>
+          <div class="card-meta">16 Jan 2022</div>
+          <div class="card-meta card-domain">developer.mozilla.org</div>
+        </div>
+        <div class="card-section">
+          <p>Now that you have worked through our articles on text styling fundamentals, it&#39;s time to test your comprehension with our assessment for the module: Typesetting a community school homepage.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-17T00:22:50.000Z | tags: fonts-typography -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://hellohappy.org/beautiful-web-type">Beautiful web type — the best typefaces from the Google web fonts directory</a>
+          <div class="card-meta">17 Dec 2021</div>
+          <div class="card-meta card-domain">hellohappy.org</div>
+        </div>
+        <div class="card-section">
+          <p>A showcase of the best typefaces from the Google web fonts directory.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-13T12:22:01.000Z | tags: fonts-typography, webdev -->
+      <div class="card-image">
+        <img src="https://v1.screenshot.11ty.dev/https%3A%2F%2Fwww.zachleat.com%2Fopengraph%2Fweb%2Fcomprehensive-webfonts%2F%3Fcache%3D20240912/opengraph//" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.zachleat.com/web/comprehensive-webfonts">A Comprehensive Guide to Font Loading Strategies—zachleat.com</a>
+          <div class="card-meta">13 Dec 2021</div>
+          <div class="card-meta card-domain">zachleat.com</div>
+        </div>
+        <div class="card-section">
+          <p>A post by Zach Leatherman (zachleat)</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-06-03T01:40:22.000Z | tags: css, design, ecommerce, fonts-typography, javascript, prodmgmt, webdev -->
+      <div class="card-image">
+        <img src="https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/8a350bf5-9114-420c-b587-fee03ea4acb6/jewellerybox-uk-online-store-scipioerp.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://smashingmagazine.com/2021/06/front-end-performance-online-store-jewellerybox">Improving The Performance Of An Online Store (Case Study)</a>
+          <div class="card-meta">3 Jun 2021</div>
+          <div class="card-meta card-domain">smashingmagazine.com</div>
+        </div>
+        <div class="card-section">
+          <p>Getting a good performance score from Google is hard for any website — but doing so for an online store is even harder. We achieved green scores — even several for mobile. Here is how we did it.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-04-01T01:44:52.000Z | tags: fonts-typography, ui-ux -->
+      <div class="card-image">
+        <img src="https://dynogee.com/gen?id=24m2qx9uethuw6p&amp;title=Font+size+is+useless%3B+let%E2%80%99s+fix+it" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://tonsky.me/blog/font-size">Font size is useless; let’s fix it @ tonsky.me</a>
+          <div class="card-meta">1 Apr 2021</div>
+          <div class="card-meta card-domain">tonsky.me</div>
+        </div>
+        <div class="card-section">
+          <p>What happens when you set fontSize: 32 in your favorite editor</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-03-30T11:24:43.000Z | tags: fonts-typography -->
+      <div class="card-image">
+        <img src="https://aisforfonts.com/wp-content/uploads/2021/02/tanaka-ikko-poster-morisawa-1993_BD.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://aisforfonts.com/sinograms">A is for — Japanese typography: kilograms of sinograms</a>
+          <div class="card-meta">30 Mar 2021</div>
+          <div class="card-meta card-domain">aisforfonts.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-12-25T16:56:40.000Z | tags: fonts-typography -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://frontendmasters.gitbooks.io/front-end-handbook-2017/content/learning/fonts.html">Learn Web Fonts · Front-end Developer Handbook 2017</a>
+          <div class="card-meta">25 Dec 2020</div>
+          <div class="card-meta card-domain">frontendmasters.gitbooks.io</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-12-25T16:56:38.000Z | tags: design, fonts-typography -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://luc.devroye.org/fonts.html">On snot and fonts / Luc Devroye</a>
+          <div class="card-meta">25 Dec 2020</div>
+          <div class="card-meta card-domain">luc.devroye.org</div>
+        </div>
+        <div class="card-section">
+          <p>An encyclopedic site about typefaces and type design, managed by Luc  Devroye</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-12-18T11:24:19.000Z | tags: fonts-typography -->
+      <div class="card-image">
+        <img src="https://outline-prod.imgix.net/20190426-BZ0ISSOD0x70WQSnVPMc?auto=format&amp;q=60&amp;w=1280&amp;s=21c79ef72a04ddc009ccd2ae2e0cf2e1" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://getpocket.com/explore/item/how-this-one-font-took-over-the-world">How this one font took over the world</a>
+          <div class="card-meta">18 Dec 2020</div>
+          <div class="card-meta card-domain">getpocket.com</div>
+        </div>
+        <div class="card-section">
+          <p>It’s the font we deserve, but is it the one we need right now?</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-06-19T10:45:47.000Z | tags: fonts-typography -->
+      <div class="card-image">
+        <img src="https://cdn8.openculture.com/2020/06/18224642/clean_cooper_thumb.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://www.openculture.com/2020/06/why-this-font-is-everywhere.html">Why This Font Is Everywhere: How Cooper Black Became Pop Culture’s Favorite</a>
+          <div class="card-meta">19 Jun 2020</div>
+          <div class="card-meta card-domain">openculture.com</div>
+        </div>
+        <div class="card-section">
+          <p>You know Times New Roman, you know Helvetica, you know Comic Sans — and though you may not realize it, you know Cooper Black as well. Just think of the &#39;VOTE FOR PEDRO&#39; shirt worn in Napoleon Dynamite (and in real life for years thereafter), or a few decades earlier, the cover of Pet Sounds.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-06-01T16:45:12.000Z | tags: fonts-typography -->
+      <div class="card-image">
+        <img src="https://img-cdn.tnwcdn.com/image/tnw-blurple?filter_last=1&amp;fit=1280%2C640&amp;url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F05%2F1-25.jpg&amp;signature=236d4fc67d9b0bf2984eb0d3eff0e44c" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://thenextweb.com/syndication/2020/05/22/a-brief-history-of-typeface-and-its-online-evolution">A brief history of typeface and its online evolution</a>
+          <div class="card-meta">1 Jun 2020</div>
+          <div class="card-meta card-domain">thenextweb.com</div>
+        </div>
+        <div class="card-section">
+          <p>Did you know TNW’s Couch Conference has a track fully dedicated to exploring new design trends this year? Check out the full ‘Sprint’ program here. It’s easy to take books and other printed material for granted. However, before the inventio</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-06-01T16:45:12.000Z | tags: fonts-typography, python, visualization -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fill:1200:632/g:fp:0.48:0.63/1*g_qnEKdR8oL4znQAomZ-Bg.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/creating-typography-using-word-cloud-in-python-9652bd62fa69?source=rss----7f60cf5620c9---4">Creating typography using word cloud in python</a>
+          <div class="card-meta">1 Jun 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>A Picture is worth a thousand words. Literally! there are 2200+ words in this picture. 😱</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-08-20T20:56:55.000Z | tags: fonts-typography -->
+      <div class="card-image">
+        <img src="https://bs-uploads.toptal.io/blackfish-uploads/components/open_graph_image/8957417/og_image/optimized/image_16-407c7cf783ee501754d2613d0cc2e16f.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.toptal.com/designers/typography/font-combinations">Mini Tutorial – A Guide to Font Combinations</a>
+          <div class="card-meta">20 Aug 2019</div>
+          <div class="card-meta card-domain">toptal.com</div>
+        </div>
+        <div class="card-section">
+          <p>Effective font combinations are a hallmark of good design. Designers who master this aspect of typography can make the most basic designs more effective.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

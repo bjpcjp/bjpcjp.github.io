@@ -1,0 +1,290 @@
+---
+layout: post
+title: "hpc"
+date: 2026-03-26
+---
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>hpc &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 27 Mar 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2025-09-03T14:15:09.361Z | tags: quantum, hpc -->
+      <div class="card-image">
+        <img src="https://media.datacenterdynamics.com/media/images/QDK_in_rack.2e16d0ba.fill-280x150.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.datacenterdynamics.com/en/news/oak-ridge-national-laboratory-deploys-diamond-based-quantum-compute-cluster-in-tennessee/">Oak Ridge National Laboratory deploys diamond-based quantum compute cluster in Tennessee</a>
+          <div class="card-meta">3 Sep 2025</div>
+          <div class="card-meta card-domain">datacenterdynamics.com</div>
+        </div>
+        <div class="card-section">
+          <p>The Quantum Brilliance system will be housed at the lab’s Oak Ridge Leadership Computing Facility</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-07-13T18:23:35.623Z | tags: gpus, interconnects, hpc -->
+      <div class="card-image">
+        <img src="https://hgpu.org/img/social-logo.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://hgpu.org/?p=30035">Demystifying NCCL: An In-depth Analysis of GPU Communication Protocols and Algorithms</a>
+          <div class="card-meta">13 Jul 2025</div>
+          <div class="card-meta card-domain">hgpu.org</div>
+        </div>
+        <div class="card-section">
+          <p>The NVIDIA Collective Communication Library (NCCL) is a critical software layer enabling high-performance collectives on large-scale GPU clusters. Despite being open source with a documented API, i…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-11-19T11:42:55.246Z | tags: quantum, physics, hpc -->
+      <div class="card-image">
+        <img src="https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://arxiv.org/abs/2411.10406">How to Build a Quantum Supercomputer</a>
+          <div class="card-meta">19 Nov 2024</div>
+          <div class="card-meta card-domain">arxiv.org</div>
+        </div>
+        <div class="card-section">
+          <p>In the span of four decades, quantum computation has evolved from an intellectual curiosity to a potentially realizable technology. Today, small-scale demonstrations have become possible for...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-10-29T23:06:04.606Z | tags: cpus, hpc, gpus, hbm -->
+      <div class="card-image">
+        <img src="https://www.nextplatform.com/wp-content/uploads/2024/10/nextsilicon-maverick-2-chip-shot-logo.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nextplatform.com/2024/10/29/hpc-gets-a-reconfigurable-dataflow-engine-to-take-on-cpus-and-gpus/">HPC Gets A Reconfigurable Dataflow Engine To Take On CPUs And GPUs</a>
+          <div class="card-meta">29 Oct 2024</div>
+          <div class="card-meta card-domain">nextplatform.com</div>
+        </div>
+        <div class="card-section">
+          <p>No matter how elegant and clever the design is for a compute engine, the difficulty and cost of moving existing – and sometimes very old – code from the</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-05-21T03:18:19.000Z | tags: hpc -->
+      <div class="card-image">
+        <img src="https://www.nextplatform.com/wp-content/uploads/2021/03/hpe-logo.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nextplatform.com/2024/05/20/companies-need-on-premise-hpc-and-for-more-than-ai-too">Companies Need On-Premise HPC – And For More Than AI, Too</a>
+          <div class="card-meta">21 May 2024</div>
+          <div class="card-meta card-domain">nextplatform.com</div>
+        </div>
+        <div class="card-section">
+          <p>Generative AI and the various capacity and latency needs it has for compute and storage is muscling out almost every other topic when conversations turn</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-05-16T17:33:44.000Z | tags: hpc, semiconductors -->
+      <div class="card-image">
+        <img src="https://www.nextplatform.com/wp-content/uploads/2024/03/cerebras-wse-3-wafer.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nextplatform.com/2024/05/15/one-cerebras-wafer-beats-an-exascale-super-at-molecular-dynamics">One Cerebras Wafer Beats An Exascale Super At Molecular Dynamics</a>
+          <div class="card-meta">16 May 2024</div>
+          <div class="card-meta card-domain">nextplatform.com</div>
+        </div>
+        <div class="card-section">
+          <p>We think that waferscale computing is an interesting and even an inevitable concept for certain kinds of compute and memory. But inevitably, the work you</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-04-15T23:05:38.000Z | tags: gpus, hpc -->
+      <div class="card-image">
+        <img src="https://www.nextplatform.com/wp-content/uploads/2024/04/LANL-Venado-Racks-1024x1024.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nextplatform.com/2024/04/15/los-alamos-pushes-the-memory-wall-with-venado-supercomputer">Los Alamos Pushes The Memory Wall With “Venado” Supercomputer</a>
+          <div class="card-meta">15 Apr 2024</div>
+          <div class="card-meta card-domain">nextplatform.com</div>
+        </div>
+        <div class="card-section">
+          <p>Today is the ribbon-cutting ceremony for the “Venado” supercomputer, which was hinted at back in April 2021 when Nvidia announced its plans for its first</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-05-18T10:15:42.000Z | tags: fortran, hpc -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*BIgK4rP5Szbu4CyA" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/why-you-should-consider-using-fortran-as-a-data-scientist-5511e05ef89?source=rss----7f60cf5620c9---4">Why You Should Consider Using Fortran As A Data Scientist</a>
+          <div class="card-meta">18 May 2023</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>An exploration of the benefits that Fortran can bring to Data Science and Machine Learning</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-05-02T23:02:30.000Z | tags: fortran, hpc, cobol -->
+      <div class="card-image">
+        <img src="https://www.nextplatform.com/wp-content/uploads/2019/01/fortran-code-chalkboard.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nextplatform.com/2023/05/02/the-skills-gap-for-fortran-looms-large-in-hpc">The Skills Gap For Fortran Looms Large In HPC</a>
+          <div class="card-meta">2 May 2023</div>
+          <div class="card-meta card-domain">nextplatform.com</div>
+        </div>
+        <div class="card-section">
+          <p>Back in the dawn of time, which is four decades ago in computer science and which was before technical computing went mainstream with the advent of Unix</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-03-23T13:30:25.000Z | tags: hpc -->
+      <div class="card-image">
+        <img src="https://www.nextplatform.com/wp-content/uploads/2022/10/nec-aurora-vector-engine-logo.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nextplatform.com/2023/03/23/is-this-the-end-of-the-line-for-nec-vector-supercomputers">Is This The End Of The Line For NEC Vector Supercomputers?</a>
+          <div class="card-meta">23 Mar 2023</div>
+          <div class="card-meta card-domain">nextplatform.com</div>
+        </div>
+        <div class="card-section">
+          <p>Updated: There is some chatter – some might call it well-informed speculation – going on out there on the Intertubes that Japanese system maker NEC is</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-03-19T10:17:27.000Z | tags: hpc, _r_ -->
+      <div class="card-image">
+        <img src="https://hgpu.org/img/social-logo.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://hgpu.org/?p=28053">Statistical Computing With Graphics Processing Units</a>
+          <div class="card-meta">19 Mar 2023</div>
+          <div class="card-meta card-domain">hgpu.org</div>
+        </div>
+        <div class="card-section">
+          <p>This thesis consists of two main projects and a third project which is provided in the appendix. The contribution of the first project, is a tool set for parallel random number gen- eration on GPUs…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-03-19T10:17:24.000Z | tags: benchmarks, gpus, hpc, hyperparameters -->
+      <div class="card-image">
+        <img src="https://hgpu.org/img/social-logo.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://hgpu.org/?p=28050">Towards a Benchmarking Suite for Kernel Tuners</a>
+          <div class="card-meta">19 Mar 2023</div>
+          <div class="card-meta card-domain">hgpu.org</div>
+        </div>
+        <div class="card-section">
+          <p>As computing system become more complex, it is becoming harder for programmers to keep their codes optimized as the hardware gets updated. Autotuners try to alleviate this by hiding as many archite…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-01-20T01:52:23.000Z | tags: cpus, hpc, interconnects, semiconductors -->
+      <div class="card-image">
+        <img src="https://www.nextplatform.com/wp-content/uploads/2023/01/sea-of-cores-logo-1024x1024.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nextplatform.com/2023/01/19/more-cpu-cores-isnt-always-better-especially-in-hpc">More CPU Cores Isn’t Always Better, Especially In HPC</a>
+          <div class="card-meta">20 Jan 2023</div>
+          <div class="card-meta card-domain">nextplatform.com</div>
+        </div>
+        <div class="card-section">
+          <p>If a few cores are good, then a lot of cores ought to be better. But when it comes to HPC this isn’t always the case, despite what the Top500 ranking –</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-11-15T11:24:24.000Z | tags: deep-learning, hpc, interconnects, semiconductors, sram -->
+      <div class="card-image">
+        <img src="https://cdn.mos.cms.futurecdn.net/QDGHobTS56GF94GsXHu2PV-1200-80.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.tomshardware.com/news/cerebras-reveals-andromeda-a-135-million-core-ai-supercomputer">Cerebras Reveals Andromeda, a 13.5 Million Core AI Supercomputer</a>
+          <div class="card-meta">15 Nov 2022</div>
+          <div class="card-meta card-domain">tomshardware.com</div>
+        </div>
+        <div class="card-section">
+          <p>The world&#39;s largest chip scales to new heights.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-05-14T10:56:45.000Z | tags: cpus, hpc, semiconductors -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.fujitsu.com/global/about/resources/news/press-releases/2019/1202-01.html?_fsi=q8QhaYU5">Fujitsu Begins Shipping Supercomputer Fugaku - Fujitsu Global</a>
+          <div class="card-meta">14 May 2020</div>
+          <div class="card-meta card-domain">fujitsu.com</div>
+        </div>
+        <div class="card-section">
+          <p>Fujitsu Limited today announced that it began shipping the supercomputer Fugaku, which is jointly developed with RIKEN and promoted by the Ministry of Education, Culture, Sports, Science and Technology with the aim of starting general operation between 2021 and 2022. The first machine to be shipped this time is one of the computer units of Fugaku, a supercomputer system comprised of over 150,000 high-performance CPUs connected together. Fujitsu will continue to deliver the units to RIKEN Center for Computational Science in Kobe, Japan, for installation and tuning.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

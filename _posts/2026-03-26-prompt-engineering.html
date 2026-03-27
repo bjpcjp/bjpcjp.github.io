@@ -1,0 +1,1056 @@
+---
+layout: post
+title: "prompt-engineering"
+date: 2026-03-26
+---
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>prompt-engineering &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 27 Mar 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2026-03-04T16:34:22.447Z | tags: llms, best-practices, prompt-engineering, quality, agents -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/$s_!-bY4!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F086c0b14-a03b-4690-aae0-e322b07fbc60_2816x1504.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://open.substack.com/pub/decision/p/harness-engineering-how-to-supervise?r=oc5d&amp;utm_medium=ios">Harness Engineering: How to Supervise Code You Can’t Read</a>
+          <div class="card-meta">4 Mar 2026</div>
+          <div class="card-meta card-domain">open.substack.com</div>
+        </div>
+        <div class="card-section">
+          <p>AI writes the code now. The skill that matters is controlling what it builds.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2026-02-23T23:04:14.479Z | tags: claude, prompt-engineering, best-practices -->
+      <div class="card-image">
+        <img src="https://media.licdn.com/dms/image/v2/D4E22AQHtTVadVAzYGA/feedshare-shrink_1280/B4EZyLoOpDIMAc-/0/1771869104996?e=2147483647&amp;v=beta&amp;t=akTpc8xnKiClJDSdvZIryApCp2cqXVEI7CEjk3SVgAM" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.linkedin.com/posts/andreashorn1_%F0%9D%97%96%F0%9D%97%B9%F0%9D%97%AE%F0%9D%98%82%F0%9D%97%B1%F0%9D%97%B2-%F0%9D%97%A6%F0%9D%97%B8%F0%9D%97%B6%F0%9D%97%B9%F0%9D%97%B9%F0%9D%98%80-%F0%9D%97%B6%F0%9D%98%80-%F0%9D%97%BD%F0%9D%97%BF%F0%9D%97%BC%F0%9D%97%AF%F0%9D%97%AE-share-7431757679267786752--UwS?utm_source=share&amp;utm_medium=member_ios&amp;rcm=ACoAAAAQ_oABqroJaYAjd1pLSvoVsTKPWFYPcIQ">𝗖𝗹𝗮𝘂𝗱𝗲 𝗦𝗸𝗶𝗹𝗹𝘀 𝗶𝘀 𝗽𝗿𝗼𝗯𝗮𝗯𝗹𝘆 𝘁𝗵𝗲 𝗺𝗼𝘀𝘁 𝘂𝗻𝗱𝗲𝗿𝗿𝗮𝘁𝗲𝗱 𝗳𝗲𝗮𝘁𝘂𝗿𝗲 𝗖𝗹𝗮𝘂𝗱𝗲 𝗵𝗮𝘀 𝗯𝘂𝗶𝗹𝘁. If you’re still writing the same prompts in Claude every day… | Andreas Horn | 13 comments</a>
+          <div class="card-meta">23 Feb 2026</div>
+          <div class="card-meta card-domain">linkedin.com</div>
+        </div>
+        <div class="card-section">
+          <p>𝗖𝗹𝗮𝘂𝗱𝗲 𝗦𝗸𝗶𝗹𝗹𝘀 𝗶𝘀 𝗽𝗿𝗼𝗯𝗮𝗯𝗹𝘆 𝘁𝗵𝗲 𝗺𝗼𝘀𝘁 𝘂𝗻𝗱𝗲𝗿𝗿𝗮𝘁𝗲𝗱 𝗳𝗲𝗮𝘁𝘂𝗿𝗲 𝗖𝗹𝗮𝘂𝗱𝗲 𝗵𝗮𝘀 𝗯𝘂𝗶𝗹𝘁.
+
+If you’re still writing the same prompts in Claude every day, you’re doing extra work. Skills fix that. They package your best instructions once, then you reuse them on demand. Result: less repetition, more consistency, and higher quality outputs because the rules stay stable.
+
+𝗕𝗨𝗧
+
+I can only warn you to install Skills you have not vetted. Read the markdown files carefully - or, if it’s outside your expertise, have someone you trust review them. Yes, there are security risks. But the bigger risk is that the Skill is simply bad. And you end up with worse, more generic outputs than if you had just used the model without it.
+
+I wrote a comprehensive full guide on Claude Skills. Subscribe here to get it: https://lnkd.in/dbf74Y9E
+
+𝗔𝗻𝗱 𝗵𝗲𝗿𝗲 𝗮𝗿𝗲 𝗮𝗹𝗹 𝗿𝗲𝘀𝗼𝘂𝗿𝗰𝗲𝘀 𝘁𝗼 𝗵𝗲𝗹𝗽 𝘆𝗼𝘂 𝗴𝗼 𝗱𝗲𝗲𝗽𝗲𝗿 (𝗮𝗹𝗹 𝗳𝗿𝗲𝗲) 𝘁𝗼 𝗲𝗻𝘀𝘂𝗿𝗲 𝘁𝗵𝗲 𝗵𝗶𝗴𝗵𝗲𝘀𝘁 𝗾𝘂𝗮𝗹𝗶𝘁𝘆 𝗼𝘂𝘁𝗽𝘂𝘁: ⬇️
+
+𝘖𝘍𝘍𝘐𝘊𝘐𝘈𝘓 𝘋𝘖𝘊𝘚
+The Unofficial Guide: https://lnkd.in/eNC5QsJp
+Best Practices Guide: https://lnkd.in/emxu8Vsr
+Skills Documentation: https://lnkd.in/eSzfnUNc
+API Reference: https://lnkd.in/erjGW9q5
+MCP Documentation: https://lnkd.in/ejKJuNEX
+
+𝘉𝘓𝘖𝘎 𝘗𝘖𝘚𝘛𝘚
+Introducing Agent Skills: https://lnkd.in/enrM2tWr
+Engineering Blog: https://lnkd.in/eRn5aYyQ
+Skills Explained: https://lnkd.in/e8zEX2Fe
+How to Create Skills: https://lnkd.in/eDaug-WJ
+Skills for Claude Code: https://lnkd.in/eQpjSyBW
+Frontend Design Skills: https://lnkd.in/efPCkgWb
+
+𝘌𝘟𝘈𝘔𝘗𝘓𝘌 𝘚𝘒𝘐𝘓𝘓𝘚
+Anthropic&#39;s Official Library: https://lnkd.in/er2tG4ZB
+Partner Skills Directory: https://lnkd.in/ejUcTPjT
+
+𝘊𝘖𝘔𝘔𝘜𝘕𝘐𝘛𝘠 𝘓𝘐𝘉𝘙𝘈𝘙𝘐𝘌𝘚
+Skills.sh: skills.sh
+SkillsMP: skillsmp.com
+Smithery: smithery.ai/skills
+SkillHub: skillhub.club
+ | 13 comments on LinkedIn</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2026-02-21T12:04:05.313Z | tags: claude, agents, llms, prompt-engineering, command-line -->
+      <div class="card-image">
+        <img src="https://www.notion.so/image/attachment%3A17eae015-00f4-4de9-a5a6-9c81d2da28f9%3ASocialMediaPreviewImage.png?table=block&amp;id=2ff8d191-e151-8138-9405-c1a10d0229c9&amp;spaceId=0c08d191-e151-814a-bb81-00033d26e436&amp;width=2000&amp;userId=&amp;cache=v2" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.notion.so/Claude-Code-Beginners-Guide-Multi-Agent-Orchestration-Run-Claude-Code-Like-a-5-Person-Team-2ff8d191e15181389405c1a10d0229c9">🐣(Claude Code Beginners Guide) Multi-Agent Orchestration: Run Claude Code Like a 5-Person Team | Notion</a>
+          <div class="card-meta">21 Feb 2026</div>
+          <div class="card-meta card-domain">notion.so</div>
+        </div>
+        <div class="card-section">
+          <p>Quick note before you jump in:</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2026-01-20T14:14:30.771Z | tags: reasoning, llms, prompt-engineering -->
+      <div class="card-image">
+        <img src="https://i0.wp.com/amanxai.com/wp-content/uploads/2026/01/Add-Reasoning-Skills-to-Your-LLM-Apps.png?fit=1280%2C720&amp;ssl=1" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://amanxai.com/2026/01/20/add-reasoning-skills-to-your-llm-apps/">Add Reasoning Skills to Your LLM Apps | Aman Kharwal</a>
+          <div class="card-meta">20 Jan 2026</div>
+          <div class="card-meta card-domain">amanxai.com</div>
+        </div>
+        <div class="card-section">
+          <p>In this article, I’ll walk you through a guided project to add reasoning skills to your LLM apps. Add Reasoning Skills to Your LLM Apps.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2026-01-13T21:21:25.203Z | tags: prompt-engineering, llms -->
+      <div class="card-image">
+        <img src="https://images.ctfassets.net/jdtwqhzvc2n1/6PTJl3Wssuvl5m3nljR103/21ab6a44da755c1cf2dca3b8fdd4ad08/cool-guys.png?w=800&amp;q=75" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://venturebeat.com/orchestration/this-new-dead-simple-prompt-technique-boosts-accuracy-on-llms-by-up-to-76-on">This dead simple prompt technique boosts accuracy on LLMs by up to 76%</a>
+          <div class="card-meta">13 Jan 2026</div>
+          <div class="card-meta card-domain">venturebeat.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2026-01-07T13:57:22.333Z | tags: prompt-engineering, claude -->
+      <div class="card-image">
+        <img src="https://images.ctfassets.net/jdtwqhzvc2n1/4noz34EAOxR22KmaNc7jXi/ea6fa9616bdd66f61253b5b69f662527/INsm1_lvrE4rQPmTkgC_N.png?w=800&amp;q=75" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://venturebeat.com/technology/how-ralph-wiggum-went-from-the-simpsons-to-the-biggest-name-in-ai-right-now">How Ralph Wiggum went from &#39;The Simpsons&#39; to the biggest name in AI right now</a>
+          <div class="card-meta">7 Jan 2026</div>
+          <div class="card-meta card-domain">venturebeat.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-12-19T13:14:40.513Z | tags: ngrok, prompt-engineering -->
+      <div class="card-image">
+        <img src="https://frontend-blog-ngrok.vercel.app/blog-assets/images/2025-12-16-prompt-caching/og.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://ngrok.com/blog/prompt-caching/">Prompt caching: 10x cheaper LLM tokens, but how? | ngrok blog</a>
+          <div class="card-meta">19 Dec 2025</div>
+          <div class="card-meta card-domain">ngrok.com</div>
+        </div>
+        <div class="card-section">
+          <p>A far more detailed explanation of prompt caching than anyone asked for.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-10-17T18:51:45.078Z | tags: llms, prompt-engineering -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://venturebeat.com/ai/researchers-find-adding-this-one-simple-sentence-to-prompts-makes-ai-models">https://venturebeat.com/ai/researchers-find-adding-this-one-simple-sentence-to-prompts-makes-ai-models</a>
+          <div class="card-meta">17 Oct 2025</div>
+          <div class="card-meta card-domain">venturebeat.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-10-14T22:33:40.010Z | tags: agents, prompt-engineering -->
+      <div class="card-image">
+        <img src="https://steipete.me/posts/just-talk-to-it/index.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://steipete.me/posts/just-talk-to-it#do-you-do-spec-driven-development">Just Talk To It - the no-bs Way of Agentic Engineering | Peter Steinberger</a>
+          <div class="card-meta">14 Oct 2025</div>
+          <div class="card-meta card-domain">steipete.me</div>
+        </div>
+        <div class="card-section">
+          <p>A practical guide to working with AI coding agents without the hype.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-09-03T22:02:13.515Z | tags: llms, prompt-engineering -->
+      <div class="card-image">
+        <img src="https://cdn.arstechnica.net/wp-content/uploads/2025/09/GettyImages-1196287382-1152x648-1756925572.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://arstechnica.com/science/2025/09/these-psychological-tricks-can-get-llms-to-respond-to-forbidden-prompts/">These psychological tricks can get LLMs to respond to “forbidden” prompts</a>
+          <div class="card-meta">3 Sep 2025</div>
+          <div class="card-meta card-domain">arstechnica.com</div>
+        </div>
+        <div class="card-section">
+          <p>Study shows how patterns in LLM training data can lead to “parahuman” responses.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-08-30T01:45:41.717Z | tags: prompt-engineering, llms -->
+      <div class="card-image">
+        <img src="https://res.cloudinary.com/lesswrong-2-0/image/upload/c_fill,ar_1.91,g_auto/SocialPreview/zi3phibhuhjpylqg2zhx" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.lesswrong.com/posts/YtE2NQxnHJH8cJAEF/method-iteration-an-llm-prompting-technique-1">Method Iteration: An LLM Prompting Technique</a>
+          <div class="card-meta">30 Aug 2025</div>
+          <div class="card-meta card-domain">lesswrong.com</div>
+        </div>
+        <div class="card-section">
+          <p>TLDR: Method Iteration is a prompting technique that gives better responses to hard problems. …</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-08-03T22:02:10.298Z | tags: llms, prompt-engineering, benchmarks, context-graphs -->
+      <div class="card-image">
+        <img src="https://www.marktechpost.com/wp-content/uploads/2025/08/Screenshot-2025-08-03-at-2.21.48-PM.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.marktechpost.com/2025/08/03/a-technical-roadmap-to-context-engineering-in-llms-mechanisms-benchmarks-and-open-challenges/">A Technical Roadmap to Context Engineering in LLMs: Mechanisms, Benchmarks, and Open Challenges</a>
+          <div class="card-meta">3 Aug 2025</div>
+          <div class="card-meta card-domain">marktechpost.com</div>
+        </div>
+        <div class="card-section">
+          <p>Context engineering for large language models—frameworks, architectures, and strategies to optimize AI reasoning, and scalability</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-07-26T20:06:38.778Z | tags: prompt-engineering -->
+      <div class="card-image">
+        <img src="https://static.simonwillison.net/static/2025/spark-card.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://simonwillison.net/tags/system-prompts/">Simon Willison on system-prompts</a>
+          <div class="card-meta">26 Jul 2025</div>
+          <div class="card-meta card-domain">simonwillison.net</div>
+        </div>
+        <div class="card-section">
+          <p>42 posts tagged ‘system-prompts’. The hidden prompts that LLM applications use to specify how they should behave.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-07-13T22:09:35.659Z | tags: llms, command-line, search, prompt-engineering -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/$s_!iGr0!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F676afdba-22cb-4812-a8a8-d13ede1e5365_3000x2250.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://sidsaladi.substack.com/p/perplexity-101-ultimate-guide-to">🔍 Perplexity 101: Ultimate Guide to Deep Search, Labs, Templates &amp; 53 Pro Prompts</a>
+          <div class="card-meta">13 Jul 2025</div>
+          <div class="card-meta card-domain">sidsaladi.substack.com</div>
+        </div>
+        <div class="card-section">
+          <p>Your complete playbook for transforming how you research with AI&#39;s most powerful search engine</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-06-28T17:31:21.083Z | tags: prompt-engineering -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/$s_!DzGU!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa6b42f91-d4fb-4a03-97d4-68b9a118f5ec_1024x1024.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://jtnovelo2131.substack.com/p/build-a-memory-for-your-ai-the-no?utm_source=share&amp;utm_medium=android&amp;r=5kk0f7&amp;triedRedirect=true">Build a &#39;Memory&#39; for Your AI: The No-Code Guide to System Prompting</a>
+          <div class="card-meta">28 Jun 2025</div>
+          <div class="card-meta card-domain">jtnovelo2131.substack.com</div>
+        </div>
+        <div class="card-section">
+          <p>AI Rabbit Hole | Date: June 21, 2025</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-06-22T23:18:23.617Z | tags: prompt-engineering -->
+      <div class="card-image">
+        <img src="https://opengraph.githubassets.com/c5a00545ee71beaf7a68dd0b3706616bc1190733a697fadc15448554629a2aa0/HeyNina101/ai-agent-starter-kit" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://github.com/HeyNina101/ai-agent-starter-kit/blob/main/expert-guides/07-google-prompt-engineering.pdf">ai-agent-starter-kit/expert-guides/07-google-prompt-engineering.pdf at main · HeyNina101/ai-agent-starter-kit</a>
+          <div class="card-meta">22 Jun 2025</div>
+          <div class="card-meta card-domain">github.com</div>
+        </div>
+        <div class="card-section">
+          <p>A collection of expert guides and tutorials on how to build real AI agents. Includes resources from OpenAI, Anthropic, Google, and others working on production-level systems - HeyNina101/ai-agent-s...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-05-27T13:43:56.426Z | tags: claude, llms, prompt-engineering, llm-willison -->
+      <div class="card-image">
+        <img src="https://static.simonwillison.net/static/2025/opus-sonnet-diff.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://simonwillison.net/2025/May/25/claude-4-system-prompt/">Highlights from the Claude 4 system prompt</a>
+          <div class="card-meta">27 May 2025</div>
+          <div class="card-meta card-domain">simonwillison.net</div>
+        </div>
+        <div class="card-section">
+          <p>Anthropic publish most of the system prompts for their chat models as part of their release notes. They recently shared the new prompts for both Claude Opus 4 and Claude …</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-05-15T20:42:52.520Z | tags: prompt-engineering, openai -->
+      <div class="card-image">
+        <img src="https://cookbook-1nc2zikxl-openai.vercel.app/og?title=GPT%204.1%20Prompting%20Guide&amp;tags=api,responses" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://cookbook.openai.com/examples/gpt4-1_prompting_guide">GPT-4.1 Prompting Guide | OpenAI Cookbook</a>
+          <div class="card-meta">15 May 2025</div>
+          <div class="card-meta card-domain">cookbook.openai.com</div>
+        </div>
+        <div class="card-section">
+          <p>Open-source examples and guides for building with the OpenAI API. Browse a collection of snippets, advanced techniques and walkthroughs. Share your own examples and guides.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-05-07T10:49:35.368Z | tags: prompt-engineering, llms -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://drive.google.com/file/d/1AbaBYbEa_EbPelsT40-vj64L-2IwUJHy/view">22365_3_Prompt Engineering_v7 (1).pdf</a>
+          <div class="card-meta">7 May 2025</div>
+          <div class="card-meta card-domain">drive.google.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-05-07T10:48:42.448Z | tags: prompt-engineering, llms -->
+      <div class="card-image">
+        <img src="https://www.kaggle.com/static/images/logos/kaggle-logo-opengraph.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.kaggle.com/whitepaper-prompt-engineering">Prompt Engineering | Kaggle</a>
+          <div class="card-meta">7 May 2025</div>
+          <div class="card-meta card-domain">kaggle.com</div>
+        </div>
+        <div class="card-section">
+          <p>Kaggle is the world’s largest data science community with powerful tools and resources to help you achieve your data science goals.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-04-16T23:06:37.244Z | tags: llms, prompt-engineering, agents, claude -->
+      <div class="card-image">
+        <img src="https://ampcode.com/og-how-to-build-an-agent.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://ampcode.com/how-to-build-an-agent">How To Build An Agent | Amp</a>
+          <div class="card-meta">16 Apr 2025</div>
+          <div class="card-meta card-domain">ampcode.com</div>
+        </div>
+        <div class="card-section">
+          <p>Building a fully functional, code-editing agent in less than 400 lines.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-04-10T10:55:34.906Z | tags: llms, prompt-engineering, llm-willison -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://simonwillison.net/2025/Apr/9/an-llm-query-understanding-service/#atom-everything">An LLM Query Understanding Service</a>
+          <div class="card-meta">10 Apr 2025</div>
+          <div class="card-meta card-domain">simonwillison.net</div>
+        </div>
+        <div class="card-section">
+          <p>Doug Turnbull recently wrote about how [all search is structured now](https://softwaredoug.com/blog/2025/04/02/all-search-structured-now):  Many times, even a small open source LLM will be able to turn a search query into reasonable …</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-03-26T20:27:15.494Z | tags: llms, prompt-engineering, llm-willison -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://simonwillison.net/2025/Mar/26/function-calling-with-gemma/">Function calling with Gemma</a>
+          <div class="card-meta">26 Mar 2025</div>
+          <div class="card-meta card-domain">simonwillison.net</div>
+        </div>
+        <div class="card-section">
+          <p>Google&#39;s Gemma 3 model (the 27B variant is particularly capable, I&#39;ve been trying it out [via Ollama](https://ollama.com/library/gemma3)) supports function calling exclusively through prompt engineering. The official documentation describes two recommended …</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-02-24T00:28:02.482Z | tags: llms, prompt-engineering -->
+      <div class="card-image">
+        <img src="https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/8fe61654-58ef-4d09-8b20-eae84bb194fa/Prompt_Principles_Infographic.png?t=1738815077" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://blog.tobiaszwingmann.com/p/5-principles-for-writing-effective-prompts">5 Principles for Writing Effective Prompts (2025 Update)</a>
+          <div class="card-meta">24 Feb 2025</div>
+          <div class="card-meta card-domain">blog.tobiaszwingmann.com</div>
+        </div>
+        <div class="card-section">
+          <p>Solid techniques to get really good results from any LLM</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-02-24T00:26:40.073Z | tags: prompt-engineering, llms -->
+      <div class="card-image">
+        <img src="https://media.licdn.com/dms/image/v2/D4E22AQGOS-pw8GvRdw/feedshare-shrink_800/B4EZUos180GwAk-/0/1740144599715?e=2147483647&amp;v=beta&amp;t=D_i5Vk3L2tOFUqK76RU2suKXd2qByYWYfwgOg7hUraU" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.linkedin.com/posts/tobias-zwingmann_openais-president-greg-brockman-recently-activity-7298713328556691458-VRM_?utm_source=share&amp;utm_medium=member_ios&amp;rcm=ACoAAAAQ_oABqroJaYAjd1pLSvoVsTKPWFYPcIQ">Greg Brockman shared this template for prompting</a>
+          <div class="card-meta">24 Feb 2025</div>
+          <div class="card-meta card-domain">linkedin.com</div>
+        </div>
+        <div class="card-section">
+          <p>OpenAI&amp;#39;s president Greg Brockman recently shared this cool template for prompting their reasoning models o1/o3. Turns out, this is great for ANY reasoning… | 32 comments on LinkedIn</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-01-26T01:41:23.161Z | tags: prompt-engineering, llm-willison, gpt -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://simonwillison.net/2025/Jan/26/chatgpt-operator-system-prompt/#atom-everything">ChatGPT Operator system prompt</a>
+          <div class="card-meta">26 Jan 2025</div>
+          <div class="card-meta card-domain">simonwillison.net</div>
+        </div>
+        <div class="card-section">
+          <p>Johann Rehberger snagged a copy of the [ChatGPT Operator](https://simonwillison.net/2025/Jan/23/introducing-operator/) system prompt. As usual, the system prompt doubles as better written documentation than any of the official sources. It asks users …</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-01-22T12:50:20.584Z | tags: prompt-engineering, rubyonrails -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://open.substack.com/pub/andrewships/p/prompt-driven-development?r=oc5d&amp;utm_medium=ios">Inbox | Substack</a>
+          <div class="card-meta">22 Jan 2025</div>
+          <div class="card-meta card-domain">open.substack.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-01-09T16:13:15.963Z | tags: prompt-engineering, llms -->
+      <div class="card-image">
+        <img src="https://machinelearningmastery.com/wp-content/uploads/2025/01/mlm-7-next-gen-prompting-techniques.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://machinelearningmastery.com/7-next-generation-prompt-engineering-techniques/">7 Next-Generation Prompt Engineering Techniques - MachineLearningMastery.com</a>
+          <div class="card-meta">9 Jan 2025</div>
+          <div class="card-meta card-domain">machinelearningmastery.com</div>
+        </div>
+        <div class="card-section">
+          <p>[caption align=</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-12-05T12:07:43.246Z | tags: llms, prompt-engineering -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*KKKdVTkdU_39D7lrlw4Ugw.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/build-a-general-purpose-ai-agent-c40be49e7400?source=rss----7f60cf5620c9---4">How to Build a General-Purpose LLM Agent</a>
+          <div class="card-meta">5 Dec 2024</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>A Step-by-Step Guide</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-06-30T05:50:02.000Z | tags: prompt-engineering, gpt -->
+      <div class="card-image">
+        <img src="https://www.marktechpost.com/wp-content/uploads/2024/06/0AeV8JO6TgW9AcdvLNrGNA.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.marktechpost.com/2024/06/29/a-comprehensive-overview-of-prompt-engineering-for-chatgpt">A Comprehensive Overview of Prompt Engineering for ChatGPT</a>
+          <div class="card-meta">30 Jun 2024</div>
+          <div class="card-meta card-domain">marktechpost.com</div>
+        </div>
+        <div class="card-section">
+          <p>Prompt engineering is crucial to leveraging ChatGPT&#39;s capabilities, enabling users to elicit relevant, accurate, high-quality responses from the model. As language models like ChatGPT become more sophisticated, mastering the art of crafting effective prompts has become essential. This comprehensive overview delves into prompt engineering principles, techniques, and best practices, providing a detailed understanding drawn from multiple authoritative sources. Understanding Prompt Engineering Prompt engineering involves the deliberate design and refinement of input prompts to influence the output of a language model like ChatGPT. The efficacy of a prompt directly impacts the relevance and coherence of the AI&#39;s responses. Effective prompt engineering</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-06-30T05:47:54.000Z | tags: prompt-engineering, gpt -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*orqjNGZVQ6I91VLo8rIAeA.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://medium.com/@bp_64302/chatgpt-prompt-for-an-evidence-based-narrative-2df524c53569">ChatGPT Prompt for an Evidence-Based Narrative | by Brad Porter | Jun, 2024</a>
+          <div class="card-meta">30 Jun 2024</div>
+          <div class="card-meta card-domain">medium.com</div>
+        </div>
+        <div class="card-section">
+          <p>Amazon trained me to write evidence-based narratives. I love the format. It’s a clear and compelling way to present information to drive…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-06-22T21:46:12.000Z | tags: llms, prompt-engineering -->
+      <div class="card-image">
+        <img src="https://www.marktechpost.com/wp-content/uploads/2024/06/Screenshot-2024-06-21-at-9.14.00-PM.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.marktechpost.com/2024/06/21/some-commonly-used-advanced-prompt-engineering-techniques-explained-using-simple-human-analogies">Some Commonly Used Advanced Prompt Engineering Techniques Explained Using S</a>
+          <div class="card-meta">22 Jun 2024</div>
+          <div class="card-meta card-domain">marktechpost.com</div>
+        </div>
+        <div class="card-section">
+          <p>In the developing field of Artificial Intelligence (AI), the ability to think quickly has become increasingly significant. The necessity of communicating with AI models efficiently becomes critical as these models get more complex. In this article we will explain a number of sophisticated prompt engineering strategies, simplifying these difficult ideas through straightforward human metaphors. The techniques and their examples have been discussed to see how they resemble human approaches to problem-solving. Chaining Methods Analogy: Solving a problem step-by-step. Chaining techniques are similar to solving an issue one step at a time. Chaining techniques include directing the AI via a systematic</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-06-12T06:23:24.000Z | tags: llms, prodmgmt, prompt-engineering -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1fde139e-dc49-4a91-ae41-7e757873532b_1920x1440.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.lennysnewsletter.com/p/how-to-use-perplexity-in-your-pm">How to use Perplexity in your PM work</a>
+          <div class="card-meta">12 Jun 2024</div>
+          <div class="card-meta card-domain">lennysnewsletter.com</div>
+        </div>
+        <div class="card-section">
+          <p>27 examples (with actual prompts) of how product managers are using Perplexity today</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-06-11T14:04:45.000Z | tags: llms, prompt-engineering -->
+      <div class="card-image">
+        <img src="https://sloanreview.mit.edu/wp-content/uploads/2024/06/2024SUM_Radar_3Things-2400x1260-1-1200x630.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://sloanreview.mit.edu/article/three-things-to-know-about-prompting-llms">Three Things to Know About Prompting LLMs</a>
+          <div class="card-meta">11 Jun 2024</div>
+          <div class="card-meta card-domain">sloanreview.mit.edu</div>
+        </div>
+        <div class="card-section">
+          <p>Apply these techniques when crafting prompts for large language models to elicit more relevant responses.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-05-20T02:09:45.000Z | tags: prompt-engineering -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://thenameless.net/astral-kit/anthropic-peit-00">Intro &amp; Table of Contents</a>
+          <div class="card-meta">20 May 2024</div>
+          <div class="card-meta card-domain">thenameless.net</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-05-11T20:33:44.000Z | tags: llms, prompt-engineering -->
+      <div class="card-image">
+        <img src="https://www.marktechpost.com/wp-content/uploads/2024/05/Anthropic-Gif-1024x576.gif" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.marktechpost.com/2024/05/10/anthropic-ai-launches-a-prompt-engineering-tool-that-generates-production-ready-prompts-in-the-anthropic-console">Anthropic AI Launches a Prompt Engineering Tool that Generates Production-R</a>
+          <div class="card-meta">11 May 2024</div>
+          <div class="card-meta card-domain">marktechpost.com</div>
+        </div>
+        <div class="card-section">
+          <p>Generative AI (GenAI) tools have come a long way. Believe it or not, the first generative AI tools were introduced in the 1960s in a Chatbot. Still, it was only in 2014 that generative adversarial networks (GANs) were introduced, a type of Machine Learning (ML) algorithm that allowed generative AI to finally create authentic images, videos, and audio of real people. In 2024, we can create anything imaginable using generative AI tools like ChatGPT, DALL-E, and others.  However, there is a problem. We can use those AI tools but can not get the most out of them or use them</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-02-29T22:43:49.000Z | tags: prompt-engineering -->
+      <div class="card-image">
+        <img src="https://www.marktechpost.com/wp-content/uploads/2024/02/Screenshot-2024-02-20-at-3.44.55-PM.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.marktechpost.com/2024/02/20/unlocking-ais-potential-a-comprehensive-survey-of-prompt-engineering-techniques">Unlocking AI’s Potential: A Comprehensive Survey of Prompt Engineering Tech</a>
+          <div class="card-meta">29 Feb 2024</div>
+          <div class="card-meta card-domain">marktechpost.com</div>
+        </div>
+        <div class="card-section">
+          <p>Prompt engineering has burgeoned into a pivotal technique for augmenting the capabilities of large language models (LLMs) and vision-language models (VLMs), utilizing task-specific instructions or prompts to amplify model efficacy without altering core model parameters. These prompts range from natural language instructions that provide context to guide the model to learning vector representations that activate relevant knowledge, fostering success in myriad applications like question-answering and commonsense reasoning. Despite its burgeoning use, a systematic organization and understanding of the diverse prompt engineering methods still need to be discovered. This survey by researchers from the Indian Institute of Technology Patna, Stanford University,</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-02-29T05:13:52.000Z | tags: prompt-engineering -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:795/1*q75Lv523Rr13bLRnQVSiXQ.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/an-introduction-to-prompting-for-llms-61d36aec2048?source=rss----7f60cf5620c9---4">An Introduction to Prompting for LLMs</a>
+          <div class="card-meta">29 Feb 2024</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>How do we communicate effectively with LLMs?</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-02-28T17:43:01.000Z | tags: prompt-engineering, gpt -->
+      <div class="card-image">
+        <img src="https://media.wired.com/photos/641df3ef11b9b75446f8f278/191:100/w_1280,c_limit/11-Creative-ChatGPT-Prompts-Gear-GettyImages-1433912783.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.wired.com/story/17-tips-better-chatgpt-prompts">17 Tips to Take Your ChatGPT Prompts to the Next Level</a>
+          <div class="card-meta">28 Feb 2024</div>
+          <div class="card-meta card-domain">wired.com</div>
+        </div>
+        <div class="card-section">
+          <p>Sure, anyone can use OpenAI’s chatbot. But with smart engineering, you can get way more interesting results.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-02-22T06:20:02.000Z | tags: prompt-engineering -->
+      <div class="card-image">
+        <img src="https://www.webdesignerdepot.com/assets/posts/featured/_1200x630_crop_center-center_82_none/ai_prompts.jpg?mtime=1706815050" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.webdesignerdepot.com/ai-prompts">The Art of Engineering AI Prompts</a>
+          <div class="card-meta">22 Feb 2024</div>
+          <div class="card-meta card-domain">webdesignerdepot.com</div>
+        </div>
+        <div class="card-section">
+          <p>In the rapidly evolving world of artificial intelligence, the ability to communicate effectively with AI tools has become an indispensable skill. Whether you&#39;re generating content, solving complex data problems, or creating stunning digital art, the quality of the outcomes you receive is directly…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-10-20T01:13:24.000Z | tags: llms, prompt-engineering -->
+      <div class="card-image">
+        <img src="https://www.kdnuggets.com/wp-content/uploads/chain-of-density-header-3.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.kdnuggets.com/unlocking-gpt-4-summarization-with-chain-of-density-prompting">Unlocking GPT-4 Summarization with Chain of Density Prompting</a>
+          <div class="card-meta">20 Oct 2023</div>
+          <div class="card-meta card-domain">kdnuggets.com</div>
+        </div>
+        <div class="card-section">
+          <p>Unlock the power of GPT-4 summarization with Chain of Density (CoD), a technique that attempts to balance information density for high-quality summaries.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-10-07T17:29:02.000Z | tags: llms, prompt-engineering -->
+      <div class="card-image">
+        <img src="https://www.kdnuggets.com/wp-content/uploads/skeleton-of-thought-header.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.kdnuggets.com/parallel-processing-in-prompt-engineering-the-skeleton-of-thought-technique">Parallel Processing in Prompt Engineering: The Skeleton-of-Thought Techniqu</a>
+          <div class="card-meta">7 Oct 2023</div>
+          <div class="card-meta card-domain">kdnuggets.com</div>
+        </div>
+        <div class="card-section">
+          <p>Explore how the Skeleton-of-Thought prompt engineering technique enhances generative AI by reducing latency, offering structured output, and optimizing projects.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-10-03T19:46:02.000Z | tags: prompt-engineering, arxiv, gpt -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://arxiv.org/pdf/2302.11382.pdf">A Prompt Pattern Catalog</a>
+          <div class="card-meta">3 Oct 2023</div>
+          <div class="card-meta card-domain">arxiv.org</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-09-25T23:25:36.000Z | tags: llms, prompt-engineering -->
+      <div class="card-image">
+        <img src="https://devblogs.microsoft.com/ise/wp-content/uploads/sites/55/2023/06/prompt-engineering-may23.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://devblogs.microsoft.com/ise/2023/06/27/gpt-summary-prompt-engineering">Large Language Model Prompt Engineering for Complex Summarization - ISE Dev</a>
+          <div class="card-meta">25 Sep 2023</div>
+          <div class="card-meta card-domain">devblogs.microsoft.com</div>
+        </div>
+        <div class="card-section">
+          <p>Learn how to use GPT / LLMs to create complex summaries such as for medical text</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-09-25T23:25:21.000Z | tags: prompt-engineering -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F09361104-059f-437d-9ebc-f9569678a76e_1456x816.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.exponentialview.co/p/promptpack-using-code-interpreter">Promptpack: Using Code Interpreter to crack your marketing funnel</a>
+          <div class="card-meta">25 Sep 2023</div>
+          <div class="card-meta card-domain">exponentialview.co</div>
+        </div>
+        <div class="card-section">
+          <p>Our first Promptpack for businesses</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-08-31T20:03:51.000Z | tags: llms, prompt-engineering -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*ZcfH-qxXT4AYAqwr" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/prompt-engineering-how-to-trick-ai-into-solving-your-problems-7ce1ed3b553f">Prompt Engineering — How to trick AI into solving your problems</a>
+          <div class="card-meta">31 Aug 2023</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>7 prompting tricks, Langchain, and Python example code</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-08-25T22:52:43.000Z | tags: llms, prompt-engineering -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*Nl-5C1WBW4XdGkNI" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/a-practical-introduction-to-llms-65194dda1148">A Practical Introduction to LLMs</a>
+          <div class="card-meta">25 Aug 2023</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>3 levels of using LLMs in practice</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-08-14T13:07:20.000Z | tags: prompt-engineering -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://docs.cohere.com/docs/chaining-prompts">Chaining Prompts</a>
+          <div class="card-meta">14 Aug 2023</div>
+          <div class="card-meta card-domain">docs.cohere.com</div>
+        </div>
+        <div class="card-section">
+          <p>In this chapter, you&#39;ll learn how to concatenate multiple endpoints in order to generate text. You&#39;ll apply this by creating a story.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-07-28T13:23:14.000Z | tags: llms, prompt-engineering -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*g5Q-4lGt9UySnOK0JRQiPg.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/chain-of-thought-prompting-for-llms-33c963eead38?source=rss----7f60cf5620c9---4">Chain of Thought Prompting for LLMs</a>
+          <div class="card-meta">28 Jul 2023</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>A practical and simple approach for “reasoning” with LLMs</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-07-22T23:13:16.000Z | tags: prompt-engineering -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3d72fea3-99be-4fbe-942d-f0531b8b24b3_1024x1024.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://thesequence.substack.com/p/edge-309-what-is-active-prompting">Edge 309: What is Active Prompting?</a>
+          <div class="card-meta">22 Jul 2023</div>
+          <div class="card-meta card-domain">thesequence.substack.com</div>
+        </div>
+        <div class="card-section">
+          <p>Understanding one of the most effective techniques to improve the effectiveness of prompts in LLM applications.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-07-12T19:05:27.000Z | tags: llms, prompt-engineering, reasoning -->
+      <div class="card-image">
+        <img src="https://www.kdnuggets.com/wp-content/uploads/cot-brain-model-chains.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.kdnuggets.com/2023/07/power-chain-thought-prompting-large-language-models.html">Unraveling the Power of Chain-of-Thought Prompting in Large Language Models</a>
+          <div class="card-meta">12 Jul 2023</div>
+          <div class="card-meta card-domain">kdnuggets.com</div>
+        </div>
+        <div class="card-section">
+          <p>This article delves into the concept of Chain-of-Thought (CoT) prompting, a technique that enhances the reasoning capabilities of large language models (LLMs). It discusses the principles behind CoT prompting, its application, and its impact on the performance of LLMs.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-07-12T19:01:37.000Z | tags: prompt-engineering, gpt -->
+      <div class="card-image">
+        <img src="https://www.practicalecommerce.com/wp-content/uploads/2023/06/10-Tools-and-Communities-for-ChatGPT-Prompt-Ideas.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.practicalecommerce.com/tools-and-communities-for-ai-prompt-inspiration">10 Tools for ChatGPT Prompt Ideas - Practical Ecommerce</a>
+          <div class="card-meta">12 Jul 2023</div>
+          <div class="card-meta card-domain">practicalecommerce.com</div>
+        </div>
+        <div class="card-section">
+          <p>An effective prompt is the first step in benefitting from ChatGPT. That&#39;s the challenge — an effective prompt.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-07-10T14:38:58.000Z | tags: prompt-engineering, gpt -->
+      <div class="card-image">
+        <img src="https://media.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fh50vscx6k1z5zlbkjdes.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/kanani_nirav/chatgpt-prompts-a-guide-for-developers-p6m">ChatGPT Prompts: A Guide for Developers ?‍?</a>
+          <div class="card-meta">10 Jul 2023</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>In this article, we will demonstrate how to use different prompts to ask ChatGPT for help and make...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-05-28T16:25:39.000Z | tags: prompt-engineering -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*4q-D4si5XBmcPph7jhOcdA.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://medium.com/towards-data-science/the-art-of-prompt-design-use-clear-syntax-4fc846c1ebd5">The Art of Prompt Design: Use Clear Syntax</a>
+          <div class="card-meta">28 May 2023</div>
+          <div class="card-meta card-domain">medium.com</div>
+        </div>
+        <div class="card-section">
+          <p>Explore how clear syntax can enable you to communicate intent to language models, and also help ensure that outputs are easy to parse</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-05-28T16:01:45.000Z | tags: ecommerce, keywords-ppc-seo, prompt-engineering, gpt -->
+      <div class="card-image">
+        <img src="https://www.practicalecommerce.com/wp-content/uploads/2023/05/6-ChatGPT-Prompts-for-Text-Analysis.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.practicalecommerce.com/chatgpt-prompts-for-text-analysis">ChatGPT Prompts for Text Analysis</a>
+          <div class="card-meta">28 May 2023</div>
+          <div class="card-meta card-domain">practicalecommerce.com</div>
+        </div>
+        <div class="card-section">
+          <p>ChatGPT can generate usable content. But it can also analyze existing content — articles, descriptions — and suggest improvements for SEO and social media.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-05-28T10:38:18.000Z | tags: gpt, llms, prompt-engineering -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*PPLOArQM0wXZ5V55VbTNYA.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/the-art-of-prompt-design-prompt-boundaries-and-token-healing-3b2448b0be38">The Art of Prompt Design: Prompt Boundaries and Token Healing</a>
+          <div class="card-meta">28 May 2023</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Learn how standard greedy tokenization introduces a subtle and powerful bias that can have all kinds of unintended consequences.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-05-27T18:45:14.000Z | tags: prompt-engineering -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*fehyeb7ieER7qFym" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/the-emerging-art-of-prompt-engineering-b86fa70de6ca">The Emerging Art of Prompt Engineering</a>
+          <div class="card-meta">27 May 2023</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Our weekly selection of must-read Editors’ Picks and original features</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-05-27T18:45:00.000Z | tags: prompt-engineering -->
+      <div class="card-image">
+        <img src="https://digiday.com/wp-content/uploads/sites/3/2021/02/robot_nurture-02-02-02-02.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://digiday.com/media/how-this-conversational-ai-bot-helps-provide-mental-health-needs-for-workers">WTF is prompt engineering?</a>
+          <div class="card-meta">27 May 2023</div>
+          <div class="card-meta card-domain">digiday.com</div>
+        </div>
+        <div class="card-section">
+          <p>Prompt engineering is an emerging skill and one companies are looking to hire for as they employ more AI tools. And yet dedicated prompt engineering roles may be somewhat short-lived as workforces become more proficient in using the tools.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-05-27T18:43:42.000Z | tags: prompt-engineering -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.promptingguide.ai">Prompt Engineering Guide – Nextra</a>
+          <div class="card-meta">27 May 2023</div>
+          <div class="card-meta card-domain">promptingguide.ai</div>
+        </div>
+        <div class="card-section">
+          <p>A Comprehensive Overview of Prompt Engineering</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-04-14T02:27:50.000Z | tags: llms, prompt-engineering -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://lilianweng.github.io/posts/2023-03-15-prompt-engineering">Prompt Engineering</a>
+          <div class="card-meta">14 Apr 2023</div>
+          <div class="card-meta card-domain">lilianweng.github.io</div>
+        </div>
+        <div class="card-section">
+          <p>Prompt Engineering, also known as In-Context Prompting, refers to methods for how to communicate with LLM to steer its behavior for desired outcomes without updating the model weights. It is an empirical science and the effect of prompt engineering methods can vary a lot among models, thus requiring heavy experimentation and heuristics. This post only focuses on prompt engineering for autoregressive language models, so nothing with Cloze tests, image generation or multimodality models.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-04-13T22:51:45.000Z | tags: llms, prompt-engineering -->
+      <div class="card-image">
+        <img src="https://ruxu.devassets/images/openai.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.ruxu.dev/articles/ai/maximizing-the-potential-of-llms">Maximizing the Potential of LLMs: A Guide to Prompt Engineering</a>
+          <div class="card-meta">13 Apr 2023</div>
+          <div class="card-meta card-domain">ruxu.dev</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-04-13T22:47:27.000Z | tags: llms, prompt-engineering -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*ri0kB_t9WfNZtpLe" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/the-magic-of-llms-prompt-engineering-9c3e46130131?source=rss----7f60cf5620c9---4">The Magic of LLMs — Prompt Engineering</a>
+          <div class="card-meta">13 Apr 2023</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Garbage in, garbage out has never been more true.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2010-10-24T00:00:00.000Z | tags: prompt-engineering -->
+      <div class="card-image">
+        <img src="https://opengraph.githubassets.com/04b568eeb9ff1926a80f4cf9a7e24ac0a8beedebd2b800f417fb43383268ef9a/NirDiamant/Prompt_Engineering" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://github.com/NirDiamant/Prompt_Engineering">NirDiamant/Prompt_Engineering</a>
+          <div class="card-meta">24 Oct 2010</div>
+          <div class="card-meta card-domain">github.com</div>
+        </div>
+        <div class="card-section">
+          <p>This repository offers a comprehensive collection of tutorials and implementations for Prompt Engineering techniques, ranging from fundamental concepts to advanced strategies. It serves as an essen...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2009-09-24T00:00:00.000Z | tags: prompt-engineering, copywriting, gpt -->
+      <div class="card-image">
+        <img src="https://ca-times.brightspotcdn.com/dims4/default/e7676dd/2147483647/strip/true/crop/2520x1323+0+975/resize/1200x630!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F63%2Fad%2F53711a714a6c970b9ad5968a8878%2F468726-la-fo-love-to-drink-bar-nine-rrd-03.JPG" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.latimes.com/socal/daily-pilot/opinion/story/2024-04-09/a-word-please-coffee-shop-prompt-stirs-chatgpt-to-brew-up-bland-copy">A Word Please: Coffee-shop prompt stirs ChatGPT to brew up bland copy</a>
+          <div class="card-meta">24 Sep 2009</div>
+          <div class="card-meta card-domain">latimes.com</div>
+        </div>
+        <div class="card-section">
+          <p>A comparison between a report written by a human and one composed by AI reveals the weaknesses of the latter when it comes to journalism.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

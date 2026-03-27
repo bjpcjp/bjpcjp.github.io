@@ -1,0 +1,469 @@
+---
+layout: post
+title: "reinforcement-learning"
+date: 2026-03-26
+---
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>reinforcement-learning &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 27 Mar 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2026-01-20T20:50:18.058Z | tags: reinforcement-learning, llms -->
+      <div class="card-image">
+        <img src="https://www.microsoft.com/en-us/research/wp-content/uploads/2026/01/Argos-BlogHeroFeature-1400x788-1.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.microsoft.com/en-us/research/blog/multimodal-reinforcement-learning-with-agentic-verifier-for-ai-agents/">Multimodal reinforcement learning with agentic verifier for AI agents - Microsoft Research</a>
+          <div class="card-meta">20 Jan 2026</div>
+          <div class="card-meta card-domain">microsoft.com</div>
+        </div>
+        <div class="card-section">
+          <p>Argos improves multimodal RL by evaluating whether an agent’s reasoning aligns with what it observes over time. The approach reduces visual hallucinations and produces more reliable, data-efficient agents for real-world applications:</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-12-31T01:12:55.608Z | tags: llms, reasoning, reinforcement-learning -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/$s_!pmzH!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9c02ecf0-cb1d-4f62-a160-6d07636b99fd_1600x1384.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://magazine.sebastianraschka.com/p/the-state-of-llm-reasoning-model-training">The State of Reinforcement Learning for LLM Reasoning</a>
+          <div class="card-meta">31 Dec 2025</div>
+          <div class="card-meta card-domain">magazine.sebastianraschka.com</div>
+        </div>
+        <div class="card-section">
+          <p>Understanding GRPO and New Insights from Reasoning Model Papers</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-08-13T14:30:54.984Z | tags: reinforcement-learning -->
+      <div class="card-image">
+        <img src="https://machinelearningmastery.com/wp-content/uploads/2025/07/mlm-ipc-gentle-introduction-q-learning.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://machinelearningmastery.com/a-gentle-introduction-to-q-learning/">A Gentle Introduction to Q-Learning</a>
+          <div class="card-meta">13 Aug 2025</div>
+          <div class="card-meta card-domain">machinelearningmastery.com</div>
+        </div>
+        <div class="card-section">
+          <p>Get a gentle introduction to one of the most widely used reinforcement learning algorithms to learn optimal courses of action through trial and error.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-08-10T21:37:13.390Z | tags: collusion, pricing, antitrust, reinforcement-learning -->
+      <div class="card-image">
+        <img src="https://www.marktechpost.com/wp-content/uploads/2025/08/blog-banner-1.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.marktechpost.com/2025/08/10/ai-driven-antitrust-and-competition-law-algorithmic-collusion-self-learning-pricing-tools-and-legal-challenges-in-the-us-and-eu/">AI-Driven Antitrust and Competition Law: Algorithmic Collusion, Self-Learning Pricing Tools, and Legal Challenges in the US and EU</a>
+          <div class="card-meta">10 Aug 2025</div>
+          <div class="card-meta card-domain">marktechpost.com</div>
+        </div>
+        <div class="card-section">
+          <p>AI algorithmic collusion challenges traditional antitrust law. Legal AI frameworks adapt to prosecute self-learning pricing tools</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-04-20T12:10:08.257Z | tags: llms, reasoning, reinforcement-learning -->
+      <div class="card-image">
+        <img src="https://sebastianraschka.com/images/blog/2025/the-state-of-reinforcement-learning-for-llm-reasoning/hero.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://sebastianraschka.com/blog/2025/the-state-of-reinforcement-learning-for-llm-reasoning.html">The State of Reinforcement Learning for LLM Reasoning</a>
+          <div class="card-meta">20 Apr 2025</div>
+          <div class="card-meta card-domain">sebastianraschka.com</div>
+        </div>
+        <div class="card-section">
+          <p>A lot has happened this month, especially with the releases of new flagship models like GPT-4.5 and Llama 4. But you might have noticed that reactions to these releases were relatively muted. Why? One reason could be that GPT-4.5 and Llama 4 remain conventional models, which means they were trained without explicit reinforcement learning for reasoning. However, OpenAI&#39;s recent release of the o3 reasoning model demonstrates there is still considerable room for improvement when investing compute strategically, specifically via reinforcement learning methods tailored for reasoning tasks. While reasoning alone isn&#39;t a silver bullet, it reliably improves model accuracy and problem-solving capabilities on challenging tasks (so far). And I expect reasoning-focused post-training to become standard practice in future LLM pipelines. So, in this article, let&#39;s explore the latest developments in reasoning via reinforcement learning.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-03-28T11:37:49.198Z | tags: reinforcement-learning, agents -->
+      <div class="card-image">
+        <img src="https://dataconomy.com/wp-content/uploads/2022/12/DC-logo-emblem_multicolor.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dataconomy.com/2025/03/28/what-is-q-learning/">What is Q-learning? - Dataconomy</a>
+          <div class="card-meta">28 Mar 2025</div>
+          <div class="card-meta card-domain">dataconomy.com</div>
+        </div>
+        <div class="card-section">
+          <p>Q-learning is a model-free reinforcement learning algorithm that enables agents to learn optimal actions through interaction with their environment.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-03-11T00:43:11.923Z | tags: reinforcement-learning -->
+      <div class="card-image">
+        <img src="https://opengraph.githubassets.com/d15c83a177abe69db8270aad9790eb3b6bbde96b4a9ed1d1c3bf0cbb6c937078/MathFoundationRL/Book-Mathematical-Foundation-of-Reinforcement-Learning" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://github.com/MathFoundationRL/Book-Mathematical-Foundation-of-Reinforcement-Learning">GitHub - MathFoundationRL/Book-Mathematical-Foundation-of-Reinforcement-Learning: This is the homepage of a new book entitled &quot;Mathematical Foundations of Reinforcement Learning.&quot;</a>
+          <div class="card-meta">11 Mar 2025</div>
+          <div class="card-meta card-domain">github.com</div>
+        </div>
+        <div class="card-section">
+          <p>This is the homepage of a new book entitled &quot;Mathematical Foundations of Reinforcement Learning.&quot; - MathFoundationRL/Book-Mathematical-Foundation-of-Reinforcement-Learning</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-02-02T20:51:05.888Z | tags: llms, reinforcement-learning -->
+      <div class="card-image">
+        <img src="https://github.com/natolambert/rlhf-book/blob/main/images/rlhf-book-share" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://rlhfbook.com/">(WIP) A Little Bit of Reinforcement Learning from Human Feedback</a>
+          <div class="card-meta">2 Feb 2025</div>
+          <div class="card-meta card-domain">rlhfbook.com</div>
+        </div>
+        <div class="card-section">
+          <p>The Reinforcement Learning from Human Feedback Book</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-05-30T00:58:21.000Z | tags: policy-gradients, reinforcement-learning -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*5jXzqt5c443Fay5c" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/policy-gradient-methods-in-reinforcement-learning-31f8a9659398">Policy Gradient Methods in Reinforcement Learning</a>
+          <div class="card-meta">30 May 2024</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Teaching a Car to Cross a Mountain using Policy Gradient Methods in Python: A Mathematical Deep Dive into Reinforcement Learning</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-05-07T23:10:52.000Z | tags: reinforcement-learning -->
+      <div class="card-image">
+        <img src="https://www.marktechpost.com/wp-content/uploads/2024/05/Screenshot-2024-05-07-at-12.56.39-AM.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.marktechpost.com/2024/05/07/reinforcement-learning-training-ai-agents-through-rewards-and-penalties">Reinforcement Learning: Training AI Agents Through Rewards and Penalties</a>
+          <div class="card-meta">7 May 2024</div>
+          <div class="card-meta card-domain">marktechpost.com</div>
+        </div>
+        <div class="card-section">
+          <p>Reinforcement learning (RL) is a fascinating field of AI focused on training agents to make decisions by interacting with an environment and learning from rewards and penalties. RL differs from supervised learning because it involves doing rather than learning from a static dataset. Let’s delve into the core principles of RL and explore its applications in game playing, robot control, and resource management. Principles of Reinforcement Learning Agent and Environment: In RL, the agent is the learner or decision-maker interacting with the environment. The environment provides context to the agent, affecting its decisions and providing feedback through rewards or penalties.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-05-18T10:15:49.000Z | tags: llms, reinforcement-learning, transformers, gpt -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd1aaa4cc-10d6-4ada-bba0-f1f2f0793427_1024x1024.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://thesequence.substack.com/p/edge-291-reinforcement-learning-with">Edge 291: Reinforcement Learning with Human Feedback</a>
+          <div class="card-meta">18 May 2023</div>
+          <div class="card-meta card-domain">thesequence.substack.com</div>
+        </div>
+        <div class="card-section">
+          <p>1) Reinforcement Learning with Human Feedback(RLHF) 2) The RLHF paper, 3) The transformer reinforcement learning framework.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-04-25T16:18:02.000Z | tags: generative, reinforcement-learning -->
+      <div class="card-image">
+        <img src="https://venturebeat.com/wp-content/uploads/2023/04/annevb_human_and_artificial_intelligence_working_together_to_un_5b2cbb9e-e380-4bb1-812b-366943b59568.png?w=1024?w=1200&amp;strip=all" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://venturebeat.com/ai/how-reinforcement-learning-with-human-feedback-is-unlocking-the-power-of-generative-ai">How reinforcement learning with human feedback is unlocking the power of ge</a>
+          <div class="card-meta">25 Apr 2023</div>
+          <div class="card-meta card-domain">venturebeat.com</div>
+        </div>
+        <div class="card-section">
+          <p>How reinforcement learning with human feedback helps ensure that businesses are building ethical generative AI models.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-04-06T13:01:38.000Z | tags: chip-design, reinforcement-learning, semiconductors -->
+      <div class="card-image">
+        <img src="https://spectrum.ieee.org/media-library/six-squares-contain-variously-sized-rectangles-of-four-colors-with-differently-colored-blobs-filling-in-gaps-between-the-rectang.png?id=33530592&amp;width=1200&amp;height=600&amp;coordinates=0%2C150%2C0%2C150" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://spectrum.ieee.org/chip-design-controversy">Ending an Ugly Chapter in Chip Design</a>
+          <div class="card-meta">6 Apr 2023</div>
+          <div class="card-meta card-domain">spectrum.ieee.org</div>
+        </div>
+        <div class="card-section">
+          <p>Study tries to settle a bitter disagreement over Google’s chip design AI</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-02-09T13:20:54.000Z | tags: arxiv, music, reinforcement-learning -->
+      <div class="card-image">
+        <img src="https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://arxiv.org/abs/2301.03881">Why People Skip Music? On Predicting Music Skips using Deep...</a>
+          <div class="card-meta">9 Feb 2023</div>
+          <div class="card-meta card-domain">arxiv.org</div>
+        </div>
+        <div class="card-section">
+          <p>Music recommender systems are an integral part of our daily life. Recent research has seen a significant effort around black-box recommender based approaches such as Deep Reinforcement Learning...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-11-28T20:26:14.000Z | tags: deep-learning, reinforcement-learning -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*bo5XH0yQcOvHpKWh" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/6-reinforcement-learning-algorithms-explained-237a79dbd8e">6 Reinforcement Learning Algorithms Explained</a>
+          <div class="card-meta">28 Nov 2022</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Introduction to reinforcement learning terminologies, basics, and concepts (model-free, model-based, online, offline RL)</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-18T21:40:58.000Z | tags: python, reinforcement-learning -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*gMgU8hLuZL_6MSHs" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/hands-on-introduction-to-reinforcement-learning-in-python-da07f7aaca88">Hands on introduction to reinforcement learning in Python</a>
+          <div class="card-meta">18 Jul 2022</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>One of the biggest barriers to traditional machine learning is that most supervised and unsupervised machine learning algorithms need huge amounts of data to be useful in real world use cases. Even…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-11T20:38:06.000Z | tags: game-theory, games, reinforcement-learning, arxiv -->
+      <div class="card-image">
+        <img src="https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://arxiv.org/abs/2206.15378">Mastering the Game of Stratego with Model-Free Multiagent...</a>
+          <div class="card-meta">11 Jul 2022</div>
+          <div class="card-meta card-domain">arxiv.org</div>
+        </div>
+        <div class="card-section">
+          <p>We introduce DeepNash, an autonomous agent capable of learning to play the imperfect information game Stratego from scratch, up to a human expert level. Stratego is one of the few iconic board...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-16T22:50:44.000Z | tags: reinforcement-learning -->
+      <div class="card-image">
+        <img src="https://repository-images.githubusercontent.com/89253020/f05d4100-6839-11eb-8595-9c797a965b17" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://github.com/bjpcjp/scikit-and-tensorflow-workbooks/blob/master/ch16-reinforcement-learning.ipynb">scikit-and-tensorflow-workbooks/ch16-reinforcement-learning.ipynb at master · bjpcjp/scikit-and-tensorflow-workbooks</a>
+          <div class="card-meta">16 Jan 2022</div>
+          <div class="card-meta card-domain">github.com</div>
+        </div>
+        <div class="card-section">
+          <p>based on &quot;Hands-On Machine Learning with Scikit-Learn &amp; TensorFlow&quot; (O&#39;Reilly, Aurelien Geron) - bjpcjp/scikit-and-tensorflow-workbooks</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-03-30T21:08:52.000Z | tags: deep-learning, reinforcement-learning -->
+      <div class="card-image">
+        <img src="https://venturebeat.com/wp-content/uploads/2021/03/ai-4.jpg?w=1024?w=1200&amp;strip=all" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://venturebeat.com/2021/03/28/reinforcement-learning-the-next-great-ai-tech-moving-from-the-lab-to-the-real-world">Reinforcement learning: The next great AI tech moving from the lab to the r</a>
+          <div class="card-meta">30 Mar 2021</div>
+          <div class="card-meta card-domain">venturebeat.com</div>
+        </div>
+        <div class="card-section">
+          <p>Reinforcement learning (RL) is a powerful type of AI technology that can learn strategies to optimally control large, complex systems.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-01-15T17:24:01.000Z | tags: deep-learning, reinforcement-learning -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:737/1*hGNwjytdKtWFY69SFSMwwg.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/reinforcement-learning-explained-visually-part-6-policy-gradients-step-by-step-f9f448e73754?source=rss----7f60cf5620c9---4">Reinforcement Learning Explained Visually (Part 6): Policy Gradients, step-</a>
+          <div class="card-meta">15 Jan 2021</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>A Gentle Guide to the REINFORCE algorithm, in Plain English</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-11-29T01:12:09.000Z | tags: reinforcement-learning -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1125/0*vtGAsZqDz7Uib6UG" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/introduction-to-reinforcement-learning-rl-part-7-n-step-bootstrapping-6c3006a13265">N-step Bootstrapping. This is part 7 of the RL tutorial… | by Sagi Shaier |</a>
+          <div class="card-meta">29 Nov 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>This is part 7 of the RL tutorial series that will provide an overview of the book “Reinforcement Learning: An Introduction. Second…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-02-19T20:04:25.000Z | tags: reinforcement-learning -->
+      <div class="card-image">
+        <img src="https://www.datasciencecentral.com/wp-content/uploads/2021/10/1PkQDd3IdcDXI4vUVwMAqKA.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.datasciencecentral.com/profiles/blogs/introduction-to-various-reinforcement-learning-algorithms-part-i?fbclid=IwAR2zO-0Mox6vBQFaLtYgDyT1aVKqlIAQWiv92_bFYbvIfWzU0Rql0N7fTOI">Introduction to Various Reinforcement Learning Algorithms - DataScienceCentral.com</a>
+          <div class="card-meta">19 Feb 2020</div>
+          <div class="card-meta card-domain">datasciencecentral.com</div>
+        </div>
+        <div class="card-section">
+          <p>This article was written by Steeve Huang.   Reinforcement Learning (RL) refers to a kind of Machine Learning method in which the agent receives a delayed reward in the next time step to evaluate its previous action. It was mostly used in games (e.g. Atari, Mario), with performance on par with or even exceeding humans. Recently,… Read More »Introduction to Various Reinforcement Learning Algorithms</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-02-19T20:02:55.000Z | tags: reinforcement-learning -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*MiN803ThUoqdCKwklZ8wwA.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/introduction-to-various-reinforcement-learning-algorithms-i-q-learning-sarsa-dqn-ddpg-72a5e0cb6287">Introduction to Various Reinforcement Learning Algorithms. Part I (Q-Learni</a>
+          <div class="card-meta">19 Feb 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Reinforcement Learning (RL) refers to a kind of Machine Learning method in which the agent receives a delayed reward in the next time step…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-06-08T23:43:25.000Z | tags: reinforcement-learning -->
+      <div class="card-image">
+        <img src="https://bair.berkeley.edu/blog/assets/lto/teaser.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://bair.berkeley.edu/blog/2017/09/12/learning-to-optimize-with-rl">Learning to Optimize with Reinforcement Learning</a>
+          <div class="card-meta">8 Jun 2018</div>
+          <div class="card-meta card-domain">bair.berkeley.edu</div>
+        </div>
+        <div class="card-section">
+          <p>The BAIR Blog</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-06-08T23:41:50.000Z | tags: reinforcement-learning -->
+      <div class="card-image">
+        <img src="https://adeshpande3.github.io/img_path" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://adeshpande3.github.io/adeshpande3.github.io/Deep-Learning-Research-Review-Week-2-Reinforcement-Learning">Deep Learning Research Review Week 2: Reinforcement Learning – Adit Deshpan</a>
+          <div class="card-meta">8 Jun 2018</div>
+          <div class="card-meta card-domain">adeshpande3.github.io</div>
+        </div>
+        <div class="card-section">
+          <p>Engineering at Forward | UCLA CS &#39;19</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2017-12-27T18:09:29.000Z | tags: reinforcement-learning -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:843/1*kPHMuxV2jvEdCrDoTtEqBg.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://medium.com/@m.alzantot/deep-reinforcement-learning-demystified-episode-0-2198c05a6124">Deep Reinforcement Learning Demystified (Episode 0)</a>
+          <div class="card-meta">27 Dec 2017</div>
+          <div class="card-meta card-domain">medium.com</div>
+        </div>
+        <div class="card-section">
+          <p>I recently became interested in learning more about deep reinforcement learning. Recently, big news headlines were made as deep…</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,805 @@
+---
+layout: post
+title: "quantum"
+date: 2026-03-26
+---
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>quantum &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 27 Mar 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2026-01-25T21:10:15.855Z | tags: quantum, physics -->
+      <div class="card-image">
+        <img src="https://www.quantamagazine.org/wp-content/uploads/2050/07/100-Years-of-Quantum-Mechanics-cr-Senor-Salme-Social.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.quantamagazine.org/its-a-mess-a-brain-bending-trip-to-quantum-theorys-100th-birthday-party-20250808/">‘It’s a Mess’: A Brain-Bending Trip to Quantum Theory’s 100th Birthday Party | Quanta Magazine</a>
+          <div class="card-meta">25 Jan 2026</div>
+          <div class="card-meta card-domain">quantamagazine.org</div>
+        </div>
+        <div class="card-section">
+          <p>Hundreds of physicists (and a few journalists) journeyed to Helgoland, the birthplace of quantum mechanics, and grappled with what they have and haven’t learned about reality.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-10-08T15:03:37.177Z | tags: quantum, physics -->
+      <div class="card-image">
+        <img src="https://cdn.arstechnica.net/wp-content/uploads/2025/10/GettyImages-1397148346-2560x1440-1759878485.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://arstechnica.com/science/2025/10/new-qubit-tech-traps-single-electrons-on-liquid-helium/">Floating electrons on a sea of helium</a>
+          <div class="card-meta">8 Oct 2025</div>
+          <div class="card-meta card-domain">arstechnica.com</div>
+        </div>
+        <div class="card-section">
+          <p>Yes, it’s another potential qubit. But it’s also some very cool physics.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-09-03T14:15:09.361Z | tags: quantum, hpc -->
+      <div class="card-image">
+        <img src="https://media.datacenterdynamics.com/media/images/QDK_in_rack.2e16d0ba.fill-280x150.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.datacenterdynamics.com/en/news/oak-ridge-national-laboratory-deploys-diamond-based-quantum-compute-cluster-in-tennessee/">Oak Ridge National Laboratory deploys diamond-based quantum compute cluster in Tennessee</a>
+          <div class="card-meta">3 Sep 2025</div>
+          <div class="card-meta card-domain">datacenterdynamics.com</div>
+        </div>
+        <div class="card-section">
+          <p>The Quantum Brilliance system will be housed at the lab’s Oak Ridge Leadership Computing Facility</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-08-24T18:39:48.977Z | tags: quantum, astronomy-space -->
+      <div class="card-image">
+        <img src="https://a.fsdn.com/sd/topics/space_64.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://science.slashdot.org/story/25/08/24/025222/americas-secretive-x-37b-space-plane-will-test-a-quantum-alternative-to-gps-for-the-us-space-force?utm_source=feedly1.0mainlinkanon&amp;utm_medium=feed">America&#39;s Secretive X-37B Space Plane Will Test a Quantum Alternative to GPS for the US Space Force - Slashdot</a>
+          <div class="card-meta">24 Aug 2025</div>
+          <div class="card-meta card-domain">science.slashdot.org</div>
+        </div>
+        <div class="card-section">
+          <p>The mysterious X-37B space-plane &amp;mdash; the U.S. military&#39;s orbital test vehicle &amp;mdash; &quot;serves partly as a platform for cutting-edge experiments,&quot; writes Space.com  
+
+And &quot;one of these experiments is a potential alternative to GPS that makes use of quantum science as a tool for navigation: a quan...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-06-21T20:58:28.766Z | tags: quantum, algorithms-math -->
+      <div class="card-image">
+        <img src="https://venturebeat.com/wp-content/uploads/2025/06/Quantum.webp?w=1024?w=1200&amp;strip=all" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://venturebeat.com/security/cloud-quantum-computing-a-trillion-dollar-opportunity-with-dangerous-hidden-risks/">Cloud quantum computing: A trillion-dollar opportunity with dangerous hidden risks</a>
+          <div class="card-meta">21 Jun 2025</div>
+          <div class="card-meta card-domain">venturebeat.com</div>
+        </div>
+        <div class="card-section">
+          <p>Guest Join the event trusted by enterprise leaders for nearly two decades. VB Transform brings together the people building real enterprise AI strategy. Learn more Quantum computing (QC) brings with it a mix of groundbreaking possibilities and significant risks. Major tech players like IBM, Google, Microsoft and Amazon have already rolled out commercial QC cloud services, while […]</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-04-26T12:01:10.287Z | tags: quantum, optimization, benchmarks -->
+      <div class="card-image">
+        <img src="https://git.zib.de/assets/twitter_card-570ddb06edf56a2312253c5872489847a0f385112ddbcd71ccfa1570febab5d2.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://git.zib.de/qopt/qoblib-quantum-optimization-benchmarking-library">QOpt / QOBLIB - Quantum Optimization Benchmarking Library · GitLab</a>
+          <div class="card-meta">26 Apr 2025</div>
+          <div class="card-meta card-domain">git.zib.de</div>
+        </div>
+        <div class="card-section">
+          <p>This is the ZIB GitLab instance</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-02-23T12:59:08.554Z | tags: quantum -->
+      <div class="card-image">
+        <img src="https://media.licdn.com/dms/image/v2/D4E10AQFQjhyEMncNKQ/image-shrink_800/B4EZUiqZqkGgAc-/0/1740043296093?e=2147483647&amp;v=beta&amp;t=yZSq8b8mpKxcoNqhiiNyPeZ7kH2kqz8R_I31QETnVzc" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.linkedin.com/posts/mattybnl_quantum-momenthesis-quantumcomputing-activity-7298270561917456385-gUVh?utm_source=share&amp;utm_medium=member_ios&amp;rcm=ACoAAAAQ_oABqroJaYAjd1pLSvoVsTKPWFYPcIQ">Matty Bakkeren on LinkedIn: #quantum #momenthesis #quantumcomputing #techinnovation | 11 comments</a>
+          <div class="card-meta">23 Feb 2025</div>
+          <div class="card-meta card-domain">linkedin.com</div>
+        </div>
+        <div class="card-section">
+          <p>The recent advancements in Quantum computing by Microsoft, Google, IBM and Intel Corporation are fascinating to me and I&amp;#39;ve compiled a quick overview to keep… | 11 comments on LinkedIn</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-02-20T16:49:35.966Z | tags: quantum -->
+      <div class="card-image">
+        <img src="https://cdn.thenewstack.io/media/2025/02/efec1d1d-majorana1-feature.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://thenewstack.io/microsoft-makes-quantum-computing-breakthrough-with-new-chip/">Microsoft Makes Quantum Computing Breakthrough With New Chip</a>
+          <div class="card-meta">20 Feb 2025</div>
+          <div class="card-meta card-domain">thenewstack.io</div>
+        </div>
+        <div class="card-section">
+          <p>Microsoft’s breakthrough with the first topological qubits and its own quantum chip, Majorana 1, could outpace Google’s brute force approach.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-01-08T13:02:51.173Z | tags: quantum -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*BAHV-MW1iJ5lHE-KBjqBow.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/measuring-quantum-noise-in-ibm-quantum-computers-60a6b739a547">Measuring Quantum Noise in IBM Quantum Computers</a>
+          <div class="card-meta">8 Jan 2025</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>A discussion around measuring error rates in IBM quantum processors, with code examples, using Qiskit</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-12-10T17:03:55.678Z | tags: quantum, semiconductors -->
+      <div class="card-image">
+        <img src="https://www.techpowerup.com/img/sNjorh0C274C7oQO.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.techpowerup.com/329704/china-unveils-xiaohong-504-a-504-qubit-quantum-computing-processor">China Unveils Xiaohong-504: a 504-Qubit Quantum Computing Processor</a>
+          <div class="card-meta">10 Dec 2024</div>
+          <div class="card-meta card-domain">techpowerup.com</div>
+        </div>
+        <div class="card-section">
+          <p>China has announced the development of its latest quantum system, combining the Xiaohong-504, a 504-qubit superconducting quantum chip, with the Tianyan-504 quantum computer. The breakthrough comes from China Telecom Quantum Group (CTQG), which will use the new supercomputer to boost national teleco...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-12-09T19:31:54.740Z | tags: quantum, semiconductors -->
+      <div class="card-image">
+        <img src="https://www.nextplatform.com/wp-content/uploads/2024/12/Google-Willow-in-hand-scaled.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nextplatform.com/2024/12/09/google-claims-quantum-error-correction-milestone-with-willow-chip/">Google Claims Quantum Error Correction Milestone With “Willow” Chip</a>
+          <div class="card-meta">9 Dec 2024</div>
+          <div class="card-meta card-domain">nextplatform.com</div>
+        </div>
+        <div class="card-section">
+          <p>There is no shortage of top-name – and even lesser known – companies pursuing the white whale of developing a quantum computer that can run workloads and</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-12-09T16:31:33.077Z | tags: quantum, physics -->
+      <div class="card-image">
+        <img src="https://www.quantamagazine.org/wp-content/uploads/2024/12/Quantum-Error-Correction_crDave-Whyte-Social.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.quantamagazine.org/quantum-computers-cross-critical-error-threshold-20241209/">Quantum Computers Cross Critical Error Threshold</a>
+          <div class="card-meta">9 Dec 2024</div>
+          <div class="card-meta card-domain">quantamagazine.org</div>
+        </div>
+        <div class="card-section">
+          <p>In a first, researchers have shown that adding more “qubits” to a quantum computer can make it more resilient. It’s an essential step on the long road to practical applications.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-11-19T11:42:55.246Z | tags: quantum, physics, hpc -->
+      <div class="card-image">
+        <img src="https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://arxiv.org/abs/2411.10406">How to Build a Quantum Supercomputer</a>
+          <div class="card-meta">19 Nov 2024</div>
+          <div class="card-meta card-domain">arxiv.org</div>
+        </div>
+        <div class="card-section">
+          <p>In the span of four decades, quantum computation has evolved from an intellectual curiosity to a potentially realizable technology. Today, small-scale demonstrations have become possible for...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-10-19T18:32:36.993Z | tags: quantum -->
+      <div class="card-image">
+        <img src="https://assets.rebelmouse.io/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy81MzY5NDE2MS9vcmlnaW4uanBnIiwiZXhwaXJlc19hdCI6MTc3NDkzOTkwM30.uicMck6vdgW44jlROe9WjbagDVFoSf5G7ZI9lx4lySM/img.jpg?width=1200&amp;height=600" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://spectrum.ieee.org/logical-qubit?fbclid=IwY2xjawFn7xpleHRuA2FlbQIxMQABHcVM1fJSwIYtd5gHmxnBEn_61V0hk52Phxt4OK8oKt_vvZRgWDhroQoFbw_aem_O_jPHbHTICIe0qoaFfwTzA&amp;share_id=8436832&amp;socialux=facebook">Quantinuum Successfully Teleports a Logical Qubit</a>
+          <div class="card-meta">19 Oct 2024</div>
+          <div class="card-meta card-domain">spectrum.ieee.org</div>
+        </div>
+        <div class="card-section">
+          <p>The ability to instantaneously “teleport” information over long distances is one of the strange phenomena that could make quantum computers uniquely powerful. Researchers at Quantinuum have now shown they can achieve the feat with a “logical qubit”, which they say is a major milestone towards large-</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-06-11T17:20:57.000Z | tags: algorithms-math, crypto, quantum -->
+      <div class="card-image">
+        <img src="https://anysilicon.com/wp-content/uploads/2023/05/Depositphotos_371451720_L-chip-ss.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://anysilicon.com/an-introduction-to-post-quantum-cryptography-algorithms">An Introduction to Post-Quantum Cryptography Algorithms</a>
+          <div class="card-meta">11 Jun 2024</div>
+          <div class="card-meta card-domain">anysilicon.com</div>
+        </div>
+        <div class="card-section">
+          <p>By Christos Kasparis, EnSilica EETimes (May 15, 2024)   The rise of quanum computing paints a significant challenge for the cryptography we rely on today. The modern encryption standards we currently use to safeguard sensitive data and communications, such as DSA, public key RSA and those based on elliptic curves, will eventually be broken by</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-05-15T17:50:22.000Z | tags: algorithms-math, crypto, quantum -->
+      <div class="card-image">
+        <img src="https://www.eetimes.com/wp-content/uploads/AdobeStock_713837315-e1715364609900.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.eetimes.com/an-introduction-to-post-quantum-cryptography-algorithms">An Introduction to Post-Quantum Cryptography Algorithms</a>
+          <div class="card-meta">15 May 2024</div>
+          <div class="card-meta card-domain">eetimes.com</div>
+        </div>
+        <div class="card-section">
+          <p>Current encryption methods will likely be broken by 2030. Embedded systems in development now will have a reasonable chance of encountering attacks.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-05-08T16:25:24.000Z | tags: quantum -->
+      <div class="card-image">
+        <img src="https://www.marktechpost.com/wp-content/uploads/2024/05/Screenshot-2024-05-07-at-9.19.19-PM-1024x903.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.marktechpost.com/2024/05/07/beyond-gpus-how-quantum-processing-units-qpus-will-transform-computing">Beyond GPUs: How Quantum Processing Units (QPUs) Will Transform Computing</a>
+          <div class="card-meta">8 May 2024</div>
+          <div class="card-meta card-domain">marktechpost.com</div>
+        </div>
+        <div class="card-section">
+          <p>The rise of quantum computing has opened the doors to transformative innovations that transcend the limits of classical computing. The quantum processing unit (QPU) represents a paradigm shift in computational science, akin to how the GPU revolutionized the world of computing in the 2000s. Let’s delve into how QPUs are poised to complement and potentially surpass GPUs, unlocking a new era of computational power. What is a Quantum Processing Unit (QPU)? A QPU harnesses the principles of quantum mechanics to solve problems that classical computing finds difficult to handle. Utilizing qubits and quantum circuit models, QPUs aim to transform how</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-10-21T23:18:59.000Z | tags: quantum -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:670/1*lxIGq0NNSBObKEFd6NoaHQ.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/quantum-computing-for-complete-beginners-63b989ded053">Quantum Computing for Complete Beginners</a>
+          <div class="card-meta">21 Oct 2023</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>A guide to the basics of quantum computing with no prior knowledge required</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-09-24T20:54:06.000Z | tags: quantum -->
+      <div class="card-image">
+        <img src="https://assets.rebelmouse.io/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8zODIxMzI1NS9vcmlnaW4uanBnIiwiZXhwaXJlc19hdCI6MTc3Nzk4NTEzOH0.joS2DGzjnTNwZkqiD75_iyZc4JzsI8LA6SJB6KrOEpA/img.jpg?width=1200&amp;height=600" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://spectrum.ieee.org/schrodingers-cat-qubit?fbclid=IwAR2AYOVqA8t6lNSjkrD1_0Mo1uj8LCg8wdpYr2wBSMnVHO1O9x6Qac0BTMk&amp;share_id=7856398&amp;socialux=facebook">How Tiny Schrödinger’s Cats Could Upend Quantum Again</a>
+          <div class="card-meta">24 Sep 2023</div>
+          <div class="card-meta card-domain">spectrum.ieee.org</div>
+        </div>
+        <div class="card-section">
+          <p>The Paris-based company&#39;s strategy depends on so-called “cat states,” pairs of very different quantum states as diametrically opposed to one another as the “alive” and “dead” feline once famously postulated by Erwin Schrödinger.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-08-04T22:35:32.000Z | tags: quantum, health-medicine -->
+      <div class="card-image">
+        <img src="https://www.ornl.gov/sites/default/files/2023-07/qbit-image.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.ornl.gov/news/researchers-use-commercial-quantum-computer-identify-molecular-candidate-development-more">Researchers use commercial quantum computer to identify molecular candidate</a>
+          <div class="card-meta">4 Aug 2023</div>
+          <div class="card-meta card-domain">ornl.gov</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-07-30T15:35:28.000Z | tags: quantum -->
+      <div class="card-image">
+        <img src="https://images.aeonmedia.co/images/f6cf2e46-a840-42b5-91bc-c06e87ac5ae8/essay-final-gettyimages-1214210560.jpg?width=1200&amp;quality=75&amp;format=auto" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://aeon.co/essays/our-simple-magic-free-recipe-for-quantum-entanglement">Why does the quantum world behave in that strange, spooky way? Here’s our s</a>
+          <div class="card-meta">30 Jul 2023</div>
+          <div class="card-meta card-domain">aeon.co</div>
+        </div>
+        <div class="card-section">
+          <p>Why does the quantum world behave in that strange, spooky way? Here’s our simple, four-step explanation (no magic needed)</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-05-14T00:18:19.000Z | tags: physics, quantum -->
+      <div class="card-image">
+        <img src="https://cdn.arstechnica.net/wp-content/uploads/2023/05/image-2-640x320.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://arstechnica.com/science/2023/05/qubits-used-to-confirm-that-the-universe-doesnt-keep-reality-local">Qubits 30 meters apart used to confirm Einstein was wrong about quantum</a>
+          <div class="card-meta">14 May 2023</div>
+          <div class="card-meta card-domain">arstechnica.com</div>
+        </div>
+        <div class="card-section">
+          <p>Experiment linked qubits using a supercold wire over 30 meters long.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-04-08T11:17:52.000Z | tags: javascript, quantum -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://academy.meetiqm.com/curriculum/index.html">IQM Academy Curriculum</a>
+          <div class="card-meta">8 Apr 2023</div>
+          <div class="card-meta card-domain">academy.meetiqm.com</div>
+        </div>
+        <div class="card-section">
+          <p>Quantum computing in your browser.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-01-04T16:19:46.000Z | tags: algorithms-math, crypto, quantum, security -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.schneier.com/blog/archives/2023/01/breaking-rsa-with-a-quantum-computer.html">Breaking RSA with a Quantum Computer - Schneier on Security</a>
+          <div class="card-meta">4 Jan 2023</div>
+          <div class="card-meta card-domain">schneier.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-12-19T13:22:01.000Z | tags: quantum -->
+      <div class="card-image">
+        <img src="https://media.newyorker.com/photos/63923ee4aa0ea2fe7e7eb892/16:9/w_1280,c_limit/221219_r41537web-social.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.newyorker.com/magazine/2022/12/19/the-world-changing-race-to-develop-the-quantum-computer">The World-Changing Race to Develop the Quantum Computer</a>
+          <div class="card-meta">19 Dec 2022</div>
+          <div class="card-meta card-domain">newyorker.com</div>
+        </div>
+        <div class="card-section">
+          <p>Such a device could help address climate change and food scarcity, or break the Internet. Will the U.S. or China get there first?</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-12-07T21:50:37.000Z | tags: quantum, topology -->
+      <div class="card-image">
+        <img src="https://d2r55xnwy6nx47.cloudfront.net/uploads/2022/12/QuantumTDA-byKristinaArmitage-Social.webp" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.quantamagazine.org/after-a-classical-clobbering-a-quantum-advantage-remains-20221207">After a Quantum Clobbering, One Approach Survives Unscathed</a>
+          <div class="card-meta">7 Dec 2022</div>
+          <div class="card-meta card-domain">quantamagazine.org</div>
+        </div>
+        <div class="card-section">
+          <p>A quantum approach to data analysis that relies on the study of shapes will likely remain an example of a quantum advantage — albeit for increasingly unlikely scenarios.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-11-30T17:54:59.000Z | tags: physics, quantum -->
+      <div class="card-image">
+        <img src="https://static01.nyt.com/images/2022/12/06/multimedia/30outhere-wormhole-1-9597/30outhere-wormhole-1-9597-largeHorizontalJumbo.jpg?year=2022&amp;h=682&amp;w=1024&amp;s=6858620157f114b9a4a20b4de6f21c5484aeccc3d5f083249014ff8c9a3ac5a6&amp;k=ZQJBKqZ0VN" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nytimes.com/2022/11/30/science/physics-wormhole-quantum-computer.html">Physicists Create ‘the Smallest, Crummiest Wormhole You Can Imagine’</a>
+          <div class="card-meta">30 Nov 2022</div>
+          <div class="card-meta card-domain">nytimes.com</div>
+        </div>
+        <div class="card-section">
+          <p>Scientists used a quantum computer to explore the ultimate escape route from a black hole.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-10-22T12:45:56.000Z | tags: algorithms-math, crypto, quantum -->
+      <div class="card-image">
+        <img src="https://wp.technologyreview.com/wp-content/uploads/2022/09/AP22195379509956-crop.jpeg?resize=1200,600" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.technologyreview.com/2022/09/14/1059400/explainer-quantum-resistant-algorithms?fbclid=IwAR0t5g91_q-1IKmLMF7zLr3R0S32Sh3IDT38easQ-Za00KYQ2T8HVG0ErZo">What are quantum-resistant algorithms—and why do we need them?</a>
+          <div class="card-meta">22 Oct 2022</div>
+          <div class="card-meta card-domain">technologyreview.com</div>
+        </div>
+        <div class="card-section">
+          <p>When quantum computers become powerful enough, they could theoretically crack the encryption algorithms that keep us safe. The race is on to find new ones.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-10-13T12:51:28.000Z | tags: physics, quantum -->
+      <div class="card-image">
+        <img src="https://www.quantamagazine.org/wp-content/uploads/2021/07/Bells_Inequality_520x292.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.quantamagazine.org/how-bells-theorem-proved-spooky-action-at-a-distance-is-real-20210720">How Bell’s Theorem Proved ‘Spooky Action at a Distance’ Is Real | Quanta Ma</a>
+          <div class="card-meta">13 Oct 2022</div>
+          <div class="card-meta card-domain">quantamagazine.org</div>
+        </div>
+        <div class="card-section">
+          <p>The root of today’s quantum revolution was John Stewart Bell’s 1964 theorem showing that quantum mechanics really permits instantaneous connections between far-apart locations.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-10-03T14:14:28.000Z | tags: quantum -->
+      <div class="card-image">
+        <img src="https://venturebeat.com/wp-content/uploads/2022/08/GettyImages-1339662684.jpg?w=1024?w=1200&amp;strip=all" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://venturebeat.com/security/cloudflare-post-quantum-cryptography">Cloudflare’s post-quantum cryptography protects almost a fifth of the inter</a>
+          <div class="card-meta">3 Oct 2022</div>
+          <div class="card-meta card-domain">venturebeat.com</div>
+        </div>
+        <div class="card-section">
+          <p>Today, Content Delivery Network (CDN) vendor Cloudflare announced it&#39;s enabling post-quantum cryptography across all protected sites.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-25T15:37:00.000Z | tags: physics, quantum -->
+      <div class="card-image">
+        <img src="https://pocket-image-cache.com/1200x/filters:format(jpg):extract_focal()/https%3A%2F%2Fpocket-syndicated-images.s3.amazonaws.com%2Farticles%2F7941%2F1654910604_62a3ed82a035b.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://getpocket.com/explore/item/what-the-heck-is-a-time-crystal-and-why-are-physicists-obsessed-with-them">What the Heck Is a Time Crystal, and Why Are Physicists Obsessed With Them?</a>
+          <div class="card-meta">25 Jun 2022</div>
+          <div class="card-meta card-domain">getpocket.com</div>
+        </div>
+        <div class="card-section">
+          <p>Some of today’s quantum physicists are tinkering with an esoteric phase of matter that seems to disobey some of our laws of physics.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-23T15:18:09.000Z | tags: physics, quantum -->
+      <div class="card-image">
+        <img src="https://www.quantamagazine.org/wp-content/uploads/2022/06/Contextuality_520x292.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.quantamagazine.org/the-spooky-quantum-phenomenon-youve-never-heard-of-20220622">The Spooky Quantum Phenomenon You’ve Never Heard Of</a>
+          <div class="card-meta">23 Jun 2022</div>
+          <div class="card-meta card-domain">quantamagazine.org</div>
+        </div>
+        <div class="card-section">
+          <p>Quantum computers may derive their power from the “magical” way that properties of particles change depending on the context.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-02-07T00:18:51.000Z | tags: machine-learning, physics, quantum -->
+      <div class="card-image">
+        <img src="https://www.quantamagazine.org/wp-content/uploads/2022/02/QL_OpticalSetup_520x292.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.quantamagazine.org/ai-gets-a-quantum-computing-speedup-20220204">Machine Learning Gets a Quantum Speedup | Quanta Magazine</a>
+          <div class="card-meta">7 Feb 2022</div>
+          <div class="card-meta card-domain">quantamagazine.org</div>
+        </div>
+        <div class="card-section">
+          <p>Two teams have shown how quantum approaches can solve problems faster than classical computers, bringing physics and computer science closer together.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-08T22:21:14.000Z | tags: algorithms-math, crypto, quantum -->
+      <div class="card-image">
+        <img src="https://assets.nautil.us/11763_d63036cfba56a5c3cb75ab14b33fe677.jpg?auto=compress&amp;fm=pjpg&amp;ixlib=php-3.3.1" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://nautil.us/blog/how-classical-cryptography-will-survive-quantum-computers">How Classical Cryptography Will Survive Quantum Computers</a>
+          <div class="card-meta">8 Dec 2021</div>
+          <div class="card-meta card-domain">nautil.us</div>
+        </div>
+        <div class="card-section">
+          <p>Quantum Lab: Scientists are fabricating quantum photonic circuits—consisting of waveguides and other elements—to manipulate single photons for future quantum communications and processing.Oak Ridge National Laboratory / Flickr Nautilus Members enjoy an ad-free experience. Log in or Join now . Justin Trudeau, the Canadian prime minister, certainly raised the profile of quantum computing a few notches […]</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-08-30T18:56:09.000Z | tags: physics, quantum -->
+      <div class="card-image">
+        <img src="https://images.sifted.eu/wp-content/uploads/2021/08/25094519/Quantum-Brilliance-accelerator-scaled.jpeg?w=2048&amp;h=1152&amp;q=75&amp;fit=crop&amp;auto=compress,format" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://sifted.eu/articles/diamond-quantum-computer">Breakthrough: Quantum computers will soon fit in your phone – Sifted</a>
+          <div class="card-meta">30 Aug 2021</div>
+          <div class="card-meta card-domain">sifted.eu</div>
+        </div>
+        <div class="card-section">
+          <p>Quantum Brilliance has developed a diamond-based quantum computer that can run at room temperature and be miniaturised.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-07-05T12:22:16.000Z | tags: physics, quantum -->
+      <div class="card-image">
+        <img src="https://static.scientificamerican.com/sciam/cache/file/7C8B46DD-9026-4B51-8804317F12943537_source.jpg?w=1200" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.scientificamerican.com/article/ai-designs-quantum-physics-experiments-beyond-what-any-human-has-conceived">AI Designs Quantum Physics Experiments beyond What Any Human Has Conceived</a>
+          <div class="card-meta">5 Jul 2021</div>
+          <div class="card-meta card-domain">scientificamerican.com</div>
+        </div>
+        <div class="card-section">
+          <p>Originally built to speed up calculations, a machine-learning system is now making shocking progress at the frontiers of experimental quantum physics</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-06-27T21:31:28.000Z | tags: crypto, quantum -->
+      <div class="card-image">
+        <img src="https://wp.technologyreview.com/wp-content/uploads/2019/05/3918858279530f670b373o-10.jpg?resize=1200,600" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.technologyreview.com/2019/05/30/65724/how-a-quantum-computer-could-break-2048-bit-rsa-encryption-in-8-hours#Echobox=1624661081">How a quantum computer could break 2048-bit RSA encryption in 8 hours | MIT</a>
+          <div class="card-meta">27 Jun 2021</div>
+          <div class="card-meta card-domain">technologyreview.com</div>
+        </div>
+        <div class="card-section">
+          <p>A new study shows that quantum technology will catch up with today’s encryption standards much sooner than expected. That should worry anybody who needs to store data securely for 25 years or so.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-06-12T02:07:30.000Z | tags: physics, quantum -->
+      <div class="card-image">
+        <img src="https://d2r55xnwy6nx47.cloudfront.net/uploads/2021/06/0607_QComputer_Social_1200x630_F.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.quantamagazine.org/why-is-quantum-computing-so-hard-to-explain-20210608">What Makes Quantum Computing So Hard to Explain?</a>
+          <div class="card-meta">12 Jun 2021</div>
+          <div class="card-meta card-domain">quantamagazine.org</div>
+        </div>
+        <div class="card-section">
+          <p>To understand what quantum computers can do — and what they can’t — avoid falling for overly simple explanations.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-06-10T20:17:36.000Z | tags: goodreads, physics, quantum -->
+      <div class="card-image">
+        <img src="https://d2r55xnwy6nx47.cloudfront.net/uploads/2021/06/Quantum-Field-Theory_Infinity_1200_social.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.quantamagazine.org/the-mystery-at-the-heart-of-physics-that-only-math-can-solve-20210610">The Mystery at the Heart of Physics That Only Math Can Solve</a>
+          <div class="card-meta">10 Jun 2021</div>
+          <div class="card-meta card-domain">quantamagazine.org</div>
+        </div>
+        <div class="card-section">
+          <p>The accelerating effort to understand the mathematics of quantum field theory will have profound consequences for both math and physics.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-03-30T13:47:23.000Z | tags: quantum -->
+      <div class="card-image">
+        <img src="https://venturebeat.com/wp-content/uploads/2021/03/Honeywell-Quantum-Solutions-Inside-the-Chamber-1.jpg?w=1024?w=1200&amp;strip=all" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://venturebeat.com/2021/03/29/honeywell-says-quantum-computers-will-outpace-standard-verification-in-18-to-24-months">Honeywell says quantum computers will outpace standard verification in ’18</a>
+          <div class="card-meta">30 Mar 2021</div>
+          <div class="card-meta card-domain">venturebeat.com</div>
+        </div>
+        <div class="card-section">
+          <p>Honeywell says quantum computing platforms are approaching a processing milestone that conventional computers can&#39;t simulate.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-01-10T19:23:53.000Z | tags: physics, quantum -->
+      <div class="card-image">
+        <img src="https://pocket-image-cache.com/1200x/filters:format(jpg):extract_focal()/https%3A%2F%2Fpocket-syndicated-images.s3.amazonaws.com%2Farticles%2F5788%2F1601049982_M-Theory_2880x1920.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://getpocket.com/explore/item/why-is-m-theory-the-leading-candidate-for-theory-of-everything">Why Is M-Theory the Leading Candidate for Theory of Everything?</a>
+          <div class="card-meta">10 Jan 2021</div>
+          <div class="card-meta card-domain">getpocket.com</div>
+        </div>
+        <div class="card-section">
+          <p>The mother of all string theories passes a litmus test that, so far, no other candidate theory of quantum gravity has been able to match.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-01-03T15:09:57.000Z | tags: crypto, quantum -->
+      <div class="card-image">
+        <img src="https://wp.technologyreview.com/wp-content/uploads/2019/09/quantum-aigoogle-10.jpg?resize=1200,600" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.technologyreview.com/2020/08/03/1005891/search-for-quantum-proof-encryption-computing-nist">The quest for quantum-proof encryption just made a leap forward</a>
+          <div class="card-meta">3 Jan 2021</div>
+          <div class="card-meta card-domain">technologyreview.com</div>
+        </div>
+        <div class="card-section">
+          <p>Quantum computers could make encryption a thing of the past, but 15 contenders are trying to prove they have what it takes to safeguard your data.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-01-02T22:01:20.000Z | tags: physics, quantum -->
+      <div class="card-image">
+        <img src="https://www.sciencealert.com/images/2020-12/processed/unbreakable-quantum_entanglement_coverpic_nist_1024.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.sciencealert.com/scientists-achieve-sustained-high-fidelity-quantum-teleportation-over-44-km">Quantum Teleportation Was Just Achieved With 90% Accuracy Over a 44km Dista</a>
+          <div class="card-meta">2 Jan 2021</div>
+          <div class="card-meta card-domain">sciencealert.com</div>
+        </div>
+        <div class="card-section">
+          <p>Wow.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-03-05T08:38:17.000Z | tags: quantum -->
+      <div class="card-image">
+        <img src="https://wp.technologyreview.com/wp-content/uploads/2020/02/chandelier-13.jpg?resize=1200,600" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.technologyreview.com/s/615180/quantum-computer-race-ibm-google">Inside the race to build the best quantum computer on Earth</a>
+          <div class="card-meta">5 Mar 2020</div>
+          <div class="card-meta card-domain">technologyreview.com</div>
+        </div>
+        <div class="card-section">
+          <p>IBM thinks quantum supremacy is not the milestone we should care about.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-12-23T16:57:53.000Z | tags: circuits-electronics, quantum -->
+      <div class="card-image">
+        <img src="https://quantum.country/assets/social.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://quantum.country/qcvc">Quantum computing for the very curious</a>
+          <div class="card-meta">23 Dec 2019</div>
+          <div class="card-meta card-domain">quantum.country</div>
+        </div>
+        <div class="card-section">
+          <p>Presented in an experimental mnemonic medium which makes it almost effortless to remember what you read</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-07-21T14:15:06.000Z | tags: quantum -->
+      <div class="card-image">
+        <img src="https://www.quantamagazine.org/wp-content/uploads/2019/07/QuantumSupremacy-520x292.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.quantamagazine.org/quantum-supremacy-is-coming-heres-what-you-should-know-20190718?fbclid=IwAR0HhdSwnHwPQ2alLnvhVNiVBSprnISCEhnnOP0EMo25DSGOZcOKsr0-Cs8">Quantum Supremacy Is Coming: Here’s What You Should Know | Quanta Magazine</a>
+          <div class="card-meta">21 Jul 2019</div>
+          <div class="card-meta card-domain">quantamagazine.org</div>
+        </div>
+        <div class="card-section">
+          <p>Researchers are getting close to building a quantum computer that can perform tasks a classical computer can’t. Here’s what the milestone will mean.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-06-25T01:10:29.000Z | tags: algorithms-math, quantum -->
+      <div class="card-image">
+        <img src="https://www.quantamagazine.org/wp-content/uploads/2018/06/Oracle_520x292.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.quantamagazine.org/finally-a-problem-that-only-quantum-computers-will-ever-be-able-to-solve-20180621?href=">Finally, a Problem That Only Quantum Computers Will Ever Be Able to Solve | Quanta Magazine</a>
+          <div class="card-meta">25 Jun 2018</div>
+          <div class="card-meta card-domain">quantamagazine.org</div>
+        </div>
+        <div class="card-section">
+          <p>Computer scientists have been searching for years for a type of problem that a quantum computer can solve but that any possible future classical computer cannot. Now they’ve found one.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-02-06T11:47:56.000Z | tags: quantum -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://blog.acolyer.org/2018/02/06/quantum-algorithms-an-overview">Quantum algorithms: an overview</a>
+          <div class="card-meta">6 Feb 2018</div>
+          <div class="card-meta card-domain">blog.acolyer.org</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

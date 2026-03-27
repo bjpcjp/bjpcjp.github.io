@@ -1,0 +1,375 @@
+---
+layout: post
+title: "json"
+date: 2026-03-26
+---
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>json &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 27 Mar 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2024-11-29T18:10:36.073Z | tags: json -->
+      <div class="card-image">
+        <img src="https://cdn.thenewstack.io/media/2024/11/73d841f1-jq-playground-lead.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://thenewstack.io/how-to-use-the-jq-command-to-speed-developer-workflows/">How to Use the JQ Command to Speed Developer Workflows</a>
+          <div class="card-meta">29 Nov 2024</div>
+          <div class="card-meta card-domain">thenewstack.io</div>
+        </div>
+        <div class="card-section">
+          <p>The jq command provides a consistent way to manipulate JSON data without leaving the command line. Learn how it works by tinkering in a jq playground.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-05-04T20:06:12.000Z | tags: json -->
+      <div class="card-image">
+        <img src="https://opengraph.githubassets.com/4c1b970c6b996794a66e4d8be4cf049b95e52044e212c0c93dd16621be75db93/ynqa/jnv" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://github.com/ynqa/jnv">ynqa/jnv</a>
+          <div class="card-meta">4 May 2024</div>
+          <div class="card-meta card-domain">github.com</div>
+        </div>
+        <div class="card-section">
+          <p>Interactive JSON filter using jq.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-04-14T19:56:30.000Z | tags: json, yaml -->
+      <div class="card-image">
+        <img src="https://www.baeldung.com/wp-content/uploads/sites/2/2022/11/Linux-Featured-Image-11-k.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.baeldung.com/linux/json-yaml-cli-conversion">Converting JSON to YAML and Vice Versa in the Command Line | Baeldung on Li</a>
+          <div class="card-meta">14 Apr 2024</div>
+          <div class="card-meta card-domain">baeldung.com</div>
+        </div>
+        <div class="card-section">
+          <p>Learn ways to convert from JSON to YAML and from YAML to JSON using the Linux command line.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-02-03T02:53:44.000Z | tags: json, pandas -->
+      <div class="card-image">
+        <img src="https://www.kdnuggets.com/wp-content/uploads/ferrer_converting_jsons_pandas_dataframes_parsing_right_way_51.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.kdnuggets.com/converting-jsons-to-pandas-dataframes-parsing-them-the-right-way?fbclid=IwAR3qZQqd4097kaNQovLB551ydGCLPGViw0RGaudPSG-pnu5qxDLz5Jw6ovo">Converting JSONs to Pandas DataFrames: Parsing Them the Right Way</a>
+          <div class="card-meta">3 Feb 2024</div>
+          <div class="card-meta card-domain">kdnuggets.com</div>
+        </div>
+        <div class="card-section">
+          <p>Navigating Complex Data Structures with Python&#39;s json_normalize.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-03-20T18:52:41.000Z | tags: databases, jekyll, json, yaml -->
+      <div class="card-image">
+        <img src="https://media.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fovpe8egg6tvo41rqtp01.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/lenra/why-yaml-is-better-than-json-read-before-screaming-39m8">Why YAML is better than JSON (read before screaming)</a>
+          <div class="card-meta">20 Mar 2023</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>You have probably seen or used the YAML format in configuration files. YAML (a recursive acronym for...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-02-07T22:09:13.000Z | tags: csv, json, linux -->
+      <div class="card-image">
+        <img src="https://opengraph.githubassets.com/30b0a65cd2bd3f6f506a8722264a6b334b44cc5174b4964d98380c7437d79fd7/mikefarah/yq" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://github.com/mikefarah/yq">mikefarah/yq: yq is a portable command-line YAML, JSON, XML, CSV, TOML and properties processor</a>
+          <div class="card-meta">7 Feb 2023</div>
+          <div class="card-meta card-domain">github.com</div>
+        </div>
+        <div class="card-section">
+          <p>yq is a portable command-line YAML, JSON, XML, CSV, TOML  and properties processor - mikefarah/yq</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-22T19:12:59.000Z | tags: csv, json, linux -->
+      <div class="card-image">
+        <img src="https://www.cyberciti.biz/media/new/faq/2022/07/How-to-convert-JSON-to-CSV-using-jq-command-under-Linux-or-Unix-442x599.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.cyberciti.biz/faq/how-to-convert-json-to-csv-using-linux-unix-shell">How to convert JSON to CSV using Linux / Unix shell - nixCraft</a>
+          <div class="card-meta">22 Jul 2022</div>
+          <div class="card-meta card-domain">cyberciti.biz</div>
+        </div>
+        <div class="card-section">
+          <p>This page explains how to convert JSON to CSV format using Linux, macOS, *BSD or Unix command-line utilities.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-24T20:12:32.000Z | tags: json -->
+      <div class="card-image">
+        <img src="https://genius.engineering/content/images/2018/12/Artboard-1.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://genius.engineering/faster-and-simpler-with-the-command-line-deep-comparing-two-5gb-json-files-3x-faster-by-ditching-the-code">Faster and simpler with the command line: deep-comparing two 5GB JSON files 3X faster by ditching the code</a>
+          <div class="card-meta">24 Jan 2022</div>
+          <div class="card-meta card-domain">genius.engineering</div>
+        </div>
+        <div class="card-section">
+          <p>As part of our recently announced deal with Apple Music [https://genius.com/a/genius-gets-smart-with-apple-music], you can now view Genius lyrics for your favorite music within the Apple Music app.  We deliver our lyrics to Apple via a nightly export of newline-delimited JSON objects. With millions of songs in our</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-16T22:41:59.000Z | tags: json -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://mosermichael.github.io/jq-illustrated/dir/content.html">Content</a>
+          <div class="card-meta">16 Jan 2022</div>
+          <div class="card-meta card-domain">mosermichael.github.io</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-27T16:39:54.000Z | tags: json, linux -->
+      <div class="card-image">
+        <img src="https://repository-images.githubusercontent.com/336895436/f606ea6d-35b2-4f4c-a14c-c171cd27ccf7" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://github.com/wader/fq">wader/fq: jq for binary formats</a>
+          <div class="card-meta">27 Dec 2021</div>
+          <div class="card-meta card-domain">github.com</div>
+        </div>
+        <div class="card-section">
+          <p>jq for binary formats - tool, language and decoders for working with binary and text formats - wader/fq</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-17T00:18:48.000Z | tags: json -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://jsonlint.com">JSON Online Validator and Formatter - JSON Lint</a>
+          <div class="card-meta">17 Dec 2021</div>
+          <div class="card-meta card-domain">jsonlint.com</div>
+        </div>
+        <div class="card-section">
+          <p>JSONLint is the free online validator, json formatter, and json beautifier tool for JSON, a lightweight data-interchange format. You can format json, validate json, with a quick and easy copy+paste.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-17T00:18:16.000Z | tags: json -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://json.org">JSON</a>
+          <div class="card-meta">17 Dec 2021</div>
+          <div class="card-meta card-domain">json.org</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-15T02:32:09.000Z | tags: json -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://jsonapi.org">JSON:API — A specification for building APIs in JSON</a>
+          <div class="card-meta">15 Dec 2021</div>
+          <div class="card-meta card-domain">jsonapi.org</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-15T02:31:54.000Z | tags: json -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.json.com">https://www.json.com/</a>
+          <div class="card-meta">15 Dec 2021</div>
+          <div class="card-meta card-domain">json.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-09-08T13:15:54.000Z | tags: json, linux, webdev -->
+      <div class="card-image">
+        <img src="https://www.cyberciti.biz/media/new/cms/2021/09/How-to-install-htmlq-to-extract-content-from-HTML-files-on-Ubuntu-Linux.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.cyberciti.biz/open-source/command-line-hacks/using-htmlq-to-extract-content-from-html-files-on-linux-unix">How to use htmlq to extract content from HTML files on Linux, macOS or Free</a>
+          <div class="card-meta">8 Sep 2021</div>
+          <div class="card-meta card-domain">cyberciti.biz</div>
+        </div>
+        <div class="card-section">
+          <p>Most of us use love and use the jq command. It works on Linux or Unix-like systems to extract data from JSON documents. Recently I found htmlq, which is like jq and written in Rust lang. Imagine being able to sed or grep for HTML data. We can search, slice, and filter HTML data with htmlq. Let us see how to install and use this handy tool on Linux or Unix and play with HTML data.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-03-05T17:07:25.000Z | tags: json, linux -->
+      <div class="card-image">
+        <img src="https://ostechnix.com/wp-content/uploads/2019/03/json.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.ostechnix.com/how-to-parse-and-pretty-print-json-with-linux-commandline-tools">How To Parse And Pretty Print JSON With Linux Commandline Tools</a>
+          <div class="card-meta">5 Mar 2020</div>
+          <div class="card-meta card-domain">ostechnix.com</div>
+        </div>
+        <div class="card-section">
+          <p>This brief guide explains how to parse and pretty print JSON with a command line tool called jq in Linux operating systems.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-03-05T17:07:18.000Z | tags: json -->
+      <div class="card-image">
+        <img src="https://jsonformatter.curiousconcept.com/icons/jf/mstile-144x144.b0ef4bd01d6cb25ab71ae707ed7ac226.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://jsonformatter.curiousconcept.com">JSON Formatter &amp; Validator</a>
+          <div class="card-meta">5 Mar 2020</div>
+          <div class="card-meta card-domain">jsonformatter.curiousconcept.com</div>
+        </div>
+        <div class="card-section">
+          <p>Format and validate JSON data so that it can easily be read by human beings.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-03-05T17:07:15.000Z | tags: json -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://jsonlint.com/?json=">JSONLint - The JSON Validator</a>
+          <div class="card-meta">5 Mar 2020</div>
+          <div class="card-meta card-domain">jsonlint.com</div>
+        </div>
+        <div class="card-section">
+          <p>JSONLint is the free online validator, json formatter, and json beautifier tool for JSON, a lightweight data-interchange format. You can format json, validate json, with a quick and easy copy+paste.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-02-19T20:10:51.000Z | tags: json -->
+      <div class="card-image">
+        <img src="https://duckduckgo.com/assets/icons/meta/DDG-icon_256x256.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://duckduckgo.com/?ia=answer&amp;q=json+linter&amp;t=canonical">json linter at DuckDuckGo</a>
+          <div class="card-meta">19 Feb 2020</div>
+          <div class="card-meta card-domain">duckduckgo.com</div>
+        </div>
+        <div class="card-section">
+          <p>DuckDuckGo. Privacy, Simplified.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-12-23T17:01:08.000Z | tags: json -->
+      <div class="card-image">
+        <img src="https://sheetbest.com/social/opengraph-image.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://sheet.best">Sheet Best</a>
+          <div class="card-meta">23 Dec 2019</div>
+          <div class="card-meta card-domain">sheet.best</div>
+        </div>
+        <div class="card-section">
+          <p>Turn your Google Sheets into a REST API. Build websites, widgets, apps, prototypes, and tons more. Leave the backend to us.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-12-23T16:56:41.000Z | tags: json -->
+      <div class="card-image">
+        <img src="https://shapeshed.com/icon-512.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://shapeshed.com/jq-json">JSON on the Command Line with Jq</a>
+          <div class="card-meta">23 Dec 2019</div>
+          <div class="card-meta card-domain">shapeshed.com</div>
+        </div>
+        <div class="card-section">
+          <p>A series of how to examples on using jq, a command-line JSON processor</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-10-09T22:02:10.000Z | tags: json, python -->
+      <div class="card-image">
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg8_phJkXrunhcpyeV5RMuBmo-jKLB2dqUYU22Pb2gWMFph-jPfj0akNCRgoE6nres2hGwf08uoPEXOTagI2HOXVUVIQk19HL4D0cgPDIGbzowAiUk10WKtzQywRhjCEpmxbyXfdvgQ2EY/s400/2019_json_nytimes.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://morepypy.blogspot.com/2019/10/pypys-new-json-parser.html">PyPy&#39;s New JSON Parser</a>
+          <div class="card-meta">9 Oct 2019</div>
+          <div class="card-meta card-domain">morepypy.blogspot.com</div>
+        </div>
+        <div class="card-section">
+          <p>Introduction  In the last year or two I have worked on and off on making PyPy&#39;s JSON  faster, particularly when parsing large JSON files. I...</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

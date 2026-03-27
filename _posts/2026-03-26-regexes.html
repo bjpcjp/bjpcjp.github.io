@@ -1,0 +1,248 @@
+---
+layout: post
+title: "regexes"
+date: 2026-03-26
+---
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>regexes &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 27 Mar 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2025-07-23T20:05:03.728Z | tags: linux, regexes, grep -->
+      <div class="card-image">
+        <img src="https://linuxhandbook.com/content/images/2025/07/regex-cheatsheet-1-.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://linuxhandbook.com/cheatsheets/regex/">Regex Cheatsheet: Essentials You Must Know</a>
+          <div class="card-meta">23 Jul 2025</div>
+          <div class="card-meta card-domain">linuxhandbook.com</div>
+        </div>
+        <div class="card-section">
+          <p>Struggling with regex? This simple cheatsheet breaks down common patterns, symbols, and examples you can use right away.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-12-12T19:24:21.823Z | tags: regexes, grep, linux -->
+      <div class="card-image">
+        <img src="https://cdn.thenewstack.io/media/2024/12/f81ea84e-steve-johnson-pjofestxhra-unsplashb.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://thenewstack.io/introduction-to-using-grep-with-regular-expressions-via-warp/">Introduction to Using Grep With Regular Expressions via Warp</a>
+          <div class="card-meta">12 Dec 2024</div>
+          <div class="card-meta card-domain">thenewstack.io</div>
+        </div>
+        <div class="card-section">
+          <p>After mastering regex, tools like grep become much more useful.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-05-21T16:02:17.000Z | tags: bash, regexes -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*nIZog5UABUp9SCA2E0iT8w.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://medium.com/@linuxschooltech/understanding-the-bash-rematch-in-bash-183a5b065081">Understanding The $BASH_REMATCH In Bash | by Linux School Tech | Medium</a>
+          <div class="card-meta">21 May 2024</div>
+          <div class="card-meta card-domain">medium.com</div>
+        </div>
+        <div class="card-section">
+          <p>$BASH_REMATCH is a special array variable in the Bash shell that stores the results of matching a regular expression using the =~ operator…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-04-01T00:59:45.000Z | tags: regexes, sublime-text -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.boost.org/doc/libs/1_84_0/libs/regex/doc/html/boost_regex/format/perl_format.html">Perl Format String Syntax - 1.84.0</a>
+          <div class="card-meta">1 Apr 2024</div>
+          <div class="card-meta card-domain">boost.org</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-02-14T19:53:35.000Z | tags: regexes -->
+      <div class="card-image">
+        <img src="https://media.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fhkjzg3sg1xr9cqk64d0t.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/sh20raj/top-50-useful-regex-patterns-2jab">Top 50 Useful Regex Patterns</a>
+          <div class="card-meta">14 Feb 2024</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>Mastering Regular Expressions in JavaScript: Top 50 Useful Regex Patterns   Know More :-...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-09-23T11:45:49.000Z | tags: awk, linux, regexes -->
+      <div class="card-image">
+        <img src="https://media.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fs5ys2rqks4pdh64z6e36.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/tanushree_aggarwal/linux-3-ways-to-search-patterns-in-files-1do0">Linux: 3 ways to search patterns in files</a>
+          <div class="card-meta">23 Sep 2023</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>Introduction:   This is the first post in my bite-sized learning series. In this series we...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-25T13:04:37.000Z | tags: regexes -->
+      <div class="card-image">
+        <img src="https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon.png?v=c78bd457575a" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://stackoverflow.com/questions/6109882/regex-match-all-characters-between-two-strings">Regex Match all characters between two strings - Stack Overflow</a>
+          <div class="card-meta">25 Jun 2022</div>
+          <div class="card-meta card-domain">stackoverflow.com</div>
+        </div>
+        <div class="card-section">
+          <p>Example:
+This is just\na simple sentence.
+I want to match every character between This is and sentence. Line breaks should be ignored. I can&#39;t figure out the correct syntax.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-26T21:12:22.000Z | tags: regexes -->
+      <div class="card-image">
+        <img src="https://regexr.com/assets/card.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://regexr.com">RegExr: Learn, Build, &amp; Test RegEx</a>
+          <div class="card-meta">26 Dec 2021</div>
+          <div class="card-meta card-domain">regexr.com</div>
+        </div>
+        <div class="card-section">
+          <p>RegExr is an online tool to learn, build, &amp; test Regular Expressions (RegEx / RegExp).</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-11T01:40:37.000Z | tags: regexes -->
+      <div class="card-image">
+        <img src="https://www.janmeppe.com/assets/2019-08-01-regex/regex-for-noobs.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.janmeppe.com/blog/regex-for-noobs">Regex For Noobs (like me!) - An Illustrated Guide</a>
+          <div class="card-meta">11 Dec 2021</div>
+          <div class="card-meta card-domain">janmeppe.com</div>
+        </div>
+        <div class="card-section">
+          <p>This blog post is an illustrated guide to regex and aims to provide a gentle introduction for people who never have fiddled with regex, want to, but are kind of intimidated by the whole thing.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-11-18T18:05:40.000Z | tags: regexes -->
+      <div class="card-image">
+        <img src="https://regexlearn.com//images/og-regexlearn-image.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://regexlearn.com">Regex Learn - Step by step, from zero to advanced.</a>
+          <div class="card-meta">18 Nov 2021</div>
+          <div class="card-meta card-domain">regexlearn.com</div>
+        </div>
+        <div class="card-section">
+          <p>Learn Regex interactively, practice at your level, test and share your own Regex.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-09-08T21:53:11.000Z | tags: python, regexes, web-scraping -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.crummy.com/software/BeautifulSoup/bs4/doc">Beautiful Soup Documentation — Beautiful Soup 4.9.0 documentation</a>
+          <div class="card-meta">8 Sep 2021</div>
+          <div class="card-meta card-domain">crummy.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-07-10T10:13:57.000Z | tags: regexes -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://rexegg.com/regex-best-trick.html">The Best Regex Trick</a>
+          <div class="card-meta">10 Jul 2021</div>
+          <div class="card-meta card-domain">rexegg.com</div>
+        </div>
+        <div class="card-section">
+          <p>Describes a regular expressions technique to match a word or pattern except in certain contexts: excluding tags, ignoring contents, word blacklist.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-03-09T20:16:47.000Z | tags: python, regexes -->
+      <div class="card-image">
+        <img src="https://media.licdn.com/dms/image/v2/C5634AQGxpxPUFh8Dqw/ugc-proxy-shrink_800/ugc-proxy-shrink_800/0/1604879191475?e=2147483647&amp;v=beta&amp;t=GnNfmy_FPDHjqus3UMslA1fy35d5iXxuY8alWkS50p8" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.linkedin.com/posts/rahulagwl_the-ultimate-guide-to-using-the-python-regex-activity-6639584596629512192-2kDf">Rahul Agarwal on LinkedIn: #regex #python #datascience #nlp</a>
+          <div class="card-meta">9 Mar 2020</div>
+          <div class="card-meta card-domain">linkedin.com</div>
+        </div>
+        <div class="card-section">
+          <p>&quot;The Ultimate Guide to using the Python regex module&quot; https://lttr.ai/Nt5c #regex #Python #datascience #nlp</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

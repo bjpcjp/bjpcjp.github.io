@@ -1,0 +1,188 @@
+---
+layout: post
+title: "forensics"
+date: 2026-03-26
+---
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>forensics &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 27 Mar 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2026-03-21T13:16:17.489Z | tags: art, crime, forensics, museums -->
+      <div class="card-image">
+        <img src="https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1174x661+61+119/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fb0%2F8f%2F256f695e40c8969bb81774778e95%2Fbrand-portrait-2.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.npr.org/2026/03/21/nx-s1-5716061/dutch-art-detective-arthur-brand">Meet the Dutch art detective who tracks down stolen masterpieces</a>
+          <div class="card-meta">21 Mar 2026</div>
+          <div class="card-meta card-domain">npr.org</div>
+        </div>
+        <div class="card-section">
+          <p>For 20 years, Dutch art detective Arthur Brand has acted as an intermediary between the police and people who know where stolen artwork might be hiding. He says patience and trust are everything.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-10-15T00:26:22.365Z | tags: forensics, crime -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://longreads.com/2024/08/07/inside-the-texas-crime-lab-thats-cracked-hundreds-of-cold-cases/">Inside the Texas Crime Lab That’s Cracked Hundreds of Cold Cases</a>
+          <div class="card-meta">15 Oct 2025</div>
+          <div class="card-meta card-domain">longreads.com</div>
+        </div>
+        <div class="card-section">
+          <p>&quot;The killing of Catherine Edwards, in Beaumont, long remained unsolved. Then came Othram, a start-up whose breakthroughs in DNA technology are helping identify bodies and solve decades-old murders and rapes.&quot;</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-10-14T11:48:56.504Z | tags: forensics -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://longreads.com/2025/10/14/glitter-trace-evidence-crime/">Inside the Glitter Lab</a>
+          <div class="card-meta">14 Oct 2025</div>
+          <div class="card-meta card-domain">longreads.com</div>
+        </div>
+        <div class="card-section">
+          <p>&quot;How the tiniest trace of red shimmer helped solve one of California’s most brutal crimes.&quot;</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-12-06T19:38:34.657Z | tags: language-linguistics, forensics -->
+      <div class="card-image">
+        <img src="http://static1.squarespace.com/static/6317a497832bf15c3b30f236/t/672dd270803fbb6a3e10f411/1731056240664/Issue+22+Language_Forensic+Linguistics_banner.jpg?format=1500w" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.thedial.world/articles/news/issue-22/forensic-linguists-solve-crimes">Can a Comma Solve a Crime? — The Dial</a>
+          <div class="card-meta">6 Dec 2024</div>
+          <div class="card-meta card-domain">thedial.world</div>
+        </div>
+        <div class="card-section">
+          <p>How forensic linguists use grammar, syntax and vocabulary to help crack cold cases.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-02-22T02:03:33.000Z | tags: _r_, forensics -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://sctyner.github.io/OpenForSciR">Open Forensic Science in R</a>
+          <div class="card-meta">22 Feb 2024</div>
+          <div class="card-meta card-domain">sctyner.github.io</div>
+        </div>
+        <div class="card-section">
+          <p>This book is for anyone looking to do forensic science analysis in a data-driven and open way.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-05-08T16:06:21.000Z | tags: finance, forensics -->
+      <div class="card-image">
+        <img src="https://bs-uploads.toptal.io/blackfish-uploads/components/open_graph_image/8960960/og_image/optimized/Untitled-c4d612ceece599811b4c04580faa3e6b.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.toptal.com/finance/risk-management-consultants/financial-risk-analysis">How Forensic Accounting Can Supercharge Your Financial Risk Analysis</a>
+          <div class="card-meta">8 May 2023</div>
+          <div class="card-meta card-domain">toptal.com</div>
+        </div>
+        <div class="card-section">
+          <p>Spot trouble early in a volatile environment with forensic accounting.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-01-28T11:14:11.000Z | tags: goodreads, forensics -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5e0a875f-d5c3-4f04-99cd-12a4b4f27b7e_1280x720.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://narratively.com/the-sultan-of-spatter">The Sultan of Spatter</a>
+          <div class="card-meta">28 Jan 2021</div>
+          <div class="card-meta card-domain">narratively.com</div>
+        </div>
+        <div class="card-section">
+          <p>Dr. Donald Johnson has spent his career making crime scene blood stains spill their secrets. His next mission: bringing forensic science into the iPad age.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-10-26T13:08:20.000Z | tags: forensics, spycraft -->
+      <div class="card-image">
+        <img src="https://pocket-image-cache.com/1200x/filters:format(jpg):extract_focal()/https%3A%2F%2Fs3.amazonaws.com%2Fpocket-syndicated-images%2Farticles%2F1959%2F1571335915_756YAUN5YKGOT3XTOYYRIFIIVM.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://getpocket.com/explore/item/to-catch-a-bomb-maker">To Catch A Bomb-Maker</a>
+          <div class="card-meta">26 Oct 2019</div>
+          <div class="card-meta card-domain">getpocket.com</div>
+        </div>
+        <div class="card-section">
+          <p>This is the story of a little-known FBI forensics lab and how it changed the war on terror.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-04-19T02:07:23.000Z | tags: biology, forensics -->
+      <div class="card-image">
+        <img src="https://i.guim.co.uk/img/media/d1cd4cf1d9a8b1efe2ec561204d2b5afaf355ed4/0_15_4167_2501/master/4167.jpg?width=1200&amp;height=630&amp;quality=85&amp;auto=format&amp;fit=crop&amp;overlay-align=bottom%2Cleft&amp;overlay-width=100p&amp;overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctYWdlLTIwMTkucG5n&amp;enable=upscale&amp;s=e5195f495a3c06d447522d84f97d39a3" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.theguardian.com/science/2019/apr/18/how-to-identify-a-body-the-marchioness-disaster-and-my-life-in-forensic-pathology">How to identify a body: the Marchioness disaster and my life in forensic pa</a>
+          <div class="card-meta">19 Apr 2019</div>
+          <div class="card-meta card-domain">theguardian.com</div>
+        </div>
+        <div class="card-section">
+          <p>The long read: In my career, I have investigated many of the UK’s worst disasters. Few cases were as harrowing as the sinking of the Marchioness in 1989, which left scores dead and almost impossible to identify</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

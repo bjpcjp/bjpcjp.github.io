@@ -1,0 +1,548 @@
+---
+layout: post
+title: "sqlite"
+date: 2026-03-26
+---
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>sqlite &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 27 Mar 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2025-02-22T23:13:33.064Z | tags: sqlite -->
+      <div class="card-image">
+        <img src="https://www.sqlitetutorial.net/wp-content/uploads/2016/05/SQLite-Import-csv-to-table-Step-1.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.sqlitetutorial.net/sqlite-import-csv/">Import a CSV File Into an SQLite Table</a>
+          <div class="card-meta">22 Feb 2025</div>
+          <div class="card-meta card-domain">sqlitetutorial.net</div>
+        </div>
+        <div class="card-section">
+          <p>This tutorial shows you various ways to import CSV data into an SQLite table using sqlite3 and SQLite Studio tools.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-02-07T12:28:47.839Z | tags: sqlite, aws, python, llm-willison -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://simonwillison.net/2025/Feb/7/sqlite-s3vfs/#atom-everything">sqlite-s3vfs</a>
+          <div class="card-meta">7 Feb 2025</div>
+          <div class="card-meta card-domain">simonwillison.net</div>
+        </div>
+        <div class="card-section">
+          <p>Neat open source project on the GitHub organisation for the UK government&#39;s Department for Business and Trade: a &quot;Python virtual filesystem for SQLite to read from and write to S3.&quot; …</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-01-27T22:29:23.304Z | tags: ruby, sqlite -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://blog.julik.nl/2025/01/supercharge-sqlite-with-ruby-functions">Supercharge SQLite with Ruby Functions</a>
+          <div class="card-meta">27 Jan 2025</div>
+          <div class="card-meta card-domain">blog.julik.nl</div>
+        </div>
+        <div class="card-section">
+          <p>An interesting twist in my recent usage of SQLite was the fact that I noticed my research scripts and the database intertwine more. SQLite is unique in that it really lives in-process, unlike standalone database servers. There is a feature to that which does not get used very frequently, but can be indispensable in some situations. By the way, the talk about the system that made me me to explore SQLite in anger can now be seen here. Normally it is your Ruby (or Python, or Go, or whatever) program which calls SQLite to make it “do stuff”. Most calls will be mapped to a native call like sqlite3_exec() which will do “SQLite things” and return you a result, converted into data structures accessible to your runtime. But there is another possible direction here - SQLite can actually call your code instead.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-12-31T00:21:47.694Z | tags: sqlite -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://avi.im/blag/2024/sqlite-facts/">Collection of insane and fun facts about SQLite - blag</a>
+          <div class="card-meta">31 Dec 2024</div>
+          <div class="card-meta card-domain">avi.im</div>
+        </div>
+        <div class="card-section">
+          <p>Some of the interesting and insane facts I learned about SQLite</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-08-04T11:35:41.000Z | tags: sqlite -->
+      <div class="card-image">
+        <img src="https://www.marktechpost.com/wp-content/uploads/2024/08/Screenshot-2024-08-04-at-12.44.21-AM.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.marktechpost.com/2024/08/04/sqlite-vec-v0-1-0-released-portable-vector-database-extension-for-sqlite-with-support-for-1-million-128-dimensional-vectors-binary-quantization-and-extensive-sdks">sqlite-vec v0.1.0 Released: Portable Vector Database Extension for SQLite w</a>
+          <div class="card-meta">4 Aug 2024</div>
+          <div class="card-meta card-domain">marktechpost.com</div>
+        </div>
+        <div class="card-section">
+          <p>Alex Garcia announced the much-anticipated release of sqlite-vec v0.1.0. This new SQLite extension, written entirely in C, introduces a powerful vector search capability to the SQLite database system. Released under the MIT/Apache-2.0 dual license, sqlite-vec aims to be a versatile and accessible tool for developers across various platforms and environments. Overview of sqlite-vec The sqlite-vec extension enables vector search functionality within SQLite by allowing the creation of virtual tables with vector columns. Users can insert data using standard SQL commands and perform vector searches using SELECT statements. This integration means that vector data can be stored and queried within the</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-05-22T02:39:43.000Z | tags: python, sqlite -->
+      <div class="card-image">
+        <img src="https://www.kdnuggets.com/wp-content/uploads/bala-sqlite.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.kdnuggets.com/a-guide-to-working-with-sqlite-databases-in-python">A Guide to Working with SQLite Databases in Python</a>
+          <div class="card-meta">22 May 2024</div>
+          <div class="card-meta card-domain">kdnuggets.com</div>
+        </div>
+        <div class="card-section">
+          <p>Get started with SQLite databases in Python using the built-in sqlite3 module.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-04-30T18:05:05.000Z | tags: sqlite -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://sqlite.org/draft/whybytecode.html">Why SQLite Uses Bytecode</a>
+          <div class="card-meta">30 Apr 2024</div>
+          <div class="card-meta card-domain">sqlite.org</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-04-23T19:07:02.000Z | tags: rubyonrails, sqlite -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://fractaledmind.github.io/2024/04/15/sqlite-on-rails-the-how-and-why-of-optimal-performance">SQLite on Rails: The how and why of optimal performance</a>
+          <div class="card-meta">23 Apr 2024</div>
+          <div class="card-meta card-domain">fractaledmind.github.io</div>
+        </div>
+        <div class="card-section">
+          <p>This is my personal site, where I write about Ruby, programming, and any of my varied fascinations.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-03-28T03:50:30.000Z | tags: sql, sqlite -->
+      <div class="card-image">
+        <img src="https://gitlab.com/assets/twitter_card-570ddb06edf56a2312253c5872489847a0f385112ddbcd71ccfa1570febab5d2.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://gitlab.com/Screwtapello/sqlite-schema-diagram">sqlite-schema-diagram</a>
+          <div class="card-meta">28 Mar 2024</div>
+          <div class="card-meta card-domain">gitlab.com</div>
+        </div>
+        <div class="card-section">
+          <p>GitLab.com</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-03-27T20:34:47.000Z | tags: devops, rubyonrails, sqlite -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://fractaledmind.github.io/2023/12/23/rubyconftw">How (and why) to run SQLite in production: RubyConf Taiwan 2023</a>
+          <div class="card-meta">27 Mar 2024</div>
+          <div class="card-meta card-domain">fractaledmind.github.io</div>
+        </div>
+        <div class="card-section">
+          <p>This is my personal site, where I write about Ruby, programming, and any of my varied fascinations.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-03-10T13:06:19.000Z | tags: aws, databases, sqlite -->
+      <div class="card-image">
+        <img src="https://calpaterson.com/images/photo/cal-misc.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://calpaterson.com/s3.html">S3 is files, but not a filesystem</a>
+          <div class="card-meta">10 Mar 2024</div>
+          <div class="card-meta card-domain">calpaterson.com</div>
+        </div>
+        <div class="card-section">
+          <p>&quot;Deep&quot; modules, mismatched interfaces - and why SAP is so painful</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-04-14T02:31:57.000Z | tags: sql, sqlite -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.sqlite.org/lang_corefunc.html">Built-In Scalar SQL Functions</a>
+          <div class="card-meta">14 Apr 2023</div>
+          <div class="card-meta card-domain">sqlite.org</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-03-21T18:52:03.000Z | tags: google-docs, sqlite -->
+      <div class="card-image">
+        <img src="https://opengraph.githubassets.com/4b9fd4c0ccf9a8dab75d99f73356fe54c8c043c5889a3c731c713e2db0dc1653/0x6b/libgsqlite" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://github.com/0x6b/libgsqlite">0x6b/libgsqlite</a>
+          <div class="card-meta">21 Mar 2023</div>
+          <div class="card-meta card-domain">github.com</div>
+        </div>
+        <div class="card-section">
+          <p>A SQLite extension which loads a Google Sheet as a virtual table. - 0x6b/libgsqlite</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-02-09T13:20:50.000Z | tags: sqlite, gpt -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://datasette.io/tools/openai-to-sqlite">openai-to-sqlite - a tool for Datasette</a>
+          <div class="card-meta">9 Feb 2023</div>
+          <div class="card-meta card-domain">datasette.io</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-10-20T17:32:37.000Z | tags: databases, sqlite -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.sqlite.org/quirks.html">Quirks, Caveats, and Gotchas In SQLite</a>
+          <div class="card-meta">20 Oct 2022</div>
+          <div class="card-meta card-domain">sqlite.org</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-10-04T19:44:29.000Z | tags: sqlite, web-scraping -->
+      <div class="card-image">
+        <img src="https://static.observableusercontent.com/thumbnail/c2de010b717366cf7cefe0d56aabb89fbfec2fba680a0e695c7ce21625f9f706.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://observablehq.com/@asg017/scrape-json-html-zip-with-sqlite">Scraping JSON, HTML, and ZIP Files with Pure SQLite</a>
+          <div class="card-meta">4 Oct 2022</div>
+          <div class="card-meta card-domain">observablehq.com</div>
+        </div>
+        <div class="card-section">
+          <p>a.k.a. leave BeautifulSoup in the past and embrace SQL I used DALL·E to generate thumbnails for this post: “cute cartoon|claymation abominable snowman scraping ice off his frozen car windshield” is nightmare fuel Some of the most common web-scraping tasks can be done in pure SQLite - meaning no Python, Node, Ruby, or other programming languages necessary, only the SQLite CLI and some extensions. The main extension that enables this: sqlite-http, which allows you to make HTTP requests and sa</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-30T11:39:07.000Z | tags: databases, sqlite -->
+      <div class="card-image">
+        <img src="https://fly.io/blog/sqlite-internals-btree/assets/sqlite-cover.webp" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://fly.io/blog/sqlite-internals-btree">SQLite Internals: Pages &amp; B-trees</a>
+          <div class="card-meta">30 Jul 2022</div>
+          <div class="card-meta card-domain">fly.io</div>
+        </div>
+        <div class="card-section">
+          <p>Let&#39;s open a hex editor and see what this thing is made of</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-23T02:42:42.000Z | tags: csv, sqlite, llm-willison -->
+      <div class="card-image">
+        <img src="https://s3.amazonaws.com/til.simonwillison.net/4d34654aa36fd90806d2767c87fc52c4.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://til.simonwillison.net/sqlite/one-line-csv-operations">One-liner for running queries against CSV files with SQLite | Simon Williso</a>
+          <div class="card-meta">23 Jun 2022</div>
+          <div class="card-meta card-domain">til.simonwillison.net</div>
+        </div>
+        <div class="card-section">
+          <p>I figured out how to run a SQL query directly against a CSV file using the sqlite3 command-line utility:</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-05-27T22:07:45.000Z | tags: sql, sqlite -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://jvns.ca/blog/2022/05/12/sqlite-utils--a-nice-way-to-import-data-into-sqlite">sqlite-utils: a nice way to import data into SQLite for analysis</a>
+          <div class="card-meta">27 May 2022</div>
+          <div class="card-meta card-domain">jvns.ca</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-05-26T22:55:17.000Z | tags: sqlite -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://sqlite.org/fiddle">SQLite3 Fiddle</a>
+          <div class="card-meta">26 May 2022</div>
+          <div class="card-meta card-domain">sqlite.org</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-04-29T19:50:28.000Z | tags: databases, sql, sqlite -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://blog.wesleyac.com/posts/consider-sqlite">Wesley Aptekar-Cassels | Consider SQLite</a>
+          <div class="card-meta">29 Apr 2022</div>
+          <div class="card-meta card-domain">blog.wesleyac.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-04-09T23:41:36.000Z | tags: golang, sqlite -->
+      <div class="card-image">
+        <img src="https://opengraph.githubassets.com/8e9d25c1ebbcd31f8829ddf43efd7a6da24908a0fe90dea11f1974cfb9c215eb/jmoiron/sqlx" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://github.com/jmoiron/sqlx">jmoiron/sqlx: general purpose extensions to golang&#39;s database/sql</a>
+          <div class="card-meta">9 Apr 2022</div>
+          <div class="card-meta card-domain">github.com</div>
+        </div>
+        <div class="card-section">
+          <p>general purpose extensions to golang&#39;s database/sql - jmoiron/sqlx</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-07-31T18:05:24.000Z | tags: github, sqlite -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://phiresky.netlify.app/blog/2021/hosting-sqlite-databases-on-github-pages">Hosting SQLite databases on Github Pages - (or any static file hoster) - ph</a>
+          <div class="card-meta">31 Jul 2021</div>
+          <div class="card-meta card-domain">phiresky.netlify.app</div>
+        </div>
+        <div class="card-section">
+          <p>I was writing a tiny website to display statistics of how much sponsored content a Youtube creator has over time when I noticed that I often write a small tool as a website that queries some data from a database and then displays it in a graph, a table, or similar. But if you want to use a</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-07-18T19:44:48.000Z | tags: sql, sqlite -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://avi.im/blag/2021/fast-sqlite-inserts">Inserting One Billion Rows in SQLite Under a Minute</a>
+          <div class="card-meta">18 Jul 2021</div>
+          <div class="card-meta card-domain">avi.im</div>
+        </div>
+        <div class="card-section">
+          <p>This is a chronicle of my experiment where I set out to insert 1B rows in SQLite</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-06-13T15:02:16.000Z | tags: databases, nosql, sql, sqlite -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://news.ycombinator.com/item?id=27490361">Ask HN: What is the SQLite of nosql databases?</a>
+          <div class="card-meta">13 Jun 2021</div>
+          <div class="card-meta card-domain">news.ycombinator.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-05-12T23:35:29.000Z | tags: databases, sql, sqlite -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*XXaFrkRXSg85eLIP" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/tricks-for-advanced-sql-querying-a09766552155">Tricks for Advanced SQL Querying</a>
+          <div class="card-meta">12 May 2021</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>One of the most valuable technical skills I use working on a data science team in the retail space is SQL…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-05-05T15:13:23.000Z | tags: python, sql, sqlite -->
+      <div class="card-image">
+        <img src="https://media.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fbkjooyyxlp4d7i1ovdal.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/arctype/a-hitchhiker-s-guide-to-sqlite-with-python-3c9j">A Hitchhiker&#39;s Guide to SQLite with Python</a>
+          <div class="card-meta">5 May 2021</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>To explore SQLite along with Python, which is a user-friendly and no-nonsense language, we are going...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-04-16T13:24:07.000Z | tags: databases, sqlite -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://unixsheikh.com/articles/sqlite-the-only-database-you-will-ever-need-in-most-cases.html">SQLite the only database you will ever need in most cases</a>
+          <div class="card-meta">16 Apr 2021</div>
+          <div class="card-meta card-domain">unixsheikh.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-04-03T20:16:21.000Z | tags: sql, sqlite -->
+      <div class="card-image">
+        <img src="https://repository-images.githubusercontent.com/343191804/9392a53d-9126-41b5-ba3f-9a4429b9a9db" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://github.com/nalgeon/sqlite-plus">SQLite Plus: all the missing SQLite functions</a>
+          <div class="card-meta">3 Apr 2021</div>
+          <div class="card-meta card-domain">github.com</div>
+        </div>
+        <div class="card-section">
+          <p>The ultimate set of SQLite extensions.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-03-26T00:09:05.000Z | tags: sql, sqlite -->
+      <div class="card-image">
+        <img src="https://antonz.org/sqlite-is-not-a-toy-database/cover.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://antonz.org/sqlite-is-not-a-toy-database">SQLite is not a toy database | Anton Zhiyanov</a>
+          <div class="card-meta">26 Mar 2021</div>
+          <div class="card-meta card-domain">antonz.org</div>
+        </div>
+        <div class="card-section">
+          <p>Here is why SQLite is a perfect tool for you - whether you are a developer, data analyst, or geek.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-11-03T00:40:36.000Z | tags: databases, pandas, sqlite -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:343/0*-EBtMyzPlj2kRCfZ" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/python-pandas-and-sqlite-a0e2c052456f?source=rss----7f60cf5620c9---4">Python Pandas and SQLite</a>
+          <div class="card-meta">3 Nov 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Using SQLite to store your Pandas dataframes gives you a persistent store and a way of easily selecting and filtering your data</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-08-22T00:39:21.000Z | tags: sqlite -->
+      <div class="card-image">
+        <img src="https://duckduckgo.com/assets/icons/meta/DDG-icon_256x256.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://duckduckgo.com/?ia=web&amp;q=sqlite+command+line+cheatsheet&amp;t=canonical">sqlite command line cheatsheet at DuckDuckGo</a>
+          <div class="card-meta">22 Aug 2020</div>
+          <div class="card-meta card-domain">duckduckgo.com</div>
+        </div>
+        <div class="card-section">
+          <p>DuckDuckGo. Privacy, Simplified.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-08-22T00:39:08.000Z | tags: sqlite -->
+      <div class="card-image">
+        <img src="https://duckduckgo.com/assets/icons/meta/DDG-icon_256x256.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://duckduckgo.com/?ia=web&amp;q=how+to+exit+from+sqlite&amp;t=canonical">how to exit from sqlite at DuckDuckGo</a>
+          <div class="card-meta">22 Aug 2020</div>
+          <div class="card-meta card-domain">duckduckgo.com</div>
+        </div>
+        <div class="card-section">
+          <p>DuckDuckGo. Privacy, Simplified.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-06-01T16:45:12.000Z | tags: spreadsheets, sqlite -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*8pUcIVteZSETt3af" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/turn-your-excel-workbook-into-a-sqlite-database-bc6d4fd206aa?source=rss----7f60cf5620c9---4">Turn Your Excel Workbook Into A SQLite Database</a>
+          <div class="card-meta">1 Jun 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Transforming spreadsheets into queryable database tables</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-05-15T11:29:17.000Z | tags: python, sqlite -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*xoLXyDVdjAk-oMOV1eDsbw.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/python-sqlite-tutorial-the-ultimate-guide-fdcb8d7a4f30?source=rss----7f60cf5620c9---4">Python SQLite Tutorial — The Ultimate Guide</a>
+          <div class="card-meta">15 May 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Everything You Need to Get Started!</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2017-12-27T18:09:19.000Z | tags: sqlite -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.sqlite.org/fasterthanfs.html">SQLite small blob storage: 35% Faster Than the Filesystem</a>
+          <div class="card-meta">27 Dec 2017</div>
+          <div class="card-meta card-domain">sqlite.org</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

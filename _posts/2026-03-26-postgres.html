@@ -1,0 +1,694 @@
+---
+layout: post
+title: "postgres"
+date: 2026-03-26
+---
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>postgres &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 27 Mar 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2024-10-19T18:32:36.985Z | tags: books, postgres, rubyonrails -->
+      <div class="card-image">
+        <img src="https://pragprog.com/titles/aapsql/aapsql-large.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://pragprog.com/titles/aapsql/high-performance-postgresql-for-rails?ref=stepchange-blog.ghost.io">High Performance PostgreSQL for Rails: Reliable Scalable Maintainable Dat</a>
+          <div class="card-meta">19 Oct 2024</div>
+          <div class="card-meta card-domain">pragprog.com</div>
+        </div>
+        <div class="card-section">
+          <p>Build fast, scalable PostgreSQL and Rails apps. Solve data growth, quality, and reliability challenges, for workloads from consumer Internet to enterprise SaaS.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-10-19T18:32:36.985Z | tags: postgres -->
+      <div class="card-image">
+        <img src="https://www.postgresql.org/media/img/about/press/elephant.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.postgresql.org/docs/16/index.html">PostgreSQL 16.4 Documentation</a>
+          <div class="card-meta">19 Oct 2024</div>
+          <div class="card-meta card-domain">postgresql.org</div>
+        </div>
+        <div class="card-section">
+          <p>PostgreSQL 16.4 Documentation The PostgreSQL Global Development Group Copyright © 1996–2024 The PostgreSQL Global Development Group Legal Notice Table of …</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-03-31T02:13:59.000Z | tags: databases, mongodb, postgres -->
+      <div class="card-image">
+        <img src="https://infisical.com/static/images/postgresql-migration-technical.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://infisical.com/blog/postgresql-migration-technical">The Great Migration from MongoDB to PostgreSQL</a>
+          <div class="card-meta">31 Mar 2024</div>
+          <div class="card-meta card-domain">infisical.com</div>
+        </div>
+        <div class="card-section">
+          <p>How Infisical migrated from MongoDB to PostgreSQL.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-02-29T23:45:46.000Z | tags: linux, postgres, ubuntu -->
+      <div class="card-image">
+        <img src="https://community-cdn-digitalocean-com.global.ssl.fastly.net/zp5sXuzCU113SHf5q679SqGu" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-20-04">How To Install and Use PostgreSQL on Ubuntu 20.04 | DigitalOcean</a>
+          <div class="card-meta">29 Feb 2024</div>
+          <div class="card-meta card-domain">digitalocean.com</div>
+        </div>
+        <div class="card-section">
+          <p>PostgreSQL, or Postgres, is a relational database management system that provides an implementation of the SQL querying language. This guide demonstrates how…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-02-29T23:45:24.000Z | tags: postgres, rubyonrails -->
+      <div class="card-image">
+        <img src="https://avatars.githubusercontent.com/u/4223" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://guides.rubyonrails.org/active_record_postgresql.html">Active Record and PostgreSQL — Ruby on Rails Guides</a>
+          <div class="card-meta">29 Feb 2024</div>
+          <div class="card-meta card-domain">guides.rubyonrails.org</div>
+        </div>
+        <div class="card-section">
+          <p>Active Record and PostgreSQLThis guide covers PostgreSQL specific usage of Active Record.After reading this guide, you will know: How to use PostgreSQL&#39;s datatypes. How to use UUID primary keys. How to include non-key columns in indexes. How to use deferrable foreign keys. How to use unique constraints. How to implement exclusion constraints. How to implement full text search with PostgreSQL. How to back your Active Record models with database views.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-02-23T18:46:25.000Z | tags: postgres, rubyonrails -->
+      <div class="card-image">
+        <img src="https://ondemand.bannerbear.com/signedurl/nZ52rq9EkQ6V3bp1Lj/image.jpg?modifications=W3sibmFtZSI6InRpdGxlIiwidGV4dCI6IkVmZmVjdGl2ZSBRdWVyaWVzIHdpdGggUmFpbHMgYW5kIFBvc3RncmVTUUwiLCJjb2xvciI6bnVsbCwiYmFja2dyb3VuZCI6bnVsbH0seyJuYW1lIjoiaGVhZHNob3QiLCJpbWFnZV91cmwiOiJodHRwczovL3d3dy1maWxlcy5ob25leWJhZGdlci5pby9hdXRob3JzL3BhdmVsdGthY2hlbmtvLnBuZyJ9LHsibmFtZSI6InN1bW1hcnkiLCJ0ZXh0IjoiR2V0dGluZyBkYXRhICppbnRvKiB5b3VyIGRhdGFiYXNlIGlzIGVhc3ksIGJ1dCBxdWVyeWluZyBsYXJnZSBkYXRhc2V0cyBpcyBjaGFsbGVuZ2luZ-KAlGVzcGVjaWFsbHkgd2l0aG91dCB0aGUgcmlnaHQgaW5kZXhlcy4gUGF2ZWwgVGthY2hlbmtvIHRlYWNoZXMgaG93IHRvIHdyaXRlIHBlcmZvcm1hbnQgU1FMIHF1ZXJpZXMgd2l0aCBFWFBMQUlOIGFuZCBBTkFMWVpFLiIsImNvbG9yIjpudWxsLCJiYWNrZ3JvdW5kIjpudWxsfSx7Im5hbWUiOiJhdXRob3IiLCJ0ZXh0IjoiQnkgKlBhdmVsIFRrYWNoZW5rbyoiLCJjb2xvciI6bnVsbCwiYmFja2dyb3VuZCI6bnVsbH0seyJuYW1lIjoidGFncyIsInRleHQiOiIjcnVieSAjcmFpbHMgI3Bvc3RncmVzcWwiLCJjb2xvciI6bnVsbCwiYmFja2dyb3VuZCI6bnVsbH1d&amp;s=6d6f8d799a5c98d194c052e1fc88a8901df9ff1f8171b5bce0c969dedec2ce55" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.honeybadger.io/blog/rails-postgresql-queries">Effective Queries with Rails and PostgreSQL - Honeybadger Developer Blog</a>
+          <div class="card-meta">23 Feb 2024</div>
+          <div class="card-meta card-domain">honeybadger.io</div>
+        </div>
+        <div class="card-section">
+          <p>Getting data *into* your database is easy, but querying large datasets is challenging—especially without the right indexes. Pavel Tkachenko teaches how to write performant SQL queries with EXPLAIN and ANALYZE.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-02-07T18:39:36.000Z | tags: postgres -->
+      <div class="card-image">
+        <img src="https://github.githubassets.com/assets/gist-og-image-54fd7dc0713e.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://gist.github.com/cpursley/c8fb81fe8a7e5df038158bdfe0f06dbb">Postgres is Enough</a>
+          <div class="card-meta">7 Feb 2024</div>
+          <div class="card-meta card-domain">gist.github.com</div>
+        </div>
+        <div class="card-section">
+          <p>Postgres is Enough  · GitHub</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-06-18T16:02:41.000Z | tags: postgres, sql -->
+      <div class="card-image">
+        <img src="https://media.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fce2myv15u3p84wzxntr9.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/koshirok096/how-to-start-using-psql-in-terminal-for-beginners-2ok3">How to Start Using psql in Terminal (for Beginners)</a>
+          <div class="card-meta">18 Jun 2023</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>Intro   Hello guys! Today I try to write about how to start using psql in Terminal app,...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-05-31T11:00:29.000Z | tags: databases, postgres -->
+      <div class="card-image">
+        <img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/3otvb2z646ytpt1hl2rv.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/sadeeddahmad/the-internals-of-postgresql-database-cluster-databases-and-tables-n2d">The Internals of PostgreSQL: Database Cluster, Databases, and Tables</a>
+          <div class="card-meta">31 May 2023</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>PostgreSQL, a widely adopted open-source relational database management system (RDBMS), offers robust...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-04-08T02:49:25.000Z | tags: postgres -->
+      <div class="card-image">
+        <img src="https://opengraph.githubassets.com/b25c223f8923e54804d677e9848a6ac1bc75c268dc2fddc079895894a5b4f214/dhamaniasad/awesome-postgres" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://github.com/dhamaniasad/awesome-postgres">dhamaniasad/awesome-postgres: A curated list of awesome PostgreSQL software, libraries, tools and resources, inspired by awesome-mysql</a>
+          <div class="card-meta">8 Apr 2023</div>
+          <div class="card-meta card-domain">github.com</div>
+        </div>
+        <div class="card-section">
+          <p>A curated list of awesome PostgreSQL software, libraries, tools and resources, inspired by awesome-mysql - dhamaniasad/awesome-postgres</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-03-16T13:36:57.000Z | tags: postgres, ui-ux -->
+      <div class="card-image">
+        <img src="https://opengraph.githubassets.com/02e4956336e88ec4274f10e924d7340a933b7997050d22f3d947a68031a26fc4/mathesar-foundation/mathesar" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://github.com/centerofci/mathesar">mathesar-foundation/mathesar: Web application providing an intuitive user experience to databases.</a>
+          <div class="card-meta">16 Mar 2023</div>
+          <div class="card-meta card-domain">github.com</div>
+        </div>
+        <div class="card-section">
+          <p>Web application providing an intuitive user experience to databases. - mathesar-foundation/mathesar</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-03-15T12:11:25.000Z | tags: databases, postgres, rubyonrails -->
+      <div class="card-image">
+        <img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/3otvb2z646ytpt1hl2rv.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/yet_anotherdev/mastering-postgresql-views-and-ctes-for-rails-developers-a-comprehensive-guide-3fl4">Mastering PostgreSQL Views and CTEs for Rails Developers: A Comprehensive G</a>
+          <div class="card-meta">15 Mar 2023</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>Introduction   Views and Common Table Expression or CTE are two important concept in...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-01-14T19:20:03.000Z | tags: postgres, rubyonrails -->
+      <div class="card-image">
+        <img src="https://www.digitalocean.com/_next/static/media/intro-to-cloud.d49bc5f7.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.digitalocean.com/community/tutorials/how-to-use-postgresql-with-your-ruby-on-rails-application-on-ubuntu-18-04">How To Use PostgreSQL with Your Ruby on Rails Application on Ubuntu 18.04 |</a>
+          <div class="card-meta">14 Jan 2023</div>
+          <div class="card-meta card-domain">digitalocean.com</div>
+        </div>
+        <div class="card-section">
+          <p>A PostgreSQL database is a robust and flexible choice for your Ruby on Rails application. In this tutorial, you will set up a Ruby on Rails development envir…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-08-19T18:55:01.000Z | tags: databases, postgres, rubyonrails -->
+      <div class="card-image">
+        <img src="https://pganalyze.com/og/ebook-advanced-database-programming-rails-postgres.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://rubyweekly.com/link/127468/ad5e785e3b">Advanced Database Programming with Rails and Postgres</a>
+          <div class="card-meta">19 Aug 2022</div>
+          <div class="card-meta card-domain">rubyweekly.com</div>
+        </div>
+        <div class="card-section">
+          <p>Learn about Active Record and subqueries, views and materialized views, and domain types and composite types in Postgres and Ruby on Rails.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-14T11:17:03.000Z | tags: books, databases, postgres -->
+      <div class="card-image">
+        <img src="https://postgrespro.com/img/logo2.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://postgrespro.com/community/books/internals">PostgreSQL 14 Internals</a>
+          <div class="card-meta">14 Jul 2022</div>
+          <div class="card-meta card-domain">postgrespro.com</div>
+        </div>
+        <div class="card-section">
+          <p>Postgres Professional is a PostgreSQL company delivering Postgres Pro DBMS and all kinds of PostgreSQL professional services worldwide</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-22T16:40:53.000Z | tags: databases, mysql, postgres -->
+      <div class="card-image">
+        <img src="https://media.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fl7vr3b8a0h58yza7hv7d.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/tipseason/postgres-vs-mysql-syntax-comparison-with-cheatsheet-41n5">Postgres Vs MySQL syntax comparison with cheatsheet</a>
+          <div class="card-meta">22 Jun 2022</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>When migrating from PostgreSQL to MySQL we often get stuck with syntax between databases. Here are...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-05-29T21:19:24.000Z | tags: command-line, databases, jupyter, kernels, postgres, ubuntu, _r_ -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://wiki.postgresql.org/wiki/Apt">Apt - PostgreSQL wiki</a>
+          <div class="card-meta">29 May 2022</div>
+          <div class="card-meta card-domain">wiki.postgresql.org</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-05-29T21:19:21.000Z | tags: linux, postgres, ubuntu -->
+      <div class="card-image">
+        <img src="https://community-cdn-digitalocean-com.global.ssl.fastly.net/5kWwmK8BtWpfC5weGSDqU65t" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-20-04-quickstart">How To Install PostgreSQL on Ubuntu 20.04 [Quickstart] | DigitalOcean</a>
+          <div class="card-meta">29 May 2022</div>
+          <div class="card-meta card-domain">digitalocean.com</div>
+        </div>
+        <div class="card-section">
+          <p>PostgreSQL, or Postgres, is a relational database management system that provides an implementation of the SQL querying language. This quickstart guide demon…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-05-29T21:18:53.000Z | tags: heroku, postgres, rubyonrails -->
+      <div class="card-image">
+        <img src="https://www.herokucdn.com/images/og.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://devcenter.heroku.com/articles/sqlite3">SQLite on Heroku | Heroku Dev Center</a>
+          <div class="card-meta">29 May 2022</div>
+          <div class="card-meta card-domain">devcenter.heroku.com</div>
+        </div>
+        <div class="card-section">
+          <p>A guide to SQLite on Heroku - explaining why using SQLite on Heroku&#39;s ephemeral file system is a bad fit, and looking at alternatives.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-17T19:31:48.000Z | tags: postgres, rubyonrails, search -->
+      <div class="card-image">
+        <img src="https://pganalyze.com/static/be06f82c4bee648c1ea8fe0d77d92c52/fcb2f/full_text_search_ruby_rails_postgres.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://pganalyze.com/blog/full-text-search-ruby-rails-postgres">Full Text Search in Milliseconds with Rails and PostgreSQL</a>
+          <div class="card-meta">17 Jan 2022</div>
+          <div class="card-meta card-domain">pganalyze.com</div>
+        </div>
+        <div class="card-section">
+          <p>This article shows how to optimize a Full Text Search implementation with Rails and PostgreSQL, taking a single query from 130ms to 7ms.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-16T23:11:52.000Z | tags: postgres, python -->
+      <div class="card-image">
+        <img src="https://www.postgresqltutorial.com/wp-content/uploads/2016/06/PostgreSQL-Python.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.postgresqltutorial.com/postgresql-python">PostgreSQL Python</a>
+          <div class="card-meta">16 Jan 2022</div>
+          <div class="card-meta card-domain">postgresqltutorial.com</div>
+        </div>
+        <div class="card-section">
+          <p>This PostgreSQL Python section shows how to work with PostgreSQL from Python programming language using the psycopg2 database driver.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-12T23:34:00.000Z | tags: postgres -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://blog.jasonmeridth.com/posts/postgresql-command-line-cheat-sheet">PostgreSQL Command Line Cheat Sheet</a>
+          <div class="card-meta">12 Jan 2022</div>
+          <div class="card-meta card-domain">blog.jasonmeridth.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-12T23:33:44.000Z | tags: postgres -->
+      <div class="card-image">
+        <img src="https://gravatar.com/avatar/e29f04f339715955060858e0e65e1311.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://phili.pe/posts/postgresql-on-the-command-line">PostgreSQL on the Command Line</a>
+          <div class="card-meta">12 Jan 2022</div>
+          <div class="card-meta card-domain">phili.pe</div>
+        </div>
+        <div class="card-section">
+          <p>Working efficiently with psql</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-17T00:19:23.000Z | tags: postgres -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.postgresql.org/about">PostgreSQL: About</a>
+          <div class="card-meta">17 Dec 2021</div>
+          <div class="card-meta card-domain">postgresql.org</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-14T22:33:39.000Z | tags: postgres, ubuntu -->
+      <div class="card-image">
+        <img src="https://community-cdn-digitalocean-com.global.ssl.fastly.net/H83RrNFHGL58YpjgpGLvxPHX" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-14-04">How To Install and Use PostgreSQL on Ubuntu 14.04 | DigitalOcean</a>
+          <div class="card-meta">14 Dec 2021</div>
+          <div class="card-meta card-domain">digitalocean.com</div>
+        </div>
+        <div class="card-section">
+          <p>PostgreSQL is one of the most powerful and popular relational database management systems available for open source platforms. In this guide, we’ll talk abo…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-13T23:53:02.000Z | tags: expressjs, javascript, postgres -->
+      <div class="card-image">
+        <img src="https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/b20e4a44-cc99-45dd-82df-d498c66b4d6a/express-api-backend-project-postgresql.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.smashingmagazine.com/2020/04/express-api-backend-project-postgresql">How To Set Up An Express API Backend Project With PostgreSQL — Smashing Magazine</a>
+          <div class="card-meta">13 Dec 2021</div>
+          <div class="card-meta card-domain">smashingmagazine.com</div>
+        </div>
+        <div class="card-section">
+          <p>In this article, Chidi Orji will create a set of API endpoints using [Express](https://expressjs.com/) from scratch in ES6 syntax, and cover some development best practices. Find out how all the pieces work together as you create a small project using Continuous Integration and Test-Driven Development before deploying to Heroku.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-13T23:52:02.000Z | tags: postgres -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.techrepublic.com/blog/diy-it-guy/diy-a-postgresql-database-server-setup-anyone-can-handle">Developer | TechRepublic</a>
+          <div class="card-meta">13 Dec 2021</div>
+          <div class="card-meta card-domain">techrepublic.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-13T23:51:05.000Z | tags: databases, postgres -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://pgexercises.com">PostgreSQL Exercises</a>
+          <div class="card-meta">13 Dec 2021</div>
+          <div class="card-meta card-domain">pgexercises.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-02T01:44:58.000Z | tags: linux, postgres -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://www.yolinux.com/TUTORIALS/LinuxTutorialPostgreSQL.html">Linux Tutorial: PostgreSQL Database and Linux</a>
+          <div class="card-meta">2 Dec 2021</div>
+          <div class="card-meta card-domain">yolinux.com</div>
+        </div>
+        <div class="card-section">
+          <p>Using the PostgreSQL database with Linux. This tutorial also covers some of the pitfalls users may experience.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-10-27T23:28:03.000Z | tags: databases, postgres -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*5wJ459bq74jEuccOgNLlRQ.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/10-essential-psql-commands-for-data-engineers-c1ea42279160">10 Essential Psql Commands For Data Engineers</a>
+          <div class="card-meta">27 Oct 2021</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Learn how to interact with PostgreSQL databases through the command line using PSQL.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-10-01T18:38:01.000Z | tags: postgres -->
+      <div class="card-image">
+        <img src="http://static1.squarespace.com/static/5ac767d1e2ccd11e65939466/t/5d518d1ce812e9000152afb6/1565625629224/pg_thumbnail_with_background.png?format=1500w" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.pgmustard.com">pgMustard - review Postgres query plans quickly</a>
+          <div class="card-meta">1 Oct 2021</div>
+          <div class="card-meta card-domain">pgmustard.com</div>
+        </div>
+        <div class="card-section">
+          <p>pgMustard is a Postgres EXPLAIN visualisation tool that also gives performance advice, scored based on its potential to speed up your query.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-10-01T17:50:59.000Z | tags: postgres, rubyonrails, search, sql -->
+      <div class="card-image">
+        <img src="https://cdn.prod.website-files.com/6647a84a9616b0776fb903e9/66667ea42cee85721676cd1b_social-how-to-build-a-search-engine-with-ruby-on-rails.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://blog.testdouble.com/posts/2021-09-09-how-to-build-a-search-engine-with-ruby-on-rails">How to build a search engine with Ruby on Rails</a>
+          <div class="card-meta">1 Oct 2021</div>
+          <div class="card-meta card-domain">blog.testdouble.com</div>
+        </div>
+        <div class="card-section">
+          <p>Implementing search in your Rails app can be vexing. Here&#39;s a great pattern to use that combines the best parts of ActiveRecord and Postgres.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-06-12T18:56:04.000Z | tags: graphql, nodejs, postgres -->
+      <div class="card-image">
+        <img src="https://media.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fvs1glorbpewndes162xz.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/daliboru/building-backend-node-postgres-graphql-373g">Building Backend | Node, Postgres, GraphQL</a>
+          <div class="card-meta">12 Jun 2021</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>Hi there 👋  Every application, you&#39;ll agree, needs a back-end. And there are many languages and tools...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-04-05T11:22:18.000Z | tags: databases, geography, geometry, postgres -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://postgis.net">PostGIS – Spatial and Geographic Objects for PostgreSQL</a>
+          <div class="card-meta">5 Apr 2021</div>
+          <div class="card-meta card-domain">postgis.net</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-02-27T23:19:59.000Z | tags: databases, mysql, postgres -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://eng.uber.com/postgres-to-mysql-migration">Why Uber Engineering Switched from Postgres to MySQL</a>
+          <div class="card-meta">27 Feb 2021</div>
+          <div class="card-meta card-domain">eng.uber.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-11-18T16:19:01.000Z | tags: postgres -->
+      <div class="card-image">
+        <img src="https://www.postgresqltutorial.com//wp-content/uploads/2021/04/postgresql-tutorial-homepage.svg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.postgresqltutorial.com">PostgreSQL Tutorial - Learn PostgreSQL from Scratch</a>
+          <div class="card-meta">18 Nov 2020</div>
+          <div class="card-meta card-domain">postgresqltutorial.com</div>
+        </div>
+        <div class="card-section">
+          <p>Learn PostgreSQL quickly through a practical PostgreSQL tutorial designed for database administrators and application developers.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-11-18T12:24:16.000Z | tags: postgres -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.postgresqltutorial.com/install-postgresql-linux">Install PostgreSQL on Linux (Ubuntu)</a>
+          <div class="card-meta">18 Nov 2020</div>
+          <div class="card-meta card-domain">postgresqltutorial.com</div>
+        </div>
+        <div class="card-section">
+          <p>In this tutorial, you will learn how to download and install PostgreSQL on Linux. You also learn how to load the sample database to the PostgreSQL Database Server.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-11-17T14:48:40.000Z | tags: postgres -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://tomcam.github.io/postgres">psql command line tutorial and cheat sheet | postgres</a>
+          <div class="card-meta">17 Nov 2020</div>
+          <div class="card-meta card-domain">tomcam.github.io</div>
+        </div>
+        <div class="card-section">
+          <p>The least you need to know about Postgres</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-04-19T13:59:04.000Z | tags: postgres, sql -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*NwJGGvT4lR1mnifjxrHuNw.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/sql-query-cheatsheet-for-postgres-96eba6e9e419?source=rss----7f60cf5620c9---4">SQL Query Cheatsheet for Postgres</a>
+          <div class="card-meta">19 Apr 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>The SQL queries I use as a data scientist and software engineer</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-04-01T11:20:16.000Z | tags: databases, postgres -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*UEAzlUSboRMuQBW486o0Xw.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/how-gin-indices-can-make-your-postgres-queries-15x-faster-af7a195a3fc5?source=rss----7f60cf5620c9---4">How GIN Indices Can Make Your Postgres Queries 15x Faster</a>
+          <div class="card-meta">1 Apr 2020</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>With query examples you can run on your laptop</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-03-23T17:14:52.000Z | tags: postgres, python -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.postgresqltutorial.com/postgresql-python/connect">PostgreSQL Python: Connect To PostgreSQL Database Server</a>
+          <div class="card-meta">23 Mar 2020</div>
+          <div class="card-meta card-domain">postgresqltutorial.com</div>
+        </div>
+        <div class="card-section">
+          <p>In this tutorial, you will learn how to connect to the PostgreSQL database server from Python using the psycopg2 package.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-03-19T15:22:15.000Z | tags: postgres, rubyonrails -->
+      <div class="card-image">
+        <img src="https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon.png?v=c78bd457575a" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://stackoverflow.com/questions/28116927/postgres-permission-denied-to-create-database-on-rake-dbcreateall">ruby on rails - Postgres permission denied to create database on rake db:cr</a>
+          <div class="card-meta">19 Mar 2020</div>
+          <div class="card-meta card-domain">stackoverflow.com</div>
+        </div>
+        <div class="card-section">
+          <p>I am trying to create postgres databases for development and tests. I&#39;m using:
+
+OSX Yosemite
+Rails version: 4.2.0
+git version: 2.2.2
+psql version: 9.4.0
+ruby version: 2.1.0p0
+HomeBrew version: 0.9.5</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-11-13T01:09:49.000Z | tags: postgres -->
+      <div class="card-image">
+        <img src="https://webapp.io/blog/content/images/2019/11/postgres.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://layerci.com/blog/postgres-is-the-answer">Postgres is a great pub/sub &amp; job server</a>
+          <div class="card-meta">13 Nov 2019</div>
+          <div class="card-meta card-domain">layerci.com</div>
+        </div>
+        <div class="card-section">
+          <p>If you need a publish/subscribe or job server at any point in your project, try using Postgres. It&#39;ll give you lots of data integrity and performance guarantees, and it doesn&#39;t require you or your team learning any new technology.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

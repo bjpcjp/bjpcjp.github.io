@@ -1,0 +1,756 @@
+---
+layout: post
+title: "benchmarks"
+date: 2026-03-26
+---
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>benchmarks &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 27 Mar 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2026-03-15T10:38:15.439Z | tags: python, benchmarks -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://cemrehancavdar.com/2026/03/10/optimization-ladder/">The Optimization Ladder</a>
+          <div class="card-meta">15 Mar 2026</div>
+          <div class="card-meta card-domain">cemrehancavdar.com</div>
+        </div>
+        <div class="card-section">
+          <p>Python loses every public benchmark by 21-875x. I took the exact problems people use to dunk on Python and climbed every rung of the optimization ladder -- from CPython version upgrades to Rust. Real numbers, real code, real effort costs.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2026-03-14T13:27:43.596Z | tags: benchmarks, llms -->
+      <div class="card-image">
+        <img src="https://canirun.ai/og/home.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.canirun.ai/">CanIRun.ai — Can your machine run AI models?</a>
+          <div class="card-meta">14 Mar 2026</div>
+          <div class="card-meta card-domain">canirun.ai</div>
+        </div>
+        <div class="card-section">
+          <p>Detect your hardware and find out which AI models you can run locally. GPU, CPU, and RAM analysis in your browser.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2026-03-08T01:25:46.732Z | tags: cloud, benchmarks, cpus -->
+      <div class="card-image">
+        <img src="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fnfspjoxt6h8z1l1tjprz.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://devblog.ecuadors.net/cloud-vm-benchmarks-2026-performance-price-1i1m.html">Cloud VM benchmarks 2026: performance / price</a>
+          <div class="card-meta">8 Mar 2026</div>
+          <div class="card-meta card-domain">devblog.ecuadors.net</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2026-02-23T00:03:30.863Z | tags: gpus, benchmarks, linear-algebra -->
+      <div class="card-image">
+        <img src="https://media.licdn.com/dms/image/v2/D5622AQEpxtB6nPOKfw/feedshare-shrink_1280/B56ZyB.j31HgAc-/0/1771707186914?e=2147483647&amp;v=beta&amp;t=Vulw0_Yzj7fyEkaLL_UPEcM-Oj0-C0Oam4qAiTlz1OI" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.linkedin.com/posts/emi-andere_nvidias-b200-does-1760-tflops-on-a-square-activity-7431078544937734144-D1g1?utm_source=share&amp;utm_medium=member_ios&amp;rcm=ACoAAAAQ_oABqroJaYAjd1pLSvoVsTKPWFYPcIQ">nvidia&#39;s B200 does 1,760 TFLOPS on a square GEMM and 4 TFLOPS on a skinny one. the shape of your matmul is the single biggest variable in GPU performance. but why? same hardware, same operation… | Emilio Andere</a>
+          <div class="card-meta">23 Feb 2026</div>
+          <div class="card-meta card-domain">linkedin.com</div>
+        </div>
+        <div class="card-section">
+          <p>nvidia&#39;s B200 does 1,760 TFLOPS on a square GEMM and 4 TFLOPS on a skinny one.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2026-02-16T11:53:16.793Z | tags: llms, agents, benchmarks -->
+      <div class="card-image">
+        <img src="https://www.reuters.com/resizer/v2/YN3QYHR43ZIPDI4THOXMJUER5M.jpg?auth=998006c15796a5f34b102144c693d6c1650e878381ad9625843f5934cb24df8b&amp;height=1005&amp;width=1920&amp;quality=80&amp;smart=true" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.reuters.com/world/china/alibaba-unveils-new-qwen35-model-agentic-ai-era-2026-02-16/">Alibaba unveils new Qwen3.5 model for &#39;agentic AI era&#39;</a>
+          <div class="card-meta">16 Feb 2026</div>
+          <div class="card-meta card-domain">reuters.com</div>
+        </div>
+        <div class="card-section">
+          <p>Alibaba on Monday unveiled a new artificial intelligence model Qwen 3.5 designed to execute complex tasks independently, with big improvements in performance and cost that the Chinese tech giant claims beat major U.S. rival models on several benchmarks.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2026-02-11T22:49:59.398Z | tags: autonomous-driving, vision, object-detection, deep-learning, benchmarks -->
+      <div class="card-image">
+        <img src="https://i0.wp.com/semiengineering.com/wp-content/uploads/2025/08/AdobeStock_577940357-road-scaled.jpeg?fit=2560%2C1440&amp;ssl=1" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://semiengineering.com/autonomous-driving-assessment-of-yolo-algorithms-rmit-et-al/">Autonomous Driving: Assessment Of YOLO Algorithms (RMIT et al.)</a>
+          <div class="card-meta">11 Feb 2026</div>
+          <div class="card-meta card-domain">semiengineering.com</div>
+        </div>
+        <div class="card-section">
+          <p>A new technical paper titled “Advances in You Only Look Once (YOLO) algorithms for lane and object detection in autonomous vehicles” was published by RMIT University, Kyungpook National University, Deakin University and the RCA Robotics Laboratory, Royal College of Art. Abstract “Ensuring the safety and efficiency of Autonomous Vehicles (AVs) necessitates highly accurate perception, especially... » read more</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2026-02-11T01:45:22.112Z | tags: agents, benchmarks -->
+      <div class="card-image">
+        <img src="https://images.ctfassets.net/jdtwqhzvc2n1/67ibdydoAxgYdXSB210bmt/1679a3361e7b1cd5a3042b93db148137/observational-memory-smk2.jpg?w=800&amp;q=75" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://venturebeat.com/data/observational-memory-cuts-ai-agent-costs-10x-and-outscores-rag-on-long">&#39;Observational memory&#39; cuts AI agent costs 10x and outscores RAG on long-context benchmarks</a>
+          <div class="card-meta">11 Feb 2026</div>
+          <div class="card-meta card-domain">venturebeat.com</div>
+        </div>
+        <div class="card-section">
+          <p>As AI agents move into production, teams are rethinking memory. Mastra’s open-source observational memory shows how stable context can outperform RAG while cutting token costs.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2026-01-02T22:15:12.957Z | tags: llms, benchmarks, arxiv, paperswithcode -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/$s_!vFPu!,f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Fsebastianraschka.substack.com%2Fapi%2Fv1%2Fpost_preview%2F182875069%2Ftwitter.jpg%3Fversion%3D4" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://magazine.sebastianraschka.com/p/llm-research-papers-2025-part2">LLM Research Papers: The 2025 List (July to December)</a>
+          <div class="card-meta">2 Jan 2026</div>
+          <div class="card-meta card-domain">magazine.sebastianraschka.com</div>
+        </div>
+        <div class="card-section">
+          <p>In June, I shared a bonus article with my curated and bookmarked research paper lists to the paid subscribers who make this Substack possible.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-12-31T02:42:19.650Z | tags: llms, arxiv, paperswithcode, benchmarks -->
+      <div class="card-image">
+        <img src="https://sebastianraschka.com/images/blog/2025/llm-research-papers-2025-part2/hero.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://sebastianraschka.com/blog/2025/llm-research-papers-2025-part2.html">LLM Research Papers: The 2025 List (July to December)</a>
+          <div class="card-meta">31 Dec 2025</div>
+          <div class="card-meta card-domain">sebastianraschka.com</div>
+        </div>
+        <div class="card-section">
+          <p>A curated list of LLM research papers from July–December 2025, organized by reasoning models, inference-time scaling, architectures, training efficiency, and...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-12-15T01:10:41.546Z | tags: benchmarks, graphql, apis -->
+      <div class="card-image">
+        <img src="https://cdn.sanity.io/images/gq0n5o36/production/b78d3be6a3c86ba719624ea47ddf70541542b173-1536x1024.png?rect=0,109,1536,806&amp;w=1200&amp;h=630" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://johnjames.blog/posts/graphql-the-enterprise-honeymoon-is-over">GraphQL: the enterprise honeymoon is over</a>
+          <div class="card-meta">15 Dec 2025</div>
+          <div class="card-meta card-domain">johnjames.blog</div>
+        </div>
+        <div class="card-section">
+          <p>A production-tested take on GraphQL in enterprise systems, why the honeymoon phase fades, and when its complexity outweighs the benefits.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-12-11T02:16:47.469Z | tags: benchmarks, llms -->
+      <div class="card-image">
+        <img src="https://images.ctfassets.net/jdtwqhzvc2n1/1P96HBSOE22cfl5djgDueT/df9398cb8f464a8f6519d964da86026c/mRfmh7TAQtPYv7mwcN551.png?w=800&amp;q=75" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://venturebeat.com/ai/the-70-factuality-ceiling-why-googles-new-facts-benchmark-is-a-wake-up-call">The 70% factuality ceiling: why Google’s new ‘FACTS’ benchmark is a wake-up call</a>
+          <div class="card-meta">11 Dec 2025</div>
+          <div class="card-meta card-domain">venturebeat.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-11-04T12:13:17.900Z | tags: llms, benchmarks -->
+      <div class="card-image">
+        <img src="https://www.marktechpost.com/wp-content/uploads/2025/11/blog-banner-9.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.marktechpost.com/2025/11/04/comparing-the-top-7-large-language-models-llms-systems-for-coding-in-2025/">Comparing the Top 7 Large Language Models LLMs/Systems for Coding in 2025</a>
+          <div class="card-meta">4 Nov 2025</div>
+          <div class="card-meta card-domain">marktechpost.com</div>
+        </div>
+        <div class="card-section">
+          <p>Compare the top 7 large language models and systems for coding in 2025. Discover which ones excel for software engineering tasks.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-10-28T23:35:44.008Z | tags: llms, benchmarks -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/$s_!LmVE!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F45c50202-0e8b-4e64-8296-4e2ccf4cb287_1756x1227.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://open.substack.com/pub/sebastianraschka/p/the-big-llm-architecture-comparison">The Big LLM Architecture Comparison</a>
+          <div class="card-meta">28 Oct 2025</div>
+          <div class="card-meta card-domain">open.substack.com</div>
+        </div>
+        <div class="card-section">
+          <p>From DeepSeek-V3 to Kimi K2: A Look At Modern LLM Architecture Design</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-10-05T18:34:36.266Z | tags: llms, reasoning, metrics, benchmarks -->
+      <div class="card-image">
+        <img src="https://substackcdn.com/image/fetch/$s_!swUe!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F75559207-f220-48de-a396-f395a963012a_2099x1139.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://magazine.sebastianraschka.com/p/llm-evaluation-4-approaches">Understanding the 4 Main Approaches to LLM Evaluation (From Scratch)</a>
+          <div class="card-meta">5 Oct 2025</div>
+          <div class="card-meta card-domain">magazine.sebastianraschka.com</div>
+        </div>
+        <div class="card-section">
+          <p>Multiple-Choice Benchmarks, Verifiers, Leaderboards, and LLM Judges with Code Examples</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-08-20T11:41:22.432Z | tags: ui-ux, benchmarks, ecommerce -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://baymard.com/ux-benchmark?_hsenc=p2ANqtz-8vKdTwWLUAiR59qo6YQ_JNSaLK6trzBlYG6V0DtlCCHvakteivmgUcdACP140zbIAtp2EVem2uJQoyPAknl5-ThPCilA&amp;_hsmi=115628620">319 Top Ecommerce Sites Ranked by User Experience Performance – Baymard</a>
+          <div class="card-meta">20 Aug 2025</div>
+          <div class="card-meta card-domain">baymard.com</div>
+        </div>
+        <div class="card-section">
+          <p>See the ranked UX performance of the 319 leading ecommerce sites in the US and Europe. The chart summarizes 100,000+ UX performance ratings.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-08-14T00:48:00.648Z | tags: benchmarks, llms -->
+      <div class="card-image">
+        <img src="https://artificialanalysis.ai/img/open-graph/og-image.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://artificialanalysis.ai/">AI Model &amp; API Providers Analysis | Artificial Analysis</a>
+          <div class="card-meta">14 Aug 2025</div>
+          <div class="card-meta card-domain">artificialanalysis.ai</div>
+        </div>
+        <div class="card-section">
+          <p>Comparison and analysis of AI models and API hosting providers. Independent benchmarks across key performance metrics including quality, price, output speed &amp; latency.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-08-03T22:02:10.298Z | tags: llms, prompt-engineering, benchmarks, context-graphs -->
+      <div class="card-image">
+        <img src="https://www.marktechpost.com/wp-content/uploads/2025/08/Screenshot-2025-08-03-at-2.21.48-PM.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.marktechpost.com/2025/08/03/a-technical-roadmap-to-context-engineering-in-llms-mechanisms-benchmarks-and-open-challenges/">A Technical Roadmap to Context Engineering in LLMs: Mechanisms, Benchmarks, and Open Challenges</a>
+          <div class="card-meta">3 Aug 2025</div>
+          <div class="card-meta card-domain">marktechpost.com</div>
+        </div>
+        <div class="card-section">
+          <p>Context engineering for large language models—frameworks, architectures, and strategies to optimize AI reasoning, and scalability</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-05-01T01:32:12.907Z | tags: llms, chatbots, benchmarks -->
+      <div class="card-image">
+        <img src="https://storage.googleapis.com/public-arena-asset/lmsys.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://lmarena.ai/">Chatbot Arena (formerly LMSYS): Free AI Chat to Compare &amp; Test Best AI Chatbots</a>
+          <div class="card-meta">1 May 2025</div>
+          <div class="card-meta card-domain">lmarena.ai</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-04-30T13:31:56.095Z | tags: benchmarks, llms -->
+      <div class="card-image">
+        <img src="https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://arxiv.org/abs/2504.20879">The Leaderboard Illusion</a>
+          <div class="card-meta">30 Apr 2025</div>
+          <div class="card-meta card-domain">arxiv.org</div>
+        </div>
+        <div class="card-section">
+          <p>Measuring progress is fundamental to the advancement of any scientific field. As benchmarks play an increasingly central role, they also grow more susceptible to distortion. Chatbot Arena has emerged as the go-to leaderboard for ranking the most capable AI systems. Yet, in this work we identify systematic issues that have resulted in a distorted playing field. We find that undisclosed private testing practices benefit a handful of providers who are able to test multiple variants before public release and retract scores if desired. We establish that the ability of these providers to choose the best score leads to biased Arena scores due to selective disclosure of performance results. At an extreme, we identify 27 private LLM variants tested by Meta in the lead-up to the Llama-4 release. We also establish that proprietary closed models are sampled at higher rates (number of battles) and have fewer models removed from the arena than open-weight and open-source alternatives. Both these policies lead to large data access asymmetries over time. Providers like Google and OpenAI have received an estimated 19.2% and 20.4% of all data on the arena, respectively. In contrast, a combined 83 open-weight models have only received an estimated 29.7% of the total data. We show that access to Chatbot Arena data yields substantial benefits; even limited additional data can result in relative performance gains of up to 112% on the arena distribution, based on our conservative estimates. Together, these dynamics result in overfitting to Arena-specific dynamics rather than general model quality. The Arena builds on the substantial efforts of both the organizers and an open community that maintains this valuable evaluation platform. We offer actionable recommendations to reform the Chatbot Arena&#39;s evaluation framework and promote fairer, more transparent benchmarking for the field</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-04-26T12:01:10.287Z | tags: quantum, optimization, benchmarks -->
+      <div class="card-image">
+        <img src="https://git.zib.de/assets/twitter_card-570ddb06edf56a2312253c5872489847a0f385112ddbcd71ccfa1570febab5d2.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://git.zib.de/qopt/qoblib-quantum-optimization-benchmarking-library">QOpt / QOBLIB - Quantum Optimization Benchmarking Library · GitLab</a>
+          <div class="card-meta">26 Apr 2025</div>
+          <div class="card-meta card-domain">git.zib.de</div>
+        </div>
+        <div class="card-section">
+          <p>This is the ZIB GitLab instance</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-04-10T01:20:46.469Z | tags: llms, benchmarks -->
+      <div class="card-image">
+        <img src="https://cdn.theatlantic.com/thumbor/TQ7unWwrL3WWTg13JHKKLeS9j1w=/0x43:2000x1085/1200x625/filters:watermark(https://cdn.theatlantic.com/media/files/badge_2x.png,-20,20,0,33)/media/img/mt/2025/04/THE_ATLANTIC_ANIMATION_V2/original.gif" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.theatlantic.com/technology/archive/2025/04/arc-agi-chollet-test/682295/?gift=2iIN4YrefPjuvZ5d2Kh3089M3DxlABplHmODO9XssmE&amp;utm_source=copy-link&amp;utm_medium=social&amp;utm_campaign=share">The Man Out to Prove How Dumb AI Still Is</a>
+          <div class="card-meta">10 Apr 2025</div>
+          <div class="card-meta card-domain">theatlantic.com</div>
+        </div>
+        <div class="card-section">
+          <p>François Chollet has constructed the ultimate test for the bots.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-04-07T11:43:38.404Z | tags: benchmarks, llms, metrics -->
+      <div class="card-image">
+        <img src="https://i.imgur.com/q0p1thB.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://www.techmeme.com/250407/p2#a250407p2">A look at the ARC-AGI exam designed by French computer scientist François Chollet to show the gulf between AI models&#39; memorized answers and “fluid intelligence”</a>
+          <div class="card-meta">7 Apr 2025</div>
+          <div class="card-meta card-domain">techmeme.com</div>
+        </div>
+        <div class="card-section">
+          <p>By Matteo Wong / The Atlantic. View the full context on Techmeme.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-04-02T19:55:35.724Z | tags: llms, benchmarks -->
+      <div class="card-image">
+        <img src="https://developer-blogs.nvidia.com/wp-content/uploads/2025/03/data-center.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://developer.nvidia.com/blog/llm-benchmarking-fundamental-concepts/">LLM Benchmarking: Fundamental Concepts | NVIDIA Technical Blog</a>
+          <div class="card-meta">2 Apr 2025</div>
+          <div class="card-meta card-domain">developer.nvidia.com</div>
+        </div>
+        <div class="card-section">
+          <p>The past few years have witnessed the rise in popularity of generative AI and large language models (LLMs), as part of a broad AI revolution.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-04-02T10:55:16.559Z | tags: metrics, language-linguistics, nlp, benchmarks -->
+      <div class="card-image">
+        <img src="https://dataconomy.com/wp-content/uploads/2022/12/DC-logo-emblem_multicolor.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dataconomy.com/2025/04/02/what-is-meteor-score/">What is METEOR score? - Dataconomy</a>
+          <div class="card-meta">2 Apr 2025</div>
+          <div class="card-meta card-domain">dataconomy.com</div>
+        </div>
+        <div class="card-section">
+          <p>METEOR Score is a metric used to evaluate the quality of machine translation based on precision, recall, word alignment, and linguistic flexibility.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-02-21T15:15:30.192Z | tags: llms, benchmarks -->
+      <div class="card-image">
+        <img src="https://artificialanalysis.ai/img/open-graph/og-image.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://artificialanalysis.ai/leaderboards/models">LLM Leaderboard</a>
+          <div class="card-meta">21 Feb 2025</div>
+          <div class="card-meta card-domain">artificialanalysis.ai</div>
+        </div>
+        <div class="card-section">
+          <p>Comparison and ranking the performance of over 30 AI models (LLMs) across key metrics including quality, price, performance and speed (output speed - tokens per second &amp; latency - TTFT), context window &amp; others.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-02-01T11:31:22.346Z | tags: llms, benchmarks -->
+      <div class="card-image">
+        <img src="https://repository-images.githubusercontent.com/838396720/3107078a-5021-424f-a295-6306de266b1e" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://github.com/aidanmclaughlin/AidanBench">aidanmclaughlin/AidanBench: Aidan Bench attempts to measure in LLMs.</a>
+          <div class="card-meta">1 Feb 2025</div>
+          <div class="card-meta card-domain">github.com</div>
+        </div>
+        <div class="card-section">
+          <p>Aidan Bench attempts to measure  in LLMs. - aidanmclaughlin/AidanBench</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-07-03T18:28:45.000Z | tags: gpus, benchmarks -->
+      <div class="card-image">
+        <img src="https://cdn.wccftech.com/wp-content/uploads/2023/12/AMD-Instinct-MI300A-Germany-Supercomputers-Hunter-Herder.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://wccftech.com/amd-instinct-mi300x-gemm-tuning-ai-throughput-latency-increase-7x">AMD’s Instinct MI300X AI Throughput Performance &amp; Latency Improved By 7x Wi</a>
+          <div class="card-meta">3 Jul 2024</div>
+          <div class="card-meta card-domain">wccftech.com</div>
+        </div>
+        <div class="card-section">
+          <p>Nscale has tested AMD&#39;s flagship Instinct MI300X AI accelerator utilizing the GEMM tuning framework, achieving 7x faster performance.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-06-20T22:00:55.000Z | tags: benchmarks, llms -->
+      <div class="card-image">
+        <img src="https://www.marktechpost.com/wp-content/uploads/2024/06/Screenshot-2024-06-19-at-7.20.10-PM-1024x906.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.marktechpost.com/2024/06/19/key-metrics-for-evaluating-large-language-models-llms">Key Metrics for Evaluating Large Language Models (LLMs)</a>
+          <div class="card-meta">20 Jun 2024</div>
+          <div class="card-meta card-domain">marktechpost.com</div>
+        </div>
+        <div class="card-section">
+          <p>Evaluating Large Language Models (LLMs) is a challenging problem in language modeling, as real-world problems are complex and variable. Conventional benchmarks frequently fail to fully represent LLMs&#39; all-encompassing performance. A recent LinkedIn post has emphasized a number of important measures that are essential to comprehend how well new models function, which are as follows. MixEval Achieving a balance between thorough user inquiries and effective grading systems is necessary for evaluating LLMs. Conventional standards based on ground truth and LLM-as-judge benchmarks encounter difficulties such as biases in grading and possible contamination over time.  MixEval solves these problems by combining real-world user</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-06-13T16:07:16.000Z | tags: benchmarks, gpus -->
+      <div class="card-image">
+        <img src="https://spectrum.ieee.org/media-library/row-upon-row-of-computers-emerging-from-the-darkness.jpg?id=52442384&amp;width=1200&amp;height=600&amp;coordinates=0%2C20%2C0%2C20" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://spectrum.ieee.org/mlperf-nvidia-conquers">Nvidia Conquers Latest AI Tests​</a>
+          <div class="card-meta">13 Jun 2024</div>
+          <div class="card-meta card-domain">spectrum.ieee.org</div>
+        </div>
+        <div class="card-section">
+          <p>GPU maker tops new MLPerf benchmarks on graph neural nets and LLM fine-tuning</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-09-25T23:24:01.000Z | tags: benchmarks, llms -->
+      <div class="card-image">
+        <img src="https://cdn-thumbnails.huggingface.co/social-thumbnails/spaces/open-llm-leaderboard/open_llm_leaderboard.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard">Open LLM Leaderboard : a Hugging Face Space by HuggingFaceH4</a>
+          <div class="card-meta">25 Sep 2023</div>
+          <div class="card-meta card-domain">huggingface.co</div>
+        </div>
+        <div class="card-section">
+          <p>Track, rank and evaluate open LLMs and chatbots</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-09-25T23:20:42.000Z | tags: benchmarks, llms -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://benchmarks.llmonitor.com">Asking 60+ LLMs a set of 20 questions</a>
+          <div class="card-meta">25 Sep 2023</div>
+          <div class="card-meta card-domain">benchmarks.llmonitor.com</div>
+        </div>
+        <div class="card-section">
+          <p>Human-readable benchmarks of 60+ open-source and proprietary LLMs.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-07-28T19:16:47.000Z | tags: benchmarks, chatbots, llms -->
+      <div class="card-image">
+        <img src="https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/f739d30a-90f3-4c02-9e23-f40e93f92c28/Frame_143.png?t=1693246280" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.turingpost.com/p/top3llmsope">A Deep Dive Into LLaMA, Falcon, Llama 2 and Their Remarkable Fine-Tuned Ver</a>
+          <div class="card-meta">28 Jul 2023</div>
+          <div class="card-meta card-domain">turingpost.com</div>
+        </div>
+        <div class="card-section">
+          <p>Exploring the Development of the 3 Leading Open LLMs and Their Chatbot Derivatives</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-07-24T01:05:27.000Z | tags: algorithms-math, benchmarks, cpus, deep-learning, gpus -->
+      <div class="card-image">
+        <img src="https://www.kdnuggets.com/wp-content/uploads/li_calculate_computational_efficiency_deep_learning_models_flops_macs_2.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.kdnuggets.com/2023/06/calculate-computational-efficiency-deep-learning-models-flops-macs.html">Calculate Computational Efficiency of Deep Learning Models with FLOPs and M</a>
+          <div class="card-meta">24 Jul 2023</div>
+          <div class="card-meta card-domain">kdnuggets.com</div>
+        </div>
+        <div class="card-section">
+          <p>In this article we will learn about its definition, differences and how to calculate FLOPs and MACs using Python packages.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-03-19T10:17:24.000Z | tags: benchmarks, gpus, hpc, hyperparameters -->
+      <div class="card-image">
+        <img src="https://hgpu.org/img/social-logo.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://hgpu.org/?p=28050">Towards a Benchmarking Suite for Kernel Tuners</a>
+          <div class="card-meta">19 Mar 2023</div>
+          <div class="card-meta card-domain">hgpu.org</div>
+        </div>
+        <div class="card-section">
+          <p>As computing system become more complex, it is becoming harder for programmers to keep their codes optimized as the hardware gets updated. Autotuners try to alleviate this by hiding as many archite…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-11-23T22:08:55.000Z | tags: algorithms-math, benchmarks, best-practices, machine-learning -->
+      <div class="card-image">
+        <img src="https://www.datasciencecentral.com/wp-content/uploads/2022/11/jp3-scaled.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.datasciencecentral.com/how-to-choose-the-best-machine-learning-technique-comparison-table">How to Choose the Best Machine Learning Technique: Comparison Table</a>
+          <div class="card-meta">23 Nov 2022</div>
+          <div class="card-meta card-domain">datasciencecentral.com</div>
+        </div>
+        <div class="card-section">
+          <p>How to Choose the Best Machine Learning Technique: Comparison Table</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-17T21:16:28.000Z | tags: benchmarks, ui-ux -->
+      <div class="card-image">
+        <img src="https://media.nngroup.com/media/articles/opengraph_images/7-Steps-Benchmark_Social-Media-Posts_2020.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nngroup.com/articles/product-ux-benchmarks">7 Steps to Benchmark Your Product’s UX</a>
+          <div class="card-meta">17 Jan 2022</div>
+          <div class="card-meta card-domain">nngroup.com</div>
+        </div>
+        <div class="card-section">
+          <p>Benchmark your UX by first determining appropriate metrics and a study methodology. Then track these metrics across different releases of your product by running studies that follow the same established methodology.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-02-01T19:13:44.000Z | tags: benchmarks, nlp, sentiment-analysis, twitter -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/0*kJawLKlRt398g2xy.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/12-twitter-sentiment-analysis-algorithms-compared-23e2d2c63d90?source=rss----7f60cf5620c9---4">12 Twitter Sentiment Analysis Algorithms Compared</a>
+          <div class="card-meta">1 Feb 2021</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>12 sentiment analysis algorithms were compared on the accuracy of tweet classification. The fasText deep learning system was the winner.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-01-01T15:55:44.000Z | tags: algorithms-math, benchmarks, machine-learning -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://benchmarkfcns.xyz/fcns">Benchmark functions | BenchmarkFcns</a>
+          <div class="card-meta">1 Jan 2021</div>
+          <div class="card-meta card-domain">benchmarkfcns.xyz</div>
+        </div>
+        <div class="card-section">
+          <p>This website is for sale! benchmarkfcns.xyz is your first and best source for all of the information you’re looking for. From general topics to more of what you would expect to find here, benchmarkfcns.xyz has it all. We hope you find what you are searching for!</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-05-19T01:18:49.000Z | tags: benchmarks, deep-learning -->
+      <div class="card-image">
+        <img src="https://images.ctfassets.net/kftzwdyauwt9/e5cba1f8-883b-4961-dca6f726f936/be1a627ab2f509a68b91b8a7ef29f610/image_128.png?w=1600&amp;h=900&amp;fit=fill" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://openai.com/blog/ai-and-efficiency">AI and Efficiency</a>
+          <div class="card-meta">19 May 2020</div>
+          <div class="card-meta card-domain">openai.com</div>
+        </div>
+        <div class="card-section">
+          <p>We’re releasing an analysis showing that since 2012 the amount of compute needed to train a neural net to the same performance on ImageNet classification has been decreasing by a factor of 2 every 16 months. Compared to 2012, it now takes 44 times less compute to train a neural network to the level of AlexNet (by contrast, Moore’s Law would yield an 11x cost improvement over this period). Our results suggest that for AI tasks with high levels of recent investment, algorithmic progress has yielded more gains than classical hardware efficiency.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-04-01T11:13:46.000Z | tags: benchmarks, machine-learning -->
+      <div class="card-image">
+        <img src="https://blog.bigml.com/wp-content/uploads/2020/03/fruit_apples_produce_oranges_comparison_supermaket_chalkandcheese_applesandpears-464484.jpg?w=497" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://blog.bigml.com/2020/03/20/machine-learning-benchmarking-youre-doing-it-wrong">Machine Learning Benchmarking: You’re Doing It Wrong</a>
+          <div class="card-meta">1 Apr 2020</div>
+          <div class="card-meta card-domain">blog.bigml.com</div>
+        </div>
+        <div class="card-section">
+          <p>I’m not going to bury the lede: Most machine learning benchmarks are bad.  And not just kinda-sorta nit-picky bad, but catastrophically and fundamentally flawed.  TL;DR: Please, for the love of sta…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-03-30T14:53:38.000Z | tags: benchmarks, deep-learning -->
+      <div class="card-image">
+        <img src="https://mlcommons.org/wp-content/uploads/2023/10/decoration-2.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://mlperf.org">Benchmark Work | Benchmarks MLCommons</a>
+          <div class="card-meta">30 Mar 2020</div>
+          <div class="card-meta card-domain">mlperf.org</div>
+        </div>
+        <div class="card-section">
+          <p>MLCommons ML benchmarks help balance the benefits and risks of AI through quantitative tools that guide responsible AI development.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-11-07T00:49:59.000Z | tags: benchmarks, machine-learning -->
+      <div class="card-image">
+        <img src="https://mlcommons.org/wp-content/uploads/2023/10/decoration-2.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://mlperf.org/inference-results">Inference Results – MLPerf</a>
+          <div class="card-meta">7 Nov 2019</div>
+          <div class="card-meta card-domain">mlperf.org</div>
+        </div>
+        <div class="card-section">
+          <p>MLCommons ML benchmarks help balance the benefits and risks of AI through quantitative tools that guide responsible AI development.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-08-30T23:45:01.000Z | tags: benchmarks, deep-learning -->
+      <div class="card-image">
+        <img src="https://www.nextplatform.com/wp-content/uploads/2016/05/TPU_main2-1024x1024.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.nextplatform.com/2018/08/30/one-deep-learning-benchmark-to-rule-them-all">One Deep Learning Benchmark to Rule Them All</a>
+          <div class="card-meta">30 Aug 2018</div>
+          <div class="card-meta card-domain">nextplatform.com</div>
+        </div>
+        <div class="card-section">
+          <p>Over the last few years we have detailed the explosion in new machine learning systems with the influx of novel architectures from deep learning chip</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-04-01T13:28:40.000Z | tags: algorithms-math, benchmarks, machine-learning -->
+      <div class="card-image">
+        <img src="https://machinelearningmastery.com/wp-content/uploads/2018/01/Algorithm-performance-improvement-via-parameter-tuning.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://machinelearningmastery.com/start-with-gradient-boosting">Start With Gradient Boosting, Results from Comparing 13 Algorithms on 165 D</a>
+          <div class="card-meta">1 Apr 2018</div>
+          <div class="card-meta card-domain">machinelearningmastery.com</div>
+        </div>
+        <div class="card-section">
+          <p>Which machine learning algorithm should you use? It is a central question in applied machine learning. In a recent paper by Randal Olson and others, they attempt to answer it and give you a guide for algorithms and parameters to try on your problem first, before spot checking a broader suite of algorithms. In this post, you will discover a…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2017-12-27T18:08:27.000Z | tags: benchmarks, deep-learning -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.google.com/search?aqs=chrome..69i57.7070j0j7&amp;ie=UTF-8&amp;oq=machine+learning+benchmarks&amp;q=machine+learning+benchmarks&amp;sourceid=chrome">machine learning benchmarks - Google Search</a>
+          <div class="card-meta">27 Dec 2017</div>
+          <div class="card-meta card-domain">google.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2017-10-25T14:55:54.000Z | tags: benchmarks, python -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://jakevdp.github.io/blog/2014/05/09/why-python-is-slow">Why Python is Slow: Looking Under the Hood | Pythonic Perambulations</a>
+          <div class="card-meta">25 Oct 2017</div>
+          <div class="card-meta card-domain">jakevdp.github.io</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

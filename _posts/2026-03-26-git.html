@@ -1,0 +1,918 @@
+---
+layout: post
+title: "git"
+date: 2026-03-26
+---
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .card { border: 1px solid #e6e6e6; border-radius: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.06); transition: transform .12s ease, box-shadow .12s ease; overflow: hidden; background: #fff; display: flex; flex-direction: row; align-items: stretch; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+  .card-image { flex: 0 0 120px; width: 120px; overflow: hidden; border-right: 1px solid #eee; }
+  .card-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+  .card-divider { padding: .6rem .85rem; background: #fafafa; border-bottom: 1px solid #eee; font-weight: 600; }
+  .card-divider a { color: inherit; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-meta { font-size: .75rem; font-weight: 400; color: #888; margin-top: .15rem; }
+  .card-domain { font-style: italic; }
+  .card-section { padding: .6rem .85rem; font-size: .88rem; line-height: 1.45; color: #444; flex: 1 1 auto; }
+  .card-section p { margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; }
+    .card-image { flex: 0 0 auto; width: 100%; height: 140px; border-right: none; border-bottom: 1px solid #eee; }
+    .card-divider a { white-space: normal; }
+    .card-section p { -webkit-line-clamp: 4; }
+    .site-header h1 { font-size: 1.1rem; }
+    .byline { font-size: .8rem; }
+  }
+</style>
+
+<div class="grid-container">
+<style>
+  .site-header{margin-bottom:1.25rem;padding-bottom:.75rem;border-bottom:2px solid #ddd}
+  .site-header h1{margin:0 0 .15rem;font-size:1.4rem;color:#222}
+  .site-header .version{font-size:.8rem;color:#888;margin-bottom:.5rem}
+  .byline{display:flex;align-items:center;gap:.5rem;font-size:.9rem}
+  .byline a{color:#0A66C2;text-decoration:none;font-weight:600}
+  .byline a:hover{text-decoration:underline}
+  .byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #ccc}
+</style>
+<div class="site-header">
+  <h1>git &mdash; my Raindrop.io articles</h1>
+  <div class="version">Generated 27 Mar 2026</div>
+  <div class="byline">
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">
+      <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;%230A66C2&quot;&gt;&lt;path d=&quot;M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.982 1.982 0 1 1 0-3.964 1.982 1.982 0 0 1 0 3.964zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z&quot;/&gt;&lt;/svg&gt;" alt="Brian Piercy"/>
+    </a>
+    <a href="https://www.linkedin.com/in/brianpiercy/" target="_blank" rel="noopener">by Brian Piercy</a>
+  </div>
+</div>
+  <div class="card-grid">
+    <div class="card">
+      <!-- created: 2026-02-23T13:58:03.689Z | tags: git -->
+      <div class="card-image">
+        <img src="https://nesbitt.io/images/boxes.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://nesbitt.io/2026/02/05/git-magic-files.html">Git’s Magic Files</a>
+          <div class="card-meta">23 Feb 2026</div>
+          <div class="card-meta card-domain">nesbitt.io</div>
+        </div>
+        <div class="card-section">
+          <p>Magic files and where to find them: .gitignore, .gitattributes, .mailmap, .git-blame-ignore-revs, .lfsconfig, and more.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-09-03T21:52:42.751Z | tags: git -->
+      <div class="card-image">
+        <img src="https://marijkeluttekes.dev/static/frontend/social-icons/open-graph.87599ce6fc88.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://marijkeluttekes.dev/blog/articles/2025/09/03/git-exclude-a-handy-feature-you-might-not-know-about/">Git exclude, a handy feature you might not know about / Marijke Luttekes</a>
+          <div class="card-meta">3 Sep 2025</div>
+          <div class="card-meta card-domain">marijkeluttekes.dev</div>
+        </div>
+        <div class="card-section">
+          <p>Explaining git exclude and how it differs from git ignore.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-08-25T10:10:31.723Z | tags: git -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://git-annex.branchable.com/">git-annex</a>
+          <div class="card-meta">25 Aug 2025</div>
+          <div class="card-meta card-domain">git-annex.branchable.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-08-16T00:02:59.824Z | tags: git -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://tylercipriani.com/blog/2025/08/15/git-lfs/">The future of large files in Git is Git - Tyler Cipriani</a>
+          <div class="card-meta">16 Aug 2025</div>
+          <div class="card-meta card-domain">tylercipriani.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-05-02T02:52:37.642Z | tags: git -->
+      <div class="card-image">
+        <img src="https://git-lfs.com/images/facebook-promo.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://git-lfs.com/">Git Large File Storage</a>
+          <div class="card-meta">2 May 2025</div>
+          <div class="card-meta card-domain">git-lfs.com</div>
+        </div>
+        <div class="card-section">
+          <p>Git Large File Storage (LFS) replaces large files such as audio samples, videos, datasets, and graphics with text pointers inside Git, while storing the file contents on a remote server like GitHub.com or GitHub Enterprise.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2025-04-01T11:14:07.951Z | tags: git -->
+      <div class="card-image">
+        <img src="https://www.marktechpost.com/wp-content/uploads/2025/03/Screenshot-2025-03-31-at-7.40.23%E2%80%AFPM.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.marktechpost.com/2025/03/31/how-to-use-git-and-git-bash-locally-a-comprehensive-guide/">How to Use Git and Git Bash Locally: A Comprehensive Guide</a>
+          <div class="card-meta">1 Apr 2025</div>
+          <div class="card-meta card-domain">marktechpost.com</div>
+        </div>
+        <div class="card-section">
+          <p>Introduction Git is a distributed version control system that helps you track changes in your code, collaborate with others, and maintain a history of your project. Git Bash is a terminal application for Windows that provides a Unix-like command-line experience for using Git. This guide will walk you through setting up Git, using Git Bash, […]</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-10-26T12:06:25.138Z | tags: git -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*AwXkKxwrdiSJF32s" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/meet-git-stash-your-secret-chest-of-unfinished-code-6da48da15413?source=rss----7f60cf5620c9---4">Meet Git Stash: Your Secret Chest of Unfinished Code</a>
+          <div class="card-meta">26 Oct 2024</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>A powerful Git feature for temporarily saving code in progress</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-06-24T20:12:17.000Z | tags: git -->
+      <div class="card-image">
+        <img src="https://linuxhandbook.com/content/images/2024/06/git-undo-add.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://linuxhandbook.com/git-undo-add">Undo Git Add and Remove Files from Staging</a>
+          <div class="card-meta">24 Jun 2024</div>
+          <div class="card-meta card-domain">linuxhandbook.com</div>
+        </div>
+        <div class="card-section">
+          <p>Accidentally add a file that was not supposed to be added? If you have not made the commit yet, you can undo the git add and remove the file from staging.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-06-20T23:34:55.000Z | tags: git -->
+      <div class="card-image">
+        <img src="https://linuxhandbook.com/content/images/2024/06/git-empty-commit.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://linuxhandbook.com/git-push-empty-commit">Push an Empty Commit in Git</a>
+          <div class="card-meta">20 Jun 2024</div>
+          <div class="card-meta card-domain">linuxhandbook.com</div>
+        </div>
+        <div class="card-section">
+          <p>Yes, you can totally push an empty commit in Git if you really want to. Here&#39;s how to do that.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-01-27T19:13:26.000Z | tags: git -->
+      <div class="card-image">
+        <img src="https://www.kdnuggets.com/wp-content/uploads/awan_10_advanced_git_techniques_1.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.kdnuggets.com/10-advanced-git-techniques">10 Advanced Git Techniques</a>
+          <div class="card-meta">27 Jan 2024</div>
+          <div class="card-meta card-domain">kdnuggets.com</div>
+        </div>
+        <div class="card-section">
+          <p>Improve your version control skills to resolve issues and maintain a clean Git repository.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2024-01-10T18:39:50.000Z | tags: git -->
+      <div class="card-image">
+        <img src="https://media.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Flnciwlnhryntibbnujjz.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/aixart/understanding-git-rebasing-a-detailed-guide-with-commands-5fag">Understanding Git Rebasing: A Detailed Guide with Commands</a>
+          <div class="card-meta">10 Jan 2024</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>Git rebasing is a crucial skill for developers working in collaborative environments. It involves...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-08-28T19:15:01.000Z | tags: git -->
+      <div class="card-image">
+        <img src="https://www.canva.dev/_next/static/media/thumbnail.1526ced2.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.canva.dev/blog/engineering/we-put-half-a-million-files-in-one-git-repository-heres-what-we-learned">We Put Half a Million files in One git Repository, Here&#39;s What We Learned -</a>
+          <div class="card-meta">28 Aug 2023</div>
+          <div class="card-meta card-domain">canva.dev</div>
+        </div>
+        <div class="card-section">
+          <p>Using a monorepo causes a lot of performance challenges for git. Here&#39;s how we solve them at Canva.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-06-11T15:43:37.000Z | tags: git -->
+      <div class="card-image">
+        <img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/3otvb2z646ytpt1hl2rv.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/hashcode01/how-to-remove-a-file-from-git-and-add-it-to-gitignore-5c0m">How to Remove a File from Git and Add it to `.gitignore`</a>
+          <div class="card-meta">11 Jun 2023</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>If you no longer want to include a file in Git version control and want to add it to the .gitignore...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-03-20T13:20:56.000Z | tags: agile, ansible, ci-cd, containers, devops, git, logging, testing -->
+      <div class="card-image">
+        <img src="https://media.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fppl7gxtj9ivo53fbjb0i.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/aws-builders/essential-tools-for-a-successful-devops-engineer-4lgl">Essential Tools for a Successful DevOps Engineer</a>
+          <div class="card-meta">20 Mar 2023</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>Introduction:   The software development process has been transformed by the DevOps...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-02-06T13:12:43.000Z | tags: git -->
+      <div class="card-image">
+        <img src="https://media.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F40n1n270hswohnm88ghe.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/codeofrelevancy/the-hidden-risks-of-global-git-configurations-and-how-to-avoid-them-40mp">The Hidden Risks of Global Git Configurations and How to Avoid Them</a>
+          <div class="card-meta">6 Feb 2023</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>I am sharing my personal experience through this article.  When working with Git, it&#39;s important to...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2023-01-27T13:54:22.000Z | tags: git -->
+      <div class="card-image">
+        <img src="https://media.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Faubft6bd6h740968uoby.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/muhammadabir/git-at-a-glance-a-cheatsheet-of-30-must-know-commands-1de5">Git at a Glance: A Cheatsheet of 30 Must-know Commands</a>
+          <div class="card-meta">27 Jan 2023</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>Managing code and collaborating with others can be a daunting task, but Git makes it easy. This...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-12-09T13:30:12.000Z | tags: devops, git -->
+      <div class="card-image">
+        <img src="https://media.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F48c6s81zywhx0q39upki.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/pavanbelagatti/getting-started-with-gitops-for-developers-4aej">Getting Started With GitOps For Developers!</a>
+          <div class="card-meta">9 Dec 2022</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>GitOps is a methodology for deploying and managing software applications using Git. It is also...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-08-21T17:05:01.000Z | tags: git, github -->
+      <div class="card-image">
+        <img src="https://media.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fn8wj9pu5cakf5il5urjm.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/michellebuchiokonicha/git-github-and-git-commands-70-git-commands-3lc8">Git, GitHub and Git Commands (70 git commands)</a>
+          <div class="card-meta">21 Aug 2022</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>WHAT IS GIT?     A lot of times, people are confused on the right commands to use to resolve git...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-07-20T11:46:55.000Z | tags: git -->
+      <div class="card-image">
+        <img src="https://pic.blog.plover.com/prog/git/tips-2/flux-capacitor.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://blog.plover.com/prog/git/tips-2.html">Things I wish everyone knew about Git (Part II)</a>
+          <div class="card-meta">20 Jul 2022</div>
+          <div class="card-meta card-domain">blog.plover.com</div>
+        </div>
+        <div class="card-section">
+          <p>From the highly eclectic blog of Mark Dominus</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-22T14:03:05.000Z | tags: git -->
+      <div class="card-image">
+        <img src="https://media.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fzaiaqib4lq9xqit142qr.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/chefgs/git-101-rename-default-branch-from-master-to-main-5bf4">Git 101: Rename default branch from master to main</a>
+          <div class="card-meta">22 Jun 2022</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>How to rename master to main in Github            Table of Contents    Context setting Step...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-21T15:53:17.000Z | tags: ci-cd, devops, features-benefits, git, prodmgmt -->
+      <div class="card-image">
+        <img src="https://media.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fu6i5bzlzh3yqothanh20.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/bentorvo/the-problem-with-feature-branches-44kk">The Problem with Feature Branches</a>
+          <div class="card-meta">21 Jun 2022</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>As more companies strive to deliver software faster it becomes clear what legacy processes are...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-06-13T13:11:38.000Z | tags: git -->
+      <div class="card-image">
+        <img src="https://www.kdnuggets.com/wp-content/uploads/awan_14_essential_git_commands_data_scientists_4.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.kdnuggets.com/2022/06/14-essential-git-commands-data-scientists.html">14 Essential Git Commands for Data Scientists</a>
+          <div class="card-meta">13 Jun 2022</div>
+          <div class="card-meta card-domain">kdnuggets.com</div>
+        </div>
+        <div class="card-section">
+          <p>Learn essential Git commands for versioning and collaborating on data science projects.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-05-17T11:50:57.000Z | tags: devops, git -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*Cipx3LOg6cQEqucQuQa-SA.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/remove-file-from-git-history-ce404d7463d3">How to Remove a File From Git History Permanently</a>
+          <div class="card-meta">17 May 2022</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>And how to avoid them getting in there? — A surprisingly simple technique to handle it.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-02-27T23:54:01.000Z | tags: devops, git -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://twitter.com/eli_krumova/status/1467250453192847363?s=12">Cheat Sheet 💻</a>
+          <div class="card-meta">27 Feb 2022</div>
+          <div class="card-meta card-domain">twitter.com</div>
+        </div>
+        <div class="card-section">
+          <p>— Elitsa Krumova (@Eli_Krumova)</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-17T13:25:56.000Z | tags: git, security, webdev -->
+      <div class="card-image">
+        <img src="https://opengraph.githubassets.com/5ef27cbbb917a5edfbdc6cee3f920ba9eac9864d6b696c6b28df8c3962257930/gitleaks/gitleaks" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://github.com/zricethezav/gitleaks">gitleaks/gitleaks: Protect and discover secrets using Gitleaks 🔑</a>
+          <div class="card-meta">17 Jan 2022</div>
+          <div class="card-meta card-domain">github.com</div>
+        </div>
+        <div class="card-section">
+          <p>Protect and discover secrets using Gitleaks 🔑.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-16T22:44:38.000Z | tags: git -->
+      <div class="card-image">
+        <img src="https://github.githubassets.com/assets/gist-og-image-54fd7dc0713e.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://gist.github.com/esmooov/2844353">The Secret Passions of Git Checkout</a>
+          <div class="card-meta">16 Jan 2022</div>
+          <div class="card-meta card-domain">gist.github.com</div>
+        </div>
+        <div class="card-section">
+          <p>The Secret Passions of Git Checkout · GitHub</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-16T22:44:10.000Z | tags: git -->
+      <div class="card-image">
+        <img src="https://opengraph.githubassets.com/a335c390db9d0d240d9af93853255290cccc0d0075380c8337813ecf0c7395e8/susam/gitpr" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://github.com/susam/gitpr">susam/gitpr: Quick reference guide on fork and pull request workflow</a>
+          <div class="card-meta">16 Jan 2022</div>
+          <div class="card-meta card-domain">github.com</div>
+        </div>
+        <div class="card-section">
+          <p>Quick reference guide on fork and pull request workflow - susam/gitpr</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-13T14:16:43.000Z | tags: git -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://codewords.recurse.com/issues/two/git-from-the-inside-out">Git from the inside out</a>
+          <div class="card-meta">13 Jan 2022</div>
+          <div class="card-meta card-domain">codewords.recurse.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-12T23:44:19.000Z | tags: git -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://ohshitgit.com">Oh Shit, Git!?!</a>
+          <div class="card-meta">12 Jan 2022</div>
+          <div class="card-meta card-domain">ohshitgit.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-12T23:44:10.000Z | tags: git -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://blog.rlmflores.me/git/2015/03/31/8-small-git-tips">8 Small git tips · Rodrigo Flores&#39;s Corner</a>
+          <div class="card-meta">12 Jan 2022</div>
+          <div class="card-meta card-domain">blog.rlmflores.me</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-12T23:32:54.000Z | tags: git -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://git-scm.com/book/en/v2">Git</a>
+          <div class="card-meta">12 Jan 2022</div>
+          <div class="card-meta card-domain">git-scm.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-12T23:29:04.000Z | tags: git -->
+      <div class="card-image">
+        <img src="https://media.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fcl.ly%2F063v3m0l2X3b%2FImage%25202018-05-21%2520at%252010.56.45%2520AM.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/neshaz/when-to-use-git-reset-git-revert--git-checkout-18je">When to Use Git Reset, Git Revert &amp; Git Checkout</a>
+          <div class="card-meta">12 Jan 2022</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>Because they perform similar operations, it is easy to mix these commands up. Here are a few guidelines and rules for when each command should and should not be used.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-04T02:49:30.000Z | tags: git -->
+      <div class="card-image">
+        <img src="https://wildlyinaccurate.com/assets/dfi.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://wildlyinaccurate.com/a-hackers-guide-to-git">A Hacker&#39;s Guide to Git</a>
+          <div class="card-meta">4 Jan 2022</div>
+          <div class="card-meta card-domain">wildlyinaccurate.com</div>
+        </div>
+        <div class="card-section">
+          <p>A Hacker’s Guide to Git is now available as an e-book. You can purchase it on Leanpub.    Introduction  Git is currently the most widely used version control system in the world, mostly thanks to GitHub. By that measure, I’d argue that it’s a...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2022-01-04T02:49:18.000Z | tags: git -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://blogs.atlassian.com/2014/05/handle-big-repositories-git">How to handle big repositories with Git | Atlassian Git Tutorial</a>
+          <div class="card-meta">4 Jan 2022</div>
+          <div class="card-meta card-domain">blogs.atlassian.com</div>
+        </div>
+        <div class="card-section">
+          <p>Learn about the major reasons behind Git repositories becoming too large and techniques to manage these repositories, from submodules to Git LFS.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-26T21:12:09.000Z | tags: git -->
+      <div class="card-image">
+        <img src="https://media.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fcl.ly%2F2Q0I3j3O0f3N%2FImage%25202018-02-04%2520at%252012.17.26%2520PM.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/srebalaji/useful-tricks-you-might-not-know-about-git-stash-117e">Useful tricks you might not know about Git stash</a>
+          <div class="card-meta">26 Dec 2021</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>I have launched a newsletter Git Better to help learn new tricks and advanced topics of Gi...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-26T21:10:08.000Z | tags: git -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://drewdevault.com/2019/02/25/Using-git-with-discipline.html">Tips for a disciplined git workflow</a>
+          <div class="card-meta">26 Dec 2021</div>
+          <div class="card-meta card-domain">drewdevault.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-16T15:41:31.000Z | tags: git -->
+      <div class="card-image">
+        <img src="https://softcover.s3.amazonaws.com/636/learn_enough_git/images/cover-web.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.learnenough.com/git-tutorial?single_page=1">Learn Enough Git to Be Dangerous</a>
+          <div class="card-meta">16 Dec 2021</div>
+          <div class="card-meta card-domain">learnenough.com</div>
+        </div>
+        <div class="card-section">
+          <p>An Introduction to Version Control with Git</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-15T02:32:40.000Z | tags: git, github, jekyll, ruby -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://jmcglone.com/guides/github-pages">A Guide to Creating and Hosting a Personal Website on GitHub | Jonathan McGlone | Librarian, Product Designer, User Researcher, Digital Publisher, Accessibility Specialist, Music Enthusiast, Web Noodler.</a>
+          <div class="card-meta">15 Dec 2021</div>
+          <div class="card-meta card-domain">jmcglone.com</div>
+        </div>
+        <div class="card-section">
+          <p>A beginner&#39;s guide to creating a personal website and blog using Jekyll and hosting it for free using GitHub Pages.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-15T02:31:56.000Z | tags: git -->
+      <div class="card-image">
+        <img src="https://uploads.sitepoint.com/wp-content/uploads/2015/09/1672800865managing-large-files.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.sitepoint.com/managing-huge-repositories-with-git">Managing Huge Repositories with Git — SitePoint</a>
+          <div class="card-meta">15 Dec 2021</div>
+          <div class="card-meta card-domain">sitepoint.com</div>
+        </div>
+        <div class="card-section">
+          <p>Shaumik examines ways to manage huge repositories with Git, including shallow cloning, cloning a single branch, using submodules and third-party extensions.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-14T22:33:10.000Z | tags: git -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="http://danielkummer.github.io/git-flow-cheatsheet">git-flow cheatsheet</a>
+          <div class="card-meta">14 Dec 2021</div>
+          <div class="card-meta card-domain">danielkummer.github.io</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-14T22:33:01.000Z | tags: git -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.atlassian.com/git/tutorials/git-hooks">Git Hooks | Atlassian Git Tutorial</a>
+          <div class="card-meta">14 Dec 2021</div>
+          <div class="card-meta card-domain">atlassian.com</div>
+        </div>
+        <div class="card-section">
+          <p>Git Hooks are scripts that run automatically every time a particular event occurs in a Git repository. Learn what they do and how to use them effectively.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-12-14T22:28:03.000Z | tags: git -->
+      <div class="card-image">
+        <img src="https://bs-uploads.toptal.io/blackfish-uploads/components/open_graph_image/8958515/og_image/optimized/default-social-7-0319260fef7da1523ee2d35691c8fb5e.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://www.toptal.com/git/git-workflows-for-pros-a-good-git-guide">Git Workflows for Pros: A Good Git Guide | Toptal®</a>
+          <div class="card-meta">14 Dec 2021</div>
+          <div class="card-meta card-domain">toptal.com</div>
+        </div>
+        <div class="card-section">
+          <p>Boom! A Git implosion means man hours down the drain! Avoid such scenarios by making use of Git patterns that suit your team and project. What Git workflow should you be using? Joe James serves up this in-depth guide to Git patterns for every kind of project.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-10-07T18:19:03.000Z | tags: git -->
+      <div class="card-image">
+        <img src="https://media.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Faq46mozelv3j7fp8gfx1.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/creativetim_official/git-tutorial-how-to-fix-18-common-mistakes-4een">Git Tutorial: How to Fix 18 Common Mistakes</a>
+          <div class="card-meta">7 Oct 2021</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>This article is a collection of the 18 most frequently asked questions and their answers when it...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-05-05T15:14:28.000Z | tags: databases, datasets, git -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:921/0*k9KMawpBa23-Vw0P.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/datasets-should-behave-like-git-repositories-9acb83a0dae5">Datasets should behave like git repositories | by Simon Lousky | Towards Da</a>
+          <div class="card-meta">5 May 2021</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>Create, maintain, and contribute to a long-living dataset that will update itself automatically across projects.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-04-08T01:17:30.000Z | tags: git -->
+      <div class="card-image">
+        <img src="https://media.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Faq71u2r19cc9gg9j7w3y.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/raunaqchawhan/git-stash-store-your-uncommitted-changes-aside-to-work-on-it-later-5713">git stash - Store your uncommitted changes aside to work on it later</a>
+          <div class="card-meta">8 Apr 2021</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>Introduction   In this post, we&#39;ll be looking at the git stash command and its usage. We com...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-03-14T01:40:19.000Z | tags: git, gitlab -->
+      <div class="card-image">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*LlzLHDOo1j0sOpN05jmWoA.jpeg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://towardsdatascience.com/getting-started-with-gitlab-the-absolute-beginners-guide-ea9e5cadac8b?source=rss----7f60cf5620c9---4">Getting Started with GitLab: The Absolute Beginner’s Guide</a>
+          <div class="card-meta">14 Mar 2021</div>
+          <div class="card-meta card-domain">towardsdatascience.com</div>
+        </div>
+        <div class="card-section">
+          <p>How to use GitLab step by step, even if you have never heard of Git before</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-02-24T01:12:17.000Z | tags: git -->
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://mikkel.ca/blog/git-is-my-buddy-effective-solo-developer">Mikkel Paulson</a>
+          <div class="card-meta">24 Feb 2021</div>
+          <div class="card-meta card-domain">mikkel.ca</div>
+        </div>
+        <div class="card-section">
+          <p>At this point, most developers use Git as a tool for collaboration. We have our rote-learned commands to pull, commit, and push. And of course, there&#39;s that one coworker who knows a bit more about Git than everyone else, who helps get us back on track whenever our local repos end up in a strange state. But what if I told you that Git can be a valuable tool without ever setting up a remote repository? I&#39;m not just talking about having a working version of your code base to roll back to if you mess something up, although there&#39;s that too. Used correctly, Git can help to structure your work, identifying gaps in your test coverage and minimizing dead code.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2021-02-20T18:16:44.000Z | tags: git, notetaking -->
+      <div class="card-image">
+        <img src="https://media.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F2jncramn5rohchxfjwx0.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/adam_b/a-personal-git-repo-as-a-knowledge-base-wiki-j51">A Personal Git Repo as a Knowledge Base Wiki</a>
+          <div class="card-meta">20 Feb 2021</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>While it&#39;s not something that everyone likes to do, I&#39;ve always found it essential to write notes. Th...</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-04-07T21:55:15.000Z | tags: git -->
+      <div class="card-image">
+        <img src="https://images.ctfassets.net/r9o86ar0p03f/git-15th-anniversary-cover.png/7b5a8cf63d3431f9fc825c3bbf857407/git-15th-anniversary-cover.png?fm=webp&amp;w=820&amp;h=500" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://about.gitlab.com/blog/2020/04/07/15-git-tips-improve-workflow">15 Git tips to improve your workflow</a>
+          <div class="card-meta">7 Apr 2020</div>
+          <div class="card-meta card-domain">about.gitlab.com</div>
+        </div>
+        <div class="card-section">
+          <p>Learn how to compare commits, delete stale branches, and write aliases to save you some time. It&#39;s time to dust off your command line and Git busy!</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2020-02-19T20:08:03.000Z | tags: git -->
+      <div class="card-image">
+        <img src="https://github.blog/wp-content/uploads/2019/03/community-twitter.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://github.blog/2015-06-08-how-to-undo-almost-anything-with-git">How to undo almost anything with Git (2015)</a>
+          <div class="card-meta">19 Feb 2020</div>
+          <div class="card-meta card-domain">github.blog</div>
+        </div>
+        <div class="card-section">
+          <p>One of the most useful features of any version control system is the ability to &quot;undo&quot; your mistakes. In Git, &quot;undo&quot; can mean many slightly different things.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-08-29T16:38:38.000Z | tags: git -->
+      <div class="card-image">
+        <img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/3otvb2z646ytpt1hl2rv.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/aravindballa/advanced-git-tips-b98">Advanced git tips</a>
+          <div class="card-meta">29 Aug 2019</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>After using Git for more than 2 years and teaching it to people, there are few tip that I would like to share.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-03-28T02:29:47.000Z | tags: git -->
+      <div class="card-image">
+        <img src="https://hackaday.com/wp-content/uploads/2019/03/web-git-sum-featured.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://hackaday.com/2019/03/25/easy-git-repository-summaries-with-web-git-sum">Easy Git Repository Summaries With Web-git-sum</a>
+          <div class="card-meta">28 Mar 2019</div>
+          <div class="card-meta card-domain">hackaday.com</div>
+        </div>
+        <div class="card-section">
+          <p>For those hosting their own git repositories there are a number of solutions for creating convenient web-accessible front ends, but [mitxela] wasn’t quite satisfied with any of them. After tr…</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2019-01-10T23:37:15.000Z | tags: git -->
+      <div class="card-image">
+        <img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/3otvb2z646ytpt1hl2rv.jpg" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/maniflames/how-conventional-commits-improved-my-git-skills-1jfk">How conventional commits improved my git skills</a>
+          <div class="card-meta">10 Jan 2019</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>The best way to get to know git is by using it.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-10-17T19:44:40.000Z | tags: git -->
+      <div class="card-image">
+        <img src="https://zellwk.com/images/defaults/social-image.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://zellwk.com/blog/git-stash">How to use Git stashes as a temporary storage</a>
+          <div class="card-meta">17 Oct 2018</div>
+          <div class="card-meta card-domain">zellwk.com</div>
+        </div>
+        <div class="card-section">
+          <p>Git stashes can be used to temporarily store code you don&#39;t want to commit. This video shows you how to create and apply Git Stashes.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2018-05-01T19:36:15.000Z | tags: git -->
+      <div class="card-image">
+        <img src="https://media.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fcl.ly%2F1N2U2i2Z2C16%2FImage%25202018-04-11%2520at%252012.47.23%2520PM.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://dev.to/neshaz/git-commands-ultimate-tutorial-part-2-7ko">Git Commands Ultimate Tutorial [Part 2]</a>
+          <div class="card-meta">1 May 2018</div>
+          <div class="card-meta card-domain">dev.to</div>
+        </div>
+        <div class="card-section">
+          <p>Did you ever have a problem with Git that you knew a command could fix but you just couldn&#39;t remember what one it could be? With this tutorial, you can quickly and easily find it, and get a better understanding how each of them works.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2017-12-27T18:05:46.000Z | tags: git -->
+      <div class="card-image">
+        <img src="https://tutorialzine.com/media/2017/11/10-useful-git-tips.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://tutorialzine.com/2017/11/10-useful-git-tips">10 Useful Git Tips</a>
+          <div class="card-meta">27 Dec 2017</div>
+          <div class="card-meta card-domain">tutorialzine.com</div>
+        </div>
+        <div class="card-section">
+          <p>In this tutorial we share with you a collection of tips that will help you manage your git repositories.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2008-09-24T00:00:00.000Z | tags: git -->
+      <div class="card-image">
+        <img src="https://linuxhandbook.com/content/images/2024/09/git-show-files-in-commit.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://linuxhandbook.com/git-show-files-commit">Git Show Files in a Commit</a>
+          <div class="card-meta">24 Sep 2008</div>
+          <div class="card-meta card-domain">linuxhandbook.com</div>
+        </div>
+        <div class="card-section">
+          <p>Are you adding all the correct files? Check the files that are part of a commit in git with this trick.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- created: 2007-10-24T00:00:00.000Z | tags: git, github -->
+      <div class="card-image">
+        <img src="https://github.githubassets.com/images/modules/open_graph/github-logo.png" alt="cover image"/>
+      </div>
+      <div class="card-body">
+        <div class="card-divider">
+          <a href="https://docs.github.com/en/repositories/working-with-files/managing-large-files/installing-git-large-file-storage">Installing Git Large File Storage - GitHub Docs</a>
+          <div class="card-meta">24 Oct 2007</div>
+          <div class="card-meta card-domain">docs.github.com</div>
+        </div>
+        <div class="card-section">
+          <p>In order to use Git LFS, you&#39;ll need to download and install a new program that&#39;s separate from Git.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
